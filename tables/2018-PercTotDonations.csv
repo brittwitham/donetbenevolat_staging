@@ -1,0 +1,865 @@
+Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Province,Marker
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.026681411,33.22783668,0.009305045,0.044057776,897,Percentage of donations,Percentage of total donations,10,NL,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.039670767,41.42281168,0.007463174,0.071878359,598,Percentage of donations,Percentage of total donations,11,PE,...
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.014354815,31.30233157,0.005547929,0.0231617,880,Percentage of donations,Percentage of total donations,12,NS,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.013122736,48.67913049,6.02E-04,0.025643053,837,Percentage of donations,Percentage of total donations,13,NB,...
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.020276558,27.01601632,0.009540035,0.03101308,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.027393622,23.67677611,0.01468144,0.040105805,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.063517998,31.2914457,0.024562342,0.102473653,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.038117333,66.89436322,-0.011858509,0.088093175,749,Percentage of donations,Percentage of total donations,47,SK,...
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.045458411,36.85976505,0.012617522,0.0782993,1013,Percentage of donations,Percentage of total donations,48,AB,...
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.017745278,29.83807253,0.007367565,0.028122991,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.05637417,19.27345216,0.035078674,0.077669666,897,Percentage of donations,Percentage of total donations,10,NL,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.116436762,24.34059822,0.06088863,0.171984894,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.063508087,25.38419196,0.031911479,0.095104696,880,Percentage of donations,Percentage of total donations,12,NS,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.107943994,32.11606848,0.039997203,0.175890784,837,Percentage of donations,Percentage of total donations,13,NB,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.129815505,19.32174859,0.080654463,0.178976548,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.130618178,17.43161611,0.085992034,0.175244322,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.11957152,22.66932492,0.066444626,0.172698415,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.154802374,24.45744406,0.080596758,0.22900799,749,Percentage of donations,Percentage of total donations,47,SK,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.205373803,25.12415548,0.104242732,0.306504874,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.095934768,18.99794837,0.060213174,0.131656361,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.106609157,23.72995088,0.057025399,0.156192915,897,Percentage of donations,Percentage of total donations,10,NL,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.094546232,23.15582463,0.051636819,0.137455644,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.1479827,20.53368967,0.08842663,0.20753877,880,Percentage of donations,Percentage of total donations,12,NS,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.081296205,24.92471592,0.041581753,0.121010658,837,Percentage of donations,Percentage of total donations,13,NB,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.125246899,12.34569533,0.094940759,0.155553039,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.179014331,10.80287725,0.141111179,0.216917484,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.149526077,19.50586855,0.092361062,0.206691092,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.214690502,21.63529906,0.123652268,0.305728736,749,Percentage of donations,Percentage of total donations,47,SK,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.195299613,18.51788023,0.124416833,0.266182393,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.126647307,14.68632068,0.090192311,0.163102303,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.225845143,16.96253808,0.150760749,0.300929537,897,Percentage of donations,Percentage of total donations,10,NL,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.106419784,21.6451407,0.061272578,0.15156699,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.128419877,17.10765789,0.085360187,0.171479567,880,Percentage of donations,Percentage of total donations,12,NS,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.17303171,20.06079895,0.104998335,0.241065085,837,Percentage of donations,Percentage of total donations,13,NB,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.130041556,14.94485822,0.091950585,0.168132528,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.176981085,9.881651107,0.142703955,0.211258216,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.152640031,19.83141176,0.093310602,0.211969461,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.139800017,25.20168486,0.070746645,0.20885339,749,Percentage of donations,Percentage of total donations,47,SK,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.137882236,20.26417558,0.083119474,0.192644999,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.154800246,20.13972262,0.093695742,0.21590475,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.241935553,14.56647253,0.172863529,0.311007576,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.238903653,19.78388987,0.146267062,0.331540245,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.254261265,15.09548626,0.179033978,0.329488552,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.249978729,22.31621883,0.14064057,0.359316888,837,Percentage of donations,Percentage of total donations,13,NB,*
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.197424706,12.32742125,0.149724327,0.245125085,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.198202767,8.464924678,0.16531905,0.231086484,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.136135802,17.23729393,0.090143036,0.182128568,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.219382757,16.07397359,0.150267515,0.288497999,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.21693888,14.31812056,0.15605932,0.277818439,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.303991468,11.09187736,0.237904695,0.370078241,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.174066514,15.41576675,0.121473452,0.226659576,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.264967989,17.71857972,0.172950494,0.356985484,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.227183613,13.55644033,0.166820621,0.287546606,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.209550134,14.39901497,0.150411836,0.268688431,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.232256446,19.94716953,0.141454084,0.323058809,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.145365639,8.145006532,0.122159585,0.168571692,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.156905525,15.63386668,0.108826823,0.204984226,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.112434204,17.52345311,0.073818298,0.15105011,749,Percentage of donations,Percentage of total donations,47,SK,*
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.144718554,18.97568966,0.09089531,0.198541799,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.168992307,11.64437475,0.130423945,0.207560669,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.168488053,19.68584835,0.103479375,0.233496732,897,Percentage of donations,Percentage of total donations,10,NL,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.139054813,17.5723679,0.091162655,0.186946971,598,Percentage of donations,Percentage of total donations,11,PE,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.164289642,17.93230616,0.106547297,0.222031988,880,Percentage of donations,Percentage of total donations,12,NS,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.165076492,17.81925012,0.107423381,0.222729603,837,Percentage of donations,Percentage of total donations,13,NB,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.164938329,17.29274982,0.109035506,0.220841152,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.142424378,10.95730403,0.111837431,0.173011325,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.221703048,21.88287972,0.126615373,0.316790722,850,Percentage of donations,Percentage of total donations,46,MB,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.120772813,20.61069797,0.071985155,0.169560471,749,Percentage of donations,Percentage of total donations,47,SK,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.054328502,18.92292092,0.034179015,0.07447799,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.131888626,14.71812205,0.093842728,0.169934524,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.485193948,8.685903203,0.402594251,0.567793644,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.43472668,11.71130079,0.334940701,0.534512658,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.441033651,8.98888994,0.363332781,0.518734521,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.532342565,8.507619609,0.443576422,0.621108707,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.503600524,8.0313293,0.424328181,0.582872868,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.475633163,5.097922437,0.428109113,0.523157213,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.482636489,8.977217007,0.397716492,0.567556485,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.460531334,11.10609322,0.360284979,0.560777689,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.455685409,10.18177944,0.364749189,0.546621629,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.443056582,7.98368862,0.373728231,0.512384934,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.514806052,8.186282279,0.432206356,0.597405749,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.56527332,9.006642847,0.465487342,0.665059299,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.558966349,7.092382125,0.481265479,0.636667219,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.467657435,9.684370873,0.378891293,0.556423578,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.496399476,8.147836255,0.417127132,0.575671819,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.524366837,4.624131052,0.476842787,0.571890887,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.517363511,8.374638722,0.432443515,0.602283508,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.539468666,9.48100278,0.439222311,0.639715021,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.544314591,8.523909525,0.453378371,0.635250811,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.556943418,6.351140319,0.487615066,0.626271769,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.64175607,7.220808384,0.550931386,0.732580754,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.669811487,7.299836157,0.573978772,0.765644203,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.668478998,6.092677595,0.588653056,0.748304941,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.701588812,5.608431957,0.624467892,0.778709732,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.540619101,7.006168064,0.466382167,0.614856035,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.667567015,3.295177798,0.624452668,0.710681363,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.579861843,8.499590235,0.483263292,0.676460394,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.695534739,5.954121745,0.61436678,0.776702699,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.692314238,5.570127692,0.616732564,0.767895912,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.669242576,4.954673477,0.604252553,0.734232599,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.03716691,22.05332316,0.021101989,0.053231831,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.035262075,37.15684023,0.009582092,0.060942058,598,Percentage of donations,Percentage of total donations,11,PE,...
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.032426029,22.07056481,0.018399336,0.046452723,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.041392807,25.15376637,0.020985956,0.061799658,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.159422969,11.66557606,0.122972328,0.195873611,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.038329395,23.5351377,0.020648803,0.056009986,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.034403276,29.03771697,0.014823381,0.05398317,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.033519023,31.06617503,0.013109764,0.053928281,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.032299086,27.39575604,0.01495619,0.049641982,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.052271759,18.76631295,0.033045528,0.071497991,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.109314628,22.50983832,0.061086684,0.157542572,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.073809159,22.0790535,0.041868873,0.105749444,598,Percentage of donations,Percentage of total donations,11,PE,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.093821354,29.9552257,0.038737746,0.148904963,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.100835695,24.60510938,0.052207552,0.149463838,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.078754721,17.47691362,0.051777984,0.105731459,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.0640023,12.53213929,0.048281708,0.079722892,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.112741627,26.9405567,0.053211206,0.172272049,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.076249584,23.7175083,0.040804613,0.111694556,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.074736193,29.83574,0.031032727,0.118439658,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.100196877,27.62535546,0.045945577,0.154448178,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.016771917,50.06601982,3.14E-04,0.033229796,897,Percentage of donations,Percentage of total donations,10,NL,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.060034149,66.85742819,-0.01863349,0.138701788,598,Percentage of donations,Percentage of total donations,11,PE,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.037137359,53.66783309,-0.001926322,0.07620104,880,Percentage of donations,Percentage of total donations,12,NS,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.015171097,37.21720104,0.004104635,0.026237559,837,Percentage of donations,Percentage of total donations,13,NB,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.016041679,31.2664424,0.006211161,0.025872196,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.023656461,25.98898628,0.011606457,0.035706465,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.041051298,39.80966023,0.009020817,0.073081779,850,Percentage of donations,Percentage of total donations,46,MB,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.014854789,43.83869048,0.002091219,0.027618359,749,Percentage of donations,Percentage of total donations,47,SK,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.010350375,41.49393874,0.001932764,0.018767986,1013,Percentage of donations,Percentage of total donations,48,AB,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.026171798,53.28056785,-0.001158886,0.053502482,1532,Percentage of donations,Percentage of total donations,59,BC,...
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.038727615,38.45956023,0.009534989,0.06792024,897,Percentage of donations,Percentage of total donations,10,NL,...
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.039981434,44.85332178,0.004833397,0.07512947,598,Percentage of donations,Percentage of total donations,11,PE,...
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.061950052,25.26847914,0.031269097,0.092631007,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.0566582,30.70258145,0.022563588,0.090752812,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.055248656,18.92087652,0.034760114,0.075737199,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.050012938,14.98475224,0.035324351,0.064701525,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.038654138,37.59847646,0.010169262,0.067139014,850,Percentage of donations,Percentage of total donations,46,MB,...
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.023980847,40.24235905,0.005066296,0.042895398,749,Percentage of donations,Percentage of total donations,47,SK,...
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.05588424,27.67481009,0.025571717,0.086196763,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.057160801,17.45144489,0.037609404,0.076712197,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.15626286,25.31701567,0.078724543,0.233801177,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.121101696,21.18891169,0.070808763,0.17139463,598,Percentage of donations,Percentage of total donations,11,PE,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.106186207,24.71809786,0.05474262,0.157629795,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.084353389,25.82093868,0.041663733,0.127043045,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.149912873,20.34733327,0.090127559,0.209698188,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.156431891,12.70914272,0.117465549,0.195398233,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.193287818,21.01872602,0.113661073,0.272914562,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.155861017,23.59221319,0.083791057,0.227930978,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.134415868,18.99507026,0.084373306,0.184458431,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.094956189,15.07582929,0.066898456,0.123013922,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.06501879,29.30349809,0.027676028,0.102361553,751,Percentage of donations,Percentage of total donations,10,NL,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.04007386,43.17052675,0.006166294,0.073981425,537,Percentage of donations,Percentage of total donations,11,PE,...
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.04706569,27.7738369,0.021445143,0.072686237,785,Percentage of donations,Percentage of total donations,12,NS,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.057539558,24.59098731,0.029806959,0.085272158,754,Percentage of donations,Percentage of total donations,13,NB,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.077035028,18.10976486,0.04969184,0.104378215,1397,Percentage of donations,Percentage of total donations,24,QC,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.047148835,16.3373574,0.03205148,0.06224619,3071,Percentage of donations,Percentage of total donations,35,ON,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.084466565,37.19475019,0.022890126,0.146043003,751,Percentage of donations,Percentage of total donations,46,MB,...
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.080695103,43.22809295,0.012325769,0.149064437,658,Percentage of donations,Percentage of total donations,47,SK,...
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.034160123,29.33084447,0.014522357,0.05379789,925,Percentage of donations,Percentage of total donations,48,AB,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.078905013,39.15793452,0.018346882,0.139463144,1425,Percentage of donations,Percentage of total donations,59,BC,...
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.218312984,16.84459089,0.146237407,0.29038856,751,Percentage of donations,Percentage of total donations,10,NL,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.169411911,17.42397905,0.111557114,0.227266708,537,Percentage of donations,Percentage of total donations,11,PE,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.188912216,17.43654943,0.124351449,0.253472983,785,Percentage of donations,Percentage of total donations,12,NS,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.189623802,26.22954466,0.092140172,0.287107431,754,Percentage of donations,Percentage of total donations,13,NB,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.192792919,17.77004903,0.125645736,0.259940101,1397,Percentage of donations,Percentage of total donations,24,QC,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.146884376,11.11383226,0.114888977,0.178879775,3071,Percentage of donations,Percentage of total donations,35,ON,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.225418832,17.68145015,0.147299924,0.303537741,751,Percentage of donations,Percentage of total donations,46,MB,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.251019744,23.3413805,0.136182566,0.365856922,658,Percentage of donations,Percentage of total donations,47,SK,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.141823677,17.50186134,0.093173876,0.190473479,925,Percentage of donations,Percentage of total donations,48,AB,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.139143891,16.39173763,0.094440833,0.183846948,1425,Percentage of donations,Percentage of total donations,59,BC,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.403799148,12.14915475,0.307646875,0.49995142,751,Percentage of donations,Percentage of total donations,10,NL,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.425050297,11.92062798,0.32574154,0.524359055,537,Percentage of donations,Percentage of total donations,11,PE,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.290585936,13.52363333,0.213563709,0.367608162,785,Percentage of donations,Percentage of total donations,12,NS,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.274820564,14.91052543,0.194506747,0.35513438,754,Percentage of donations,Percentage of total donations,13,NB,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.34815517,12.76593304,0.261044069,0.43526627,1397,Percentage of donations,Percentage of total donations,24,QC,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.270299876,6.79664477,0.234292746,0.306307007,3071,Percentage of donations,Percentage of total donations,35,ON,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.370272615,14.35568035,0.26609043,0.474454801,751,Percentage of donations,Percentage of total donations,46,MB,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.313324083,15.44184352,0.218495117,0.408153049,658,Percentage of donations,Percentage of total donations,47,SK,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.386330318,14.67209806,0.275234144,0.497426492,925,Percentage of donations,Percentage of total donations,48,AB,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.312071487,11.57427992,0.241277534,0.38286544,1425,Percentage of donations,Percentage of total donations,59,BC,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.312869078,16.36930623,0.212490508,0.413247649,751,Percentage of donations,Percentage of total donations,10,NL,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.365463932,13.73339539,0.26709215,0.463835713,537,Percentage of donations,Percentage of total donations,11,PE,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.473436159,9.768237415,0.382794943,0.564077374,785,Percentage of donations,Percentage of total donations,12,NS,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.478016077,11.31046394,0.372048985,0.583983168,754,Percentage of donations,Percentage of total donations,13,NB,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.382016884,10.6537634,0.302247967,0.461785801,1397,Percentage of donations,Percentage of total donations,24,QC,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.535666913,4.271605689,0.490819843,0.580513982,3071,Percentage of donations,Percentage of total donations,35,ON,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.319841988,12.99097851,0.238404301,0.401279675,751,Percentage of donations,Percentage of total donations,46,MB,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.35496107,15.85450428,0.244659553,0.465262586,658,Percentage of donations,Percentage of total donations,47,SK,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.437685882,11.88442739,0.335735492,0.539636272,925,Percentage of donations,Percentage of total donations,48,AB,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.469879609,7.521576621,0.400609866,0.539149351,1425,Percentage of donations,Percentage of total donations,59,BC,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.417406264,10.98994178,0.327497414,0.507315115,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.490317429,9.887881952,0.395294438,0.585340419,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.466238193,8.899023504,0.38491802,0.547558365,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.518535945,8.995925149,0.427109298,0.609962591,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.516468278,7.793432003,0.437578544,0.595358012,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.585954057,4.193122483,0.53779819,0.634109924,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.517735992,8.835331532,0.428080004,0.607391979,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.581892115,7.739785947,0.493620817,0.670163414,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.653275382,6.285931156,0.572790557,0.733760207,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.608302151,5.177622136,0.546571935,0.670032367,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.013602885,45.58283549,0.00144997,0.0257558,897,Percentage of donations,Percentage of total donations,10,NL,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.008920604,58.32591203,-0.001277135,0.019118343,598,Percentage of donations,Percentage of total donations,11,PE,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.007984801,32.70112975,0.002867099,0.013102502,880,Percentage of donations,Percentage of total donations,12,NS,*
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,4.54E-04,69.26970986,-1.63E-04,0.001071424,837,Percentage of donations,Percentage of total donations,13,NB,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.022303713,36.82267037,0.006206876,0.03840055,1509,Percentage of donations,Percentage of total donations,24,QC,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.014057382,26.59068592,0.006731126,0.021383638,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.017905414,85.42799589,-0.012074658,0.047885486,850,Percentage of donations,Percentage of total donations,46,MB,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,4.83E-04,61.2434508,-9.69E-05,0.001063701,749,Percentage of donations,Percentage of total donations,47,SK,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.023950685,52.45515921,-6.73E-04,0.048574437,1013,Percentage of donations,Percentage of total donations,48,AB,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.024578461,55.5030384,-0.002158961,0.051315883,1532,Percentage of donations,Percentage of total donations,59,BC,...
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.395359638,10.38250904,0.314906546,0.47581273,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.379249592,12.23223763,0.288325469,0.470173716,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.422053391,9.984229214,0.339462904,0.504643878,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.376852606,11.02367606,0.295429802,0.458275411,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.390755457,10.63647629,0.309294235,0.472216679,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.314327492,6.435478787,0.274680401,0.353974582,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.308939672,15.2474685,0.216614629,0.401264714,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.282478881,14.25982259,0.203529597,0.361428166,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.272392854,13.14113317,0.202234948,0.34255076,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.292444176,9.136532071,0.240075396,0.344812955,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.173631212,18.4974086,0.11068251,0.236579914,897,Percentage of donations,Percentage of total donations,10,NL,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.121512375,24.95967985,0.062068432,0.180956318,598,Percentage of donations,Percentage of total donations,11,PE,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.103723615,28.45847484,0.045869087,0.161578144,880,Percentage of donations,Percentage of total donations,12,NS,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.104157006,23.87909677,0.055409267,0.152904744,837,Percentage of donations,Percentage of total donations,13,NB,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.070472552,20.61175713,0.042002838,0.098942266,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.085661069,26.26584061,0.041562664,0.129759475,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.155418923,24.56100171,0.080602307,0.230235539,850,Percentage of donations,Percentage of total donations,46,MB,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.135145579,22.49053163,0.075572554,0.194718605,749,Percentage of donations,Percentage of total donations,47,SK,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.05038108,24.20525819,0.026479573,0.074282586,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.074675212,21.47175944,0.043248989,0.106101436,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.249477392,14.72140351,0.177494631,0.321460154,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.327075074,14.32503804,0.235243649,0.418906498,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.285978334,15.02055882,0.201787015,0.370169653,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.250778913,13.50697112,0.184389767,0.317168058,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.228050211,13.41142437,0.168105141,0.287995282,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.221448683,7.838646237,0.187426494,0.255470872,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.220769393,15.88248778,0.152045859,0.289492927,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.277786693,19.92099567,0.169326451,0.386246935,749,Percentage of donations,Percentage of total donations,47,SK,*
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.220037272,14.73558054,0.156487851,0.283586692,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.224004222,13.11970201,0.166403455,0.281604989,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.284645321,13.53643328,0.209126294,0.360164349,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.320427674,13.96281576,0.232737463,0.408117885,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.249192269,12.94207473,0.185982157,0.31240238,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.227774155,15.91012237,0.156746733,0.298801578,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.337635261,10.25594418,0.269766248,0.405504275,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.248000599,7.908125859,0.209561395,0.286439804,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.330334023,15.23916419,0.231669154,0.428998893,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.210222574,15.75625795,0.145302274,0.275142875,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.269839767,19.2064999,0.168261155,0.371418378,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.206109878,11.09465591,0.161291025,0.250928731,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.163430589,17.33722008,0.107896341,0.218964838,897,Percentage of donations,Percentage of total donations,10,NL,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.169392652,20.05362731,0.102813908,0.235971397,598,Percentage of donations,Percentage of total donations,11,PE,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.21335685,19.39627745,0.132247099,0.294466601,880,Percentage of donations,Percentage of total donations,12,NS,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.262763738,16.88384674,0.175810667,0.349716808,837,Percentage of donations,Percentage of total donations,13,NB,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.163552827,14.60673807,0.116729811,0.210375843,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.159750973,8.801630754,0.132192526,0.187309421,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.228006526,16.46772939,0.154414783,0.301598269,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.15289744,19.28871974,0.095094263,0.210700616,749,Percentage of donations,Percentage of total donations,47,SK,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.188980537,20.48299221,0.113112548,0.264848525,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.221731997,11.94197931,0.16983374,0.273630255,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.140429039,20.38496987,0.084322292,0.196535786,897,Percentage of donations,Percentage of total donations,10,NL,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.143399407,31.52173353,0.054805156,0.231993658,598,Percentage of donations,Percentage of total donations,11,PE,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.091967358,21.89553942,0.052500055,0.131434661,880,Percentage of donations,Percentage of total donations,12,NS,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.166042386,26.32925889,0.08035721,0.251727561,837,Percentage of donations,Percentage of total donations,13,NB,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.125807776,34.02759943,0.04190296,0.209712592,1509,Percentage of donations,Percentage of total donations,24,QC,...
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.141071333,18.44494555,0.09007203,0.192070636,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.142762175,22.53217674,0.079715179,0.205809171,850,Percentage of donations,Percentage of total donations,46,MB,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.135945616,19.72217727,0.083396168,0.188495064,749,Percentage of donations,Percentage of total donations,47,SK,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.143962492,26.80361912,0.068333052,0.219591932,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.138065382,22.76968996,0.076449878,0.199680886,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.035441393,36.29625944,0.010228612,0.060654173,897,Percentage of donations,Percentage of total donations,10,NL,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.026251806,77.69949525,-0.0137266,0.066230212,598,Percentage of donations,Percentage of total donations,11,PE,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.045759584,35.73586429,0.013709111,0.077810057,880,Percentage of donations,Percentage of total donations,12,NS,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.067751534,59.12726685,-0.010763899,0.146266967,837,Percentage of donations,Percentage of total donations,13,NB,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.042088434,24.06312436,0.022238326,0.061938543,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.075763056,17.57900247,0.049659492,0.10186662,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.041859389,35.45826151,0.012768405,0.070950373,850,Percentage of donations,Percentage of total donations,46,MB,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.111062021,36.66885304,0.031242156,0.190881886,749,Percentage of donations,Percentage of total donations,47,SK,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.05584021,25.01210411,0.028465763,0.083214658,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.061242547,26.75870816,0.029123217,0.093361878,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.126576266,31.66758472,0.048013763,0.205138768,897,Percentage of donations,Percentage of total donations,10,NL,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.013453387,48.82439528,5.79E-04,0.026327479,598,Percentage of donations,Percentage of total donations,11,PE,...
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.113745606,23.30807223,0.061783221,0.165707991,880,Percentage of donations,Percentage of total donations,12,NS,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.024889274,31.67685394,0.009436646,0.040341903,837,Percentage of donations,Percentage of total donations,13,NB,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.10286549,22.226391,0.058054273,0.147676707,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.153965355,11.79014583,0.118386639,0.189544071,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.036268494,31.02288393,0.014215895,0.058321093,850,Percentage of donations,Percentage of total donations,46,MB,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.112085656,34.14120613,0.03708294,0.187088372,749,Percentage of donations,Percentage of total donations,47,SK,...
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.121339723,23.12654213,0.066339836,0.176339609,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.148845973,20.10606069,0.09019001,0.207501936,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.790066833,5.373423773,0.70685923,0.873274437,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.864430912,3.499663093,0.80513775,0.923724075,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.792120666,4.916001491,0.715798367,0.868442964,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.832239202,5.362407543,0.744769817,0.919708588,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.766124959,3.513888611,0.713361205,0.818888714,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.619028579,4.007468908,0.570407012,0.667650146,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.675664277,7.102290562,0.58161023,0.769718323,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.750237206,6.579957121,0.653483023,0.84699139,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.707754081,7.07601454,0.609597553,0.80591061,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.582210489,5.769580479,0.516373138,0.648047841,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.001803901,48.74750592,8.04E-05,0.003527408,897,Percentage of donations,Percentage of total donations,10,NL,...
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.038424933,52.47069604,-0.001091527,0.077941393,598,Percentage of donations,Percentage of total donations,11,PE,...
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.066614334,25.74766584,0.032997745,0.100230923,880,Percentage of donations,Percentage of total donations,12,NS,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.013712054,42.54602644,0.002277753,0.025146355,837,Percentage of donations,Percentage of total donations,13,NB,...
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.149592464,16.33054916,0.101711973,0.197472954,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.27315911,7.114557079,0.23506905,0.311249169,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.135267961,21.48013562,0.078319754,0.192216168,850,Percentage of donations,Percentage of total donations,46,MB,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.106648498,39.39141969,0.02430971,0.188987286,749,Percentage of donations,Percentage of total donations,47,SK,...
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.236892052,21.95224908,0.134967784,0.338816321,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.335318886,9.773209952,0.271088086,0.399549687,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.175512746,19.54864165,0.108265681,0.242759812,897,Percentage of donations,Percentage of total donations,10,NL,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.078959676,22.67098235,0.043874489,0.114044862,598,Percentage of donations,Percentage of total donations,11,PE,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.131740353,28.0912587,0.05920694,0.204273766,880,Percentage of donations,Percentage of total donations,12,NS,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.153849233,29.11921945,0.066043443,0.241655023,837,Percentage of donations,Percentage of total donations,13,NB,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.065733712,21.82458049,0.037615859,0.093851565,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.082002921,27.58621921,0.037665585,0.126340257,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.124165588,27.60585307,0.056983962,0.191347214,850,Percentage of donations,Percentage of total donations,46,MB,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.132000691,25.04111814,0.067215162,0.196786221,749,Percentage of donations,Percentage of total donations,47,SK,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.051035228,24.02500621,0.027003685,0.075066771,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.067407965,22.75141904,0.037349431,0.097466499,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.03261652,83.97628277,-0.02106717,0.08630021,897,Percentage of donations,Percentage of total donations,10,NL,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.018184479,91.21706155,-0.014326124,0.050695082,598,Percentage of donations,Percentage of total donations,11,PE,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.009524647,66.60873594,-0.002909849,0.021959143,880,Percentage of donations,Percentage of total donations,12,NS,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,2.00E-04,79.29694653,-1.11E-04,5.10E-04,837,Percentage of donations,Percentage of total donations,13,NB,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.018548865,39.10102737,0.004333645,0.032764086,1509,Percentage of donations,Percentage of total donations,24,QC,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.025809391,26.1849912,0.012563588,0.039055193,3289,Percentage of donations,Percentage of total donations,35,ON,*
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.064902174,60.62843384,-0.012220785,0.142025133,850,Percentage of donations,Percentage of total donations,46,MB,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.011113604,45.4446194,0.001214737,0.021012472,749,Percentage of donations,Percentage of total donations,47,SK,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.004318639,50.44583359,4.87E-05,0.008588564,1013,Percentage of donations,Percentage of total donations,48,AB,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.015062659,36.15060601,0.00439018,0.025735138,1532,Percentage of donations,Percentage of total donations,59,BC,...
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.475033527,10.27860324,0.379334735,0.570732319,787,Percentage of donations,Percentage of total donations,10,NL,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.551601015,9.789825376,0.445761438,0.657440591,556,Percentage of donations,Percentage of total donations,11,PE,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.412983264,10.64510626,0.326818333,0.499148194,806,Percentage of donations,Percentage of total donations,12,NS,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.589852124,8.234953771,0.494648736,0.685055512,781,Percentage of donations,Percentage of total donations,13,NB,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.22634412,15.5304646,0.157446891,0.295241349,1397,Percentage of donations,Percentage of total donations,24,QC,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.408173602,5.872853409,0.361190448,0.455156756,3043,Percentage of donations,Percentage of total donations,35,ON,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.532306904,9.435365194,0.433867516,0.630746291,782,Percentage of donations,Percentage of total donations,46,MB,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.565857783,10.17045586,0.453061236,0.67865433,674,Percentage of donations,Percentage of total donations,47,SK,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.560817782,8.983828917,0.462069093,0.659566471,922,Percentage of donations,Percentage of total donations,48,AB,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.470565636,8.43074484,0.392809576,0.548321696,1412,Percentage of donations,Percentage of total donations,59,BC,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.10777796,22.03372974,0.061233706,0.154322213,787,Percentage of donations,Percentage of total donations,10,NL,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.154694707,27.62571633,0.070934625,0.238454789,556,Percentage of donations,Percentage of total donations,11,PE,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.088469365,24.10358661,0.046674524,0.130264205,806,Percentage of donations,Percentage of total donations,12,NS,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.097796603,24.03149796,0.051733552,0.143859654,781,Percentage of donations,Percentage of total donations,13,NB,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.074253813,28.6955941,0.032491738,0.116015889,1397,Percentage of donations,Percentage of total donations,24,QC,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.134541216,12.65777944,0.101163165,0.167919266,3043,Percentage of donations,Percentage of total donations,35,ON,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.129757924,26.1751404,0.063189083,0.196326766,782,Percentage of donations,Percentage of total donations,46,MB,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.133382547,24.0169972,0.070596115,0.196168979,674,Percentage of donations,Percentage of total donations,47,SK,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.114585388,24.10560127,0.060448249,0.168722527,922,Percentage of donations,Percentage of total donations,48,AB,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.083193718,22.38513007,0.046693266,0.119694171,1412,Percentage of donations,Percentage of total donations,59,BC,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.078312694,18.27745592,0.050258616,0.106366772,787,Percentage of donations,Percentage of total donations,10,NL,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.081568541,32.56170192,0.029511691,0.13362539,556,Percentage of donations,Percentage of total donations,11,PE,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.067571445,27.15934909,0.031602255,0.103540634,806,Percentage of donations,Percentage of total donations,12,NS,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.058518815,22.55243901,0.032652347,0.084385283,781,Percentage of donations,Percentage of total donations,13,NB,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.107904705,20.12304727,0.065346606,0.150462804,1397,Percentage of donations,Percentage of total donations,24,QC,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.106975538,14.39831213,0.076786856,0.137164221,3043,Percentage of donations,Percentage of total donations,35,ON,NA
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.1069993,33.4625467,0.036823396,0.177175205,782,Percentage of donations,Percentage of total donations,46,MB,...
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.0543353,29.36445328,0.023063558,0.085607043,674,Percentage of donations,Percentage of total donations,47,SK,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.048183818,32.3655559,0.017618257,0.078749379,922,Percentage of donations,Percentage of total donations,48,AB,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.057280553,19.29160668,0.035622287,0.07893882,1412,Percentage of donations,Percentage of total donations,59,BC,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.112510316,17.34097518,0.074270662,0.15074997,787,Percentage of donations,Percentage of total donations,10,NL,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.088699656,27.29960281,0.041239807,0.136159506,556,Percentage of donations,Percentage of total donations,11,PE,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.136065204,24.51093694,0.070698727,0.201431682,806,Percentage of donations,Percentage of total donations,12,NS,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.087897681,26.17703966,0.042800849,0.132994514,781,Percentage of donations,Percentage of total donations,13,NB,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.234715802,21.21369935,0.137125462,0.332306141,1397,Percentage of donations,Percentage of total donations,24,QC,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.094517941,14.41169448,0.067820023,0.121215859,3043,Percentage of donations,Percentage of total donations,35,ON,NA
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.067362712,26.75172166,0.032042818,0.102682606,782,Percentage of donations,Percentage of total donations,46,MB,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.078816303,32.72135652,0.028269295,0.129363311,674,Percentage of donations,Percentage of total donations,47,SK,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.059415452,29.79125753,0.024722893,0.094108011,922,Percentage of donations,Percentage of total donations,48,AB,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.082102706,18.28954824,0.052671467,0.111533945,1412,Percentage of donations,Percentage of total donations,59,BC,*
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.226365503,15.52165681,0.157500843,0.295230164,787,Percentage of donations,Percentage of total donations,10,NL,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.123436081,19.69115292,0.075797221,0.171074941,556,Percentage of donations,Percentage of total donations,11,PE,*
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.294910723,13.08682217,0.219267007,0.370554439,806,Percentage of donations,Percentage of total donations,12,NS,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.165934777,17.01477793,0.110598264,0.221271291,781,Percentage of donations,Percentage of total donations,13,NB,*
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.35678156,9.886726749,0.287645756,0.425917365,1397,Percentage of donations,Percentage of total donations,24,QC,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.255791703,7.034438661,0.22052507,0.291058335,3043,Percentage of donations,Percentage of total donations,35,ON,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.16357316,15.09425231,0.115181364,0.211964956,782,Percentage of donations,Percentage of total donations,46,MB,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.167608067,15.94017856,0.11524366,0.219972474,674,Percentage of donations,Percentage of total donations,47,SK,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.216997559,14.09917432,0.157032728,0.276962391,922,Percentage of donations,Percentage of total donations,48,AB,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.306857386,9.81289701,0.247839736,0.365875036,1412,Percentage of donations,Percentage of total donations,59,BC,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.67892298,6.799818538,0.588440203,0.769405758,897,Percentage of donations,Percentage of total donations,10,NL,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.705073562,6.697520864,0.612519263,0.797627862,598,Percentage of donations,Percentage of total donations,11,PE,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.700905028,5.816348299,0.621003024,0.780807032,880,Percentage of donations,Percentage of total donations,12,NS,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.742981619,5.113991176,0.668510799,0.817452439,837,Percentage of donations,Percentage of total donations,13,NB,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.70004207,4.76550927,0.634656555,0.765427585,1509,Percentage of donations,Percentage of total donations,24,QC,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.70589641,3.091921747,0.663118697,0.748674123,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.614265119,7.799037684,0.520369579,0.708160659,850,Percentage of donations,Percentage of total donations,46,MB,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.729053762,5.507921441,0.65035002,0.807757505,749,Percentage of donations,Percentage of total donations,47,SK,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.724613324,5.124481753,0.651834613,0.797392035,1013,Percentage of donations,Percentage of total donations,48,AB,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.721514335,4.521445676,0.657574668,0.785454003,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.109314628,22.50983832,0.061086684,0.157542572,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.073809159,22.0790535,0.041868873,0.105749444,598,Percentage of donations,Percentage of total donations,11,PE,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.093821354,29.9552257,0.038737746,0.148904963,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.100835695,24.60510938,0.052207552,0.149463838,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.078754721,17.47691362,0.051777984,0.105731459,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.0640023,12.53213929,0.048281708,0.079722892,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.112741627,26.9405567,0.053211206,0.172272049,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.076249584,23.7175083,0.040804613,0.111694556,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.074736193,29.83574,0.031032727,0.118439658,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.100196877,27.62535546,0.045945577,0.154448178,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.055499531,30.10425908,0.022752997,0.088246066,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.100015583,41.87798786,0.017923445,0.182107721,598,Percentage of donations,Percentage of total donations,11,PE,...
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.099087411,23.93764821,0.052598641,0.14557618,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.071829297,25.54702406,0.035863472,0.107795122,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.071290335,16.81964004,0.047788843,0.094791828,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.073669399,13.46210385,0.054231552,0.093107246,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.079705436,26.63663235,0.038093747,0.121317126,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.038835636,30.31477126,0.015761109,0.061910164,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.066234615,24.56105363,0.034350079,0.098119151,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.083332599,20.2057594,0.050330756,0.116334441,1532,Percentage of donations,Percentage of total donations,59,BC,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.15626286,25.31701567,0.078724543,0.233801177,897,Percentage of donations,Percentage of total donations,10,NL,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.121101696,21.18891169,0.070808763,0.17139463,598,Percentage of donations,Percentage of total donations,11,PE,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.106186207,24.71809786,0.05474262,0.157629795,880,Percentage of donations,Percentage of total donations,12,NS,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.084353389,25.82093868,0.041663733,0.127043045,837,Percentage of donations,Percentage of total donations,13,NB,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.149912873,20.34733327,0.090127559,0.209698188,1509,Percentage of donations,Percentage of total donations,24,QC,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.156431891,12.70914272,0.117465549,0.195398233,3289,Percentage of donations,Percentage of total donations,35,ON,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.193287818,21.01872602,0.113661073,0.272914562,850,Percentage of donations,Percentage of total donations,46,MB,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.155861017,23.59221319,0.083791057,0.227930978,749,Percentage of donations,Percentage of total donations,47,SK,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.134415868,18.99507026,0.084373306,0.184458431,1013,Percentage of donations,Percentage of total donations,48,AB,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.094956189,15.07582929,0.066898456,0.123013922,1532,Percentage of donations,Percentage of total donations,59,BC,NA
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.030203258,14.69569496,0.021503804,0.038902713,505,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.136908742,10.70479703,0.108183896,0.165633588,919,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.165322855,6.633946231,0.143827088,0.186818621,1481,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.15813198,6.707262902,0.137343959,0.17892,1390,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.217610037,4.90135191,0.196705387,0.238514687,1707,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.160713954,5.719591535,0.142697609,0.1787303,1560,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.131109173,6.734063557,0.1138047,0.148413647,803,Percentage of donations,Percentage of total donations,CA,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.470196548,3.210469018,0.440609884,0.499783213,3493,Percentage of donations,Percentage of total donations,CA,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.529803452,2.849266924,0.500216787,0.559390116,4872,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.656881112,2.081327042,0.630084789,0.683677434,4495,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.051124638,9.37631158,0.041729344,0.060519932,726,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.07743719,8.967835779,0.063826338,0.091048043,635,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.021434634,16.42105469,0.014535967,0.028333302,242,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.05122385,8.528226915,0.042661774,0.059785925,677,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.141898575,7.639318498,0.120652401,0.16314475,1590,Percentage of donations,Percentage of total donations,CA,NA,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.055588143,11.67050466,0.042873039,0.068303246,545,Percentage of donations,Percentage of total donations,CA,NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.159681424,6.373708593,0.139733638,0.179629209,1455,Percentage of donations,Percentage of total donations,CA,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.314757643,5.226718991,0.282513301,0.347001986,2618,Percentage of donations,Percentage of total donations,CA,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.46997279,3.282638792,0.439735428,0.500210152,2973,Percentage of donations,Percentage of total donations,CA,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.584380802,2.600178414,0.55459926,0.614162344,4536,Percentage of donations,Percentage of total donations,CA,NA,NA
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.017340529,21.37625621,0.010075421,0.024605637,187,Percentage of donations,Percentage of total donations,CA,NA,*
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.314817893,4.048204678,0.289839186,0.339796601,2852,Percentage of donations,Percentage of total donations,CA,NA,NA
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.083460776,12.39435479,0.063186076,0.103735476,790,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.227560532,4.889349915,0.205753521,0.249367544,2213,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.257821608,5.635666418,0.229343398,0.286299818,2297,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.180626492,6.019688244,0.159315506,0.201937477,1750,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.138812143,10.96919651,0.108968601,0.168655685,1047,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.065004066,10.84749038,0.051183753,0.078824379,484,Percentage of donations,Percentage of total donations,CA,NA,NA
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.13017516,8.311692695,0.108968821,0.151381498,574,Percentage of donations,Percentage of total donations,CA,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.665095178,2.349783089,0.634464284,0.695726071,6328,Percentage of donations,Percentage of total donations,CA,NA,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.234522184,6.001258879,0.206937096,0.262107273,1149,Percentage of donations,Percentage of total donations,CA,NA,NA
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.080468501,12.98962694,0.059981864,0.100955138,724,Percentage of donations,Percentage of total donations,CA,NA,NA
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.019914137,18.42399008,0.012723071,0.027105203,164,Percentage of donations,Percentage of total donations,CA,NA,*
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.444107689,3.707093434,0.411839847,0.47637553,1672,Percentage of donations,Percentage of total donations,CA,NA,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.114916404,8.175285991,0.096503043,0.133329766,766,Percentage of donations,Percentage of total donations,CA,NA,NA
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.084429448,9.643740964,0.068471113,0.100387783,734,Percentage of donations,Percentage of total donations,CA,NA,NA
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.099886563,9.265620236,0.081746881,0.118026244,1150,Percentage of donations,Percentage of total donations,CA,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.256659896,4.202169166,0.23552113,0.277798662,3309,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.70800575,1.885607758,0.681839817,0.734171684,5221,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.07743719,8.967835779,0.063826338,0.091048043,635,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.072658484,7.919697279,0.061380201,0.083936767,919,Percentage of donations,Percentage of total donations,CA,NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.141898575,7.639318498,0.120652401,0.16314475,1590,Percentage of donations,Percentage of total donations,CA,NA,NA
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.031338723,15.74261437,0.021669174,0.041008273,450,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.137720101,11.70529356,0.106124419,0.169315784,819,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.16990694,7.00784559,0.14657001,0.193243871,1284,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.161345101,7.218367487,0.138518415,0.184171787,1239,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.219918935,5.268855456,0.197208419,0.242629451,1513,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.152530571,5.717883795,0.135436705,0.169624438,1379,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.127239628,7.241291579,0.109180926,0.145298329,701,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.466375637,3.444915141,0.434886375,0.497864898,3064,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.533624363,3.010778,0.502135102,0.565113625,4321,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.670179734,2.162849925,0.641770091,0.698589376,4145,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.038736941,12.75195426,0.029055274,0.048418609,494,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.077286485,9.716484723,0.062568077,0.092004892,571,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.022051507,17.59354295,0.01444755,0.029655465,217,Percentage of donations,Percentage of total donations,CA (without QC),NA,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.050763472,9.387065572,0.041423851,0.060103094,572,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.14098186,8.162063642,0.118428498,0.163535223,1386,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.0531003,13.31765489,0.039239994,0.066960606,461,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.155840484,6.870121451,0.134856265,0.176824702,1297,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.310883523,5.604869722,0.276731903,0.345035144,2294,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.480175694,3.438420336,0.447815789,0.512535598,2625,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.592148971,2.775076838,0.559941689,0.624356254,4015,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.016772815,24.01999515,0.008876455,0.024669176,158,Percentage of donations,Percentage of total donations,CA (without QC),NA,*
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.30613178,4.430502191,0.279548445,0.332715115,2494,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.084946433,13.4635654,0.062530681,0.107362186,718,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.22750452,5.268760173,0.204011084,0.250997957,1939,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.248692129,6.282790928,0.218068071,0.279316187,2006,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.182579461,6.510179765,0.159282837,0.205876086,1534,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.140299646,11.55115402,0.108536023,0.17206327,942,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.067625269,11.53856812,0.052331694,0.082918844,441,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.133298974,8.806461849,0.110291107,0.156306841,523,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.653538893,2.584209988,0.620437419,0.686640367,5525,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.244236864,6.252574895,0.214306072,0.274167656,1056,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.082153939,14.08950826,0.059467187,0.10484069,663,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.020070304,20.15560708,0.012141678,0.02799893,141,Percentage of donations,Percentage of total donations,CA (without QC),NA,*
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.469401766,3.820156309,0.434255924,0.504547607,1568,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.119639521,8.613256798,0.099442368,0.139836674,701,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.081702707,10.63626561,0.064670391,0.098735023,641,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.084225628,9.764153505,0.068107042,0.100344214,970,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.245030379,4.743548575,0.222249453,0.267811305,2836,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.708916675,2.013101764,0.680945609,0.736887741,4639,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.077286485,9.716484723,0.062568077,0.092004892,571,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.07281498,8.57278542,0.060580351,0.085049608,789,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.14098186,8.162063642,0.118428498,0.163535223,1386,Percentage of donations,Percentage of total donations,CA (without QC),NA,NA
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.045458411,36.85976505,0.012617522,0.0782993,1013,Percentage of donations,Percentage of total donations,AB,NA,...
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.018052554,20.1803002,0.010912288,0.025192819,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.017745278,29.83807253,0.007367565,0.028122991,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.027393622,23.67677611,0.01468144,0.040105805,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.051246523,31.85413612,0.019251802,0.083241243,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Age group,15 to 24 years,2018,agegr10_1/gs1datot,0.020276558,27.01601632,0.009540035,0.03101308,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.205373803,25.12415548,0.104242732,0.306504874,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.081040724,17.10619589,0.053869772,0.108211675,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.095934768,18.99794837,0.060213174,0.131656361,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.130618178,17.43161611,0.085992034,0.175244322,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.13659212,17.37169916,0.090085365,0.183098875,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Age group,25 to 34 years,2018,agegr10_2/gs1datot,0.129815505,19.32174859,0.080654463,0.178976548,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.195299613,18.51788023,0.124416833,0.266182393,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.113490646,13.11749233,0.084312414,0.142668879,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.126647307,14.68632068,0.090192311,0.163102303,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.179014331,10.80287725,0.141111179,0.216917484,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.181008073,15.65685891,0.125462343,0.236553802,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Age group,35 to 44 years,2018,agegr10_3/gs1datot,0.125246899,12.34569533,0.094940759,0.155553039,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.137882236,20.26417558,0.083119474,0.192644999,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.160858112,10.15804426,0.128832226,0.192883999,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.154800246,20.13972262,0.093695742,0.21590475,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.176981085,9.881651107,0.142703955,0.211258216,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.146436811,16.17608511,0.100009688,0.192863935,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Age group,45 to 54 years,2018,agegr10_4/gs1datot,0.130041556,14.94485822,0.091950585,0.168132528,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.21693888,14.31812056,0.15605932,0.277818439,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.249365016,10.45258356,0.198278385,0.300451647,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.303991468,11.09187736,0.237904695,0.370078241,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.198202767,8.464924678,0.16531905,0.231086484,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.176353763,11.76832489,0.135676898,0.217030627,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Age group,55 to 64 years,2018,agegr10_5/gs1datot,0.197424706,12.32742125,0.149724327,0.245125085,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.144718554,18.97568966,0.09089531,0.198541799,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.213579977,7.907542044,0.180478289,0.246681665,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.168992307,11.64437475,0.130423945,0.207560669,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.145365639,8.145006532,0.122159585,0.168571692,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.135420705,12.07157198,0.103380374,0.167461035,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Age group,65 to 74 years,2018,agegr10_6/gs1datot,0.232256446,19.94716953,0.141454084,0.323058809,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.054328502,18.92292092,0.034179015,0.07447799,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.163612971,10.09556594,0.131238961,0.19598698,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.131888626,14.71812205,0.093842728,0.169934524,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.142424378,10.95730403,0.111837431,0.173011325,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.172942006,16.79495783,0.1160138,0.229870213,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Age group,75 years and over,2018,agegr10_7/gs1datot,0.164938329,17.29274982,0.109035506,0.220841152,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Gender,Male gender,2018,gndr_1/gs1datot,0.455685409,10.18177944,0.364749189,0.546621629,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.480351614,5.161364669,0.431758818,0.52894441,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.443056582,7.98368862,0.373728231,0.512384934,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.475633163,5.097922437,0.428109113,0.523157213,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.471957128,6.933791206,0.407818244,0.536096012,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Gender,Male gender,2018,gndr_1/gs1datot,0.503600524,8.0313293,0.424328181,0.582872868,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.544314591,8.523909525,0.453378371,0.635250811,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.519648386,4.771052719,0.47105559,0.568241182,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.556943418,6.351140319,0.487615066,0.626271769,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.524366837,4.624131052,0.476842787,0.571890887,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.528042872,6.197322904,0.463903988,0.592181756,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Gender,Female gender,2018,gndr_2/gs1datot,0.496399476,8.147836255,0.417127132,0.575671819,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.692314238,5.570127692,0.616732564,0.767895912,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.674794461,3.533690999,0.628058824,0.721530098,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.669242576,4.954673477,0.604252553,0.734232599,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.667567015,3.295177798,0.624452668,0.710681363,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.635745305,5.288340959,0.569850572,0.701640037,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Marital status (original),Married,2018,marstat_1/gs1datot,0.540619101,7.006168064,0.466382167,0.614856035,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.032299086,27.39575604,0.01495619,0.049641982,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.036604441,13.19973003,0.027134508,0.046074375,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.052271759,18.76631295,0.033045528,0.071497991,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.038329395,23.5351377,0.020648803,0.056009986,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.033976079,21.0273319,0.019973581,0.047978576,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status (original),Living common-law,2018,marstat_2/gs1datot,0.159422969,11.66557606,0.122972328,0.195873611,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.074736193,29.83574,0.031032727,0.118439658,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.09780648,14.90778691,0.069228673,0.126384287,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.100196877,27.62535546,0.045945577,0.154448178,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.0640023,12.53213929,0.048281708,0.079722892,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.095111727,19.20836062,0.059304354,0.130919099,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status (original),Widowed,2018,marstat_3/gs1datot,0.078754721,17.47691362,0.051777984,0.105731459,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.010350375,41.49393874,0.001932764,0.018767986,1013,Percentage of donations,Percentage of total donations,AB,NA,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.027294655,32.20707886,0.010064982,0.044524328,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.026171798,53.28056785,-0.001158886,0.053502482,1532,Percentage of donations,Percentage of total donations,BC,NA,...
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.023656461,25.98898628,0.011606457,0.035706465,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.028395338,31.03960053,0.011120608,0.045670067,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status (original),Separated,2018,marstat_4/gs1datot,0.016041679,31.2664424,0.006211161,0.025872196,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.05588424,27.67481009,0.025571717,0.086196763,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.054160146,16.2356622,0.036925676,0.071394616,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.057160801,17.45144489,0.037609404,0.076712197,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.050012938,14.98475224,0.035324351,0.064701525,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.031565232,27.38398475,0.014623659,0.048506805,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status (original),Divorced,2018,marstat_5/gs1datot,0.055248656,18.92087652,0.034760114,0.075737199,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.134415868,18.99507026,0.084373306,0.184458431,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.109339817,13.85691917,0.079644148,0.139035486,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.094956189,15.07582929,0.066898456,0.123013922,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.156431891,12.70914272,0.117465549,0.195398233,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.17520632,16.03997143,0.120125367,0.230287274,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Marital status (original),"Single, never married",2018,marstat_6/gs1datot,0.149912873,20.34733327,0.090127559,0.209698188,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.034160123,29.33084447,0.014522357,0.05379789,925,Percentage of donations,Percentage of total donations,AB,NA,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.053516468,14.70341297,0.038094006,0.068938929,2827,Percentage of donations,Percentage of total donations,AT,NA,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.078905013,39.15793452,0.018346882,0.139463144,1425,Percentage of donations,Percentage of total donations,BC,NA,...
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.047148835,16.3373574,0.03205148,0.06224619,3071,Percentage of donations,Percentage of total donations,ON,NA,NA
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.082560917,28.64056015,0.036215787,0.128906048,1409,Percentage of donations,Percentage of total donations,PR,NA,*
+Education,Less than High School,2018,dh1ged_1/gs1datot,0.077035028,18.10976486,0.04969184,0.104378215,1397,Percentage of donations,Percentage of total donations,QC,NA,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.141823677,17.50186134,0.093173876,0.190473479,925,Percentage of donations,Percentage of total donations,AB,NA,*
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.1931309,12.01307901,0.147657839,0.238603961,2827,Percentage of donations,Percentage of total donations,AT,NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.139143891,16.39173763,0.094440833,0.183846948,1425,Percentage of donations,Percentage of total donations,BC,NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.146884376,11.11383226,0.114888977,0.178879775,3071,Percentage of donations,Percentage of total donations,ON,NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.238354483,14.93421545,0.168586876,0.30812209,1409,Percentage of donations,Percentage of total donations,PR,NA,NA
+Education,Graduated from High school,2018,dh1ged_2/gs1datot,0.192792919,17.77004903,0.125645736,0.259940101,1397,Percentage of donations,Percentage of total donations,QC,NA,*
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.386330318,14.67209806,0.275234144,0.497426492,925,Percentage of donations,Percentage of total donations,AB,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.314817391,7.721140265,0.267175581,0.3624592,2827,Percentage of donations,Percentage of total donations,AT,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.312071487,11.57427992,0.241277534,0.38286544,1425,Percentage of donations,Percentage of total donations,BC,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.270299876,6.79664477,0.234292746,0.306307007,3071,Percentage of donations,Percentage of total donations,ON,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.341497612,10.20963564,0.273162171,0.409833054,1409,Percentage of donations,Percentage of total donations,PR,NA,NA
+Education,Post-secondary diploma,2018,dh1ged_3/gs1datot,0.34815517,12.76593304,0.261044069,0.43526627,1397,Percentage of donations,Percentage of total donations,QC,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.437685882,11.88442739,0.335735492,0.539636272,925,Percentage of donations,Percentage of total donations,AB,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.438535242,6.680561071,0.381114932,0.495955551,2827,Percentage of donations,Percentage of total donations,AT,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.469879609,7.521576621,0.400609866,0.539149351,1425,Percentage of donations,Percentage of total donations,BC,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.535666913,4.271605689,0.490819843,0.580513982,3071,Percentage of donations,Percentage of total donations,ON,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.337586987,10.38092665,0.268900721,0.406273254,1409,Percentage of donations,Percentage of total donations,PR,NA,NA
+Education,University Diploma,2018,dh1ged_4/gs1datot,0.382016884,10.6537634,0.302247967,0.461785801,1397,Percentage of donations,Percentage of total donations,QC,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.653275382,6.285931156,0.572790557,0.733760207,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.476468972,5.354766042,0.426462845,0.526475098,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.608302151,5.177622136,0.546571935,0.670032367,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.585954057,4.193122483,0.53779819,0.634109924,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.548730861,5.957623868,0.484657049,0.612804672,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Labour force status,Employed,2018,dlfs_1/gs1datot,0.516468278,7.793432003,0.437578544,0.595358012,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.023950685,52.45515921,-6.73E-04,0.048574437,1013,Percentage of donations,Percentage of total donations,AB,NA,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.006546287,25.34821252,0.003293988,0.009798586,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.024578461,55.5030384,-0.002158961,0.051315883,1532,Percentage of donations,Percentage of total donations,BC,NA,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.014057382,26.59068592,0.006731126,0.021383638,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.009488567,84.10632833,-0.006152896,0.025130029,1599,Percentage of donations,Percentage of total donations,PR,NA,...
+Labour force status,Unemployed,2018,dlfs_2/gs1datot,0.022303713,36.82267037,0.006206876,0.03840055,1509,Percentage of donations,Percentage of total donations,QC,NA,...
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.272392854,13.14113317,0.202234948,0.34255076,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.398476167,5.826384574,0.352972165,0.443980168,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.292444176,9.136532071,0.240075396,0.344812955,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.314327492,6.435478787,0.274680401,0.353974582,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.296156033,10.84098856,0.233228955,0.35908311,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Labour force status,Not in labour force,2018,dlfs_3/gs1datot,0.390755457,10.63647629,0.309294235,0.472216679,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.05038108,24.20525819,0.026479573,0.074282586,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.118508574,13.45501311,0.087256274,0.149760875,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.074675212,21.47175944,0.043248989,0.106101436,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.085661069,26.26584061,0.041562664,0.129759475,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.14562454,17.09349776,0.096836475,0.194412606,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Labour force status,Unable to determine,2018,dlfs_4/gs1datot,0.070472552,20.61175713,0.042002838,0.098942266,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.220037272,14.73558054,0.156487851,0.283586692,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.269770561,8.24047309,0.226199835,0.313341286,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.224004222,13.11970201,0.166403455,0.281604989,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.221448683,7.838646237,0.187426494,0.255470872,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.24831538,13.08880308,0.184613589,0.312017171,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Personal income category,"Less than $25,000",2018,incg2_1/gs1datot,0.228050211,13.41142437,0.168105141,0.287995282,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.269839767,19.2064999,0.168261155,0.371418378,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.253592853,7.587924257,0.215878376,0.29130733,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.206109878,11.09465591,0.161291025,0.250928731,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.248000599,7.908125859,0.209561395,0.286439804,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.272306225,11.58776889,0.210461098,0.334151352,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Personal income category,"$25,000 to $49,999",2018,incg2_2/gs1datot,0.337635261,10.25594418,0.269766248,0.405504275,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.188980537,20.48299221,0.113112548,0.264848525,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.217665281,10.55934277,0.172617423,0.262713138,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.221731997,11.94197931,0.16983374,0.273630255,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.159750973,8.801630754,0.132192526,0.187309421,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.191720102,12.76671464,0.143747321,0.239692883,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Personal income category,"$50,000 to $74,999",2018,incg2_3/gs1datot,0.163552827,14.60673807,0.116729811,0.210375843,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.143962492,26.80361912,0.068333052,0.219591932,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.130211077,13.8802621,0.094787396,0.165634759,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.138065382,22.76968996,0.076449878,0.199680886,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.141071333,18.44494555,0.09007203,0.192070636,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.139468984,14.77314487,0.099085974,0.179851994,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Personal income category,"$75,000 to $99,999",2018,incg2_4/gs1datot,0.125807776,34.02759943,0.04190296,0.209712592,1509,Percentage of donations,Percentage of total donations,QC,NA,...
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.05584021,25.01210411,0.028465763,0.083214658,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.049963915,31.54285254,0.019074796,0.080853033,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.061242547,26.75870816,0.029123217,0.093361878,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.075763056,17.57900247,0.049659492,0.10186662,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.075292308,28.13692986,0.033770581,0.116814036,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Personal income category,"$100,000 to $124,999",2018,incg2_5/gs1datot,0.042088434,24.06312436,0.022238326,0.061938543,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.121339723,23.12654213,0.066339836,0.176339609,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.078796313,16.89534445,0.052703492,0.104889135,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.148845973,20.10606069,0.09019001,0.207501936,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.153965355,11.79014583,0.118386639,0.189544071,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.072897001,26.86567471,0.034512535,0.111281467,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Personal income category,"$125,000 and more",2018,incg2_6/gs1datot,0.10286549,22.226391,0.058054273,0.147676707,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.707754081,7.07601454,0.609597553,0.80591061,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.810492728,2.884778346,0.764666969,0.856318486,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.582210489,5.769580479,0.516373138,0.648047841,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.619028579,4.007468908,0.570407012,0.667650146,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.711691674,4.841172738,0.644162637,0.779220711,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Immigration status,Native-born,2018,dcit2_1/gs1datot,0.766124959,3.513888611,0.713361205,0.818888714,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.236892052,21.95224908,0.134967784,0.338816321,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.034104794,21.21592209,0.019923188,0.048286401,3212,Percentage of donations,Percentage of total donations,AT,NA,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.335318886,9.773209952,0.271088086,0.399549687,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.27315911,7.114557079,0.23506905,0.311249169,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.121441432,21.32270282,0.070688957,0.172193907,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Immigration status,Naturalized,2018,dcit2_2/gs1datot,0.149592464,16.33054916,0.101711973,0.197472954,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.051035228,24.02500621,0.027003685,0.075066771,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.144045465,15.49035034,0.1003125,0.18777843,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.067407965,22.75141904,0.037349431,0.097466499,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.082002921,27.58621921,0.037665585,0.126340257,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.127950854,18.69297193,0.081072794,0.174828914,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Immigration status,Unknown,2018,dcit2_3/gs1datot,0.065733712,21.82458049,0.037615859,0.093851565,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.004318639,50.44583359,4.87E-05,0.008588564,1013,Percentage of donations,Percentage of total donations,AB,NA,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.011357013,54.06531042,-6.78E-04,0.023391592,3212,Percentage of donations,Percentage of total donations,AT,NA,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.015062659,36.15060601,0.00439018,0.025735138,1532,Percentage of donations,Percentage of total donations,BC,NA,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.025809391,26.1849912,0.012563588,0.039055193,3289,Percentage of donations,Percentage of total donations,ON,NA,*
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.038916039,54.91875966,-0.002972715,0.080804794,1599,Percentage of donations,Percentage of total donations,PR,NA,...
+Immigration status,Non-Canadian,2018,dcit2_4/gs1datot,0.018548865,39.10102737,0.004333645,0.032764086,1509,Percentage of donations,Percentage of total donations,QC,NA,...
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.560817782,8.983828917,0.462069093,0.659566471,922,Percentage of donations,Percentage of total donations,AB,NA,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.49620186,5.723044595,0.440543089,0.55186063,2930,Percentage of donations,Percentage of total donations,AT,NA,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.470565636,8.43074484,0.392809576,0.548321696,1412,Percentage of donations,Percentage of total donations,BC,NA,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.408173602,5.872853409,0.361190448,0.455156756,3043,Percentage of donations,Percentage of total donations,ON,NA,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.5485824,6.793858293,0.475534717,0.621630084,1456,Percentage of donations,Percentage of total donations,PR,NA,NA
+Frequency of religious attendance,At least once a week,2018,ree_02_1/gs1datot,0.22634412,15.5304646,0.157446891,0.295241349,1397,Percentage of donations,Percentage of total donations,QC,NA,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.114585388,24.10560127,0.060448249,0.168722527,922,Percentage of donations,Percentage of total donations,AB,NA,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.099998667,12.99596276,0.074527387,0.125469946,2930,Percentage of donations,Percentage of total donations,AT,NA,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.083193718,22.38513007,0.046693266,0.119694171,1412,Percentage of donations,Percentage of total donations,BC,NA,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.134541216,12.65777944,0.101163165,0.167919266,3043,Percentage of donations,Percentage of total donations,ON,NA,NA
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.131516225,17.94454197,0.085261106,0.177771344,1456,Percentage of donations,Percentage of total donations,PR,NA,*
+Frequency of religious attendance,At least once a month,2018,ree_02_2/gs1datot,0.074253813,28.6955941,0.032491738,0.116015889,1397,Percentage of donations,Percentage of total donations,QC,NA,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.048183818,32.3655559,0.017618257,0.078749379,922,Percentage of donations,Percentage of total donations,AB,NA,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.067314393,13.3730261,0.049670853,0.084957932,2930,Percentage of donations,Percentage of total donations,AT,NA,NA
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.057280553,19.29160668,0.035622287,0.07893882,1412,Percentage of donations,Percentage of total donations,BC,NA,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.106975538,14.39831213,0.076786856,0.137164221,3043,Percentage of donations,Percentage of total donations,ON,NA,NA
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.081452049,25.04461,0.041470061,0.121434036,1456,Percentage of donations,Percentage of total donations,PR,NA,*
+Frequency of religious attendance,At least 3 times a year,2018,ree_02_3/gs1datot,0.107904705,20.12304727,0.065346606,0.150462804,1397,Percentage of donations,Percentage of total donations,QC,NA,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.059415452,29.79125753,0.024722893,0.094108011,922,Percentage of donations,Percentage of total donations,AB,NA,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.111522187,14.92526801,0.078898615,0.144145759,2930,Percentage of donations,Percentage of total donations,AT,NA,NA
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.082102706,18.28954824,0.052671467,0.111533945,1412,Percentage of donations,Percentage of total donations,BC,NA,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.094517941,14.41169448,0.067820023,0.121215859,3043,Percentage of donations,Percentage of total donations,ON,NA,NA
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.072918837,21.4089427,0.042321541,0.103516133,1456,Percentage of donations,Percentage of total donations,PR,NA,*
+Frequency of religious attendance,Once or twice a year,2018,ree_02_4/gs1datot,0.234715802,21.21369935,0.137125462,0.332306141,1397,Percentage of donations,Percentage of total donations,QC,NA,*
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.216997559,14.09917432,0.157032728,0.276962391,922,Percentage of donations,Percentage of total donations,AB,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.224962894,9.208612664,0.184360355,0.265565432,2930,Percentage of donations,Percentage of total donations,AT,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.306857386,9.81289701,0.247839736,0.365875036,1412,Percentage of donations,Percentage of total donations,BC,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.255791703,7.034438661,0.22052507,0.291058335,3043,Percentage of donations,Percentage of total donations,ON,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.165530489,10.84924134,0.130331883,0.200729095,1456,Percentage of donations,Percentage of total donations,PR,NA,NA
+Frequency of religious attendance,Not at all,2018,ree_02_5/gs1datot,0.35678156,9.886726749,0.287645756,0.425917365,1397,Percentage of donations,Percentage of total donations,QC,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.724613324,5.124481753,0.651834613,0.797392035,1013,Percentage of donations,Percentage of total donations,AB,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.711398902,3.319909226,0.665108869,0.757688935,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.721514335,4.521445676,0.657574668,0.785454003,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.70589641,3.091921747,0.663118697,0.748674123,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.669721383,4.864043576,0.605874498,0.733568268,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Marital status,Married/common-law,2018,marstat2_1/gs1datot,0.70004207,4.76550927,0.634656555,0.765427585,1509,Percentage of donations,Percentage of total donations,QC,NA,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.074736193,29.83574,0.031032727,0.118439658,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.09780648,14.90778691,0.069228673,0.126384287,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.100196877,27.62535546,0.045945577,0.154448178,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.0640023,12.53213929,0.048281708,0.079722892,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.095111727,19.20836062,0.059304354,0.130919099,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status,Widowed,2018,marstat2_2/gs1datot,0.078754721,17.47691362,0.051777984,0.105731459,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.066234615,24.56105363,0.034350079,0.098119151,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.081454801,14.09238501,0.058956523,0.103953079,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.083332599,20.2057594,0.050330756,0.116334441,1532,Percentage of donations,Percentage of total donations,BC,NA,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.073669399,13.46210385,0.054231552,0.093107246,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.05996057,20.31655222,0.036084444,0.083836695,1599,Percentage of donations,Percentage of total donations,PR,NA,*
+Marital status,Separated/divorced,2018,marstat2_3/gs1datot,0.071290335,16.81964004,0.047788843,0.094791828,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.134415868,18.99507026,0.084373306,0.184458431,1013,Percentage of donations,Percentage of total donations,AB,NA,*
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.109339817,13.85691917,0.079644148,0.139035486,3212,Percentage of donations,Percentage of total donations,AT,NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.094956189,15.07582929,0.066898456,0.123013922,1532,Percentage of donations,Percentage of total donations,BC,NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.156431891,12.70914272,0.117465549,0.195398233,3289,Percentage of donations,Percentage of total donations,ON,NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.17520632,16.03997143,0.120125367,0.230287274,1599,Percentage of donations,Percentage of total donations,PR,NA,NA
+Marital status,"Single, never married",2018,marstat2_4/gs1datot,0.149912873,20.34733327,0.090127559,0.209698188,1509,Percentage of donations,Percentage of total donations,QC,NA,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.046370128,9.298890082,0.037918946,0.054821311,1103,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.133662774,9.00107873,0.110082268,0.15724328,2186,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.145401968,5.992024871,0.128325738,0.162478197,2080,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.168349369,7.193835006,0.144612685,0.192086054,2132,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.092648214,6.685287692,0.08050859,0.104787838,1285,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.413567547,3.865833622,0.382231969,0.444903124,3368,Percentage of donations,Percentage of total donations,CA,NA,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.043666747,10.5657116,0.034624056,0.052709437,908,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.129361152,10.12208635,0.10369729,0.155025013,1881,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.14326067,6.557131062,0.12484918,0.16167216,1801,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.168769086,7.886032553,0.142683563,0.194854609,1901,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.09520758,7.053098544,0.082046257,0.108368904,1132,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.419734765,4.113742805,0.385892442,0.453577088,3022,Percentage of donations,Percentage of total donations,CA (without QC),NA,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.047724809,30.65975717,0.019046007,0.076403611,1378,Percentage of donations,Percentage of total donations,AB,NA,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.052951086,14.81983459,0.037570732,0.068331439,3894,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.03768879,18.2751577,0.024189174,0.051188406,2072,Percentage of donations,Percentage of total donations,BC,NA,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.04164697,16.07631183,0.02852443,0.054769511,4178,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.048027575,21.82038988,0.027487536,0.068567613,2059,Percentage of donations,Percentage of total donations,PR,NA,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.070004202,15.64216057,0.048542264,0.09146614,1930,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.153430743,33.36174378,0.053105731,0.253755756,1325,Percentage of donations,Percentage of total donations,AB,NA,...
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.176886939,9.99587204,0.142232048,0.211541831,3880,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.107045329,14.6917437,0.076221318,0.137869341,2069,Percentage of donations,Percentage of total donations,BC,NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.118950676,10.98422207,0.093342166,0.144559186,4118,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.132330467,16.86258748,0.088595163,0.176065771,2041,Percentage of donations,Percentage of total donations,PR,NA,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.171269321,16.24102442,0.116751174,0.225787468,1887,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.13248878,18.63682983,0.084093921,0.180883639,1353,Percentage of donations,Percentage of total donations,AB,NA,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.133362194,11.10616871,0.104332324,0.162392064,3923,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.153337519,14.32118397,0.110297203,0.196377835,2068,Percentage of donations,Percentage of total donations,BC,NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.14515967,9.667254347,0.117655585,0.172663756,4173,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.147122757,18.43027473,0.093978082,0.200267431,2071,Percentage of donations,Percentage of total donations,PR,NA,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.164122065,15.33739771,0.114785746,0.213458385,1919,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.190244724,24.63104212,0.098402266,0.282087183,1347,Percentage of donations,Percentage of total donations,AB,NA,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.208441154,10.42389206,0.165855682,0.251026626,3879,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.138759595,15.30500741,0.097135514,0.180383676,2081,Percentage of donations,Percentage of total donations,BC,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.148883345,11.75626397,0.114577862,0.183188828,4198,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.23870482,12.87756109,0.178456784,0.298952857,2039,Percentage of donations,Percentage of total donations,PR,NA,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.164680032,15.54794083,0.114496421,0.214863644,1947,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.075866564,20.05213391,0.046049897,0.105683232,1373,Percentage of donations,Percentage of total donations,AB,NA,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.096651971,14.54591935,0.069096998,0.124206943,3972,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.104669289,16.95787921,0.069880532,0.139458045,2104,Percentage of donations,Percentage of total donations,BC,NA,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.093909825,10.76212404,0.074101073,0.113718578,4250,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.124873241,20.02857597,0.075853891,0.173892591,2107,Percentage of donations,Percentage of total donations,PR,NA,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.070273184,14.44270042,0.050380832,0.090165535,1954,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.400244379,12.07254386,0.30553955,0.494949209,1297,Percentage of donations,Percentage of total donations,AB,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.331706656,8.133499431,0.278828084,0.384585228,3904,Percentage of donations,Percentage of total donations,AT,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.458499478,7.511597183,0.390997076,0.52600188,2023,Percentage of donations,Percentage of total donations,BC,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.451449514,5.769323385,0.40040111,0.502497917,4102,Percentage of donations,Percentage of total donations,ON,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.30894114,10.12995865,0.247602872,0.370279408,2047,Percentage of donations,Percentage of total donations,PR,NA,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.359651196,12.42596386,0.272060155,0.447242237,1937,Percentage of donations,Percentage of total donations,QC,NA,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.041952191,23.78281855,0.02239682,0.061507562,1059,Percentage of donations,Percentage of total donations,10,NL,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.09344843,43.56490799,0.01365688,0.173239981,722,Percentage of donations,Percentage of total donations,11,PE,...
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.046943935,21.70013182,0.026977986,0.066909883,1058,Percentage of donations,Percentage of total donations,12,NS,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.057848917,25.84884594,0.028541032,0.087156802,1055,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.070004202,15.64216057,0.048542264,0.09146614,1930,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.04164697,16.07631183,0.02852443,0.054769511,4178,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.054947863,27.6836963,0.025133676,0.08476205,1096,Percentage of donations,Percentage of total donations,46,MB,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.040623593,34.27461347,0.013333879,0.067913307,963,Percentage of donations,Percentage of total donations,47,SK,...
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.047724809,30.65975717,0.019046007,0.076403611,1378,Percentage of donations,Percentage of total donations,48,AB,*
+Family income category,"Less than $25,000",2018,famincg2_1/gs1datot,0.03768879,18.2751577,0.024189174,0.051188406,2072,Percentage of donations,Percentage of total donations,59,BC,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.178542341,16.16989197,0.121957978,0.235126704,1066,Percentage of donations,Percentage of total donations,10,NL,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.145719563,20.8439432,0.086188199,0.205250927,706,Percentage of donations,Percentage of total donations,11,PE,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.169471502,17.6866462,0.110723885,0.22821912,1057,Percentage of donations,Percentage of total donations,12,NS,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.190846438,17.42068889,0.125683978,0.256008899,1051,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.171269321,16.24102442,0.116751174,0.225787468,1887,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.118950676,10.98422207,0.093342166,0.144559186,4118,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.160950369,23.41556651,0.087084343,0.234816395,1086,Percentage of donations,Percentage of total donations,46,MB,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.101710177,25.21993439,0.051434671,0.151985683,955,Percentage of donations,Percentage of total donations,47,SK,*
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.153430743,33.36174378,0.053105731,0.253755756,1325,Percentage of donations,Percentage of total donations,48,AB,...
+Family income category,"$25,000 to $49,999",2018,famincg2_2/gs1datot,0.107045329,14.6917437,0.076221318,0.137869341,2069,Percentage of donations,Percentage of total donations,59,BC,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.13616655,22.68835695,0.075615515,0.196717585,1072,Percentage of donations,Percentage of total donations,10,NL,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.143328866,22.21935917,0.080910372,0.20574736,713,Percentage of donations,Percentage of total donations,11,PE,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.12130394,19.78017581,0.074276304,0.168331576,1071,Percentage of donations,Percentage of total donations,12,NS,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.14371706,18.52758949,0.091528497,0.195905622,1067,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.164122065,15.33739771,0.114785746,0.213458385,1919,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.14515967,9.667254347,0.117655585,0.172663756,4173,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.18181064,24.3959108,0.094877689,0.268743591,1097,Percentage of donations,Percentage of total donations,46,MB,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.110010364,20.9845354,0.064764274,0.155256454,974,Percentage of donations,Percentage of total donations,47,SK,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.13248878,18.63682983,0.084093921,0.180883639,1353,Percentage of donations,Percentage of total donations,48,AB,*
+Family income category,"$50,000 to $74,999",2018,famincg2_3/gs1datot,0.153337519,14.32118397,0.110297203,0.196377835,2068,Percentage of donations,Percentage of total donations,59,BC,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.154558268,18.856828,0.097435536,0.211681001,1056,Percentage of donations,Percentage of total donations,10,NL,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.305904469,17.47349837,0.201140058,0.41066888,707,Percentage of donations,Percentage of total donations,11,PE,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.229334481,17.30739009,0.151539957,0.307129006,1061,Percentage of donations,Percentage of total donations,12,NS,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.194691003,19.85292526,0.118934751,0.270447256,1055,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.164680032,15.54794083,0.114496421,0.214863644,1947,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.148883345,11.75626397,0.114577862,0.183188828,4198,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.237494684,17.1105059,0.157848525,0.317140842,1095,Percentage of donations,Percentage of total donations,46,MB,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.23999954,20.85218174,0.141912867,0.338086212,944,Percentage of donations,Percentage of total donations,47,SK,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.190244724,24.63104212,0.098402266,0.282087183,1347,Percentage of donations,Percentage of total donations,48,AB,*
+Family income category,"$75,000 to $99,999",2018,famincg2_4/gs1datot,0.138759595,15.30500741,0.097135514,0.180383676,2081,Percentage of donations,Percentage of total donations,59,BC,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.088420279,23.45353683,0.047775168,0.12906539,1086,Percentage of donations,Percentage of total donations,10,NL,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.081617209,35.67784262,0.024544509,0.138689909,727,Percentage of donations,Percentage of total donations,11,PE,...
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.101111182,23.1719694,0.0551903,0.147032065,1080,Percentage of donations,Percentage of total donations,12,NS,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.099145954,27.81362456,0.045097824,0.153194084,1079,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.070273184,14.44270042,0.050380832,0.090165535,1954,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.093909825,10.76212404,0.074101073,0.113718578,4250,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.12414435,24.80797215,0.063781975,0.184506724,1121,Percentage of donations,Percentage of total donations,46,MB,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.125653078,31.57827112,0.047883531,0.203422626,986,Percentage of donations,Percentage of total donations,47,SK,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.075866564,20.05213391,0.046049897,0.105683232,1373,Percentage of donations,Percentage of total donations,48,AB,*
+Family income category,"$100,000 to $124,999",2018,famincg2_5/gs1datot,0.104669289,16.95787921,0.069880532,0.139458045,2104,Percentage of donations,Percentage of total donations,59,BC,*
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.400360371,11.27916783,0.311853654,0.488867088,1053,Percentage of donations,Percentage of total donations,10,NL,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.229981462,16.85948948,0.153986406,0.305976518,723,Percentage of donations,Percentage of total donations,11,PE,*
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.33183496,12.47955225,0.250669877,0.413000042,1068,Percentage of donations,Percentage of total donations,12,NS,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.313750628,17.85549326,0.20395007,0.423551185,1060,Percentage of donations,Percentage of total donations,13,NB,*
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.359651196,12.42596386,0.272060155,0.447242237,1937,Percentage of donations,Percentage of total donations,24,QC,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.451449514,5.769323385,0.40040111,0.502497917,4102,Percentage of donations,Percentage of total donations,35,ON,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.240652095,15.1334293,0.169272334,0.312031856,1105,Percentage of donations,Percentage of total donations,46,MB,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.382003248,13.32387476,0.282245718,0.481760778,942,Percentage of donations,Percentage of total donations,47,SK,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.400244379,12.07254386,0.30553955,0.494949209,1297,Percentage of donations,Percentage of total donations,48,AB,
+Family income category,"$125,000 and more",2018,famincg2_6/gs1datot,0.458499478,7.511597183,0.390997076,0.52600188,2023,Percentage of donations,Percentage of total donations,59,BC,

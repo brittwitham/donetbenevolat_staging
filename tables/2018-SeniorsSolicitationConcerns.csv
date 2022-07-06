@@ -1,0 +1,241 @@
+Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+Senior,15 to 64,2018,ng_140a,0.3035805425556106,6.138455648245736,0.2670563060648591,0.34010477904636216,1470,Time of day,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140a,0.30643080771365483,11.1872565104629,0.23924088941427846,0.3736207260130312,473,Time of day,Older Canadians Reasons for Concers About Requests,CA,
+Senior,75 plus,2018,ng_140a,0.2923338137892425,15.44494796849579,0.20383986126549414,0.38082776631299087,270,Time of day,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140b,0.4879067679030326,4.194840092371533,0.44779236394991817,0.528021171856147,1470,Number of requests,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140b,0.5740446643610827,5.733297348176729,0.5095389421530849,0.6385503865690805,473,Number of requests,Older Canadians Reasons for Concers About Requests,CA,
+Senior,75 plus,2018,ng_140b,0.5970214970823045,7.554813071767111,0.5086195596369455,0.6854234345276634,270,Number of requests,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140c,0.42799553127214,4.924196333259932,0.3866886234056715,0.46930243913860853,1470,Tone,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140c,0.35521308501569687,9.221255155372019,0.29101425907331674,0.419411910958077,473,Tone,Older Canadians Reasons for Concers About Requests,CA,
+Senior,75 plus,2018,ng_140c,0.41800600857378817,10.973254745842242,0.3281046867815199,0.5079073303660565,270,Tone,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140d,0.5118354802157544,3.9143350920168887,0.4725676883855654,0.5511032720459434,1470,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140d,0.5503650445262426,6.454241867621,0.4807434172515049,0.6199866718009803,473,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA,
+Senior,75 plus,2018,ng_140d,0.5187623357409982,9.0617218218302,0.42662678121323877,0.6108978902687575,270,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140e,0.5218068227193638,4.090279425904756,0.4799746114693785,0.5636390339693492,1470,Method of contact,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140e,0.5228313912811967,6.255612750470495,0.4587282071480531,0.5869345754143402,473,Method of contact,Older Canadians Reasons for Concers About Requests,CA,
+Senior,75 plus,2018,ng_140e,0.42659630978864604,9.992051425704668,0.34305142857134274,0.5101411910059493,270,Method of contact,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140f,0.06584026768433825,13.62352894228452,0.04825984560429493,0.08342068976438156,1470,Other,Older Canadians Reasons for Concers About Requests,CA,
+Senior,65 to 74,2018,ng_140f,0.08057364229171363,19.864667829723434,0.04920307340073646,0.1119442111826908,473,Other,Older Canadians Reasons for Concers About Requests,CA,*
+Senior,75 plus,2018,ng_140f,0.11072215850442804,22.57513300864325,0.061731536612409474,0.1597127803964466,270,Other,Older Canadians Reasons for Concers About Requests,CA,*
+Senior2,15 to 64,2018,ng_140a,0.3035805425556106,6.138455648245736,0.2670563060648591,0.34010477904636216,1470,Time of day,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140a,0.3007642639579009,9.652809862650917,0.24386219259809935,0.3576663353177024,743,Time of day,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,15 to 64,2018,ng_140b,0.4879067679030326,4.194840092371533,0.44779236394991817,0.528021171856147,1470,Number of requests,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140b,0.5832806212382414,4.7886213869309895,0.5285366700637762,0.6380245724127066,743,Number of requests,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,15 to 64,2018,ng_140c,0.42799553127214,4.924196333259932,0.3866886234056715,0.46930243913860853,1470,Tone,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140c,0.38045384562051265,7.396364789762779,0.3253009407003087,0.4356067505407166,743,Tone,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,15 to 64,2018,ng_140d,0.5118354802157544,3.9143350920168887,0.4725676883855654,0.5511032720459434,1470,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140d,0.5376617594789376,5.302597137585447,0.48178311362771314,0.593540405330162,743,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,15 to 64,2018,ng_140e,0.5218068227193638,4.090279425904756,0.4799746114693785,0.5636390339693492,1470,Method of contact,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140e,0.4841479455026092,5.368860816985077,0.4332021521497569,0.5350937388554615,743,Method of contact,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,15 to 64,2018,ng_140f,0.06584026768433825,13.62352894228452,0.04825984560429493,0.08342068976438156,1470,Other,Older Canadians Reasons for Concers About Requests,CA,
+Senior2,65 plus,2018,ng_140f,0.09269238811840759,15.16729033351317,0.06513740415595616,0.12024737208085902,743,Other,Older Canadians Reasons for Concers About Requests,CA,
+Senior,15 to 64,2018,ng_140a,0.31707246503181574,6.4489115983999366,0.27699566443933554,0.35714926562429594,1353,Time of day,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140a,0.30800476867209947,11.382971393704985,0.23928824574751928,0.37672129159667966,450,Time of day,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,75 plus,2018,ng_140a,0.25713085253261203,14.765091380695717,0.18271963340632252,0.33154207165890154,248,Time of day,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140b,0.4866974063302116,4.520482490827744,0.4435760994774231,0.529818713183,1353,Number of requests,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140b,0.5635539707931261,6.188658515006653,0.4951974225155347,0.6319105190707175,450,Number of requests,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,75 plus,2018,ng_140b,0.5902938061874385,7.623776269292308,0.502090175913794,0.6784974364610831,248,Number of requests,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140c,0.4436565943330296,4.899385639377529,0.4010539401382113,0.48625924852784796,1353,Tone,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140c,0.35555358617509997,9.418324419951984,0.28991989937547935,0.4211872729747206,450,Tone,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,75 plus,2018,ng_140c,0.4458453886038953,9.823794972063219,0.36000104977981523,0.5316897274279754,248,Tone,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140d,0.5335573296581058,4.0069722972724025,0.49165429064707494,0.5754603686691366,1353,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140d,0.5528684011684297,6.622441740376166,0.48110747979050666,0.6246293225463528,450,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,75 plus,2018,ng_140d,0.5531596931165971,8.055949535821672,0.46581925721633455,0.6405001290168596,248,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140e,0.5457769517347324,4.018737050738406,0.5027883941495228,0.588765509319942,1353,Method of contact,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140e,0.5532172361263428,6.046580182472517,0.48765502228889496,0.6187794499637905,450,Method of contact,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,75 plus,2018,ng_140e,0.39214088287659005,10.19345004061831,0.3137958599408901,0.47048590581229,248,Method of contact,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140f,0.06352263444676394,13.937111180365887,0.046170641731976936,0.08087462716155094,1353,Other,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,65 to 74,2018,ng_140f,0.08599991105305058,20.113828849620756,0.05209669920070003,0.11990312290540112,450,Other,Older Canadians Reasons for Concers About Requests,CA (without QC),*
+Senior,75 plus,2018,ng_140f,0.10043831180753914,22.751027570186434,0.05565166868742728,0.14522495492765097,248,Other,Older Canadians Reasons for Concers About Requests,CA (without QC),*
+Senior2,15 to 64,2018,ng_140a,0.31707246503181574,6.4489115983999366,0.27699566443933554,0.35714926562429594,1353,Time of day,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140a,0.2894720435731079,9.510595101598385,0.235513227663973,0.34343085948224283,698,Time of day,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,15 to 64,2018,ng_140b,0.4866974063302116,4.520482490827744,0.4435760994774231,0.529818713183,1353,Number of requests,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140b,0.5732949550962871,4.908306531183435,0.5181433840390548,0.6284465261535195,698,Number of requests,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,15 to 64,2018,ng_140c,0.4436565943330296,4.899385639377529,0.4010539401382113,0.48625924852784796,1353,Tone,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140c,0.3884457493912613,7.0283533854605436,0.3349361063046619,0.4419553924778607,698,Tone,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,15 to 64,2018,ng_140d,0.5335573296581058,4.0069722972724025,0.49165429064707494,0.5754603686691366,1353,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140d,0.5529745151460549,5.252513020198592,0.49604724674059647,0.6099017835515133,698,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,15 to 64,2018,ng_140e,0.5457769517347324,4.018737050738406,0.5027883941495228,0.588765509319942,1353,Method of contact,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140e,0.4945391550731588,5.4776890643217,0.44144506896356456,0.5476332411827531,698,Method of contact,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,15 to 64,2018,ng_140f,0.06352263444676394,13.937111180365887,0.046170641731976936,0.08087462716155094,1353,Other,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior2,65 plus,2018,ng_140f,0.0912596380872019,14.906212076206641,0.06459755183951235,0.11792172433489145,698,Other,Older Canadians Reasons for Concers About Requests,CA (without QC),
+Senior,15 to 64,2018,ng_140a,0.29941592019551627,13.810148929158576,0.2183718318136653,0.3804600085773673,171,Time of day,Older Canadians Reasons for Concers About Requests,AB,
+Senior,65 to 74,2018,ng_140a,0.340301768914098,27.488271013422548,0.15696071580582574,0.5236428220223703,29,Time of day,Older Canadians Reasons for Concers About Requests,AB,*
+Senior,75 plus,2018,ng_140a,0.31262657763912105,39.38536697194158,0.0712979274754057,0.5539552278028363,22,Time of day,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,15 to 64,2018,ng_140a,0.3411842189493467,9.26980328408197,0.2791962303855592,0.4031722075131342,380,Time of day,Older Canadians Reasons for Concers About Requests,AT,
+Senior,65 to 74,2018,ng_140a,0.2415694633939289,17.38152807117783,0.15927358600900515,0.32386534077885265,141,Time of day,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,75 plus,2018,ng_140a,0.26859143516685,27.645754283252593,0.12305601820693524,0.4141268521267648,72,Time of day,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,15 to 64,2018,ng_140a,0.22421248769259663,16.81394182614667,0.15032388923260603,0.29810108615258724,222,Time of day,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,65 to 74,2018,ng_140a,0.3317944256369834,22.578116005573854,0.1849677802327475,0.4786210710412193,72,Time of day,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,75 plus,2018,ng_140a,0.37443349628582945,28.510012037682525,0.165205312639607,0.5836616799320519,42,Time of day,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,15 to 64,2018,ng_140a,0.35724839799200864,9.814543443433669,0.2885275543019247,0.42596924168209255,384,Time of day,Older Canadians Reasons for Concers About Requests,ON,
+Senior,65 to 74,2018,ng_140a,0.29105146541651966,19.201350545201155,0.18151728637226955,0.4005856444607698,128,Time of day,Older Canadians Reasons for Concers About Requests,ON,*
+Senior,75 plus,2018,ng_140a,0.15234642075910074,29.214339630700316,0.06511430217867685,0.2395785393395246,71,Time of day,Older Canadians Reasons for Concers About Requests,ON,*
+Senior,15 to 64,2018,ng_140a,0.33659616782619295,12.420507675922774,0.25465604591386937,0.41853628973851653,196,Time of day,Older Canadians Reasons for Concers About Requests,PR,
+Senior,65 to 74,2018,ng_140a,0.38658357446557684,17.034523390151705,0.257514714126701,0.5156524348044527,80,Time of day,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,75 plus,2018,ng_140a,0.32959127014310075,26.664394622341764,0.1573427421613641,0.5018397981248374,41,Time of day,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,15 to 64,2018,ng_140a,0.22801375178231598,23.12636903820015,0.12466229960215293,0.33136520396247904,117,Time of day,Older Canadians Reasons for Concers About Requests,QC,*
+Senior,65 to 74,2018,ng_140a,0.29051644081262556,40.77972592641649,0.0583159632935388,0.5227169183317123,23,Time of day,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,75 plus,2018,ng_140a,0.4141556168130155,33.661256186318866,0.14091707068418285,0.6873941629418481,22,Time of day,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,15 to 64,2018,ng_140b,0.4393551250792041,11.494265428460775,0.3403756811528412,0.538334569005567,171,Number of requests,Older Canadians Reasons for Concers About Requests,AB,
+Senior,65 to 74,2018,ng_140b,0.6356470711548048,15.914282856616484,0.43737971559912303,0.8339144267104865,29,Number of requests,Older Canadians Reasons for Concers About Requests,AB,
+Senior,75 plus,2018,ng_140b,0.40854626247938375,34.35365655434199,0.13346418070964644,0.6836283442491211,22,Number of requests,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,15 to 64,2018,ng_140b,0.4631413807022439,7.500287498335076,0.39505823901914117,0.5312245223853467,380,Number of requests,Older Canadians Reasons for Concers About Requests,AT,
+Senior,65 to 74,2018,ng_140b,0.49716026926942974,10.737903320894446,0.3925283973744212,0.6017921411644382,141,Number of requests,Older Canadians Reasons for Concers About Requests,AT,
+Senior,75 plus,2018,ng_140b,0.5358600407497645,15.346603677823778,0.3746798217540204,0.6970402597455085,72,Number of requests,Older Canadians Reasons for Concers About Requests,AT,
+Senior,15 to 64,2018,ng_140b,0.4018401389819071,10.979587677565117,0.3153657628470505,0.48831451511676377,222,Number of requests,Older Canadians Reasons for Concers About Requests,BC,
+Senior,65 to 74,2018,ng_140b,0.6127931656569549,11.352255040291606,0.47644661875447414,0.7491397125594356,72,Number of requests,Older Canadians Reasons for Concers About Requests,BC,
+Senior,75 plus,2018,ng_140b,0.7209715571615098,11.060191277288482,0.5646823958415567,0.877260718481463,42,Number of requests,Older Canadians Reasons for Concers About Requests,BC,
+Senior,15 to 64,2018,ng_140b,0.5488287139862638,6.377294218155691,0.4802291477270913,0.6174282802454362,384,Number of requests,Older Canadians Reasons for Concers About Requests,ON,
+Senior,65 to 74,2018,ng_140b,0.5435871827865953,10.665567630464112,0.4299550199657691,0.6572193456074216,128,Number of requests,Older Canadians Reasons for Concers About Requests,ON,
+Senior,75 plus,2018,ng_140b,0.6420512156276705,10.140308609905741,0.5144458500406321,0.7696565812147089,71,Number of requests,Older Canadians Reasons for Concers About Requests,ON,
+Senior,15 to 64,2018,ng_140b,0.47635834963298046,9.035821235033572,0.39199583757687706,0.5607208616890839,196,Number of requests,Older Canadians Reasons for Concers About Requests,PR,
+Senior,65 to 74,2018,ng_140b,0.5511604917404058,11.482414912852187,0.42712116341924855,0.6751998200615631,80,Number of requests,Older Canadians Reasons for Concers About Requests,PR,
+Senior,75 plus,2018,ng_140b,0.4724497400872566,18.632257190865726,0.2999179311435465,0.6449815490309667,41,Number of requests,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,15 to 64,2018,ng_140b,0.49468027057500547,12.06042364257835,0.37774776811376815,0.6116127730362427,117,Number of requests,Older Canadians Reasons for Concers About Requests,QC,
+Senior,65 to 74,2018,ng_140b,0.6801163846226218,16.378297981439346,0.4617930797738928,0.8984396894713509,23,Number of requests,Older Canadians Reasons for Concers About Requests,QC,
+Senior,75 plus,2018,ng_140b,0.6203030451607298,22.27138284483514,0.34953389136650104,0.8910721989549585,22,Number of requests,Older Canadians Reasons for Concers About Requests,QC,*
+Senior,15 to 64,2018,ng_140c,0.47039948283914124,11.778201795906963,0.36180846160333974,0.5789905040749428,171,Tone,Older Canadians Reasons for Concers About Requests,AB,
+Senior,65 to 74,2018,ng_140c,0.5587379221481131,18.458654741481133,0.35659604886099516,0.7608797954352311,29,Tone,Older Canadians Reasons for Concers About Requests,AB,*
+Senior,75 plus,2018,ng_140c,0.6628691100139315,19.32742301358424,0.41176731099240327,0.9139709090354596,22,Tone,Older Canadians Reasons for Concers About Requests,AB,*
+Senior,15 to 64,2018,ng_140c,0.4603246337156732,7.62200434445209,0.3915574087352213,0.5290918586961251,380,Tone,Older Canadians Reasons for Concers About Requests,AT,
+Senior,65 to 74,2018,ng_140c,0.4114739703448744,12.024940282581802,0.314495933915611,0.5084520067741377,141,Tone,Older Canadians Reasons for Concers About Requests,AT,
+Senior,75 plus,2018,ng_140c,0.40783945825699985,18.610702386367006,0.2590746878256497,0.55660422868835,72,Tone,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,15 to 64,2018,ng_140c,0.4200352912353595,11.941471955398958,0.32172664056200817,0.5183439419087108,222,Tone,Older Canadians Reasons for Concers About Requests,BC,
+Senior,65 to 74,2018,ng_140c,0.23193620752383015,23.986716096228438,0.12289580714231667,0.3409766079053436,72,Tone,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,75 plus,2018,ng_140c,0.2856019597858343,29.82503427781117,0.11865049810221065,0.452553421469458,42,Tone,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,15 to 64,2018,ng_140c,0.4386139831581677,8.023549619095578,0.3696381259020464,0.5075898404142889,384,Tone,Older Canadians Reasons for Concers About Requests,ON,
+Senior,65 to 74,2018,ng_140c,0.3565903565321674,16.146133107735743,0.2437443450567474,0.4694363680075874,128,Tone,Older Canadians Reasons for Concers About Requests,ON,
+Senior,75 plus,2018,ng_140c,0.432230439333894,16.335356666459898,0.29384446983833645,0.5706164088294515,71,Tone,Older Canadians Reasons for Concers About Requests,ON,
+Senior,15 to 64,2018,ng_140c,0.45021965912694195,9.908764987373088,0.3627832982384269,0.537656020015457,196,Tone,Older Canadians Reasons for Concers About Requests,PR,
+Senior,65 to 74,2018,ng_140c,0.3736694877355724,16.97641834234533,0.24933780930816973,0.4980011661629751,80,Tone,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,75 plus,2018,ng_140c,0.501915925600655,18.297301770637294,0.3219185729326299,0.6819132782686801,41,Tone,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,15 to 64,2018,ng_140c,0.34027961994098554,16.67063680111327,0.22909717506684443,0.45146206481512663,117,Tone,Older Canadians Reasons for Concers About Requests,QC,*
+Senior,65 to 74,2018,ng_140c,0.35177026748461804,36.971719302532414,0.09686614036084751,0.6066743946083886,23,Tone,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,75 plus,2018,ng_140c,0.3216662874461261,40.57255188724637,0.06587487385914303,0.5774577010331091,22,Tone,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,15 to 64,2018,ng_140d,0.5722159930011728,8.926307462718054,0.4721054251733375,0.672326560829008,171,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AB,
+Senior,65 to 74,2018,ng_140d,0.5688496835104713,18.915709354159045,0.3579537313662994,0.7797456356546432,29,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AB,*
+Senior,75 plus,2018,ng_140d,0.7236213972495029,15.097732249288958,0.5094945066852912,0.9377482878137147,22,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AB,
+Senior,15 to 64,2018,ng_140d,0.48190615412622834,7.27875928842429,0.4131569110812118,0.5506553971712449,380,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AT,
+Senior,65 to 74,2018,ng_140d,0.4571762228834878,11.12678909199611,0.3574747481211084,0.5568776976458671,141,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AT,
+Senior,75 plus,2018,ng_140d,0.39932077314994374,19.55410617722598,0.24627971374685806,0.5523618325530294,72,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,15 to 64,2018,ng_140d,0.4701971858515931,9.630411516881676,0.3814462457818325,0.5589481259213537,222,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,BC,
+Senior,65 to 74,2018,ng_140d,0.6099881677451952,11.578997975026619,0.4715548970571809,0.7484214384332094,72,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,BC,
+Senior,75 plus,2018,ng_140d,0.5187327312839525,19.264630922936483,0.3228697159086469,0.7145957466592581,42,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,15 to 64,2018,ng_140d,0.5615639667862653,6.312474071482596,0.4920860270787538,0.6310419064937768,384,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,ON,
+Senior,65 to 74,2018,ng_140d,0.5541645968834173,10.731905839416925,0.43760079025356724,0.6707284035132675,128,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,ON,
+Senior,75 plus,2018,ng_140d,0.5736231216607663,11.842190413221745,0.4404836652246612,0.7067625780968715,71,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,ON,
+Senior,15 to 64,2018,ng_140d,0.4808235533607984,9.237695508042705,0.39376780211082485,0.567879304610772,196,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,PR,
+Senior,65 to 74,2018,ng_140d,0.49182502399821787,14.338914746100334,0.35360371694730175,0.630046331049134,80,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,PR,
+Senior,75 plus,2018,ng_140d,0.3826975325313474,21.628922376324454,0.22046474324696416,0.5449303218157306,41,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,15 to 64,2018,ng_140d,0.3901737633689445,15.446717208223456,0.2720486198034268,0.5082989069344621,117,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,QC,
+Senior,65 to 74,2018,ng_140d,0.5250535297303083,24.429430332359615,0.2736536802904243,0.7764533791701922,23,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,QC,*
+Senior,75 plus,2018,ng_140d,0.3997283697004487,33.43282634156586,0.13779781913157424,0.6616589202693233,22,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,15 to 64,2018,ng_140e,0.6241692807826617,8.255838125345317,0.5231715419927998,0.7251670195725235,171,Method of contact,Older Canadians Reasons for Concers About Requests,AB,
+Senior,65 to 74,2018,ng_140e,0.5810667241258047,17.161781654887633,0.38561636680917033,0.7765170814424391,29,Method of contact,Older Canadians Reasons for Concers About Requests,AB,*
+Senior,75 plus,2018,ng_140e,0.3301189327638353,38.797366683055564,0.07909173797644126,0.5811461275512293,22,Method of contact,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,15 to 64,2018,ng_140e,0.5356668802223127,6.4067494294312075,0.46840320003803443,0.602930560406591,380,Method of contact,Older Canadians Reasons for Concers About Requests,AT,
+Senior,65 to 74,2018,ng_140e,0.570021915412401,8.59254780315152,0.4740240445105296,0.6660197863142724,141,Method of contact,Older Canadians Reasons for Concers About Requests,AT,
+Senior,75 plus,2018,ng_140e,0.3652425337438373,21.905884209948255,0.2084265865329004,0.5220584809547743,72,Method of contact,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,15 to 64,2018,ng_140e,0.4703532632116572,9.9185336522379135,0.37891673588592506,0.5617897905373893,222,Method of contact,Older Canadians Reasons for Concers About Requests,BC,
+Senior,65 to 74,2018,ng_140e,0.543268868451241,13.166806412033882,0.40307037067546536,0.6834673662270166,72,Method of contact,Older Canadians Reasons for Concers About Requests,BC,
+Senior,75 plus,2018,ng_140e,0.20908124475867634,32.144632238959815,0.07735520677171479,0.3408072827456379,42,Method of contact,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,15 to 64,2018,ng_140e,0.5612998724592877,6.488214390322974,0.4899212394508955,0.6326785054676799,384,Method of contact,Older Canadians Reasons for Concers About Requests,ON,
+Senior,65 to 74,2018,ng_140e,0.5413813500521749,10.473903362289539,0.4302440237893418,0.652518676315008,128,Method of contact,Older Canadians Reasons for Concers About Requests,ON,
+Senior,75 plus,2018,ng_140e,0.5111608961880113,13.315235727252144,0.37776128206725035,0.6445605103087723,71,Method of contact,Older Canadians Reasons for Concers About Requests,ON,
+Senior,15 to 64,2018,ng_140e,0.45579988445699476,9.304924672087505,0.37267421356656893,0.5389255553474206,196,Method of contact,Older Canadians Reasons for Concers About Requests,PR,
+Senior,65 to 74,2018,ng_140e,0.5975644249836776,10.237099747001075,0.4776670263401795,0.7174618236271757,80,Method of contact,Older Canadians Reasons for Concers About Requests,PR,
+Senior,75 plus,2018,ng_140e,0.449024700780544,20.794775176896934,0.2660156567250139,0.6320337448360741,41,Method of contact,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,15 to 64,2018,ng_140e,0.3875527364460544,15.32356252432893,0.27115657895930895,0.5039488939327998,117,Method of contact,Older Canadians Reasons for Concers About Requests,QC,
+Senior,65 to 74,2018,ng_140e,0.21559919414890866,43.9695714193401,0.029798446708361542,0.4013999415894558,23,Method of contact,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,75 plus,2018,ng_140e,0.5458312286859845,24.64079993455608,0.28222159782376943,0.8094408595481997,22,Method of contact,Older Canadians Reasons for Concers About Requests,QC,*
+Senior,15 to 64,2018,ng_140f,0.06362677130779959,36.318926873920844,0.01833482490794376,0.10891871770765542,171,Other,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,65 to 74,2018,ng_140f,0.06835850705844815,69.89119304695426,-0.02528186146537005,0.16199887558226633,29,Other,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,75 plus,2018,ng_140f,0.047378644777670606,110.46091473332595,-0.055195843800345645,0.14995313335568686,22,Other,Older Canadians Reasons for Concers About Requests,AB,...
+Senior,15 to 64,2018,ng_140f,0.07258124914597172,23.489229836833562,0.03916626136202588,0.10599623692991755,380,Other,Older Canadians Reasons for Concers About Requests,AT,*
+Senior,65 to 74,2018,ng_140f,0.04880513725786629,42.48949455963178,0.008161254078077343,0.08944902043765524,141,Other,Older Canadians Reasons for Concers About Requests,AT,...
+Senior,75 plus,2018,ng_140f,0.11574382305982646,50.4729383578684,0.0012440824646787196,0.2302435636549742,72,Other,Older Canadians Reasons for Concers About Requests,AT,...
+Senior,15 to 64,2018,ng_140f,0.07499638336498549,32.44358389481648,0.02730749114768275,0.12268527558228823,222,Other,Older Canadians Reasons for Concers About Requests,BC,*
+Senior,65 to 74,2018,ng_140f,0.10108102532366249,44.43723106822691,0.013044129825153364,0.1891179208221716,72,Other,Older Canadians Reasons for Concers About Requests,BC,...
+Senior,75 plus,2018,ng_140f,0.11286113836873782,48.17938172590127,0.006286531335388285,0.21943574540208735,42,Other,Older Canadians Reasons for Concers About Requests,BC,...
+Senior,15 to 64,2018,ng_140f,0.04728138543028798,27.533484988378348,0.021766156494121138,0.07279661436645482,384,Other,Older Canadians Reasons for Concers About Requests,ON,*
+Senior,65 to 74,2018,ng_140f,0.08394173276312598,30.820593436638454,0.03323483778130045,0.1346486277449515,128,Other,Older Canadians Reasons for Concers About Requests,ON,*
+Senior,75 plus,2018,ng_140f,0.099882196705127907,34.419099194678424,0.032501472235450385,0.16726292117480543,71,Other,Older Canadians Reasons for Concers About Requests,ON,...
+Senior,15 to 64,2018,ng_140f,0.12324073524979975,24.614945526119346,0.06378397370027639,0.18269749679932312,196,Other,Older Canadians Reasons for Concers About Requests,PR,*
+Senior,65 to 74,2018,ng_140f,0.12169917962329374,33.83304640708032,0.04099856430207639,0.2023997949445111,80,Other,Older Canadians Reasons for Concers About Requests,PR,...
+Senior,75 plus,2018,ng_140f,0.1636540823674142,39.37622002147748,0.037352451799799985,0.2899557129350284,41,Other,Older Canadians Reasons for Concers About Requests,PR,...
+Senior,15 to 64,2018,ng_140f,0.0788210794449964,39.59092091778457,0.017658460533082773,0.13998369835691005,117,Other,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,65 to 74,2018,ng_140f,0.02570847457062732,116.97054356037076,-0.03323027359097451,0.08464722273222915,23,Other,Older Canadians Reasons for Concers About Requests,QC,...
+Senior,75 plus,2018,ng_140f,0.14630998128735123,58.95462794209514,-0.022749662160753442,0.31536962473545593,22,Other,Older Canadians Reasons for Concers About Requests,QC,...
+Senior2,15 to 64,2018,ng_140a,0.29941592019551627,13.810148929158576,0.2183718318136653,0.3804600085773673,171,Time of day,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,65 plus,2018,ng_140a,0.32588991911899673,23.240782854182264,0.17744348475279953,0.47433635348519393,51,Time of day,Older Canadians Reasons for Concers About Requests,AB,*
+Senior2,15 to 64,2018,ng_140a,0.3411842189493467,9.26980328408197,0.2791962303855592,0.4031722075131342,380,Time of day,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,65 plus,2018,ng_140a,0.2522056981502521,15.572465193957527,0.17522880930385407,0.32918258699665015,213,Time of day,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,15 to 64,2018,ng_140a,0.22421248769259663,16.81394182614667,0.15032388923260603,0.29810108615258724,222,Time of day,Older Canadians Reasons for Concers About Requests,BC,*
+Senior2,65 plus,2018,ng_140a,0.347162074512237,18.536885878630656,0.22103243858669253,0.4732917104377815,114,Time of day,Older Canadians Reasons for Concers About Requests,BC,*
+Senior2,15 to 64,2018,ng_140a,0.35724839799200864,9.814543443433669,0.2885275543019247,0.42596924168209255,384,Time of day,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,65 plus,2018,ng_140a,0.24705729076702165,16.8833353062674,0.16530423186066662,0.3288103496733767,199,Time of day,Older Canadians Reasons for Concers About Requests,ON,*
+Senior2,15 to 64,2018,ng_140a,0.33659616782619295,12.420507675922774,0.25465604591386937,0.41853628973851653,196,Time of day,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,65 plus,2018,ng_140a,0.36576596314310783,14.413495829203399,0.26243732465511344,0.4690946016311022,121,Time of day,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,15 to 64,2018,ng_140a,0.22801375178231598,23.12636903820015,0.12466229960215293,0.33136520396247904,117,Time of day,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,65 plus,2018,ng_140a,0.36792323807016974,26.450550753436747,0.17718400628661923,0.5586624698537203,45,Time of day,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,15 to 64,2018,ng_140b,0.4393551250792041,11.494265428460775,0.3403756811528412,0.538334569005567,171,Number of requests,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,65 plus,2018,ng_140b,0.5173843747760634,17.106928234060423,0.3439107580261745,0.6908579915259523,51,Number of requests,Older Canadians Reasons for Concers About Requests,AB,*
+Senior2,15 to 64,2018,ng_140b,0.4631413807022439,7.500287498335076,0.39505823901914117,0.5312245223853467,380,Number of requests,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,65 plus,2018,ng_140b,0.5123930530921628,9.024256735861403,0.42176497580375083,0.6030211303805747,213,Number of requests,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,15 to 64,2018,ng_140b,0.4018401389819071,10.979587677565117,0.3153657628470505,0.48831451511676377,222,Number of requests,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,65 plus,2018,ng_140b,0.6517819970558096,8.319346852439251,0.5455049000469087,0.7580590940647106,114,Number of requests,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,15 to 64,2018,ng_140b,0.5488287139862638,6.377294218155691,0.4802291477270913,0.6174282802454362,384,Number of requests,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,65 plus,2018,ng_140b,0.5748177978532873,7.862850470552384,0.4862331803566137,0.663402415349961,199,Number of requests,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,15 to 64,2018,ng_140b,0.47635834963298046,9.035821235033572,0.39199583757687706,0.5607208616890839,196,Number of requests,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,65 plus,2018,ng_140b,0.5224097708440683,9.79490569869837,0.42211930668541864,0.6227002350027179,121,Number of requests,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,15 to 64,2018,ng_140b,0.49468027057500547,12.06042364257835,0.37774776811376815,0.6116127730362427,117,Number of requests,Older Canadians Reasons for Concers About Requests,QC,
+Senior2,65 plus,2018,ng_140b,0.642669038313805,15.141086192661069,0.4519506797445032,0.8333873968831067,45,Number of requests,Older Canadians Reasons for Concers About Requests,QC,
+Senior2,15 to 64,2018,ng_140c,0.47039948283914124,11.778201795906963,0.36180846160333974,0.5789905040749428,171,Tone,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,65 plus,2018,ng_140c,0.6129642154227164,12.92875414303842,0.45763974226106385,0.7682886885843689,51,Tone,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,15 to 64,2018,ng_140c,0.4603246337156732,7.62200434445209,0.3915574087352213,0.5290918586961251,380,Tone,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,65 plus,2018,ng_140c,0.4100433743796285,10.479393904432484,0.32582360362079166,0.49426314513846537,213,Tone,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,15 to 64,2018,ng_140c,0.4200352912353595,11.941471955398958,0.32172664056200817,0.5183439419087108,222,Tone,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,65 plus,2018,ng_140c,0.2512780089477114,19.416368914121254,0.1556531982823369,0.3469028196130859,114,Tone,Older Canadians Reasons for Concers About Requests,BC,*
+Senior2,15 to 64,2018,ng_140c,0.4386139831581677,8.023549619095578,0.3696381259020464,0.5075898404142889,384,Tone,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,65 plus,2018,ng_140c,0.38058171907778093,12.048804667804763,0.2907064966376425,0.4704569415179194,199,Tone,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,15 to 64,2018,ng_140c,0.45021965912694195,9.908764987373088,0.3627832982384269,0.537656020015457,196,Tone,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,65 plus,2018,ng_140c,0.4205141368281968,12.592824920745574,0.3167250103379886,0.524303263318405,121,Tone,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,15 to 64,2018,ng_140c,0.34027961994098554,16.67063680111327,0.22909717506684443,0.45146206481512663,117,Tone,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,65 plus,2018,ng_140c,0.33292306423669804,29.438937268148635,0.1408289304939394,0.5250171979794567,45,Tone,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,15 to 64,2018,ng_140d,0.5722159930011728,8.926307462718054,0.4721054251733375,0.672326560829008,171,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,65 plus,2018,ng_140d,0.649447019542404,11.463510867050289,0.5035288187373397,0.7953652203474684,51,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,15 to 64,2018,ng_140d,0.48190615412622834,7.27875928842429,0.4131569110812118,0.5506553971712449,380,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,65 plus,2018,ng_140d,0.4344034899952353,9.936564455060623,0.3498020703490582,0.5190049096414124,213,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,15 to 64,2018,ng_140d,0.4701971858515931,9.630411516881676,0.3814462457818325,0.5589481259213537,222,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,65 plus,2018,ng_140d,0.5770985788270009,10.611466411473309,0.45707308553163206,0.6971240721223697,114,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,15 to 64,2018,ng_140d,0.5615639667862653,6.312474071482596,0.4920860270787538,0.6310419064937768,384,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,65 plus,2018,ng_140d,0.5603364108905475,8.281120550005973,0.46938990008874504,0.65128292169235,199,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,15 to 64,2018,ng_140d,0.4808235533607984,9.237695508042705,0.39376780211082485,0.567879304610772,196,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,65 plus,2018,ng_140d,0.45196396329958183,11.82005172261205,0.3472580338409884,0.5566698927581752,121,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,15 to 64,2018,ng_140d,0.3901737633689445,15.446717208223456,0.2720486198034268,0.5082989069344621,117,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,QC,
+Senior2,65 plus,2018,ng_140d,0.44659118820135774,21.283552807571635,0.2602956875931991,0.6328866888095164,45,Multiple requests from one organization,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,15 to 64,2018,ng_140e,0.6241692807826617,8.255838125345317,0.5231715419927998,0.7251670195725235,171,Method of contact,Older Canadians Reasons for Concers About Requests,AB,
+Senior2,65 plus,2018,ng_140e,0.4503857167359427,18.592524310635667,0.2862621078046971,0.6145093256671883,51,Method of contact,Older Canadians Reasons for Concers About Requests,AB,*
+Senior2,15 to 64,2018,ng_140e,0.5356668802223127,6.4067494294312075,0.46840320003803443,0.602930560406591,380,Method of contact,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,65 plus,2018,ng_140e,0.48941782053046423,9.104114300181088,0.4020873960153606,0.5767482450455679,213,Method of contact,Older Canadians Reasons for Concers About Requests,AT,
+Senior2,15 to 64,2018,ng_140e,0.4703532632116572,9.9185336522379135,0.37891673588592506,0.5617897905373893,222,Method of contact,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,65 plus,2018,ng_140e,0.4228235120864746,13.81493924691032,0.30833650567059895,0.5373105185023503,114,Method of contact,Older Canadians Reasons for Concers About Requests,BC,
+Senior2,15 to 64,2018,ng_140e,0.5612998724592877,6.488214390322974,0.4899212394508955,0.6326785054676799,384,Method of contact,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,65 plus,2018,ng_140e,0.5317960899877638,8.32226081810952,0.44505306698704783,0.6185391129884799,199,Method of contact,Older Canadians Reasons for Concers About Requests,ON,
+Senior2,15 to 64,2018,ng_140e,0.45579988445699476,9.304924672087505,0.37267421356656893,0.5389255553474206,196,Method of contact,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,65 plus,2018,ng_140e,0.543307235681225,9.555888041123014,0.44155015645019796,0.6450643149122519,121,Method of contact,Older Canadians Reasons for Concers About Requests,PR,
+Senior2,15 to 64,2018,ng_140e,0.3875527364460544,15.32356252432893,0.27115657895930895,0.5039488939327998,117,Method of contact,Older Canadians Reasons for Concers About Requests,QC,
+Senior2,65 plus,2018,ng_140e,0.4223476129937345,22.26361153576815,0.2380525290218502,0.6066426969656189,45,Method of contact,Older Canadians Reasons for Concers About Requests,QC,*
+Senior2,15 to 64,2018,ng_140f,0.06362677130779959,36.318926873920844,0.01833482490794376,0.10891871770765542,171,Other,Older Canadians Reasons for Concers About Requests,AB,...
+Senior2,65 plus,2018,ng_140f,0.057433248370684004,61.2585908312745,-0.011523769800835096,0.1263902665422031,51,Other,Older Canadians Reasons for Concers About Requests,AB,...
+Senior2,15 to 64,2018,ng_140f,0.07258124914597172,23.489229836833562,0.03916626136202588,0.10599623692991755,380,Other,Older Canadians Reasons for Concers About Requests,AT,*
+Senior2,65 plus,2018,ng_140f,0.07515316183773363,34.807299960827265,0.023882882475484438,0.12642344119998283,213,Other,Older Canadians Reasons for Concers About Requests,AT,...
+Senior2,15 to 64,2018,ng_140f,0.07499638336498549,32.44358389481648,0.02730749114768275,0.12268527558228823,222,Other,Older Canadians Reasons for Concers About Requests,BC,*
+Senior2,65 plus,2018,ng_140f,0.10532672388680439,33.617837081046126,0.03592720892203512,0.17472623885157368,114,Other,Older Canadians Reasons for Concers About Requests,BC,...
+Senior2,15 to 64,2018,ng_140f,0.04728138543028798,27.533484988378348,0.021766156494121138,0.07279661436645482,384,Other,Older Canadians Reasons for Concers About Requests,ON,*
+Senior2,65 plus,2018,ng_140f,0.08899769562583609,23.00605902625221,0.04886770275756143,0.12912768849411077,199,Other,Older Canadians Reasons for Concers About Requests,ON,*
+Senior2,15 to 64,2018,ng_140f,0.12324073524979975,24.614945526119346,0.06378397370027639,0.18269749679932312,196,Other,Older Canadians Reasons for Concers About Requests,PR,*
+Senior2,65 plus,2018,ng_140f,0.1370240707429294,24.64420765580112,0.07083903372751778,0.20320910775834106,121,Other,Older Canadians Reasons for Concers About Requests,PR,*
+Senior2,15 to 64,2018,ng_140f,0.0788210794449964,39.59092091778457,0.017658460533082773,0.13998369835691005,117,Other,Older Canadians Reasons for Concers About Requests,QC,...
+Senior2,65 plus,2018,ng_140f,0.10121347776917952,54.169780608721474,-0.006245700560799802,0.20867265609915886,45,Other,Older Canadians Reasons for Concers About Requests,QC,...

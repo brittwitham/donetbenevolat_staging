@@ -1,0 +1,811 @@
+Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Province,Marker
+Age group,15 to 24 years,2013,gs1datot,218.73886489754312,16.080164269339992,149.79993684882865,287.67779294625757,692,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,25 to 34 years,2013,gs1datot,365.8102369007989,13.302511381418086,270.4345706229347,461.18590317866307,1472,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,35 to 44 years,2013,gs1datot,440.58436294764033,7.3153900937193885,377.4138126532211,503.75491324205956,1999,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,45 to 54 years,2013,gs1datot,649.8609095478323,7.580431983507749,553.3086458490073,746.4131732466573,2297,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,55 to 64 years,2013,gs1datot,673.4421672968882,5.7709200983705236,597.2705006033196,749.6138339904568,2713,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,65 to 74 years,2013,gs1datot,724.0450525234432,5.956534375487603,639.5157406006786,808.5743644462079,2074,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,75 years and over,2013,gs1datot,730.559445995215,11.401280670900379,567.3079053405559,893.8109866498742,1366,Total amount of donations,Average total amount of donations,CA,NA,
+Sex,Male,2013,gs1datot,581.1018396634887,5.409970864267312,519.4855890710261,642.7180902559513,5374,Total amount of donations,Average total amount of donations,CA,NA,
+Sex,Female,2013,gs1datot,486.3896108080267,4.225689504842882,446.10585416145096,526.6733674546025,7239,Total amount of donations,Average total amount of donations,CA,NA,
+Education,Less than High School,2013,gs1datot,319.07174481384203,12.286881327422277,242.23338215889177,395.91010746879226,1384,Total amount of donations,Average total amount of donations,CA,NA,
+Education,Graduated from High school,2013,gs1datot,423.4797365855592,8.86844862099027,349.87116678074244,497.0883063903759,3099,Total amount of donations,Average total amount of donations,CA,NA,
+Education,Post-secondary diploma,2013,gs1datot,443.01536629398703,5.083359093700751,398.8768560227404,487.15387656523365,3957,Total amount of donations,Average total amount of donations,CA,NA,
+Education,University Diploma,2013,gs1datot,842.2892073015183,5.224490062279999,756.040372948207,928.5380416548296,3432,Total amount of donations,Average total amount of donations,CA,NA,
+Education,Not stated,2013,gs1datot,512.3252129225903,13.683481941432781,374.9240388841283,649.7263869610522,741,Total amount of donations,Average total amount of donations,CA,NA,
+Marital status,Married/common-law,2013,gs1datot,595.8180797313329,3.499845881374282,554.9475102844752,636.6886491781905,7545,Total amount of donations,Average total amount of donations,CA,NA,
+Marital status,Widowed,2013,gs1datot,766.6209469794464,14.810407603901071,544.0872495953938,989.1546443634991,1234,Total amount of donations,Average total amount of donations,CA,NA,
+Marital status,Separated/divorced,2013,gs1datot,398.7529707026724,6.974795204230502,344.24205434045695,453.2638870648879,1424,Total amount of donations,Average total amount of donations,CA,NA,
+Marital status,"Single, never married",2013,gs1datot,339.4553500378094,11.249679973525648,264.60894994000836,414.30175013561046,2405,Total amount of donations,Average total amount of donations,CA,NA,
+Labour force status,Employed,2013,gs1datot,549.7693063375816,4.534659928697982,500.90707407691286,598.6315385982504,7039,Total amount of donations,Average total amount of donations,CA,NA,
+Labour force status,Unemployed,2013,gs1datot,272.12234625351323,25.47756790224895,136.2377383448469,408.00695416217957,363,Total amount of donations,Average total amount of donations,CA,NA,*
+Labour force status,Not in labour force,2013,gs1datot,532.3348588342627,5.405176197886123,475.93956644782645,588.730151220699,4524,Total amount of donations,Average total amount of donations,CA,NA,
+Labour force status,Unable to determine,2013,gs1datot,494.72265071680204,14.400618125261488,355.0887019410865,634.3565994925175,687,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"Less than $20,000",2013,gs1datot,335.67414405726265,13.063391990417465,249.72888202323037,421.61940609129493,852,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$20,000 to $39,999",2013,gs1datot,469.0720671972311,13.997460279584239,340.3844063810774,597.7597280133848,2015,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,399.1236686416963,9.291526526847578,326.43902843188914,471.8083088515035,2153,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,433.26600813163355,6.694492543614822,376.41732996618657,490.11468629708054,1819,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,441.3381117755151,6.738248069922386,383.05180749456554,499.6244160564646,1590,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,676.8586398018228,12.164215707450545,515.4858969575113,838.2313826461344,1178,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,433.48642869684363,7.246771682990078,371.916567420043,495.05628997364425,919,Total amount of donations,Average total amount of donations,CA,NA,
+Personal income category,"$140,000 or more",2013,gs1datot,768.4042512824642,5.893386434819453,679.64721970079,857.1612828641385,2087,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1284.1972138120377,4.978063197475323,1158.9003444015134,1409.494083222562,2517,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,633.3743868659703,12.314230771774087,480.50663594833287,786.2421377836079,1300,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,428.0896917420977,8.751827788846704,354.65832278350547,501.52106070069,1382,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,287.12101541071326,12.16803772041833,218.64576650409134,355.59626431733517,1732,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,Not at all,2013,gs1datot,313.2762513429127,6.713060155682336,272.05737927928936,354.49512340653604,4871,Total amount of donations,Average total amount of donations,CA,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,485.5981397794615,12.836155134938426,363.4294088130579,607.7668707458652,811,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status,Native-born,2013,gs1datot,509.2138740339626,3.923750141717303,470.0532446289989,548.3745034389262,10095,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status,Naturalized,2013,gs1datot,672.0768561721528,8.198408095039511,564.083617982354,780.0700943619516,1359,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status,Non-Canadian,2013,gs1datot,450.47448965601467,18.544092083836613,286.7461460730647,614.2028332389646,382,Total amount of donations,Average total amount of donations,CA,NA,*
+Immigration status,Unknown,2013,gs1datot,526.2910557545637,12.325345342445809,399.15369932506974,653.4284121840576,777,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status (dcit2),Native-born,2013,gs1datot,506.8994721093886,3.9245414037350197,467.90896845204395,545.8899757667333,10134,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,650.4976506196189,7.586191740373717,553.7773497869458,747.2179514522919,1594,Total amount of donations,Average total amount of donations,CA,NA,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,500.6802576668182,19.66830584214264,307.67216853740894,693.6883467962275,197,Total amount of donations,Average total amount of donations,CA,NA,*
+Immigration status (dcit2),Unknown,2013,gs1datot,495.45765668403766,14.096300670624965,358.57141812265735,632.343895245418,688,Total amount of donations,Average total amount of donations,CA,NA,
+Age group,15 to 24 years,2013,gs1datot,262.2732676732797,16.953016473129583,175.12693770136661,349.41959764519277,556,Total amount of donations,Average total amount of donations,CA (without QC),NA,*
+Age group,25 to 34 years,2013,gs1datot,427.7107352594206,14.531798657872539,305.8910105100127,549.5304600088285,1189,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,35 to 44 years,2013,gs1datot,512.1229428248977,8.128198004871054,430.5367630481313,593.709122601664,1592,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,45 to 54 years,2013,gs1datot,729.3545889919542,7.715356394026969,619.0628960677711,839.6462819161372,1901,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,55 to 64 years,2013,gs1datot,784.6124255501472,6.188777221550591,689.4406608487824,879.7841902515121,2249,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,65 to 74 years,2013,gs1datot,839.133410813862,6.427889724549404,733.4157556699081,944.851065957816,1748,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,75 years and over,2013,gs1datot,817.4113012735244,11.673017908438867,630.3982652818995,1004.4243372651492,1198,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Sex,Male,2013,gs1datot,683.3151945734313,5.893941071728267,604.3792230585309,762.2511660883317,4406,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Sex,Female,2013,gs1datot,544.4811083237717,4.180181974417632,499.871737803737,589.0904788438063,6027,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Education,Less than High School,2013,gs1datot,377.5105426980478,13.347156437254467,278.7539889122121,476.2670964838835,1169,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Education,Graduated from High school,2013,gs1datot,471.35846527667576,9.420989630188265,384.3230656178856,558.3938649354659,2630,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Education,Post-secondary diploma,2013,gs1datot,528.6513176407589,5.187538011065357,474.901288753022,582.4013465284957,3231,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Education,University Diploma,2013,gs1datot,941.5621791731161,5.637483174248331,837.5264884135738,1045.5978699326583,2801,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Education,Not stated,2013,gs1datot,634.2382750968626,14.187269881486609,457.87856807924595,810.5979821144792,602,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Marital status,Married/common-law,2013,gs1datot,685.3611252543122,3.7411181114932477,635.1073170921935,735.614933416431,6286,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Marital status,Widowed,2013,gs1datot,920.3375766334561,16.087302347739662,630.1502313891524,1210.5249218777599,1069,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Marital status,Separated/divorced,2013,gs1datot,444.55523745861154,7.9044997721629775,375.68236228228346,513.4281126349396,1159,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Marital status,"Single, never married",2013,gs1datot,383.25520563063793,12.122133452125047,292.19781218438277,474.3125990768931,1915,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Labour force status,Employed,2013,gs1datot,631.2847966047104,4.818645409011048,571.6639154685436,690.9056777408773,5771,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Labour force status,Unemployed,2013,gs1datot,305.7488229839459,27.699123576118804,139.75997427477026,471.73767169312157,302,Total amount of donations,Average total amount of donations,CA (without QC),NA,*
+Labour force status,Not in labour force,2013,gs1datot,606.4335908344677,5.646558719912995,539.3192716431535,673.547910025782,3800,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Labour force status,Unable to determine,2013,gs1datot,602.7267771921167,15.069349220735157,424.7091226805556,780.744431703678,560,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"Less than $20,000",2013,gs1datot,385.84403271518204,14.683457489138402,274.8017939243741,496.88627150598995,704,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$20,000 to $39,999",2013,gs1datot,550.7595220335753,15.401422132953984,384.5059711430954,717.0130729240552,1651,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,404.34098614901666,6.227238328912345,354.9905103290657,453.6914619689676,1751,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,531.9006033275259,7.247562397473918,456.3443286046592,607.4568780503926,1477,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,522.7204085293632,7.427947113465372,446.6201117420421,598.8207053166843,1301,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,802.2248672851656,12.969365805281852,598.3033983253325,1006.1463362449987,978,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,488.8004960552924,7.9378750222457954,412.7531633979798,564.847828712605,762,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Personal income category,"$140,000 or more",2013,gs1datot,831.9943095786426,6.248918190305099,730.0945202886066,933.8940988686786,1809,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1355.6094876315226,5.015195616766672,1222.3584596912517,1488.8605155717935,2262,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,702.1817526935947,12.908501186126747,524.5283830205096,879.8351223666798,1128,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,483.8952101439432,9.87725691009966,390.2176082835867,577.5728120042997,1131,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,324.44156557336237,14.878212029395959,229.8319401658831,419.0511909808416,1342,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,Not at all,2013,gs1datot,362.81248419821014,7.58758550507934,308.85720903245345,416.76775936396683,3931,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,611.6879847844847,13.783458875443419,446.4399681269217,776.9360014420477,639,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status,Native-born,2013,gs1datot,609.8720732826876,4.282834067663672,558.678188509133,661.0659580562422,8278,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status,Naturalized,2013,gs1datot,634.8704566167004,7.991783455173282,535.426838607289,734.3140746261117,1187,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status,Non-Canadian,2013,gs1datot,519.0324821096831,19.717439907347668,318.4499291200922,719.615035099274,323,Total amount of donations,Average total amount of donations,CA (without QC),NA,*
+Immigration status,Unknown,2013,gs1datot,624.7684462815783,12.981668356302617,465.8048466541455,783.7320459090113,645,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status (dcit2),Native-born,2013,gs1datot,606.7042634799269,4.296748460752755,555.6108323902707,657.7976945695831,8314,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,635.8914027934601,7.314038296260057,544.7347700317977,727.0480355551225,1384,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,570.4438838022102,21.585866733306926,329.10321574525346,811.7845518591669,172,Total amount of donations,Average total amount of donations,CA (without QC),NA,*
+Immigration status (dcit2),Unknown,2013,gs1datot,590.3225026833878,14.980235352618115,416.99955511852954,763.6454502482461,563,Total amount of donations,Average total amount of donations,CA (without QC),NA,
+Age group,15 to 24 years,2013,gs1datot,380.1782866889717,35.35928110315668,116.70364238265711,643.6529309952863,57,Total amount of donations,Average total amount of donations,AB,NA,...
+Age group,25 to 34 years,2013,gs1datot,731.325807070041,39.04233329226713,171.70383870864362,1290.9477754314385,129,Total amount of donations,Average total amount of donations,AB,NA,...
+Age group,35 to 44 years,2013,gs1datot,766.5673051840416,17.371612927739633,505.5684952156846,1027.5661151523987,180,Total amount of donations,Average total amount of donations,AB,NA,*
+Age group,45 to 54 years,2013,gs1datot,964.762455340638,18.399258767561722,616.8509327391873,1312.6739779420886,177,Total amount of donations,Average total amount of donations,AB,NA,*
+Age group,55 to 64 years,2013,gs1datot,1463.952428901198,13.578616551270379,1074.3419940614554,1853.5628637409404,158,Total amount of donations,Average total amount of donations,AB,NA,
+Age group,65 to 74 years,2013,gs1datot,959.7229728888691,21.482300903455048,555.6360675409032,1363.809878236835,108,Total amount of donations,Average total amount of donations,AB,NA,*
+Age group,75 years and over,2013,gs1datot,829.1449571839447,24.208542823129516,435.733318777598,1222.5565955902914,79,Total amount of donations,Average total amount of donations,AB,NA,*
+Age group,15 to 24 years,2013,gs1datot,130.32517398899503,19.054491448143423,81.65378205395581,178.99656592403426,162,Total amount of donations,Average total amount of donations,AT,NA,*
+Age group,25 to 34 years,2013,gs1datot,207.31470288476726,14.10985497652741,149.98222071470346,264.6471850548311,351,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,35 to 44 years,2013,gs1datot,287.98647994015374,11.46386765424405,223.27946668054324,352.69349319976425,458,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,45 to 54 years,2013,gs1datot,363.21651131874813,8.916598997803936,299.7400205117081,426.69300212578815,636,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,55 to 64 years,2013,gs1datot,477.345165982679,8.016604150045604,402.34347430471803,552.34685766064,845,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,65 to 74 years,2013,gs1datot,626.6422623429863,10.171382136667038,501.71772680261296,751.5667978833598,640,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,75 years and over,2013,gs1datot,580.4715509651605,7.06272440236293,500.11869997235493,660.8244019579661,414,Total amount of donations,Average total amount of donations,AT,NA,
+Age group,15 to 24 years,2013,gs1datot,116.14454335858682,22.636500868630137,64.61501153340889,167.67407518376473,70,Total amount of donations,Average total amount of donations,BC,NA,*
+Age group,25 to 34 years,2013,gs1datot,403.88479877022706,20.509325664487243,241.53304664586594,566.2365508945882,159,Total amount of donations,Average total amount of donations,BC,NA,*
+Age group,35 to 44 years,2013,gs1datot,533.1889360035616,18.083862247520628,344.206949352151,722.1709226549722,231,Total amount of donations,Average total amount of donations,BC,NA,*
+Age group,45 to 54 years,2013,gs1datot,1315.6197436350556,19.789666132233428,805.3298810264903,1825.9096062436208,259,Total amount of donations,Average total amount of donations,BC,NA,*
+Age group,55 to 64 years,2013,gs1datot,808.1525376741055,11.107954727467364,632.2081034468935,984.0969719013175,320,Total amount of donations,Average total amount of donations,BC,NA,
+Age group,65 to 74 years,2013,gs1datot,803.0843006829587,18.253107695298922,515.7774092276318,1090.3911921382855,272,Total amount of donations,Average total amount of donations,BC,NA,*
+Age group,75 years and over,2013,gs1datot,703.8903960505387,14.544243219343226,503.23804200197236,904.542750099105,185,Total amount of donations,Average total amount of donations,BC,NA,
+Age group,15 to 24 years,2013,gs1datot,296.1081794273904,25.620595446491606,147.4161414079649,444.80021744681585,166,Total amount of donations,Average total amount of donations,ON,NA,*
+Age group,25 to 34 years,2013,gs1datot,359.66496047164105,16.32484553907994,244.586166570172,474.7437543731101,307,Total amount of donations,Average total amount of donations,ON,NA,
+Age group,35 to 44 years,2013,gs1datot,437.1935028552713,13.797105463286593,318.96837992111386,555.4186257894287,452,Total amount of donations,Average total amount of donations,ON,NA,
+Age group,45 to 54 years,2013,gs1datot,520.2496506825815,9.53982046570771,422.9749081704117,617.5243931947514,501,Total amount of donations,Average total amount of donations,ON,NA,
+Age group,55 to 64 years,2013,gs1datot,610.0023104616473,9.883219203103724,491.84026540248504,728.1643555208095,514,Total amount of donations,Average total amount of donations,ON,NA,
+Age group,65 to 74 years,2013,gs1datot,857.9124728034924,8.258653506343695,719.0450682790981,996.7798773278867,426,Total amount of donations,Average total amount of donations,ON,NA,
+Age group,75 years and over,2013,gs1datot,909.5986949936279,19.263195737515478,566.1781625391413,1253.0192274481144,275,Total amount of donations,Average total amount of donations,ON,NA,*
+Age group,15 to 24 years,2013,gs1datot,229.32999471673654,17.62713950389729,150.0997871548668,308.5602022786063,101,Total amount of donations,Average total amount of donations,PR,NA,*
+Age group,25 to 34 years,2013,gs1datot,427.1386104390352,12.983764682679471,318.4416105940053,535.8356102840651,243,Total amount of donations,Average total amount of donations,PR,NA,
+Age group,35 to 44 years,2013,gs1datot,656.730788725184,12.286706147857338,498.5801537350035,814.8814237153645,271,Total amount of donations,Average total amount of donations,PR,NA,
+Age group,45 to 54 years,2013,gs1datot,874.7920752515153,20.048770546825516,531.0436822041529,1218.5404682988776,328,Total amount of donations,Average total amount of donations,PR,NA,*
+Age group,55 to 64 years,2013,gs1datot,1009.6023891824606,25.587531607627845,503.2803254710417,1515.9244528938793,412,Total amount of donations,Average total amount of donations,PR,NA,*
+Age group,65 to 74 years,2013,gs1datot,914.2264060327727,13.260507714490899,676.6178885494882,1151.8349235160572,302,Total amount of donations,Average total amount of donations,PR,NA,
+Age group,75 years and over,2013,gs1datot,773.5615013977457,10.94119749537208,607.6762420667837,939.4467607287077,245,Total amount of donations,Average total amount of donations,PR,NA,
+Age group,15 to 24 years,2013,gs1datot,64.11210424608304,22.456083074560446,35.894370678002545,92.32983781416353,136,Total amount of donations,Average total amount of donations,QC,NA,*
+Age group,25 to 34 years,2013,gs1datot,146.58812752312335,15.925658366006976,100.83252449537575,192.34373055087093,283,Total amount of donations,Average total amount of donations,QC,NA,
+Age group,35 to 44 years,2013,gs1datot,191.58409990778574,11.262157655052986,149.29493038316582,233.87326943240566,407,Total amount of donations,Average total amount of donations,QC,NA,
+Age group,45 to 54 years,2013,gs1datot,384.1587788880349,27.865392857571276,174.3498224970478,593.967735279022,396,Total amount of donations,Average total amount of donations,QC,NA,*
+Age group,55 to 64 years,2013,gs1datot,316.19618546384504,13.15313404654644,234.68185541302495,397.71051551466513,464,Total amount of donations,Average total amount of donations,QC,NA,
+Age group,65 to 74 years,2013,gs1datot,350.36618192303825,15.51146098682779,243.84818855686984,456.88417528920667,326,Total amount of donations,Average total amount of donations,QC,NA,
+Age group,75 years and over,2013,gs1datot,439.37750691838994,33.90649836569441,147.38691909562885,731.368094741151,168,Total amount of donations,Average total amount of donations,QC,NA,...
+Sex,Male,2013,gs1datot,980.9428351803099,15.11134171216883,690.4102711851895,1271.4753991754303,386,Total amount of donations,Average total amount of donations,AB,NA,
+Sex,Female,2013,gs1datot,753.2265946004063,10.031311996753077,605.1346367709926,901.31855242982,502,Total amount of donations,Average total amount of donations,AB,NA,
+Sex,Male,2013,gs1datot,368.28916294600884,6.67797633036859,320.0852929871672,416.4930329048505,1430,Total amount of donations,Average total amount of donations,AT,NA,
+Sex,Female,2013,gs1datot,384.3627132018016,4.469023800695285,350.6959000261481,418.02952637745517,2076,Total amount of donations,Average total amount of donations,AT,NA,
+Sex,Male,2013,gs1datot,749.9415989708791,11.463952003346945,581.4377232060925,918.4454747356657,633,Total amount of donations,Average total amount of donations,BC,NA,
+Sex,Female,2013,gs1datot,665.6875884845966,12.666832448718804,500.420423691425,830.9547532777683,863,Total amount of donations,Average total amount of donations,BC,NA,
+Sex,Male,2013,gs1datot,620.5374047238504,8.295277797689353,519.647667572098,721.4271418756027,1123,Total amount of donations,Average total amount of donations,ON,NA,
+Sex,Female,2013,gs1datot,453.217724401274,4.991399349433493,408.8796023069695,497.55584649557846,1518,Total amount of donations,Average total amount of donations,ON,NA,
+Sex,Male,2013,gs1datot,721.3103580077207,14.45839437328911,516.9059174726666,925.7147985427747,834,Total amount of donations,Average total amount of donations,PR,NA,
+Sex,Female,2013,gs1datot,665.0545216600756,6.9972160880203225,573.8470057623176,756.2620375578335,1068,Total amount of donations,Average total amount of donations,PR,NA,
+Sex,Male,2013,gs1datot,245.68434419398116,8.314029264472012,205.64959403738112,285.7190943505812,968,Total amount of donations,Average total amount of donations,QC,NA,
+Sex,Female,2013,gs1datot,283.3108458938437,16.54373586320496,191.4469458332643,375.1747459544231,1212,Total amount of donations,Average total amount of donations,QC,NA,*
+Education,Less than High School,2013,gs1datot,615.123152064914,31.803703873437648,231.6915841896456,998.5547199401825,63,Total amount of donations,Average total amount of donations,AB,NA,*
+Education,Graduated from High school,2013,gs1datot,760.9354968916683,26.09321918850262,371.77961636304894,1150.0913774202877,236,Total amount of donations,Average total amount of donations,AB,NA,*
+Education,Post-secondary diploma,2013,gs1datot,777.9347396258079,14.189814954030435,561.5792152509929,994.2902640006229,301,Total amount of donations,Average total amount of donations,AB,NA,
+Education,University Diploma,2013,gs1datot,1214.6624705644622,12.014262362548092,928.6395637743467,1500.6853773545777,235,Total amount of donations,Average total amount of donations,AB,NA,
+Education,Not stated,2013,gs1datot,841.138940223787,29.53897033682927,354.1588759544973,1328.1190044930768,53,Total amount of donations,Average total amount of donations,AB,NA,*
+Education,Less than High School,2013,gs1datot,255.60269389698888,10.190098069028902,204.55314821824896,306.6522395757288,538,Total amount of donations,Average total amount of donations,AT,NA,
+Education,Graduated from High school,2013,gs1datot,339.5049138916254,10.056840615947761,272.58494616048495,406.42488162276584,833,Total amount of donations,Average total amount of donations,AT,NA,
+Education,Post-secondary diploma,2013,gs1datot,378.02628139715966,6.763420391944179,327.91488928093906,428.13767351338026,1077,Total amount of donations,Average total amount of donations,AT,NA,
+Education,University Diploma,2013,gs1datot,552.255957465763,7.022817077668122,476.2408599277288,628.2710550037972,851,Total amount of donations,Average total amount of donations,AT,NA,
+Education,Not stated,2013,gs1datot,193.8159881132078,9.140766036723669,159.09274478289962,228.53923144351597,207,Total amount of donations,Average total amount of donations,AT,NA,
+Education,Less than High School,2013,gs1datot,360.5481205425975,33.136460718763985,126.38556619530428,594.7106748898907,113,Total amount of donations,Average total amount of donations,BC,NA,*
+Education,Graduated from High school,2013,gs1datot,427.43989910176083,19.188382893711278,266.68599626565594,588.1938019378657,366,Total amount of donations,Average total amount of donations,BC,NA,*
+Education,Post-secondary diploma,2013,gs1datot,600.579194315872,11.560910041685812,464.4941510039061,736.6642376278378,463,Total amount of donations,Average total amount of donations,BC,NA,
+Education,University Diploma,2013,gs1datot,1058.9682430935354,15.314309405265183,741.113684281313,1376.8228019057578,442,Total amount of donations,Average total amount of donations,BC,NA,
+Education,Not stated,2013,gs1datot,1075.079798800913,27.939020155710732,486.37176376114303,1663.787833840683,112,Total amount of donations,Average total amount of donations,BC,NA,*
+Education,Less than High School,2013,gs1datot,348.8705903332124,25.006568541594522,177.8822282876706,519.8589523787542,201,Total amount of donations,Average total amount of donations,ON,NA,*
+Education,Graduated from High school,2013,gs1datot,416.42318694682916,13.19105023176801,308.76120543426134,524.085168459397,664,Total amount of donations,Average total amount of donations,ON,NA,
+Education,Post-secondary diploma,2013,gs1datot,447.0297231212691,7.643127696056262,380.06353061151145,513.9959156310268,788,Total amount of donations,Average total amount of donations,ON,NA,
+Education,University Diploma,2013,gs1datot,832.0674602167294,7.076251563257929,716.6663749222624,947.4685455111963,847,Total amount of donations,Average total amount of donations,ON,NA,
+Education,Not stated,2013,gs1datot,421.8177391664959,18.175125540583142,271.55532917819596,572.0801491547959,141,Total amount of donations,Average total amount of donations,ON,NA,*
+Education,Less than High School,2013,gs1datot,412.44918624866386,14.753628917728632,293.18298190332155,531.7153905940062,254,Total amount of donations,Average total amount of donations,PR,NA,
+Education,Graduated from High school,2013,gs1datot,473.1827170506209,9.941119469898197,380.98667914827456,565.3787549529673,531,Total amount of donations,Average total amount of donations,PR,NA,
+Education,Post-secondary diploma,2013,gs1datot,551.9312485819108,7.704881265451986,468.58251131714115,635.2799858466806,602,Total amount of donations,Average total amount of donations,PR,NA,
+Education,University Diploma,2013,gs1datot,1367.2458670975989,18.16945240502735,880.3494834165872,1854.1422507786106,426,Total amount of donations,Average total amount of donations,PR,NA,*
+Education,Not stated,2013,gs1datot,782.7998200654329,22.49356226814769,437.6902143276743,1127.9094258031914,89,Total amount of donations,Average total amount of donations,PR,NA,*
+Education,Less than High School,2013,gs1datot,133.43816375483397,13.114516250113672,99.13924546490482,167.7370820447631,215,Total amount of donations,Average total amount of donations,QC,NA,
+Education,Graduated from High school,2013,gs1datot,231.36291606255494,23.401582490123076,125.24540207089923,337.4804300542107,469,Total amount of donations,Average total amount of donations,QC,NA,*
+Education,Post-secondary diploma,2013,gs1datot,189.86119742820532,18.43972197595357,121.24309951091054,258.4792953455001,726,Total amount of donations,Average total amount of donations,QC,NA,*
+Education,University Diploma,2013,gs1datot,490.35550035701687,15.78744037738096,338.62570725690205,642.0852934571317,631,Total amount of donations,Average total amount of donations,QC,NA,
+Education,Not stated,2013,gs1datot,128.66760911020862,19.899638593376277,78.48392843270986,178.85128978770737,139,Total amount of donations,Average total amount of donations,QC,NA,*
+Marital status,Married/common-law,2013,gs1datot,981.4946154739064,9.102142806942325,806.3972315644944,1156.5919993833184,557,Total amount of donations,Average total amount of donations,AB,NA,
+Marital status,Widowed,2013,gs1datot,752.8937073866592,26.941111568109655,355.3386626433548,1150.4487521299636,71,Total amount of donations,Average total amount of donations,AB,NA,*
+Marital status,Separated/divorced,2013,gs1datot,662.4500282212109,26.90843760732402,313.0767412090481,1011.8233152333737,79,Total amount of donations,Average total amount of donations,AB,NA,*
+Marital status,"Single, never married",2013,gs1datot,602.4643322821631,38.61374468373035,146.5099941112481,1058.4186704530782,181,Total amount of donations,Average total amount of donations,AB,NA,...
+Marital status,Married/common-law,2013,gs1datot,398.07195226573214,4.905781804200511,359.79671444745185,436.3471900840124,2115,Total amount of donations,Average total amount of donations,AT,NA,
+Marital status,Widowed,2013,gs1datot,718.3700177816289,9.175316686246335,589.1834524021073,847.5565831611506,411,Total amount of donations,Average total amount of donations,AT,NA,
+Marital status,Separated/divorced,2013,gs1datot,315.7825329833251,9.164076023351784,259.0640144920903,372.5010514745599,395,Total amount of donations,Average total amount of donations,AT,NA,
+Marital status,"Single, never married",2013,gs1datot,226.91986515773462,10.406462489282859,180.63662756790728,273.20310274756196,584,Total amount of donations,Average total amount of donations,AT,NA,
+Marital status,Married/common-law,2013,gs1datot,847.9929320876904,9.948665949379595,682.6425616833831,1013.3433024919977,920,Total amount of donations,Average total amount of donations,BC,NA,
+Marital status,Widowed,2013,gs1datot,642.274086658375,24.094147125954084,338.9687518204514,945.5794214962987,136,Total amount of donations,Average total amount of donations,BC,NA,*
+Marital status,Separated/divorced,2013,gs1datot,486.61217554837384,17.653097279012204,318.2471127394607,654.977238357287,164,Total amount of donations,Average total amount of donations,BC,NA,*
+Marital status,"Single, never married",2013,gs1datot,335.44668519856623,15.635727961795084,232.6474931297211,438.24587726741134,274,Total amount of donations,Average total amount of donations,BC,NA,
+Marital status,Married/common-law,2013,gs1datot,568.4246553518725,5.018624834371288,512.5125649689032,624.3367457348418,1585,Total amount of donations,Average total amount of donations,ON,NA,
+Marital status,Widowed,2013,gs1datot,1089.973924536023,24.374430382702712,569.2606195067534,1610.687229565293,237,Total amount of donations,Average total amount of donations,ON,NA,*
+Marital status,Separated/divorced,2013,gs1datot,371.2079928664654,9.774830612041765,300.09079274444775,442.3251929884831,302,Total amount of donations,Average total amount of donations,ON,NA,
+Marital status,"Single, never married",2013,gs1datot,371.0566215798866,14.79737407228476,263.4415918899381,478.67165126983514,516,Total amount of donations,Average total amount of donations,ON,NA,
+Marital status,Married/common-law,2013,gs1datot,826.286526673858,10.160473510122035,661.7384879638504,990.8345653838657,1109,Total amount of donations,Average total amount of donations,PR,NA,
+Marital status,Widowed,2013,gs1datot,831.1198552307836,13.204686322627149,616.0201389085136,1046.2195715530538,214,Total amount of donations,Average total amount of donations,PR,NA,
+Marital status,Separated/divorced,2013,gs1datot,671.5718463881084,15.409189445030682,468.7473683878818,874.396324388335,219,Total amount of donations,Average total amount of donations,PR,NA,
+Marital status,"Single, never married",2013,gs1datot,297.42631401145997,9.133110214176305,244.18531713857618,350.66731088434375,360,Total amount of donations,Average total amount of donations,PR,NA,
+Marital status,Married/common-law,2013,gs1datot,291.3385928279876,12.016424878814727,222.72322670027506,359.95395895570016,1259,Total amount of donations,Average total amount of donations,QC,NA,
+Marital status,Widowed,2013,gs1datot,286.15391762261333,14.203960963149601,206.49080760071996,365.8170276445067,165,Total amount of donations,Average total amount of donations,QC,NA,
+Marital status,Separated/divorced,2013,gs1datot,247.27655917423363,13.491939324082544,181.88745021665966,312.6656681318076,265,Total amount of donations,Average total amount of donations,QC,NA,
+Marital status,"Single, never married",2013,gs1datot,188.6518377683799,27.390667333418833,87.37462408416938,289.9290514525904,490,Total amount of donations,Average total amount of donations,QC,NA,*
+Labour force status,Employed,2013,gs1datot,921.4496165586567,12.340010169021081,698.5880380516521,1144.3111950656612,578,Total amount of donations,Average total amount of donations,AB,NA,
+Labour force status,Unemployed,2013,gs1datot,350.29016758703534,43.14906996297702,54.047590222244196,646.5327449518265,20,Total amount of donations,Average total amount of donations,AB,NA,...
+Labour force status,Not in labour force,2013,gs1datot,752.8794074919772,13.542767251100837,553.0400962110076,952.7187187729468,240,Total amount of donations,Average total amount of donations,AB,NA,
+Labour force status,Unable to determine,2013,gs1datot,826.8382403904044,30.637651027499828,330.3326872447493,1323.3437935360594,50,Total amount of donations,Average total amount of donations,AB,NA,*
+Labour force status,Employed,2013,gs1datot,353.5237907334304,5.6653494701597324,314.26892998176135,392.7786514850995,1792,Total amount of donations,Average total amount of donations,AT,NA,
+Labour force status,Unemployed,2013,gs1datot,226.9187657281857,16.115764374656603,155.24348333351952,298.59404812285186,132,Total amount of donations,Average total amount of donations,AT,NA,
+Labour force status,Not in labour force,2013,gs1datot,456.6193445028959,5.873838928372463,404.0509842452967,509.1877047604951,1392,Total amount of donations,Average total amount of donations,AT,NA,
+Labour force status,Unable to determine,2013,gs1datot,206.8609531542881,9.947749415870625,166.52879613297895,247.19311017559724,190,Total amount of donations,Average total amount of donations,AT,NA,
+Labour force status,Employed,2013,gs1datot,729.146916185244,12.264636953776007,553.8727815734244,904.4210507970636,785,Total amount of donations,Average total amount of donations,BC,NA,
+Labour force status,Unemployed,2013,gs1datot,179.2409065646472,58.65167065185517,-26.805768145504743,385.2875812747991,37,Total amount of donations,Average total amount of donations,BC,NA,...
+Labour force status,Not in labour force,2013,gs1datot,650.9910245343633,11.51648128634722,504.05005600680954,797.9319930619171,568,Total amount of donations,Average total amount of donations,BC,NA,
+Labour force status,Unable to determine,2013,gs1datot,1052.3654534336647,28.9732415834708,454.7638397832619,1649.9670670840674,106,Total amount of donations,Average total amount of donations,BC,NA,*
+Labour force status,Employed,2013,gs1datot,533.2948784096353,6.456105038778354,465.8131664922724,600.7765903269982,1515,Total amount of donations,Average total amount of donations,ON,NA,
+Labour force status,Unemployed,2013,gs1datot,351.78461040067356,42.62764473221349,57.87332305815744,645.6958977431897,76,Total amount of donations,Average total amount of donations,ON,NA,...
+Labour force status,Not in labour force,2013,gs1datot,584.2303447468148,9.254915645995347,478.25504195778956,690.2056475358401,920,Total amount of donations,Average total amount of donations,ON,NA,
+Labour force status,Unable to determine,2013,gs1datot,343.62717588592017,15.37174108185169,240.09897793824592,447.1553738335944,130,Total amount of donations,Average total amount of donations,ON,NA,
+Labour force status,Employed,2013,gs1datot,727.1312162684405,11.427454641599608,564.2727326352691,889.989699901612,1101,Total amount of donations,Average total amount of donations,PR,NA,
+Labour force status,Unemployed,2013,gs1datot,359.20898468242046,23.58897617152623,193.13394167305793,525.284027691783,37,Total amount of donations,Average total amount of donations,PR,NA,*
+Labour force status,Not in labour force,2013,gs1datot,635.1921159283112,7.4290050691751945,542.7044446392256,727.6797872173968,680,Total amount of donations,Average total amount of donations,PR,NA,
+Labour force status,Unable to determine,2013,gs1datot,729.0128557294445,24.875188153706592,373.586480618784,1084.439230840105,84,Total amount of donations,Average total amount of donations,PR,NA,*
+Labour force status,Employed,2013,gs1datot,270.3718700037893,13.468667195430692,198.9988262970049,341.74491371057366,1268,Total amount of donations,Average total amount of donations,QC,NA,
+Labour force status,Unemployed,2013,gs1datot,145.36703573657533,36.102921272119595,42.504702814337236,248.22936865881343,61,Total amount of donations,Average total amount of donations,QC,NA,...
+Labour force status,Not in labour force,2013,gs1datot,288.0097804923247,15.443682196183072,200.83192465672767,375.1876363279217,724,Total amount of donations,Average total amount of donations,QC,NA,
+Labour force status,Unable to determine,2013,gs1datot,140.21504104419284,20.120659869985914,84.92016178892177,195.50992029946391,127,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"Less than $20,000",2013,gs1datot,363.6938061333386,48.67939274808501,16.694067327445453,710.6935449392317,38,Total amount of donations,Average total amount of donations,AB,NA,...
+Personal income category,"$20,000 to $39,999",2013,gs1datot,741.7328559950446,25.418688213223728,372.20367270605374,1111.2620392840354,99,Total amount of donations,Average total amount of donations,AB,NA,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,494.6608120987312,16.828250894562945,331.5079955524793,657.813628644983,102,Total amount of donations,Average total amount of donations,AB,NA,*
+Personal income category,"$60,000 to $79,999",2013,gs1datot,1027.0687908873779,20.361026675289637,617.1976915505451,1436.9398902242106,103,Total amount of donations,Average total amount of donations,AB,NA,*
+Personal income category,"$80,000 to $99,999",2013,gs1datot,713.435397513183,21.707608330429203,409.8962421245927,1016.9745529017734,97,Total amount of donations,Average total amount of donations,AB,NA,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,1554.044816535277,34.870552520817846,491.932466121503,2616.1571669490513,86,Total amount of donations,Average total amount of donations,AB,NA,...
+Personal income category,"$120,000 to $139,999",2013,gs1datot,600.0385382193109,23.932173190943086,318.58327624989715,881.4938001887247,81,Total amount of donations,Average total amount of donations,AB,NA,*
+Personal income category,"$140,000 or more",2013,gs1datot,877.6255549419924,11.338698075821503,682.5869675418548,1072.66414234213,282,Total amount of donations,Average total amount of donations,AB,NA,
+Personal income category,"Less than $20,000",2013,gs1datot,312.69212425712624,18.313310703219585,200.45619734749653,424.92805116675595,320,Total amount of donations,Average total amount of donations,AT,NA,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,306.72461135120807,8.208750266743344,257.3761337469061,356.07308895551006,646,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,320.88191575070755,7.8771131808575285,271.34141199186644,370.42241950954866,688,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,350.07994509417085,12.62948810408944,263.42345961656343,436.73643057177827,506,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,388.42563555018313,11.53690742298608,300.5951297640772,476.25614133628903,433,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,448.82548291694127,14.76167087871176,318.96975349863305,578.6812123352495,295,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,380.375054284589,14.936690531633644,269.0188288716384,491.7312796975396,215,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"$140,000 or more",2013,gs1datot,505.5507160508524,8.733188700267894,419.01693806232623,592.0844940393786,403,Total amount of donations,Average total amount of donations,AT,NA,
+Personal income category,"Less than $20,000",2013,gs1datot,348.4817059546076,25.7267744739882,172.76485380719714,524.1985581020181,89,Total amount of donations,Average total amount of donations,BC,NA,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,638.1070031701356,45.22954350374294,72.43614388135802,1203.7778624589132,235,Total amount of donations,Average total amount of donations,BC,NA,...
+Personal income category,"$40,000 to $59,999",2013,gs1datot,470.17953263888256,14.29798913746242,338.4185655556356,601.9404997221295,260,Total amount of donations,Average total amount of donations,BC,NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,554.0810815416843,15.64120486350756,384.220886955183,723.9412761281856,218,Total amount of donations,Average total amount of donations,BC,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,474.70449417692413,14.597403942691582,338.8897060551174,610.5192822987308,202,Total amount of donations,Average total amount of donations,BC,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,862.1588085292939,19.28638799306142,536.2573830130507,1188.060234045537,131,Total amount of donations,Average total amount of donations,BC,NA,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,519.3072821059963,16.501214884747746,351.3540276995602,687.2605365124323,115,Total amount of donations,Average total amount of donations,BC,NA,*
+Personal income category,"$140,000 or more",2013,gs1datot,1306.299098127835,15.706566809865985,904.163996045601,1708.4342002100689,246,Total amount of donations,Average total amount of donations,BC,NA,
+Personal income category,"Less than $20,000",2013,gs1datot,407.41604940491067,25.90743445566127,200.5398007899921,614.2922980198292,136,Total amount of donations,Average total amount of donations,ON,NA,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,533.2942292986513,22.84885752445658,294.46940610981073,772.1190524874919,362,Total amount of donations,Average total amount of donations,ON,NA,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,360.8141911004238,10.108076300509879,289.3316121043071,432.29677009654046,389,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,441.86496761304494,9.59127666620127,358.80073055775625,524.9292046683336,349,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,483.7811074823709,12.563664091179009,364.65325529471966,602.9089596700221,316,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,649.2417440015188,15.790065720781236,448.3146679449476,850.16882005809,270,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,460.51948698523506,11.265505000757829,358.8368576236043,562.2021163468658,227,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"$140,000 or more",2013,gs1datot,688.0624017594018,9.048662533597774,566.0341723766353,810.0906311421684,592,Total amount of donations,Average total amount of donations,ON,NA,
+Personal income category,"Less than $20,000",2013,gs1datot,482.0144885110799,14.733470041876709,342.82282412349645,621.2061528986633,121,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$20,000 to $39,999",2013,gs1datot,570.3455474798926,12.556178055167102,429.98546583298986,710.7056291267954,309,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,510.0136663840259,10.140755786875825,408.645817916373,611.3815148516787,312,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,550.2552757838954,12.349098930224107,417.0726490752363,683.4379024925545,301,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,717.307789120415,12.287098138038223,544.5637918682351,890.051786372595,253,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,663.9768376351537,14.949392269967305,469.42982854977527,858.5238467205322,196,Total amount of donations,Average total amount of donations,PR,NA,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,507.9003364137115,18.94447089775227,319.31450020028007,696.4861726271429,124,Total amount of donations,Average total amount of donations,PR,NA,*
+Personal income category,"$140,000 or more",2013,gs1datot,1101.6572411445566,23.909069325774773,585.4105801777783,1617.903902111335,286,Total amount of donations,Average total amount of donations,PR,NA,*
+Personal income category,"Less than $20,000",2013,gs1datot,204.23946663765335,25.562637181893923,101.91171904449533,306.5672142308114,148,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,254.8123593891308,31.59910949535714,96.99912385354793,412.62559492471365,364,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,384.5531149153941,32.48836093987829,139.68500670767978,629.4212231231083,402,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"$60,000 to $79,999",2013,gs1datot,170.5575475746849,13.565347843296708,125.21040063551861,215.90469451385115,342,Total amount of donations,Average total amount of donations,QC,NA,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,202.0696615888587,11.466623227755948,156.65618525356552,247.4831379241519,289,Total amount of donations,Average total amount of donations,QC,NA,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,217.69724794940768,19.53155906548125,134.36023284311102,301.03426305570434,200,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,222.93624896834973,16.63735706185317,150.23981327507542,295.632684661624,157,Total amount of donations,Average total amount of donations,QC,NA,*
+Personal income category,"$140,000 or more",2013,gs1datot,386.8445391491036,14.115369676060782,279.8216136824133,493.8674646157939,278,Total amount of donations,Average total amount of donations,QC,NA,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1641.4181407526303,11.845774152865133,1260.3253192702125,2022.510962235048,185,Total amount of donations,Average total amount of donations,AB,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,1647.7796952957224,39.11291526053855,384.59334230121044,2910.9660482902345,80,Total amount of donations,Average total amount of donations,AB,NA,...
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,594.3938385224559,24.530991571630466,308.61011319870954,880.1775638462022,91,Total amount of donations,Average total amount of donations,AB,NA,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,267.5144950930047,17.143903341843657,177.62579097962305,357.4031992063864,114,Total amount of donations,Average total amount of donations,AB,NA,*
+Frequency of religious attendance,Not at all,2013,gs1datot,540.8318918041324,17.03094639394795,360.3019815784628,721.361802029802,360,Total amount of donations,Average total amount of donations,AB,NA,*
+Frequency of religious attendance,Not stated,2013,gs1datot,869.9711306130696,27.90687863321777,394.1275708849406,1345.8146903411985,58,Total amount of donations,Average total amount of donations,AB,NA,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,920.9333222109764,5.857925526401156,815.1979923588323,1026.6686520631204,847,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,398.4224227115233,8.461022468253896,332.3508398344733,464.4940055885734,430,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,246.04839468650542,8.506596546909732,205.02567378006725,287.07111559294356,411,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,209.6430819124659,11.80155807921735,161.15131883728202,258.1348449876498,489,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,Not at all,2013,gs1datot,217.5642486049247,9.861524606284542,175.51292357720965,259.6155736326398,1120,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,209.49374295904576,8.558607249543423,174.3520852295427,244.63540068854883,209,Total amount of donations,Average total amount of donations,AT,NA,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1592.4630958590465,11.563366528441637,1231.5507324057562,1953.3754593123367,257,Total amount of donations,Average total amount of donations,BC,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,549.0769941607607,24.730238387879165,282.93730743546524,815.2166808860561,86,Total amount of donations,Average total amount of donations,BC,NA,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,414.35400713681184,29.649025010826723,173.56866221499357,655.1393520586302,112,Total amount of donations,Average total amount of donations,BC,NA,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,667.7160385033721,49.06309047093667,25.62767408721652,1309.8044029195278,162,Total amount of donations,Average total amount of donations,BC,NA,...
+Frequency of religious attendance,Not at all,2013,gs1datot,402.27880719199817,11.953231991204472,308.0333136196664,496.52430076432995,765,Total amount of donations,Average total amount of donations,BC,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,1162.204418304458,27.503174613195934,535.7154337621381,1788.6934028467776,114,Total amount of donations,Average total amount of donations,BC,NA,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1216.5818507782672,7.200957012825442,1044.8781551752004,1388.285546381334,557,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,599.7415068284276,12.07410278968893,457.8138390570398,741.6691745998155,314,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,495.9349055309798,13.030153475216268,369.27991740627726,622.5898936556823,295,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,259.7231752455637,10.855714083805974,204.46237227892536,314.98397821220203,318,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,Not at all,2013,gs1datot,323.1627128193991,12.944358452899174,241.17479312477286,405.1506325140253,1000,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,335.7438990520471,13.035298290431843,249.96564655914244,421.5221515449517,157,Total amount of donations,Average total amount of donations,ON,NA,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1602.328579916452,13.536821637691224,1177.2038424772509,2027.4533173556533,416,Total amount of donations,Average total amount of donations,PR,NA,
+Frequency of religious attendance,At least once a month,2013,gs1datot,611.252897486387,12.762447248683145,458.3544830306749,764.1513119420993,218,Total amount of donations,Average total amount of donations,PR,NA,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,582.2701721401704,35.265026224339856,179.8156188255109,984.7247254548299,222,Total amount of donations,Average total amount of donations,PR,NA,...
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,368.72231589366004,19.86552622843229,225.15764236378288,512.2869894235372,259,Total amount of donations,Average total amount of donations,PR,NA,*
+Frequency of religious attendance,Not at all,2013,gs1datot,326.5287492532467,9.881660318094928,263.2876461341364,389.769852372357,686,Total amount of donations,Average total amount of donations,PR,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,708.1823737872136,22.895705302961666,390.387248807232,1025.9774987671951,101,Total amount of donations,Average total amount of donations,PR,NA,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,881.566609262239,23.439381371453216,476.5718824789356,1286.5613360455425,255,Total amount of donations,Average total amount of donations,QC,NA,*
+Frequency of religious attendance,At least once a month,2013,gs1datot,269.5807436752429,17.55711599595003,176.81446472388885,362.347022626597,172,Total amount of donations,Average total amount of donations,QC,NA,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,238.92713283875736,16.9892573492454,159.36838164504996,318.48588403246475,251,Total amount of donations,Average total amount of donations,QC,NA,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,202.0641562672938,15.868147162218508,139.22018921112033,264.9081233234673,390,Total amount of donations,Average total amount of donations,QC,NA,
+Frequency of religious attendance,Not at all,2013,gs1datot,158.85287579058058,7.614486457658021,135.14548322672601,182.56026835443515,940,Total amount of donations,Average total amount of donations,QC,NA,
+Frequency of religious attendance,Not stated,2013,gs1datot,145.5501866121939,17.607276916431257,95.32135775365603,195.77901547073176,172,Total amount of donations,Average total amount of donations,QC,NA,*
+Immigration status,Native-born,2013,gs1datot,857.2877361706609,11.657678477176114,661.4092336524568,1053.166238688865,676,Total amount of donations,Average total amount of donations,AB,NA,
+Immigration status,Naturalized,2013,gs1datot,985.9281708248587,23.485195930389693,532.1040713062154,1439.752270343502,119,Total amount of donations,Average total amount of donations,AB,NA,*
+Immigration status,Non-Canadian,2013,gs1datot,409.6049729987757,34.00808952970399,136.58429107639654,682.6256549211548,35,Total amount of donations,Average total amount of donations,AB,NA,...
+Immigration status,Unknown,2013,gs1datot,939.923684217704,26.284728066670965,455.7020685825391,1424.145299852869,58,Total amount of donations,Average total amount of donations,AB,NA,*
+Immigration status,Native-born,2013,gs1datot,379.67105344287404,4.050168805311776,349.532062868165,409.8100440175831,3126,Total amount of donations,Average total amount of donations,AT,NA,
+Immigration status,Naturalized,2013,gs1datot,792.0654480031274,20.231615465520054,477.9858534719583,1106.1450425342964,106,Total amount of donations,Average total amount of donations,AT,NA,*
+Immigration status,Non-Canadian,2013,gs1datot,260.7185728874759,27.209518115519582,121.67820388596206,399.75894188898974,56,Total amount of donations,Average total amount of donations,AT,NA,*
+Immigration status,Unknown,2013,gs1datot,210.6073553734236,8.762496995050647,174.43727217493762,246.77743857190956,218,Total amount of donations,Average total amount of donations,AT,NA,
+Immigration status,Native-born,2013,gs1datot,655.8630862372283,11.452525541863517,508.64453201931155,803.0816404551451,1014,Total amount of donations,Average total amount of donations,BC,NA,
+Immigration status,Naturalized,2013,gs1datot,722.3290499233294,16.13102102104976,493.95590667734825,950.7021931693106,285,Total amount of donations,Average total amount of donations,BC,NA,
+Immigration status,Non-Canadian,2013,gs1datot,721.9073689766724,23.420370442607396,390.5296333012583,1053.2851046520864,65,Total amount of donations,Average total amount of donations,BC,NA,*
+Immigration status,Unknown,2013,gs1datot,1013.5750169981255,26.351540587645513,490.083077760743,1537.066956235508,132,Total amount of donations,Average total amount of donations,BC,NA,*
+Immigration status,Native-born,2013,gs1datot,553.5429785996313,6.413126509553277,483.9654105826706,623.120546616592,1856,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status,Naturalized,2013,gs1datot,512.1576332311015,9.302548450359804,418.77767367316477,605.5375927890382,526,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status,Non-Canadian,2013,gs1datot,523.2799992513014,33.07465844461612,184.0630105333493,862.4969879692535,105,Total amount of donations,Average total amount of donations,ON,NA,*
+Immigration status,Unknown,2013,gs1datot,374.90550563720643,12.997014528918191,279.40327539207664,470.4077358823362,154,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status,Native-born,2013,gs1datot,691.6552910363048,9.459226635795313,563.4241739819864,819.8864080906231,1606,Total amount of donations,Average total amount of donations,PR,NA,
+Immigration status,Naturalized,2013,gs1datot,885.239808214099,20.976008739249355,521.2980559648533,1249.1815604633446,151,Total amount of donations,Average total amount of donations,PR,NA,*
+Immigration status,Non-Canadian,2013,gs1datot,347.00244156123114,17.188564033181393,230.10090543953078,463.9039776829315,62,Total amount of donations,Average total amount of donations,PR,NA,*
+Immigration status,Unknown,2013,gs1datot,753.1097269914112,24.68841753318397,388.6919105673358,1117.5275434154867,83,Total amount of donations,Average total amount of donations,PR,NA,*
+Immigration status,Native-born,2013,gs1datot,210.09110546905939,5.9587048696411475,185.55488682887471,234.62732410924406,1817,Total amount of donations,Average total amount of donations,QC,NA,
+Immigration status,Naturalized,2013,gs1datot,951.1275638986689,30.16952978192675,388.7144997977374,1513.5406279996005,172,Total amount of donations,Average total amount of donations,QC,NA,*
+Immigration status,Non-Canadian,2013,gs1datot,200.8183167277354,41.216021591198164,38.5934289709879,363.0432044844829,59,Total amount of donations,Average total amount of donations,QC,NA,...
+Immigration status,Unknown,2013,gs1datot,169.07881815062692,24.394984872252543,88.23666953571896,249.92096676553487,132,Total amount of donations,Average total amount of donations,QC,NA,*
+Immigration status (dcit2),Native-born,2013,gs1datot,859.9515267466379,11.618682036115716,664.1216594599947,1055.781394033281,680,Total amount of donations,Average total amount of donations,AB,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,808.2731188240708,22.679412083836628,448.9890017686085,1167.5572358795332,146,Total amount of donations,Average total amount of donations,AB,NA,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,1805.959411474568,65.16000639195114,-500.454212042717,4112.373034991853,11,Total amount of donations,Average total amount of donations,AB,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,849.6394419174177,30.366101713674396,343.96407481270575,1355.3148090221296,51,Total amount of donations,Average total amount of donations,AB,NA,*
+Immigration status (dcit2),Native-born,2013,gs1datot,382.2839200094858,4.008983362630662,352.24610241923784,412.3217375997338,3148,Total amount of donations,Average total amount of donations,AT,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,488.86233174311417,18.010164827087696,316.2974757411268,661.4271877451015,143,Total amount of donations,Average total amount of donations,AT,NA,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,298.45847127064235,49.80325733389866,7.1254253378911585,589.7915172033936,28,Total amount of donations,Average total amount of donations,AT,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,208.53009228727396,9.477514226272051,169.7944045190401,247.2657800555078,187,Total amount of donations,Average total amount of donations,AT,NA,
+Immigration status (dcit2),Native-born,2013,gs1datot,658.0797254935096,11.425902789498968,510.70699611566806,805.4524548713512,1023,Total amount of donations,Average total amount of donations,BC,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,753.8158681554308,14.082390257304619,545.7553183318437,961.876417979018,330,Total amount of donations,Average total amount of donations,BC,NA,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,492.80089021010787,39.02089537930006,115.90898901209067,869.692791408125,33,Total amount of donations,Average total amount of donations,BC,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,1007.138599454448,28.79039552949304,438.82903729416967,1575.4481616147264,110,Total amount of donations,Average total amount of donations,BC,NA,*
+Immigration status (dcit2),Native-born,2013,gs1datot,544.4759675517963,6.4533269099802215,475.60907732082364,613.342857782769,1859,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,557.967193192166,9.603617103167633,452.94245880265254,662.9919275816794,580,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,407.5313455837723,35.68463135699118,122.50150883207186,692.5611823354727,67,Total amount of donations,Average total amount of donations,ON,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,332.5045147036085,14.962769549412073,234.99261335867976,430.0164160485372,135,Total amount of donations,Average total amount of donations,ON,NA,
+Immigration status (dcit2),Native-born,2013,gs1datot,691.7836039840447,9.467254273329008,563.4198536330998,820.1473543349896,1604,Total amount of donations,Average total amount of donations,PR,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,679.513280439968,19.32478577651434,422.14161768631226,936.8849431936237,185,Total amount of donations,Average total amount of donations,PR,NA,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,629.9179647315424,39.9523040687528,136.66021694460028,1123.1757125184845,33,Total amount of donations,Average total amount of donations,PR,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,771.3971361089532,24.9165310184748,394.68146135442083,1148.1128108634855,80,Total amount of donations,Average total amount of donations,PR,NA,*
+Immigration status (dcit2),Native-born,2013,gs1datot,209.12692444649824,6.008528652689166,184.49909269232504,233.75475620067144,1820,Total amount of donations,Average total amount of donations,QC,NA,
+Immigration status (dcit2),Naturalized,2013,gs1datot,743.4824467157011,29.049284766745004,320.1766122537505,1166.7882811776517,210,Total amount of donations,Average total amount of donations,QC,NA,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,228.0334041580621,39.22101338044692,52.740081838008535,403.3267264781157,25,Total amount of donations,Average total amount of donations,QC,NA,...
+Immigration status (dcit2),Unknown,2013,gs1datot,168.68895596684573,22.171465976271286,95.38470659766527,241.99320533602616,125,Total amount of donations,Average total amount of donations,QC,NA,*
+Age group,15 to 24 years,2013,gs1datot,135.84191139192663,23.188861186214883,74.10266904570469,197.58115373814857,40,Total amount of donations,Average total amount of donations,10,NL,*
+Age group,25 to 34 years,2013,gs1datot,119.49246448660519,16.25928085374059,81.41307803325553,157.57185093995486,82,Total amount of donations,Average total amount of donations,10,NL,
+Age group,35 to 44 years,2013,gs1datot,396.1990130310055,28.840240475343293,172.24422201507045,620.1538040469405,103,Total amount of donations,Average total amount of donations,10,NL,*
+Age group,45 to 54 years,2013,gs1datot,440.0220743238888,19.286996231435634,273.6857307004275,606.3584179473501,145,Total amount of donations,Average total amount of donations,10,NL,*
+Age group,55 to 64 years,2013,gs1datot,291.7493582666619,10.570533216169519,231.30512182996372,352.1935947033601,181,Total amount of donations,Average total amount of donations,10,NL,
+Age group,65 to 74 years,2013,gs1datot,531.3778108862263,17.580519183978495,348.27997856846036,714.4756432039921,139,Total amount of donations,Average total amount of donations,10,NL,*
+Age group,75 years and over,2013,gs1datot,527.891147490255,16.643905373398248,355.685373866767,700.096921113743,64,Total amount of donations,Average total amount of donations,10,NL,*
+Age group,15 to 24 years,2013,gs1datot,93.51779529111727,21.187697856186258,54.68254381131401,132.3530467709205,32,Total amount of donations,Average total amount of donations,11,PE,*
+Age group,25 to 34 years,2013,gs1datot,164.37524349876412,23.41838364602164,88.92834060120404,239.8221463963242,73,Total amount of donations,Average total amount of donations,11,PE,*
+Age group,35 to 44 years,2013,gs1datot,385.334215519552,18.736907115450858,243.8253762954,526.843054743704,78,Total amount of donations,Average total amount of donations,11,PE,*
+Age group,45 to 54 years,2013,gs1datot,599.1510191107941,21.997321910292353,340.83329617770056,857.4687420438877,144,Total amount of donations,Average total amount of donations,11,PE,*
+Age group,55 to 64 years,2013,gs1datot,649.1871128486239,13.472962353879783,477.75938170344057,820.6148439938072,191,Total amount of donations,Average total amount of donations,11,PE,
+Age group,65 to 74 years,2013,gs1datot,717.0024111342701,11.349128716892148,557.5132298152729,876.4915924532673,145,Total amount of donations,Average total amount of donations,11,PE,
+Age group,75 years and over,2013,gs1datot,796.0359395675379,13.82422397507467,580.3501521498267,1011.721726985249,119,Total amount of donations,Average total amount of donations,11,PE,
+Age group,15 to 24 years,2013,gs1datot,174.12871623929286,33.27396273703726,60.56933561225485,287.68809686633085,44,Total amount of donations,Average total amount of donations,12,NS,*
+Age group,25 to 34 years,2013,gs1datot,235.31436821745677,23.977399250173974,124.72875979267491,345.89997664223864,93,Total amount of donations,Average total amount of donations,12,NS,*
+Age group,35 to 44 years,2013,gs1datot,227.51062724274604,12.593176521545137,171.3560619228733,283.6651925626188,134,Total amount of donations,Average total amount of donations,12,NS,
+Age group,45 to 54 years,2013,gs1datot,335.9299539602368,14.09326650171856,243.13839186369233,428.72151605678124,176,Total amount of donations,Average total amount of donations,12,NS,
+Age group,55 to 64 years,2013,gs1datot,595.7856825972929,14.936829633372007,421.36556258324555,770.2058026113402,230,Total amount of donations,Average total amount of donations,12,NS,
+Age group,65 to 74 years,2013,gs1datot,674.8633431245256,20.537508511421667,403.21210646352927,946.514579785522,177,Total amount of donations,Average total amount of donations,12,NS,*
+Age group,75 years and over,2013,gs1datot,555.7879079768412,13.022330853329581,413.9324958209219,697.6433201327606,118,Total amount of donations,Average total amount of donations,12,NS,
+Age group,15 to 24 years,2013,gs1datot,77.79671182801047,24.635146250687047,40.23334795169042,115.36007570433053,46,Total amount of donations,Average total amount of donations,13,NB,*
+Age group,25 to 34 years,2013,gs1datot,229.16391267356622,21.062175797127537,134.56251497266203,323.7653103744704,103,Total amount of donations,Average total amount of donations,13,NB,*
+Age group,35 to 44 years,2013,gs1datot,270.6838726957777,17.504314329713914,177.81812156074125,363.5496238308142,143,Total amount of donations,Average total amount of donations,13,NB,*
+Age group,45 to 54 years,2013,gs1datot,284.72358019907114,16.86503743926259,190.60858235401554,378.83857804412673,171,Total amount of donations,Average total amount of donations,13,NB,*
+Age group,55 to 64 years,2013,gs1datot,437.9946232752483,13.402854939585787,322.93732087752676,553.0519256729698,243,Total amount of donations,Average total amount of donations,13,NB,
+Age group,65 to 74 years,2013,gs1datot,616.4107641846197,13.02351919789041,459.0680419927547,773.7534863764847,179,Total amount of donations,Average total amount of donations,13,NB,
+Age group,75 years and over,2013,gs1datot,604.8353810070186,12.223217518049756,459.9345689190094,749.7361930950277,113,Total amount of donations,Average total amount of donations,13,NB,
+Age group,15 to 24 years,2013,gs1datot,64.11210424608304,22.456083074560446,35.894370678002545,92.32983781416353,136,Total amount of donations,Average total amount of donations,24,QC,*
+Age group,25 to 34 years,2013,gs1datot,146.58812752312335,15.925658366006976,100.83252449537575,192.34373055087093,283,Total amount of donations,Average total amount of donations,24,QC,
+Age group,35 to 44 years,2013,gs1datot,191.58409990778574,11.262157655052986,149.29493038316582,233.87326943240566,407,Total amount of donations,Average total amount of donations,24,QC,
+Age group,45 to 54 years,2013,gs1datot,384.1587788880349,27.865392857571276,174.3498224970478,593.967735279022,396,Total amount of donations,Average total amount of donations,24,QC,*
+Age group,55 to 64 years,2013,gs1datot,316.19618546384504,13.15313404654644,234.68185541302495,397.71051551466513,464,Total amount of donations,Average total amount of donations,24,QC,
+Age group,65 to 74 years,2013,gs1datot,350.36618192303825,15.51146098682779,243.84818855686984,456.88417528920667,326,Total amount of donations,Average total amount of donations,24,QC,
+Age group,75 years and over,2013,gs1datot,439.37750691838994,33.90649836569441,147.38691909562885,731.368094741151,168,Total amount of donations,Average total amount of donations,24,QC,...
+Age group,15 to 24 years,2013,gs1datot,296.1081794273904,25.620595446491606,147.4161414079649,444.80021744681585,166,Total amount of donations,Average total amount of donations,35,ON,*
+Age group,25 to 34 years,2013,gs1datot,359.66496047164105,16.32484553907994,244.586166570172,474.7437543731101,307,Total amount of donations,Average total amount of donations,35,ON,
+Age group,35 to 44 years,2013,gs1datot,437.1935028552713,13.797105463286593,318.96837992111386,555.4186257894287,452,Total amount of donations,Average total amount of donations,35,ON,
+Age group,45 to 54 years,2013,gs1datot,520.2496506825815,9.53982046570771,422.9749081704117,617.5243931947514,501,Total amount of donations,Average total amount of donations,35,ON,
+Age group,55 to 64 years,2013,gs1datot,610.0023104616473,9.883219203103724,491.84026540248504,728.1643555208095,514,Total amount of donations,Average total amount of donations,35,ON,
+Age group,65 to 74 years,2013,gs1datot,857.9124728034924,8.258653506343695,719.0450682790981,996.7798773278867,426,Total amount of donations,Average total amount of donations,35,ON,
+Age group,75 years and over,2013,gs1datot,909.5986949936279,19.263195737515478,566.1781625391413,1253.0192274481144,275,Total amount of donations,Average total amount of donations,35,ON,*
+Age group,15 to 24 years,2013,gs1datot,233.59817672429173,27.493767390749092,107.71960871331082,359.47674473527263,60,Total amount of donations,Average total amount of donations,46,MB,*
+Age group,25 to 34 years,2013,gs1datot,479.7921618671781,18.89448493726901,302.11308162375224,657.471242110604,124,Total amount of donations,Average total amount of donations,46,MB,*
+Age group,35 to 44 years,2013,gs1datot,537.088942693525,17.892486548371565,348.73921275211853,725.4386726349315,156,Total amount of donations,Average total amount of donations,46,MB,*
+Age group,45 to 54 years,2013,gs1datot,837.206723809366,19.90783409021836,510.5400643826739,1163.873383236058,172,Total amount of donations,Average total amount of donations,46,MB,*
+Age group,55 to 64 years,2013,gs1datot,1243.0502464232675,38.72337919786514,299.6195038398498,2186.4809890066854,234,Total amount of donations,Average total amount of donations,46,MB,...
+Age group,65 to 74 years,2013,gs1datot,847.4251781759632,15.104176581107975,596.5564612354606,1098.2938951164658,170,Total amount of donations,Average total amount of donations,46,MB,
+Age group,75 years and over,2013,gs1datot,698.8958926022383,12.426406812802929,528.6776327072437,869.1141524972329,140,Total amount of donations,Average total amount of donations,46,MB,
+Age group,15 to 24 years,2013,gs1datot,223.83033677859535,19.034716717907788,140.3251489865055,307.3355245706852,41,Total amount of donations,Average total amount of donations,47,SK,*
+Age group,25 to 34 years,2013,gs1datot,371.3065645973449,16.02091416634048,254.7147632624912,487.8983659321986,119,Total amount of donations,Average total amount of donations,47,SK,
+Age group,35 to 44 years,2013,gs1datot,788.6876718224402,17.227370299875016,522.3870796089748,1054.9882640359056,115,Total amount of donations,Average total amount of donations,47,SK,*
+Age group,45 to 54 years,2013,gs1datot,920.1821601924383,34.716315512504515,294.0651150879969,1546.2992052968798,156,Total amount of donations,Average total amount of donations,47,SK,...
+Age group,55 to 64 years,2013,gs1datot,747.0526105382063,15.599705785635672,518.6423094647857,975.4629116116269,178,Total amount of donations,Average total amount of donations,47,SK,
+Age group,65 to 74 years,2013,gs1datot,996.889565027262,23.112010107432013,545.3114776561554,1448.4676523983687,132,Total amount of donations,Average total amount of donations,47,SK,*
+Age group,75 years and over,2013,gs1datot,867.1963222847936,18.4581133820033,553.4686496030281,1180.9239949665591,105,Total amount of donations,Average total amount of donations,47,SK,*
+Age group,15 to 24 years,2013,gs1datot,380.1782866889717,35.35928110315668,116.70364238265711,643.6529309952863,57,Total amount of donations,Average total amount of donations,48,AB,...
+Age group,25 to 34 years,2013,gs1datot,731.325807070041,39.04233329226713,171.70383870864362,1290.9477754314385,129,Total amount of donations,Average total amount of donations,48,AB,...
+Age group,35 to 44 years,2013,gs1datot,766.5673051840416,17.371612927739633,505.5684952156846,1027.5661151523987,180,Total amount of donations,Average total amount of donations,48,AB,*
+Age group,45 to 54 years,2013,gs1datot,964.762455340638,18.399258767561722,616.8509327391873,1312.6739779420886,177,Total amount of donations,Average total amount of donations,48,AB,*
+Age group,55 to 64 years,2013,gs1datot,1463.952428901198,13.578616551270379,1074.3419940614554,1853.5628637409404,158,Total amount of donations,Average total amount of donations,48,AB,
+Age group,65 to 74 years,2013,gs1datot,959.7229728888691,21.482300903455048,555.6360675409032,1363.809878236835,108,Total amount of donations,Average total amount of donations,48,AB,*
+Age group,75 years and over,2013,gs1datot,829.1449571839447,24.208542823129516,435.733318777598,1222.5565955902914,79,Total amount of donations,Average total amount of donations,48,AB,*
+Age group,15 to 24 years,2013,gs1datot,116.14454335858682,22.636500868630137,64.61501153340889,167.67407518376473,70,Total amount of donations,Average total amount of donations,59,BC,*
+Age group,25 to 34 years,2013,gs1datot,403.88479877022706,20.509325664487243,241.53304664586594,566.2365508945882,159,Total amount of donations,Average total amount of donations,59,BC,*
+Age group,35 to 44 years,2013,gs1datot,533.1889360035616,18.083862247520628,344.206949352151,722.1709226549722,231,Total amount of donations,Average total amount of donations,59,BC,*
+Age group,45 to 54 years,2013,gs1datot,1315.6197436350556,19.789666132233428,805.3298810264903,1825.9096062436208,259,Total amount of donations,Average total amount of donations,59,BC,*
+Age group,55 to 64 years,2013,gs1datot,808.1525376741055,11.107954727467364,632.2081034468935,984.0969719013175,320,Total amount of donations,Average total amount of donations,59,BC,
+Age group,65 to 74 years,2013,gs1datot,803.0843006829587,18.253107695298922,515.7774092276318,1090.3911921382855,272,Total amount of donations,Average total amount of donations,59,BC,*
+Age group,75 years and over,2013,gs1datot,703.8903960505387,14.544243219343226,503.23804200197236,904.542750099105,185,Total amount of donations,Average total amount of donations,59,BC,
+Sex,Male,2013,gs1datot,358.9863540660087,14.445509879102156,257.3476996216356,460.62500851038175,320,Total amount of donations,Average total amount of donations,10,NL,
+Sex,Female,2013,gs1datot,343.50827024304436,9.529769464682527,279.3477785860887,407.66876190000005,434,Total amount of donations,Average total amount of donations,10,NL,
+Sex,Male,2013,gs1datot,521.3444565251067,12.428064756128293,394.3524578232894,648.3364552269239,309,Total amount of donations,Average total amount of donations,11,PE,
+Sex,Female,2013,gs1datot,476.8402228642322,8.354359036624873,398.76124688182665,554.9191988466378,473,Total amount of donations,Average total amount of donations,11,PE,
+Sex,Male,2013,gs1datot,393.4558780655675,13.053775653967598,292.7904665148639,494.1212896162711,384,Total amount of donations,Average total amount of donations,12,NS,
+Sex,Female,2013,gs1datot,401.1326898314106,7.387950078106098,343.0482107384077,459.21716892441344,588,Total amount of donations,Average total amount of donations,12,NS,
+Sex,Male,2013,gs1datot,315.1652877761406,9.046688770627942,259.2827501613558,371.04782539092537,417,Total amount of donations,Average total amount of donations,13,NB,
+Sex,Female,2013,gs1datot,373.90933291780374,7.856835189882354,316.330608467816,431.4880573677915,581,Total amount of donations,Average total amount of donations,13,NB,
+Sex,Male,2013,gs1datot,245.68434419398116,8.314029264472012,205.64959403738112,285.7190943505812,968,Total amount of donations,Average total amount of donations,24,QC,
+Sex,Female,2013,gs1datot,283.3108458938437,16.54373586320496,191.4469458332643,375.1747459544231,1212,Total amount of donations,Average total amount of donations,24,QC,*
+Sex,Male,2013,gs1datot,620.5374047238504,8.295277797689353,519.647667572098,721.4271418756027,1123,Total amount of donations,Average total amount of donations,35,ON,
+Sex,Female,2013,gs1datot,453.217724401274,4.991399349433493,408.8796023069695,497.55584649557846,1518,Total amount of donations,Average total amount of donations,35,ON,
+Sex,Male,2013,gs1datot,787.2064263654918,21.20121298877498,460.0937074633743,1114.3191452676092,472,Total amount of donations,Average total amount of donations,46,MB,*
+Sex,Female,2013,gs1datot,620.6966331428033,10.30542146530328,495.32674491627756,746.066521369329,584,Total amount of donations,Average total amount of donations,46,MB,
+Sex,Male,2013,gs1datot,646.2328303002056,19.259410818347327,402.29446697136524,890.171193629046,362,Total amount of donations,Average total amount of donations,47,SK,*
+Sex,Female,2013,gs1datot,717.8583752252443,9.428183372109224,585.2060450099033,850.5107054405854,484,Total amount of donations,Average total amount of donations,47,SK,
+Sex,Male,2013,gs1datot,980.9428351803099,15.11134171216883,690.4102711851895,1271.4753991754303,386,Total amount of donations,Average total amount of donations,48,AB,
+Sex,Female,2013,gs1datot,753.2265946004063,10.031311996753077,605.1346367709926,901.31855242982,502,Total amount of donations,Average total amount of donations,48,AB,
+Sex,Male,2013,gs1datot,749.9415989708791,11.463952003346945,581.4377232060925,918.4454747356657,633,Total amount of donations,Average total amount of donations,59,BC,
+Sex,Female,2013,gs1datot,665.6875884845966,12.666832448718804,500.420423691425,830.9547532777683,863,Total amount of donations,Average total amount of donations,59,BC,
+Education,Less than High School,2013,gs1datot,302.53015484621744,20.972700666787272,178.1729021286847,426.8874075637502,154,Total amount of donations,Average total amount of donations,10,NL,*
+Education,Graduated from High school,2013,gs1datot,270.8597026983086,21.940468707837223,154.3831819282197,387.33622346839746,148,Total amount of donations,Average total amount of donations,10,NL,*
+Education,Post-secondary diploma,2013,gs1datot,362.6774908688406,17.468691550410544,238.5039487115586,486.85103302612265,234,Total amount of donations,Average total amount of donations,10,NL,*
+Education,University Diploma,2013,gs1datot,553.2699101549956,13.707905504092984,404.6228773547084,701.9169429552828,153,Total amount of donations,Average total amount of donations,10,NL,
+Education,Not stated,2013,gs1datot,224.36315884728464,14.584005906919762,160.23091008914994,288.49540760541936,65,Total amount of donations,Average total amount of donations,10,NL,
+Education,Less than High School,2013,gs1datot,291.6649689851057,15.099977281982685,205.34552080411305,377.98441716609835,119,Total amount of donations,Average total amount of donations,11,PE,
+Education,Graduated from High school,2013,gs1datot,320.8936843901483,13.065391348541317,238.72020364536786,403.0671651349287,183,Total amount of donations,Average total amount of donations,11,PE,
+Education,Post-secondary diploma,2013,gs1datot,571.0063213959332,12.879535724212776,426.8647623022402,715.1478804896262,257,Total amount of donations,Average total amount of donations,11,PE,
+Education,University Diploma,2013,gs1datot,814.6615430607698,15.077382859755325,573.9198727041573,1055.4032134173822,183,Total amount of donations,Average total amount of donations,11,PE,
+Education,Not stated,2013,gs1datot,293.1257443667934,25.16135689915548,148.56974784722937,437.6817408863575,40,Total amount of donations,Average total amount of donations,11,PE,*
+Education,Less than High School,2013,gs1datot,270.4012641245071,15.844796881756276,186.42752630018992,354.3750019488243,128,Total amount of donations,Average total amount of donations,12,NS,
+Education,Graduated from High school,2013,gs1datot,388.39357340268555,19.861515546321613,237.20028573979226,539.5868610655789,228,Total amount of donations,Average total amount of donations,12,NS,*
+Education,Post-secondary diploma,2013,gs1datot,407.668999766515,10.662894214154532,322.4707095234086,492.86729000962146,294,Total amount of donations,Average total amount of donations,12,NS,
+Education,University Diploma,2013,gs1datot,519.1391917198513,12.83764904031356,388.5168677509307,649.7615156887719,264,Total amount of donations,Average total amount of donations,12,NS,
+Education,Not stated,2013,gs1datot,151.98577877549732,15.894905932984981,104.6369755638104,199.33458198718427,58,Total amount of donations,Average total amount of donations,12,NS,
+Education,Less than High School,2013,gs1datot,185.79743379393665,17.413814710420922,122.38393417240263,249.21093341547066,137,Total amount of donations,Average total amount of donations,13,NB,*
+Education,Graduated from High school,2013,gs1datot,329.76269897622086,13.366974372288423,243.3688674077456,416.1565305446961,274,Total amount of donations,Average total amount of donations,13,NB,
+Education,Post-secondary diploma,2013,gs1datot,302.97396760453694,9.546904223297782,246.282725701441,359.6652095076329,292,Total amount of donations,Average total amount of donations,13,NB,
+Education,University Diploma,2013,gs1datot,549.8397677279033,10.87041593408336,432.6929757101313,666.9865597456753,251,Total amount of donations,Average total amount of donations,13,NB,
+Education,Not stated,2013,gs1datot,200.5750215090808,19.435473438878848,124.17032362950349,276.97971938865817,44,Total amount of donations,Average total amount of donations,13,NB,*
+Education,Less than High School,2013,gs1datot,133.43816375483397,13.114516250113672,99.13924546490482,167.7370820447631,215,Total amount of donations,Average total amount of donations,24,QC,
+Education,Graduated from High school,2013,gs1datot,231.36291606255494,23.401582490123076,125.24540207089923,337.4804300542107,469,Total amount of donations,Average total amount of donations,24,QC,*
+Education,Post-secondary diploma,2013,gs1datot,189.86119742820532,18.43972197595357,121.24309951091054,258.4792953455001,726,Total amount of donations,Average total amount of donations,24,QC,*
+Education,University Diploma,2013,gs1datot,490.35550035701687,15.78744037738096,338.62570725690205,642.0852934571317,631,Total amount of donations,Average total amount of donations,24,QC,
+Education,Not stated,2013,gs1datot,128.66760911020862,19.899638593376277,78.48392843270986,178.85128978770737,139,Total amount of donations,Average total amount of donations,24,QC,*
+Education,Less than High School,2013,gs1datot,348.8705903332124,25.006568541594522,177.8822282876706,519.8589523787542,201,Total amount of donations,Average total amount of donations,35,ON,*
+Education,Graduated from High school,2013,gs1datot,416.42318694682916,13.19105023176801,308.76120543426134,524.085168459397,664,Total amount of donations,Average total amount of donations,35,ON,
+Education,Post-secondary diploma,2013,gs1datot,447.0297231212691,7.643127696056262,380.06353061151145,513.9959156310268,788,Total amount of donations,Average total amount of donations,35,ON,
+Education,University Diploma,2013,gs1datot,832.0674602167294,7.076251563257929,716.6663749222624,947.4685455111963,847,Total amount of donations,Average total amount of donations,35,ON,
+Education,Not stated,2013,gs1datot,421.8177391664959,18.175125540583142,271.55532917819596,572.0801491547959,141,Total amount of donations,Average total amount of donations,35,ON,*
+Education,Less than High School,2013,gs1datot,482.0905559095117,22.461613802662637,269.8552309139677,694.3258809050557,142,Total amount of donations,Average total amount of donations,46,MB,*
+Education,Graduated from High school,2013,gs1datot,454.0707347741291,11.775164561222416,349.276210995229,558.8652585530292,286,Total amount of donations,Average total amount of donations,46,MB,
+Education,Post-secondary diploma,2013,gs1datot,532.8453793031681,11.420781358875066,413.5715637556684,652.1191948506678,332,Total amount of donations,Average total amount of donations,46,MB,
+Education,University Diploma,2013,gs1datot,1469.9524531845498,26.174139103424608,715.8614063316945,2224.043500037405,241,Total amount of donations,Average total amount of donations,46,MB,*
+Education,Not stated,2013,gs1datot,461.9211598887465,17.510372346716633,303.3912074795603,620.4511122979327,55,Total amount of donations,Average total amount of donations,46,MB,*
+Education,Less than High School,2013,gs1datot,335.08178036931946,13.795495959390083,244.48010602279535,425.6834547158436,112,Total amount of donations,Average total amount of donations,47,SK,
+Education,Graduated from High school,2013,gs1datot,495.18746191462395,16.40215804174957,335.99638413370315,654.3785396955448,245,Total amount of donations,Average total amount of donations,47,SK,
+Education,Post-secondary diploma,2013,gs1datot,573.6324629482078,11.768928466316634,441.3145216871751,705.9504042092406,270,Total amount of donations,Average total amount of donations,47,SK,
+Education,University Diploma,2013,gs1datot,1244.1490002943037,22.365615293425506,698.7663270107261,1789.5316735778815,185,Total amount of donations,Average total amount of donations,47,SK,*
+Education,Not stated,2013,gs1datot,1272.355273039106,30.58822516196482,509.5551342046497,2035.1554118735621,34,Total amount of donations,Average total amount of donations,47,SK,*
+Education,Less than High School,2013,gs1datot,615.123152064914,31.803703873437648,231.6915841896456,998.5547199401825,63,Total amount of donations,Average total amount of donations,48,AB,*
+Education,Graduated from High school,2013,gs1datot,760.9354968916683,26.09321918850262,371.77961636304894,1150.0913774202877,236,Total amount of donations,Average total amount of donations,48,AB,*
+Education,Post-secondary diploma,2013,gs1datot,777.9347396258079,14.189814954030435,561.5792152509929,994.2902640006229,301,Total amount of donations,Average total amount of donations,48,AB,
+Education,University Diploma,2013,gs1datot,1214.6624705644622,12.014262362548092,928.6395637743467,1500.6853773545777,235,Total amount of donations,Average total amount of donations,48,AB,
+Education,Not stated,2013,gs1datot,841.138940223787,29.53897033682927,354.1588759544973,1328.1190044930768,53,Total amount of donations,Average total amount of donations,48,AB,*
+Education,Less than High School,2013,gs1datot,360.5481205425975,33.136460718763985,126.38556619530428,594.7106748898907,113,Total amount of donations,Average total amount of donations,59,BC,*
+Education,Graduated from High school,2013,gs1datot,427.43989910176083,19.188382893711278,266.68599626565594,588.1938019378657,366,Total amount of donations,Average total amount of donations,59,BC,*
+Education,Post-secondary diploma,2013,gs1datot,600.579194315872,11.560910041685812,464.4941510039061,736.6642376278378,463,Total amount of donations,Average total amount of donations,59,BC,
+Education,University Diploma,2013,gs1datot,1058.9682430935354,15.314309405265183,741.113684281313,1376.8228019057578,442,Total amount of donations,Average total amount of donations,59,BC,
+Education,Not stated,2013,gs1datot,1075.079798800913,27.939020155710732,486.37176376114303,1663.787833840683,112,Total amount of donations,Average total amount of donations,59,BC,*
+Marital status,Married/common-law,2013,gs1datot,370.5710725237467,11.019021439337545,290.5392635324664,450.602881515027,483,Total amount of donations,Average total amount of donations,10,NL,
+Marital status,Widowed,2013,gs1datot,644.2856945368231,14.040042178774659,466.991305223725,821.5800838499213,80,Total amount of donations,Average total amount of donations,10,NL,
+Marital status,Separated/divorced,2013,gs1datot,303.9773578767734,23.585113806409023,163.46086457789204,444.49385117565475,68,Total amount of donations,Average total amount of donations,10,NL,*
+Marital status,"Single, never married",2013,gs1datot,210.90879160545458,18.11133703833382,136.0412992398388,285.77628397107037,123,Total amount of donations,Average total amount of donations,10,NL,*
+Marital status,Married/common-law,2013,gs1datot,575.0897507314833,9.300059637284557,470.26364499073003,679.9158564722366,456,Total amount of donations,Average total amount of donations,11,PE,
+Marital status,Widowed,2013,gs1datot,766.6178759563292,14.778432091397494,544.5655159860379,988.6702359266204,108,Total amount of donations,Average total amount of donations,11,PE,
+Marital status,Separated/divorced,2013,gs1datot,397.72130370596483,20.69263436997635,236.41819797558807,559.0244094363416,99,Total amount of donations,Average total amount of donations,11,PE,*
+Marital status,"Single, never married",2013,gs1datot,206.90030474487963,15.334018978453123,144.7182286638437,269.08238082591555,118,Total amount of donations,Average total amount of donations,11,PE,
+Marital status,Married/common-law,2013,gs1datot,419.33625361746414,9.125000779282326,344.33933636434347,494.3331708705848,575,Total amount of donations,Average total amount of donations,12,NS,
+Marital status,Widowed,2013,gs1datot,747.7025362519337,15.707968242181789,517.5069674239915,977.8981050798759,97,Total amount of donations,Average total amount of donations,12,NS,
+Marital status,Separated/divorced,2013,gs1datot,292.62221254104594,15.06369770301613,206.22753809487585,379.016886987216,119,Total amount of donations,Average total amount of donations,12,NS,
+Marital status,"Single, never married",2013,gs1datot,278.5781838820676,17.741507869611205,181.70898189283884,375.4473858712964,181,Total amount of donations,Average total amount of donations,12,NS,*
+Marital status,Married/common-law,2013,gs1datot,359.05150001730453,6.983610243781632,309.90587871832923,408.19712131627983,601,Total amount of donations,Average total amount of donations,13,NB,
+Marital status,Widowed,2013,gs1datot,724.1146392866126,18.336462585197484,463.8764818945089,984.3527966787162,126,Total amount of donations,Average total amount of donations,13,NB,*
+Marital status,Separated/divorced,2013,gs1datot,339.98247837667185,15.669475597610457,235.568392933898,444.3965638194457,109,Total amount of donations,Average total amount of donations,13,NB,
+Marital status,"Single, never married",2013,gs1datot,169.81829404225414,17.247808978119092,112.41107639876891,227.22551168573938,162,Total amount of donations,Average total amount of donations,13,NB,*
+Marital status,Married/common-law,2013,gs1datot,291.3385928279876,12.016424878814727,222.72322670027506,359.95395895570016,1259,Total amount of donations,Average total amount of donations,24,QC,
+Marital status,Widowed,2013,gs1datot,286.15391762261333,14.203960963149601,206.49080760071996,365.8170276445067,165,Total amount of donations,Average total amount of donations,24,QC,
+Marital status,Separated/divorced,2013,gs1datot,247.27655917423363,13.491939324082544,181.88745021665966,312.6656681318076,265,Total amount of donations,Average total amount of donations,24,QC,
+Marital status,"Single, never married",2013,gs1datot,188.6518377683799,27.390667333418833,87.37462408416938,289.9290514525904,490,Total amount of donations,Average total amount of donations,24,QC,*
+Marital status,Married/common-law,2013,gs1datot,568.4246553518725,5.018624834371288,512.5125649689032,624.3367457348418,1585,Total amount of donations,Average total amount of donations,35,ON,
+Marital status,Widowed,2013,gs1datot,1089.973924536023,24.374430382702712,569.2606195067534,1610.687229565293,237,Total amount of donations,Average total amount of donations,35,ON,*
+Marital status,Separated/divorced,2013,gs1datot,371.2079928664654,9.774830612041765,300.09079274444775,442.3251929884831,302,Total amount of donations,Average total amount of donations,35,ON,
+Marital status,"Single, never married",2013,gs1datot,371.0566215798866,14.79737407228476,263.4415918899381,478.67165126983514,516,Total amount of donations,Average total amount of donations,35,ON,
+Marital status,Married/common-law,2013,gs1datot,843.6480069013196,15.946498169199575,579.9695167534701,1107.3264970491691,596,Total amount of donations,Average total amount of donations,46,MB,
+Marital status,Widowed,2013,gs1datot,770.3322947906937,12.10844656738968,587.5161165026867,953.1484730787007,118,Total amount of donations,Average total amount of donations,46,MB,
+Marital status,Separated/divorced,2013,gs1datot,824.2103351578367,20.608204242866872,491.3007520120751,1157.1199183035983,132,Total amount of donations,Average total amount of donations,46,MB,*
+Marital status,"Single, never married",2013,gs1datot,286.7676310472123,12.745096915279724,215.1332748722117,358.40198722221294,210,Total amount of donations,Average total amount of donations,46,MB,
+Marital status,Married/common-law,2013,gs1datot,807.2966184299765,12.369538673484195,611.5768347372215,1003.0164021227316,513,Total amount of donations,Average total amount of donations,47,SK,
+Marital status,Widowed,2013,gs1datot,923.8995162524026,25.60789644071022,460.18922377166814,1387.609808733137,96,Total amount of donations,Average total amount of donations,47,SK,*
+Marital status,Separated/divorced,2013,gs1datot,473.3042319087771,17.425947104646408,311.65082199360825,634.957641823946,87,Total amount of donations,Average total amount of donations,47,SK,*
+Marital status,"Single, never married",2013,gs1datot,311.05510545381355,12.23444631478348,236.46697107663684,385.6432398309903,150,Total amount of donations,Average total amount of donations,47,SK,
+Marital status,Married/common-law,2013,gs1datot,981.4946154739064,9.102142806942325,806.3972315644944,1156.5919993833184,557,Total amount of donations,Average total amount of donations,48,AB,
+Marital status,Widowed,2013,gs1datot,752.8937073866592,26.941111568109655,355.3386626433548,1150.4487521299636,71,Total amount of donations,Average total amount of donations,48,AB,*
+Marital status,Separated/divorced,2013,gs1datot,662.4500282212109,26.90843760732402,313.0767412090481,1011.8233152333737,79,Total amount of donations,Average total amount of donations,48,AB,*
+Marital status,"Single, never married",2013,gs1datot,602.4643322821631,38.61374468373035,146.5099941112481,1058.4186704530782,181,Total amount of donations,Average total amount of donations,48,AB,...
+Marital status,Married/common-law,2013,gs1datot,847.9929320876904,9.948665949379595,682.6425616833831,1013.3433024919977,920,Total amount of donations,Average total amount of donations,59,BC,
+Marital status,Widowed,2013,gs1datot,642.274086658375,24.094147125954084,338.9687518204514,945.5794214962987,136,Total amount of donations,Average total amount of donations,59,BC,*
+Marital status,Separated/divorced,2013,gs1datot,486.61217554837384,17.653097279012204,318.2471127394607,654.977238357287,164,Total amount of donations,Average total amount of donations,59,BC,*
+Marital status,"Single, never married",2013,gs1datot,335.44668519856623,15.635727961795084,232.6474931297211,438.24587726741134,274,Total amount of donations,Average total amount of donations,59,BC,
+Labour force status,Employed,2013,gs1datot,356.43023913974713,13.669937997701343,260.9333602664458,451.92711801304847,364,Total amount of donations,Average total amount of donations,10,NL,
+Labour force status,Unemployed,2013,gs1datot,212.96405485686273,24.971750626516997,108.73149889190292,317.19661082182256,31,Total amount of donations,Average total amount of donations,10,NL,*
+Labour force status,Not in labour force,2013,gs1datot,384.51071794591775,11.290995571035777,299.41870881875985,469.60272707307564,295,Total amount of donations,Average total amount of donations,10,NL,
+Labour force status,Unable to determine,2013,gs1datot,223.46887398398653,15.43986839743262,155.84364853359753,291.0940994343755,64,Total amount of donations,Average total amount of donations,10,NL,
+Labour force status,Employed,2013,gs1datot,467.7864549712122,11.526433075253243,362.10697526411593,573.4659346783085,407,Total amount of donations,Average total amount of donations,11,PE,
+Labour force status,Unemployed,2013,gs1datot,236.2527296010802,28.00897394022669,106.55806049945213,365.94739870270826,35,Total amount of donations,Average total amount of donations,11,PE,*
+Labour force status,Not in labour force,2013,gs1datot,626.3334777820005,9.449959800392818,510.32661621554445,742.3403393484566,305,Total amount of donations,Average total amount of donations,11,PE,
+Labour force status,Unable to determine,2013,gs1datot,313.1956131168143,26.111349458309896,152.9105404298654,473.4806858037632,35,Total amount of donations,Average total amount of donations,11,PE,*
+Labour force status,Employed,2013,gs1datot,366.9147006961409,9.507613114105471,298.5416898954502,435.28771149683166,493,Total amount of donations,Average total amount of donations,12,NS,
+Labour force status,Unemployed,2013,gs1datot,257.1249663819064,25.235165654592056,129.95091731449762,384.2990154493152,38,Total amount of donations,Average total amount of donations,12,NS,*
+Labour force status,Not in labour force,2013,gs1datot,501.16348333514185,11.991410110018387,383.3763732682953,618.9505934019884,392,Total amount of donations,Average total amount of donations,12,NS,
+Labour force status,Unable to determine,2013,gs1datot,180.45668462229665,19.274673081096864,112.28436274041775,248.62900650417555,49,Total amount of donations,Average total amount of donations,12,NS,*
+Labour force status,Employed,2013,gs1datot,311.05393426163323,8.928454909656418,256.6212063742472,365.48666214901925,528,Total amount of donations,Average total amount of donations,13,NB,
+Labour force status,Unemployed,2013,gs1datot,176.50885382796346,42.36357788855436,29.951633988412368,323.06607366751456,28,Total amount of donations,Average total amount of donations,13,NB,...
+Labour force status,Not in labour force,2013,gs1datot,429.2370118912802,8.565413888855355,357.1771198330571,501.2969039495033,400,Total amount of donations,Average total amount of donations,13,NB,
+Labour force status,Unable to determine,2013,gs1datot,204.17432914220154,20.084956622409184,123.79948820898396,284.5491700754191,42,Total amount of donations,Average total amount of donations,13,NB,*
+Labour force status,Employed,2013,gs1datot,270.3718700037893,13.468667195430692,198.9988262970049,341.74491371057366,1268,Total amount of donations,Average total amount of donations,24,QC,
+Labour force status,Unemployed,2013,gs1datot,145.36703573657533,36.102921272119595,42.504702814337236,248.22936865881343,61,Total amount of donations,Average total amount of donations,24,QC,...
+Labour force status,Not in labour force,2013,gs1datot,288.0097804923247,15.443682196183072,200.83192465672767,375.1876363279217,724,Total amount of donations,Average total amount of donations,24,QC,
+Labour force status,Unable to determine,2013,gs1datot,140.21504104419284,20.120659869985914,84.92016178892177,195.50992029946391,127,Total amount of donations,Average total amount of donations,24,QC,*
+Labour force status,Employed,2013,gs1datot,533.2948784096353,6.456105038778354,465.8131664922724,600.7765903269982,1515,Total amount of donations,Average total amount of donations,35,ON,
+Labour force status,Unemployed,2013,gs1datot,351.78461040067356,42.62764473221349,57.87332305815744,645.6958977431897,76,Total amount of donations,Average total amount of donations,35,ON,...
+Labour force status,Not in labour force,2013,gs1datot,584.2303447468148,9.254915645995347,478.25504195778956,690.2056475358401,920,Total amount of donations,Average total amount of donations,35,ON,
+Labour force status,Unable to determine,2013,gs1datot,343.62717588592017,15.37174108185169,240.09897793824592,447.1553738335944,130,Total amount of donations,Average total amount of donations,35,ON,
+Labour force status,Employed,2013,gs1datot,799.2840154604967,16.94403882703567,533.8441449909176,1064.7238859300758,587,Total amount of donations,Average total amount of donations,46,MB,*
+Labour force status,Unemployed,2013,gs1datot,319.2333230878859,27.827900088261114,145.11809936799963,493.3485468077721,17,Total amount of donations,Average total amount of donations,46,MB,*
+Labour force status,Not in labour force,2013,gs1datot,576.8791092666422,9.025968469169813,474.82588859801507,678.9323299352693,402,Total amount of donations,Average total amount of donations,46,MB,
+Labour force status,Unable to determine,2013,gs1datot,368.3981838209727,21.553236837921563,212.77364670245927,524.0227209394861,50,Total amount of donations,Average total amount of donations,46,MB,*
+Labour force status,Employed,2013,gs1datot,648.1739461483078,14.43117823974026,464.8406055578149,831.5072867388006,514,Total amount of donations,Average total amount of donations,47,SK,
+Labour force status,Unemployed,2013,gs1datot,393.48148239281926,35.90958220126869,116.54336081072586,670.4196039749127,20,Total amount of donations,Average total amount of donations,47,SK,...
+Labour force status,Not in labour force,2013,gs1datot,712.1772339171407,12.238732150332856,541.3439034516138,883.0105643826677,278,Total amount of donations,Average total amount of donations,47,SK,
+Labour force status,Unable to determine,2013,gs1datot,1293.530767196341,30.2603335168056,526.3484849894822,2060.7130494032,34,Total amount of donations,Average total amount of donations,47,SK,*
+Labour force status,Employed,2013,gs1datot,921.4496165586567,12.340010169021081,698.5880380516521,1144.3111950656612,578,Total amount of donations,Average total amount of donations,48,AB,
+Labour force status,Unemployed,2013,gs1datot,350.29016758703534,43.14906996297702,54.047590222244196,646.5327449518265,20,Total amount of donations,Average total amount of donations,48,AB,...
+Labour force status,Not in labour force,2013,gs1datot,752.8794074919772,13.542767251100837,553.0400962110076,952.7187187729468,240,Total amount of donations,Average total amount of donations,48,AB,
+Labour force status,Unable to determine,2013,gs1datot,826.8382403904044,30.637651027499828,330.3326872447493,1323.3437935360594,50,Total amount of donations,Average total amount of donations,48,AB,*
+Labour force status,Employed,2013,gs1datot,729.146916185244,12.264636953776007,553.8727815734244,904.4210507970636,785,Total amount of donations,Average total amount of donations,59,BC,
+Labour force status,Unemployed,2013,gs1datot,179.2409065646472,58.65167065185517,-26.805768145504743,385.2875812747991,37,Total amount of donations,Average total amount of donations,59,BC,...
+Labour force status,Not in labour force,2013,gs1datot,650.9910245343633,11.51648128634722,504.05005600680954,797.9319930619171,568,Total amount of donations,Average total amount of donations,59,BC,
+Labour force status,Unable to determine,2013,gs1datot,1052.3654534336647,28.9732415834708,454.7638397832619,1649.9670670840674,106,Total amount of donations,Average total amount of donations,59,BC,*
+Personal income category,"Less than $20,000",2013,gs1datot,461.13817460837816,43.39377931648754,68.93902909820952,853.3373201185468,69,Total amount of donations,Average total amount of donations,10,NL,...
+Personal income category,"$20,000 to $39,999",2013,gs1datot,290.6925024129736,13.853662772719572,211.76169719154217,369.6233076344051,134,Total amount of donations,Average total amount of donations,10,NL,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,180.06697824561962,10.637994912727175,142.52285680920804,217.6110996820312,130,Total amount of donations,Average total amount of donations,10,NL,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,213.45824095529076,12.425454001042093,161.47381133792365,265.4426705726579,100,Total amount of donations,Average total amount of donations,10,NL,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,525.2202977552314,26.613926397796334,251.2531148561211,799.1874806543417,89,Total amount of donations,Average total amount of donations,10,NL,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,471.7637575333375,20.635494084188032,280.9597304033527,662.5677846633223,62,Total amount of donations,Average total amount of donations,10,NL,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,387.82969587044784,36.881382601871266,107.48241761593363,668.176974124962,48,Total amount of donations,Average total amount of donations,10,NL,...
+Personal income category,"$140,000 or more",2013,gs1datot,425.4269746642808,14.633707734425702,303.4079662456656,547.445983082896,122,Total amount of donations,Average total amount of donations,10,NL,
+Personal income category,"Less than $20,000",2013,gs1datot,527.7854426110746,21.539834068229197,304.9686841901323,750.6022010320169,75,Total amount of donations,Average total amount of donations,11,PE,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,399.5583017306432,19.141380008177833,249.65834936662992,549.4582540946565,146,Total amount of donations,Average total amount of donations,11,PE,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,378.3628183335819,13.338849088123705,279.4449151342133,477.2807215329505,160,Total amount of donations,Average total amount of donations,11,PE,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,534.9540676905344,14.116651562157912,386.94228805490786,682.965847326161,123,Total amount of donations,Average total amount of donations,11,PE,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,344.8613152137658,14.900748426958963,244.14480861348267,445.57782181404895,103,Total amount of donations,Average total amount of donations,11,PE,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,428.5457272236065,21.591224805828258,247.19364780504156,609.8978066421714,63,Total amount of donations,Average total amount of donations,11,PE,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,555.8667310534629,24.184188379548928,292.38513221930606,819.3483298876197,45,Total amount of donations,Average total amount of donations,11,PE,*
+Personal income category,"$140,000 or more",2013,gs1datot,939.39921879315,26.036505493826244,460.01803844502217,1418.780399141278,67,Total amount of donations,Average total amount of donations,11,PE,*
+Personal income category,"Less than $20,000",2013,gs1datot,361.1994225550648,22.54585562051482,201.5887748817241,520.8100702284055,90,Total amount of donations,Average total amount of donations,12,NS,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,297.9877886847306,13.760225242210634,217.62183525720894,378.3537421122523,175,Total amount of donations,Average total amount of donations,12,NS,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,358.7309049936172,13.80821268835693,261.6454093680063,455.81640061922803,201,Total amount of donations,Average total amount of donations,12,NS,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,362.2984639732779,25.55230527074443,180.85360349532084,543.7433244512349,136,Total amount of donations,Average total amount of donations,12,NS,*
+Personal income category,"$80,000 to $99,999",2013,gs1datot,395.8225809546984,20.105960093216787,239.84094407983065,551.8042178295661,105,Total amount of donations,Average total amount of donations,12,NS,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,541.3262411158504,24.94934654098714,276.6186800347287,806.0338021969721,91,Total amount of donations,Average total amount of donations,12,NS,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,370.9846047045158,25.086238920631786,188.57843130427207,553.3907781047595,63,Total amount of donations,Average total amount of donations,12,NS,*
+Personal income category,"$140,000 or more",2013,gs1datot,502.3869581564755,14.778940921777432,356.8645875937862,647.9093287191647,111,Total amount of donations,Average total amount of donations,12,NS,
+Personal income category,"Less than $20,000",2013,gs1datot,138.37292450588632,24.74408562512773,71.26549239676784,205.48035661500478,86,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,311.83812197255077,15.738508576376786,215.645697204127,408.0305467409745,191,Total amount of donations,Average total amount of donations,13,NB,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,356.30841833881686,13.033157454818042,265.2911459470235,447.32569073061023,197,Total amount of donations,Average total amount of donations,13,NB,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,383.9699484100524,17.91041665887728,249.18201470944783,518.757882110657,147,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"$80,000 to $99,999",2013,gs1datot,308.6507669237516,16.583255218526727,208.3312953021623,408.97023854534086,136,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,304.9351294536355,23.84100145127699,162.44655403130878,447.42370487596224,79,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,359.8433888969348,20.350730923274245,216.3137370900032,503.3730407038664,59,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"$140,000 or more",2013,gs1datot,505.37818014806965,16.552911523402507,341.4177790980334,669.3385811981059,103,Total amount of donations,Average total amount of donations,13,NB,*
+Personal income category,"Less than $20,000",2013,gs1datot,204.23946663765335,25.562637181893923,101.91171904449533,306.5672142308114,148,Total amount of donations,Average total amount of donations,24,QC,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,254.8123593891308,31.59910949535714,96.99912385354793,412.62559492471365,364,Total amount of donations,Average total amount of donations,24,QC,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,384.5531149153941,32.48836093987829,139.68500670767978,629.4212231231083,402,Total amount of donations,Average total amount of donations,24,QC,*
+Personal income category,"$60,000 to $79,999",2013,gs1datot,170.5575475746849,13.565347843296708,125.21040063551861,215.90469451385115,342,Total amount of donations,Average total amount of donations,24,QC,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,202.0696615888587,11.466623227755948,156.65618525356552,247.4831379241519,289,Total amount of donations,Average total amount of donations,24,QC,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,217.69724794940768,19.53155906548125,134.36023284311102,301.03426305570434,200,Total amount of donations,Average total amount of donations,24,QC,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,222.93624896834973,16.63735706185317,150.23981327507542,295.632684661624,157,Total amount of donations,Average total amount of donations,24,QC,*
+Personal income category,"$140,000 or more",2013,gs1datot,386.8445391491036,14.115369676060782,279.8216136824133,493.8674646157939,278,Total amount of donations,Average total amount of donations,24,QC,
+Personal income category,"Less than $20,000",2013,gs1datot,407.41604940491067,25.90743445566127,200.5398007899921,614.2922980198292,136,Total amount of donations,Average total amount of donations,35,ON,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,533.2942292986513,22.84885752445658,294.46940610981073,772.1190524874919,362,Total amount of donations,Average total amount of donations,35,ON,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,360.8141911004238,10.108076300509879,289.3316121043071,432.29677009654046,389,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,441.86496761304494,9.59127666620127,358.80073055775625,524.9292046683336,349,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,483.7811074823709,12.563664091179009,364.65325529471966,602.9089596700221,316,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,649.2417440015188,15.790065720781236,448.3146679449476,850.16882005809,270,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"$120,000 to $139,999",2013,gs1datot,460.51948698523506,11.265505000757829,358.8368576236043,562.2021163468658,227,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"$140,000 or more",2013,gs1datot,688.0624017594018,9.048662533597774,566.0341723766353,810.0906311421684,592,Total amount of donations,Average total amount of donations,35,ON,
+Personal income category,"Less than $20,000",2013,gs1datot,544.3928498131003,20.62863952002717,324.28725080038856,764.4984488258119,63,Total amount of donations,Average total amount of donations,46,MB,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,561.4252498508104,16.074152252839525,384.5495751266315,738.3009245749893,200,Total amount of donations,Average total amount of donations,46,MB,
+Personal income category,"$40,000 to $59,999",2013,gs1datot,494.5525358332979,14.278689164929407,356.1484651634392,632.9566065031565,183,Total amount of donations,Average total amount of donations,46,MB,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,477.7222526233828,19.436456219715108,295.73513483418543,659.7093704125803,169,Total amount of donations,Average total amount of donations,46,MB,*
+Personal income category,"$80,000 to $99,999",2013,gs1datot,688.4313744462905,16.466395220300576,466.25018851646905,910.612560376112,136,Total amount of donations,Average total amount of donations,46,MB,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,540.0378660229293,18.865926893517333,340.3505633490554,739.7251686968032,108,Total amount of donations,Average total amount of donations,46,MB,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,682.422847220171,26.752797351241576,324.5977077269453,1040.2479867133966,59,Total amount of donations,Average total amount of donations,46,MB,*
+Personal income category,"$140,000 or more",2013,gs1datot,1351.965048332179,34.913003292184435,426.83930845366183,2277.0907882106962,138,Total amount of donations,Average total amount of donations,46,MB,...
+Personal income category,"Less than $20,000",2013,gs1datot,414.35938916235745,19.049296523230964,259.6544364761675,569.0643418485474,58,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,586.5767914870238,21.007372933160276,345.0614561805263,828.0921267935213,109,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,531.5739182841401,14.425751297340602,381.276958506925,681.8708780613551,129,Total amount of donations,Average total amount of donations,47,SK,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,653.7044529607738,15.715591251785915,452.3504541045469,855.0584518170007,132,Total amount of donations,Average total amount of donations,47,SK,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,747.146987497161,17.332378135085985,493.33490288757133,1000.9590721067507,117,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,815.2661554359001,21.10833048013589,477.97776751413375,1152.5545433576665,88,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,364.7144418430968,20.357973767243802,219.1901139602045,510.2387697259891,65,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"$140,000 or more",2013,gs1datot,881.399722593006,29.96804665785218,363.6982066413042,1399.101238544708,148,Total amount of donations,Average total amount of donations,47,SK,*
+Personal income category,"Less than $20,000",2013,gs1datot,363.6938061333386,48.67939274808501,16.694067327445453,710.6935449392317,38,Total amount of donations,Average total amount of donations,48,AB,...
+Personal income category,"$20,000 to $39,999",2013,gs1datot,741.7328559950446,25.418688213223728,372.20367270605374,1111.2620392840354,99,Total amount of donations,Average total amount of donations,48,AB,*
+Personal income category,"$40,000 to $59,999",2013,gs1datot,494.6608120987312,16.828250894562945,331.5079955524793,657.813628644983,102,Total amount of donations,Average total amount of donations,48,AB,*
+Personal income category,"$60,000 to $79,999",2013,gs1datot,1027.0687908873779,20.361026675289637,617.1976915505451,1436.9398902242106,103,Total amount of donations,Average total amount of donations,48,AB,*
+Personal income category,"$80,000 to $99,999",2013,gs1datot,713.435397513183,21.707608330429203,409.8962421245927,1016.9745529017734,97,Total amount of donations,Average total amount of donations,48,AB,*
+Personal income category,"$100,000 to $119,999",2013,gs1datot,1554.044816535277,34.870552520817846,491.932466121503,2616.1571669490513,86,Total amount of donations,Average total amount of donations,48,AB,...
+Personal income category,"$120,000 to $139,999",2013,gs1datot,600.0385382193109,23.932173190943086,318.58327624989715,881.4938001887247,81,Total amount of donations,Average total amount of donations,48,AB,*
+Personal income category,"$140,000 or more",2013,gs1datot,877.6255549419924,11.338698075821503,682.5869675418548,1072.66414234213,282,Total amount of donations,Average total amount of donations,48,AB,
+Personal income category,"Less than $20,000",2013,gs1datot,348.4817059546076,25.7267744739882,172.76485380719714,524.1985581020181,89,Total amount of donations,Average total amount of donations,59,BC,*
+Personal income category,"$20,000 to $39,999",2013,gs1datot,638.1070031701356,45.22954350374294,72.43614388135802,1203.7778624589132,235,Total amount of donations,Average total amount of donations,59,BC,...
+Personal income category,"$40,000 to $59,999",2013,gs1datot,470.17953263888256,14.29798913746242,338.4185655556356,601.9404997221295,260,Total amount of donations,Average total amount of donations,59,BC,
+Personal income category,"$60,000 to $79,999",2013,gs1datot,554.0810815416843,15.64120486350756,384.220886955183,723.9412761281856,218,Total amount of donations,Average total amount of donations,59,BC,
+Personal income category,"$80,000 to $99,999",2013,gs1datot,474.70449417692413,14.597403942691582,338.8897060551174,610.5192822987308,202,Total amount of donations,Average total amount of donations,59,BC,
+Personal income category,"$100,000 to $119,999",2013,gs1datot,862.1588085292939,19.28638799306142,536.2573830130507,1188.060234045537,131,Total amount of donations,Average total amount of donations,59,BC,*
+Personal income category,"$120,000 to $139,999",2013,gs1datot,519.3072821059963,16.501214884747746,351.3540276995602,687.2605365124323,115,Total amount of donations,Average total amount of donations,59,BC,*
+Personal income category,"$140,000 or more",2013,gs1datot,1306.299098127835,15.706566809865985,904.163996045601,1708.4342002100689,246,Total amount of donations,Average total amount of donations,59,BC,
+Frequency of religious attendance,At least once a week,2013,gs1datot,851.6979160108657,14.460167070937613,610.3147460388273,1093.0810859829041,158,Total amount of donations,Average total amount of donations,10,NL,
+Frequency of religious attendance,At least once a month,2013,gs1datot,325.38266114545524,16.975625507159158,217.12259612439857,433.6427261665119,96,Total amount of donations,Average total amount of donations,10,NL,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,254.71309260787368,14.514810743084244,182.2510224133012,327.17516280244615,96,Total amount of donations,Average total amount of donations,10,NL,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,240.24614269297257,26.518652641227376,115.37675871256285,365.1155266733823,131,Total amount of donations,Average total amount of donations,10,NL,*
+Frequency of religious attendance,Not at all,2013,gs1datot,169.34675927694911,12.357404410868932,128.33085972249324,210.36265883140499,204,Total amount of donations,Average total amount of donations,10,NL,
+Frequency of religious attendance,Not stated,2013,gs1datot,225.12847943565453,14.876144998714814,159.4884251020905,290.76853376921855,69,Total amount of donations,Average total amount of donations,10,NL,
+Frequency of religious attendance,At least once a week,2013,gs1datot,906.9797935863005,9.121444482326302,744.8326427907282,1069.1269443818728,245,Total amount of donations,Average total amount of donations,11,PE,
+Frequency of religious attendance,At least once a month,2013,gs1datot,629.4118284496581,24.377610700737335,328.68364662416576,930.1400102751504,99,Total amount of donations,Average total amount of donations,11,PE,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,272.08294436782404,17.359494060139127,179.50948922832328,364.6563995073248,88,Total amount of donations,Average total amount of donations,11,PE,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,201.6939474424487,16.145629659714945,137.8681949889479,265.5196998959495,105,Total amount of donations,Average total amount of donations,11,PE,
+Frequency of religious attendance,Not at all,2013,gs1datot,314.89536008643546,24.075352679968322,166.30624020976956,463.48447996310136,208,Total amount of donations,Average total amount of donations,11,PE,*
+Frequency of religious attendance,Not stated,2013,gs1datot,357.47241585668615,25.14134699256084,181.3238269603105,533.6210047530618,37,Total amount of donations,Average total amount of donations,11,PE,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1029.5272745243315,10.470171335311052,818.2563483590616,1240.7982006896013,196,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,At least once a month,2013,gs1datot,459.21712409307065,14.74418469935365,326.512233564593,591.9220146215483,110,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,259.1074617918346,14.718665149001012,184.36000235183832,333.85492123183093,108,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,150.4122972299459,12.272110255595264,114.23378664087979,186.590807819012,122,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,Not at all,2013,gs1datot,270.998432073145,16.154092823336782,185.19642573102698,356.80043841526305,381,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,Not stated,2013,gs1datot,169.31530599008636,15.057152255055986,119.3478598789853,219.2827521011874,55,Total amount of donations,Average total amount of donations,12,NS,
+Frequency of religious attendance,At least once a week,2013,gs1datot,857.696789689395,9.02031842019423,706.0602923376753,1009.3332870411148,248,Total amount of donations,Average total amount of donations,13,NB,
+Frequency of religious attendance,At least once a month,2013,gs1datot,324.4047204220595,14.989368884144355,229.09908008333247,419.7103607607865,125,Total amount of donations,Average total amount of donations,13,NB,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,220.16910622819478,16.859979776017116,147.4143282439813,292.92388421240827,119,Total amount of donations,Average total amount of donations,13,NB,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,255.78435761272857,22.386652002606187,143.5537740428417,368.0149411826154,131,Total amount of donations,Average total amount of donations,13,NB,*
+Frequency of religious attendance,Not at all,2013,gs1datot,150.86699805039174,11.066436997317625,118.14422082372886,183.58977527705463,327,Total amount of donations,Average total amount of donations,13,NB,
+Frequency of religious attendance,Not stated,2013,gs1datot,220.6124956636486,18.798562932940776,139.32891077892728,301.8960805483699,48,Total amount of donations,Average total amount of donations,13,NB,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,881.566609262239,23.439381371453216,476.5718824789356,1286.5613360455425,255,Total amount of donations,Average total amount of donations,24,QC,*
+Frequency of religious attendance,At least once a month,2013,gs1datot,269.5807436752429,17.55711599595003,176.81446472388885,362.347022626597,172,Total amount of donations,Average total amount of donations,24,QC,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,238.92713283875736,16.9892573492454,159.36838164504996,318.48588403246475,251,Total amount of donations,Average total amount of donations,24,QC,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,202.0641562672938,15.868147162218508,139.22018921112033,264.9081233234673,390,Total amount of donations,Average total amount of donations,24,QC,
+Frequency of religious attendance,Not at all,2013,gs1datot,158.85287579058058,7.614486457658021,135.14548322672601,182.56026835443515,940,Total amount of donations,Average total amount of donations,24,QC,
+Frequency of religious attendance,Not stated,2013,gs1datot,145.5501866121939,17.607276916431257,95.32135775365603,195.77901547073176,172,Total amount of donations,Average total amount of donations,24,QC,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1216.5818507782672,7.200957012825442,1044.8781551752004,1388.285546381334,557,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,At least once a month,2013,gs1datot,599.7415068284276,12.07410278968893,457.8138390570398,741.6691745998155,314,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,495.9349055309798,13.030153475216268,369.27991740627726,622.5898936556823,295,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,259.7231752455637,10.855714083805974,204.46237227892536,314.98397821220203,318,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,Not at all,2013,gs1datot,323.1627128193991,12.944358452899174,241.17479312477286,405.1506325140253,1000,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,Not stated,2013,gs1datot,335.7438990520471,13.035298290431843,249.96564655914244,421.5221515449517,157,Total amount of donations,Average total amount of donations,35,ON,
+Frequency of religious attendance,At least once a week,2013,gs1datot,1772.5963568538173,20.16258897085895,1072.1026464387378,2473.0900672688967,242,Total amount of donations,Average total amount of donations,46,MB,*
+Frequency of religious attendance,At least once a month,2013,gs1datot,504.65665217740366,15.132425792181985,354.9804875063235,654.3328168484838,121,Total amount of donations,Average total amount of donations,46,MB,
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,359.85210713150764,15.003311733586031,254.0341741074655,465.67004015554977,108,Total amount of donations,Average total amount of donations,46,MB,
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,296.9838616010513,11.003761190129715,232.93342455303167,361.0342986490709,137,Total amount of donations,Average total amount of donations,46,MB,
+Frequency of religious attendance,Not at all,2013,gs1datot,343.9154319969855,14.835006386222924,243.9183119533773,443.9125520405937,387,Total amount of donations,Average total amount of donations,46,MB,
+Frequency of religious attendance,Not stated,2013,gs1datot,450.8254670626371,20.962509975265576,265.600377011751,636.0505571135232,61,Total amount of donations,Average total amount of donations,46,MB,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1359.4934517869729,10.123446706887487,1089.7483221605635,1629.2385814133822,174,Total amount of donations,Average total amount of donations,47,SK,
+Frequency of religious attendance,At least once a month,2013,gs1datot,738.2364658863128,19.830061360772262,451.3119597095362,1025.1609720630893,97,Total amount of donations,Average total amount of donations,47,SK,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,794.4952150487337,49.21750616434055,28.08906457405749,1560.9013655234098,114,Total amount of donations,Average total amount of donations,47,SK,...
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,445.2680142832836,33.54688044826861,152.5012783246679,738.0347502418992,122,Total amount of donations,Average total amount of donations,47,SK,...
+Frequency of religious attendance,Not at all,2013,gs1datot,307.51922449163385,12.670431219583609,231.15116461907076,383.88728436419694,299,Total amount of donations,Average total amount of donations,47,SK,
+Frequency of religious attendance,Not stated,2013,gs1datot,1101.0231905803903,32.923473113527024,390.545900723326,1811.5004804374546,40,Total amount of donations,Average total amount of donations,47,SK,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1641.4181407526303,11.845774152865133,1260.3253192702125,2022.510962235048,185,Total amount of donations,Average total amount of donations,48,AB,
+Frequency of religious attendance,At least once a month,2013,gs1datot,1647.7796952957224,39.11291526053855,384.59334230121044,2910.9660482902345,80,Total amount of donations,Average total amount of donations,48,AB,...
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,594.3938385224559,24.530991571630466,308.61011319870954,880.1775638462022,91,Total amount of donations,Average total amount of donations,48,AB,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,267.5144950930047,17.143903341843657,177.62579097962305,357.4031992063864,114,Total amount of donations,Average total amount of donations,48,AB,*
+Frequency of religious attendance,Not at all,2013,gs1datot,540.8318918041324,17.03094639394795,360.3019815784628,721.361802029802,360,Total amount of donations,Average total amount of donations,48,AB,*
+Frequency of religious attendance,Not stated,2013,gs1datot,869.9711306130696,27.90687863321777,394.1275708849406,1345.8146903411985,58,Total amount of donations,Average total amount of donations,48,AB,*
+Frequency of religious attendance,At least once a week,2013,gs1datot,1592.4630958590465,11.563366528441637,1231.5507324057562,1953.3754593123367,257,Total amount of donations,Average total amount of donations,59,BC,
+Frequency of religious attendance,At least once a month,2013,gs1datot,549.0769941607607,24.730238387879165,282.93730743546524,815.2166808860561,86,Total amount of donations,Average total amount of donations,59,BC,*
+Frequency of religious attendance,At least 3 times a year,2013,gs1datot,414.35400713681184,29.649025010826723,173.56866221499357,655.1393520586302,112,Total amount of donations,Average total amount of donations,59,BC,*
+Frequency of religious attendance,Once or twice a year,2013,gs1datot,667.7160385033721,49.06309047093667,25.62767408721652,1309.8044029195278,162,Total amount of donations,Average total amount of donations,59,BC,...
+Frequency of religious attendance,Not at all,2013,gs1datot,402.27880719199817,11.953231991204472,308.0333136196664,496.52430076432995,765,Total amount of donations,Average total amount of donations,59,BC,
+Frequency of religious attendance,Not stated,2013,gs1datot,1162.204418304458,27.503174613195934,535.7154337621381,1788.6934028467776,114,Total amount of donations,Average total amount of donations,59,BC,*
+Immigration status,Native-born,2013,gs1datot,361.88464015375285,9.357367911295691,295.514620441286,428.2546598662197,664,Total amount of donations,Average total amount of donations,10,NL,
+Immigration status,Naturalized,2013,gs1datot,326.1370274302183,62.056756937798994,-70.54020569580143,722.8142605562381,12,Total amount of donations,Average total amount of donations,10,NL,...
+Immigration status,Non-Canadian,2013,gs1datot,441.766275699265,83.85854712898113,-284.319591851501,1167.852143250031,7,Total amount of donations,Average total amount of donations,10,NL,...
+Immigration status,Unknown,2013,gs1datot,235.36915936332284,14.68765131582187,167.61280961778658,303.1255091088591,71,Total amount of donations,Average total amount of donations,10,NL,
+Immigration status,Native-born,2013,gs1datot,498.99017426017014,7.944850019079433,421.2893209861883,576.691027534152,698,Total amount of donations,Average total amount of donations,11,PE,
+Immigration status,Naturalized,2013,gs1datot,751.7861795470038,34.185708385502686,248.06871083977722,1255.5036482542305,29,Total amount of donations,Average total amount of donations,11,PE,...
+Immigration status,Non-Canadian,2013,gs1datot,408.42436211577797,39.71313848713527,90.52186397333793,726.326860258218,18,Total amount of donations,Average total amount of donations,11,PE,...
+Immigration status,Unknown,2013,gs1datot,316.8580863494565,25.42933039764332,158.93420453903968,474.7819681598734,37,Total amount of donations,Average total amount of donations,11,PE,*
+Immigration status,Native-born,2013,gs1datot,404.49541879633523,7.418102636632194,345.6849642315931,463.3058733610774,857,Total amount of donations,Average total amount of donations,12,NS,
+Immigration status,Naturalized,2013,gs1datot,666.5567660508522,31.727374339938088,252.06170034275635,1081.051831758948,35,Total amount of donations,Average total amount of donations,12,NS,*
+Immigration status,Non-Canadian,2013,gs1datot,316.4739419470469,34.11138368627824,104.88869436195878,528.0591895321351,19,Total amount of donations,Average total amount of donations,12,NS,...
+Immigration status,Unknown,2013,gs1datot,187.38563339413344,15.906009572656485,128.96777635620077,245.8034904320661,61,Total amount of donations,Average total amount of donations,12,NS,
+Immigration status,Native-born,2013,gs1datot,338.3385642573271,5.89820299963019,299.22572810005113,377.4514004146031,907,Total amount of donations,Average total amount of donations,13,NB,
+Immigration status,Naturalized,2013,gs1datot,1262.6444564340054,30.55370142059507,506.5205008882533,2018.7684119797575,30,Total amount of donations,Average total amount of donations,13,NB,*
+Immigration status,Non-Canadian,2013,gs1datot,51.19793640285506,43.886807127346636,7.15923201873936,95.23664078697077,12,Total amount of donations,Average total amount of donations,13,NB,...
+Immigration status,Unknown,2013,gs1datot,194.95192747809244,17.329472178722614,128.7362297624036,261.1676251937813,49,Total amount of donations,Average total amount of donations,13,NB,*
+Immigration status,Native-born,2013,gs1datot,210.09110546905939,5.9587048696411475,185.55488682887471,234.62732410924406,1817,Total amount of donations,Average total amount of donations,24,QC,
+Immigration status,Naturalized,2013,gs1datot,951.1275638986689,30.16952978192675,388.7144997977374,1513.5406279996005,172,Total amount of donations,Average total amount of donations,24,QC,*
+Immigration status,Non-Canadian,2013,gs1datot,200.8183167277354,41.216021591198164,38.5934289709879,363.0432044844829,59,Total amount of donations,Average total amount of donations,24,QC,...
+Immigration status,Unknown,2013,gs1datot,169.07881815062692,24.394984872252543,88.23666953571896,249.92096676553487,132,Total amount of donations,Average total amount of donations,24,QC,*
+Immigration status,Native-born,2013,gs1datot,553.5429785996313,6.413126509553277,483.9654105826706,623.120546616592,1856,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status,Naturalized,2013,gs1datot,512.1576332311015,9.302548450359804,418.77767367316477,605.5375927890382,526,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status,Non-Canadian,2013,gs1datot,523.2799992513014,33.07465844461612,184.0630105333493,862.4969879692535,105,Total amount of donations,Average total amount of donations,35,ON,*
+Immigration status,Unknown,2013,gs1datot,374.90550563720643,12.997014528918191,279.40327539207664,470.4077358823362,154,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status,Native-born,2013,gs1datot,707.3474526591388,14.936027704374894,500.2780191475862,914.4168861706913,846,Total amount of donations,Average total amount of donations,46,MB,
+Immigration status,Naturalized,2013,gs1datot,944.7804157848198,25.595129358442666,470.82629659923424,1418.7345349704053,119,Total amount of donations,Average total amount of donations,46,MB,*
+Immigration status,Non-Canadian,2013,gs1datot,391.90620763657745,21.211305156827155,228.97749514944462,554.8349201237103,42,Total amount of donations,Average total amount of donations,46,MB,*
+Immigration status,Unknown,2013,gs1datot,409.7955290860875,19.0290147624216,256.9574361914679,562.6336219807072,49,Total amount of donations,Average total amount of donations,46,MB,*
+Immigration status,Native-born,2013,gs1datot,675.4539463972499,11.395496835901431,524.5929056994606,826.3149870950391,760,Total amount of donations,Average total amount of donations,47,SK,
+Immigration status,Naturalized,2013,gs1datot,695.751443209002,25.342213072183846,350.17291955815017,1041.3299668598538,32,Total amount of donations,Average total amount of donations,47,SK,*
+Immigration status,Non-Canadian,2013,gs1datot,263.6565729537497,27.665404040899478,120.69355385248082,406.61959205501853,20,Total amount of donations,Average total amount of donations,47,SK,*
+Immigration status,Unknown,2013,gs1datot,1266.7395020223628,31.918868296803595,474.2693940185022,2059.2096100262233,34,Total amount of donations,Average total amount of donations,47,SK,*
+Immigration status,Native-born,2013,gs1datot,857.2877361706609,11.657678477176114,661.4092336524568,1053.166238688865,676,Total amount of donations,Average total amount of donations,48,AB,
+Immigration status,Naturalized,2013,gs1datot,985.9281708248587,23.485195930389693,532.1040713062154,1439.752270343502,119,Total amount of donations,Average total amount of donations,48,AB,*
+Immigration status,Non-Canadian,2013,gs1datot,409.6049729987757,34.00808952970399,136.58429107639654,682.6256549211548,35,Total amount of donations,Average total amount of donations,48,AB,...
+Immigration status,Unknown,2013,gs1datot,939.923684217704,26.284728066670965,455.7020685825391,1424.145299852869,58,Total amount of donations,Average total amount of donations,48,AB,*
+Immigration status,Native-born,2013,gs1datot,655.8630862372283,11.452525541863517,508.64453201931155,803.0816404551451,1014,Total amount of donations,Average total amount of donations,59,BC,
+Immigration status,Naturalized,2013,gs1datot,722.3290499233294,16.13102102104976,493.95590667734825,950.7021931693106,285,Total amount of donations,Average total amount of donations,59,BC,
+Immigration status,Non-Canadian,2013,gs1datot,721.9073689766724,23.420370442607396,390.5296333012583,1053.2851046520864,65,Total amount of donations,Average total amount of donations,59,BC,*
+Immigration status,Unknown,2013,gs1datot,1013.5750169981255,26.351540587645513,490.083077760743,1537.066956235508,132,Total amount of donations,Average total amount of donations,59,BC,*
+Immigration status (dcit2),Native-born,2013,gs1datot,363.94830973739835,9.216348203505117,298.2057405226405,429.6908789521562,674,Total amount of donations,Average total amount of donations,10,NL,
+Immigration status (dcit2),Naturalized,2013,gs1datot,340.1553765731219,62.109098752133185,-73.92119447602187,754.2319476222656,13,Total amount of donations,Average total amount of donations,10,NL,...
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,88.14691384817529,16.655712163037297,59.3717099567565,116.92211773959409,3,Total amount of donations,Average total amount of donations,10,NL,...
+Immigration status (dcit2),Unknown,2013,gs1datot,233.43477616670899,15.085969740941707,164.41288107673836,302.4566712566796,64,Total amount of donations,Average total amount of donations,10,NL,
+Immigration status (dcit2),Native-born,2013,gs1datot,494.3746856300751,8.035927272241961,416.5100396658773,572.2393315942729,698,Total amount of donations,Average total amount of donations,11,PE,
+Immigration status (dcit2),Naturalized,2013,gs1datot,610.1941364525386,26.194836103913676,296.9147593798986,923.4735135251785,44,Total amount of donations,Average total amount of donations,11,PE,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,822.6328722082568,56.269621109365545,-84.61956112188773,1729.8853055384013,7,Total amount of donations,Average total amount of donations,11,PE,...
+Immigration status (dcit2),Unknown,2013,gs1datot,319.21408808986905,26.868502823226812,151.11180637519837,487.3163698045397,33,Total amount of donations,Average total amount of donations,11,PE,*
+Immigration status (dcit2),Native-born,2013,gs1datot,402.0806157142258,7.28610563060466,344.6614747967992,459.4997566316524,868,Total amount of donations,Average total amount of donations,12,NS,
+Immigration status (dcit2),Naturalized,2013,gs1datot,557.4360212182474,26.132155370049503,271.927975171382,842.9440672651128,45,Total amount of donations,Average total amount of donations,12,NS,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,437.89605021304527,60.177394315735945,-78.58274753973893,954.3748479658295,11,Total amount of donations,Average total amount of donations,12,NS,...
+Immigration status (dcit2),Unknown,2013,gs1datot,147.9209538625043,15.87469268967494,101.89708575277679,193.9448219722318,48,Total amount of donations,Average total amount of donations,12,NS,
+Immigration status (dcit2),Native-born,2013,gs1datot,348.8441726164373,6.039917082926284,307.5479298602127,390.14041537266183,908,Total amount of donations,Average total amount of donations,13,NB,
+Immigration status (dcit2),Naturalized,2013,gs1datot,423.9290973593768,38.16716970575425,106.80351820178976,741.0546765169638,41,Total amount of donations,Average total amount of donations,13,NB,...
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,43.805243566040936,81.26492220220636,-25.966136669598676,113.57662380168054,7,Total amount of donations,Average total amount of donations,13,NB,...
+Immigration status (dcit2),Unknown,2013,gs1datot,242.98337342174747,20.72122166647085,144.30090486658304,341.6658419769119,42,Total amount of donations,Average total amount of donations,13,NB,*
+Immigration status (dcit2),Native-born,2013,gs1datot,209.12692444649824,6.008528652689166,184.49909269232504,233.75475620067144,1820,Total amount of donations,Average total amount of donations,24,QC,
+Immigration status (dcit2),Naturalized,2013,gs1datot,743.4824467157011,29.049284766745004,320.1766122537505,1166.7882811776517,210,Total amount of donations,Average total amount of donations,24,QC,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,228.0334041580621,39.22101338044692,52.740081838008535,403.3267264781157,25,Total amount of donations,Average total amount of donations,24,QC,...
+Immigration status (dcit2),Unknown,2013,gs1datot,168.68895596684573,22.171465976271286,95.38470659766527,241.99320533602616,125,Total amount of donations,Average total amount of donations,24,QC,*
+Immigration status (dcit2),Native-born,2013,gs1datot,544.4759675517963,6.4533269099802215,475.60907732082364,613.342857782769,1859,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status (dcit2),Naturalized,2013,gs1datot,557.967193192166,9.603617103167633,452.94245880265254,662.9919275816794,580,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,407.5313455837723,35.68463135699118,122.50150883207186,692.5611823354727,67,Total amount of donations,Average total amount of donations,35,ON,...
+Immigration status (dcit2),Unknown,2013,gs1datot,332.5045147036085,14.962769549412073,234.99261335867976,430.0164160485372,135,Total amount of donations,Average total amount of donations,35,ON,
+Immigration status (dcit2),Native-born,2013,gs1datot,709.0338454070959,14.943677269586411,501.36443145547275,916.703259358719,844,Total amount of donations,Average total amount of donations,46,MB,
+Immigration status (dcit2),Naturalized,2013,gs1datot,741.4629392149665,23.469327222977153,400.3971341490633,1082.5287442808697,145,Total amount of donations,Average total amount of donations,46,MB,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,718.9375456851172,56.0069009907915,-70.25104574192574,1508.1261371121602,20,Total amount of donations,Average total amount of donations,46,MB,...
+Immigration status (dcit2),Unknown,2013,gs1datot,416.05522176080194,19.670100864888298,255.65474493435488,576.455698587249,47,Total amount of donations,Average total amount of donations,46,MB,*
+Immigration status (dcit2),Native-born,2013,gs1datot,674.0743317897567,11.377605337579183,523.7578003222452,824.3908632572682,760,Total amount of donations,Average total amount of donations,47,SK,
+Immigration status (dcit2),Naturalized,2013,gs1datot,495.8721208379239,26.03523376173637,242.83789748050577,748.906344195342,40,Total amount of donations,Average total amount of donations,47,SK,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,492.3661059156533,28.84429110408677,214.01297555292354,770.719236278383,13,Total amount of donations,Average total amount of donations,47,SK,...
+Immigration status (dcit2),Unknown,2013,gs1datot,1295.3129868533767,31.820845766617506,487.45591811587326,2103.17005559088,33,Total amount of donations,Average total amount of donations,47,SK,*
+Immigration status (dcit2),Native-born,2013,gs1datot,859.9515267466379,11.618682036115716,664.1216594599947,1055.781394033281,680,Total amount of donations,Average total amount of donations,48,AB,
+Immigration status (dcit2),Naturalized,2013,gs1datot,808.2731188240708,22.679412083836628,448.9890017686085,1167.5572358795332,146,Total amount of donations,Average total amount of donations,48,AB,*
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,1805.959411474568,65.16000639195114,-500.454212042717,4112.373034991853,11,Total amount of donations,Average total amount of donations,48,AB,...
+Immigration status (dcit2),Unknown,2013,gs1datot,849.6394419174177,30.366101713674396,343.96407481270575,1355.3148090221296,51,Total amount of donations,Average total amount of donations,48,AB,*
+Immigration status (dcit2),Native-born,2013,gs1datot,658.0797254935096,11.425902789498968,510.70699611566806,805.4524548713512,1023,Total amount of donations,Average total amount of donations,59,BC,
+Immigration status (dcit2),Naturalized,2013,gs1datot,753.8158681554308,14.082390257304619,545.7553183318437,961.876417979018,330,Total amount of donations,Average total amount of donations,59,BC,
+Immigration status (dcit2),Non-Canadian,2013,gs1datot,492.80089021010787,39.02089537930006,115.90898901209067,869.692791408125,33,Total amount of donations,Average total amount of donations,59,BC,...
+Immigration status (dcit2),Unknown,2013,gs1datot,1007.138599454448,28.79039552949304,438.82903729416967,1575.4481616147264,110,Total amount of donations,Average total amount of donations,59,BC,*
+All,NA,2013,gs1datot,532.021464628467,3.3594298770383864,496.99124778017773,567.0516814767562,-,Total amount of donations,Average total amount of donations,CA,NA,...
+All,NA,2013,gs1datot,532.021464628467,3.3594298770383864,496.99124778017773,567.0516814767562,-,Total amount of donations,Average total amount of donations,CA,NA,...
+All,NA,2013,gs1datot,863.9045194972404,9.518835679256329,702.729523972269,1025.0795150222116,888,Total amount of donations,Average total amount of donations,AB,NA,
+All,NA,2013,gs1datot,376.9066003628918,3.7715783092484814,349.04507026704425,404.7681304587394,3506,Total amount of donations,Average total amount of donations,AT,NA,
+All,NA,2013,gs1datot,705.6187194163676,8.390833562487861,589.5745588235413,821.6628800091939,1496,Total amount of donations,Average total amount of donations,BC,NA,
+All,NA,2013,gs1datot,533.239021069956,5.030324324143127,480.6656288580256,585.8124132818864,2641,Total amount of donations,Average total amount of donations,ON,NA,
+All,NA,2013,gs1datot,692.4726903951389,8.236478937597532,580.6854246558245,804.2599561344533,1902,Total amount of donations,Average total amount of donations,PR,NA,
+All,NA,2013,gs1datot,264.72346937805725,9.651742126585274,214.6455534271003,314.8013853290142,2180,Total amount of donations,Average total amount of donations,QC,NA,
+All,NA,2013,gs1datot,350.7172375865624,8.669910300047693,291.12086768906977,410.31360748405507,754,Total amount of donations,Average total amount of donations,10,NL,
+All,NA,2013,gs1datot,497.7862667146649,7.4036309556008355,425.55324809269797,570.0192853366319,782,Total amount of donations,Average total amount of donations,11,PE,
+All,NA,2013,gs1datot,397.6622034851344,6.768806583920234,344.9058815066668,450.418525463602,972,Total amount of donations,Average total amount of donations,12,NS,
+All,NA,2013,gs1datot,345.9338758367463,5.736390283572968,307.0401207392265,384.82763093426615,998,Total amount of donations,Average total amount of donations,13,NB,
+All,NA,2013,gs1datot,264.72346937805725,9.651742126585274,214.6455534271003,314.8013853290142,2180,Total amount of donations,Average total amount of donations,24,QC,
+All,NA,2013,gs1datot,533.239021069956,5.030324324143127,480.6656288580256,585.8124132818864,2641,Total amount of donations,Average total amount of donations,35,ON,
+All,NA,2013,gs1datot,701.0082386309298,12.417119850339978,530.4031086207775,871.613368641082,1056,Total amount of donations,Average total amount of donations,46,MB,
+All,NA,2013,gs1datot,682.5269674481642,10.271379889681869,545.1238144645317,819.9301204317967,846,Total amount of donations,Average total amount of donations,47,SK,
+All,NA,2013,gs1datot,863.9045194972404,9.518835679256329,702.729523972269,1025.0795150222116,888,Total amount of donations,Average total amount of donations,48,AB,
+All,NA,2013,gs1datot,705.6187194163676,8.390833562487861,589.5745588235413,821.6628800091939,1496,Total amount of donations,Average total amount of donations,59,BC,

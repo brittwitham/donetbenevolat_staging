@@ -1,0 +1,241 @@
+Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.02080350020498708,10.505027319838364,0.016520168688822747,0.02508683172115141,8162,Arts & culture,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax01,0.044137278582826296,7.49593558770983,0.037652733873482634,0.05062182329216996,7987,Arts & culture,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.06397520630522525,5.65463732993562,0.0568849074341533,0.07106550517629721,8162,Sports & recreation,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax02,0.18384559250736074,3.4888187938921247,0.17127430592899373,0.19641687908572775,7987,Sports & recreation,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.06541521805147758,5.467949142960298,0.058404679998696286,0.07242575610425887,8162,Education & research,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax03,0.18180595434350758,3.527463044823622,0.16923643512421502,0.19437547356280013,7987,Education & research,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.007991542014621544,14.579780220835517,0.0057078914245125185,0.01027519260473057,8162,Universities & colleges,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax04,0.02853907846012041,8.172478499899746,0.023967756360383455,0.03311040055985737,7987,Universities & colleges,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,8162,Health,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax05,0.8004860979665238,0.9558037514683845,0.7854902642610306,0.815481931672017,7987,Health,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,8162,Hospitals,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax06,0.41024786519211615,1.9703386718244023,0.3944049425319872,0.4260907878522451,7987,Hospitals,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.20419093309791314,3.1745790733650554,0.19148604939902542,0.21689581679680087,8162,Social services,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax07,0.49380305018781295,1.8592855116128035,0.47580821205989593,0.5117978883157299,7987,Social services,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.04777428625014359,6.875480213751341,0.04133636981769908,0.054212202682588105,8162,Environment,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax08,0.10951500020313527,4.656784287923688,0.09951942432569948,0.11951057608057107,7987,Environment,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.01264142898769546,17.50330427928649,0.008304679827249428,0.016978178148141492,8162,Development & housing,Health donor donation rates to other causes,CA,*
+Health donor status,Health donors,2018,flag_gs1dax09,0.03451690903452775,8.945665422930018,0.028464996536614266,0.04056882153244123,7987,Development & housing,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.018343771359756365,10.253528501481057,0.014657306804398904,0.022030235915113827,8162,"Law, advocacy & politics",Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax10,0.04808753850594891,7.286821761431894,0.041219720394076,0.05495535661782181,7987,"Law, advocacy & politics",Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.07142104491919786,6.1827010882363815,0.06276633450041497,0.08007575533798075,8162,"Grant-making, fundraising",Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax11,0.16454360073358965,3.609133006391026,0.1529041637031053,0.17618303776407399,7987,"Grant-making, fundraising",Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.06041537194032147,6.8453089344668605,0.0523097079342211,0.06852103594642184,8162,International,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax12,0.11584615885250828,4.4174078747740095,0.10581624436413048,0.12587607334088607,7987,International,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.18709736844645355,3.640193516864761,0.1737486294354044,0.20044610745750271,8162,Religion,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax13,0.3296499661140608,2.480736717528381,0.313621875051933,0.34567805717618855,7987,Religion,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax14,0.00118339435548901,28.560876029951103,5.209504504342527e-4,0.0018458382605437672,8162,Business & professional,Health donor donation rates to other causes,CA,*
+Health donor status,Health donors,2018,flag_gs1dax14,0.008020552390650382,18.289424246041687,0.005145456029131416,0.010895648752169348,7987,Business & professional,Health donor donation rates to other causes,CA,*
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.017570621100045283,14.240960082333881,0.012666349950166342,0.022474892249924223,8162,Other,Health donor donation rates to other causes,CA,
+Health donor status,Health donors,2018,flag_gs1dax15,0.02979545791280474,9.94537589403956,0.023987554870340717,0.03560336095526876,7987,Other,Health donor donation rates to other causes,CA,
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.02186098417704281,10.871477432825566,0.01720291032747019,0.02651905802661543,7155,Arts & culture,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax01,0.052118055287417524,7.89927730841991,0.044048982120034,0.06018712845480105,6981,Arts & culture,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.06076960979110496,5.780890538905214,0.0538842080533331,0.06765501152887683,7155,Sports & recreation,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax02,0.1860287762504276,3.3901953918302805,0.17366779495068974,0.19838975755016547,6981,Sports & recreation,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.06694027049186234,5.766524973785432,0.059374559781878444,0.07450598120184623,7155,Education & research,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax03,0.19723608200945375,3.630332126383024,0.1832021031858302,0.2112700608330773,6981,Education & research,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.006883257659391775,17.322354250455383,0.0045463097417136125,0.009220205577069937,7155,Universities & colleges,Health donor donation rates to other causes,CA (without QC),*
+Health donor status,Health donors,2018,flag_gs1dax04,0.02817554825311095,9.360761433457514,0.023006249367033337,0.03334484713918856,6981,Universities & colleges,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,7155,Health,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax05,0.8266564158273315,0.9904249098897475,0.8106093850200575,0.8427034466346055,6981,Health,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,7155,Hospitals,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax06,0.37350275329813315,2.443277695045374,0.355616691419798,0.3913888151764683,6981,Hospitals,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.20783132218230008,3.6225591018804084,0.19307512087852866,0.2225875234860715,7155,Social services,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax07,0.4936205659769914,1.9481922148354889,0.4747722245491588,0.512468907404824,6981,Social services,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.04971540903996685,7.752887174033848,0.04216096389810292,0.05726985418183078,7155,Environment,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax08,0.12338498854223201,4.685171366746118,0.11205483235841086,0.13471514472605314,6981,Environment,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.013344379090542884,19.365766727812016,0.008279359164321914,0.018409399016763854,7155,Development & housing,Health donor donation rates to other causes,CA (without QC),*
+Health donor status,Health donors,2018,flag_gs1dax09,0.03528746605829489,8.145832592271084,0.029653632077338822,0.040921300039250964,6981,Development & housing,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.01866014229611256,11.456672872882967,0.014470069628554922,0.022850214963670196,7155,"Law, advocacy & politics",Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax10,0.05428861981139857,6.80843519264869,0.047044190158128274,0.061533049464668865,6981,"Law, advocacy & politics",Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.06851839065063386,6.969011076412373,0.0591594563281169,0.07787732497315082,7155,"Grant-making, fundraising",Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax11,0.17372216588711037,3.8861405397763136,0.16049027750100411,0.18695405427321662,6981,"Grant-making, fundraising",Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.06551283689933471,7.333637965002822,0.05609624034823768,0.07492943345043174,7155,International,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax12,0.12732039480539425,4.554216025958848,0.11595564982298658,0.13868513978780195,6981,International,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.19129084559141452,4.061857519632742,0.17606200070194827,0.20651969048088076,7155,Religion,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax13,0.3260636584705049,2.554198794783418,0.3097404629101999,0.3423868540308099,6981,Religion,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax14,0.001506908606765309,28.535650274098472,6.641120004806973e-4,0.0023497052130499207,7155,Business & professional,Health donor donation rates to other causes,CA (without QC),*
+Health donor status,Health donors,2018,flag_gs1dax14,0.009553032453167803,19.867129724381527,0.005833190641227141,0.013272874265108465,6981,Business & professional,Health donor donation rates to other causes,CA (without QC),*
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.019192514462427344,15.429513716952306,0.013388450278276287,0.0249965786465784,7155,Other,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Health donors,2018,flag_gs1dax15,0.030720937716171244,9.816178175266403,0.024810427237853303,0.036631448194489186,6981,Other,Health donor donation rates to other causes,CA (without QC),
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.025684819740262464,26.798625113912028,0.012194037676485015,0.03917560180403991,794,Arts & culture,Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax01,0.05179954368042929,22.46750693926907,0.0289893533317478,0.07460973402911078,618,Arts & culture,Health donor donation rates to other causes,AB,*
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.02611810777317032,20.128842949051812,0.01581404224221762,0.03642217330412302,1824,Arts & culture,Health donor donation rates to other causes,AT,*
+Health donor status,Health donors,2018,flag_gs1dax01,0.055187065169639234,13.586302990611015,0.040491486713580604,0.06988264362569786,2224,Arts & culture,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.02965164199470398,23.802387371432758,0.015818610753013045,0.04348467323639491,1288,Arts & culture,Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax01,0.05499856083943645,19.44852644281241,0.03403398316542253,0.07596313851345038,889,Arts & culture,Health donor donation rates to other causes,BC,*
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.018002179568192746,16.417350002206646,0.012209543588831685,0.023794815547553808,2099,Arts & culture,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax01,0.05208255699672565,12.082188243058726,0.03974906697850368,0.06441604701494762,2247,Arts & culture,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.015667939783446702,23.934933062447524,0.00831785748252779,0.023018022084365614,1150,Arts & culture,Health donor donation rates to other causes,PR,*
+Health donor status,Health donors,2018,flag_gs1dax01,0.04426489199498602,16.08111594210698,0.03031330270083432,0.058216481289137714,1003,Arts & culture,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax01,0.016935291745502325,27.050907300742782,0.007956402598204312,0.025914180892800336,1007,Arts & culture,Health donor donation rates to other causes,QC,*
+Health donor status,Health donors,2018,flag_gs1dax01,0.02006006111761788,27.408371358949246,0.009283912485456592,0.030836209749779173,1006,Arts & culture,Health donor donation rates to other causes,QC,*
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.06032668985430361,16.065439138273536,0.041331213527403404,0.07932216618120382,794,Sports & recreation,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax02,0.2099884436299729,10.150280267353512,0.16821295678576076,0.25176393047418505,618,Sports & recreation,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.11115228571851574,8.60547305551777,0.09240487741659881,0.12989969402043267,1824,Sports & recreation,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax02,0.2765013945423726,5.017817709429603,0.24930819578631572,0.3036945932984295,2224,Sports & recreation,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.06507181054498525,11.793674203958833,0.050030346565280374,0.08011327452469012,1288,Sports & recreation,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax02,0.16902401430720534,9.491241447389749,0.13758133657254784,0.20046669204186285,889,Sports & recreation,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.04831843775963818,11.296256068696774,0.03762061240116544,0.059016263118110916,2099,Sports & recreation,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax02,0.15796002554012745,6.000822486314442,0.1393817214923771,0.1765383295878778,2247,Sports & recreation,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.07893871182879779,11.099211084351563,0.0617663418447577,0.09611108181283788,1150,Sports & recreation,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax02,0.24673896749859847,7.229460096435528,0.21177733535116883,0.2817005996460281,1003,Sports & recreation,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax02,0.07570107249448738,14.068987480212524,0.05482672222581378,0.09657542276316097,1007,Sports & recreation,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax02,0.1772591421286542,9.571067710228286,0.14400719182149346,0.21051109243581495,1006,Sports & recreation,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.05882339027604567,17.487823610992244,0.03866137652696583,0.07898540402512551,794,Education & research,Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax03,0.2235563714089389,9.468666417628524,0.18206823193167485,0.2650445108862029,618,Education & research,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.07457014507049793,10.377221587448226,0.059403337752850234,0.08973695238814562,1824,Education & research,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax03,0.2298379770204821,5.4747183743415295,0.20517578556242067,0.2545001684785435,2224,Education & research,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.0855370367992452,12.594271929007473,0.06442280143696034,0.10665127216153004,1288,Education & research,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax03,0.15885248638695848,11.087016353972912,0.1243335984482275,0.19337137432568946,889,Education & research,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.05926922351268793,9.291916187547255,0.048475218574040656,0.0700632284513352,2099,Education & research,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax03,0.19131641749738093,5.505193131288736,0.17067341380520495,0.2119594211895569,2247,Education & research,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.07756096128409151,11.921121899378562,0.0594388662755865,0.09568305629259652,1150,Education & research,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax03,0.22074248273483335,7.604676423685818,0.18784105429588568,0.25364391117378104,1003,Education & research,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax03,0.05983667416150621,13.603744632149336,0.043882511763738113,0.07579083655927431,1007,Education & research,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax03,0.1352547785519099,10.828101182839141,0.10655007843580026,0.16395947866801955,1006,Education & research,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.00734651478796086,52.45036424114825,-2.057630146301533e-4,0.014898792590551872,794,Universities & colleges,Health donor donation rates to other causes,AB,...
+Health donor status,Health donors,2018,flag_gs1dax04,0.01979726312275444,34.512982064447364,0.0064055624961347445,0.033188963749374134,618,Universities & colleges,Health donor donation rates to other causes,AB,...
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.00696753482512597,30.806299134238174,0.0027605904739355213,0.011174479176316419,1824,Universities & colleges,Health donor donation rates to other causes,AT,*
+Health donor status,Health donors,2018,flag_gs1dax04,0.02845149382660747,13.853333163333959,0.020726334530529973,0.03617665312268497,2224,Universities & colleges,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.009279499691338892,29.179092310774053,0.00397255659886451,0.014586442783813275,1288,Universities & colleges,Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax04,0.03234977432809448,21.877259375100675,0.01847863090574038,0.04622091775044858,889,Universities & colleges,Health donor donation rates to other causes,BC,*
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.006103193218919481,29.20351505022539,0.002609857388510965,0.009596529049327998,2099,Universities & colleges,Health donor donation rates to other causes,ON,*
+Health donor status,Health donors,2018,flag_gs1dax04,0.029965468959078433,13.341918865338018,0.02212959457772378,0.037801343340433086,2247,Universities & colleges,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.00504428834103514,44.0117046220669,6.930168196538546e-4,0.009395559862416426,1150,Universities & colleges,Health donor donation rates to other causes,PR,...
+Health donor status,Health donors,2018,flag_gs1dax04,0.02279980490307542,24.88999875033731,0.01167726182147878,0.03392234798467206,1003,Universities & colleges,Health donor donation rates to other causes,PR,*
+Health donor status,Non-health donor,2018,flag_gs1dax04,0.012045575013419983,25.438301185405425,0.006039873654821321,0.018051276372018647,1007,Universities & colleges,Health donor donation rates to other causes,QC,*
+Health donor status,Health donors,2018,flag_gs1dax04,0.029635813298510737,18.282194611621712,0.01901657739158577,0.040255049205435704,1006,Universities & colleges,Health donor donation rates to other causes,QC,*
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,794,Health,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax05,0.8914349448833764,1.7840158044415175,0.8602649706555455,0.9226049191112072,618,Health,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,1824,Health,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax05,0.8122399509831458,1.541033674025586,0.7877072951140012,0.8367726068522905,2224,Health,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,1288,Health,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax05,0.8300314960125011,2.330541685748485,0.7921175018657929,0.8679454901592094,889,Health,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,2099,Health,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax05,0.7994928988004715,1.6699407605189422,0.7733253063676926,0.8256604912332504,2247,Health,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,1150,Health,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax05,0.9037898920306997,1.3832049590781599,0.8792878597213835,0.928291924340016,1003,Health,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax05,0,NA,0,0,1007,Health,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax05,0.7215328259239921,2.7140126081832157,0.6831518471356384,0.7599138047123459,1006,Health,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,794,Hospitals,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax06,0.2784924364481407,8.541514542534138,0.23186984812509615,0.32511502477118526,618,Hospitals,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,1824,Hospitals,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax06,0.4716134101765248,3.2206972505811846,0.4418430465595366,0.501383773793513,2224,Hospitals,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,1288,Hospitals,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax06,0.3319570142028394,6.5834295974898485,0.2891236548953435,0.37479037351033534,889,Hospitals,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,2099,Hospitals,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax06,0.4105823253362267,3.479537134004562,0.3825815654937767,0.43858308517867667,2247,Hospitals,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,1150,Hospitals,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax06,0.2512172864729448,7.006127358088348,0.21672073841653525,0.2857138345293543,1003,Hospitals,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax06,0,NA,0,0,1007,Hospitals,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax06,0.5211042495520343,4.168504661956391,0.47852941221402723,0.5636790868900413,1006,Hospitals,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.23016464616514165,8.825611607864916,0.19035103981380674,0.26997825251647656,794,Social services,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax07,0.4551754868142695,5.841651307487754,0.40306050549425276,0.5072904681342862,618,Social services,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.24786643978769143,5.611738701949449,0.22060409156475105,0.2751287880106318,1824,Social services,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax07,0.5431239519685074,2.6206479162569276,0.5152270661910379,0.5710208377459769,2224,Social services,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.2314556502683481,6.278703700542178,0.20297264128205472,0.2599386592546415,1288,Social services,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax07,0.5285816989548596,4.465822966804463,0.48231572421453184,0.5748476736951874,889,Social services,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.18757527847566335,6.2041773614640885,0.16476619179842014,0.21038436515290657,2099,Social services,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax07,0.4866298923560173,3.005215422605098,0.4579668369669289,0.5152929477451057,2247,Social services,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.19435373632887656,7.862540029079525,0.16440325166510916,0.22430422099264397,1150,Social services,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax07,0.480005175214859,4.298566580794989,0.43956456792033327,0.5204457825093848,1003,Social services,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax07,0.19087462360844962,7.499414534821438,0.16281875978929583,0.2189304874276034,1007,Social services,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax07,0.49435358708297383,4.647509314922782,0.4493231616864736,0.5393840124794741,1006,Social services,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.04111603684435836,24.734148702310893,0.02118378779142453,0.06104828589729219,794,Environment,Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax08,0.10562118636151831,13.188568671387351,0.07831903957223839,0.13292333315079824,618,Environment,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.05049974605762359,11.762348690044771,0.03885764579886462,0.06214184631638256,1824,Environment,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax08,0.12896786411693972,8.271735154920746,0.10805920322231596,0.14987652501156348,2224,Environment,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.05869414569933103,13.883958049105185,0.042722260882151045,0.07466603051651101,1288,Environment,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax08,0.16826237886781192,9.726813786740042,0.136184494516698,0.20034026321892584,889,Environment,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.04803348752642431,12.46418536975099,0.036299216617662534,0.05976775843518608,2099,Environment,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax08,0.10810056410495306,8.011287984365184,0.0911267909015348,0.1250743373083713,2247,Environment,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.05444614713004691,13.069659580171589,0.040499188287941454,0.06839310597215237,1150,Environment,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax08,0.16260924213803202,9.559676153353108,0.13214176478548295,0.19307671949058108,1003,Environment,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax08,0.04067378374144247,16.781411200332027,0.027295785165067733,0.0540517823178172,1007,Environment,Health donor donation rates to other causes,QC,*
+Health donor status,Health donors,2018,flag_gs1dax08,0.06767061113656497,16.935091394135636,0.04520926738443462,0.09013195488869533,1006,Environment,Health donor donation rates to other causes,QC,*
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.018349772751805455,37.77555421567534,0.004763834826739838,0.03193571067687107,794,Development & housing,Health donor donation rates to other causes,AB,...
+Health donor status,Health donors,2018,flag_gs1dax09,0.025541866213930554,23.57886617083709,0.013738017510256885,0.037345714917604224,618,Development & housing,Health donor donation rates to other causes,AB,*
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.015598367486171112,35.84295433954275,0.004640374003439366,0.02655636096890286,1824,Development & housing,Health donor donation rates to other causes,AT,...
+Health donor status,Health donors,2018,flag_gs1dax09,0.04867539850555729,11.75623161221542,0.03745971513065326,0.05989108188046133,2224,Development & housing,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.011565432119039244,28.245989885361066,0.005162679031669096,0.017968185206409394,1288,Development & housing,Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax09,0.02972162115502435,25.494279717891814,0.014870360116895758,0.044572882193152946,889,Development & housing,Health donor donation rates to other causes,BC,*
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.0118797243021608,36.139913059737474,0.003464967740435235,0.020294480863886362,2099,Development & housing,Health donor donation rates to other causes,ON,...
+Health donor status,Health donors,2018,flag_gs1dax09,0.03250312142057589,13.073011177382126,0.02417496653042084,0.04083127631073094,2247,Development & housing,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.014509793628172174,26.74483102755551,0.006903918605407466,0.022115668650936882,1150,Development & housing,Health donor donation rates to other causes,PR,*
+Health donor status,Health donors,2018,flag_gs1dax09,0.06220498904421406,12.87662085220756,0.04650587236732178,0.07790410572110634,1003,Development & housing,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax09,0.010070082654054034,37.491141091956116,0.0026704563904419226,0.017469708917666145,1007,Development & housing,Health donor donation rates to other causes,QC,...
+Health donor status,Health donors,2018,flag_gs1dax09,0.03219221436916867,26.59123896101068,0.015414317719118917,0.04897011101921843,1006,Development & housing,Health donor donation rates to other causes,QC,*
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.018373877030591457,30.082401900705868,0.007540561174125817,0.029207192887057094,794,"Law, advocacy & politics",Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax10,0.06531134992141412,17.840128849650437,0.0424745767605153,0.08814812308231293,618,"Law, advocacy & politics",Health donor donation rates to other causes,AB,*
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.03804451539305339,14.396666850409684,0.027309514068304785,0.04877951671780199,1824,"Law, advocacy & politics",Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax10,0.08848801524395965,8.874881719996102,0.07309601296983448,0.10388001751808482,2224,"Law, advocacy & politics",Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.01792121634239932,24.557372250517385,0.009295454420025185,0.02654697826477346,1288,"Law, advocacy & politics",Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax10,0.05523184851001144,17.538933551505327,0.03624552606405225,0.07421817095597064,889,"Law, advocacy & politics",Health donor donation rates to other causes,BC,*
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.015436475303422507,22.125903242219838,0.008742297517067482,0.022130653089777533,2099,"Law, advocacy & politics",Health donor donation rates to other causes,ON,*
+Health donor status,Health donors,2018,flag_gs1dax10,0.045496377069831506,11.998942207302928,0.03479676905884195,0.05619598508082106,2247,"Law, advocacy & politics",Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.022220871977636305,21.6817147070472,0.01277802800278446,0.03166371595248815,1150,"Law, advocacy & politics",Health donor donation rates to other causes,PR,*
+Health donor status,Health donors,2018,flag_gs1dax10,0.04997779915719026,13.759870169288687,0.036499361487301867,0.06345623682707865,1003,"Law, advocacy & politics",Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax10,0.017186506791510382,25.84131118608856,0.00848187808810027,0.025891135494920496,1007,"Law, advocacy & politics",Health donor donation rates to other causes,QC,*
+Health donor status,Health donors,2018,flag_gs1dax10,0.02937948681658681,29.417547228021196,0.01244005824542703,0.04631891538774659,1006,"Law, advocacy & politics",Health donor donation rates to other causes,QC,*
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.07691981935737426,17.41614381624786,0.050663227766814374,0.10317641094793414,794,"Grant-making, fundraising",Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax11,0.16845912434799287,12.21833917686018,0.12811736756393768,0.20880088113204806,618,"Grant-making, fundraising",Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.05931859713216372,11.122982866063303,0.046386759867091246,0.07225043439723619,1824,"Grant-making, fundraising",Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax11,0.17565745928513937,5.7492351200127,0.15586386073716024,0.1954510578331185,2224,"Grant-making, fundraising",Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.033707127057050784,18.936185394982267,0.021196982559258844,0.046217271554842725,1288,"Grant-making, fundraising",Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax11,0.12589879793174927,10.656028946981715,0.09960428889944359,0.15219330696405495,889,"Grant-making, fundraising",Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.07845763700575376,10.209458467532475,0.06275812975835335,0.09415714425315416,2099,"Grant-making, fundraising",Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax11,0.18487575464943254,5.631600827792097,0.16446965914583658,0.2052818501530285,2247,"Grant-making, fundraising",Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.08226089840381688,13.235653458372248,0.060921266340602354,0.10360053046703141,1150,"Grant-making, fundraising",Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax11,0.19328414244607087,9.074507972738841,0.15890718770632403,0.2276610971858177,1003,"Grant-making, fundraising",Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax11,0.08203876782878637,11.967561995242635,0.06279576224594252,0.10128177341163022,1007,"Grant-making, fundraising",Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax11,0.13685277346200755,9.178012819834962,0.11223491024775367,0.16147063667626144,1006,"Grant-making, fundraising",Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.06121656977110349,17.403084892859802,0.040335953117091636,0.08209718642511535,794,International,Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax12,0.14543918552868473,10.918435216874512,0.11431557826905808,0.17656279278831138,618,International,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.037214171096791544,15.349681827917655,0.02601835338417101,0.04840998880941208,1824,International,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax12,0.08630983446370982,9.558544899612544,0.07014020160117777,0.10247946732624187,2224,International,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.06328502698317537,13.822436237618874,0.04614017832427159,0.08042987564207915,1288,International,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax12,0.14097705932664042,10.332199688485394,0.11242816261117403,0.16952595604210682,889,International,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.07169751122236867,11.500907225616022,0.05553591427339215,0.0878591081713452,2099,International,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax12,0.129122374970269,7.102783510461819,0.11114699107313411,0.14709775886740387,2247,International,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.0679984745540075,15.888377777246745,0.04682330880078203,0.08917364030723296,1150,International,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax12,0.11140089963172307,10.705497252213238,0.08802632946475838,0.13477546979868776,1003,International,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax12,0.04176917247306108,17.80637589620154,0.02719179165657598,0.05634655328954617,1007,International,Health donor donation rates to other causes,QC,*
+Health donor status,Health donors,2018,flag_gs1dax12,0.08122951882976265,12.419444796362964,0.061456901874064794,0.1010021357854605,1006,International,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.23404745842484248,9.360735626271671,0.19110746237845644,0.2769874544712285,794,Religion,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax13,0.2813408828154766,8.193353469913898,0.2361612571674366,0.3265205084635166,618,Religion,Health donor donation rates to other causes,AB,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.18937357439325847,5.830971430027971,0.16773102681042523,0.2110161219760917,1824,Religion,Health donor donation rates to other causes,AT,
+Health donor status,Health donors,2018,flag_gs1dax13,0.40781996018507777,3.2619225165796193,0.3817470079180669,0.4338929124520886,2224,Religion,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.14118793082385203,8.804396623280415,0.11682411751155355,0.1655517441361505,1288,Religion,Health donor donation rates to other causes,BC,
+Health donor status,Health donors,2018,flag_gs1dax13,0.24510503899554997,7.536618887152473,0.20889934427780166,0.2813107337132983,889,Religion,Health donor donation rates to other causes,BC,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.19511352380741745,6.065868061207012,0.1719167053717221,0.2183103422431128,2099,Religion,Health donor donation rates to other causes,ON,
+Health donor status,Health donors,2018,flag_gs1dax13,0.33301813452069545,3.838619242080832,0.30796333046205254,0.35807293857933836,2247,Religion,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.2045441694212788,7.868504571050855,0.17299939712589008,0.2360889417166675,1150,Religion,Health donor donation rates to other causes,PR,
+Health donor status,Health donors,2018,flag_gs1dax13,0.398982061541606,5.16476725888815,0.35859407372265495,0.439370049360557,1003,Religion,Health donor donation rates to other causes,PR,
+Health donor status,Non-health donor,2018,flag_gs1dax13,0.1717578983500321,8.16091586307811,0.14428504873719386,0.19923074796287035,1007,Religion,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax13,0.3404695031374885,6.18481964199608,0.29919770910841903,0.381741297166558,1006,Religion,Health donor donation rates to other causes,QC,
+Health donor status,Non-health donor,2018,flag_gs1dax14,0,NA,0,0,794,Business & professional,Health donor donation rates to other causes,AB,
+Health donor status,Health donors,2018,flag_gs1dax14,0.006224975789247199,54.75217481266189,-4.5518832621600606e-4,0.012905139904710403,618,Business & professional,Health donor donation rates to other causes,AB,...
+Health donor status,Non-health donor,2018,flag_gs1dax14,0.003443978608111362,41.559866029770404,6.386568820785595e-4,0.006249300334144165,1824,Business & professional,Health donor donation rates to other causes,AT,...
+Health donor status,Health donors,2018,flag_gs1dax14,0.007601860082858678,44.11403281148096,0.0010291462398163559,0.014174573925901,2224,Business & professional,Health donor donation rates to other causes,AT,...
+Health donor status,Non-health donor,2018,flag_gs1dax14,0.003754954549394729,49.78725768862621,9.082364060526444e-5,0.0074190854581841935,1288,Business & professional,Health donor donation rates to other causes,BC,...
+Health donor status,Health donors,2018,flag_gs1dax14,0.009809496034931663,38.42935213019595,0.002420969287354728,0.017198022782508596,889,Business & professional,Health donor donation rates to other causes,BC,...
+Health donor status,Non-health donor,2018,flag_gs1dax14,9.536537715790924e-4,41.28271213592025,1.8202743371775677e-4,0.0017252801094404281,2099,Business & professional,Health donor donation rates to other causes,ON,...
+Health donor status,Health donors,2018,flag_gs1dax14,0.011392584316804361,28.4278104007304,0.0050449229108396,0.017740245722769124,2247,Business & professional,Health donor donation rates to other causes,ON,*
+Health donor status,Non-health donor,2018,flag_gs1dax14,7.043250816424637e-4,77.39562968409017,-3.6408427636603605e-4,0.0017727344396509634,1150,Business & professional,Health donor donation rates to other causes,PR,...
+Health donor status,Health donors,2018,flag_gs1dax14,0.005218904527809493,48.29799452262547,2.7856791227660275e-4,0.010159241143342383,1003,Business & professional,Health donor donation rates to other causes,PR,...
+Health donor status,Non-health donor,2018,flag_gs1dax14,0,NA,0,0,1007,Business & professional,Health donor donation rates to other causes,QC,
+Health donor status,Health donors,2018,flag_gs1dax14,0.003397210942555328,55.08886075562822,-2.7083187426838037e-4,0.007065253759379036,1006,Business & professional,Health donor donation rates to other causes,QC,...
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.02990769463056581,32.33435417302783,0.010953941499231082,0.04886144776190054,794,Other,Health donor donation rates to other causes,AB,*
+Health donor status,Health donors,2018,flag_gs1dax15,0.012541623720141806,35.2717198815136,0.00387143612096379,0.02121181131931982,618,Other,Health donor donation rates to other causes,AB,...
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.018352085564541043,20.353595842002,0.011031013817629654,0.025673157311452432,1824,Other,Health donor donation rates to other causes,AT,*
+Health donor status,Health donors,2018,flag_gs1dax15,0.04807188761157821,13.340147413148074,0.03550291165723677,0.060640863565919655,2224,Other,Health donor donation rates to other causes,AT,
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.017482055761616006,29.899925542161004,0.007237085573120625,0.027727025950111388,1288,Other,Health donor donation rates to other causes,BC,*
+Health donor status,Health donors,2018,flag_gs1dax15,0.024515736353989303,28.87710471464328,0.010640299000417464,0.03839117370756114,889,Other,Health donor donation rates to other causes,BC,*
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.01584792146190777,28.044529071524305,0.0071369106461475675,0.02455893227766797,2099,Other,Health donor donation rates to other causes,ON,*
+Health donor status,Health donors,2018,flag_gs1dax15,0.03401872397536815,14.024208419462092,0.024668016566151994,0.0433694313845843,2247,Other,Health donor donation rates to other causes,ON,
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.023204166291402453,23.37250177447221,0.012574509028147591,0.03383382355465731,1150,Other,Health donor donation rates to other causes,PR,*
+Health donor status,Health donors,2018,flag_gs1dax15,0.029633413835219863,20.731953819324268,0.01759220718332576,0.04167462048711397,1003,Other,Health donor donation rates to other causes,PR,*
+Health donor status,Non-health donor,2018,flag_gs1dax15,0.011637839336410386,34.63655286565967,0.003737329619412484,0.019538349053408288,1007,Other,Health donor donation rates to other causes,QC,...
+Health donor status,Health donors,2018,flag_gs1dax15,0.02700337647635826,27.15327221445149,0.012632331921958126,0.0413744210307584,1006,Other,Health donor donation rates to other causes,QC,*

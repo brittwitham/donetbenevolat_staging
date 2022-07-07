@@ -144,6 +144,27 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
+                                dcc.Link(html.H4("Quels Types D'Organismes Soutient-On Au Canada?",className='card-title'), href='/WTO0107_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                html.P("""
+                                On average, donors made 3.7 donations supporting 2.5 causes (i.e., many made multiple donations to the same cause). Most donors supported multiple causes.
+                                """,className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
                                 dcc.Link(html.H4("Who Volunteers and How Much Time Do They Contribute?",className='card-title'), href='/WVA0201'),
                                 html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""

@@ -10,7 +10,7 @@ from apps import (
     WDC0105_fr,
 #     WDV0202,
     WKC0106_fr,
-#     WTO0107,
+    WTO0107_fr,
 #     WVA0201,
 #     UTV0203,
 #     test_layout,
@@ -29,7 +29,7 @@ from apps import (
 #     HDC0102_13,
 #     WDC0105_13
 )
-# from apps import WTO0207
+from apps import WTO0107_fr
 import homepage
 
 app.layout = html.Div([
@@ -52,8 +52,8 @@ def display_page(pathname):
         return WDC0105_fr.layout
     elif pathname == '/WKC0106_fr':
         return WKC0106_fr.layout
-#     elif pathname == '/WTO0107':
-#         return WTO0107.layout
+    elif pathname == '/WTO0107_fr':
+        return WTO0107_fr.layout
 #     elif pathname == '/WDV0202':
 #         return WDV0202.layout
 #     elif pathname == '/WVA0201':

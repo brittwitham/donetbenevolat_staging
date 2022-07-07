@@ -713,7 +713,7 @@ def update_graph(region):
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Family income category"]
-    name1 = "Donation rate"
+    name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned

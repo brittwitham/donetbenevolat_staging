@@ -704,7 +704,7 @@ layout = html.Div([
 def update_graph(region):
     dff = Barriers_2018[Barriers_2018['Region'] == region]
     dff = dff[dff["Group"] == "All"]
-    title = '{}, {}'.format("Barriers reported by donors", region)
+    title = '{}, {}'.format("Freins signalés par les donateur.trice.s", region)
     return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)
 
 @app.callback(
@@ -716,7 +716,7 @@ def update_graph(region):
     dff = AvgAmtBarriers_2018[AvgAmtBarriers_2018['Region'] == region]
     name1 = "Report barrier"
     name2 = "Do not report barrier"
-    title = '{}, {}'.format("Average amounts contributed by donors reporting and not reporting specific barriers", region)
+    title = '{}, {}'.format("Montants moyens des contributions des donateur.trice.s <br> faisant état ou non de freins précis", region)
     return vertical_dollar_graph(dff, name1, name2, title)
 
 
@@ -728,7 +728,7 @@ def update_graph(region):
 def update_graph(region):
     dff = GivingConcerns_2018[GivingConcerns_2018['Region'] == region]
     dff = dff[dff["Group"] == "All"]
-    title = '{}, {}'.format("Reasons for efficiency / effectiveness concerns", region)
+    title = '{}, {}'.format("Préoccupations concernant l’efficience et l’efficacité", region)
     return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)
 
 @app.callback(
@@ -739,7 +739,7 @@ def update_graph(region):
 def update_graph(region):
     dff = SolicitationConcerns_2018[SolicitationConcerns_2018['Region'] == region]
     dff = dff[dff["Group"] == "All"]
-    title = '{}, {}'.format("Reasons for disliking solicitations", region)
+    title = '{}, {}'.format("Raisons de l’aversion à l’égard des sollicitations", region)
     return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)
 
 @app.callback(
@@ -754,7 +754,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Genre"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier) + " by gender", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon le genre", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(
@@ -769,7 +769,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Groupe d'âge"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier) + " by age", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon l’âge", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(
@@ -784,7 +784,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Éducation"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier) + " by formal education", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon l’éducation formelle", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(
@@ -799,7 +799,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Catégorie de revenu familial"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier) + " by household income", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon le revenu du ménage", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(
@@ -814,7 +814,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Fréquence de la fréquentation religieuse"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier) + " by religious attendance", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon la pratique religiouse", region)
     return single_vertical_percentage_graph(dff, title)
 
 # @app.callback(
@@ -875,7 +875,7 @@ def update_graph(region, barrier, status):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == status]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Donor barrier: " + str(barrier).lower() + " by " + str(status).lower(), region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier).lower() + " selon " + str(status).lower(), region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(
@@ -893,5 +893,5 @@ def update_graph(region, cause):
     name1 = "Soutenir la cause"
     # name2 = "Do not support cause"
     name2 = "Ne pas soutenir la cause"
-    title = '{}, {}'.format("Percentages of cause supporters and non-supporters reporting each barrier, by cause", region)
+    title = '{}, {}'.format("Pourcentages de partisan.e.s et de non-partisan.e.s <br> d’une cause faisant état de chaque frein, selon la cause", region)
     return vertical_percentage_graph(dff, title, name1, name2)

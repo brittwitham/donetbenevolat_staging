@@ -7,11 +7,11 @@ def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
         
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersToGiving.csv")))
-    Barriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersToGiving.csv")))
-    AvgAmtBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgAmtBarriers.csv")))
-    GivingConcerns_2018 = pd.read_csv(op.abspath(filepath.format("2018-GivingConcerns.csv")))
-    SolicitationConcerns_2018 = pd.read_csv(op.abspath(filepath.format("2018-SolicitationConcerns.csv")))
-    BarriersByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersByCause.csv")))
+    Barriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersToGiving_FR.csv")))
+    AvgAmtBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgAmtBarriers_FR.csv")))
+    GivingConcerns_2018 = pd.read_csv(op.abspath(filepath.format("2018-GivingConcerns_FR.csv")))
+    SolicitationConcerns_2018 = pd.read_csv(op.abspath(filepath.format("2018-SolicitationConcerns_FR.csv")))
+    BarriersByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersByCause_FR.csv")))
 
     Barriers_2018['Estimate'] = Barriers_2018['Estimate'] * 100
     Barriers_2018['CI Upper'] = Barriers_2018['CI Upper'] * 100

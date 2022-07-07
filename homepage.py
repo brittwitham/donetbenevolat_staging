@@ -123,8 +123,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("What Keeps Canadians From Giving More?",className='card-title'), href='/WKC0106'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Qu'est-ce Qui Empeche de Donner Plus?",className='card-title'), href='/WKC0106_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Nationally, one quarter of donors say they do not donate more because no one asks them to and roughly an eighth say they find it hard to find a cause worth supporting or do not know where to make additional donations.
                                 """,className='card-text')

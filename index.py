@@ -2,10 +2,10 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 from app import app, server
 # from apps import *
-# from apps import (
+from apps import (
 #     GAV0301, 
-#     WDA0101, 
-#     HDC0102,
+    WDA0101_fr, 
+    HDC0102_fr,
 #     UTD0103,
 #     WDC0105,
 #     WDV0202,
@@ -28,7 +28,7 @@ from app import app, server
 #     GAV0308,
 #     HDC0102_13,
 #     WDC0105_13
-# )
+)
 # from apps import WTO0207
 import homepage
 
@@ -42,10 +42,10 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/':
         return homepage.layout
-#     elif pathname == '/WDA0101':
-#         return WDA0101.layout
-#     elif pathname == '/HDC0102':
-#         return HDC0102.layout
+    elif pathname == '/WDA0101_fr':
+        return WDA0101_fr.layout
+    elif pathname == '/HDC0102_fr':
+        return HDC0102_fr.layout
 #     elif pathname == '/UTD0103':
 #         return UTD0103.layout
 #     elif pathname == '/WDC0105':

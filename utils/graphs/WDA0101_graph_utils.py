@@ -658,7 +658,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
     x2 = go.layout.XAxis(overlaying='x', side='bottom', range= [0, 1.25*max(dff1['CI Upper'])])
 
     fig.update_layout(title={'text': title,
-                         'y': 0.99},
+                         'y': 0.95},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=400,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -809,3 +809,157 @@ def forms_of_giving(dff, title):
                           annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.23, x=1.4, align="left", showarrow=False)])
 
     return fig
+
+
+### FRENCH ###
+### FRENCH ###
+def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018): 
+    fig1df1 = DonRates_2018[DonRates_2018['Group'] == "All"]
+    fig1df1 = fig1df1[fig1df1.Province.notnull()]
+
+    fig1df2 = AvgTotDon_2018[AvgTotDon_2018['Group'] == "All"]
+    fig1df2 = fig1df2[fig1df2.Province.notnull()]
+
+
+    fig1df1['Text'] = np.select([fig1df1["Marker"] == "*", fig1df1["Marker"] == "...", pd.isnull(fig1df1["Marker"])],
+                            [fig1df1.Estimate.map(str)+"%"+"*", "...", fig1df1.Estimate.map(str)+"%"])
+    fig1df1['HoverText'] = np.select([fig1df1["Marker"] == "*",
+                                    fig1df1["Marker"] == "...",
+                                    pd.isnull(fig1df1["Marker"])],
+                                ["Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                "Estimate Suppressed",
+                                "Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%"])
+
+    fig1df2['Text'] = np.select([fig1df2["Marker"] == "*", fig1df2["Marker"] == "...", pd.isnull(fig1df2["Marker"])],
+                            ["$"+fig1df2.Estimate.map(str)+"*", "...", "$"+fig1df2.Estimate.map(str)])
+    fig1df2['HoverText'] = np.select([fig1df2["Marker"] == "*",
+                                    fig1df2["Marker"] == "...",
+                                    pd.isnull(fig1df2["Marker"])],
+                                    ["Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)+"<br><b>Use with caution</b>",
+                                    "Estimate Suppressed",
+                                    "Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)])
+
+
+    fig1 = go.Figure()
+
+    fig1.add_trace(go.Bar(x=fig1df2['Province'],
+                        y=fig1df2['CI Upper'],
+                        marker=dict(color="#FFFFFF", line=dict(color="#FFFFFF")),
+                        text=None,
+                        textposition='outside',
+                        showlegend=False,
+                        hoverinfo="skip",
+                        cliponaxis=False,
+                        offsetgroup=1,
+                        ),
+                )
+
+    fig1.add_trace(go.Bar(x=fig1df1['Province'],
+                        y=fig1df1['CI Upper'],
+                        marker=dict(color="#FFFFFF", line=dict(color="#FFFFFF")),
+                        text=None,
+                        textposition='outside',
+                        hoverinfo="skip",
+                        showlegend=False,
+                        name="Taux de donateur.trice.s",
+                        yaxis='y2',
+                        offsetgroup=2,
+                        ),
+                )
+
+    fig1.add_trace(go.Bar(x=fig1df2['Province'],
+                        y=fig1df2['Estimate'],
+                        error_y=None, # need to vectorize subtraction
+                        hovertext =fig1df2['HoverText'],
+                        hovertemplate="%{hovertext}",
+                        hoverlabel=dict(font=dict(color="white")),
+                        hoverinfo="text",
+                        marker=dict(color="#7BAFD4"),
+                        text=fig1df2['Text'],
+                        textposition='outside',
+                        cliponaxis=False,
+                        name="Montant moyen des dons",
+                        offsetgroup=1
+                        ),
+                )
+
+    fig1.add_trace(go.Bar(x=fig1df1['Province'],
+                            y=fig1df1['Estimate'],
+                            error_y=None,
+                            hovertext=fig1df1['HoverText'],
+                            hovertemplate="%{hovertext}",
+                            hoverlabel=dict(font=dict(color="white")),
+                            hoverinfo="text",
+                            marker=dict(color="#c8102e"),
+                            text=fig1df1['Text'],
+                            textposition='outside',
+                            cliponaxis=False,
+                            name="Taux de donateur.trice.s",
+                            yaxis='y2',
+                            offsetgroup=2
+                        ),
+                )
+
+
+
+    y1 = go.layout.YAxis(overlaying='y', side='left', range = [0, 1.25*max(fig1df2["CI Upper"])])
+    y2 = go.layout.YAxis(overlaying='y', side='right', range = [0, 1.25*max(fig1df1["CI Upper"])])
+
+    fig1.update_layout(title={'text': "Taux de donateur.trice.s et montant moyen des dons par province",
+                            'y': 0.99},
+                    margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
+                    plot_bgcolor='rgba(0, 0, 0, 0)',
+                    barmode="group",
+                    yaxis1=y1,
+                    yaxis2=y2,
+                    legend={'orientation': 'h', 'yanchor': "bottom", 'xanchor': 'center', 'x': 0.5, 'y': -0.15, 'traceorder': 'reversed'},
+                    height=400,
+                    updatemenus=[
+                        dict(
+                            type = "buttons",
+                            xanchor='right',
+                            x = 1.4,
+                            y = 0.5,
+                            buttons=list([
+                                dict(
+                                    args=[{"error_y": [None, None, None, None],
+                                            "text": [None, None, fig1df2['Text'], fig1df1['Text']],
+                                            }],
+                                    label="Reset",
+                                    method="restyle"
+                                ),
+                                dict(
+                                    args=[{"error_y": [None, None, dict(type="data", array=fig1df2["CI Upper"]-fig1df2["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=fig1df1["CI Upper"]-fig1df1["Estimate"], color="#424242", thickness=1.5)],
+                                            "text": [fig1df2['Text'], fig1df1['Text'], None, None],
+                                            }],
+                                    label="Confidence Intervals",
+                                    method="restyle"
+                                )
+                            ]),
+                        ),
+                    ])
+
+    # Aesthetics for fig
+    fig1.update_xaxes(autorange="reversed", tickfont=dict(size=12))
+    fig1.update_yaxes(showgrid=False,
+                    showticklabels=False,
+                    autorange = False)
+
+    markers = pd.concat([fig1df1["Marker"], fig1df2["Marker"]])
+    if markers.isin(["*"]).any() and markers.isin(["..."]).any():
+        fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
+                        annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                    dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+    elif markers.isin(["*"]).any():
+        fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
+                        annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                    dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+    elif markers.isin(["..."]).any():
+        fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
+                        annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                    dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+    else:
+        fig1.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
+                        annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.4, align="left", showarrow=False)])
+
+    return fig1

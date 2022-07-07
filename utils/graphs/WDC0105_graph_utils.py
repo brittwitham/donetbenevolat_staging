@@ -83,7 +83,7 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
                      range=[0, 1.25 * max(dff["CI Upper"])])
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=9))
+                     tickfont=dict(size=11))
 
     if sort:
         fig.update_yaxes(categoryorder="total descending")
@@ -223,7 +223,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
                      range=[0, 1.25 * max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=9),
+                     tickfont=dict(size=11),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["Group"])
 
@@ -362,7 +362,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
                      range=[0, 1.25 * max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=9),
+                     tickfont=dict(size=11),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])
 

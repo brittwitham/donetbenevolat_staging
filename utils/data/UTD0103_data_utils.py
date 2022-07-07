@@ -6,12 +6,12 @@ import os.path as op
 def get_data():
     filepath = os.path.join(os.getcwd(),"tables","{}")
 
-    TopDonorsMotivations_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsMotivationsForGiving.csv")))
-    TopDonorsBarriers_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsBarriersToGiving.csv")))
-    TopDonorsPercTotDonations_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsPercTotDonations.csv")))
-    TopDonorsPercTotDonors_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsPercTotDonors.csv")))
-    TopDonorsDonRates_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsDonRates.csv")))
-    TopDonorsDemoLikelihoods = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsDemoLikelihoods.csv")))
+    TopDonorsMotivations_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsMotivationsForGiving_FR.csv")))
+    TopDonorsBarriers_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsBarriersToGiving_FR.csv")))
+    TopDonorsPercTotDonations_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsPercTotDonations_FR.csv")))
+    TopDonorsPercTotDonors_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsPercTotDonors_FR.csv")))
+    TopDonorsDonRates_2018 = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsDonRates_FR.csv")))
+    TopDonorsDemoLikelihoods = pd.read_csv(os.path.abspath(filepath.format("2018-TopDonorsDemoLikelihoods_FR.csv")))
 
     TopDonorsMotivations_2018['Estimate'] = TopDonorsMotivations_2018['Estimate']*100
     TopDonorsMotivations_2018['CI Upper'] = TopDonorsMotivations_2018['CI Upper']*100

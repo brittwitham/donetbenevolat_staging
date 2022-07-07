@@ -6,8 +6,8 @@ from apps import (
 #     GAV0301, 
     WDA0101_fr, 
     HDC0102_fr,
-#     UTD0103,
-#     WDC0105,
+    UTD0103_fr,
+    WDC0105_fr,
 #     WDV0202,
 #     WKC0106,
 #     WTO0107,
@@ -46,10 +46,10 @@ def display_page(pathname):
         return WDA0101_fr.layout
     elif pathname == '/HDC0102_fr':
         return HDC0102_fr.layout
-#     elif pathname == '/UTD0103':
-#         return UTD0103.layout
-#     elif pathname == '/WDC0105':
-#         return WDC0105.layout
+    elif pathname == '/UTD0103_fr':
+        return UTD0103_fr.layout
+    elif pathname == '/WDC0105_fr':
+        return WDC0105_fr.layout
 #     elif pathname == '/WKC0106':
 #         return WKC0106.layout
 #     elif pathname == '/WTO0107':

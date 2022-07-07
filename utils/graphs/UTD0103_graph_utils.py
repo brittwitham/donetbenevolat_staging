@@ -79,7 +79,7 @@ def dist_total_donations(dff1, dff2, name1, name2, title):
                    )
 
     fig.update_layout(title={'text': title,
-                              'y': 0.99},
+                              'y': 0.95},
                        margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                        plot_bgcolor='rgba(0, 0, 0, 0)',
                        barmode="group",
@@ -144,14 +144,26 @@ def triple_vertical_percentage_graph(dff, title):
                                   "Estimate Suppressed",
                                   "Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%"])
 
+    # dff1 = dff[dff['QuestionText'] == "Grand.e.s donateur.trice.s"]
+    # name1 = "Grand.e.s donateur.trice.s"
+
+    # dff2 = dff[dff['QuestionText'] == "Grand.e.s donateur.trice.s religieux"]
+    # name2 = "Grand.e.s donateur.trice.s religieux"
+
+    # dff3 = dff[dff['QuestionText'] == "Grand.e.s donateur.trice.s laïcs"]
+    # name3 = "Grand.e.s donateur.trice.s laïcs"
+    
     dff1 = dff[dff['QuestionText'] == "Top donors"]
-    name1 = "Top donors"
+    # name1 = "Top donors"
+    name1 = "Grand.e.s donateur.trice.s"
 
     dff2 = dff[dff['QuestionText'] == "Top religious donors"]
-    name2 = "Top religious donors"
+    # name2 = "Top religious donors"
+    name2 = "Grand.e.s donateur.trice.s religieux"
 
     dff3 = dff[dff['QuestionText'] == "Top secular donors"]
-    name3 = "Top secular donors"
+    # name3 = "Top secular donors"
+    name3 = "Grand.e.s donateur.trice.s laïcs"
 
     fig = go.Figure()
 
@@ -249,7 +261,7 @@ def triple_vertical_percentage_graph(dff, title):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.977},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -288,7 +300,7 @@ def triple_vertical_percentage_graph(dff, title):
                      range=[0, 1.25*max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"], dff3["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=9))
+                     tickfont=dict(size=12))
 
     markers = pd.concat([dff1["Marker"], dff2["Marker"], dff3["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
@@ -320,11 +332,19 @@ def vertical_percentage_graph(dff, title):
                                    "Estimate Suppressed",
                                    "Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%"])
 
+    # dff1 = dff[dff['Attribute'] == "Grand.e.s donateur.trice.s"]
+    # name1 = "Grand.e.s donateur.trice.s"
+
+    # dff2 = dff[dff['Attribute'] == "Donateur.trice.s ordinaires"]
+    # name2 = "Donateur.trice.s ordinaires"
+    
     dff1 = dff[dff['Attribute'] == "Top donor"]
-    name1 = "Top donors"
+    # name1 = "Top donors"
+    name1 = "Grand.e.s donateur.trice.s"
 
     dff2 = dff[dff['Attribute'] == "Regular donor"]
-    name2 = "Regular donors"
+    # name2 = "Regular donors"
+    name2 = "Donateur.trice.s ordinaires"
 
     fig = go.Figure()
 
@@ -391,7 +411,7 @@ def vertical_percentage_graph(dff, title):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.977},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -428,7 +448,7 @@ def vertical_percentage_graph(dff, title):
                      range = [0, 1.25*max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=9),
+                     tickfont=dict(size=12),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])
 

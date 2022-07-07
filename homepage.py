@@ -45,7 +45,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Who Donates and How Much?",className='card-title'), href='/WDA0101_fr'),
+                                dcc.Link(html.H4("Qui Donne Aux Organismes Caritatifs et Combien?",className='card-title'), href='/WDA0101_fr'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("Almost nine in ten Canadians made some form of financial or in-kind contribution to charitable and nonprofit organizations during the one year period prior to the survey.",className='card-text')
                             ]
@@ -65,7 +65,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("How Do Canadians Donate?",className='card-title'), href='/HDC0102_fr'),
+                                dcc.Link(html.H4("Comment Donne-T-On Au Canada?",className='card-title'), href='/HDC0102_fr'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("Nationally, they are most likely to donate in response to a public solicitation (such as on the street or in a shopping mall), while attending religious services, or by sponsoring someone in an event.",className='card-text')
                             ]
@@ -85,8 +85,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Understanding Top Donors",className='card-title'), href='/UTD0103'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Comprendre Les Grand.E.S. Donateur.Trice.S",className='card-title'), href='/UTD0103_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("On average, donors contributed $569 each, for a national total of approximately $11.9 billion.",className='card-text')
                             ]
                         ),
@@ -104,8 +104,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Why Do Canadians Give?",className='card-title'), href='/WDC0105'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Pourquoi Donne-T-On Au Canada?",className='card-title'), href='/WDC0105_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("Nationally, roughly seven in every ten donors donate in order to make a contribution to theircommunity or because they are personally affected by the cause or know someone else who is.",className='card-text')
                             ]
                         ),

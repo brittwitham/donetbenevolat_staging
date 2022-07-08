@@ -6,9 +6,9 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
         
-    ReasonsVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReasonsForVolunteering.csv")))
-    AvgHrsReasons_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgHoursMotivations.csv")))
-    MotivationsVolByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-MotivationsVolByCause.csv")))
+    ReasonsVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReasonsForVolunteering_FR.csv")))
+    AvgHrsReasons_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgHoursMotivations_FR.csv")))
+    MotivationsVolByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-MotivationsVolByCause_FR.csv")))
 
     ReasonsVol_2018['Estimate'] = ReasonsVol_2018['Estimate'] * 100
     ReasonsVol_2018['CI Upper'] = ReasonsVol_2018['CI Upper'] * 100

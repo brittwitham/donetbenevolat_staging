@@ -15,7 +15,7 @@ from apps import (
     UTV0203_fr,
 #     test_layout,
     HOA0204_fr,
-#     WDC0205,
+    WDC0205_fr,
 #     WKC0206,
 #     WTO0207,
 #     GAV0301,
@@ -64,8 +64,8 @@ def display_page(pathname):
 #         return test_layout.layout
     elif pathname == '/HOA0204_fr':
         return HOA0204_fr.layout
-#     elif pathname == '/WDC0205':
-#         return WDC0205.layout
+    elif pathname == '/WDC0205_fr':
+        return WDC0205_fr.layout
 #     elif pathname == '/WKC0206':
 #         return WKC0206.layout
 #     elif pathname == '/WTO0207':

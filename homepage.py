@@ -249,8 +249,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Why Do Canadians Volunteer?",className='card-title'), href='/WDC0205'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Pourquoi Fait-On Du Bénévolat?",className='card-title'), href='/WDC0205_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Overall, people are most likely to volunteer because they want to make a contribution to the community, to use their skills and experiences in support of a good cause, and because they or someone they know is personally affected by the cause of the organization.
                                 """,className='card-text')

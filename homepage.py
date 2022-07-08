@@ -207,8 +207,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Understanding Top Volunteers",className='card-title'), href='/UTV0203'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Comprendre Les Bénévoles Très Engagé.E.S",className='card-title'), href='/UTV0203_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 On average, volunteers contributed 131 hours each, contributing just under 1.7 billion volunteer hours annually.
                                 """,className='card-text')

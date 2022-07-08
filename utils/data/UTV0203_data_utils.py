@@ -6,12 +6,12 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
         
-    TopVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolunteersMotivationsForVolunteering.csv")))
-    TopVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsBarriersToVolunteering.csv")))
+    TopVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolunteersMotivationsForVolunteering_FR.csv")))
+    TopVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsBarriersToVolunteering_FR.csv")))
     TopVolsPercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotHours.csv")))
     TopVolsPercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotVols.csv")))
-    TopVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsVolRates.csv")))
-    TopVolsDemoLikelihoods = pd.read_csv(op.abspath(filepath.format("2018-TopVolsDemoLikelihoods.csv")))
+    TopVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsVolRates_FR.csv")))
+    TopVolsDemoLikelihoods = pd.read_csv(op.abspath(filepath.format("2018-TopVolsDemoLikelihoods_FR.csv")))
 
 
     TopVolsMotivations_2018['Estimate'] = TopVolsMotivations_2018['Estimate'] * 100

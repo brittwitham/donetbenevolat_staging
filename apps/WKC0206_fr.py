@@ -305,7 +305,7 @@ def update_graph(region):
     name2 = "Ne signalent aucun frein"
     # title_text = 'Average hours volunteered by volunteers reporting and not reporting specific barriers'
     # title_text =  textwrap.fill(text = title_text, width=25)
-    title = '{}, {}'.format('Nombre moyen d’heures de bénévolat des bénévoles faisant ou non état de freins précis', region)
+    title = '{}, {}'.format('Nombre moyen d’heures de bénévolat des bénévoles <br> faisant ou non état de freins précis', region)
     return vertical_hours_graph(dff, name1, name2, title)
 
 ##################### Callbacks #####################

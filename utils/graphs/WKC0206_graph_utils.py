@@ -10,7 +10,7 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
-                                 ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
+                                 ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>A utiliser avec précaution</b>",
                                   "Estimate Suppressed",
                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
 
@@ -18,8 +18,8 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
 
     dff2 = dff[dff['QuestionGroup'] == "Barriers to volunteering"]
 
-    name1 = "Volunteers"
-    name2 = "Non-volunteers"
+    name1 = "Bénévoles"
+    name2 = "Non-bénévoles"
 
     fig = go.Figure()
 
@@ -86,7 +86,7 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.97},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -103,13 +103,13 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"] - dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"] - dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -130,19 +130,19 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
 
     return fig
 
@@ -152,7 +152,7 @@ def vertical_hours_graph(dff, name1, name2, title):
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
-                                 ["Estimate: " + dff.Estimate.map(str) + " ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "<br><b>Use with caution</b>",
+                                 ["Estimate: " + dff.Estimate.map(str) + " ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "<br><b>A utiliser avec précaution</b>",
                                   "Estimate Suppressed",
                                   "Estimate: " + dff.Estimate.map(str) + " ± " + (dff["CI Upper"] - dff["Estimate"]).map(str)])
 
@@ -225,7 +225,7 @@ def vertical_hours_graph(dff, name1, name2, title):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.97},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -242,13 +242,13 @@ def vertical_hours_graph(dff, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"] - dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"] - dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -269,19 +269,19 @@ def vertical_hours_graph(dff, name1, name2, title):
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
 
     return fig
 
@@ -292,7 +292,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
-                                 ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
+                                 ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>A utiliser avec précaution</b>",
                                   "Estimate Suppressed",
                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
 
@@ -382,13 +382,13 @@ def vertical_percentage_graph(dff, title, name1, name2):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"] - dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"] - dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -409,18 +409,18 @@ def vertical_percentage_graph(dff, title, name1, name2):
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>A utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">Qu'est-ce que c'est?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
 
     return fig

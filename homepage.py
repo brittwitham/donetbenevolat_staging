@@ -270,8 +270,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("What Keeps Canadians From Giving More?",className='card-title'), href='/WKC0206'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Qu’Est-Ce Qui Empêche De Faire Du Bénévolat?",className='card-title'), href='/WKC0206_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Lack of time was the most frequently reported barrier, followed by being unable to make a long-term commitment to volunteering.
                                 """,className='card-text')

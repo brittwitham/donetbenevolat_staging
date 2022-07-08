@@ -21,10 +21,10 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 # demo_names = ['Age group', 'Gender', 'Education',
-#             'Marital status', 'Labour force status', 'Family income category',
+#             'Marital status', 'Labour force status', 'Catégorie de revenu personnel',
 #             'Frequency of religious attendance', 'Immigration status']
 demo_names = ["Groupe d'âge", 'Genre', 'Éducation',
-            'État civil', "Situation d'activité", 'Catégorie de revenu familial',
+            'État civil', "Situation d'activité", 'Catégorie de revenu personnel',
             'Fréquence de la fréquentation religieuse', "Statut d'immigration"]
 
 
@@ -148,6 +148,7 @@ layout = html.Div([
                                     id='demo-selection',
                                     options=[{'label': name, 'value': name} for name in demo_names],
                                     value="Groupe d'âge",
+                                    # value='Age group',
                                     style={'verticalAlgin': 'middle'}
                                 ),
                                 ],
@@ -228,23 +229,48 @@ def update_graph(region):
         dash.dependencies.Input('region-selection', 'value'),
         dash.dependencies.Input('demo-selection', 'value')
     ])
+
 def update_graph(region, demo):
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == demo]
-    dff1 = dff1.replace('Volunteering', 'Volontariat')
-    name1 = "Volontariat"
+    # name1 = "Volunteering"
+    name1 = 'Volontariat'
 
     dff2 = FormsVolunteering_2018[FormsVolunteering_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == demo]
-    dff2 = dff2[dff2['QuestionText'] == 'Help people directly']
-    name2 = "Helping others"
+    dff2 = dff2[dff2['QuestionText'] == 'Help people<br>directly']
+    name2 = "Aider les autres"
 
     dff3 = FormsVolunteering_2018[FormsVolunteering_2018['Region'] == region]
     dff3 = dff3[dff3['Group'] == demo]
     dff3 = dff3[dff3['QuestionText'] == 'Improve<br>community']
-    name3 = "Community involvement"
+    name3 = "Participation de la communauté"
 
 
     title = '{}, {}'.format("Probabilité de soutenir selon les caractéristiques personnelles et économiques clés", region)
 
     return triple_vertical_graphs_rates(dff1, dff2, dff3, title, name1, name2, name3, type="percent")
+
+# def update_graph(region, demo):
+#     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
+#     dff1 = dff1[dff1['Group'] == demo]
+#     dff1 = dff1.replace('Volunteering', 'Volontariat')
+#     name1 = "Volontariat"
+
+#     dff2 = FormsVolunteering_2018[FormsVolunteering_2018['Region'] == region]
+#     dff2 = dff2[dff2['Group'] == demo]
+#     dff2 = dff2[dff2['QuestionText'] == 'Aider les gens directement']
+#     dff2 = dff2.replace("Helping others", "Aider les autres")
+#     # name2 = "Helping others"
+#     name2 = "Aider les autres"
+
+#     dff3 = FormsVolunteering_2018[FormsVolunteering_2018['Region'] == region]
+#     dff3 = dff3[dff3['Group'] == demo]
+#     dff3 = dff3[dff3['QuestionText'] == 'Améliorer la communauté']
+#     dff3 = dff3.replace("Community involvement", "Participation de la communauté")
+#     # name3 = "Community involvement"
+#     name3 = "Participation de la communauté"
+
+#     title = '{}, {}'.format("Probabilité de soutenir selon les caractéristiques personnelles et économiques clés", region)
+
+#     return triple_vertical_graphs_rates(dff1, dff2, dff3, title, name1, name2, name3, type="percent")

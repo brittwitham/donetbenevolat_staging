@@ -142,7 +142,7 @@ def vol_rate_avg_hrs_qt(dff1, dff2, name1, name2, title):
                      )
     fig.update_yaxes(autorange="reversed",
                      ticklabelposition="outside top",
-                     tickfont=dict(size=12),
+                     tickfont=dict(size=10),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])
 

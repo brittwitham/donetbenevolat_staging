@@ -11,8 +11,8 @@ def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
-    ActivityVolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-ActivityVolRate.csv")))
-    AvgHoursVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgHoursVol.csv")))
+    ActivityVolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-ActivityVolRate_FR.csv")))
+    AvgHoursVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgHoursVol_FR.csv")))
 
     ActivityVolRate_2018['Estimate'] = ActivityVolRate_2018['Estimate']*100
     ActivityVolRate_2018['CI Upper'] = ActivityVolRate_2018['CI Upper']*100
@@ -32,7 +32,7 @@ def process_data(data):
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Regular<br>volunteer", "Regular volunteer", data[i]["Attribute"])
 
         data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
-        data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
+        # data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
         data[i]["CI Upper"] = data[i]["CI Upper"].round(0).astype(int)

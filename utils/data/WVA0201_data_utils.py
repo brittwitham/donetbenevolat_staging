@@ -8,11 +8,11 @@ def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
-    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate.csv")))
-    AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotHours.csv")))
-    FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering.csv")))
-    PercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotVolunteers.csv")))
-    PercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotHours.csv")))
+    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate_FR.csv")))
+    AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotHours_FR.csv")))
+    FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering_FR.csv")))
+    PercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotVolunteers_FR.csv")))
+    PercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotHours_FR.csv")))
 
 
     VolRate_2018['Estimate'] = VolRate_2018['Estimate']*100

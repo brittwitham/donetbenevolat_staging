@@ -51,7 +51,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
                         textposition='outside',
                         hoverinfo="skip",
                         showlegend=False,
-                        name="Volunteer rate",
+                        name="Taux de bénévolat",
                         yaxis='y2',
                         offsetgroup=2,
                         ),
@@ -68,7 +68,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
                         text=fig1df2['Text'],
                         textposition='outside',
                         cliponaxis=False,
-                        name="Average hours",
+                        name="Nombre d'heures moyen",
                         offsetgroup=1
                         ),
                 )
@@ -84,7 +84,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
                         text=fig1df1['Text'],
                         textposition='outside',
                         cliponaxis=False,
-                        name="Volunteer rate",
+                        name="Taux de bénévolat",
                         yaxis='y2',
                         offsetgroup=2
                         ),
@@ -93,7 +93,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
     y1 = go.layout.YAxis(overlaying='y', side='left', range = [0, 1.25*max(fig1df2["CI Upper"])])
     y2 = go.layout.YAxis(overlaying='y', side='right', range = [0, 1.25*max(fig1df1["CI Upper"])])
 
-    fig1.update_layout(title={'text': "Volunteer rate & average hours volunteered by province",
+    fig1.update_layout(title={'text': "Taux de bénévolat et nombre moyen d’heures de bénévolat par province",
                             'y': 0.99},
                     margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                     plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -491,7 +491,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.967},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=400,
                       plot_bgcolor='rgba(0, 0, 0, 0)',

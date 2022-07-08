@@ -165,10 +165,31 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Who Volunteers and How Much Time Do They Contribute?",className='card-title'), href='/WVA0201'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Qui Sont Les Bénévoles et Combien D'Heures Donnent-ils?" ,className='card-title'), href='/WVA0201_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Almost eight in ten Canadians (79%) volunteered time to some form of pro-social activity during the one year period prior to the survey.
+                                """,className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Quelles Sont Les Activités Des Bénévoles?",className='card-title'), href='/WDV0202_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                html.P("""
+                                According to the 2018 General Social Survey on Giving, Volunteering, and Participating, just over two in five Canadians (41%) volunteered for a charitable or nonprofit organization during the one year period prior to the survey.
                                 """,className='card-text')
                             ]
                         ),

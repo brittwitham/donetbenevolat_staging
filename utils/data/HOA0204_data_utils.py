@@ -6,12 +6,12 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
         
-    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate.csv")))
-    CommInvolveHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-CommInvolveHrs.csv")))
-    CommInvolveRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-CommInvolveRate.csv")))
-    HelpDirectHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-HelpDirectHrs.csv")))
-    HelpDirectRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-HelpDirectRate.csv")))
-    FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering.csv")))
+    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate_FR.csv")))
+    CommInvolveHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-CommInvolveHrs_FR.csv")))
+    CommInvolveRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-CommInvolveRate_FR.csv")))
+    HelpDirectHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-HelpDirectHrs_FR.csv")))
+    HelpDirectRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-HelpDirectRate_FR.csv")))
+    FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering_FR.csv")))
 
     VolRate_2018['Estimate'] = VolRate_2018['Estimate']*100
     VolRate_2018['CI Upper'] = VolRate_2018['CI Upper']*100

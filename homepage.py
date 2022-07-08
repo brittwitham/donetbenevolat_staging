@@ -228,8 +228,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Helping Others and Community Improvement",className='card-title'), href='/HOA0204'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("Aide D’Autrui Et Amélioration Communautaire",className='card-title'), href='/HOA0204_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Just over two fifths of Canadians aged 15 and older volunteered for a charitable or nonprofit organization during the one year period prior to the survey.
                                 """,className='card-text')

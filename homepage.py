@@ -291,8 +291,8 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("What Types of Organizations Do Canadians Support?",className='card-title'), href='/WTO0207'),
-                                html.H6("David Lasby",className="text-muted card-subtitle"),
+                                dcc.Link(html.H4("À Quels Types D’Organismes Fait-On Don De Son Temps Au Canada?",className='card-title'), href='/WTO0207_fr'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
                                 """,className='card-text')

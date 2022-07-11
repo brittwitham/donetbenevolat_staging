@@ -86,7 +86,7 @@ layout = html.Div([
             html.Div(
                 [
                     dcc.Markdown('''
-                    D’après l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, un peu plus de deux tiers des personnes au Canada (82 %) ont fait un don à un organisme de bienfaisance ou à but non lucratif pendant l’année qui l’a précédée. Afin de mieux comprendre pourquoi les donateur.trice.s soutiennent les organismes, on leur a demandé ensuite si chacun des huit facteurs ci-dessous jouait un rôle important dans leurs décisions de donner. 
+                    D’après l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, un peu plus de deux tiers des personnes au Canada (68 %) ont fait un don à un organisme de bienfaisance ou à but non lucratif pendant l’année qui l’a précédée. Afin de mieux comprendre pourquoi les donateur.trice.s soutiennent les organismes, on leur a demandé ensuite si chacun des huit facteurs ci-dessous jouait un rôle important dans leurs décisions de donner. 
                     ''',className='mt-4'),
                     dcc.Markdown('''
                                  Nous présentons ci-dessous leurs motivations, puis nous décrivons l’importance de la variation de ces motivations selon leurs caractéristiques personnelles et économiques. Dans le texte, nous décrivons les résultats au niveau national et vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer légèrement par rapport aux résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.'''),

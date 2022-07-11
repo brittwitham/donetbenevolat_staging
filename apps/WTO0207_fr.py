@@ -106,15 +106,15 @@ def update_graph(region):
 
     dff1 = SubSecVolRates_2018[SubSecVolRates_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "All"]
-    # dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
-    name1 = "Volunteer rate"
-    # name1 = "Taux de bénévolat"
+    dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+    # name1 = "Volunteer rate"
+    name1 = "Taux de bénévolat"
 
     dff2 = SubSecAvgHrs_2018[SubSecAvgHrs_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "All"]
-    # dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    name2 = "Average hours"
-    # name2 = "Nombre d'heures moyen"
+    dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+    # name2 = "Average hours"
+    name2 = "Nombre d'heures moyen"
 
     title = '{}, {}'.format("Niveaux de soutien par cause", region)
 

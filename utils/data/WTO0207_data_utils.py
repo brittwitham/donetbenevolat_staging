@@ -7,10 +7,10 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
-    BarriersVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersToVolunteering.csv")))
-    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs.csv")))
-    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates.csv")))
-    AllocationVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolAllocationByCause.csv")))
+    BarriersVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-BarriersToVolunteering_FR.csv")))
+    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs_FR.csv")))
+    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates_FR.csv")))
+    AllocationVol_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolAllocationByCause_FR.csv")))
 
     SubSecVolRates_2018['Estimate'] = SubSecVolRates_2018['Estimate']*100
     SubSecVolRates_2018['CI Upper'] = SubSecVolRates_2018['CI Upper']*100

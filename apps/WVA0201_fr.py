@@ -238,7 +238,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
     # dff1 = dff1.replace("Male gender", "Hommes")
     # dff1 = dff1.replace("Female gender", "Femmes")
     dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
@@ -248,7 +248,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     # dff2 = dff2.replace("Male gender", "Hommes")
     # dff2 = dff2.replace("Female gender", "Femmes")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
@@ -268,8 +268,8 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
+    # dff1 = dff1[dff1['Group'] == "Gender"]
     # dff1 = dff1.replace("Male gender", "Hommes")
     # dff1 = dff1.replace("Female gender", "Femmes")
     dff1 = dff1.replace("% volunteers", "% population")
@@ -278,7 +278,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     # dff2 = dff2.replace("Male gender", "Hommes")
     # dff2 = dff2.replace("Female gender", "Femmes")
     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
@@ -297,7 +297,7 @@ def update_graph(region):
 
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     # dff1 = dff1.replace('15 to 24 years', '15 à 24 ans')
     # dff1 = dff1.replace('25 to 34 years', '25 à 34 ans')
     # dff1 = dff1.replace('35 to 44 years', '35 à 44 ans')
@@ -311,7 +311,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     # dff2 = dff2.replace('15 to 24 years', '15 à 24 ans')
     # dff2 = dff2.replace('25 to 34 years', '25 à 34 ans')
     # dff2 = dff2.replace('35 to 44 years', '35 à 44 ans')
@@ -323,7 +323,7 @@ def update_graph(region):
     name2 = "% heures de bénévolat"
     # name2 = "% volunteer hours"
 
-    title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon le groupe d'âge", region)
+    title = '{}, {}'.format("Pourcentage de la population et du <br> nombre total d’heures de bénévolat selon l’âge", region)
 
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -336,7 +336,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     # dff1 = dff1.replace('15 to 24 years', '15 à 24 ans')
     # dff1 = dff1.replace('25 to 34 years', '25 à 34 ans')
     # dff1 = dff1.replace('35 to 44 years', '35 à 44 ans')
@@ -350,7 +350,7 @@ def update_graph(region):
     name1 = 'Taux de bénévolat'
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     # dff2 = dff2.replace('15 to 24 years', '15 à 24 ans')
     # dff2 = dff2.replace('25 to 34 years', '25 à 34 ans')
     # dff2 = dff2.replace('35 to 44 years', '35 à 44 ans')
@@ -378,7 +378,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     # dff1 = dff1.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff1 = dff1.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff1 = dff1.replace('Post-secondary diploma', 'Diplôme post-secondaire')
@@ -390,7 +390,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     # dff2 = dff2.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff2 = dff2.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff2 = dff2.replace('Post-secondary diploma', 'Diplôme post-secondaire')
@@ -417,7 +417,7 @@ def update_graph(region):
 
 
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     # dff1 = dff1.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff1 = dff1.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff1 = dff1.replace('Post-secondary diploma', 'Diplôme post-secondaire')
@@ -429,7 +429,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     # dff2 = dff2.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff2 = dff2.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff2 = dff2.replace('Post-secondary diploma', 'Diplôme post-secondaire')
@@ -452,7 +452,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Marital status"]
+    dff1 = dff1[dff1['Group'] == "État civil"]
     # dff1 = dff1.replace('Married/common-law', 'Marié.e/union de fait')
     # dff1 = dff1.replace('Separated/divorced', 'Séparé.e/divorcé.e')
     # dff1 = dff1.replace('Married', 'Marié.e')
@@ -468,7 +468,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Marital status"]
+    dff2 = dff2[dff2['Group'] == "État civil"]
     # dff2 = dff2.replace('Married/common-law', 'Marié.e/union de fait')
     # dff2 = dff2.replace('Separated/divorced', 'Séparé.e/divorcé.e')
     # dff2 = dff2.replace('Married', 'Marié.e')
@@ -496,7 +496,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Marital status"]
+    dff1 = dff1[dff1['Group'] == "État civil"]
     # dff1 = dff1.replace('Married/common-law', 'Marié.e/union de fait')
     # dff1 = dff1.replace('Separated/divorced', 'Séparé.e/divorcé.e')
     # dff1 = dff1.replace('Married', 'Marié.e')
@@ -511,7 +511,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Marital status"]
+    dff2 = dff2[dff2['Group'] == "État civil"]
     # dff2 = dff2.replace('Married/common-law', 'Marié.e/union de fait')
     # dff2 = dff2.replace('Separated/divorced', 'Séparé.e/divorcé.e')
     # dff2 = dff2.replace('Married', 'Marié.e')
@@ -537,7 +537,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Personal income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu personnel"]
     # dff1 = dff1.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff1 = dff1.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')
     # dff1 = dff1.replace('$50,000 to $74,999', '50,000 $ a 74,999 $')
@@ -551,7 +551,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Personal income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
     # dff2 = dff2.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff2 = dff2.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')
     # dff2 = dff2.replace('$50,000 to $74,999', '50,000 $ a 74,999 $')
@@ -576,7 +576,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Personal income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu personnel"]
     # dff1 = dff1.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff1 = dff1.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')
     # dff1 = dff1.replace('$50,000 to $74,999', '50,000 $ a 74,999 $')
@@ -589,7 +589,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Personal income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
     # dff2 = dff2.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff2 = dff2.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')
@@ -615,7 +615,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     # dff1 = dff1.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff1 = dff1.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff1 = dff1.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -628,7 +628,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     # dff2 = dff2.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff2 = dff2.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff2 = dff2.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -651,7 +651,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     # dff1 = dff1.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff1 = dff1.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff1 = dff1.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -663,7 +663,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     # dff2 = dff2.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff2 = dff2.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff2 = dff2.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -687,7 +687,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Labour force status"]
+    dff1 = dff1[dff1['Group'] == "Situation d'activité"]
     # dff1 = dff1.replace('Employed', 'Employé.e')
     # dff1 = dff1.replace('Unemployed', 'Au chômage')
     # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
@@ -698,7 +698,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Labour force status"]
+    dff2 = dff2[dff2['Group'] == "Situation d'activité"]
     # dff2 = dff2.replace('Employed', 'Employé.e')
     # dff2 = dff2.replace('Unemployed', 'Au chômage')
     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
@@ -721,7 +721,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Labour force status"]
+    dff1 = dff1[dff1['Group'] == "Situation d'activité"]
     # dff1 = dff1.replace('Employed', 'Employé.e')
     # dff1 = dff1.replace('Unemployed', 'Au chômage')
     # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
@@ -732,7 +732,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Labour force status"]
+    dff2 = dff2[dff2['Group'] == "Situation d'activité"]
     # dff2 = dff2.replace('Employed', 'Employé.e')
     # dff2 = dff2.replace('Unemployed', 'Au chômage')
     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
@@ -754,7 +754,7 @@ def update_graph(region):
 def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Immigration status"]
+    dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
     # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
     # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
     # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
@@ -765,7 +765,7 @@ def update_graph(region):
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Immigration status"]
+    dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
     # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
@@ -787,7 +787,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Immigration status"]
+    dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
     # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
     # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
     # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
@@ -797,7 +797,7 @@ def update_graph(region):
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Immigration status"]
+    dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
     # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')

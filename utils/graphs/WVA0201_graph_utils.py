@@ -23,6 +23,13 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
 
     fig1df2['Text'] = np.select([fig1df2["Marker"] == "*", fig1df2["Marker"] == "...", pd.isnull(fig1df2["Marker"])],
                                 ["$"+fig1df2.Estimate.map(str)+"*", "...", "$"+fig1df2.Estimate.map(str)])
+    
+    
+    fig1df2text_list = []
+    for i in list(fig1df2['Text']):
+        x = i[1:]
+        fig1df2text_list.append(x)
+
     fig1df2['HoverText'] = np.select([fig1df2["Marker"] == "*",
                                     fig1df2["Marker"] == "...",
                                     pd.isnull(fig1df2["Marker"])],
@@ -65,7 +72,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
                         hoverlabel=dict(font=dict(color="white")),
                         hoverinfo="text",
                         marker=dict(color="#7BAFD4"),
-                        text=fig1df2['Text'],
+                        text = fig1df2text_list,#fig1df2_text,
                         textposition='outside',
                         cliponaxis=False,
                         name="Nombre d'heures moyen",

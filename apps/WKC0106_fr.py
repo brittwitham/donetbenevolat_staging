@@ -714,8 +714,12 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = AvgAmtBarriers_2018[AvgAmtBarriers_2018['Region'] == region]
-    name1 = "Report barrier"
-    name2 = "Do not report barrier"
+    dff = dff.replace("Report barrier", "Signalent un frein")
+    dff = dff.replace("Do not report barrier", "Ne signalent aucun frein")
+    # name1 = "Report barrier"
+    name1 = "Signalent un frein"
+    # name2 = "Do not report barrier"
+    name2 = 'Ne signalent aucun frein'
     title = '{}, {}'.format("Montants moyens des contributions des donateur.trice.s <br> faisant état ou non de freins précis", region)
     return vertical_dollar_graph(dff, name1, name2, title)
 

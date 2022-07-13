@@ -215,7 +215,7 @@ def update_graph(region):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Gender"]
+    dff = dff[dff['Group'] == "Genre"]
 
     title = '{}, {}'.format(str(activity) + " selon le genre", region)
     return single_vertical_percentage_graph(dff, title)
@@ -229,7 +229,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Age group"]
+    dff = dff[dff['Group'] == "Groupe d'âge"]
 
     title = '{}, {}'.format(str(activity) + " selon l’âge", region)
     return single_vertical_percentage_graph(dff, title)
@@ -243,7 +243,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Education"]
+    dff = dff[dff['Group'] == "Éducation"]
 
     title = '{}, {}'.format(str(activity) + " l’éducation formelle", region)
     return single_vertical_percentage_graph(dff, title)
@@ -257,7 +257,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Marital status"]
+    dff = dff[dff['Group'] == "État civil"]
 
     title = '{}, {}'.format(str(activity) + " selon la situation matrimoniale", region)
     return single_vertical_percentage_graph(dff, title)
@@ -271,7 +271,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Family income category"]
+    dff = dff[dff['Group'] == "Catégorie de revenu familial"]
 
     title = '{}, {}'.format(str(activity) + " selon le revenu du ménage", region)
     return single_vertical_percentage_graph(dff, title)
@@ -286,7 +286,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Frequency of religious attendance"]
+    dff = dff[dff['Group'] == "Fréquence de la fréquentation religieuse"]
 
     title = '{}, {}'.format(str(activity) + " selon la pratique religieuse", region)
     return single_vertical_percentage_graph(dff, title)
@@ -301,7 +301,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Labour force status"]
+    dff = dff[dff['Group'] == "Situation d'activité"]
 
     title = '{}, {}'.format(str(activity) + " selon la situation d’emploi", region)
     return single_vertical_percentage_graph(dff, title)
@@ -316,7 +316,7 @@ def update_graph(region, activity):
 def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Immigration status"]
+    dff = dff[dff['Group'] == "Statut d'immigration"]
 
     title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
     return single_vertical_percentage_graph(dff, title)

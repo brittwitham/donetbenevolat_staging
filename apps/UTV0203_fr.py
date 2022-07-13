@@ -162,10 +162,10 @@ def update_graph(region):
     
     dff1 = dff1.replace("% volunteers", "% bénévoles")
     # name1 = "% volunteers"
-    name1 = "% bénévoles"
+    name2 = "% bénévoles"
     
     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
-    name2 = "% heures de bénévolat"
+    name1 = "% heures de bénévolat"
     # name2 = "% volunteer hours"
 
     title = '{}, {}'.format("Répartition des heures de bénévolat totales", region)
@@ -250,7 +250,7 @@ def update_graph(region):
     # name1 = "Top volunteer"
     # name2 = "Regular volunteer"
 
-    title = '{}, {}'.format("Barriers to volunteering more, top volunteers vs. regular volunteers", region)
+    title = '{}, {}'.format("Freins empêchant de faire plus de bénévolat, bénévoles <br> très engagé.e.s et autres bénévoles", region)
     return vertical_percentage_graph(dff, title, name1, name2)
 
 

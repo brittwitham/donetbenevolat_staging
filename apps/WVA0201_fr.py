@@ -189,22 +189,46 @@ layout = html.Div([
                         html.H5("Autres facteurs"),
                         html.P("La situation d’emploi et le statut d’immigration sont également des prédicteurs significatifs des tendances du bénévolat. En général, la probabilité de faire du bénévolat varie peu selon le statut d’emploi, mais les bénévoles qui ne font pas partie de la population active ont tendance à faire don de beaucoup plus d’heures. Quant au statut d’immigration, les personnes naturalisées (qui ont tendance à être plus âgées) sont légèrement moins susceptibles de faire du bénévolat que les personnes nées au Canada."),
                         # Volunteer rate & average hours volunteered by employment status
+                        
                         html.Div([
-                            dcc.Graph(id='VolRateAvgHours-Labour', style={'marginTop': marginTop}),
+                            html.Div(['Select status:',
+                                      dcc.Dropdown(
+                                          id='status-selection2',
+                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          value="Situation d'activité",
+                                          style={'verticalAlign': 'middle'}
+                                      ),],
+                                     style={'width': '33%', 'display': 'inline-block'})
                         ]),
-                        # Volunteer rate & average hours volunteered by immigration status
-                        html.Div([
-                            dcc.Graph(id='VolRateAvgHours-ImmStat', style={'marginTop': marginTop}),
-                        ]),
+                        dcc.Graph(id='status-hours', style={'marginTop': marginTop}),
+                        
+                        # html.Div([
+                        #     dcc.Graph(id='VolRateAvgHours-Labour', style={'marginTop': marginTop}),
+                        # ]),
+                        # # Volunteer rate & average hours volunteered by immigration status
+                        # html.Div([
+                        #     dcc.Graph(id='VolRateAvgHours-ImmStat', style={'marginTop': marginTop}),
+                        # ]),
                         html.P("Dans l’ensemble, les personnes qui ne font pas partie de la population active et les personnes nées au Canada ont tendance à représenter un nombre d’heures proportionnellement supérieur, tandis que les personnes naturalisées et employées ont tendance à représenter un nombre d’heures proportionnellement inférieur."),
                         # Percentage of Canadians & total hours volunteered by employment status
+                        # html.Div([
+                        #     dcc.Graph(id='PercVolHours-Labour', style={'marginTop': marginTop})
+                        # ]),
+                        # # Percentage of Canadians & total hours volunteered by immigration status
+                        # html.Div([
+                        #     dcc.Graph(id='PercVolHours-ImmStat', style={'marginTop': marginTop})
+                        # ]),
                         html.Div([
-                            dcc.Graph(id='PercVolHours-Labour', style={'marginTop': marginTop})
+                            html.Div(['Sélectionner le statut:',
+                                      dcc.Dropdown(
+                                          id='status-selection',
+                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          value="Situation d'activité",
+                                          style={'verticalAlign': 'middle'}
+                                      ),],
+                                     style={'width': '33%', 'display': 'inline-block'})
                         ]),
-                        # Percentage of Canadians & total hours volunteered by immigration status
-                        html.Div([
-                            dcc.Graph(id='PercVolHours-ImmStat', style={'marginTop': marginTop})
-                        ]),
+                        dcc.Graph(id='status-perc', style={'marginTop': marginTop})
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
@@ -683,134 +707,191 @@ def update_graph(region):
 
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
+# @app.callback(
+#     dash.dependencies.Output('VolRateAvgHours-Labour', 'figure'),
+#     [
+
+#         dash.dependencies.Input('region-selection', 'value')
+#     ])
+# def update_graph(region):
+
+#     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
+#     dff1 = dff1[dff1['Group'] == "Situation d'activité"]
+#     # dff1 = dff1.replace('Employed', 'Employé.e')
+#     # dff1 = dff1.replace('Unemployed', 'Au chômage')
+#     # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
+#     dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+
+#     # name1 = "Volunteer rate"
+#     name1 = 'Taux de bénévolat'
+
+
+#     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
+#     dff2 = dff2[dff2['Group'] == "Situation d'activité"]
+#     # dff2 = dff2.replace('Employed', 'Employé.e')
+#     # dff2 = dff2.replace('Unemployed', 'Au chômage')
+#     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
+#     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+    
+#     # name2 = "Average hours"
+#     name2 = "Nombre d'heures moyen"
+
+#     title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon la situation d’emploi", region)
+
+#     return don_rate_avg_don(dff1, dff2, name1, name2, title)
+
+
+# @app.callback(
+#     dash.dependencies.Output('PercVolHours-Labour', 'figure'),
+#     [
+
+#         dash.dependencies.Input('region-selection', 'value')
+#     ])
+# def update_graph(region):
+
+#     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
+#     dff1 = dff1[dff1['Group'] == "Situation d'activité"]
+#     # dff1 = dff1.replace('Employed', 'Employé.e')
+#     # dff1 = dff1.replace('Unemployed', 'Au chômage')
+#     # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
+#     # dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+#     dff1 = dff1.replace("% volunteers", "% population")
+#     # name1 = "% volunteers"
+#     name1 = "% population"
+
+
+#     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
+#     dff2 = dff2[dff2['Group'] == "Situation d'activité"]
+#     # dff2 = dff2.replace('Employed', 'Employé.e')
+#     # dff2 = dff2.replace('Unemployed', 'Au chômage')
+#     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
+#     # dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+#     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
+#     name2 = "% heures de bénévolat"
+#     # name2 = "% volunteer hours"
+
+#     title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la situation d’emploi", region)
+
+#     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
+
+# @app.callback(
+#     dash.dependencies.Output('VolRateAvgHours-ImmStat', 'figure'),
+#     [
+
+#         dash.dependencies.Input('region-selection', 'value')
+#     ])
+# def update_graph(region):
+
+#     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
+#     dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
+#     # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
+#     # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
+#     # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
+#     dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+
+#     # name1 = "Volunteer rate"
+#     name1 = 'Taux de bénévolat'
+
+
+#     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
+#     dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
+#     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
+#     # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
+#     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
+#     dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
+#     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+    
+#     # name2 = "Average hours"
+#     name2 = "Nombre d'heures moyen"
+
+#     title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon le statut d’immigration", region)
+
+#     return don_rate_avg_don(dff1, dff2, name1, name2, title)
+
+# @app.callback(
+#     dash.dependencies.Output('PercVolHours-ImmStat', 'figure'),
+#     [
+
+#         dash.dependencies.Input('region-selection', 'value')
+#     ])
+# def update_graph(region):
+#     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
+#     dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
+#     # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
+#     # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
+#     # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
+#     dff1 = dff1.replace("% volunteers", "% population")
+#     # name1 = "% volunteers"
+#     name1 = "% population"
+
+
+#     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
+#     dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
+#     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
+#     # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
+#     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
+#     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
+#     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
+#     name2 = "% heures de bénévolat"
+#     # name2 = "% volunteer hours"
+
+#     title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon le statut d’immigration", region)
+
+#     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
+
+
 @app.callback(
-    dash.dependencies.Output('VolRateAvgHours-Labour', 'figure'),
+    dash.dependencies.Output('status-hours', 'figure'),
     [
 
-        dash.dependencies.Input('region-selection', 'value')
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('status-selection2', 'value')
+
     ])
-def update_graph(region):
+def update_graph(region, status):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Situation d'activité"]
-    # dff1 = dff1.replace('Employed', 'Employé.e')
-    # dff1 = dff1.replace('Unemployed', 'Au chômage')
-    # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
+    dff1 = dff1[dff1['Group'] == status]
     dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
-
     # name1 = "Volunteer rate"
-    name1 = 'Taux de bénévolat'
+    name1 = "Taux de bénévolat"
 
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Situation d'activité"]
-    # dff2 = dff2.replace('Employed', 'Employé.e')
-    # dff2 = dff2.replace('Unemployed', 'Au chômage')
-    # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
+    dff2 = dff2[dff2['Group'] == status]
+    
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
     
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
-    title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon la situation d’emploi", region)
+    title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon " + str(status).lower(), region)
 
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
 
 @app.callback(
-    dash.dependencies.Output('PercVolHours-Labour', 'figure'),
+    dash.dependencies.Output('status-perc', 'figure'),
     [
 
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('status-selection', 'value')
 
+    ])
+def update_graph(region, status):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Situation d'activité"]
-    # dff1 = dff1.replace('Employed', 'Employé.e')
-    # dff1 = dff1.replace('Unemployed', 'Au chômage')
-    # dff1 = dff1.replace('Not in labour force', 'Pas dans la population active')
-    # dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+    dff1 = dff1[dff1['Group'] == status]
     dff1 = dff1.replace("% volunteers", "% population")
-    # name1 = "% volunteers"
+    # name1 = "% Canadians"
     name1 = "% population"
 
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Situation d'activité"]
-    # dff2 = dff2.replace('Employed', 'Employé.e')
-    # dff2 = dff2.replace('Unemployed', 'Au chômage')
-    # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
-    # dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+    dff2 = dff2[dff2['Group'] == status]
     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
     name2 = "% heures de bénévolat"
     # name2 = "% volunteer hours"
 
-    title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la situation d’emploi", region)
-
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    dash.dependencies.Output('VolRateAvgHours-ImmStat', 'figure'),
-    [
-
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-
-    dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
-    # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
-    # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
-    # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
-    dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
-
-    # name1 = "Volunteer rate"
-    name1 = 'Taux de bénévolat'
-
-
-    dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
-    # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
-    # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
-    # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
-    dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
-    dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
-    # name2 = "Average hours"
-    name2 = "Nombre d'heures moyen"
-
-    title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon le statut d’immigration", region)
-
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    dash.dependencies.Output('PercVolHours-ImmStat', 'figure'),
-    [
-
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Statut d'immigration"]
-    # dff1 = dff1.replace('Native-born', 'Né.e au Canada')
-    # dff1 = dff1.replace('Naturalized', 'Naturalisé.e')
-    # dff1 = dff1.replace('Non-Canadian', 'Non canadien.ne')
-    dff1 = dff1.replace("% volunteers", "% population")
-    # name1 = "% volunteers"
-    name1 = "% population"
-
-
-    dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
-    # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
-    # dff2 = dff2.replace('Naturalized', 'Naturalisé.e')
-    # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
-    # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
-    dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
-    name2 = "% heures de bénévolat"
-    # name2 = "% volunteer hours"
-
-    title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon le statut d’immigration", region)
+    title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon " + str(status).lower(), region)
 
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)

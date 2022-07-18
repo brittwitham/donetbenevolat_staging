@@ -24,6 +24,7 @@ process_data(data)
 region_values = get_region_values()
 region_names = get_region_names()
 activity_names = ActivityVolRate_2018.QuestionText.unique()
+status_names = ["Situation d'activité", "Statut d'immigration"]
 
 names = []
 for i in activity_names:
@@ -170,6 +171,18 @@ layout = html.Div([
                         # Volunteer rate per activity by immigration status
                         dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                     ]),
+                    
+                    html.Div([
+                            html.Div(['Sélectionner le statut:',
+                                      dcc.Dropdown(
+                                          id='status-selection',
+                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          value="Situation d'activité",
+                                          style={'verticalAlign': 'middle'}
+                                      ),],
+                                     style={'width': '33%', 'display': 'inline-block'})
+                        ]),
+                        dcc.Graph(id='status-fig', style={'marginTop': marginTop})
                 ], className='col-md-10 col-lg-8 mx-auto'
 
             ),
@@ -319,4 +332,21 @@ def update_graph(region, activity):
     dff = dff[dff['Group'] == "Statut d'immigration"]
 
     title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
+    return single_vertical_percentage_graph(dff, title)
+
+
+@app.callback(
+    dash.dependencies.Output('status-fig', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('activity-selection', 'value'),
+        dash.dependencies.Input('status-selection', 'value')
+
+    ])
+def update_graph(region, activity, status):
+    dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+    dff = dff[dff['QuestionText'] == activity]
+    dff = dff[dff['Group'] == status]
+
+    title = '{}, {}'.format(str(activity) + " selon " + str(status).lower(), region)
     return single_vertical_percentage_graph(dff, title)

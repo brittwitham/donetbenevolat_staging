@@ -21,6 +21,8 @@ region_values = get_region_values()
 region_names = get_region_names()
 method_names = DonMethAvgDon_2018["QuestionText"].unique()
 
+status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
+
 ###################### App layout ######################
 
 marginTop = 20
@@ -165,23 +167,34 @@ layout = html.Div([
                         html.H5("Autres Facteurs"),
                         html.P(" Quant aux autres facteurs, les personnes nées au Canada sont, en général, relativement plus enclines à donner par la majorité des méthodes de don que les personnes naturalisées, à l’exception notable de la méthode des dons à un lieu de culte que les personnes naturalisées sont nettement plus enclines à utiliser. Les conséquences de la situation d’emploi sont très variées, certaines méthodes étant fortement associées aux personnes occupant un emploi (p. ex. donner au travail) ou à celles n’appartenant pas à la population active (p. ex. donner à un lieu de culte). Dans l’ensemble, les tendances des dons selon la situation matrimoniale semblent très étroitement liées aux tendances des dons selon l’âge (c.-à-d. les personnes célibataires ont tendance à être plus jeunes, tandis que celles qui sont veuves ont tendance à être plus âgées)."),
                         # Donation rate & average donation amount by religious attendance
-                        html.Div([
-                            # html.H6("Donation rate & average donation amount by marital status"),
-                            dcc.Graph(id='DonMethDonRateAvgDonAmt-MarStat', style={'marginTop': marginTop}),
+                        # html.Div([
+                        #     # html.H6("Donation rate & average donation amount by marital status"),
+                        #     dcc.Graph(id='DonMethDonRateAvgDonAmt-MarStat', style={'marginTop': marginTop}),
 
                             # html.Br(),
-                        ]),
+                        # ]),
                         # Donation rate & average donation amount per method by employment status.
-                        html.Div([
-                            # html.H6("Donation rate & average donation amount per method by employment status."),
-                            dcc.Graph(id='DonMethDonRateAvgDonAmt-Labour', style={'marginTop': marginTop}),
-                        ]),
-                        # Donation rate & average donation amount by immigration status
-                        html.Div([
-                            # html.H6("Donation rate & average donation amount by immigration status"),
-                            dcc.Graph(id='DonMethDonRateAvgDonAmt-ImmStat', style={'marginTop': marginTop})
+                        # html.Div([
+                        #     # html.H6("Donation rate & average donation amount per method by employment status."),
+                        #     dcc.Graph(id='DonMethDonRateAvgDonAmt-Labour', style={'marginTop': marginTop}),
+                        # ]),
+                        # # Donation rate & average donation amount by immigration status
+                        # html.Div([
+                        #     # html.H6("Donation rate & average donation amount by immigration status"),
+                        #     dcc.Graph(id='DonMethDonRateAvgDonAmt-ImmStat', style={'marginTop': marginTop})
 
+                        # ]),
+                        html.Div([
+                            html.Div(['Sélectionner le statut:',
+                                      dcc.Dropdown(
+                                          id='status-selection',
+                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          value='État civil',
+                                          style={'verticalAlign': 'middle'}
+                                      ),],
+                                     style={'width': '33%', 'display': 'inline-block'})
                         ]),
+                        dcc.Graph(id='status-sel3', style={'marginTop': marginTop})
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
 
@@ -228,13 +241,13 @@ def update_graph(region):
 def update_graph(region, method):
     dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
     dff1 = dff1[dff1['QuestionText'] == method]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
     name1 = "Taux de donateur.trice.s"
 
 
     dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
     dff2 = dff2[dff2['QuestionText'] == method]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Dons annuels moyens"
 
 
@@ -265,13 +278,13 @@ def update_graph(region, method):
 
     dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
     dff1 = dff1[dff1['QuestionText'] == method]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     name1 = "Taux de donateur.trice.s"
 
 
     dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
     dff2 = dff2[dff2['QuestionText'] == method]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Dons annuels moyens"
 
 
@@ -301,13 +314,13 @@ def update_graph(region, method):
 def update_graph(region, method):
     dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
     dff1 = dff1[dff1['QuestionText'] == method]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Taux de donateur.trice.s"
 
 
     dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
     dff2 = dff2[dff2['QuestionText'] == method]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Dons annuels moyens"
 
 
@@ -337,13 +350,13 @@ def update_graph(region, method):
 def update_graph(region, method):
     dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
     dff1 = dff1[dff1['QuestionText'] == method]
-    dff1 = dff1[dff1['Group'] == "Personal income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu personnel"]
     name1 = "Taux de donateur.trice.s"
 
 
     dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
     dff2 = dff2[dff2['QuestionText'] == method]
-    dff2 = dff2[dff2['Group'] == "Personal income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
     name2 = "Dons annuels moyens"
 
 
@@ -373,13 +386,13 @@ def update_graph(region, method):
 def update_graph(region, method):
     dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
     dff1 = dff1[dff1['QuestionText'] == method]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     name1 = "Taux de donateur.trice.s"
 
 
     dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
     dff2 = dff2[dff2['QuestionText'] == method]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     name2 = "Dons annuels moyens"
 
 
@@ -491,6 +504,45 @@ def update_graph(region, method):
 
 
     title = '{}, {}'.format("Taux et montant moyen des dons " + str(method).lower() + " selon le statut d’immigration", region)
+    # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
+    # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
+    # c = ['Charity event', 'Public place', 'Place of worship']
+    
+    # if str(method) in a:
+    #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by immigration status", region)
+    # elif str(method) in b:
+    #     title = '{}, {}'.format("Donations made by " + str(method).lower() + " by immigration status", region)
+    # elif str(method) in c:
+    #     title = '{}, {}'.format("Donations made at " + str(method).lower() + " by immigration status", region)
+    # else:
+    #     title = '{}, {}'.format(str(method) + " by immigration status", region)
+
+    return don_rate_avg_don(dff1, dff2, name1, name2, title)
+
+@app.callback(
+
+    dash.dependencies.Output('status-sel3', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('method-selection', 'value'),
+        dash.dependencies.Input('status-selection', 'value')
+    ])
+def update_graph(region, method, status):
+    dff1 = DonMethDonRates_2018[DonMethDonRates_2018['Region'] == region]
+    dff1 = dff1[dff1['QuestionText'] == method]
+    dff1 = dff1[dff1['Group'] == status]
+    # name1 = "Donation rate"
+    name1 = "Taux de donateur.trice.s"
+
+
+    dff2 = DonMethAvgDon_2018[DonMethAvgDon_2018['Region'] == region]
+    dff2 = dff2[dff2['QuestionText'] == method]
+    dff2 = dff2[dff2['Group'] == status]
+    name2 = "Dons annuels moyens"
+    # name2 = "Average donation"
+
+
+    title = '{}, {}'.format("Taux et montant moyen des dons " + str(method).lower() + " selon " + str(status).lower(), region)
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']

@@ -31,7 +31,7 @@ def process_data(data):
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>motivation", "Do not report motivation", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>motivation", "Report motivation", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(30)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)

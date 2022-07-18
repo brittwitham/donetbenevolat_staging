@@ -279,7 +279,7 @@ layout = html.Div([
     ])
 def update_graph(region):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["QuestionText"] = dff["QuestionText"].str.wrap(20)
+    dff["QuestionText"] = dff["QuestionText"].str.wrap(27)
     dff["QuestionText"] = dff["QuestionText"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "All"]
@@ -294,7 +294,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = AvgHoursBarriersVol_2018[AvgHoursBarriersVol_2018['Region'] == region]
-    dff["Group"] = dff["Group"].str.wrap(20)
+    dff["Group"] = dff["Group"].str.wrap(28)
     dff["Group"] = dff["Group"].replace({'\n': '<br>'}, regex=True)
     dff = dff.replace("Report barrier", "Signalent un frein")
     dff = dff.replace("Do not report barrier", "Ne signalent aucun frein")
@@ -479,7 +479,7 @@ def update_graph(region, barrier, status):
 def update_graph(region, cause):
     dff = BarriersVolByCause_2018[BarriersVolByCause_2018['Region'] == region]
     dff = dff[dff["Group"] == cause]
-    dff["QuestionText"] = dff["QuestionText"].str.wrap(20)
+    dff["QuestionText"] = dff["QuestionText"].str.wrap(28)
     dff["QuestionText"] = dff["QuestionText"].replace({'\n': '<br>'}, regex=True)
     dff = dff.replace("Support cause", "Soutiennent la cause")
     dff = dff.replace("Do not support cause", "Ne soutiennent pas la cause")

@@ -48,7 +48,7 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.97},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',

@@ -7,7 +7,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
 from utils.graphs.WDC0205_graph_utils import single_vertical_percentage_graph, vertical_hours_graph, vertical_percentage_graph
-from utils.data.WDC0205_data_utils import get_data, process_data, get_region_names, get_region_values
+from utils.data.WDC0205_data_utils import get_data, process_data, get_region_names, get_region_values, translate
 
 from app import app
 from homepage import navbar, footer
@@ -16,6 +16,10 @@ from homepage import navbar, footer
 ReasonsVol_2018, AvgHrsReasons_2018, MotivationsVolByCause_2018 = get_data()
 data = [ReasonsVol_2018, AvgHrsReasons_2018, MotivationsVolByCause_2018]
 process_data(data)
+
+# ReasonsVol_2018 = translate(ReasonsVol_2018)
+# AvgHrsReasons_2018 = translate(AvgHrsReasons_2018)
+# MotivationsVolByCause_2018 = translate(MotivationsVolByCause_2018)
 
 region_values = get_region_values()
 region_names = get_region_names()
@@ -229,7 +233,7 @@ layout = html.Div([
                                           style={'verticalAlign': 'middle'}
                                       ),],
                                      style={'width': '33%', 'display': 'inline-block'}),
-                            html.Div(['Sélectionnez une motivation:',
+                          html.Div(['Sélectionnez une motivation:',
                                       dcc.Dropdown(
                                           id='motivation_selection-other',
                                           options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
@@ -363,7 +367,7 @@ def update_graph(region, motivation):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Catégorie de revenu familial"]
     dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + " selon le revenu du ménage", region)
+    title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + " <br> selon le revenu du ménage", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(

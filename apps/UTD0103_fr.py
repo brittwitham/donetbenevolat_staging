@@ -92,7 +92,7 @@ layout = html.Div([
                     D’après l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, un peu plus de deux tiers des personnes (68 %) au Canada ont donné à un organisme de bienfaisance ou à but non lucratif pendant l’année qui l’a précédée. Le montant moyen de ces dons était de 569 $ par personne et leur total national s’est élevé à approximativement 11,9 milliards $.
                     ''',className='mt-4'),
                     dcc.Markdown('''
-                    Bien que la majorité des personnes fassent des dons d’argent au Canada, la vaste majorité de ceux-ci proviennent d’une petite minorité. Ces personnes appartiennent au groupe des grand.e.s donateur.trice.s. Nous analysons ci-dessous leurs caractéristiques personnelles et économiques, les causes qu’elles soutiennent, leurs motivations et les freins qui les empêchent de donner encore plus. 
+                    Bien que la majorité des personnes fassent des dons d’argent au Canada, la vaste majorité de ceux-ci proviennent d’une petite minorité de donateur.trice.s. Nous analysons ci-dessous leurs caractéristiques personnelles et économiques, les causes qu’elles soutiennent, leurs motivations et les freins qui les empêchent de donner encore plus. Nous décrivons dans le texte ci-dessous les tendances nationales et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer légèrement des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires. 
                     '''),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),

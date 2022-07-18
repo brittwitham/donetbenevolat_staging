@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State, ClientsideFunction
 
 from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_avg_don, perc_don_perc_amt, prim_cause_num_cause, forms_of_giving, fr_don_rate_avg_don_amt_prv
-from utils.data.WDA0101_data_utils import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values
+from utils.data.WDA0101_data_utils import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values, translate
 
 from app import app
 from homepage import navbar, footer
@@ -25,6 +25,10 @@ status_names = ["État civil", "Situation d'activité", "Statut d'immigration"]
 
 process_data(data)
 process_data_num(data_num)
+PropTotDon_2018 = translate(PropTotDon_2018)
+PropTotDonAmt_2018 = translate(PropTotDonAmt_2018)
+
+# fix_translation(PropTotDon_2018)
 #
 # Extract info from data for selection menus
 region_values = get_region_values()

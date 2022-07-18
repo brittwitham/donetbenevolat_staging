@@ -263,7 +263,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                                    "Estimate Suppressed",
                                    "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
-                             ["$"+dff2.Estimate.map(str)+"*", "...", "$"+dff2.Estimate.map(str)])
+                             [+dff2.Estimate.map(str)+"*", "...", +dff2.Estimate.map(str)])
     dff2['HoverText'] = np.select([dff2["Marker"] == "*",
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],

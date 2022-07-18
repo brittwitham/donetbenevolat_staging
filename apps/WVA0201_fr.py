@@ -10,7 +10,7 @@ import os.path as op
 import re
 
 from utils.graphs.WVA0201_graph_utils import static_graph, forms_of_giving, don_rate_avg_don, perc_don_perc_amt
-from utils.data.WVA0201_data_utils import get_data, process_data, get_region_values, get_region_names
+from utils.data.WVA0201_data_utils import get_data, process_data, get_region_values, get_region_names, translate
 
 from app import app
 from homepage import navbar, footer
@@ -21,6 +21,9 @@ VolRate_2018, AvgTotHours_2018, FormsVolunteering_2018, PercTotVols_2018, PercTo
 data = [VolRate_2018, AvgTotHours_2018, PercTotVols_2018, PercTotHours_2018, FormsVolunteering_2018]
 
 process_data(data)
+
+PercTotVols_2018 = translate(PercTotVols_2018)
+PercTotHours_2018 = translate(PercTotHours_2018)
 
 region_values = get_region_values()
 region_names = get_region_names()

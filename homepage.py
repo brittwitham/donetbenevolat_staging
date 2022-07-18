@@ -7,16 +7,9 @@ navbar = dbc.NavbarSimple(
             dbc.NavItem(
                 # dcc.Link("Home", href="/")
                 dbc.NavLink("Home", href="/",external_link=True)
-                ),
-            dbc.DropdownMenu(
-                children=[
-                    dbc.DropdownMenuItem("More blogs", header=True),
-                    # dbc.DropdownMenuItem("Blog 1", href="#"),
-                    # dbc.DropdownMenuItem("Blog 2", href="#"),
-                ],
-                nav=True,
-                in_navbar=True,
-                label="More",
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="/",external_link=True)
             ),
         ],
         brand="Don et Benevolat",
@@ -25,6 +18,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
+
 footer = html.Footer(
        dbc.Container(
            dbc.Row(

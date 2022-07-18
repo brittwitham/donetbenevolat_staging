@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State, ClientsideFunction
 
 from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_avg_don, perc_don_perc_amt, prim_cause_num_cause, forms_of_giving, fr_don_rate_avg_don_amt_prv
-from utils.data.WDA0101_data_utils_FR import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values
+from utils.data.WDA0101_data_utils import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values
 
 from app import app
 from homepage import navbar, footer
@@ -115,7 +115,7 @@ layout = html.Div([
                         html.Div([
                             # html.H6("Donation rate & average donation amount by gender"),
                             dcc.Graph(id='DonRateAvgDonAmt-Gndr_fr', style={'marginTop': marginTop}),
-                            html.P("Conformément à la probabilité supérieure de leurs dons, les femmes sont majoritaires parmi les donateur.trice.s, au-delà de leur représentation dans la population (à l’échelle nationale, les femmes représentaient 50,7 % de la population âgée d’au moins 15 ans). Comme l’importance des dons des hommes et des femmes est généralement très similaire, le pourcentage de la valeur totale des dons de chaque genre correspondait de près à leur représentation parmi les donateur.trice.s."),
+                            html.P("La probabilité de donner des femmes, supérieure à celle des hommes, est partiellement compensée par les montants inférieurs de leurs dons. Les femmes représentent un pourcentage de la valeur totale des dons légèrement supérieur à celui auquel on pourrait s'attendre, compte tenu de leur nombre."),
                         ]),
                         # Percentage of donors & total donation value by gender
                         html.Div([
@@ -137,14 +137,14 @@ layout = html.Div([
                         html.Div([
                             # html.H6("Donation rate & average donation amount by age"),
                             dcc.Graph(id='DonRateAvgDonAmt-Age_fr', style={'marginTop': marginTop}),
-                            html.P("Comme elles sont moins enclines à donner et qu’elles ont tendance à donner moins, les personnes âgées de 15 à 24 ans représentent une proportion relativement petite des donateur.trice.s et de la valeur totale des dons. En revanche, l’importance des personnes âgées de 55 ans et plus est disproportionnée : en raison de leur plus forte probabilité de donner et du montant généralement plus important de leurs dons, elles représentent des pourcentages de la valeur totale des dons supérieurs à ceux des donateur.trice.s de tous les sous-groupes d’âge."),
+                            html.P("En raison de leur plus forte probabilité de donner et du montant généralement plus important de leurs dons, la place des personnes âgées de 55 ans ou plus dans les dons est disproportionnée au Canada :  elles représentent des pourcentages de la valeur totale des dons supérieurs à leur représentation au sein de la population."),
                             # html.Br(),
                         ]),
                         # Percentage of donors & total donation value by age
                         html.Div([
                             # html.H6("Percentage of donors & total donation value by age"),
                             dcc.Graph(id='PercDon-Age_fr', style={'marginTop': marginTop}),
-                            html.P("Étant donné leurs dons habituellement plus petits, les personnes âgées de 15 à 24 ans ont tendance à affecter une part plus importante de leurs contributions à leur cause principale et à soutenir un nombre de causes moins important, en moyenne. Bien que les personnes de 25 ans et plus concentrent de manière très uniforme leurs dons sur leur cause principale, elles ont légèrement plus tendance à soutenir un éventail de causes plus large, comme l’indique le nombre moyen de causes soutenues."),
+                            html.P("Étant donné leur plus forte probabilité de donner et les montants habituellement supérieurs de leurs dons, les personnes diplômées de l’université occupent une place disproportionnée dans les dons. Au niveau national, elles représentent  un peu moins d'un tiers des personnes au Canada, mais presque la moitié de la valeur totale des dons. Par contre, les personnes non titulaires d’un diplôme d’études secondaires représentent environ un dixième des personnes au Canada et six pour cent de la valeur totale des dons."),
                             # html.Br(),
                         ]),
                         # Focus on primary cause & average number of causes supported by age
@@ -162,7 +162,7 @@ layout = html.Div([
                         html.Div([
                             # html.H6("Donation rate & average donation amount by formal education"),
                             dcc.Graph(id='DonRateAvgDonAmt-Educ_fr', style={'marginTop': marginTop}),
-                            html.P("Étant donné leur plus forte probabilité de donner et les montants habituellement supérieurs de leurs dons, les personnes diplômées de l’université occupent une place disproportionnée dans les dons. Au niveau national, elles représentent environ un tiers des donateur.trice.s, mais presque la moitié du total des dons. Par contre, les personnes non titulaires d’un diplôme d’études secondaires représentent environ un dixième des donateur.trice.s et six pour cent du total des dons."),
+                            html.P("Étant donné leur plus forte probabilité de donner et les montants habituellement supérieurs de leurs dons, les personnes diplômées de l’université occupent une place disproportionnée dans les dons. Au niveau national, elles représentent  un peu moins d'un tiers des personnes au Canada, mais presque la moitié de la valeur totale des dons. Par contre, les personnes non titulaires d’un diplôme d’études secondaires représentent environ un dixième des personnes au Canada et six pour cent de la valeur totale des dons."),
                             # html.Br(),
                         ]),
                         # Percentage of donors & total donation value by formal education
@@ -186,7 +186,7 @@ layout = html.Div([
                         html.Div([
                             # html.H6("Donation rate & average donation amount by household income"),
                             dcc.Graph(id='DonRateAvgDonAmt-Inc_fr', style={'marginTop': marginTop}),
-                            html.P("En raison des variations du montant des dons habituels, au niveau national, les membres des ménages au revenu annuel inférieur à 75 000 $ ont tendance à représenter un pourcentage excessivement faible de la valeur totale des dons. En revanche, les membres des ménages de la catégorie supérieure de revenu ont tendance à occuper une place beaucoup plus importante, en représentant moins d’un tiers des donateur.trice.s, mais deux cinquièmes de la valeur totale des dons."),
+                            html.P("En raison des variations du montant des dons habituels, au niveau national, les membres des ménages au revenu annuel inférieur à 75 000 $ ont tendance à occuper une place excessivement faible dans les dons. En revanche, les membres des ménages de la catégorie supérieure de revenu ont tendance à occuper une place beaucoup plus importante, en représentant moins d’un tiers des personnes au Canada, mais deux cinquièmes de la valeur totale des dons."),
                             # html.Br(),
                         ]),
                         # Percentage of donors & total donation value by household income
@@ -211,7 +211,7 @@ layout = html.Div([
                         html.Div([
                             # html.H6("Donation rate & average donation amount by religious attendance"),
                             dcc.Graph(id='DonRateAvgDonAmt-Relig_fr', style={'marginTop': marginTop}),
-                            html.P("Étant donné leur probabilité plus forte de donner et, plus particulièrement, les montants supérieurs qu’elles ont tendance à donner, les personnes qui assistent chaque semaine aux offices religieux représentent à peine moins de la moitié de la valeur totale des dons au niveau national, mais seulement 17 % des donateur.trice.s. Au contraire, ceux qui n’assistent jamais aux offices religieux représentent la moitié des donateur.trice.s, mais à peu près un quart de la valeur totale des dons."),
+                            html.P("Étant donné leur probabilité plus forte de donner et, plus particulièrement, les montants importants qu’elles ont tendance à donner, les personnes qui assistent chaque semaine aux offices religieux représentent à peine moins de la moitié de la valeur totale des dons au niveau national, mais seulement 18 % des personnes au Canada. Au contraire, celles qui n’assistent jamais aux offices religieux représentent la moitié des personnes au Canada, mais à peu près un quart de la valeur totale des dons."),
                             # html.Br(),
                         ]),
                         # Percentage of donors & total donation value by religious attendance
@@ -329,7 +329,7 @@ layout = html.Div([
             ),
         ]),
    ),
-   footer
+#    footer
 ])
 
 # ###################### Graph functions ######################
@@ -364,10 +364,10 @@ def update_graph(region):
     dff1 = FormsGiving_2018[FormsGiving_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "All"]
     
-    # dff1['QuestionText'] = dff1['QuestionText'].replace('Financial donation', 'Don financier')
-    # dff1['QuestionText'] = dff1['QuestionText'].replace('Food bank', 'Banque alimentaire')
-    # dff1['QuestionText'] = dff1['QuestionText'].replace('In-kind', 'En nature')
-    # dff1['QuestionText'] = dff1['QuestionText'].replace('Bequest, planned gift', 'Leg, don planifié')
+    dff1['QuestionText'] = dff1['QuestionText'].replace('Financial donation', 'Don financier')
+    dff1['QuestionText'] = dff1['QuestionText'].replace('Food bank', 'Banque alimentaire')
+    dff1['QuestionText'] = dff1['QuestionText'].replace('In-kind', 'En nature')
+    dff1['QuestionText'] = dff1['QuestionText'].replace('Bequest, planned gift', 'Leg, don planifié')
 
     # Format title according to dropdown input
     title = '{}, {}'.format("Formes de don", region)
@@ -394,11 +394,11 @@ def update_graph(region):
     [dash.dependencies.Input('region-selection', 'value')])
 def update_graph(region):
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     name1 = "Taux de donateur.trice.s"
 
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Dons annuels moyens"
     
     # title = 'Region selected: {}'.format(region)
@@ -424,13 +424,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Dons annuels moyens"
     
     # Format title according to dropdown input
@@ -459,13 +459,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
     name1 = "Pourcentage de la population"
 
     # Average annual donation data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Pourcentage de la valeur des dons"
    
 
@@ -494,13 +494,13 @@ def update_graph(region):
     # Average number of annual donations data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
+    dff1 = dff1[dff1['Group'] == "Genre"]
     name1 = "Nombre moyen de causes"
 
     # Average number of causes supported data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
+    dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Concentration moyenne sur la 1ère cause"
     
     
@@ -531,13 +531,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     name1 = "Pourcentage de la population"
 
     # Average annual donation data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Pourcentage de la valeur des dons"
     
     
@@ -567,13 +567,13 @@ def update_graph(region):
     # Average number of annual donations data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
+    dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
     name1 = "Nombre moyen de causes"
 
     # Average number of causes supported data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
+    dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Concentration moyenne sur la 1ère cause"
 
    
@@ -602,13 +602,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Dons annuels moyens"
 
     # Format title according to dropdown input
@@ -638,13 +638,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Pourcentage de la population"
 
     # Average annual donation data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
@@ -676,13 +676,13 @@ def update_graph(region):
     TopCauseFocus_2018.Attribute = TopCauseFocus_2018.Attribute.replace("Less than High School", "Sans diplôme d'études secondaires")
     
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
+    dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Nombre moyen de causes"
 
     # Average number of causes supported data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
+    dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Concentration moyenne sur la 1ère cause"
     
     
@@ -712,13 +712,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Family income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu familial"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Family income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     name2 = "Dons annuels moyens"
     
   
@@ -748,13 +748,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Family income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu familial"]
     name1 = "Pourcentage de la population"
 
     # Average annual donation data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Family income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
@@ -783,13 +783,13 @@ def update_graph(region):
     # Average number of annual donations data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Family income category"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu familial"]
     name1 = "Nombre moyen de causes"
 
     # Average number of causes supported data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Family income category"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     name2 = "Concentration moyenne sur la 1ère cause"
 
     # Format title according to dropdown input
@@ -817,13 +817,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     name2 = "Dons annuels moyens"
 
        # Format title according to dropdown input
@@ -851,13 +851,13 @@ def update_graph(region):
     # Donation rate data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     name1 = "Pourcentage de la population"
 
     # Average annual donation data, filtered for selected region and demographic group (education)
     # Corresponding name assigned
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
@@ -886,13 +886,13 @@ def update_graph(region):
     # Average number of annual donations data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
+    dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
     name1 = "Nombre moyen de causes"
 
     # Average number of causes supported data, filtered for selected region and demographic group
     # Corresponding name assigned
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
+    dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
     name2 = "Concentration moyenne sur la 1ère cause"
 
     # Format title according to dropdown input

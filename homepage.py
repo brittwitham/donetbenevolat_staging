@@ -28,9 +28,11 @@ navbar = dbc.NavbarSimple(
 footer = html.Footer(
        dbc.Container(
            dbc.Row(
-               html.Div(
-                   html.P('Copyright © Imagine Canada 2021',className="text-center"),
-                   className='col-md-10 col-lg-8 mx-auto mt-5'
+               html.Div([
+                   html.P('© Imagine Canada 2021',className="text-center"),
+                   html.P("Ce site Web a été développé grâce au financement du gouvernement du Canada, par le biais du Programme de partenariats pour le développement social d'Emploi et Développement social Canada.",className="text-center")
+               ]
+                   ,className='col-md-10 col-lg-8 mx-auto mt-5'
                ),
            )
        )

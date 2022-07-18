@@ -43,7 +43,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1("Qu'est-ce Qui Empeche de Donner Plus?"),
+                        html.H1("Qu'est-ce qui empeche de donner plus?"),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'

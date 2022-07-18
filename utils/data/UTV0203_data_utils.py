@@ -8,8 +8,8 @@ def get_data():
         
     TopVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolunteersMotivationsForVolunteering_FR.csv")))
     TopVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsBarriersToVolunteering_FR.csv")))
-    TopVolsPercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotHours.csv")))
-    TopVolsPercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotVols.csv")))
+    TopVolsPercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotHours-updated.csv")))
+    TopVolsPercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsPercTotVols-updated.csv")))
     TopVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopVolsVolRates_FR.csv")))
     TopVolsDemoLikelihoods = pd.read_csv(op.abspath(filepath.format("2018-TopVolsDemoLikelihoods_FR.csv")))
 

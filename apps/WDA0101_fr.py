@@ -46,7 +46,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1('Qui Donne Aux Organismes Caritatifs et Combien?'),
+                        html.H1('Qui donne aux organismes caritatifs et combien?'),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'

@@ -25,7 +25,7 @@ region_values = get_region_values()
 region_names = get_region_names()
 cause_names = MotivationsVolByCause_2018["Group"].unique()
 motivations_names = ReasonsVol_2018["QuestionText"].unique()
-status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
+status_names = ['État civil', "Situation d'activité", "Statut d'immigration", "Fréquence de la fréquentation religieuse"]
 
 clean_names = []
 for i in motivations_names:
@@ -46,7 +46,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1('Pourquoi Fait-On Du Bénévolat?'),
+                        html.H1('Pourquoi fait-on du bénévolat?'),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'
@@ -185,23 +185,23 @@ layout = html.Div([
                         ]),
                     ]),
                     # Religious attendance
-                    html.Div([
-                        html.H5("Religious Attendance"),
-                        html.P("The clearest association between barriers to donating and the frequency of religious attendance is with giving time instead of donating more with more frequent attenders being more likely to report this barrier. Most other barriers do not vary by religious attendance in clear, predictable ways. The most notable exception is that non-attenders and very infrequent attenders are somewhat less likely to give directly to those in need instead of donating to an organization."),
-                        html.Div(["Sélectionnez une motivation:",
-                            dcc.Dropdown(
-                                id='motivation_selection-relig',
-                                options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
-                                value='Touché.e personnellement par la cause',
-                                style={'verticalAlign': 'middle'}
-                            ),
-                            ],
-                     className='bg-light m-2 p-2'),
-                        # Barriers to giving more by religious attendance
-                        html.Div([
-                           dcc.Graph(id='Motivations-Relig-2', style={'marginTop': marginTop}),
-                        ]),
-                    ]),
+                    # html.Div([
+                    #     html.H5("Religious Attendance"),
+                    #     html.P("The clearest association between barriers to donating and the frequency of religious attendance is with giving time instead of donating more with more frequent attenders being more likely to report this barrier. Most other barriers do not vary by religious attendance in clear, predictable ways. The most notable exception is that non-attenders and very infrequent attenders are somewhat less likely to give directly to those in need instead of donating to an organization."),
+                    #     html.Div(["Sélectionnez une motivation:",
+                    #         dcc.Dropdown(
+                    #             id='motivation_selection-relig',
+                    #             options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
+                    #             value='Touché.e personnellement par la cause',
+                    #             style={'verticalAlign': 'middle'}
+                    #         ),
+                    #         ],
+                    #  className='bg-light m-2 p-2'),
+                    #     # Barriers to giving more by religious attendance
+                    #     html.Div([
+                    #        dcc.Graph(id='Motivations-Relig-2', style={'marginTop': marginTop}),
+                    #     ]),
+                    # ]),
                     # Other factors
                     html.Div([
                         html.H5("Autres facteurs"),
@@ -370,20 +370,20 @@ def update_graph(region, motivation):
     title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + " <br> selon le revenu du ménage", region)
     return single_vertical_percentage_graph(dff, title)
 
-@app.callback(
-    dash.dependencies.Output('Motivations-Relig-2', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection-relig', 'value')
+# @app.callback(
+#     dash.dependencies.Output('Motivations-Relig-2', 'figure'),
+#     [
+#         dash.dependencies.Input('region-selection', 'value'),
+#         dash.dependencies.Input('motivation_selection-relig', 'value')
 
-    ])
-def update_graph(region, motivation):
-    dff = ReasonsVol_2018[ReasonsVol_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Fréquence de la fréquentation religieuse"]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + " selon la pratique religieuse", region)
-    return single_vertical_percentage_graph(dff, title)
+#     ])
+# def update_graph(region, motivation):
+#     dff = ReasonsVol_2018[ReasonsVol_2018['Region'] == region]
+#     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
+#     dff = dff[dff["Group"] == "Fréquence de la fréquentation religieuse"]
+#     dff = dff[dff["QuestionText"] == motivation]
+#     title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + " selon la pratique religieuse", region)
+#     return single_vertical_percentage_graph(dff, title)
 
 
 # @app.callback(

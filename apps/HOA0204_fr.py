@@ -32,7 +32,7 @@ demo_names = ["Groupe d'âge", 'Genre', 'Éducation',
 
 marginTop = 20
 
-heading = 'Aide D’Autrui Et Amélioration Communautaire'
+heading = 'Aide d’autrui et amélioration communautaire'
 
 layout = html.Div([
     navbar,

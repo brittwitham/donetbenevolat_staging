@@ -28,6 +28,8 @@ PercTotHours_2018 = translate(PercTotHours_2018)
 region_values = get_region_values()
 region_names = get_region_names()
 
+status_names = ["Situation d'activité", "Statut d'immigration"]
+
 ###################### App layout ######################
 
 marginTop = 20
@@ -40,7 +42,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1("Qui Sont Les Bénévoles et Combien D'Heures Donnent-ils?"),
+                        html.H1("Qui sont les bénévoles et combien d'heures donnent-ils?"),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'

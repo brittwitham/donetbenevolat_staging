@@ -333,7 +333,7 @@ layout = html.Div([
             ),
         ]),
    ),
-#    footer
+   footer
 ])
 
 # ###################### Graph functions ######################

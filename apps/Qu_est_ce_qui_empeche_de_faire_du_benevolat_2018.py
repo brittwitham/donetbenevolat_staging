@@ -13,7 +13,7 @@ from utils.graphs.WKC0206_graph_utils import vertical_percentage_graph_volunteer
 from utils.data.WKC0206_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 BarriersVol_2018, BarriersVolMore_2018, AvgHoursBarriersVol_2018, BarriersVolByCause_2018= get_data()
@@ -28,6 +28,22 @@ region_names = get_region_names()
 status_names = ['État civil', 'Fréquence de la fréquentation religieuse', "Statut d'immigration"]
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_keeps_Canadians_from_volunteering_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 

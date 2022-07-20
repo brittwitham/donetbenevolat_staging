@@ -12,7 +12,7 @@ from utils.graphs.WDC0105_graph_utils import single_vertical_percentage_graph, v
 from utils.data.WDC0105_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 
@@ -30,6 +30,22 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Why_do_Canadians_give_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 

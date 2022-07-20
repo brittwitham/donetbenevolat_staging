@@ -13,7 +13,7 @@ from utils.graphs.WVA0201_graph_utils import static_graph, forms_of_giving, don_
 from utils.data.WVA0201_data_utils import get_data, process_data, get_region_values, get_region_names, translate
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 VolRate_2018, AvgTotHours_2018, FormsVolunteering_2018, PercTotVols_2018, PercTotHours_2018 = get_data()
@@ -31,6 +31,22 @@ region_names = get_region_names()
 status_names = ["Situation d'activité", "Statut d'immigration"]
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Who_volunteers_and_how_much_time_do_they_contribute_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 

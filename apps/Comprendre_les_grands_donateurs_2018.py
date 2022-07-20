@@ -11,7 +11,7 @@ from utils.data.UTD0103_data_utils import get_data, process_data, get_region_val
 from utils.graphs.UTD0103_graph_utils import *
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 TopDonorsMotivations_2018, TopDonorsBarriers_2018, TopDonorsPercTotDonations_2018, TopDonorsPercTotDonors_2018, TopDonorsDonRates_2018, TopDonorsDemoLikelihoods = get_data()
@@ -24,6 +24,22 @@ region_names = get_region_names()
 demo_names = TopDonorsDemoLikelihoods["Group"].unique()
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Understanding_top_donors_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 

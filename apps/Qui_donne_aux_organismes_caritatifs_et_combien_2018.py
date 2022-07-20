@@ -12,7 +12,7 @@ from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_
 from utils.data.WDA0101_data_utils import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values, translate
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 
@@ -35,6 +35,22 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Who_donates_and_how_much_do_they_give_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 

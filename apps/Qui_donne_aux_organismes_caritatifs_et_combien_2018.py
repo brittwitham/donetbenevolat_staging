@@ -25,8 +25,8 @@ status_names = ["État civil", "Situation d'activité", "Statut d'immigration"]
 
 process_data(data)
 process_data_num(data_num)
-PropTotDon_2018 = translate(PropTotDon_2018)
-PropTotDonAmt_2018 = translate(PropTotDonAmt_2018)
+# PropTotDon_2018 = translate(PropTotDon_2018)
+# PropTotDonAmt_2018 = translate(PropTotDonAmt_2018)
 
 # fix_translation(PropTotDon_2018)
 #

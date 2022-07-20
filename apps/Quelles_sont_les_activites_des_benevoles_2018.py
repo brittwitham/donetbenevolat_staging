@@ -305,34 +305,34 @@ def update_graph(region, activity):
     return single_vertical_percentage_graph(dff, title)
 
 
-@app.callback(
-    dash.dependencies.Output('ActivityVolRate-Labour', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('activity-selection', 'value')
-    ])
-def update_graph(region, activity):
-    dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-    dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Situation d'activité"]
+# @app.callback(
+#     dash.dependencies.Output('ActivityVolRate-Labour', 'figure'),
+#     [
+#         dash.dependencies.Input('region-selection', 'value'),
+#         dash.dependencies.Input('activity-selection', 'value')
+#     ])
+# def update_graph(region, activity):
+#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+#     dff = dff[dff['QuestionText'] == activity]
+#     dff = dff[dff['Group'] == "Situation d'activité"]
 
-    title = '{}, {}'.format(str(activity) + " selon la situation d’emploi", region)
-    return single_vertical_percentage_graph(dff, title)
+#     title = '{}, {}'.format(str(activity) + " selon la situation d’emploi", region)
+#     return single_vertical_percentage_graph(dff, title)
 
 
-@app.callback(
-    dash.dependencies.Output('ActivityVolRate-ImmStat', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('activity-selection', 'value')
-    ])
-def update_graph(region, activity):
-    dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-    dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Statut d'immigration"]
+# @app.callback(
+#     dash.dependencies.Output('ActivityVolRate-ImmStat', 'figure'),
+#     [
+#         dash.dependencies.Input('region-selection', 'value'),
+#         dash.dependencies.Input('activity-selection', 'value')
+#     ])
+# def update_graph(region, activity):
+#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+#     dff = dff[dff['QuestionText'] == activity]
+#     dff = dff[dff['Group'] == "Statut d'immigration"]
 
-    title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
-    return single_vertical_percentage_graph(dff, title)
+#     title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
+#     return single_vertical_percentage_graph(dff, title)
 
 
 @app.callback(

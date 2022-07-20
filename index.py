@@ -2,22 +2,22 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 from app import app, server
 # from apps import *
-from apps import (
+# from apps import (
 #     GAV0301, 
-    WDA0101_fr, 
-    HDC0102_fr,
-    UTD0103_fr,
-    WDC0105_fr,
-    WDV0202_fr,
-    WKC0106_fr,
-    WTO0107_fr,
-    WVA0201_fr,
-    UTV0203_fr,
+    # WDA0101_fr, 
+    # HDC0102_fr,
+    # UTD0103_fr,
+    # WDC0105_fr,
+    # WDV0202_fr,
+    # WKC0106_fr,
+    # WTO0107_fr,
+    # WVA0201_fr,
+    # UTV0203_fr,
 #     test_layout,
-    HOA0204_fr,
-    WDC0205_fr,
-    WKC0206_fr,
-    WTO0207_fr,
+    # HOA0204_fr,
+    # WDC0205_fr,
+    # WKC0206_fr,
+    # WTO0207_fr,
 #     GAV0301,
 #     GAV0302,
 #     GAV0303,
@@ -28,8 +28,24 @@ from apps import (
 #     GAV0308,
 #     HDC0102_13,
 #     WDC0105_13
+# )
+# from apps import WTO0107_fr
+from apps import (
+    Qui_donne_aux_organismes_caritatifs_et_combien_2018,
+    Comment_donne_t_on_au_Canada_2018,
+    Comprendre_les_grands_donateurs_2018,
+    Pourquoi_donne_t_on_au_Canada_2018,
+    Qu_est_ce_qui_empeche_de_donner_plus_2018,
+    Quels_types_organismes_soutient_on_au_Canada_2018,
+    Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018,
+    Quelles_sont_les_activites_des_benevoles_2018,
+    Comprendre_les_benevoles_tres_engages_2018,
+    Aide_autrui_et_amelioration_communautaire_2018,
+    Pourquoi_fait_on_du_benevolat_2018,
+    Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
+    A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018
+    
 )
-from apps import WTO0107_fr
 import homepage
 
 app.layout = html.Div([
@@ -68,34 +84,34 @@ app.index_string = """<!DOCTYPE html>
 def display_page(pathname):
     if pathname == '/':
         return homepage.layout
-    elif pathname == '/WDA0101_fr':
-        return WDA0101_fr.layout
-    elif pathname == '/HDC0102_fr':
-        return HDC0102_fr.layout
-    elif pathname == '/UTD0103_fr':
-        return UTD0103_fr.layout
-    elif pathname == '/WDC0105_fr':
-        return WDC0105_fr.layout
-    elif pathname == '/WKC0106_fr':
-        return WKC0106_fr.layout
-    elif pathname == '/WTO0107_fr':
-        return WTO0107_fr.layout
-    elif pathname == '/WDV0202_fr':
-        return WDV0202_fr.layout
-    elif pathname == '/WVA0201_fr':
-        return WVA0201_fr.layout
-    elif pathname == '/UTV0203_fr':
-        return UTV0203_fr.layout
+    elif pathname == '/Qui_donne_aux_organismes_caritatifs_et_combien_2018': #WDA0101_fr':
+        return Qui_donne_aux_organismes_caritatifs_et_combien_2018.layout
+    elif pathname == '/Comment_donne_t_on_au_Canada_2018': #HDC0102_fr':
+        return Comment_donne_t_on_au_Canada_2018.layout
+    elif pathname == '/Comprendre_les_grands_donateurs_2018': #UTD0103_fr':
+        return Comprendre_les_grands_donateurs_2018.layout
+    elif pathname == '/Pourquoi_donne_t_on_au_Canada_2018': #/WDC0105_fr':
+        return Pourquoi_donne_t_on_au_Canada_2018.layout
+    elif pathname == '/Qu_est_ce_qui_empeche_de_donner_plus_2018': #WKC0106_fr':
+        return Qu_est_ce_qui_empeche_de_donner_plus_2018.layout
+    elif pathname == '/Quels_types_organismes_soutient_on_au_Canada_2018': #WTO0107_fr':
+        return Quels_types_organismes_soutient_on_au_Canada_2018.layout
+    elif pathname == '/Quelles_sont_les_activites_des_benevoles_2018': #WDV0202_fr':
+        return Quelles_sont_les_activites_des_benevoles_2018.layout
+    elif pathname == '/Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018': #WVA0201_fr':
+        return Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018.layout
+    elif pathname == '/Comprendre_les_benevoles_tres_engages_2018': #/UTV0203_fr':
+        return Comprendre_les_benevoles_tres_engages_2018.layout
 #     elif pathname == '/test':
 #         return test_layout.layout
-    elif pathname == '/HOA0204_fr':
-        return HOA0204_fr.layout
-    elif pathname == '/WDC0205_fr':
-        return WDC0205_fr.layout
-    elif pathname == '/WKC0206_fr':
-        return WKC0206_fr.layout
-    elif pathname == '/WTO0207_fr':
-        return WTO0207_fr.layout
+    elif pathname == '/Aide_autrui_et_amelioration_communautaire_2018': #/HOA0204_fr':
+        return Aide_autrui_et_amelioration_communautaire_2018.layout
+    elif pathname == '/Pourquoi_fait_on_du_benevolat_2018': #WDC0205_fr':
+        return Pourquoi_fait_on_du_benevolat_2018.layout
+    elif pathname == '/Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018': #WKC0206_fr':
+        return Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018.layout
+    elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WTO0207_fr':
+        return A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018.layout
 #     elif pathname == '/GAV0301':
 #         return GAV0301.layout
 #     elif pathname == '/GAV0302':

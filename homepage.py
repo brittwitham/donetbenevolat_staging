@@ -6,15 +6,15 @@ navbar = dbc.NavbarSimple(
         children=[
             dbc.NavItem(
                 # dcc.Link("Home", href="/")
-                dbc.NavLink("Home", href="/",external_link=True)
+                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
-                dbc.NavLink("EN", href="/",external_link=True)
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/",external_link=True)
             ),
         ],
-        brand="Don et Benevolat",
+        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
         brand_href="/",
-        color="#c7102e",
+        color="#4B161D",
         dark=True,
         sticky='top'
     )
@@ -542,7 +542,7 @@ layout = html.Div([
                 [
                     html.Div(
                         html.Div(
-                            html.H1('Don et Benevolat'),
+                            html.H1("Des données pour propulser l'impact communautaire"),
                             className='site-heading'
                         ),
                         className="col-md-10 col-lg-8 mx-auto position-relative"
@@ -552,7 +552,7 @@ layout = html.Div([
         ), 
     ],
         className='masthead',
-        style={'backgroundImage':"url('./assets/home-bg.jpg')"}
+        style={'backgroundImage':"url('./assets/portal_image.png')"}
     ),
     content,
     # footer

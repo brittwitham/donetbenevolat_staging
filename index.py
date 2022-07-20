@@ -28,6 +28,7 @@ from apps import (
 #     GAV0308,
 #     HDC0102_13,
 #     WDC0105_13
+    definition
 )
 from apps import WTO0107_fr
 import homepage
@@ -116,8 +117,10 @@ def display_page(pathname):
 #         return HDC0102_13.layout
 #     elif pathname == '/WDC0105_13':
 #         return WDC0105_13.layout
-#     else:
-#         return '404'
+    elif pathname == '/popup':
+        return definition.layout
+    else:
+        return '404'
 
 if __name__ == '__main__':
     app.run_server(debug=True)

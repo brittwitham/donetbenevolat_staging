@@ -74,7 +74,7 @@ layout = html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
                        id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
                     html.Br(),

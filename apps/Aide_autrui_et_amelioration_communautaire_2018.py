@@ -10,7 +10,7 @@ from utils.graphs.HOA0204_graph_utils import forms_of_giving, rate_avg_cause, tr
 from utils.data.HOA0204_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 VolRate_2018, CommInvolveHrs_2018, CommInvolveRate_2018, HelpDirectHrs_2018, HelpDirectRate_2018, FormsVolunteering_2018 = get_data()
@@ -29,6 +29,22 @@ demo_names = ["Groupe d'âge", 'Genre', 'Éducation',
 
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Helping_others_and_community_improvement_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -66,7 +82,7 @@ layout = html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
                        id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
                     html.Br(),

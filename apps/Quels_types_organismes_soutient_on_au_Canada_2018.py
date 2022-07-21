@@ -10,7 +10,7 @@ from utils.graphs.WTO0107_graph_utils import rate_avg_cause, single_vertical_per
 from utils.data.WTO0107_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 SubSecDonRates_2018, SubSecAvgDon_2018, Allocation_2018 = get_data()
@@ -21,6 +21,22 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_types_of_organizations_do_Canadians_support_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -50,7 +66,7 @@ layout = html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
                        id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
                     html.Br(),

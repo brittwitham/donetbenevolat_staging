@@ -7,7 +7,7 @@ from utils.graphs.HDC0102_graph_utils import don_rate_avg_don_by_meth, don_rate_
 from utils.data.HDC0102_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 DonMethAvgDon_2018, DonMethDonRates_2018 = get_data()
@@ -24,6 +24,22 @@ method_names = DonMethAvgDon_2018["QuestionText"].unique()
 status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/How_do_Canadians_donate_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -58,7 +74,7 @@ layout = html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
                        id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
                     html.Br(),

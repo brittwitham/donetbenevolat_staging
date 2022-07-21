@@ -10,7 +10,7 @@ from utils.graphs.UTV0203_graph_utils import dist_total_donations, vertical_perc
 from utils.data.UTV0203_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 TopVolsMotivations_2018, TopVolsBarriers_2018, TopVolsPercTotHours_2018, TopVolsPercTotVols_2018, TopVolsVolRates_2018, TopVolsDemoLikelihoods = get_data()
@@ -27,6 +27,22 @@ demo_names.remove('État civil (original)')
 # demo_names.remove('')
 
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Understanding_top_volunteers_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -60,7 +76,7 @@ layout = html.Div([
         html.Div(["Sélectionnez une région:",
             dcc.Dropdown(
                       id='region-selection',
-                      options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                      options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                       value='CA',
                       style={'verticalAlgin': 'middle'}
                   ),

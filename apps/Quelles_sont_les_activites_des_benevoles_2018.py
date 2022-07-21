@@ -12,7 +12,7 @@ from utils.graphs.WDV0202_graph_utils import vol_rate_avg_hrs_qt, single_vertica
 from utils.data.WDV0202_data_utils import get_data, get_region_values, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 
@@ -33,6 +33,22 @@ for i in activity_names:
 
 activity_names = names
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("Home", href="/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_do_volunteers_do_2018",external_link=True)
+            ),
+        ],
+        brand="Don et Benevolat",
+        brand_href="/",
+        color="#c7102e",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -65,7 +81,7 @@ layout = html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
                        id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
                     html.Br(),
@@ -305,34 +321,34 @@ def update_graph(region, activity):
     return single_vertical_percentage_graph(dff, title)
 
 
-@app.callback(
-    dash.dependencies.Output('ActivityVolRate-Labour', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('activity-selection', 'value')
-    ])
-def update_graph(region, activity):
-    dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-    dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Situation d'activité"]
+# @app.callback(
+#     dash.dependencies.Output('ActivityVolRate-Labour', 'figure'),
+#     [
+#         dash.dependencies.Input('region-selection', 'value'),
+#         dash.dependencies.Input('activity-selection', 'value')
+#     ])
+# def update_graph(region, activity):
+#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+#     dff = dff[dff['QuestionText'] == activity]
+#     dff = dff[dff['Group'] == "Situation d'activité"]
 
-    title = '{}, {}'.format(str(activity) + " selon la situation d’emploi", region)
-    return single_vertical_percentage_graph(dff, title)
+#     title = '{}, {}'.format(str(activity) + " selon la situation d’emploi", region)
+#     return single_vertical_percentage_graph(dff, title)
 
 
-@app.callback(
-    dash.dependencies.Output('ActivityVolRate-ImmStat', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('activity-selection', 'value')
-    ])
-def update_graph(region, activity):
-    dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-    dff = dff[dff['QuestionText'] == activity]
-    dff = dff[dff['Group'] == "Statut d'immigration"]
+# @app.callback(
+#     dash.dependencies.Output('ActivityVolRate-ImmStat', 'figure'),
+#     [
+#         dash.dependencies.Input('region-selection', 'value'),
+#         dash.dependencies.Input('activity-selection', 'value')
+#     ])
+# def update_graph(region, activity):
+#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+#     dff = dff[dff['QuestionText'] == activity]
+#     dff = dff[dff['Group'] == "Statut d'immigration"]
 
-    title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
-    return single_vertical_percentage_graph(dff, title)
+#     title = '{}, {}'.format(str(activity) + " selon le statut d’immigration", region)
+#     return single_vertical_percentage_graph(dff, title)
 
 
 @app.callback(

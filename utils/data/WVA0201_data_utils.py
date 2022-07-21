@@ -11,9 +11,9 @@ def get_data():
     VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate_FR.csv")))
     AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotHours_FR.csv")))
     FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering_FR.csv")))
-    # PercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotVolunteers_FR.csv")))
-    PercTotVols_2018 = pd.read_csv('tables/2018-PercTotVolunteers-updated.csv', encoding = 'unicode_escape', engine ='python')
-    PercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotHours.csv")))
+    PercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotVolunteers-updated_FR.csv")))
+    # PercTotVols_2018 = pd.read_csv('tables/2018-PercTotVolunteers-updated.csv', encoding = 'unicode_escape', engine ='python')
+    PercTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotHours_FR.csv")))
 
 
     VolRate_2018['Estimate'] = VolRate_2018['Estimate']*100

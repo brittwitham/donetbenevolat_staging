@@ -67,9 +67,9 @@ def get_data():
     AvgNumCauses_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgNumCauses_FR.csv")))
     FormsGiving_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsGiving.csv")))
     TopCauseFocus_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopCauseFocus_FR.csv")))
-    # PropTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonors_FR.csv")))
-    PropTotDon_2018 = pd.read_csv('tables/2018-PercTotDonors-updated.csv', encoding = 'unicode_escape', engine ='python')
-    PropTotDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonations.csv")))
+    PropTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonors-updated_FR.csv")))
+    # PropTotDon_2018 = pd.read_csv('tables/2018-PercTotDonors-updated.csv', encoding = 'unicode_escape', engine ='python')
+    PropTotDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonations_FR.csv")))
 
     # Format donation rates as percentage
     DonRates_2018['Estimate'] = DonRates_2018['Estimate']*100

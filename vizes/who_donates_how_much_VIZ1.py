@@ -218,14 +218,14 @@ fig1.update_layout(title={'text': "Donation rate & average donation amount by pr
                                    args=[{"error_y": [None, None, None, None],
                                           "text": [None, None, fig1df2['Text'], fig1df1['Text']],
                                           }],
-                                   label="Reset",
+                                   label="Réinitialiser",
                                    method="restyle"
                                ),
                                dict(
                                    args=[{"error_y": [None, None, dict(type="data", array=fig1df2["CI Upper"]-fig1df2["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=fig1df1["CI Upper"]-fig1df1["Estimate"], color="#424242", thickness=1.5)],
                                           "text": [fig1df2['Text'], fig1df1['Text'], None, None],
                                           }],
-                                   label="Confidence Intervals",
+                                   label="Intervalles de confiance",
                                    method="restyle"
                                )
                            ]),
@@ -368,13 +368,13 @@ def forms_of_giving(dff, title):
                                   dict(
                                       args=[{"error_y": [None, None],
                                              "text": [None, dff['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_y": [None, dict(type="data", array=dff["CI Upper"]-dff["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff['Text'], None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -538,13 +538,13 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"]-dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -698,13 +698,13 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"]-dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -869,13 +869,13 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"]-dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),

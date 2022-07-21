@@ -188,14 +188,14 @@ def dist_total_donations(dff1, dff2, name1, name2, title):
                                        args=[{"error_y": [None, None, None, None],
                                               "text": [None, None, dff2['Text'], dff1['Text']],
                                               }],
-                                       label="Reset",
+                                       label="Réinitialiser",
                                        method="restyle"
                                    ),
                                    dict(
                                        args=[{"error_y": [None, None, dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff1["CI Upper"]-dff1["Estimate"], color="#424242", thickness=1.5)],
                                               "text": [dff2['Text'], dff1['Text'], None, None],
                                               }],
-                                       label="Confidence Intervals",
+                                       label="Intervalles de confiance",
                                        method="restyle"
                                    )
                                ]),
@@ -323,13 +323,13 @@ def vertical_percentage_graph(dff, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"]-dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -499,7 +499,7 @@ def triple_vertical_percentage_graph(dff, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None, None, None],
                                              "text": [None, None, None, dff1['Text'], dff2['Text'], dff3['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
@@ -507,7 +507,7 @@ def triple_vertical_percentage_graph(dff, title):
                                                          dict(type="data", array=dff2["CI Upper"]-dff2["Estimate"], color="#424242", thickness=1.5),
                                                          dict(type="data", array=dff3["CI Upper"]-dff3["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], dff3['Text'], None, None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),

@@ -63,13 +63,13 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
                                   dict(
                                       args=[{"error_x": [None, None],
                                              "text": [None, dff['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, dict(type="data", array=dff["CI Upper"] - dff["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff['Text'], None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -205,13 +205,13 @@ def vertical_dollar_graph(dff, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"] - dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"] - dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),
@@ -345,13 +345,13 @@ def vertical_percentage_graph(dff, title, name1, name2):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Reset",
+                                      label="Réinitialiser",
                                       method="restyle"
                                   ),
                                   dict(
                                       args=[{"error_x": [None, None, dict(type="data", array=dff1["CI Upper"] - dff1["Estimate"], color="#424242", thickness=1.5), dict(type="data", array=dff2["CI Upper"] - dff2["Estimate"], color="#424242", thickness=1.5)],
                                              "text": [dff1['Text'], dff2['Text'], None, None]}],
-                                      label="Confidence Intervals",
+                                      label="Intervalles de confiance",
                                       method="restyle"
                                   )
                               ]),

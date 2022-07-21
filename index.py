@@ -1,35 +1,7 @@
 from dash import dcc, html
 from dash.dependencies import Input, Output
 from app import app, server
-# from apps import *
-# from apps import (
-#     GAV0301, 
-    # WDA0101_fr, 
-    # HDC0102_fr,
-    # UTD0103_fr,
-    # WDC0105_fr,
-    # WDV0202_fr,
-    # WKC0106_fr,
-    # WTO0107_fr,
-    # WVA0201_fr,
-    # UTV0203_fr,
-#     test_layout,
-    # HOA0204_fr,
-    # WDC0205_fr,
-    # WKC0206_fr,
-    # WTO0207_fr,
-#     GAV0301,
-#     GAV0302,
-#     GAV0303,
-#     GAV0304,
-#     GAV0305,
-#     GAV0306,
-#     GAV0307,
-#     GAV0308,
-#     HDC0102_13,
-#     WDC0105_13
-# )
-# from apps import WTO0107_fr
+
 from apps import (
     Qui_donne_aux_organismes_caritatifs_et_combien_2018,
     Comment_donne_t_on_au_Canada_2018,
@@ -43,7 +15,8 @@ from apps import (
     Aide_autrui_et_amelioration_communautaire_2018,
     Pourquoi_fait_on_du_benevolat_2018,
     Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
-    A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018
+    A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
+    definition
     
 )
 import homepage
@@ -132,8 +105,11 @@ def display_page(pathname):
 #         return HDC0102_13.layout
 #     elif pathname == '/WDC0105_13':
 #         return WDC0105_13.layout
-#     else:
-#         return '404'
+    elif pathname == '/popup':
+        return definition.layout
+    else:
+        return '404'
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    app.run_server(debug=True, port=8070)

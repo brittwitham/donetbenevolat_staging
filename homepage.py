@@ -543,7 +543,8 @@ layout = html.Div([
                     html.Div(
                         html.Div(
                             html.H1("Des données pour propulser l'impact communautaire"),
-                            className='site-heading'
+                            # className='site-heading data-catalyst'
+                            className='data-catalyst'
                         ),
                         className="col-md-10 col-lg-8 mx-auto position-relative"
                     ),

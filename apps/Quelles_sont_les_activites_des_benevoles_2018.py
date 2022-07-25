@@ -45,7 +45,7 @@ navbar = dbc.NavbarSimple(
         ],
         brand="Don et Benevolat",
         brand_href="/",
-        color="#c7102e",
+        color="#4B161D",
         dark=True,
         sticky='top'
     )

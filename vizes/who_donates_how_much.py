@@ -416,7 +416,7 @@ app.layout = html.Div([
         ],
         brand="StatsCan Data Portal",
         brand_href="#",
-        color="#c7102e",
+        color="#4B161D",
         dark=True,
     ),
     html.Header([

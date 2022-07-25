@@ -32,7 +32,7 @@ navbar = dbc.NavbarSimple(
         children=[
             dbc.NavItem(
                 # dcc.Link("Home", href="/")
-                dbc.NavLink("Home", href="/",external_link=True)
+                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
                 dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_keeps_Canadians_from_volunteering_2018",external_link=True)

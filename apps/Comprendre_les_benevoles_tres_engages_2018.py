@@ -37,7 +37,7 @@ navbar = dbc.NavbarSimple(
                 dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Understanding_top_volunteers_2018",external_link=True)
             ),
         ],
-        brand="Don et Benevolat",
+        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
         brand_href="/",
         color="#4B161D",
         dark=True,

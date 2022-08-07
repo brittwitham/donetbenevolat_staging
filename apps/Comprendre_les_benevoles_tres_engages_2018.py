@@ -31,15 +31,15 @@ navbar = dbc.NavbarSimple(
         children=[
             dbc.NavItem(
                 # dcc.Link("Home", href="/")
-                dbc.NavLink("Home", href="/",external_link=True)
+                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
                 dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Understanding_top_volunteers_2018",external_link=True)
             ),
         ],
-        brand="Don et Benevolat",
+        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
         brand_href="/",
-        color="#c7102e",
+        color="#4B161D",
         dark=True,
         sticky='top'
     )

@@ -200,7 +200,7 @@ def don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                    dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                    dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
@@ -208,7 +208,7 @@ def don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
     elif markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                    dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                    dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig1.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.4, align="left", showarrow=False)])
@@ -371,7 +371,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
@@ -379,7 +379,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.22, x=1.2, align="left", showarrow=False)])
@@ -533,7 +533,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
@@ -541,7 +541,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.2, align="left", showarrow=False)])
@@ -701,7 +701,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
@@ -709,7 +709,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.2, align="left", showarrow=False)])
@@ -795,7 +795,7 @@ def forms_of_giving(dff, title):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                       dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
@@ -803,7 +803,7 @@ def forms_of_giving(dff, title):
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.23, x=1.4, align="left", showarrow=False)])
@@ -949,7 +949,7 @@ def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                    dict(text="*<i>A utiliser avec précaution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                    dict(text="*<i>A utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
@@ -957,7 +957,7 @@ def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
     elif markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                    dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                                    dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig1.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.4, align="left", showarrow=False)])

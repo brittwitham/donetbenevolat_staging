@@ -12,7 +12,7 @@ navbar = dbc.NavbarSimple(
                 dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/",external_link=True)
             ),
         ],
-        brand="Centre canadien de cconnaissances sur les dons et le bénévolat",
+        brand="Centre canadien de connaissances sur les dons et le bénévolat",
         brand_href="/",
         color="#4B161D",
         dark=True,

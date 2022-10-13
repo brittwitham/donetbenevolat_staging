@@ -41,7 +41,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien?",className='card-title'), href='/Qui_donne_aux_organismes_caritatifs_et_combien_2018'),
+                                dcc.Link(html.H4("QQui donne aux organismes caritatifs et combien?",className='card-title'), href='/Qui_donne_aux_organismes_caritatifs_et_combien_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("Plus de deux tiers des personnes au Canada donnent de l’argent aux organismes de bienfaisance et à but non lucratif et leur contribution se chiffre approximativement à 11,9 milliards $. Cette analyse montre comment les tendances des dons (probabilité de donner, montants caractéristiques, etc.) varient souvent selon le profil démographique des personnes.",className='card-text')
                             ]

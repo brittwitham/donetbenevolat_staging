@@ -302,118 +302,118 @@ content = dbc.Container(
             )
         ),
         html.Br(),
-        # html.Hr(),
-        # html.H2("Giving and Volunteering by Demographic"),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Health Organizations",className='card-title'), href='/GAV0301'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Religious Organizations",className='card-title'), href='/GAV0302'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Education and Research Organizations",className='card-title'), href='/GAV0303'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Social Services Organizations",className='card-title'), href='/GAV0304'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Arts, Culture and Rec Organizations",className='card-title'), href='/GAV0305'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
+        html.Hr(),
+        html.H2("Giving and Volunteering by Demographic"),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Giving and Volunteering for Health Organizations",className='card-title'), href='/GAV0301'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Giving and Volunteering for Religious Organizations",className='card-title'), href='/GAV0302'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Giving and Volunteering for Education and Research Organizations",className='card-title'), href='/GAV0303'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Giving and Volunteering for Social Services Organizations",className='card-title'), href='/GAV0304'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Giving and Volunteering for Arts, Culture and Rec Organizations",className='card-title'), href='/GAV0305'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
         # html.Br(),
         # dbc.Row(
         #     html.Div(
@@ -480,54 +480,54 @@ content = dbc.Container(
         #         className="col-md-10 col-lg-8"
         #     )
         # ),
-        # html.Br(),
-        # # html.Hr(),
-        # html.H2("2013 Data"),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("How Do Canadians Donate? (2013)",className='card-title'), href='/HDC01002_13'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Why Do Canadians Give? (2013)",className='card-title'), href='/WDC0105_13'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
+        html.Br(),
+        # html.Hr(),
+        html.H2("2013 Data"),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("How Do Canadians Donate? (2013)",className='card-title'), href='/HDC01002_13'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Why Do Canadians Give? (2013)",className='card-title'), href='/WDC0105_13'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
  
     ]
 )

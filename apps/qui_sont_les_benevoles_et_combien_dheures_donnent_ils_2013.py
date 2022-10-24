@@ -235,17 +235,17 @@ layout = html.Div([
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                         # Percentage of population & total volunteer hours by immigration status
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
-                        html.Div([
-                            html.Div(['Select status:',
-                                      dcc.Dropdown(
-                                          id='status-selection',
-                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
-                                          value='Labour force status',
-                                          style={'verticalAlign': 'middle'}
-                                      ),],
-                                     style={'width': '33%', 'display': 'inline-block'})
-                        ]),
-                        dcc.Graph(id='status-fig', style={'marginTop': marginTop})
+                        # html.Div([
+                        #     html.Div(['Select status:',
+                        #               dcc.Dropdown(
+                        #                   id='status-selection',
+                        #                   options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                        #                   value='Labour force status',
+                        #                   style={'verticalAlign': 'middle'}
+                        #               ),],
+                        #              style={'width': '33%', 'display': 'inline-block'})
+                        # ]),
+                        # dcc.Graph(id='status-fig', style={'marginTop': marginTop})
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
 

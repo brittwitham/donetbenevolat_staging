@@ -106,14 +106,14 @@ layout = html.Div([
             # Personal and economic characteristics
             html.Div(
                 [
-                    html.H3('Caractéristiques Personnelles et Économiques'),
+                    html.H3('Caractéristiques personnelles et économiques'),
                     html.P("""
                     Les activités bénévoles au Canada avaient tendance à varier selon les caractéristiques personnelles et économiques. Nous analysons ci-dessous comment la probabilité de faire du bénévolat variait, pour chaque type d’activité, selon les caractéristiques personnelles et économiques clés des bénévoles. Nous décrivons, là encore, des tendances générales au niveau national dans le texte, mais vous pourrez prendre connaissance des résultats régionaux en utilisant le menu déroulant lié aux visualisations de données.
                     """),
 
                     #Gender
                     html.Div([
-                        html.H3("Genre"),
+                        html.H5("Genre"),
                         html.P("""
                         À l’échelle nationale, pour autant que les différences entre les genres étaient statistiquement significatives, les femmes avaient plus tendance que les hommes à prendre part à la majorité des activités bénévoles. S’agissant des exceptions particulières à cette tendance générale, les hommes étaient plus enclins que les femmes à servir d’entraîneurs, d’arbitres ou de présidents de cérémonie, à exécuter des travaux d’entretien ou de réparation et à offrir des services de counseling ou des conseils.
                         """),
@@ -131,7 +131,7 @@ layout = html.Div([
                     ]),
                     # Formal Education
                     html.Div([
-                        html.H5("Éducation Formelle"),
+                        html.H5("Éducation formelle"),
                         html.P("""
                         La probabilité d’exercer quasiment toutes les activités bénévoles avait tendance à augmenter avec le niveau d’éducation formelle. La probabilité d’exercer le rôle d’entraîneur.euse, d’arbitre ou de président.e de cérémonie se démarquait quelque peu en n’augmentant pas avec le niveau d’éducation formelle chez les personnes non titulaires d’un diplôme universitaire, et, dans une certaine mesure, c’était également le cas pour la collecte de biens ou de nourriture et leur distribution.
                         """),
@@ -140,7 +140,7 @@ layout = html.Div([
                     ]),
                     # Marital Status
                     html.Div([
-                        html.H5("Situation Matrimoniale"),
+                        html.H5("Situation matrimoniale"),
                         html.P("""
                         Conformément à leur moindre probabilité de faire du bénévolat, les personnes veuves pratiquaient presque toutes les activités bénévoles moins souvent que les autres personnes, contrairement aux personnes célibataires et mariées ou en union de fait. Cette tendance était la plus prononcée pour des activités comme l’enseignement ou le mentorat ou celle de membre d’un conseil d’administration ou d’un comité, mais elle était quasiment universelle.
                         """),
@@ -159,7 +159,7 @@ layout = html.Div([
                     ]),
                     # Religious Attendance
                     html.Div([
-                        html.H5("Pratique Religieuse"),
+                        html.H5("Pratique religieuse"),
                         html.P("""
                         Tout comme pour le revenu du ménage, la probabilité de participer à presque toutes les activités bénévoles augmentait avec l’assiduité aux offices religieux. Les seules exceptions à cette tendance étaient les activités de porte-à-porte pour un organisme, d’entraîneur.euse ou de président.e de cérémonie, de premiers soins et de lutte contre les incendies, ainsi que de protection de l’environnement. Les personnes assistant chaque semaine aux offices religieux étaient à peu près aussi susceptibles de participer à ces activités que celles y assistant une fois par mois.
                         """),
@@ -168,7 +168,7 @@ layout = html.Div([
                     ]),
                     # Other Factors
                     html.Div([
-                        html.H5("Autres Facteurs"),
+                        html.H5("Autres facteurs"),
                         html.P("""
                         Comme les personnes non membres de la population active sont souvent plus âgées, elles étaient moins susceptibles de participer à la majorité des activités bénévoles. Du point de vue du statut d’immigration, les personnes nées au Canada avaient relativement plus tendance à exercer la majorité des activités bénévoles que les personnes nouvellement arrivées.
                         """),

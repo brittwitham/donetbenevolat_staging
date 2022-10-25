@@ -52,7 +52,7 @@ layout = html.Div([
                 dbc.Row(
                     html.Div(
                         html.Div([
-                            html.H1('Comment Donne-t-on au Canada? (2013)'),
+                            html.H1('Comment donne-t-on au Canada? (2013)'),
                             ],
                             className='post-heading'
                         ),

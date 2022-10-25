@@ -215,19 +215,14 @@ layout = html.Div([
                         # Percentage of population & total donation value by immigration status graph
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                         
-                        html.Div(['Select status:',
-                                      dcc.Dropdown(
-                                          id='status-selection1',
-                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
-                                          value='Marital status',
-                                          style={'verticalAlign': 'middle'}
-                                      ),],
+                        #html.Div(['Select status:',
+                                      #dcc.Dropdown(
+                                         # id='status-selection1',
+                                          #options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          #value='Marital status',
+                                          #style={'verticalAlign': 'middle'}
+                                     # ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
-                        html.Div([
-                            # html.H6("Donation rate & average donation amount by immigration status"),
-                            dcc.Graph(id='DonRateAvgDonAmt-other_13', style={'marginTop': marginTop}),
-                            html.P("Overall, those who were married or in a common-law relationship accounted to a significantly higher fraction of total donations than their numbers would suggest, as did New Canadians and, to a more modest extent, those who were employed."),
-                            html.Br(),
                         ]),
                         html.Div(['Select status:',
                                       dcc.Dropdown(
@@ -237,12 +232,12 @@ layout = html.Div([
                                           style={'verticalAlign': 'middle'}
                                       ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
-                        html.Div([
+                       # html.Div([
                             # html.H6("Percentage of donors & total donation value by immigration status"),
-                            dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),
-                            html.Br(),
+                           # dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),
+                           # html.Br(),
                             # html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
-                        ]),
+                       # ]),
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
 

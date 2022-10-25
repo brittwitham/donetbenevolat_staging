@@ -14,7 +14,7 @@ from utils.data.WTO0207_data_utils import get_data, process_data, get_region_nam
 from app import app
 from homepage import footer #navbar, footer
 
-####################### Data processing ######################
+####################### Data processing #####################
 BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = get_data()
 
 data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]

@@ -111,7 +111,7 @@ layout = html.Div([
             # Key personal & economic characteristics
             html.Div(
                 [
-                    html.H3('Caractéristiques Personnelles et Économiques Clés'),
+                    html.H3('Caractéristiques personnelles et économiques clés'),
                     html.P("""
                     En plus des variations provinciales, les tendances des dons fluctuaient également selon les caractéristiques personnelles et économiques. Nous examinons ci-dessous les deux mesures clés des dons: 
                     """),
@@ -158,7 +158,7 @@ layout = html.Div([
                     ]),
                     # Formal Education
                     html.Div([
-                        html.H5("Éducation Formelle"),
+                        html.H5("Éducation formelle"),
                         html.P("""
                         L’augmentation de la probabilité de donner allait de pair avec le niveau d’éducation formelle pour culminer chez les titulaires d’un diplôme postsecondaire. Les montants moyens des dons augmentaient également avec le niveau d’éducation formelle, les titulaires d’un diplôme universitaire donnant nettement plus que les personnes à l’éducation formelle moindre.
                         """),
@@ -188,7 +188,7 @@ layout = html.Div([
                     ]),
                     # Religious Attendance
                     html.Div([
-                        html.H5("Pratique Religieuse"),
+                        html.H5("Pratique religieuse"),
                         html.P("""
                         La probabilité de donner et les montants moyens des dons augmentaient avec la fréquence de la pratique religieuse. Bien que la valeur des dons des personnes assidues aux offices religieux bénéficiait majoritairement aux organisations religieuses, ce n’était pas exclusivement le cas. En effet, elles avaient aussi davantage tendance à donner à des organisations laïques et à leur donner des montants plus importants. 
                         """),
@@ -203,7 +203,7 @@ layout = html.Div([
                     ]),
                     # Other Personal & Economic Characteristics
                     html.Div([
-                        html.H5("Autres Caractéristiques Personnelles et Économiques "),
+                        html.H5("Autres caractéristiques personnelles et économiques "),
                         html.P("""
                         Les autres caractéristiques personnelles et économiques significatives sont la situation matrimoniale, la situation d’emploi et le statut d’immigration. D’une façon générale, les personnes mariées ou en union de fait ou veuves étaient plus susceptibles de donner, et ce, en montants supérieurs, de même que les salariés. Les personnes non membres de la population active avaient légèrement moins tendance à donner, mais étaient enclines à se montrer très généreuses quand elles le faisaient. Au chapitre du statut d’immigration, les personnes nouvellement arrivées au Canada donnaient tout aussi souvent que celles nées au Canada, mais le montant de leurs dons était souvent légèrement supérieur. 
                         """),

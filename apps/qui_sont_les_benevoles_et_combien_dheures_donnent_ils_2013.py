@@ -104,7 +104,7 @@ layout = html.Div([
             # Personal & Economic Characteristics
             html.Div(
                 [
-                    html.H3('Caractéristiques Personnelles et Économiques'),
+                    html.H3('Caractéristiques personnelles et économiques'),
                     html.P("""
                         En plus des variations selon le lieu de résidence, le bénévolat encadré avait également tendance à varier selon les caractéristiques personnelles et économiques des bénévoles. Nous examinons ci-dessous l’association entre certaines de ces caractéristiques et les mesures clés du bénévolat:
                     """),

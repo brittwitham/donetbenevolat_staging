@@ -11,6 +11,7 @@ import os.path as op
 from utils.graphs.WTO0207_graph_utils import rate_avg_cause, single_vertical_percentage_graph
 from utils.data.WTO0207_data_utils import get_data, process_data, get_region_names, get_region_values
 
+
 from app import app
 from homepage import footer #navbar, footer
 
@@ -20,7 +21,7 @@ BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = g
 data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]
 process_data(data)
 
-# region_values = get_region_values()
+region_values = get_region_values()
 # region_names = get_region_names()
 region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
@@ -104,7 +105,7 @@ layout = html.Div([
                     """
                     ),
                     # Donation rate & average donation amount by provincegraph
-                    dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
+                    # dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # Key personal & economic characteristics
@@ -223,28 +224,28 @@ layout = html.Div([
                         # Percentage of population & total donation value by immigration status graph
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                         
-                        html.Div(['Select status:',
-                                      dcc.Dropdown(
-                                          id='status-selection1',
-                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
-                                          value='Marital status',
-                                          style={'verticalAlign': 'middle'}
-                                      ),],
-                                     style={'width': '50%', 'display': 'inline-block'}),
+                        # html.Div(['Select status:',
+                        #               dcc.Dropdown(
+                        #                   id='status-selection1',
+                        #                   options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                        #                   value='Marital status',
+                        #                   style={'verticalAlign': 'middle'}
+                        #               ),],
+                        #              style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
                             # html.H6("Donation rate & average donation amount by immigration status"),
                             dcc.Graph(id='DonRateAvgDonAmt-other_13', style={'marginTop': marginTop}),
                             #html.P("Overall, those who were married or in a common-law relationship accounted to a significantly higher fraction of total donations than their numbers would suggest, as did New Canadians and, to a more modest extent, those who were employed."),
                             html.Br(),
                         ]),
-                        html.Div(['Select status:',
-                                      dcc.Dropdown(
-                                          id='status-selection2',
-                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
-                                          value='Marital status',
-                                          style={'verticalAlign': 'middle'}
-                                      ),],
-                                     style={'width': '50%', 'display': 'inline-block'}),
+                        # html.Div(['Select status:',
+                        #               dcc.Dropdown(
+                        #                   id='status-selection2',
+                        #                   options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                        #                   value='Marital status',
+                        #                   style={'verticalAlign': 'middle'}
+                        #               ),],
+                        #              style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
                             # html.H6("Percentage of donors & total donation value by immigration status"),
                             dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),

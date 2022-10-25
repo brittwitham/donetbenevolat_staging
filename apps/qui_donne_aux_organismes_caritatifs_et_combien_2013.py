@@ -97,7 +97,7 @@ layout = html.Div([
                     """
                     ),
                     # Forms of giving graph
-                    #dcc.Graph(id='FormsGiving', style={'marginTop': 20}),
+                    dcc.Graph(id='FormsGiving', style={'marginTop': 20}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -106,7 +106,7 @@ layout = html.Div([
                     """
                     ),
                     # Donation rate & average donation amount by provincegraph
-                    #dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
+                    dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # Key personal & economic characteristics
@@ -140,7 +140,7 @@ layout = html.Div([
                         En raison de leurs dons plus importants en moyenne, les hommes représentaient une proportion du total des dons supérieure à celle que leur nombre portait à croire. Bien qu’ils étaient légèrement minoritaires parmi les Canadiens, la valeur totale de leurs dons était légèrement majoritaire.
                         """),
                         #Percentage of population & total donation value by gender
-                        #dcc.Graph(id='PercDon-Gndrr', style={'marginTop': marginTop}),
+                        dcc.Graph(id='PercDon-Gndrr', style={'marginTop': marginTop}),
                     ]),
                     # Age
                     html.Div([
@@ -149,13 +149,13 @@ layout = html.Div([
                         La probabilité de donner était la plus faible chez les personnes de 15 à 24 ans, puis augmentait à un niveau relativement constant chez celles âgées de 35 ans et plus. La légère baisse apparente après l’âge de 65 ans n’était pas assez importante pour être statistiquement significative. Les montants moyens des contributions augmentaient jusqu’à l’âge d’environ 45 ans en étant plus ou moins uniformes chez les personnes plus âgées. Là encore, les différences entre ces groupes n’étaient pas statistiquement significatives, du moins au niveau national.
                         """),
                         # Donation rate & average donation amount by age
-                        #dcc.Graph(id='DonRateAvgDonAmt-Age_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='DonRateAvgDonAmt-Age_13', style={'marginTop': marginTop}),
                         
                         html.P("""
                         Étant donné leur plus forte tendance à donner et les montants habituellement supérieurs de leurs dons, les personnes âgées de 45 ans et plus représentaient une proportion de la valeur totale des dons supérieure à celle que leur représentation au sein de la population laissait présager. Au contraire, les personnes âgées de moins de 45 ans (et surtout celles de moins de 25 ans) représentaient des proportions de la valeur totale des dons très inférieures à leur représentation au sein de la population.
                         """),
                         # Percentage of population & total donation value by age
-                        #dcc.Graph(id='PercDon-Age_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='PercDon-Age_13', style={'marginTop': marginTop}),
                     ]),
                     # Formal Education
                     html.Div([
@@ -164,13 +164,13 @@ layout = html.Div([
                         L’augmentation de la probabilité de donner allait de pair avec le niveau d’éducation formelle pour culminer chez les titulaires d’un diplôme postsecondaire. Les montants moyens des dons augmentaient également avec le niveau d’éducation formelle, les titulaires d’un diplôme universitaire donnant nettement plus que les personnes à l’éducation formelle moindre.
                         """),
                         # Donation rate & average donation amount by gender
-                        #dcc.Graph(id='DonRateAvgDonAmt-Educ_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='DonRateAvgDonAmt-Educ_13', style={'marginTop': marginTop}),
                         
                         html.P("""
                         Principalement du fait de leur tendance à donner des montants supérieurs, les titulaires d’un diplôme universitaire représentaient une proportion de la totalité des dons très supérieure à celle que leur représentation au sein de la population donnait à penser. Les personnes à l’éducation formelle moindre représentaient une proportion très inférieure du total des dons, notamment celles non diplômées du palier secondaire. 
                         """),
                         #Percentage of population & total donation value by formal education
-                        #dcc.Graph(id='PercDon-Educ_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='PercDon-Educ_13', style={'marginTop': marginTop}),
                     ]),
                     # Income
                     html.Div([
@@ -179,13 +179,13 @@ layout = html.Div([
                         À seulement quelques divergences près, la probabilité de donner et les montants moyens augmentaient avec le revenu du ménage. Les ménages au revenu annuel égal ou supérieur à 140 000 $ donnaient souvent beaucoup plus que les ménages au revenu inférieur. 
                         """),
                         # Donation rate & average donation amount by household income graph
-                        #dcc.Graph(id='DonRateAvgDonAmt-Inc_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='DonRateAvgDonAmt-Inc_13', style={'marginTop': marginTop}),
                         
                         html.P("""
                         En raison de leurs dons souvent supérieurs, les ménages au revenu annuel égal ou supérieur à 140 000 $ représentaient un pourcentage de la totalité des dons très supérieur à celui que leur représentation au sein de la population pouvait laisser penser.
                         """),
                         #Percentage of population & total donation value by household income
-                        #dcc.Graph(id='PercDon-Inc_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='PercDon-Inc_13', style={'marginTop': marginTop}),
                     ]),
                     # Religious Attendance
                     html.Div([
@@ -194,13 +194,13 @@ layout = html.Div([
                         La probabilité de donner et les montants moyens des dons augmentaient avec la fréquence de la pratique religieuse. Bien que la valeur des dons des personnes assidues aux offices religieux bénéficiait majoritairement aux organisations religieuses, ce n’était pas exclusivement le cas. En effet, elles avaient aussi davantage tendance à donner à des organisations laïques et à leur donner des montants plus importants. 
                         """),
                         # Donation rate & average donation amount by religious attendance
-                        #dcc.Graph(id='DonRateAvgDonAmt-Relig_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='DonRateAvgDonAmt-Relig_13', style={'marginTop': marginTop}),
                         
                         html.P("""
                         Étant donné leur tendance plus forte à donner et, plus particulièrement, le montant moyen supérieur de leurs dons, les personnes assidues aux offices religieux, surtout celles qui y assistaient chaque semaine, représentaient des pourcentages disproportionnés du total des dons, compte tenu de leur représentation au sein de la population. Au contraire, celles qui n’assistaient pas ou qu’épisodiquement aux offices représentaient des pourcentages beaucoup plus petits du total des dons. 
                         """),
                         #Percentage of population & total donation value by religious attendance
-                        #dcc.Graph(id='PercDon-Relig_13', style={'marginTop': marginTop}),
+                        dcc.Graph(id='PercDon-Relig_13', style={'marginTop': marginTop}),
                     ]),
                     # Other Personal & Economic Characteristics
                     html.Div([
@@ -234,8 +234,8 @@ layout = html.Div([
                                       ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
-                            # html.H6("Donation rate & average donation amount by immigration status"),
-                            #dcc.Graph(id='DonRateAvgDonAmt-other_13', style={'marginTop': marginTop}),
+                            #html.H6("Donation rate & average donation amount by immigration status"),
+                            dcc.Graph(id='DonRateAvgDonAmt-other_13', style={'marginTop': marginTop}),
                             html.Br(),
                         ]),
                         html.Div(['Select status:',
@@ -247,10 +247,10 @@ layout = html.Div([
                                       ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
-                            # html.H6("Percentage of donors & total donation value by immigration status"),
+                            #html.H6("Percentage of donors & total donation value by immigration status"),
                             dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),
                             html.Br(),
-                            # html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
+                           # html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
                         ]),
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'

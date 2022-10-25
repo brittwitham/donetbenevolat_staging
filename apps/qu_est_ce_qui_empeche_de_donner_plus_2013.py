@@ -123,7 +123,7 @@ layout = html.Div([
             # Concerns about efficiency and effectiveness
             html.Div(
                 [
-                    html.H3('Préoccupations Concernant l’Efficience et l’Efficacité'),
+                    html.H3('Préoccupations concernant l’efficience et l’efficacité'),
                     html.P("""
                     Les personnes qui s’abstenaient de donner plus parce qu’elles craignaient que leurs contributions financières ne soient pas utilisées avec efficience ou efficacité ont été priées d’indiquer si un ou plusieurs de trois facteurs précis expliquaient leur préoccupation. Les personnes préoccupées par l’utilisation de leurs dons avaient plus tendance à s’inquiéter parce qu’elles n’avaient reçu aucune explication sur l’utilisation des dons supplémentaires. À l’échelle nationale, un peu moins de la moitié d’entre elles pensaient que les organismes consacraient trop de ressources financières aux collectes de fonds et environ deux sur cinq ne croyaient pas que les organismes qui les sollicitaient pouvaient démontrer leur incidence sur la cause ou la communauté. Environ une de ces personnes sur cinq se disait préoccupée par l’efficience pour une autre raison.
                     """),
@@ -132,7 +132,7 @@ layout = html.Div([
                     
                     # Dislike of solicitation methods
                     html.Div([
-                        html.H3("Aversion à L’égard des Méthodes de Sollicitation"),
+                        html.H3("Aversion à l’égard des méthodes de sollicitation"),
                         html.P("""
                         Les personnes qui s’abstenaient de donner plus par aversion à l’égard des méthodes de sollicitation ont été priées d’indiquer précisément ce qui leur déplaisait dans les sollicitations reçues. Le ton des sollicitations était de loin l’aspect qui leur déplaisait. Environ la moitié des d’entre elles n’aimaient pas recevoir plusieurs demandes de dons du même organisme et étaient tout aussi nombreuses à ne pas aimer le nombre de demandes qu’elles recevaient de différents organismes. Les personnes avaient relativement moins tendance à ne pas aimer les autres aspects des sollicitations, comme les méthodes employées pour prendre contact avec elles où l’heure à laquelle on les sollicitait, mais ces raisons étaient quand même citées par une personne sur vingt. Fait intéressant, environ un tiers des personnes qui éprouvaient de l’aversion pour leurs sollicitations l’expliquaient pour d’autres raisons que celles mentionnées expressément par le questionnaire de l’enquête.
                         """),
@@ -142,7 +142,7 @@ layout = html.Div([
                         
                     # Personal and economic characteristics
                     html.Div([
-                        html.H3("Caractéristiques Personnelles et Économiques"),
+                        html.H3("Caractéristiques personnelles et économiques"),
                         html.P("""
                         Toutes les personnes au Canada ne font pas face aux mêmes freins et n’y réagissent pas de la même façon. L’incidence de nombreux freins variait selon leurs caractéristiques personnelles et économiques. Nous analysons ci-dessous les variations des freins aux dons selon certains des facteurs démographiques les plus importants. Là encore, nous présentons dans le texte les résultats au niveau national, mais vous pourrez utiliser le menu déroulant pour passer en revue les résultats au niveau national.
                         """),
@@ -168,7 +168,7 @@ layout = html.Div([
                     ]),
                     # Formal Education
                     html.Div([
-                        html.H5("Éducation Formelle"),
+                        html.H5("Éducation formelle"),
                         html.P("""
                         La majorité des freins variaient relativement peu selon le niveau d’éducation formelle. Ne pas savoir où donner et avoir de la difficulté à trouver une cause digne d’être soutenue constituaient la tendance la plus nette, l’une et l’autre baissant de manière significative en fonction de l’augmentation du niveau d’éducation formelle. Les personnes au niveau d’éducation supérieur étaient également moins susceptibles de donner directement aux personnes dans le besoin au lieu de donner à un organisme, mais cette tendance était relativement moins prononcée. Vraisemblablement en raison du nombre de sollicitations qu’elles reçoivent, les personnes au niveau d’éducation supérieur avaient tendance à ne pas aimer la méthode employée pour solliciter leurs dons. Enfin, les personnes non titulaires d’un diplôme du palier secondaire et celles titulaires d’un diplôme universitaire étaient plus enclines, les unes comme les autres, à faire don de leur temps plutôt qu’à donner de l’argent.
                         """),
@@ -186,7 +186,7 @@ layout = html.Div([
                     ]),
                     # Immigration status
                     html.Div([
-                        html.H5("Statut d’Immigration"),
+                        html.H5("Statut d’immigration"),
                         html.P("""
                         Joindre efficacement les personnes naturalisées représentait clairement un défi pour les organismes. Ces personnes avaient plus tendance à limiter leurs dons parce qu’elles ne savaient pas où donner et parce qu’elles avaient de la difficulté à trouver une cause digne de leur soutien. Elles étaient également plus enclines à ne pas croire que les dons seraient utilisés efficacement et à ne pas aimer la méthode employée pour solliciter leurs dons.
                         """),
@@ -195,7 +195,7 @@ layout = html.Div([
                     ]),
                     # Other Factors
                     html.Div([
-                        html.H5("Autres Facteurs"),
+                        html.H5("Autres facteurs"),
                         html.P("""
                         La variation selon la situation matrimoniale et la situation d’emploi semblent principalement liées à l’âge. Par exemple, les célibataires (qui avaient tendance à être plus jeunes) étaient plus susceptibles de ne pas savoir où donner et d’avoir de la difficulté à trouver une cause digne de leur soutien, tandis que les personnes non membres de la population active (qui avaient tendance à être plus âgées) étaient plus enclines à être satisfaites des montants qu’elles avaient déjà donnés. Au chapitre de la pratique religieuse, les liens les plus nets avaient trait aux autres formes de soutien. Les personnes plus assidues avaient plus tendance à faire du bénévolat, de préférence à des dons d’argent, et à donner directement aux personnes dans le besoin, sans faire appel à un organisme. Les autres freins ne variaient pas systématiquement en fonction de la pratique religieuse.
                         """),

@@ -109,7 +109,7 @@ layout = html.Div([
             # Key personal & economic characteristics
             html.Div(
                 [
-                    html.H3('Caractéristiques Personnelles et Économiques'),
+                    html.H3('Caractéristiques personnelles et économiques'),
                     html.P("""
                     Les méthodes employées pour les personnes au Canada pour leurs dons et les montants qu’elles avaient tendance à donner variaient selon leurs caractéristiques personnelles et économiques. Nous montrons ci-dessous les variations de la probabilité de donner et du montant moyen donné selon des caractéristiques clés, dont le genre, l’âge, le niveau d’éducation formelle, le revenu du ménage et l’assiduité aux offices religieux. Nous décrivons, là encore, des tendances générales au niveau national dans le texte, mais vous pouvez prendre connaissance des résultats régionaux en utilisant le menu déroulant.
                     """
@@ -137,7 +137,7 @@ layout = html.Div([
                     ]),
                     # Formal Education
                     html.Div([
-                        html.H5("Éducation Formelle"),
+                        html.H5("Éducation formelle"),
                         html.P("""
                         Pratiquement sans exception, la probabilité de donner par n’importe quelle méthode augmentait avec le niveau d’éducation formelle. En règle générale, le montant moyen des dons avait également tendance à augmenter avec le niveau d’études, bien que cette tendance était légèrement moins uniforme que celle de la probabilité de donner.
                         """),
@@ -155,7 +155,7 @@ layout = html.Div([
                     ]),
                     # Religious Attendance
                     html.Div([
-                        html.H5("Pratique Religieuse"),
+                        html.H5("Pratique religieuse"),
                         html.P("""
                         Dans le cadre de la majorité des méthodes de don, la probabilité de donner était légèrement supérieure chez les personnes assistant aux offices religieux au moins deux fois par an. Le montant moyen des dons par certaines méthodes était également supérieur chez les personnes qui y assistent plus fréquemment, mais cette tendance était beaucoup moins uniforme que la tendance de donner. C’est le don à un lieu de culte dont l’association avec la fréquence de la pratique religieuse était la plus forte et la plus nette; la probabilité de donner et les montants moyens des dons augmentaient avec l’assiduité aux offices religieux.
                         """),

@@ -128,7 +128,7 @@ layout = html.Div([
                 
                     # Gender
                     html.Div([
-                        html.H4("Genre"),
+                        html.H5("Genre"),
                         html.P("""
                         Au niveau national, les femmes étaient relativement plus enclines à donner que les hommes, mais avaient tendance à donner des montants plutôt inférieurs.
                         """),

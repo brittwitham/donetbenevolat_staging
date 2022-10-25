@@ -222,7 +222,7 @@ layout = html.Div([
                                           #value='Marital status',
                                           #style={'verticalAlign': 'middle'}
                                      # ),],
-                                     style={'width': '50%', 'display': 'inline-block'}),
+                                     #style={'width': '50%', 'display': 'inline-block'}),
                         ]),
                         html.Div(['Select status:',
                                       dcc.Dropdown(
@@ -231,7 +231,7 @@ layout = html.Div([
                                           value='Marital status',
                                           style={'verticalAlign': 'middle'}
                                       ),],
-                                     style={'width': '50%', 'display': 'inline-block'}),
+                                     #style={'width': '50%', 'display': 'inline-block'}),
                        # html.Div([
                             # html.H6("Percentage of donors & total donation value by immigration status"),
                            # dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),

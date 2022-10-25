@@ -51,7 +51,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1('qui donne aux organismes caritatifs et combien - 2013'),
+                        html.H1('Qui donne aux organismes caritatifs et combien? (2013)'),
                         ],
                         className='post-heading'
                     ),

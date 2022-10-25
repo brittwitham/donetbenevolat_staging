@@ -1,47 +1,45 @@
 import dash
 from dash import dcc, html
-import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-# from plotly.subplots import make_subplots
+import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output, State, ClientsideFunction
+import os
+import os.path as op
 
-from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_avg_don, perc_don_perc_amt, prim_cause_num_cause, forms_of_giving
-from utils.data.WDA0101_data_utils_13 import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values
+from utils.graphs.WTO0207_graph_utils import rate_avg_cause, single_vertical_percentage_graph
+from utils.data.WTO0207_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import footer, navbar
+from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
+BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = get_data()
 
-[DonRates_2018, AvgTotDon_2018, AvgNumCauses_2018, FormsGiving_2018, TopCauseFocus_2018, PropTotDon_2018, PropTotDonAmt_2018] = get_data()
-data = [DonRates_2018, AvgTotDon_2018, FormsGiving_2018, TopCauseFocus_2018, PropTotDon_2018, PropTotDonAmt_2018]
-data_num = [AvgNumCauses_2018]
-values = ["Use with caution", "Estimate suppressed", ""]
-status_names = ["Marital status", 'Labour force status', "Immigration status"]
-
+data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]
 process_data(data)
-process_data_num(data_num)
 
-# Extract info from data for selection menus
-region_values = get_region_values()
-region_names = get_region_names()
-
-
-# ActivityVolRate_2018, AvgHoursVol_2018 = get_data()
-# data = [ActivityVolRate_2018, AvgHoursVol_2018]
-# process_data(data)
-
-# # Extract info from data for selection menus
 # region_values = get_region_values()
 # region_names = get_region_names()
-# activity_names = ActivityVolRate_2018.QuestionText.unique()
-
-# status_names = ['Labour force status', 'Immigration status']
-
+region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
+navbar = dbc.NavbarSimple(
+        children=[
+            dbc.NavItem(
+                # dcc.Link("Home", href="/")
+                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
+            ),
+            dbc.NavItem(
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_types_of_organizations_do_Canadians_volunteer_for_2018",external_link=True)
+            ),
+        ],
+        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
+        brand_href="/",
+        color="#4B161D",
+        dark=True,
+        sticky='top'
+    )
 
 marginTop = 20
 
@@ -114,7 +112,7 @@ layout = html.Div([
                 [
                     html.H3('Caractéristiques Personnelles et Économiques Clés'),
                     html.P("""
-                    En plus des variations provinciales, les tendances des dons fluctuaient également selon les caractéristiques personnelles et économiques. Nous examinons ci-dessous les deux mesures clés des dons:
+                    En plus des variations provinciales, les tendances des dons fluctuaient également selon les caractéristiques personnelles et économiques. Nous examinons ci-dessous les deux mesures clés des dons: 
                     """),
                     html.Ul([
                         html.Li('la probabilité de donner et le montant moyen des contributions, '),
@@ -134,7 +132,7 @@ layout = html.Div([
                         Au niveau national, les femmes étaient relativement plus enclines à donner que les hommes, mais avaient tendance à donner des montants plutôt inférieurs.
                         """),
                         # Donation rate & average donation amount by gender graph
-                        #dcc.Graph(id='DonRateAvgDonAmt-Gndrr', style={'marginTop': marginTop}),
+                        dcc.Graph(id='DonRateAvgDonAmt-Gndrr', style={'marginTop': marginTop}),
                         
                         html.P("""
                         En raison de leurs dons plus importants en moyenne, les hommes représentaient une proportion du total des dons supérieure à celle que leur nombre portait à croire. Bien qu’ils étaient légèrement minoritaires parmi les Canadiens, la valeur totale de leurs dons était légèrement majoritaire.
@@ -234,8 +232,9 @@ layout = html.Div([
                                       ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
-                            #html.H6("Donation rate & average donation amount by immigration status"),
+                            # html.H6("Donation rate & average donation amount by immigration status"),
                             dcc.Graph(id='DonRateAvgDonAmt-other_13', style={'marginTop': marginTop}),
+                            #html.P("Overall, those who were married or in a common-law relationship accounted to a significantly higher fraction of total donations than their numbers would suggest, as did New Canadians and, to a more modest extent, those who were employed."),
                             html.Br(),
                         ]),
                         html.Div(['Select status:',
@@ -247,10 +246,10 @@ layout = html.Div([
                                       ),],
                                      style={'width': '50%', 'display': 'inline-block'}),
                         html.Div([
-                            #html.H6("Percentage of donors & total donation value by immigration status"),
+                            # html.H6("Percentage of donors & total donation value by immigration status"),
                             dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),
                             html.Br(),
-                           # html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
+                            # html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
                         ]),
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -261,550 +260,43 @@ layout = html.Div([
 footer
 ]) 
 
-# # ###################### CALLBACKS ######################
-# @app.callback(
-#     dash.dependencies.Output('ActivitiesVolRateAvgHrs', 'figure'),
-#     [
 
+################## CALLBACKS ##################
+
+# @app.callback(
+
+#     dash.dependencies.Output('DonRateAvgDonAmt-Cause-2', 'figure'),
+#     [
 #         dash.dependencies.Input('region-selection', 'value')
 #     ])
 # def update_graph(region):
 
-#     dff1 = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
+#     dff1 = SubSecVolRates_2018[SubSecVolRates_2018['Region'] == region]
 #     dff1 = dff1[dff1['Group'] == "All"]
-#     name1 = "Volunteer rate"
+#     dff1 = dff1.replace("Volunteer rate", "Taux de bénévolat")
+#     # name1 = "Volunteer rate"
+#     name1 = "Taux de bénévolat"
 
-#     dff2 = AvgHoursVol_2018[AvgHoursVol_2018['Region'] == region]
+#     dff2 = SubSecAvgHrs_2018[SubSecAvgHrs_2018['Region'] == region]
 #     dff2 = dff2[dff2['Group'] == "All"]
-#     name2 = "Average hours"
+#     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
+#     # name2 = "Average hours"
+#     name2 = "Nombre d'heures moyen"
 
-#     title = '{}, {}'.format("Volunteer rate & average hours contributed by activity", region)
+#     title = '{}, {}'.format("Niveaux de soutien par cause", region)
 
-#     return vol_rate_avg_hrs_qt(dff1, dff2, name1, name2, title)
-
-
-# @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-Gndr', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Gender"]
-
-#     title = '{}, {}'.format(str(activity) + " by gender", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-Age', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Age group"]
-
-#     title = '{}, {}'.format(str(activity) + " by age", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-Educ', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Education"]
-
-#     title = '{}, {}'.format(str(activity) + " by formal education", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-MarStat', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Marital status"]
-
-#     title = '{}, {}'.format(str(activity) + " by marital status", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-Inc', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Family income category"]
-
-#     title = '{}, {}'.format(str(activity) + " by household income", region)
-#     return single_vertical_percentage_graph(dff, title)
+#     return rate_avg_cause(dff1, dff2, name1, name2, title, vol=True)
 
 
 # @app.callback(
-#     dash.dependencies.Output('ActivityVolRate-Relig', 'figure'),
+
+#     dash.dependencies.Output('AllocationSupport-Cause-2', 'figure'),
 #     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value')
-#     ])
-# def update_graph(region, activity):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == "Frequency of religious attendance"]
-
-#     title = '{}, {}'.format(str(activity) + " by religious attendance", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-
-# @app.callback(
-#     dash.dependencies.Output('status-fig', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('activity-selection', 'value'),
-#         dash.dependencies.Input('status-selection', 'value')
-
-#     ])
-# def update_graph(region, activity, status):
-#     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
-#     dff = dff[dff['QuestionText'] == activity]
-#     dff = dff[dff['Group'] == status]
-
-#     title = '{}, {}'.format(str(activity) + " by " + str(status).lower(), region)
-#     return single_vertical_percentage_graph(dff, title)
-
-
-# @app.callback(
-#     # Output: change to graph-1
-#     dash.dependencies.Output('FormsGivingg', 'figure'),
-#     [
-#         # Input: selected region from region-selection (dropdown menu)
-#         # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
 #         dash.dependencies.Input('region-selection', 'value')
 #     ])
 # def update_graph(region):
-#     """
-#     Construct or update graph according to input from 'region-selection' dropdown menu.
 
-#     :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-#     :return: Plot.ly graph object, produced by don_rate_avg_don().
-#     """
-#     # Donation rate data, filtered for selected region and demographic group (age group)
-#     # Corresponding name assigned
-#     dff1 = FormsGiving_2018[FormsGiving_2018['Region'] == region]
-#     dff1 = dff1[dff1['Group'] == "All"]
+#     dff = AllocationVol_2018[AllocationVol_2018['Region'] == region]
+#     title = '{}, {}'.format("Répartition du soutien par cause", region)
 
-#     # Format title according to dropdown input
-#     title = '{}, {}'.format("Forms of giving", region)
-
-#     # Uses external function with dataframes, names, and title set up above
-#     return forms_of_giving(dff1, title)
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-Gndrr', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Gender"]
-    name1 = "Proportion of donors"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Gender"]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by gender", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-
-@app.callback(
-    # Output: change to graph-1
-    dash.dependencies.Output('DonRateAvgDonAmt-Gndrr', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-    Construct or update graph according to input from 'region-selection' dropdown menu.
-
-    :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-    :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-    # Donation rate data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Sex"]
-    name1 = "Donation rate"
-
-    # Average annual donation data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Sex"]
-    name2 = "Average annual donations"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Donation rate and average annual donation by gender", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-
-
-@app.callback(
-    dash.dependencies.Output('DonRateAvgDonAmt-Age_13', 'figure'),
-    [dash.dependencies.Input('region-selection', 'value')])
-def update_graph(region):
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
-    name1 = "Donation rate"
-
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
-    name2 = "Average annual donations"
-
-    # title = 'Region selected: {}'.format(region)
-    title = '{}, {}'.format("Donation rate and average annual donation by age group", region)
-
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-Age_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-
-def update_graph(region):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Age group"]
-    name1 = "Percentage of population"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Age group"]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by age", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-
-
-@app.callback(
-    # Output: change to graph-1
-    dash.dependencies.Output('DonRateAvgDonAmt-Educ_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-    Construct or update graph according to input from 'region-selection' dropdown menu.
-
-    :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-    :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-    # Donation rate data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
-    name1 = "Donation rate"
-
-    # Average annual donation data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
-    name2 = "Average annual donations"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Donation rate and average annual donation by education", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-Educ_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Education"]
-    name1 = "Percentage of population"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Education"]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by education", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-1
-    dash.dependencies.Output('DonRateAvgDonAmt-Inc_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-    Construct or update graph according to input from 'region-selection' dropdown menu.
-
-    :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-    :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-    # Donation rate data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Family income category"]
-    name1 = "Donation rate"
-
-    # Average annual donation data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Family income category"]
-    name2 = "Average annual donations"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Donation rate and average annual donation by income", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-Inc_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Family income category"]
-    name1 = "Percentage of population"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Family income category"]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by income", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-1
-    dash.dependencies.Output('DonRateAvgDonAmt-Relig_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-    Construct or update graph according to input from 'region-selection' dropdown menu.
-
-    :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-    :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-    # Donation rate data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
-    name1 = "Donation rate"
-
-    # Average annual donation data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
-    name2 = "Average annual donations"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Donation rate and average annual donation by religious attendance", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-Relig_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "Frequency of religious attendance"]
-    name1 = "Percentage of population"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "Frequency of religious attendance"]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by religious attendance", region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-2
-    dash.dependencies.Output('PercDon-other_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('status-selection2', 'value')
-    ])
-def update_graph(region, status):
-    """
-        Construct or update graph according to input from 'region-selection' dropdown menu.
-
-        :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-        :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-
-    # Donation rate data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff1 = PropTotDon_2018[PropTotDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == status]
-    name1 = "Percentage of population"
-
-    # Average annual donation data, filtered for selected region and demographic group (education)
-    # Corresponding name assigned
-    dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == status]
-    name2 = "Percentage of donation value"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Percentage of Canadians & total donation value by "  + str(status).lower(), region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
-@app.callback(
-    # Output: change to graph-1
-    dash.dependencies.Output('DonRateAvgDonAmt-other_13', 'figure'),
-    [
-        # Input: selected region from region-selection (dropdown menu)
-        # In the case of multiple inputs listed here, they will enter as arguments into the function below in the order they are listed
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('status-selection1', 'value')
-    ])
-def update_graph(region, status):
-    """
-    Construct or update graph according to input from 'region-selection' dropdown menu.
-
-    :param region: Region name (str). Automatically inherited from 'region-selection' dcc.Dropdown() input via dash.dependencies.Input('region-selection', 'value') above.
-    :return: Plot.ly graph object, produced by don_rate_avg_don().
-    """
-    # Donation rate data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff1 = DonRates_2018[DonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == status]
-    name1 = "Donation rate"
-
-    # Average annual donation data, filtered for selected region and demographic group (age group)
-    # Corresponding name assigned
-    dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == status]
-    name2 = "Average annual donations"
-
-    # Format title according to dropdown input
-    title = '{}, {}'.format("Donation rate and average annual donation by " + str(status).lower(), region)
-
-    # Uses external function with dataframes, names, and title set up above
-    return don_rate_avg_don(dff1, dff2, name1, name2, title)
+#     return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)

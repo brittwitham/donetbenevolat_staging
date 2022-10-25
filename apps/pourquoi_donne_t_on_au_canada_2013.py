@@ -118,7 +118,7 @@ layout = html.Div([
             # Key personal & economic characteristics
             html.Div(
                 [
-                    html.H3('Caractéristiques Personnelles et Économiques'),
+                    html.H3('Caractéristiques personnelles et économiques'),
                     html.P("""
                     Bien que les motivations des dons soient fréquemment très personnelles, elles ont également tendance à varier selon leurs caractéristiques personnelles et économiques. Nous analysons ci-dessous les variations des motivations des dons en fonction de certains des facteurs démographiques les plus importants.
                     """
@@ -145,7 +145,7 @@ layout = html.Div([
                     ]),
                     # Formal Education
                     html.Div([
-                        html.H5("Éducation Formelle"),
+                        html.H5("Éducation formelle"),
                         html.P("""
                         La probabilité de faire état de la majorité des motivations augmentait avec le niveau d’éducation formelle. Les seules exceptions à cette tendance, du moins au niveau national, étaient les obligations et les convictions religieuses (qui avaient tendance à être importantes à la fois pour les personnes au niveau d’éducation formelle très élevé et très bas) et les sentiments de compassion envers les personnes dans le besoin (qui avaient fortement tendance à être constants, indépendamment du niveau d’éducation formelle). 
                         """),
@@ -172,7 +172,7 @@ layout = html.Div([
                     ]),
                     # Other Factors
                     html.Div([
-                        html.H5("Autres Facteurs"),
+                        html.H5("Autres facteurs"),
                         html.P("""
                        En ce qui concerne les autres caractéristiques, la majorité des motivations variaient très peu en fonction de la situation d’emploi. Les principales exceptions étaient les dons à la suite de la demande par une connaissance, nettement moins importants pour les personnes qui n’appartenaient pas à la population active (tendance vraisemblablement liée aux dons en milieu de travail), et les motivations religieuses, nettement plus importantes pour les personnes qui n’appartenaient pas à la population active (vraisemblablement plus âgées et à la retraite). Une tendance similaire se constate pour la situation matrimoniale, les associations des personnes veuves et des dons étant identiques à celles des personnes non membres de la population active, en plus de la motivation supérieure des personnes veuves par les crédits d’impôt. Au chapitre du statut d’immigration, les personnes naturalisées étaient nettement plus motivées à donner en raison de leurs croyances religieuses et légèrement plus susceptibles d’être motivées par la plupart des autres croyances. La seule motivation significativement plus importante chez les personnes nées au Canada était le fait d’être personnellement touchées par la cause de l’organisme ou de connaître une personne qui l’était, ce qui dénote peut-être le temps nécessaire pour établir des liens sociaux solides dans un nouveau pays.
                         """),
@@ -185,7 +185,7 @@ layout = html.Div([
                     ]),
                     #Causes Supported
                     html.Div([
-                        html.H5("Causes Soutenues"),
+                        html.H5("Causes soutenues"),
                         html.P("""
                         Bien que l’ESG DBP de 2013 ne recueillait pas directement de l’information sur les motivations du soutien de causes précises, la comparaison des motivations générales des personnes qui soutenaient une cause particulière et de celles qui ne la soutenaient pas peut expliquer ce qui a motivé le soutien de certaines causes. Pour la majorité des motivations et des causes, les personnes qui soutenaient une cause particulière étaient également plus susceptibles de faire état d’une motivation particulière que celles qui s’en abstenaient. En effet, tout bien considéré, les personnes qui soutenaient une cause donnée avaient plus tendance à soutenir de multiples causes et à donner des montants plus importants. Les motivations pouvaient constituer des facteurs significatifs quand le nombre de personnes de chacune de ces deux catégories était inhabituellement élevé ou quand les personnes qui soutenaient une cause étaient moins susceptibles de faire état d’une motivation particulière que celles qui s’en abstenaient.
                         """),

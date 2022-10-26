@@ -8,62 +8,60 @@ def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
-    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
-    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates.csv")))
-    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs.csv")))
-    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates.csv")))
-    HealthDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthDonorsBarriers.csv")))
-    HealthDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthDonorsDonMeth.csv")))
-    HealthDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthDonorsDonRates.csv")))
-    HealthDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthDonorsMotivations.csv")))
-    HealthVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthVolsActivities.csv")))
-    HealthVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthVolsBarriers.csv")))
-    HealthVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthVolsReasons.csv")))
-    HealthVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-HealthVolsVolRates.csv")))
+    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
+    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
+    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs_FR.csv")))
+    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates_FR.csv")))
+    ReligionDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionDonorsBarriers_FR.csv")))
+    ReligionDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionDonorsDonMeth_FR.csv")))
+    ReligionDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionDonorsDonRates_FR.csv")))
+    ReligionDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionDonorsMotivations_FR.csv")))
+    ReligionVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionVolsActivities_FR.csv")))
+    ReligionVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionVolsBarriers_FR.csv")))
+    ReligionVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionVolsReasons_FR.csv")))
+    ReligionVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-ReligionVolsVolRates_FR.csv")))
 
     SubSecDonRates_2018['Estimate'] = SubSecDonRates_2018['Estimate']*100
     SubSecDonRates_2018['CI Upper'] = SubSecDonRates_2018['CI Upper']*100
     SubSecVolRates_2018['Estimate'] = SubSecVolRates_2018['Estimate']*100
     SubSecVolRates_2018['CI Upper'] = SubSecVolRates_2018['CI Upper']*100
-    HealthDonorsBarriers_2018['Estimate'] = HealthDonorsBarriers_2018['Estimate']*100
-    HealthDonorsBarriers_2018['CI Upper'] = HealthDonorsBarriers_2018['CI Upper']*100
-    HealthDonorsDonMeth_2018['Estimate'] = HealthDonorsDonMeth_2018['Estimate']*100
-    HealthDonorsDonMeth_2018['CI Upper'] = HealthDonorsDonMeth_2018['CI Upper']*100
-    HealthDonorsDonRates_2018['Estimate'] = HealthDonorsDonRates_2018['Estimate']*100
-    HealthDonorsDonRates_2018['CI Upper'] = HealthDonorsDonRates_2018['CI Upper']*100
-    HealthDonorsMotivations_2018['Estimate'] = HealthDonorsMotivations_2018['Estimate']*100
-    HealthDonorsMotivations_2018['CI Upper'] = HealthDonorsMotivations_2018['CI Upper']*100
-    HealthVolsActivities_2018['Estimate'] = HealthVolsActivities_2018['Estimate']*100
-    HealthVolsActivities_2018['CI Upper'] = HealthVolsActivities_2018['CI Upper']*100
-    HealthVolsBarriers_2018['Estimate'] = HealthVolsBarriers_2018['Estimate']*100
-    HealthVolsBarriers_2018['CI Upper'] = HealthVolsBarriers_2018['CI Upper']*100
-    HealthVolsMotivations_2018['Estimate'] = HealthVolsMotivations_2018['Estimate']*100
-    HealthVolsMotivations_2018['CI Upper'] = HealthVolsMotivations_2018['CI Upper']*100
-    HealthVolsVolRates_2018['Estimate'] = HealthVolsVolRates_2018['Estimate']*100
-    HealthVolsVolRates_2018['CI Upper'] = HealthVolsVolRates_2018['CI Upper']*100
+    ReligionDonorsBarriers_2018['Estimate'] = ReligionDonorsBarriers_2018['Estimate']*100
+    ReligionDonorsBarriers_2018['CI Upper'] = ReligionDonorsBarriers_2018['CI Upper']*100
+    ReligionDonorsDonMeth_2018['Estimate'] = ReligionDonorsDonMeth_2018['Estimate']*100
+    ReligionDonorsDonMeth_2018['CI Upper'] = ReligionDonorsDonMeth_2018['CI Upper']*100
+    ReligionDonorsDonRates_2018['Estimate'] = ReligionDonorsDonRates_2018['Estimate']*100
+    ReligionDonorsDonRates_2018['CI Upper'] = ReligionDonorsDonRates_2018['CI Upper']*100
+    ReligionDonorsMotivations_2018['Estimate'] = ReligionDonorsMotivations_2018['Estimate']*100
+    ReligionDonorsMotivations_2018['CI Upper'] = ReligionDonorsMotivations_2018['CI Upper']*100
+    ReligionVolsActivities_2018['Estimate'] = ReligionVolsActivities_2018['Estimate']*100
+    ReligionVolsActivities_2018['CI Upper'] = ReligionVolsActivities_2018['CI Upper']*100
+    ReligionVolsBarriers_2018['Estimate'] = ReligionVolsBarriers_2018['Estimate']*100
+    ReligionVolsBarriers_2018['CI Upper'] = ReligionVolsBarriers_2018['CI Upper']*100
+    ReligionVolsMotivations_2018['Estimate'] = ReligionVolsMotivations_2018['Estimate']*100
+    ReligionVolsMotivations_2018['CI Upper'] = ReligionVolsMotivations_2018['CI Upper']*100
+    ReligionVolsVolRates_2018['Estimate'] = ReligionVolsVolRates_2018['Estimate']*100
+    ReligionVolsVolRates_2018['CI Upper'] = ReligionVolsVolRates_2018['CI Upper']*100
 
-    return SubSecAvgDon_2018,SubSecDonRates_2018 ,SubSecAvgHrs_2018 ,SubSecVolRates_2018 ,HealthDonorsBarriers_2018 ,HealthDonorsDonMeth_2018 ,HealthDonorsDonRates_2018 ,HealthDonorsMotivations_2018 ,HealthVolsActivities_2018 ,HealthVolsBarriers_2018,HealthVolsMotivations_2018 ,HealthVolsVolRates_2018 
+    return SubSecAvgDon_2018,SubSecDonRates_2018 ,SubSecAvgHrs_2018 ,SubSecVolRates_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018
 
 def process_data(data):
     for i in range(len(data)):
-        # Suppress Estimate and CI Upper where necessary (for visualizations and error bars)
+    # Suppress Estimate and CI Upper where necessary (for visualizations and error bars)
         data[i]["Estimate"] = np.where(data[i]["Marker"]=="...", 0, data[i]["Estimate"])
         data[i]["CI Upper"] = np.where(data[i]["Marker"]=="...", 0, data[i]["CI Upper"])
 
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
+        data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
         data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
-        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Health<br>volunteer", "Health volunteer", data[i]["Attribute"])
-        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Health<br>donors", "Health donors", data[i]["Attribute"])
-        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>volunteer", "Non-health volunteer", data[i]["Attribute"])
-        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donors", "Non-health donors", data[i]["Attribute"])
-        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donor", "Non-health donor", data[i]["Attribute"])
-
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15)
-        data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Religion<br>volunteer", "Religion volunteer", data[i]["Attribute"])
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-religion<br>volunteer", "Non-religion volunteer", data[i]["Attribute"])
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-religion<br>donors", "Non-religion donors", data[i]["Attribute"])
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-religion<br>donor", "Non-religion donor", data[i]["Attribute"])
 
         # Round rates and dollar amounts to zero decimal places
         data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)

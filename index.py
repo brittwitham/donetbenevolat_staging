@@ -19,6 +19,7 @@ from apps import (
     definition,
     GAV0301_fr,
     GAV0302_fr,
+    GAV0303_fr,
     
     
 )
@@ -92,8 +93,8 @@ def display_page(pathname):
         return GAV0301_fr.layout
     elif pathname == '/don_benevolat_pour_organismes_religieux':
         return GAV0302_fr.layout
-#     elif pathname == '/GAV0303':
-#         return GAV0303.layout
+    elif pathname == '/don_et_benevolat_les_organismes_education':
+        return GAV0303_fr.layout
 #     elif pathname == '/GAV0304':
 #         return GAV0304.layout
 #     elif pathname == '/GAV0305':

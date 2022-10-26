@@ -20,7 +20,7 @@ BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = g
 data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]
 process_data(data)
 
-# region_values = get_region_values()
+region_values = get_region_values()
 # region_names = get_region_names()
 region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
@@ -97,7 +97,7 @@ layout = html.Div([
                     dcc.Markdown("""
                     Nous analysons ci-dessous les tendances des dons et du bénévolat au bénéfice de ces organismes. Nous décrivons dans le texte ci-dessous les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
                     """),
-                    html.H3('Montants des dons')
+                    html.H3('Montants des dons'),
                     dcc.Markdown("""
                     À l’échelle nationale, une personne sur quatre au Canada a fait au moins un don à un organisme religieux pendant la période d’une année qui a précédé l’Enquête, ce qui place la religion au troisième rang des causes les plus soutenues au Canada. Le classement des organismes religieux sur le plan des montants donnés était largement supérieur, en représentant près de la moitié de la valeur totale (46 %) des dons, plus que toutes les autres causes. Quant au montant moyen des dons, les donateur.trice.s aux organismes religieux donnaient des montants très supérieurs aux montants des dons au bénéfice des autres causes, ce qui en fait, et de loin, les partisan.e.s les plus engagé.e.s. 
                     """),        
@@ -106,20 +106,20 @@ layout = html.Div([
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                    html.H3('Qui donne de l’argent')
+                    html.H3('Qui donne de l’argent'),
                     dcc.Markdown("""
                     Certaines personnes sont plus enclines que d’autres à donner aux organismes religieux. À l’échelle nationale, la probabilité de donner à ces organismes augmente de manière significative avec l’assiduité aux offices religieux et avec l’âge. Les autres groupes plus enclins à donner aux organismes religieux sont les femmes, les veuves et les veufs, les personnes non membres de la population active, celles titulaires d’un diplôme universitaire et celles qui sont nouvellement arrivées au Canada. 
                     """
                     ),
                     # Donation rate by key demographic characteristics graph
                     # dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
-                    html.H3('Méthodes de dons')
+                    html.H3('Méthodes de dons'),
                     dcc.Markdown("""
                     On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes religieux et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, comme on pouvait s’y attendre, ces personnes sont largement plus susceptibles de donner dans un lieu de culte, mais aussi plus susceptibles de donner en mémoire de quelqu’un, de leur propre initiative et en réponse à une sollicitation par courrier. Elles sont également moins susceptibles que les autres donateur.trice.s de donner en réponse à une sollicitation en ligne, dans un lieu public ou de toute autre façon non mentionnée expressément dans le questionnaire de l’Enquête.
                     """),
                     #Donation rate by method graph
                     # dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
-                    html.H3('Motivations des dons')
+                    html.H3('Motivations des dons'),
                     dcc.Markdown("""
                     On a demandé aux répondant.e.s à l’Enquête si huit facteurs potentiels jouaient un rôle important dans leurs décisions de donner. Là encore, bien qu’il n’existe aucun lien direct entre les motivations et les causes soutenues, la comparaison des personnes qui donnent aux organismes religieux et de celles qui donnent aux autres organismes permet de comprendre les raisons de leur soutien des organismes religieux. Comme on pouvait s’y attendre, les personnes qui donnent aux organismes religieux sont beaucoup plus enclines à donner en raison de leurs croyances religieuses et spirituelles. De plus, elles ont relativement tendance à donner pour contribuer à la collectivité et parce qu’elles reçoivent des crédits d’impôt en échange de leurs dons. 
                     """),

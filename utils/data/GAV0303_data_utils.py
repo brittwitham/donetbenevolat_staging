@@ -7,18 +7,18 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
-    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
-    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
-    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs_FR.csv")))
-    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates_FR.csv")))
-    EducDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsBarriers_FR.csv")))
-    EducDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsDonMeth_FR.csv")))
-    EducDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsDonRates_FR.csv")))
-    EducDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsMotivations_FR.csv")))
-    EducVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsActivities_FR.csv")))
-    EducVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsBarriers_FR.csv")))
-    EducVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsReasons_FR.csv")))
-    EducVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsVolRates_FR.csv")))
+    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
+    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates.csv")))
+    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs.csv")))
+    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates.csv")))
+    EducDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsBarriers.csv")))
+    EducDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsDonMeth.csv")))
+    EducDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsDonRates.csv")))
+    EducDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducDonorsMotivations.csv")))
+    EducVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsActivities.csv")))
+    EducVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsBarriers.csv")))
+    EducVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsReasons.csv")))
+    EducVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-EducVolsVolRates.csv")))
 
     SubSecDonRates_2018['Estimate'] = SubSecDonRates_2018['Estimate']*100
     SubSecDonRates_2018['CI Upper'] = SubSecDonRates_2018['CI Upper']*100
@@ -61,7 +61,7 @@ def process_data(data):
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-education<br>and research<br>donors", "Non-education and research donors", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-education<br>and research<br>donor", "Non-education and research donor", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         # Round rates and dollar amounts to zero decimal places

@@ -16,8 +16,7 @@ from apps import (
     Pourquoi_fait_on_du_benevolat_2018,
     Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
     A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
-    definition,
-    GAV0301_fr
+    definition
     
 )
 import homepage
@@ -86,8 +85,8 @@ def display_page(pathname):
         return Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018.layout
     elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WTO0207_fr':
         return A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018.layout
-    elif pathname == '/dons_benevolat_pour_organisems_sante':
-        return GAV0301_fr.layout
+#     elif pathname == '/GAV0301':
+#         return GAV0301.layout
 #     elif pathname == '/GAV0302':
 #         return GAV0302.layout
 #     elif pathname == '/GAV0303':

@@ -326,29 +326,29 @@ content = dbc.Container(
                 className="col-md-10 col-lg-8"
             )
         ),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4(("DONS ET BÉNÉVOLAT POUR LES ORGANISMES RELIGIEUX").capitalize(),className='card-title'), href='/don_benevolat_pour_organismes_religieux'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-                                # """,
-                                # className='card-text')
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
-        html.Br(),
+        # html.Br(),
+        # dbc.Row(
+        #     html.Div(
+        #         html.Div(
+        #             html.Div(
+        #                 html.Div(
+        #                     [
+        #                         dcc.Link(html.H4("Giving and Volunteering for Religious Organizations",className='card-title'), href='/GAV0302'),
+        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
+        #                         # html.P("""
+        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+        #                         # """,
+        #                         # className='card-text')
+        #                     ]
+        #                 ),
+        #                 className='card-body'
+        #             ),
+        #             className="card"
+        #         ),
+        #         className="col-md-10 col-lg-8"
+        #     )
+        # ),
+        # html.Br(),
         # dbc.Row(
         #     html.Div(
         #         html.Div(

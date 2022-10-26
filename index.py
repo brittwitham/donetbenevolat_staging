@@ -17,22 +17,11 @@ from apps import (
     Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
     A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
     definition,
-    qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013,
-    quelles_sont_les_activites_des_benevoles_2013,
-    pourquoi_fait_on_du_benevolat_2013,
-    qu_est_ce_qui_empeche_de_faire_du_benevolat_2013,
-    qui_donne_aux_organismes_caritatifs_et_combien_2013,
-    comment_donne_t_on_au_canada_2013,
-    pourquoi_donne_t_on_au_canada_2013,
-    qu_est_ce_qui_empeche_de_donner_plus_2013,
-    dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018,
-    dons_et_benevolat_pour_les_organismes_religieux_2018,
-    dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018,
-    dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018,
-    dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018,
-    les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018,
-    les_dons_et_le_benevolat_des_jeunes_2018,
-    les_dons_et_le_benevolat_des_personnes_agees_2018
+    GAV0301_fr,
+    GAV0302_fr,
+    GAV0303_fr,
+    
+    
 )
 
 import homepage
@@ -99,44 +88,28 @@ def display_page(pathname):
         return Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018.layout
     elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WKC0206_fr':
         return A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018.layout
-    elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013': 
-        return qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013.layout
-    elif pathname == '/quelles_sont_les_activites_des_benevoles_2013': 
-        return quelles_sont_les_activites_des_benevoles_2013.layout
-    elif pathname == '/pourquoi_fait_on_du_benevolat_2013': 
-        return pourquoi_fait_on_du_benevolat_2013.layout
-    elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013': 
-        return qu_est_ce_qui_empeche_de_faire_du_benevolat_2013.layout
-    elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013': 
-        return qui_donne_aux_organismes_caritatifs_et_combien_2013.layout
-    elif pathname == '/comment_donne_t_on_au_canada_2013': 
-        return comment_donne_t_on_au_canada_2013.layout
-    elif pathname == '/pourquoi_donne_t_on_au_canada_2013': 
-        return pourquoi_donne_t_on_au_canada_2013.layout
-    elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013': 
-        return qu_est_ce_qui_empeche_de_donner_plus_2013.layout
-    elif pathname == '/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018': #GAV0301
-        return dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018.layout
-    elif pathname == '/dons_et_benevolat_pour_les_organismes_religieux_2018': #GAV0302
-        return dons_et_benevolat_pour_les_organismes_religieux_2018.layout
-    elif pathname == '/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018': #GAV0303
-        return dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018.layout
-    elif pathname == '/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018': #GAV0304
-        return dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018.layout
-    elif pathname == '/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018': #GAV0305
-        return dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018.layout
-    elif pathname == '/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018': #GAV0306
-        return les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018.layout
-    elif pathname == '/les_dons_et_le_benevolat_des_jeunes_2018': #GAV0307
-        return les_dons_et_le_benevolat_des_jeunes_2018.layout
-    elif pathname == '/les_dons_et_le_benevolat_des_personnes_agees_2018': #GAV0308
-        return les_dons_et_le_benevolat_des_personnes_agees_2018.layout
-    # elif pathname == '/HDC0102_13':
-    #     return HDC0102_13.layout
-    # elif pathname == '/WDC0105_13':
-    #     return WDC0105_13.layout
-    # elif pathname == '/popup':
-    #     return definition.layout
+    elif pathname == '/dons_benevolat_pour_organisems_sante':
+        return GAV0301_fr.layout
+    elif pathname == '/don_benevolat_pour_organismes_religieux':
+        return GAV0302_fr.layout
+    elif pathname == '/don_et_benevolat_les_organismes_education':
+        return GAV0303_fr.layout
+#     elif pathname == '/GAV0304':
+#         return GAV0304.layout
+#     elif pathname == '/GAV0305':
+#         return GAV0305.layout
+#     elif pathname == '/GAV0306':
+#         return GAV0306.layout
+#     elif pathname == '/GAV0307':
+#         return GAV0307.layout
+#     elif pathname == '/GAV0308':
+#         return GAV0308.layout
+#     elif pathname == '/HDC0102_13':
+#         return HDC0102_13.layout
+#     elif pathname == '/WDC0105_13':
+#         return WDC0105_13.layout
+    elif pathname == '/popup':
+        return definition.layout
     else:
         return '404'
 

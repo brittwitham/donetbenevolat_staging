@@ -20,8 +20,8 @@ BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = g
 data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]
 process_data(data)
 
-# region_values = get_region_values()
-# region_names = get_region_names()
+region_values = get_region_values()
+region_names = get_region_names()
 region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
 navbar = dbc.NavbarSimple(

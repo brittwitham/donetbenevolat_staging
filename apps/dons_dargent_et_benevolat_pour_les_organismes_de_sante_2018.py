@@ -20,7 +20,7 @@ BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = g
 data = [SubSecVolRates_2018, SubSecAvgHrs_2018, AllocationVol_2018]
 process_data(data)
 
-# region_values = get_region_values()
+region_values = get_region_values()
 # region_names = get_region_names()
 region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
@@ -96,7 +96,7 @@ layout = html.Div([
                     dcc.Markdown("""
                     Nous analysons ci-dessous les tendances des dons et du bénévolat au bénéfice des organismes de santé. Nous décrivons dans le texte ci-dessous les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
                     """),
-                    html.H3('Montants des dons')
+                    html.H3('Montants des dons'),
                     dcc.Markdown("""
                     À l’échelle nationale, un peu plus de deux personnes sur cinq (41 %) au Canada ont fait des dons aux organismes de santé pendant la période d’une année qui a précédé l’Enquête, ce qui place la santé en tête des causes les plus soutenues au Canada. Sur le plan des deux sous-causes, une personne sur trois a donné de l’argent aux organismes de santé généralistes et une sur six aux hôpitaux (9 % d’entre elles ont donné aux deux sous-causes). Quant aux montants des dons, la catégorie des organismes de santé au sens large a représenté la deuxième proportion, par ordre d’importance, de la valeur totale des dons (17 %), derrière les organismes religieux. Les organismes de santé généralistes ont reçu la majorité de ce soutien (11 %) et le reste est allé aux hôpitaux (6 %). L’écart entre les deux sous-causes est presque exclusivement lié à l’importance relative de leurs bases de donateur.trice.s, puisque ces personnes ont donné des montants quasiment identiques à l’une comme à l’autre. 
                     """),        
@@ -105,20 +105,20 @@ layout = html.Div([
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                    html.H3('Qui donne de l’argent')
+                    html.H3('Qui donne de l’argent'),
                     dcc.Markdown("""
                     Certaines personnes sont plus enclines que d’autres à donner aux organismes de santé. À l’échelle nationale, les femmes ont plus tendance à donner que les hommes, les personnes mariées ou veuves sont plus susceptibles de donner que les célibataires, les personnes qui occupent un emploi ou qui ne sont pas membres de la population active donnent plus fréquemment que celles au chômage, et celles qui sont nées au Canada sont plus susceptibles de donner que les personnes nouvellement arrivées. Au chapitre des grandes tendances, la probabilité de donner a tendance à augmenter avec l’âge, le niveau d’éducation formelle, l’assiduité aux offices religieux et le revenu du ménage.  
                     """
                     ),
                     # Donation rate by key demographic characteristics graph
                     # dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
-                    html.H3('Méthodes de dons')
+                    html.H3('Méthodes de dons'),
                     dcc.Markdown("""
                     On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes de santé et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, ces dernières sont particulièrement enclines à donner en mémoire d’une personne, en parrainant une personne lors d’un événement (comme un cyclothon ou un tournoi de golf) et à la suite d’une sollicitation dans un lieu public (par exemple dans la rue ou un centre commercial). Elles sont légèrement moins enclines à donner dans un lieu de culte.
                     """),
                     #Donation rate by method graph
                     # dcc.Graph(id='DonRateAvgDonAmt-prv', figure=don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018), style={'marginTop': 20}),
-                    html.H3('Motivations des dons')
+                    html.H3('Motivations des dons'),
                     dcc.Markdown("""
                     On a demandé aux répondant.e.s à l’Enquête si huit facteurs potentiels jouaient un rôle important dans leurs décisions de donner. Là encore, bien qu’il n’existe aucun lien direct entre les motivations et les causes soutenues, la comparaison des personnes qui donnent aux organismes de santé et de celles qui donnent aux autres organismes permet de comprendre les raisons de leur soutien des organismes de santé. Les personnes qui donnent aux organismes de santé sont nettement plus enclines à donner parce qu’elles sont touchées personnellement par la cause de l’organisme ou parce qu’elles connaissent une personne dans ce cas et parce qu’elles ont été sollicitées par une personne de leur connaissance. Elles sont relativement moins enclines à donner en raison de croyances religieuses ou spirituelles. 
                     """),

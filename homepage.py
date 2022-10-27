@@ -311,12 +311,11 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-<<<<<<< HEAD
                                 dcc.Link(html.H4("Dons d’argent et bénévolat pour les organismes de santé",className='card-title'), href='/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018'),
                                 # # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story describes patterns of giving and volunteering for hospitals and other health-related organizations. It looks at who supports these organizations, how much they contribute, how they donate and the types of volunteer activities they engage in, as well as why they donate and volunteer for these organizations and the barriers that may keep them from contributing even more.
-                                # """),
+                                html.P("""
+                                Cette analyse des tendances des dons et du bénévolat au bénéfice des hôpitaux et des autres organismes de santé précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+                                """),
                                 # className='card-text')
                             ]
                         ),
@@ -336,9 +335,9 @@ content = dbc.Container(
                             [
                                 dcc.Link(html.H4("Dons et bénévolat pour les organismes religieux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_religieux_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # OThis story describes patterns of giving and volunteering for religious congregations and related religious organizations. It looks at who supports these organizations, how much they contribute, how they donate and the types of volunteer activities they engage in, as well as why they donate and volunteer for these organizations and the barriers that may keep them from contributing even more.
-                                # """),
+                                html.P("""
+                                Cette analyse des tendances des dons et du bénévolat au bénéfice des congrégations religieuses et des autres organismes religieux précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+                                """),
                                 # className='card-text')
                             ]
                         ),
@@ -358,9 +357,9 @@ content = dbc.Container(
                             [
                                 dcc.Link(html.H4("Dons et bénévolat pour les organismes du secteur de l’éducation",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story describes patterns of giving and volunteering for organizations involved in primary and secondary education, universities, colleges, and research institutions. It looks at who supports these organizations, how much they contribute, how they donate and the types of volunteer activities they engage in, as well as why they donate and volunteer for these organizations and the barriers that may keep them from contributing even more.
-                                # """),
+                                html.P("""
+                                Cette analyse des tendances des dons et du bénévolat au bénéfice des établissements scolaires primaires et secondaires, des universités, des collèges et des établissements de recherche précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+                                """),
                                 # className='card-text')
                             ]
                         ),
@@ -379,13 +378,10 @@ content = dbc.Container(
                         html.Div(
                             [
                                 dcc.Link(html.H4("Dons et bénévolat pour les organismes de services sociaux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018'),
-=======
-                                dcc.Link(html.H4(("DONS D’ARGENT ET BÉNÉVOLAT POUR LES ORGANISMES DE SANTÉ").capitalize(), className='card-title'), href='/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018'),
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story describes patterns of giving and volunteering for social services organizations. It looks at who supports these organizations, how much they contribute, how they donate and the types of volunteer activities they engage in, as well as why they donate and volunteer for these organizations and the barriers that may keep them from contributing even more.
-                                # """),
+                                html.P("""
+                                Cette analyse des tendances des dons et du bénévolat au bénéfice des organismes sociaux précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+                                """),
                                 # className='card-text')
                             ]
                         ),
@@ -403,15 +399,12 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-<<<<<<< HEAD
                                 dcc.Link(html.H4("Dons et bénévolat pour les organismes des arts et des loisirs",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018'),
-=======
-                                dcc.Link(html.H4(("DONS ET BÉNÉVOLAT POUR LES ORGANISMES RELIGIEUX").capitalize(),className='card-title'), href='/dons_et_benevolat_pour_les_organismes_religieux_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-                                # """,
-                                # className='card-text')
+                                html.P("""
+                                Cette analyse des tendances des dons et du bénévolat au bénéfice des organismes des arts, de la culture, des loisirs et des sports précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+                                """,
+                                className='card-text')
                             ]
                         ),
                         className='card-body'
@@ -428,157 +421,11 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Dons et bénévolat pour les organismes du secteur de l’éducation",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-                                # """,
-                                # className='card-text')
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4("Dons et bénévolat pour les organismes de services sociaux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-                                # """,
-                                # className='card-text')
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4("Dons et bénévolat pour les organismes des arts et des loisirs", className='card-title'), href='/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018'),
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story describes patterns of giving and volunteering for arts, culture, recreation and sports organizations. It looks at who supports these organizations, how much they contribute, how they donate and the types of volunteer activities they engage in, as well as why they donate and volunteer for these organizations and the barriers that may keep them from contributing even more.
-                                # """),
-                                # className='card-text')
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
-        html.Br(),
-<<<<<<< HEAD
-=======
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering Among New Canadians",className='card-title'), href='/GAV0306'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering by Seniors",className='card-title'), href='/GAV0307'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering by Youth",className='card-title'), href='/GAV0308'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        html.Br(),
-        # html.Hr(),
-        html.Hr(),
-        html.H2("Données 2013"),
-        html.Br(),
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-<<<<<<< HEAD
                                 dcc.Link(html.H4("Les dons et le bénévolat des personnes nouvellement arrivées au canada",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018'),
-                            #     html.P("""
-                            #    This story looks at the giving and volunteering of New Canadians, exploring how they differ from native-born Canadians. It looks at overall levels of giving and volunteering, the causes supported, methods of donating, types of volunteer activities engaged in, motivations and barriers for giving and volunteering, and alternative forms of volunteering.
-                            #     """),
+                                html.P("""
+                                Cette analyse des dons et du bénévolat des personnes nouvellement arrivées au Canada approfondit leurs différences avec ceux des personnes nées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles.
+                                """),
 
-=======
-                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien? (2013)",className='card-title'), href='/qui_donne_aux_organismes_caritatifs_et_combien_2013'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("In 2013, just over four fifths of Canadians made financial donations to charitable and nonprofit organizations, contributing approximately $12.8 billion. This story examines how donating patterns (likelihood of donating, typical amounts contributed, etc.) tended to vary according to the personal and economic of characteristics of Canadians.",className='card-text')
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
                             ]
                         ),
                         className='card-body'
@@ -595,19 +442,10 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-<<<<<<< HEAD
                                 dcc.Link(html.H4("Les dons et le bénévolat des personnes agées",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_agees_2018'),
-                                # html.P("""
-                                # This story looks at the giving and volunteering of seniors (those 65 years of age and older), exploring how they differ from younger Canadians. It looks at overall levels of giving and volunteering, the causes supported, methods of donating, types of volunteer activities engaged in, motivations and barriers for giving and volunteering, and alternative forms of volunteering. Where possible, the report distinguishes between those 65 to 74 and those 75 and older.
-                                # """),
-=======
-                                dcc.Link(html.H4("Comment donne-t-on au Canada? (2013)",className='card-title'), href='/comment_donne_t_on_au_canada_2013'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story examines the methods Canadians used to donate in 2013, how much they tended to contribute and how these methods varied according to the personal and economic characteristics of donors.
-                                # """),
-                                # className='card-text')
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
+                                html.P("""
+                                Cette analyse des dons et du bénévolat des personnes âgées (de 65 ans ou plus) approfondit leurs différences avec ceux des personnes plus jeunes au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 65 à 74 ans et celles de 75 ans ou plus.
+                                """),
                             ]
                         ),
                         className='card-body'
@@ -624,18 +462,55 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-<<<<<<< HEAD
                                 dcc.Link(html.H4("Les dons et le bénévolat des jeunes",className='card-title'), href='/les_dons_et_le_benevolat_des_jeunes_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story looks at the giving and volunteering of young Canadians (those younger than 34), exploring how they differ from older Canadians. It looks at overall levels of giving and volunteering, the causes supported, methods of donating, types of volunteer activities engaged in, motivations and barriers for giving and volunteering, and alternative forms of volunteering. Where possible, the report distinguishes between those 15 to 24 and those 25 to 34.
-=======
-                                dcc.Link(html.H4("Pourquoi donne-t-on au Canada? (2013)",className='card-title'), href='/pourquoi_donne_t_on_au_canada_2013'),
+                                html.P("""
+                                Cette analyse des dons et du bénévolat des personnes jeunes (de moins de 34 ans) approfondit leurs différences avec ceux des personnes plus âgées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 15 à 24 ans et celles de 25 à 34 ans. 
+                                """,
+                                className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        html.Hr(),
+        html.H2("Articles de 2013"),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien?",className='card-title'), href='/qui_donne_aux_organismes_caritatifs_et_combien_2013'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                # html.P("""
-                                # This story looks at why Canadians donated in 2013. It looks at how common different donation motivations were, how they varied according to the personal and economic characteristics of donors, and how motivations linked to the amounts donated and causes supported.
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
-                                # """),
+                                html.P("En 2013, un peu plus de quatre cinquièmes des personnes au Canada ont contribué financièrement aux organismes de bienfaisance et à but non lucratif, leurs contributions se chiffrant environ à 12,8 milliards $. Cette analyse porte sur les variations générales des tendances (probabilité de donner, montants habituels des contributions, etc.) selon les caractéristiques personnelles et économiques des donateur.trice.s",className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Comment donne-t-on au Canada?",className='card-title'), href='/comment_donne_t_on_au_canada_2013'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                html.P("""
+                                Cette analyse des méthodes de dons des personnes au Canada en 2013 porte sur les montants qu’elles avaient tendance à donner et sur les variations de ces méthodes selon les caractéristiques personnelles et économiques des donateur.trice.s..
+                                """),
                                 # className='card-text')
                             ]
                         ),
@@ -647,20 +522,18 @@ content = dbc.Container(
             )
         ),
         html.Br(),
-<<<<<<< HEAD
-        html.Hr(),
-=======
         dbc.Row(
             html.Div(
                 html.Div(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qu'est-ce qui empeche de donner plus? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_donner_plus_2013'),
-                                # html.P(
-                                #     """
-                                #      This story looks at the barriers donors faced in 2013. It examines the factors that limited donations, the impact these barriers had on the amounts typically donated, how they varied according to the personal and economic characteristics of donors, and their linkages with particular causes."""
-                                # )
+                                dcc.Link(html.H4("Pourquoi donne-t-on au Canada?",className='card-title'), href='/pourquoi_donne_t_on_au_canada_2013'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                html.P("""
+                                Cette analyse des motivations des dons des personnes au Canada en 2013 porte sur les différentes motivations courantes, sur leurs variations selon les caractéristiques personnelles et économiques des donateur.trice.s. et sur les liens entre les motivations et les montants des dons et les causes soutenues.
+                                """),
+                                # className='card-text')
                             ]
                         ),
                         className='card-body'
@@ -677,10 +550,12 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Who volunteers and how much time do they contribute? (2013)",className='card-title'), href='/who_volunteers_and_how_much_time_do_they_contribute_2013'),
-                                # html.P(
-                                #     """In 2013, just over two fifths of Canadians volunteered for charitable and nonprofit organizations, contributing 2.0 billion volunteer hours. This story looks at how volunteering patterns (likelihood of volunteering, typical hours contributed, etc.) tended to vary according to the personal and economic characteristics of individuals."""
-                                # )
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de donner plus?",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
+                                html.P(
+                                    """
+                                    Cette analyse des freins rencontrés par les donateur.trice.s en 2013 porte sur les facteurs qui ont limité les dons, sur l’incidence de ces freins sur les montants habituels des dons, sur les variations de ceux-ci selon les caractéristiques personnelles et économiques des donateur.trice.s. et sur leurs liens avec des causes particulières.
+                                    """
+                                )
                             ]
                         ),
                         className='card-body'
@@ -697,10 +572,10 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("What do volunteers do? (2013)",className='card-title'), href='/what_do_volunteers_do_2013'),
-                                # html.P(
-                                #     """This story focuses on how Canadians volunteered in 2013. This story examines the activities of volunteers looking at how common each activity was, the hours typically contributed, and how activities vary according to the personal and economic characteristics of volunteers."""
-                                # )
+                                dcc.Link(html.H4("Qui sont les bénévoles et combien d’heures donnent-ils?",className='card-title'), href='/quelles_sont_les_activites_des_benevoles_2013'),
+                                html.P(
+                                    """En 2013, un peu plus de deux cinquièmes des personnes au Canada ont fait du bénévolat pour les organismes de bienfaisance et à but non lucratif en leur faisant don de 2 milliards d’heures de leur temps. Cette analyse porte sur les variations générales des tendances (probabilité de faire du bénévolat, nombre habituel d’heures de bénévolat, etc.) selon les caractéristiques personnelles et économiques des bénévoles."""
+                                )
                             ]
                         ),
                         className='card-body'
@@ -717,10 +592,10 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Why do Canadians volunteer? (2013)",className='card-title'), href='/why_do_canadians_volunteer_2013'),
-                                # html.P(
-                                #     """This story looks at why Canadians volunteered in 2013. It looks at how common different volunteer motivations were, how they varied according to the personal and economic characteristics of donors, and how motivations linked to the hours typically contributed and causes supported."""
-                                # )
+                                dcc.Link(html.H4("Quelles sont les activités des bénévoles?",className='card-title'), href='/quelles_sont_les_activites_des_benevoles_2013'),
+                                html.P(
+                                    """Cette analyse des activités des bénévoles au Canada en 2013 porte sur la fréquence de chaque activité, le nombre habituel d’heures de bénévolat et les variations de ces activités selon les caractéristiques personnelles et économiques des bénévoles."""
+                                )
                             ]
                         ),
                         className='card-body'
@@ -737,10 +612,10 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("WKCV",className='card-title'), href='/what_keeps_canadians_from_volunteering_more_2013'),
-                                # html.P(
-                                #     """This story looks at the barriers volunteers faced in 2013. It examines the factors that limited how much Canadians volunteered, their impact on the hours typically contributed, and how they varied according to the personal and economic characteristics of individuals and the causes volunteers support."""
-                                # )
+                                dcc.Link(html.H4("Pourquoi fait-on du bénévolat?",className='card-title'), href='/pourquoi_fait_on_du_benevolat_2013'),
+                                html.P(
+                                    """Cette analyse des motivations des bénévoles au Canada en 2013 porte sur les différentes motivations courantes des bénévoles, sur les variations de ces activités selon les caractéristiques personnelles et économiques des bénévoles et sur les liens entre les motivations et le nombre habituel d’heures de bénévolat et les causes soutenues."""
+                                )
                             ]
                         ),
                         className='card-body'
@@ -751,8 +626,30 @@ content = dbc.Container(
             )
         ),
         html.Br(),
- 
->>>>>>> d0d47459c75db77f964abd91236342ca05b28ba2
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de faire du bénévolat?",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
+                                html.P(
+                                    """Cette analyse des freins rencontrés par les bénévoles au Canada en 2013 porte sur les facteurs qui ont limité leur nombre d’heures de bénévolat, sur l’incidence de ces freins sur le nombre habituel d’heures de bénévolat, sur les variations des heures de bénévolat selon les caractéristiques personnelles et économiques des bénévoles et les causes soutenues par les bénévoles."""
+                                )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        html.H3("Note générale sur la comparaison des résultats de l’enquête de 2013 et de celle de 2018 "),
+        html.P(
+            """En raison des modifications méthodologiques entre les versions de 2013 et de 2018 de l’enquête (principalement liées à la nouvelle option de répondre au questionnaire en ligne), la comparaison directe des résultats entre ses deux versions n’est pas pertinente. Les tendances générales (p. ex. variations selon les caractéristiques personnelles et économiques, liens avec les motivations et les freins, etc.) sont très similaires, mais les estimations clés, comme les taux généraux des dons et du bénévolat, sont quelque peu différentes. Bien qu’il soit impossible d’en être certain, ces différences sont vraisemblablement moins attribuables à des changements dans les habitudes de don et de bénévolat qu’aux modifications méthodologiques. """
+        )
     ]
 )
 

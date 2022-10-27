@@ -17,18 +17,19 @@ from apps import (
     Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
     A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
     definition,
-    GAV0301_fr,
-    GAV0302_fr,
-    dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018,
-    dons_et_benevolat_pour_les_organismes_religieux_2018,
-    dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018,
-    dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018,
-    dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018,
+    # dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018,
+    # dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018,
+    # dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018,
+    # dons_et_benevolat_pour_les_organismes_religieux_2018,
+    # dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018,
     les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018,
     les_dons_et_le_benevolat_des_jeunes_2018,
     les_dons_et_le_benevolat_des_personnes_agees_2018,
-    
-    
+    GAV0301_fr,
+    GAV0302_fr,
+    GAV0303_fr,
+    GAV0304_fr,
+    GAV0305_fr
 )
 
 import homepage
@@ -96,15 +97,15 @@ def display_page(pathname):
     elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WKC0206_fr':
         return A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018.layout
     elif pathname == '/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018': #GAV0304
-        return dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018.layout
+        return GAV0301_fr.layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018': #GAV0304
-        return dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018.layout
+        return GAV0303_fr.layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018': #GAV0304
-        return dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018.layout
+        return GAV0304_fr.layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_religieux_2018': #GAV0304
-        return dons_et_benevolat_pour_les_organismes_religieux_2018.layout
+        return GAV0302_fr.layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018': #GAV0305
-        return dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018.layout
+        return GAV0305_fr.layout
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018': #GAV0306
         return les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018.layout
     elif pathname == '/les_dons_et_le_benevolat_des_jeunes_2018': #GAV0307

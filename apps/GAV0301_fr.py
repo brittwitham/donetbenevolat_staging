@@ -70,17 +70,37 @@ layout = html.Div([
        dbc.Row([
             html.Div([
                 # html.H3('Giving'),
-                html.P('In addition to measuring general levels of giving and volunteering, the General Social Survey on Giving, Volunteering, and Participating measures levels of support for 15 types of causes (commonly labelled “activity areas”), including health. As defined by the survey, the broader health category is made up of hospitals and general health organizations. Hospitals focus primarily on inpatient care while general health organizations focus primarily on outpatient care and other medical services such as health promotion, first aid training, and emergency services.'),
-                html.P('Below we look at patterns of giving and volunteering for health organizations. The text describes national level findings; for additional detail, readers can use the pull down menu linked to the interactive data visualizations to show regional level results. While the regional specifics may differ from the national level results described in the text, the overall trends were quite similar.'),
-                html.H4('Donation levels'),
-                html.P('Nationally, just over two in five Canadians (41%) donated to health organizations during the one year period prior to the survey, making health the most commonly supported cause. Focusing on the two sub-causes, one in three Canadians donated to general health organizations and one in six donated to hospitals (9% donated to both). Looking at the amounts donated, the broader category of health organizations accounted for the second highest proportion of total donations (17%) behind religious organizations. General health organizations received most of this support (11%) and hospitals the remainder (6%). The divergence between the two sub-causes was driven almost exclusively by the relative size of their donor bases as donors gave virtually identical average amounts to each.'),
+                
+                dcc.Markdown("""
+                    En plus de mesurer l’importance générale des dons et du bénévolat à divers niveaux, l’Enquête sociale générale sur les dons, le bénévolat et la participation mesure l’importance des niveaux de soutien pour 15 types de causes (appelées communément « domaines d’activité »), dont la santé. Selon la définition de l’Enquête, la catégorie de la santé au sens large se compose des hôpitaux et des organismes de santé généralistes. Les hôpitaux sont principalement axés sur les soins aux patients hospitalisés, tandis que les organismes de santé généralistes sont principalement axés sur les soins aux patients externes et sur d’autres services médicaux, comme la promotion de la santé, la formation en secourisme et les services d’urgence.
+                    """),
+                dcc.Markdown("""
+                    Nous analysons ci-dessous les tendances des dons et du bénévolat au bénéfice des organismes de santé. Nous décrivons dans le texte ci-dessous les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
+                    """),
+                html.H4('Montants des dons'),
+                dcc.Markdown("""
+                    À l’échelle nationale, un peu plus de deux personnes sur cinq (41 %) au Canada ont fait des dons aux organismes de santé pendant la période d’une année qui a précédé l’Enquête, ce qui place la santé en tête des causes les plus soutenues au Canada. Sur le plan des deux sous-causes, une personne sur trois a donné de l’argent aux organismes de santé généralistes et une sur six aux hôpitaux (9 % d’entre elles ont donné aux deux sous-causes). Quant aux montants des dons, la catégorie des organismes de santé au sens large a représenté la deuxième proportion, par ordre d’importance, de la valeur totale des dons (17 %), derrière les organismes religieux. Les organismes de santé généralistes ont reçu la majorité de ce soutien (11 %) et le reste est allé aux hôpitaux (6 %). L’écart entre les deux sous-causes est presque exclusivement lié à l’importance relative de leurs bases de donateur.trice.s, puisque ces personnes ont donné des montants quasiment identiques à l’une comme à l’autre. 
+                    """),
+                
                 # Donation rate and average donation amount by cause
                 dcc.Graph(id='DonRateAvgDon', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
-            html.Div(
-                [html.H4('Who Gives'),
-                 html.P('Some Canadians are more likely to give to health organizations than others. Nationally, women are more likely to donate than men, those who are married or widowed are more likely to donate than those who are single, those who are employed or not in the labour force are more likely to donate than those who are unemployed, and those born in Canada are more likely to donate than New Canadians. In terms of major trends, the likelihood of donating tends to increase with age, level of formal education, frequency of attendance at religious services, and household income.')], className='col-md-10 col-lg-8 mx-auto'
+            html.Div([
+                # [
+                # # html.H4('Who Gives'),
+                # #  html.P('Some Canadians are more likely to give to health organizations than others. Nationally, women are more likely to donate than men, those who are married or widowed are more likely to donate than those who are single, those who are employed or not in the labour force are more likely to donate than those who are unemployed, and those born in Canada are more likely to donate than New Canadians. In terms of major trends, the likelihood of donating tends to increase with age, level of formal education, frequency of attendance at religious services, and household income.')
+                # ],
+
+                html.H4('Qui donne de l’argent'),
+                dcc.Markdown("""
+                    Certaines personnes sont plus enclines que d’autres à donner aux organismes de santé. À l’échelle nationale, les femmes ont plus tendance à donner que les hommes, les personnes mariées ou veuves sont plus susceptibles de donner que les célibataires, les personnes qui occupent un emploi ou qui ne sont pas membres de la population active donnent plus fréquemment que celles au chômage, et celles qui sont nées au Canada sont plus susceptibles de donner que les personnes nouvellement arrivées. Au chapitre des grandes tendances, la probabilité de donner a tendance à augmenter avec l’âge, le niveau d’éducation formelle, l’assiduité aux offices religieux et le revenu du ménage.  
+                    """
+                    )],
+
+                className='col-md-10 col-lg-8 mx-auto'
+            
+                
             ),
             # html.Div([
             #     html.H4('Support for Other Organization Types'),
@@ -89,22 +109,29 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Donation Methods'),
-                html.P("The survey asks respondents whether they donated in response to any of 13 different types of solicitation. While the survey does not tie these methods directly to the cause supported, comparing health donors to non-health donors (i.e., donors who only supported other causes) provides insight into how donors tend to support health organizations. Nationally, health donors are particularly likely to donate in memory of someone, by sponsoring someone in an event (such as a bike-a-thon or golf tournament), and after being approached in a public place (such as on the street or in a shopping centre). They are somewhat less likely to donate in a place of worship."),
+                html.H4('Méthodes de dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes de santé et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, ces dernières sont particulièrement enclines à donner en mémoire d’une personne, en parrainant une personne lors d’un événement (comme un cyclothon ou un tournoi de golf) et à la suite d’une sollicitation dans un lieu public (par exemple dans la rue ou un centre commercial). Elles sont légèrement moins enclines à donner dans un lieu de culte.
+                    """),
                 # Donation rate by method
                 dcc.Graph(id='HealthDonsMeth', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for donating'),
-                html.P("The survey asks donors whether each of eight potential factors were important to their donation decisions. Again, while there are no direct ties between motivations and causes supported, comparing health donors with non-health donors gives insight into the reasons for supporting these organizations. Health donors are substantially more likely than non-health donors to give because they are personally affected or know someone who is personally affected by the cause of the organization and because they were asked to contribute by someone they know. They are comparatively less likely to give because of religious or spiritual beliefs."),
+                html.H4('Motivations des dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si huit facteurs potentiels jouaient un rôle important dans leurs décisions de donner. Là encore, bien qu’il n’existe aucun lien direct entre les motivations et les causes soutenues, la comparaison des personnes qui donnent aux organismes de santé et de celles qui donnent aux autres organismes permet de comprendre les raisons de leur soutien des organismes de santé. Les personnes qui donnent aux organismes de santé sont nettement plus enclines à donner parce qu’elles sont touchées personnellement par la cause de l’organisme ou parce qu’elles connaissent une personne dans ce cas et parce qu’elles ont été sollicitées par une personne de leur connaissance. Elles sont relativement moins enclines à donner en raison de croyances religieuses ou spirituelles. 
+                    """),
                 # Barriers to donating more
                 dcc.Graph(id='HealthMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to donating'),
-                html.P('To gain insight into factors that may discourage donations, donors are asked whether each of ten potential barriers kept them from donating as much as they otherwise would have. Nationally, the biggest differences between health and non-health donors are that health donors are comparatively likely to be satisfied with the amounts they have already donated and comparatively less likely to volunteer instead of donating and to limit donations because they find it hard to find a cause worth supporting.'),
+                html.H4('Freins aux dons'),
+                    html.P("""
+                    Afin de mieux comprendre les facteurs qui peuvent dissuader de donner, on a demandé aux donateur.trice.s si dix freins potentiels les empêchent de donner plus. À l’échelle nationale, la différence la plus importante entre ces deux catégories de donateur.trice.s a trait à la satisfaction relativement supérieure des personnes qui donnent aux organismes de santé à l’égard du montant qu’elles ont déjà donné et à leur tendance relativement inférieure à faire du bénévolat au lieu de donner et à limiter leurs dons parce qu’elles trouvent difficilement une cause digne de leur soutien. 
+                    """
+                    ),
                 # Barriers to donating more
                 dcc.Graph(id='HealthBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -113,16 +140,21 @@ layout = html.Div([
         ]),
        dbc.Row([
             html.Div([
-                html.H3('Volunteering levels'),
-                # html.H4('Levels of Support'),
-                html.P("Nationally, about one in every 17 Canadians (6%) volunteered for a health organization during the year prior to the survey, making health the fifth most commonly supported cause. Focusing on the two sub-causes, Canadians are about twice as likely to volunteer for general health organizations as volunteer for hospitals. Looking at the hours volunteered for the cause, health organizations receive just under 9% of total hours. Although the volunteer base for hospitals is considerably smaller, these volunteers tend to contribute more hours, meaning that total volunteer hours are split approximately evenly between hospitals and general health organizations. Nationally, health organizations receive the fifth largest proportion of volunteer hours behind arts & recreation (23%), social services (18%), religion (16%) and education & research (9%) organizations."),
+                html.H4("Niveaux de bénévolat"),
+                        html.P("""
+                        À l’échelle nationale, environ une personne sur 17 (6 %) au Canada a fait du bénévolat pour un organisme de santé pendant l’année qui a précédé l’Enquête, ce qui place la santé au cinquième rang des causes les plus soutenues au Canada. Sur le plan des deux sous-causes, les personnes sont deux fois plus susceptibles de faire du bénévolat pour les organismes de santé généralistes que pour les hôpitaux. Quant au nombre d’heures de bénévolat au bénéfice de la cause, les organismes de santé reçoivent un peu moins de 9 % du total des heures. Bien que la base de bénévoles des hôpitaux soit considérablement plus petite, ces bénévoles ont tendance à faire don de plus d’heures et, par conséquent, les heures de bénévolat totales se répartissent grosso modo à égalité entre les hôpitaux et les organismes de santé généralistes. À l’échelle nationale, les organismes de santé reçoivent la cinquième proportion des heures de bénévolat par ordre d’importance, après les organismes des arts et loisirs (23 %), les organismes des services sociaux (18 %), les organismes religieux (16 %) et ceux du secteur de l’éducation et de la recherche (9 %).
+                        """),
                 # Volunteer rate and average hours volunteered by cause
                 dcc.Graph(id='VolRateAvgHrs', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(
-                [html.H4('Who Volunteers'),
-                 html.P('Groups that stand out as being more likely to volunteer for health organizations include women, those with a post-secondary or higher levels of formal education and those born in Canada. In terms of trends, the likelihood of volunteering tends to increase with household income and with frequency of attendance at religious services.')],
+                [
+                html.H4("Qui fait du bénévolat"),
+                        html.P("""
+                        Les groupes qui se distinguent en étant plus susceptibles de faire du bénévolat pour les organismes de santé sont les femmes, les titulaires d’un diplôme postsecondaire ou les personnes au niveau d’éducation formelle supérieur et celles nées au Canada. Sur le plan des tendances, la probabilité de faire du bénévolat a tendance à augmenter avec le revenu du ménage et avec l’assiduité aux offices religieux. 
+                        """),
+                 ],
             className='col-md-10 col-lg-8 mx-auto'),
             # html.Div([
             #     html.H4('Support for other organization types'),
@@ -131,22 +163,28 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Volunteer activities'),
-                html.P('The survey asks respondents whether they engaged in any of 14 different types of activities for an organization. While the survey does not tie activities specifically to the types of organization supported, comparing health volunteers to non-health volunteers provides insight into what volunteers do for these organizations. As one would expect, health volunteers are particularly likely to provide health care or support, but also more likely to engage in fundraising and canvassing. They are substantially less likely to coach or referee and somewhat less likely to carry out maintenance or repair work.'),
+                html.H4("Activités des bénévoles"),
+                        html.P("""
+                        On a demandé aux personnes si, parmi 14 types d’activité différents, elles participaient à 1 ou plusieurs d’entre elles pour un organisme. Bien que l’Enquête ne lie pas précisément les activités aux types d’organismes soutenus, la comparaison des bénévoles des organismes de santé et des bénévoles des autres organismes permet de comprendre les activités des bénévoles pour cette catégorie d’organismes. Comme on pouvait s’y attendre, les bénévoles des organismes de santé sont particulièrement susceptibles d’offrir des soins de santé ou du soutien dans ce domaine, mais aussi plus susceptibles de participer aux activités de collecte de fonds et au porte-à-porte. Ces personnes sont nettement moins susceptibles d’entraîner ou d’arbitrer dans le cadre sportif et légèrement moins susceptibles d’effectuer des travaux d’entretien ou de réparations.
+                        """),
                 # Volunteer rate by activity
                 dcc.Graph(id='HealthVolActivity', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for volunteering'),
-                html.P('The survey asks volunteers whether each of twelve potential factors was important to their volunteering decisions. Unlike with many other areas of the survey, these motivations are tied specifically to volunteering for particular causes. Nationally, health volunteers are most different in that they are more likely to volunteer because they have been personally affected by the cause or know someone who is personally affected. They are somewhat less likely to volunteer in order to network or meet people. Other motivations appear to affect health and non-health volunteers fairly equally.'),
+                html.H4("Motivations du bénévolat"),
+                        html.P("""
+                        On a demandé aux répondant.e.s si douze facteurs potentiels jouaient un rôle important dans leur décision de faire don de leur temps. Contrairement à de nombreux autres domaines de l’Enquête, ces motivations sont liées précisément au bénévolat au bénéfice de causes particulières. À l’échelle nationale, les bénévoles des organismes de santé se distinguent le plus par leur tendance supérieure à faire du bénévolat parce que la cause les touche personnellement ou touche une personne de leur connaissance. Ces personnes sont légèrement moins enclines à faire du bénévolat pour réseauter ou pour rencontrer des personnes. Les autres motivations semblent avoir une influence à peu près égale sur les bénévoles des organismes de la santé et des autres types d’organismes. 
+                        """),
                 # Motivations for volunteering
                 dcc.Graph(id='HealthVolMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to volunteering'),
-                html.P('Volunteers are asked whether each of twelve potential barriers kept them from volunteering more time during the previous year. While barriers are not tied directly to the causes supported, comparing health volunteers with non-health volunteers provides some useful insight. Overall, health volunteers are quite similar to other volunteers in terms of how they respond to potential barriers. Nationally, the biggest differences with health volunteers are that they are slightly less likely to not have any interest in further volunteering and slightly more likely to prefer to give money instead.'),
+                html.H4("Freins au bénévolat"),
+                        html.P("""
+                        On a demandé aux bénévoles si douze freins potentiels les avaient empêchés de faire don de plus de temps pendant l’année précédente. Bien que les freins ne soient pas liés directement aux causes soutenues, la comparaison des bénévoles des organismes de santé et de ceux des autres organismes apporte une information importante. Au total, ces bénévoles réagissent aux freins potentiels d’une manière très semblable aux autres bénévoles. À l’échelle nationale, les bénévoles des organismes de santé se démarquent le plus nettement en ayant légèrement moins tendance à souhaiter faire plus de bénévolat et à avoir légèrement plus tendance à faire des dons d’argent de préférence à faire don de leur temps.
+                        """),
                 # Barriers to volunteering more
                 dcc.Graph(id='HealthVolBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'

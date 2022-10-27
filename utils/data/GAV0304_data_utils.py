@@ -7,18 +7,18 @@ import os.path as op
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
     
-    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
-    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates.csv")))
-    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs.csv")))
-    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates.csv")))
-    SocSerDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsBarriers.csv")))
-    SocSerDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonMeth.csv")))
-    SocSerDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonRates.csv")))
-    SocSerDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsMotivations.csv")))
-    SocSerVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsActivities.csv")))
-    SocSerVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsBarriers.csv")))
-    SocSerVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsReasons.csv")))
-    SocSerVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsVolRates.csv")))
+    SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
+    SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
+    SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs_FR.csv")))
+    SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates_FR.csv")))
+    SocSerDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsBarriers_FR.csv")))
+    SocSerDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonMeth_FR.csv")))
+    SocSerDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonRates_FR.csv")))
+    SocSerDonorsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsMotivations_FR.csv")))
+    SocSerVolsActivities_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsActivities_FR.csv")))
+    SocSerVolsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsBarriers_FR.csv")))
+    SocSerVolsMotivations_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsReasons_FR.csv")))
+    SocSerVolsVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerVolsVolRates_FR.csv")))
 
     SubSecDonRates_2018['Estimate'] = SubSecDonRates_2018['Estimate']*100
     SubSecDonRates_2018['CI Upper'] = SubSecDonRates_2018['CI Upper']*100
@@ -52,7 +52,7 @@ def process_data(data):
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         # data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)

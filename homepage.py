@@ -311,7 +311,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4(("DONS D’ARGENT ET BÉNÉVOLAT POUR LES ORGANISMES DE SANTÉ").capitalize(), className='card-title'), href='/dons_benevolat_pour_organisems_sante'),
+                                dcc.Link(html.H4(("DONS D’ARGENT ET BÉNÉVOLAT POUR LES ORGANISMES DE SANTÉ").capitalize(), className='card-title'), href='/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 # html.P("""
                                 # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
@@ -333,7 +333,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4(("DONS ET BÉNÉVOLAT POUR LES ORGANISMES RELIGIEUX").capitalize(),className='card-title'), href='/don_benevolat_pour_organismes_religieux'),
+                                dcc.Link(html.H4(("DONS ET BÉNÉVOLAT POUR LES ORGANISMES RELIGIEUX").capitalize(),className='card-title'), href='/dons_et_benevolat_pour_les_organismes_religieux_2018'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 # html.P("""
                                 # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
@@ -349,72 +349,72 @@ content = dbc.Container(
             )
         ),
         html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Education and Research Organizations",className='card-title'), href='/GAV0303'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Social Services Organizations",className='card-title'), href='/GAV0304'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Giving and Volunteering for Arts, Culture and Rec Organizations",className='card-title'), href='/GAV0305'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Dons et bénévolat pour les organismes du secteur de l’éducation",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Dons et bénévolat pour les organismes de services sociaux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Dons et bénévolat pour les organismes des arts et des loisirs", className='card-title'), href='/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
+                                # """,
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
         # dbc.Row(
         #     html.Div(
         #         html.Div(

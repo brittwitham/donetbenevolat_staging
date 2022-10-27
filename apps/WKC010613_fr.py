@@ -59,7 +59,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1("Qu'est-ce qui empeche de donner plus? (2013)"),
+                        html.H1("Qu'est-ce qui empeche de donner plus???????? (2013)"),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'
@@ -75,28 +75,14 @@ layout = html.Div([
         # className='masthead'
         className="bg-secondary text-white text-center py-4",
     ),
-    # Note: filters put in separate container to make floating element later
-#    dbc.Container(
-#        [
-#         html.Div(["Select a region:",
-#             dcc.Dropdown(
-#                       id='region-selection',
-#                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
-#                       value='CA',
-#                       style={'vertical-align': 'left'}
-#                   ),
-#             ],
-#             className='col-md-10 col-lg-8 mx-auto mt-4'
-#         ),
-#         ], style={'backgroundColor':'F4F5F6'},
-#     className='sticky-top bg-light mb-2', fluid=True),
+
     dbc.Container([
         dbc.Row([
             dbc.Col(
                 html.Div([
                     "Sélectionnez une région:",
                     dcc.Dropdown(
-                        id='region-selection',
+                        id='region-selection-fr',
                         options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                         value='CA',
                         style={'vertical-align': 'left'}
@@ -348,7 +334,7 @@ layout = html.Div([
 @app.callback(
     dash.dependencies.Output('BarriersOverall_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value')
+        dash.dependencies.Input('region-selection-fr', 'value')
     ])
 def update_graph(region):
     dff = Barriers_2018[Barriers_2018['Region'] == region]
@@ -359,7 +345,7 @@ def update_graph(region):
 @app.callback(
     dash.dependencies.Output('BarriersAvgAmts_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value')
+        dash.dependencies.Input('region-selection-fr', 'value')
     ])
 def update_graph(region):
     dff = AvgAmtBarriers_2018[AvgAmtBarriers_2018['Region'] == region]
@@ -377,7 +363,7 @@ def update_graph(region):
 @app.callback(
     dash.dependencies.Output('EfficiencyConcerns_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value')
+        dash.dependencies.Input('region-selection-fr', 'value')
     ])
 def update_graph(region):
     dff = GivingConcerns_2018[GivingConcerns_2018['Region'] == region]
@@ -390,7 +376,7 @@ def update_graph(region):
 @app.callback(
     dash.dependencies.Output('DislikeSolicitations_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value')
+        dash.dependencies.Input('region-selection-fr', 'value')
     ])
 def update_graph(region):
     dff = SolicitationConcerns_2018[SolicitationConcerns_2018['Region'] == region]
@@ -401,7 +387,7 @@ def update_graph(region):
 @app.callback(
     dash.dependencies.Output('Barriers-Gndr_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection', 'value')
 
     ])
@@ -419,7 +405,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('Barriers-Age_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection-age', 'value')
 
     ])
@@ -434,7 +420,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('Barriers-Educ_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection-educ', 'value')
 
     ])
@@ -449,7 +435,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('Barriers-Inc_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection-income', 'value')
 
     ])
@@ -464,7 +450,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('Barriers-Relig_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection-religion', 'value')
 
     ])
@@ -510,7 +496,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('Barriers-Immstat', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection', 'value')
     ])
 def update_graph(region, barrier):
@@ -524,7 +510,7 @@ def update_graph(region, barrier):
 @app.callback(
     dash.dependencies.Output('status-sel-barrier_13', 'figure'),
     [ 
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('barrier-selection-other', 'value'),
         dash.dependencies.Input('status-selection', 'value')
     ])
@@ -540,7 +526,7 @@ def update_graph(region, barrier, status):
 @app.callback(
     dash.dependencies.Output('BarriersCauses_13', 'figure'),
     [
-        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('region-selection-fr', 'value'),
         dash.dependencies.Input('cause-selection', 'value')
     ])
 def update_graph(region, cause):

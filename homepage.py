@@ -550,7 +550,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qu’est-ce qui empêche de donner plus?",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de donner plus?",className='card-title'), href='/qu_est_ce_qui_empeche_de_donner_plus_2013'),
                                 html.P(
                                     """
                                     Cette analyse des freins rencontrés par les donateur.trice.s en 2013 porte sur les facteurs qui ont limité les dons, sur l’incidence de ces freins sur les montants habituels des dons, sur les variations de ceux-ci selon les caractéristiques personnelles et économiques des donateur.trice.s. et sur leurs liens avec des causes particulières.

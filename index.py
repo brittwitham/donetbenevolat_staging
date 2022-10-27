@@ -29,7 +29,12 @@ from apps import (
     GAV0302_fr,
     GAV0303_fr,
     GAV0304_fr,
-    GAV0305_fr
+    GAV0305_fr,
+    WDA0101_fr,
+    HDC010213_fr,
+    WDC010513_fr,
+    WKC010613_fr
+
 )
 
 import homepage
@@ -112,6 +117,14 @@ def display_page(pathname):
         return les_dons_et_le_benevolat_des_jeunes_2018.layout
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_agees_2018': #GAV0308
         return les_dons_et_le_benevolat_des_personnes_agees_2018.layout
+    elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013':
+        return WDA0101_fr.layout
+    elif pathname == '/comment_donne_t_on_au_canada_2013':
+        return HDC010213_fr.layout
+    elif pathname == '/pourquoi_donne_t_on_au_canada_2013':
+        return WDC010513_fr.layout
+    elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013':
+        return WKC010613_fr.layout
     # elif pathname == '/HDC0102_13':
     #     return HDC0102_13.layout
     # elif pathname == '/WDC0105_13':

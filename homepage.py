@@ -480,54 +480,175 @@ content = dbc.Container(
         #         className="col-md-10 col-lg-8"
         #     )
         # ),
-        # html.Br(),
-        # # html.Hr(),
-        # html.H2("2013 Data"),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("How Do Canadians Donate? (2013)",className='card-title'), href='/HDC01002_13'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
-        # dbc.Row(
-        #     html.Div(
-        #         html.Div(
-        #             html.Div(
-        #                 html.Div(
-        #                     [
-        #                         dcc.Link(html.H4("Why Do Canadians Give? (2013)",className='card-title'), href='/WDC0105_13'),
-        #                         # html.H6("David Lasby",className="text-muted card-subtitle"),
-        #                         # html.P("""
-        #                         # On average, volunteers contributed time to 1.4 causes. Most volunteers contributed time to one cause, just over a quarter to two, and the balance to three.
-        #                         # """,
-        #                         # className='card-text')
-        #                     ]
-        #                 ),
-        #                 className='card-body'
-        #             ),
-        #             className="card"
-        #         ),
-        #         className="col-md-10 col-lg-8"
-        #     )
-        # ),
-        # html.Br(),
+        html.Br(),
+        # html.Hr(),
+        html.Hr(),
+        html.H2("Données 2013"),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien? (2013)",className='card-title'), href='/qui_donne_aux_organismes_caritatifs_et_combien_2013'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("In 2013, just over four fifths of Canadians made financial donations to charitable and nonprofit organizations, contributing approximately $12.8 billion. This story examines how donating patterns (likelihood of donating, typical amounts contributed, etc.) tended to vary according to the personal and economic of characteristics of Canadians.",className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Comment donne-t-on au Canada? (2013)",className='card-title'), href='/comment_donne_t_on_au_canada_2013'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # This story examines the methods Canadians used to donate in 2013, how much they tended to contribute and how these methods varied according to the personal and economic characteristics of donors.
+                                # """),
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Pourquoi donne-t-on au Canada? (2013)",className='card-title'), href='/pourquoi_donne_t_on_au_canada_2013'),
+                                # html.H6("David Lasby",className="text-muted card-subtitle"),
+                                # html.P("""
+                                # This story looks at why Canadians donated in 2013. It looks at how common different donation motivations were, how they varied according to the personal and economic characteristics of donors, and how motivations linked to the amounts donated and causes supported.
+                                # """),
+                                # className='card-text')
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qu'est-ce qui empeche de donner plus? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_donner_plus_2013'),
+                                # html.P(
+                                #     """
+                                #      This story looks at the barriers donors faced in 2013. It examines the factors that limited donations, the impact these barriers had on the amounts typically donated, how they varied according to the personal and economic characteristics of donors, and their linkages with particular causes."""
+                                # )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Who volunteers and how much time do they contribute? (2013)",className='card-title'), href='/who_volunteers_and_how_much_time_do_they_contribute_2013'),
+                                # html.P(
+                                #     """In 2013, just over two fifths of Canadians volunteered for charitable and nonprofit organizations, contributing 2.0 billion volunteer hours. This story looks at how volunteering patterns (likelihood of volunteering, typical hours contributed, etc.) tended to vary according to the personal and economic characteristics of individuals."""
+                                # )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("What do volunteers do? (2013)",className='card-title'), href='/what_do_volunteers_do_2013'),
+                                # html.P(
+                                #     """This story focuses on how Canadians volunteered in 2013. This story examines the activities of volunteers looking at how common each activity was, the hours typically contributed, and how activities vary according to the personal and economic characteristics of volunteers."""
+                                # )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Why do Canadians volunteer? (2013)",className='card-title'), href='/why_do_canadians_volunteer_2013'),
+                                # html.P(
+                                #     """This story looks at why Canadians volunteered in 2013. It looks at how common different volunteer motivations were, how they varied according to the personal and economic characteristics of donors, and how motivations linked to the hours typically contributed and causes supported."""
+                                # )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("WKCV",className='card-title'), href='/what_keeps_canadians_from_volunteering_more_2013'),
+                                # html.P(
+                                #     """This story looks at the barriers volunteers faced in 2013. It examines the factors that limited how much Canadians volunteered, their impact on the hours typically contributed, and how they varied according to the personal and economic characteristics of individuals and the causes volunteers support."""
+                                # )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
+        html.Br(),
  
     ]
 )

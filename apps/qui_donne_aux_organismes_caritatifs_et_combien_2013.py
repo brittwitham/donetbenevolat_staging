@@ -203,7 +203,7 @@ layout = html.Div([
                     ]),
                     # Other Personal & Economic Characteristics
                     html.Div([
-                        html.H5("Autres caractéristiques personnelles et économiques "),
+                        html.H5("Autres caractéristiques personnelles et économiques"),
                         html.P("""
                         Les autres caractéristiques personnelles et économiques significatives sont la situation matrimoniale, la situation d’emploi et le statut d’immigration. D’une façon générale, les personnes mariées ou en union de fait ou veuves étaient plus susceptibles de donner, et ce, en montants supérieurs, de même que les salariés. Les personnes non membres de la population active avaient légèrement moins tendance à donner, mais étaient enclines à se montrer très généreuses quand elles le faisaient. Au chapitre du statut d’immigration, les personnes nouvellement arrivées au Canada donnaient tout aussi souvent que celles nées au Canada, mais le montant de leurs dons était souvent légèrement supérieur. 
                         """),

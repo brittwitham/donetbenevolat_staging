@@ -72,16 +72,27 @@ layout = html.Div([
        dbc.Row([
             html.Div([
                 # html.H3('Giving'),
-                html.P('In addition to measuring overall levels of giving and volunteering, the General Social Survey on Giving, Volunteering, and Participating measures levels of support for 15 types of causes (commonly labelled “activity areas”), including education. As defined by the survey, the education category is made up of universities & colleges and education & research organizations. Universities & colleges are defined as post-secondary degree-granting institutions, including associated professional faculties (business, law, and medical schools, etc.). Education & research organizations focus on elementary, primary and secondary education, vocational and technical education, and adult or continuing education, or research in the social, medical, physical, or technological sciences.'),
-                html.P('Below we look at patterns of giving and volunteering for these organizations. The text describes national level findings; for additional detail, readers can use the pull down menu linked to the interactive data visualizations to show regional level results. While the regional specifics may differ from the national level results described in the text, the overall trends were quite similar.'),
-                html.H4('Donation Levels'),
+                dcc.Markdown("""
+                    En plus de mesurer l’importance générale des dons et du bénévolat à divers niveaux, l’Enquête sociale générale sur les dons, le bénévolat et la participation mesure l’importance des niveaux de soutien pour 15 types de causes (appelées communément « domaines d’activité »), dont l’éducation. Selon la définition de l’Enquête, la catégorie de l’éducation se compose des universités et des collèges et des organismes d’éducation et de recherche. Les universités et les collèges, selon cette définition, sont les établissements qui décernent des diplômes postsecondaires, dont les facultés professionnelles associées (facultés d’administration des affaires, de droit et de médecine, etc.). Les organismes d’éducation et de recherche sont axés sur l’enseignement élémentaire, primaire et secondaire, l’enseignement professionnel et technique et la formation des adultes ou formation continue ou la recherche en sciences sociales, médicales, physiques ou technologiques.
+                    """),
+                    dcc.Markdown("""
+                    Nous analysons ci-dessous les tendances des dons et du bénévolat au bénéfice de ces organismes. Nous décrivons dans le texte ci-dessous les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
+                    """),
+                    html.H3('Montants des dons'),
+                    dcc.Markdown("""
+                    À l’échelle nationale, un peu plus d’une personne sur huit (13 %) au Canada a fait au moins un don à un organisme d’éducation et de recherche par rapport à environ une sur cinquante aux universités et aux collèges (moins de 1 % d’entre elles ont donné aux deux sous-causes) pendant l’année précédant l’Enquête, ce qui place l’éducation au cinquième rang des causes les plus soutenues au Canada. Sur le plan des deux sous-causes, plus d’une personne sur dix au Canada a donné aux organismes d’éducation et de recherche, par comparaison avec une sur cinquante aux universités et aux collèges (moins de 1 % d’entre elles ont donné aux deux sous-causes). Malgré une base de donateur.trice.s relativement large, les organismes d’éducation ont seulement reçu environ 4 % de la valeur totale de dons, répartis à raison de 60 % pour les organismes d’éducation et de recherche et de 40 % pour les universités et les collèges. L’écart entre les dons au bénéfice des deux sous-causes est loin de se limiter à l’écart entre le nombre de personnes qui donnent à l’une ou à l’autre. En effet, en moyenne, les montants donnés aux universités et aux collèges sont plus de quatre fois supérieurs à ceux donnés aux organismes d’éducation et de recherche. Par comparaison avec les niveaux de soutien caractéristiques des autres causes, les donateur.trice.s aux universités et collèges se classaient parmi les partisan.e.s les plus engagé.e.s, tandis que ceux des organismes d’éducation et de recherche faisaient partie des partisan.e.s les moins engagé.e.s. 
+                    """),
                 # Donation rate and average donation amount by cause
                 dcc.Graph(id='EducDonRateAvgDon', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Who Gives'),
-                html.P('Some Canadians are more likely to give to education organizations than others. Nationally, the likelihood of giving increases with level of formal educational attainment and with household income. Looking at age, the likelihood of giving increases strongly until 35 to 44 and then declines somewhat. Other groups that stand out as being more likely to give include women, those who are married or in a common-law relationship, those who are employed, and those who were born in Canada.')], className='col-md-10 col-lg-8 mx-auto' 
+                html.H4('Qui donne de l’argent'),
+                    dcc.Markdown("""
+                    Certaines personnes sont plus enclines que d’autres à donner aux organismes du secteur de l’éducation. À l’échelle nationale, la probabilité de donner augmente avec le niveau d’études et le revenu du ménage. Quant à l’âge, la probabilité de donner augmente fortement jusqu’à l’âge de 35 à 44 ans, puis décline légèrement. Les autres groupes qui se distinguent en étant plus enclins à donner, sont les femmes, les personnes mariées ou en union de fait, les personnes qui occupent un emploi et les personnes nées au Canada. 
+                    """
+                    ),
+                ], className='col-md-10 col-lg-8 mx-auto' 
             ),
             # html.Div([
             #     html.H4('Support for Other Organization Types'),
@@ -90,22 +101,29 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Donation Methods'),
-                html.P('The survey asks respondents whether they donated in response to any of 13 different types of solicitation. While the survey does not tie these methods directly to the cause supported, comparing education donors to non-education donors (i.e., donors who only supported other causes) provides insight into how donors tend to support education organizations. Nationally, education donors are particularly likely to donate by sponsoring someone (such as in an event), in response to door-to-door canvassing, through their place of work, by attending a charity event, or in memory of someone. They are not particularly more likely to donate in places of worship, in response to a television or radio appeal or via other methods not specifically covered by the survey questionnaire.'),
+                html.H4('Méthodes de dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes du secteur de l’éducation et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, les donateur.trice.s du secteur de l’éducation ont particulièrement tendance à donner en parrainant quelqu’un (par exemple, lors d’un événement), en réponse à une sollicitation au porte-à-porte, à leur lieu de travail, en assistant à un événement de bienfaisance ou en mémoire de quelqu’un. Ces personnes ne sont pas particulièrement plus susceptibles de donner dans un lieu de culte, en réponse à un appel à la télévision ou la radio ou par d’autres méthodes non mentionnées expressément dans le questionnaire de l’Enquête.
+                    """),
                 # Donation rate by method
                 dcc.Graph(id='EducDonsMeth', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for donating'),
-                html.P('The survey asks donors whether each of eight potential factors was important to their donation decisions. Again, while there are no direct ties between motivations and causes supported, comparing education donors with non-education donors gives insight into the reasons for supporting these organizations. Nationally, education donors are more likely than non-education donors to contribute because they were asked to contribute by someone they know, are personally affected or know someone who is personally affected by the cause of the organization, to make a contribution to the community and because they will receive a tax credit for donating. Religious and spiritual motivations do not appear to play a particularly significant role in donating decisions for education donors.'),
+                html.H4('Motivations des dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si huit facteurs potentiels jouaient un rôle important dans leurs décisions de donner. Là encore, bien qu’il n’existe aucun lien direct entre les motivations et les causes soutenues, la comparaison des personnes qui donnent aux organismes du secteur de l’éducation et de celles qui donnent aux autres organismes permet de comprendre les raisons de leur soutien de cette catégorie d’organismes. À l’échelle nationale, les donateur.trice.s aux organismes du secteur de l’éducation sont plus susceptibles que les personnes qui donnent aux autres organismes de contribuer financièrement à la suite de leur sollicitation par une personne de leur connaissance, parce que la cause de l’organisme les touche personnellement ou parce qu’elles connaissent une personne dans ce cas, pour apporter une contribution à la collectivité et parce qu’elles recevront un crédit d’impôt pour leur don. Les motivations religieuses et spirituelles ne semblent pas jouer un rôle particulièrement significatif dans les décisions de donner aux organismes du secteur de l’éducation. 
+                    """),
                 # Barriers to donating more
                 dcc.Graph(id='EducMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to donating'),
-                html.P('To gain insight into factors that may discourage donations, donors are asked whether each of ten potential barriers kept them from donating as much as they otherwise would have. Nationally, education donors are more likely than other donors to restrict their donations because they do not like how requests for donations are made and because they believe they have already given enough. Most other barriers have broadly similar impacts as with non-education donors.'),
+                html.H4('Freins aux dons'),
+                    html.P("""
+                    Afin de mieux comprendre les facteurs qui peuvent dissuader de donner, on a demandé aux donateur.trice.s si dix freins potentiels les empêchent de donner plus. À l’échelle nationale, les personnes qui donnent aux organismes du secteur de l’éducation ont plus tendance que les autres donateur.trice.s à limiter leurs dons parce qu’elles n’aiment pas les méthodes de sollicitation et parce qu’elles croient avoir déjà donné assez. Les autres freins ont grosso modo une incidence similaire sur les personnes qui donnent aux organismes d’éducation et sur celles qui donnent aux autres types d’organismes.
+                    """
+                    ),
                 # Barriers to donating more
                 dcc.Graph(id='EducBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -113,16 +131,19 @@ layout = html.Div([
         ]),
        dbc.Row([
             html.Div([
-                html.H3('Volunteering levels'),
-                # html.H4('Levels of Support'),
-                html.P('Nationally, about one in every 11 Canadians (9%) volunteered for an education & research organization during the year prior to the survey, making education the cause with the fourth largest volunteer base. Focusing on the two sub-causes, Canadians are substantially less likely to volunteer for universities & colleges than volunteer for general education & research organizations. Looking at the hours volunteered for the cause, education & research organizations receive just over 9% of total volunteer hours, with hours allocated about 1:2 for universities & colleges vs. general education & research organizations. Nationally, education & research ranks fourth in terms of the proportion of total volunteer hours behind arts & recreation (22%), social services (18%), and religion (16%).'),
+                html.H4("Niveaux de bénévolat"),
+                        html.P("""
+                        À l’échelle nationale, environ une personne sur 11 (9 %) au Canada a fait du bénévolat pour un organisme d’éducation et de recherche pendant l’année qui a précédé l’Enquête, ce qui fait de de la base de bénévoles de l’éducation la quatrième par ordre d’importance. Sur le plan des deux sous-causes, les personnes sont nettement moins enclines à faire du bénévolat pour les universités et les collèges que pour autres types d’organismes d’éducation et de recherche. Quant au nombre d’heures de bénévolat par cause, les organismes d’éducation et de recherche reçoivent un peu plus de 9 % du nombre total d’heures de bénévolat, à raison d’un tiers des heures pour les universités et les collèges et de deux tiers des heures pour les autres types d’organismes d’éducation et de recherche. À l’échelle nationale, les organismes du secteur de l’éducation et de la recherche se classent au quatrième rang du point de vue de la proportion du nombre total d’heures de bénévolat, derrière les organismes des arts et loisirs (22 %), les organismes des services sociaux (18 %) et les organismes religieux (16 %).
+                        """),
                 # Volunteer rate and average hours volunteered by cause
                 dcc.Graph(id='EducVolRateAvgHrs', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Who Volunteers'),
-                html.P('Nationally, groups more likely to volunteer for education organizations include women, those who are single and have never married, and those with either a university degree or a high school diploma or less. Looking at the effect of age, the likelihood of volunteering is highest among those 15 to 24, drops among those 25 to 34, peaks among those 35 to 44 and then drops, likely reflecting different life stages. Volunteering also tends to increase with household income, though households with incomes less than $20,000 deviate somewhat from this pattern, at least at the national level.'),], className='col-md-10 col-lg-8 mx-auto'
+                html.H4("Qui fait du bénévolat"),
+                        html.P("""
+                        À l’échelle nationale, les groupes les plus enclins à faire du bénévolat pour les organismes du secteur de l’éducation sont les femmes, les personnes célibataires et qui ne se sont jamais mariées et celles titulaires soit d’un diplôme universitaire, soit titulaires ou non d’un diplôme d’études secondaires. Quant à l’effet de l’âge, la probabilité de faire du bénévolat est la plus élevée à l’âge de 15 à 24 ans, chute de 25 à 34 ans, culmine de 35 à 44 ans, puis baisse, ce qui correspond vraisemblablement aux différents stades de la vie. Le bénévolat a également tendance à augmenter avec le revenu du ménage, bien que les ménages au revenu inférieur à 20 000 $ s’écartent légèrement de cette tendance, au niveau national du moins.
+                        """),], className='col-md-10 col-lg-8 mx-auto'
             ),
             # html.Div([
             #     html.H4('Support for other organization types'),
@@ -131,22 +152,28 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Volunteer activities'),
-                html.P('The survey asks respondents whether they engaged in any of 14 different types of activities for an organization. While the survey does not tie activities specifically to the types of organization supported, comparing education & research volunteers to non-education & research volunteers provides insight into what volunteers do for these organizations. As one might anticipate, education & research volunteers are comparatively likely to teach and mentor others, but also to organize activities and events, coach or referee, and fundraise. They are comparatively unlikely to provide health care or support or to engage in volunteer activities not specifically mentioned in the survey.'),
+                html.H4("Activités des bénévoles"),
+                        html.P("""
+                        On a demandé aux personnes si, parmi 14 types d’activité différents, elles participaient à 1 ou plusieurs d’entre elles pour un organisme. Bien que l’Enquête ne lie pas précisément les activités aux types d’organismes soutenus, la comparaison des bénévoles des organismes du secteur de l’éducation et de la recherche et des bénévoles des autres organismes permet de comprendre les activités des bénévoles font pour cette catégorie d’organismes. Comme on pouvait s’y attendre, les bénévoles des organismes d’éducation et de recherche ont relativement tendance à enseigner et à servir de mentors, mais aussi à organiser des activités et des événements, à entraîner et à arbitrer dans le cadre sportif et à collecter des fonds. Ces bénévoles sont relativement peu susceptibles de fournir des soins de santé ou du soutien dans ce domaine ou de participer à des activités bénévoles non mentionnées expressément dans le questionnaire. 
+                        """),
                 # Volunteer rate by activity
                 dcc.Graph(id='EducVolActivity', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for volunteering'),
-                html.P('The survey asks volunteers whether each of twelve potential factors was important to their volunteering decisions. Unlike with many other areas of the survey, these motivations are tied specifically to volunteering for particular causes. Nationally, education volunteers are more likely to volunteer in order to improve their job opportunities and to network or meet people. They are less likely to volunteer due to religious or spiritual beliefs, because a family member volunteers or to support some sort of political, environmental or social cause.'),
+                html.H4("Motivations du bénévolat"),
+                        html.P("""
+                        On a demandé aux répondant.e.s si douze facteurs potentiels jouaient un rôle important dans leur décision de faire don de leur temps. Contrairement à de nombreux autres domaines de l’Enquête, ces motivations sont liées précisément au bénévolat au bénéfice de causes particulières. À l’échelle nationale, les personnes qui font du bénévolat pour le secteur de l’éducation sont plus enclines à chercher à améliorer leurs possibilités d’emploi et à réseauter ou à rencontrer des personnes. Elles ont moins tendance à être motivées par des croyances religieuses ou spirituelles, parce qu’un membre de leur famille fait du bénévolat ou par le soutien d’une forme ou d’une autre de cause politique, environnementale ou sociale. 
+                        """),
                 # Motivations for volunteering
                 dcc.Graph(id='EducVolMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to volunteering'),
-                html.P('Volunteers are asked whether each of twelve potential barriers kept them from volunteering more time during the previous year. While barriers are not tied directly to the causes supported, comparing education & research volunteers with non-education & research volunteers provides some useful insight into factors that may be particularly important for these volunteers. Nationally, education volunteers are more likely to limit their volunteering because they don’t have the time. They are somewhat less likely to feel they have already contributed enough time or to have health problems or physical impediments that limit their volunteering.'),
+                html.H4("Freins au bénévolat"),
+                        html.P("""
+                        On a demandé aux bénévoles si douze freins potentiels les avaient empêchés de faire don de plus de temps pendant l’année précédente. Bien que les freins ne soient pas liés directement aux causes soutenues, la comparaison des bénévoles des organismes d’éducation et de recherche et de ceux des autres organismes apporte une information importante sur les facteurs pouvant importer particulièrement aux bénévoles de cette catégorie d’organismes. À l’échelle nationale, les bénévoles du secteur de l’éducation ont plus tendance à limiter leur bénévolat par manque de temps. Ces personnes ont légèrement moins tendance à penser avoir déjà fait don d’assez de temps ou à limiter leur bénévolat en raison de problèmes de santé ou d’obstacles physiques. 
+                        """),
                 # Barriers to volunteering more
                 dcc.Graph(id='EducVolBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -293,7 +320,7 @@ def update_graph(region):
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
-    title = '{}, {}'.format("Volunteer rate and average hours volunteered by cause", region)
+    title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de bénévolat selon la cause", region)
 
     return rate_avg_cause(dff1, dff2, name1, name2, title, vol=True)
 

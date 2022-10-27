@@ -44,7 +44,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1(('DONS ET BÉNÉVOLAT POUR LES ORGANISMES RELIGIEUX').capitalize()),
+                        html.H1(('Dons et bénévolat pour les organismes religieux').capitalize()),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta'
@@ -79,17 +79,28 @@ layout = html.Div([
        dbc.Row([
             html.Div([
                 # html.H3('Giving'),
-                html.P("In addition to measuring general levels of giving and volunteering, the General Social Survey on Giving, Volunteering, and Participating measures levels of support for 15 types of causes (commonly labelled “activity areas”), including religion. These organizations focus primarily on conducting religious rituals and promoting religious beliefs. This includes individual congregations (e.g., single mosques, churchs, synagogues, temples, etc.), associations of congregations, and organizations focusing on specifically religious education such as seminaries."),
-                html.P('Below we look at patterns of giving and volunteering for these organizations. The text describes national level findings; for additional detail, readers can use the pull down menu linked to the interactive data visualizations to show regional level results. While the regional specifics may differ from the national level results described in the text, the overall trends were quite similar.'),
-                html.H4('Donation Levels'),
-                html.P('Nationally, one in four Canadians made at least one donation to religious organizations during the one year period prior to the survey, making religion the third most commonly supported cause. Religion organizations were much more highly ranked in terms of the amounts donated, accounting for nearly half (46%) of total donations, more than any other cause. Looking at the average amounts donated, religious donors gave far more than donors to any other cause, making them the most committed supporters by a significant margin.'),
+                dcc.Markdown("""
+                    En plus de mesurer l’importance générale des dons et du bénévolat à divers niveaux, l’Enquête sociale générale sur les dons, le bénévolat et la participation mesure l’importance des niveaux de soutien pour 15 types de causes (appelées communément « domaines d’activité »), dont la religion. Ces organismes sont axés principalement sur la pratique des rituels religieux et la promotion des croyances religieuses. Ce sont des congrégations individuelles (c.-à-d. mosquées, églises, synagogues, temples, etc. uniques), des associations de congrégations et des organismes axés sur une éducation religieuse particulière, comme les séminaires. 
+                    """),
+                    dcc.Markdown("""
+                    Nous analysons ci-dessous les tendances des dons et du bénévolat au bénéfice de ces organismes. Nous décrivons dans le texte ci-dessous les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
+                    """),
+                    html.H4('Montants des dons'),
+                    dcc.Markdown("""
+                    À l’échelle nationale, une personne sur quatre au Canada a fait au moins un don à un organisme religieux pendant la période d’une année qui a précédé l’Enquête, ce qui place la religion au troisième rang des causes les plus soutenues au Canada. Le classement des organismes religieux sur le plan des montants donnés était largement supérieur, en représentant près de la moitié de la valeur totale (46 %) des dons, plus que toutes les autres causes. Quant au montant moyen des dons, les donateur.trice.s aux organismes religieux donnaient des montants très supérieurs aux montants des dons au bénéfice des autres causes, ce qui en fait, et de loin, les partisan.e.s les plus engagé.e.s. 
+                    """),
                 # Donation rate and average donation amount by cause
                 dcc.Graph(id='DonRateAvgDon2', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(
-                [html.H4('Who Gives'),
-                html.P('Some Canadians are more likely to give to religion organizations than others. Nationally, the likelihood of giving to these organizations increases significantly with the frequency of attending religious services and with age. Other groups more likely to give to religion organizations include women, widows and widowers, those not in the labour force, those with a university degree, and New Canadians.'),],
+                [
+                html.H4('Qui donne de l’argent'),
+                    dcc.Markdown("""
+                    Certaines personnes sont plus enclines que d’autres à donner aux organismes religieux. À l’échelle nationale, la probabilité de donner à ces organismes augmente de manière significative avec l’assiduité aux offices religieux et avec l’âge. Les autres groupes plus enclins à donner aux organismes religieux sont les femmes, les veuves et les veufs, les personnes non membres de la population active, celles titulaires d’un diplôme universitaire et celles qui sont nouvellement arrivées au Canada. 
+                    """
+                    ),
+                ],
             className='col-md-10 col-lg-8 mx-auto'),
             # html.Div([
             #     html.H4('Support for Other Organization Types'),
@@ -98,23 +109,30 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Donation Methods'),
-                html.P('The survey asks respondents whether they donated in response to any of 13 different types of solicitation. While the survey does not tie these methods directly to the cause supported, comparing religion donors to non-religion donors (i.e., donors who only supported other causes) provides insight into how donors tend to support religion organizations. Nationally, as one would expect, religion donors are vastly more likely to donate in a place of worship, but also more likely to donate in memory of someone, on their own initiative, and in response to a mail request. Religion donors are less likely than other donors to donate in response to an online request, after being approached in a public place, or in any other way not specifically covered by the survey questionnaire.'),
+                html.H4('Méthodes de dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes religieux et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, comme on pouvait s’y attendre, ces personnes sont largement plus susceptibles de donner dans un lieu de culte, mais aussi plus susceptibles de donner en mémoire de quelqu’un, de leur propre initiative et en réponse à une sollicitation par courrier. Elles sont également moins susceptibles que les autres donateur.trice.s de donner en réponse à une sollicitation en ligne, dans un lieu public ou de toute autre façon non mentionnée expressément dans le questionnaire de l’Enquête.
+                    """),
                 # Donation rate by method
                 dcc.Graph(id='ReligionDonsMeth', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for donating'),
-                html.P("The survey asks donors whether each of eight potential factors was important to their donation decisions. Again, while there are no direct ties between motivations and causes supported, comparing religion donors with non-religion donors gives insight into the reasons for supporting these organizations. As one would expect, religion donors are much more likely to donate because of their religious and spiritual beliefs. In addition, they are comparatively likely to donate in order to make a contribution to the community and because they will receive tax credits in return for donating."),
+                html.H4('Motivations des dons'),
+                    dcc.Markdown("""
+                    On a demandé aux répondant.e.s à l’Enquête si huit facteurs potentiels jouaient un rôle important dans leurs décisions de donner. Là encore, bien qu’il n’existe aucun lien direct entre les motivations et les causes soutenues, la comparaison des personnes qui donnent aux organismes religieux et de celles qui donnent aux autres organismes permet de comprendre les raisons de leur soutien des organismes religieux. Comme on pouvait s’y attendre, les personnes qui donnent aux organismes religieux sont beaucoup plus enclines à donner en raison de leurs croyances religieuses et spirituelles. De plus, elles ont relativement tendance à donner pour contribuer à la collectivité et parce qu’elles reçoivent des crédits d’impôt en échange de leurs dons. 
+                    """),
                 # Barriers to donating more
                 # dcc.Graph(id='ReligionMotivations', style={'marginTop': marginTop}),
                 dcc.Graph(id='ReligionMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to donating'),
-                html.P("To gain insight into factors that may discourage donations, donors are asked whether each of ten potential barriers kept them from donating as much as they otherwise would have. Nationally, religion donors are more likely than other donors to give directly to those in need rather than donating more to an organization and to volunteer instead. All other barriers have roughly comparable impacts on religion and non-religion donors."),
+                html.H4('Freins aux dons'),
+                    html.P("""
+                    Afin de mieux comprendre les facteurs qui peuvent dissuader de donner, on a demandé aux donateur.trice.s si dix freins potentiels les empêchent de donner plus. À l’échelle nationale, les personnes qui donnent aux organismes religieux ont beaucoup plus tendance que celles qui donnent aux autres organismes à donner directement aux personnes dans le besoin au lieu de donner plus à un organisme et à faire du bénévolat de préférence à des dons d’argent. Tous les autres freins ont grosso modo une incidence comparable sur les personnes qui donnent aux organismes religieux et sur celles qui qui donnent aux autres types d’organismes. 
+                    """
+                    ),
                 # Barriers to donating more
                 dcc.Graph(id='ReligionBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -122,16 +140,20 @@ layout = html.Div([
         ]),
        dbc.Row([
             html.Div([
-                html.H3('Volunteering Levels'),
-                # html.H4('Levels of Support'),
-                html.P('Nationally, about one in every 12 Canadians (8%) volunteered for a religion organization during the year prior to the survey. Comparatively speaking, religion has the fifth largest volunteer base behind arts & recreation (12%), social services, education & research (9%), and health (9%). Because religion volunteers tend to contribute comparatively large amounts of time, religion accounts for the third highest proportion of total volunteer hours (16%), behind arts & recreation (23%) and social services (18%), and ahead of education & research and health (9% each).'),
+                html.H4("Niveaux de bénévolat"),
+                        html.P("""
+                        À l’échelle nationale, environ une personne sur 12 (8 %) au Canada a fait du bénévolat pour un organisme religieux pendant l’année qui a précédé l’Enquête. Par comparaison avec les autres organismes, les organismes religieux disposent de la cinquième base de bénévoles par ordre d’importance, derrière le secteur des arts et loisirs (12 %), des services sociaux, de l’éducation et de la recherche (9 %), et de la santé (9 %). Comme les bénévoles des organismes religieux ont tendance à faire don d’un nombre d’heures de leur temps relativement élevé, les organismes religieux représentent la troisième proportion des heures de bénévolat par ordre d’importance (16 %), après les organismes des secteurs des arts et loisirs (23 %) et des services sociaux (18 %), et avant ceux des secteurs de l’éducation et de la recherche, et de la santé (9 % chacun).
+                        """),
                 # Volunteer rate and average hours volunteered by cause
                 dcc.Graph(id='VolRateAvgHrs2', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Who Volunteers'),
-                html.P('National, the likelihood of volunteering for a religion organization increases with frequency of attendance at religious services and with age (among those 25 and over). Very broadly speaking, the demographic associations with volunteering are quite similar to those with donating, though the trends are not as strongly expressed.'),], className='col-md-10 col-lg-8 mx-auto'
+                 html.H4("Qui fait du bénévolat"),
+                        html.P("""
+                        À l’échelle nationale, la probabilité de faire du bénévolat pour un organisme religieux augmente avec l’assiduité aux offices religieux et avec l’âge (chez les personnes âgées de 25 ans ou plus). Dans un sens très large, les associations entre le profil démographique et le bénévolat sont très semblables à ces associations avec les dons, bien qu’elles ne soient pas aussi nettes. 
+                        """),
+                ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # html.Div([
             #     html.H4('Support for other organization types'),
@@ -140,22 +162,28 @@ layout = html.Div([
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
-                html.H4('Volunteer activities'),
-                html.P('The survey asks respondents whether they engaged in any of 14 different types of activities for an organization. While the survey does not tie activities specifically to the types of organization supported, comparing religion volunteers to non-religion volunteers provides insight into what volunteers do for these organizations. Nationally, religion volunteers are comparatively likely to engage in many activities, most notably collecting, serving or delivering goods or food, teaching or mentoring, repairing, maintaining or building facilities, and driving. They are comparatively less likely to coach, teach or referee or to engage in environmental protection activities.'),
+                html.H4("Activités des bénévoles"),
+                        html.P("""
+                        On a demandé aux personnes si, parmi 14 types d’activité différents, elles participaient à 1 ou plusieurs d’entre elles pour un organisme. Bien que l’Enquête ne lie pas précisément les activités aux types d’organismes soutenus, la comparaison des bénévoles des organismes religieux et des bénévoles des autres organismes permet de comprendre les activités des bénévoles pour cette catégorie d’organismes. À l’échelle nationale, les bénévoles des organismes religieux sont relativement susceptibles de participer à de nombreuses activités, plus particulièrement collecter et livrer des marchandises ou collecter de la nourriture et servir des repas, enseigner ou mentorer, réparer, entretenir ou construire des installations et conduire. Ces bénévoles sont relativement moins susceptibles d’entraîner, d’enseigner ou d’arbitrer dans le cadre sportif et de participer à des activités de protection de l’environnement.
+                        """),
                 # Volunteer rate by activity
                 dcc.Graph(id='ReligionVolActivity', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Motivations for volunteering'),
-                html.P('The survey asks volunteers whether each of twelve potential factors was important to their volunteering decisions. Unlike with many other areas of the survey, these motivations are tied specifically to volunteering for particular causes. Nationally, the biggest motivational differences with religion volunteers are that they are much more likely to volunteer for religious or spiritual reasons. In addition, they are somewhat more likely to volunteer because a family member and/or friends volunteer and because they are personally affected by the cause. They are somewhat less likely to seek to improve their job opportunities through volunteering or to support a political or social cause.'),
+                html.H4("Motivations du bénévolat"),
+                        html.P("""
+                        On a demandé aux répondant.e.s si douze facteurs potentiels jouaient un rôle important dans leur décision de faire don de leur temps. Contrairement à de nombreux autres domaines de l’Enquête, ces motivations sont liées précisément au bénévolat au bénéfice de causes particulières. À l’échelle nationale, les différences les plus importantes qui distinguent les bénévoles des organismes religieux sont liées au rôle beaucoup plus important de leurs motivations religieuses ou spirituelles. De plus, ces personnes sont légèrement plus enclines à faire du bénévolat parce qu’un membre de leur famille ou des amis sont des bénévoles et parce qu’elles sont touchées personnellement par la cause. Elles ont légèrement moins tendance à chercher à améliorer leurs possibilités d’emploi en faisant du bénévolat ou à soutenir une cause politique ou sociale. 
+                        """),
                 # Motivations for volunteering
                 dcc.Graph(id='ReligionVolMotivations', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Barriers to volunteering'),
-                html.P('Volunteers are asked whether each of twelve potential barriers kept them from volunteering more time during the previous year. While barriers are not tied directly to the causes supported, comparing religion volunteers with non-religion volunteers provides some useful insight into factors that may be particularly important for these volunteers. Nationally, religion volunteers are slightly more likely to limit their volunteering because of health problems or physical limitations. They are less likely to feel that the volunteer activities they are asked to do are insufficiently meaningful or to not have been asked to volunteer further. Most other differences are not as individually significant, though it is noteworthy that religion volunteers are fairly consistently less likely to report most potential barriers.'),
+                html.H4("Freins au bénévolat"),
+                        html.P("""
+                        On a demandé aux bénévoles si douze freins potentiels les avaient empêchés de faire don de plus de temps pendant l’année précédente. Bien que les freins ne soient pas liés directement aux causes soutenues, la comparaison des bénévoles des organismes religieux et des personnes qui font don de leur temps aux autres organismes apporte une information importante sur les facteurs qui peuvent importer particulièrement aux bénévoles de cette catégorie d’organismes. À l’échelle nationale, les bénévoles des organismes religieux ont légèrement plus tendance à limiter leur bénévolat en raison de problèmes de santé ou de limitations physiques. Ces personnes sont moins susceptibles de penser que les activités bénévoles qu’on demande d’elles ne sont pas suffisamment importantes ou de ne pas avoir été sollicitées pour en faire plus. La majorité des autres différences ne sont pas individuellement significatives, bien qu’il importe de signaler que les bénévoles des organismes religieux signalent plutôt moins souvent la plupart des freins potentiels. 
+                        """),
                 # Barriers to volunteering more
                 dcc.Graph(id='ReligionVolBarriers', style={'marginTop': marginTop}), 
                 ], className='col-md-10 col-lg-8 mx-auto'

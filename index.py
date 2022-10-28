@@ -37,6 +37,10 @@ from apps import (
     WDC010513_fr,
     WKC010613_fr,
     HDC010213_fr,
+    WDA010113_fr,
+    WDV020213_fr,
+    WDC020513_fr,
+    WKC020613_fr,
 
 )
 
@@ -125,15 +129,15 @@ def display_page(pathname):
     elif pathname == '/pourquoi_donne_t_on_au_canada_2013': 
         return WDC010513_fr.layout
     elif pathname == '/pourquoi_fait_on_du_benevolat_2013': 
-        return pourquoi_fait_on_du_benevolat_2013.layout
+        return WDC020513_fr.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013': 
         return WKC010613_fr.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013': 
-        return qu_est_ce_qui_empeche_de_faire_du_benevolat_2013.layout
+        return WKC020613_fr.layout
     elif pathname == '/quelles_sont_les_activites_des_benevoles_2013': 
-        return quelles_sont_les_activites_des_benevoles_2013.layout
+        return WDV020213_fr.layout
     elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013': 
-        return qui_donne_aux_organismes_caritatifs_et_combien_2013.layout
+        return WDA010113_fr.layout
     elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013': 
         return qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013.layout
     # WDC010513_fr,

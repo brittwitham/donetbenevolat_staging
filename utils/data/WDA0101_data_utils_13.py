@@ -102,4 +102,4 @@ def get_region_names():
                          'Newfoundland and Labrador'], dtype=str)
 
 def get_region_values():
-    return np.array(['CA', 'BC', 'AB', 'PR', 'SK', 'MB', 'ON', 'QC', 'AT', 'NB', 'NS', 'PE', 'NL'], dtype=object)
+    return np.array(['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT'], dtype=object)

@@ -124,7 +124,7 @@ def translate(df):
 
 
 def get_region_values():
-    return np.array(['CA', 'BC', 'AB', 'PR', 'SK', 'MB', 'ON', 'QC', 'AT', 'NB', 'NS', 'PE', 'NL'], dtype=object)
+    return np.array(['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT'], dtype=object)
 
 def get_region_names():
     return np.array(['Canada',

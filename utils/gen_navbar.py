@@ -14,7 +14,7 @@ def gen_navbar(alt_lang_link):
         ],
         brand="Canadian Knowledge Hub for Giving and Volunteering",
         brand_href="/",
-        color="#4B161D",  # c7102e
+        color="#4B161D",
         dark=True,
         sticky='top'
     )

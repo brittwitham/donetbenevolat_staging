@@ -351,7 +351,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                          range = [0, 1.25*max(dff2["CI Upper"])])
 
     fig.update_layout(title={'text': title,
-                             'y': 0.95},
+                             'y': 0.966},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 30},
                       height=400,
                       bargroupgap=0.05,

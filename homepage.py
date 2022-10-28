@@ -487,7 +487,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien?",className='card-title'), href='/qui_donne_aux_organismes_caritatifs_et_combien_2013'),
+                                dcc.Link(html.H4("Qui donne aux organismes caritatifs et combien? (2013)",className='card-title'), href='/qui_donne_aux_organismes_caritatifs_et_combien_2013'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("En 2013, un peu plus de quatre cinquièmes des personnes au Canada ont contribué financièrement aux organismes de bienfaisance et à but non lucratif, leurs contributions se chiffrant environ à 12,8 milliards $. Cette analyse porte sur les variations générales des tendances (probabilité de donner, montants habituels des contributions, etc.) selon les caractéristiques personnelles et économiques des donateur.trice.s",className='card-text')
                             ]
@@ -506,7 +506,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Comment donne-t-on au Canada?",className='card-title'), href='/comment_donne_t_on_au_canada_2013'),
+                                dcc.Link(html.H4("Comment donne-t-on au Canada? (2013)",className='card-title'), href='/comment_donne_t_on_au_canada_2013'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Cette analyse des méthodes de dons des personnes au Canada en 2013 porte sur les montants qu’elles avaient tendance à donner et sur les variations de ces méthodes selon les caractéristiques personnelles et économiques des donateur.trice.s..
@@ -528,7 +528,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Pourquoi donne-t-on au Canada?",className='card-title'), href='/pourquoi_donne_t_on_au_canada_2013'),
+                                dcc.Link(html.H4("Pourquoi donne-t-on au Canada? (2013)",className='card-title'), href='/pourquoi_donne_t_on_au_canada_2013'),
                                 # html.H6("David Lasby",className="text-muted card-subtitle"),
                                 html.P("""
                                 Cette analyse des motivations des dons des personnes au Canada en 2013 porte sur les différentes motivations courantes, sur leurs variations selon les caractéristiques personnelles et économiques des donateur.trice.s. et sur les liens entre les motivations et les montants des dons et les causes soutenues.
@@ -550,7 +550,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qu’est-ce qui empêche de donner plus?",className='card-title'), href='/qu_est_ce_qui_empeche_de_donner_plus_2013'),
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de donner plus? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_donner_plus_2013'),
                                 html.P(
                                     """
                                     Cette analyse des freins rencontrés par les donateur.trice.s en 2013 porte sur les facteurs qui ont limité les dons, sur l’incidence de ces freins sur les montants habituels des dons, sur les variations de ceux-ci selon les caractéristiques personnelles et économiques des donateur.trice.s. et sur leurs liens avec des causes particulières.
@@ -572,7 +572,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qui sont les bénévoles et combien d’heures donnent-ils?",className='card-title'), href='/quelles_sont_les_activites_des_benevoles_2013'),
+                                dcc.Link(html.H4("Qui sont les bénévoles et combien d’heures donnent-ils? (2013)",className='card-title'), href='/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013'),
                                 html.P(
                                     """En 2013, un peu plus de deux cinquièmes des personnes au Canada ont fait du bénévolat pour les organismes de bienfaisance et à but non lucratif en leur faisant don de 2 milliards d’heures de leur temps. Cette analyse porte sur les variations générales des tendances (probabilité de faire du bénévolat, nombre habituel d’heures de bénévolat, etc.) selon les caractéristiques personnelles et économiques des bénévoles."""
                                 )
@@ -592,7 +592,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Quelles sont les activités des bénévoles?",className='card-title'), href='/quelles_sont_les_activites_des_benevoles_2013'),
+                                dcc.Link(html.H4("Quelles sont les activités des bénévoles? (2013)",className='card-title'), href='/quelles_sont_les_activites_des_benevoles_2013'),
                                 html.P(
                                     """Cette analyse des activités des bénévoles au Canada en 2013 porte sur la fréquence de chaque activité, le nombre habituel d’heures de bénévolat et les variations de ces activités selon les caractéristiques personnelles et économiques des bénévoles."""
                                 )
@@ -612,7 +612,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Pourquoi fait-on du bénévolat?",className='card-title'), href='/pourquoi_fait_on_du_benevolat_2013'),
+                                dcc.Link(html.H4("Pourquoi fait-on du bénévolat? (2013)",className='card-title'), href='/pourquoi_fait_on_du_benevolat_2013'),
                                 html.P(
                                     """Cette analyse des motivations des bénévoles au Canada en 2013 porte sur les différentes motivations courantes des bénévoles, sur les variations de ces activités selon les caractéristiques personnelles et économiques des bénévoles et sur les liens entre les motivations et le nombre habituel d’heures de bénévolat et les causes soutenues."""
                                 )
@@ -632,7 +632,7 @@ content = dbc.Container(
                     html.Div(
                         html.Div(
                             [
-                                dcc.Link(html.H4("Qu’est-ce qui empêche de faire du bénévolat?",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de faire du bénévolat? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
                                 html.P(
                                     """Cette analyse des freins rencontrés par les bénévoles au Canada en 2013 porte sur les facteurs qui ont limité leur nombre d’heures de bénévolat, sur l’incidence de ces freins sur le nombre habituel d’heures de bénévolat, sur les variations des heures de bénévolat selon les caractéristiques personnelles et économiques des bénévoles et les causes soutenues par les bénévoles."""
                                 )

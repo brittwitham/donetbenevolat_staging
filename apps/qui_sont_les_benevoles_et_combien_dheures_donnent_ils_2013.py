@@ -214,6 +214,7 @@ layout = html.Div([
                     ]),
                         
                     html.Div([
+                    html.H5("Autres facteurs"),
                     dcc.Markdown("""
                     Étant donné leur taux de bénévolat supérieur et le nombre d’heures de bénévolat significativement plus important dont elles avaient tendance à faire don, les personnes présentes chaque semaine aux offices religieux représentaient une proportion des heures de bénévolat très supérieure à leur représentation au sein de la population. Les personnes qui n’assistaient pas aux services religieux représentaient une proportion des heures de bénévolat significativement inférieure à celle que leur nombre permettait de présager.
                     """),
@@ -223,10 +224,10 @@ layout = html.Div([
                         
                     # Other Factors
                     html.Div([
-                        html.H5("Autres facteurs"),
-                        html.P("""
-                        Au chapitre de la situation d’emploi, les personnes employées étaient plus susceptibles de faire du bénévolat que les personnes non membres de la population active, bien que ces dernières avaient tendance à faire don de plus d’heures quand elles faisaient effectivement du bénévolat. Ces deux tendances s’annulaient largement, la répartition des heures de bénévolat suivant d’assez près la population dans son ensemble. Quant au statut d’immigration, les personnes nées au Canada avaient légèrement plus tendance à faire du bénévolat que les personnes nouvellement arrivées au Canada, mais pas suffisamment pour créer une différence significative dans la répartition du nombre total d’heures de bénévolat.
-                        """),
+                        # html.H5("Autres facteurs"),
+                        # html.P("""
+                        # Au chapitre de la situation d’emploi, les personnes employées étaient plus susceptibles de faire du bénévolat que les personnes non membres de la population active, bien que ces dernières avaient tendance à faire don de plus d’heures quand elles faisaient effectivement du bénévolat. Ces deux tendances s’annulaient largement, la répartition des heures de bénévolat suivant d’assez près la population dans son ensemble. Quant au statut d’immigration, les personnes nées au Canada avaient légèrement plus tendance à faire du bénévolat que les personnes nouvellement arrivées au Canada, mais pas suffisamment pour créer une différence significative dans la répartition du nombre total d’heures de bénévolat.
+                        # """),
                         # Volunteer rate & average volunteer hours by labour force status graph
                         # dcc.Graph(id='ActivityVolRate-Labour', style={'marginTop': marginTop}),
                         # Volunteer rate & average volunteer hours by immigration status

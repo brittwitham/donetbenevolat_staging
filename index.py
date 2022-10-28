@@ -41,6 +41,7 @@ from apps import (
     WDV020213_fr,
     WDC020513_fr,
     WKC020613_fr,
+    WVA020113_fr
 
 )
 
@@ -139,7 +140,7 @@ def display_page(pathname):
     elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013': 
         return WDA010113_fr.layout
     elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013': 
-        return qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013.layout
+        return WVA020113_fr.layout
     # WDC010513_fr,
     # WKC010613_fr
     # elif pathname == '/HDC0102_13':

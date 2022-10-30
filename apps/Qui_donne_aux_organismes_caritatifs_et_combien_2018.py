@@ -12,7 +12,8 @@ from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_
 from utils.data.WDA0101_data_utils import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values, translate
 
 from app import app
-from homepage import footer #navbar, footer
+from homepage import footer
+from utils.home_button import gen_home_button #navbar, footer
 
 ####################### Data processing ######################
 
@@ -51,7 +52,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -76,9 +77,10 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
@@ -52,6 +54,7 @@ navbar = dbc.NavbarSimple(
         sticky='top'
     )
 marginTop = 20
+home_button = gen_home_button()
 
 layout = html.Div([
     navbar,
@@ -75,10 +78,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # Dropdown menu
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

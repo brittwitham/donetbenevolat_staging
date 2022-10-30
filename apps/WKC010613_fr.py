@@ -6,6 +6,7 @@ import pandas as pd
 
 from utils.data.WDA0101_data_utils import get_region_values
 from utils.data.WDC0105_data_utils import get_region_names
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -48,7 +49,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -71,9 +72,10 @@ layout = html.Div([
                 )
             )
         ),
+        home_button
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
 
     dbc.Container([

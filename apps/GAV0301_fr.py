@@ -1,3 +1,4 @@
+from imp import get_frozen_object
 import dash
 from dash import dcc, html
 import plotly.graph_objects as go
@@ -5,6 +6,7 @@ import numpy as np
 import pandas as pd
 
 from utils.gen_navbar import gen_navbar
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -28,7 +30,7 @@ region_names = get_region_names()
 ###################### App layout ######################
 
 marginTop = 20
-
+home_button = gen_home_button()
 navbar = gen_navbar("giving_and_volunteering_for_health_organizations")
 
 layout = html.Div([
@@ -53,10 +55,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # dropdown menu
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

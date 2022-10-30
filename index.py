@@ -22,18 +22,8 @@ from apps import (
     GAV0303_fr, # education
     GAV0304_fr, # services sociaux
     GAV0305_fr, # loisirs
-    les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018,
     les_dons_et_le_benevolat_des_jeunes_2018,
-    les_dons_et_le_benevolat_des_personnes_agees_2018,
     # 2013 data
-    comment_donne_t_on_au_canada_2013,
-    pourquoi_donne_t_on_au_canada_2013,
-    pourquoi_fait_on_du_benevolat_2013,
-    qu_est_ce_qui_empeche_de_donner_plus_2013,
-    qu_est_ce_qui_empeche_de_faire_du_benevolat_2013,
-    quelles_sont_les_activites_des_benevoles_2013,
-    qui_donne_aux_organismes_caritatifs_et_combien_2013,
-    qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013,
     WDC010513_fr,
     WKC010613_fr,
     HDC010213_fr,
@@ -44,7 +34,6 @@ from apps import (
     WVA020113_fr,
     GAV0306_fr,
     GAV0307_fr
-
 
 )
 

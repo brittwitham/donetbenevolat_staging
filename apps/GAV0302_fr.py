@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 
 from utils.gen_navbar import gen_navbar
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
@@ -37,7 +38,7 @@ region_names = get_region_names()
 ###################### App layout ######################
 
 marginTop = 20
-
+home_button = gen_home_button()
 navbar = gen_navbar("giving_and_volunteering_for_religious_organizations")
 
 layout = html.Div([
@@ -62,10 +63,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

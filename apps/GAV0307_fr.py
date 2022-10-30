@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os.path as op
@@ -118,7 +120,7 @@ region_names = np.array(['Canada',
 ###################### App layout ######################
 
 marginTop = 20
-
+home_button = gen_home_button()
 navbar = gen_navbar("giving_and_volunteering_by_seniors")
 
 layout = html.Div([
@@ -143,10 +145,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
+        home_button,
         dbc.Row(
             dbc.Col(
                 html.Div([

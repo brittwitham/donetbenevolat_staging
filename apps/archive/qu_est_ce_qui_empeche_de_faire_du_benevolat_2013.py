@@ -60,7 +60,7 @@ layout = html.Div([
                     )
                 )
             ),
-        ], className="bg-secondary text-white text-center py-4",
+        ], className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
         dbc.Row([

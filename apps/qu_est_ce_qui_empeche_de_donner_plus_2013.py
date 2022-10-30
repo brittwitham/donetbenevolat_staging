@@ -258,7 +258,7 @@ layout = html.Div([
                         ],
                         className='col-md-10 col-lg-8 mx-auto mt-4'),
                         html.Div([
-                           dcc.Graph(id='Barriers-Relig_13', style={'marginTop': marginTop}),
+                           dcc.Graph(id='Barriers-Immstat_13', style={'marginTop': marginTop}),
                         ]),
                         ]),
                     # Other Factors
@@ -354,3 +354,18 @@ footer
 #     title = '{}, {}'.format("Répartition du soutien par cause", region)
 
 #     return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)
+
+
+@app.callback(
+    dash.dependencies.Output('Barriers-Immstat_13', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('barrier-selection-religion', 'value')
+    ])
+def update_graph(region, barrier):
+    dff = Barriers_2018[Barriers_2018['Region'] == region]
+    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
+    dff = dff[dff["Group"] == "Immigration status"]
+    dff = dff[dff["QuestionText"] == barrier]
+    title = '{}, {}'.format("Barriers reported by immigration status", region)
+    return single_vertical_percentage_graph(dff, title)

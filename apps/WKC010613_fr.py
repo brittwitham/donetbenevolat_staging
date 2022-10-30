@@ -140,7 +140,7 @@ layout = html.Div([
             html.Div(
                 [
                     html.H5("Aversion à l’égard des méthodes de sollicitation"),
-                    html.P("On a demandé aux personnes qui s’abstenaient de donner plus par aversion à l’égard des méthodes de sollicitation d’indiquer ce qui leur déplaisait dans les sollicitations qu’elles avaient reçues. Dans l’ensemble, le nombre de demandes de dons reçues est clairement une préoccupation importante. À l’échelle nationale, environ la moitié des personnes qui limitent leurs dons parce qu’elles n’aiment pas les sollicitations qu’elles reçoivent ont cité les multiples demandes émanant du même organisme et le nombre total de demandes reçues pour expliquer leur manque de soutien. Quant aux autres facteurs, environ la moitié de ces personnes n’aimaient pas les méthodes employées par les organismes pour solliciter des dons; environ deux cinquièmes des personnes dans ce cas n’aimaient pas le ton employé à cette fin et un peu moins d’un tiers d’entre elles n’aimaient pas l’heure de la journée à laquelle elles recevaient habituellement ces sollicitations."),
+                    html.P("Les personnes qui s’abstenaient de donner plus par aversion à l’égard des méthodes de sollicitation ont été priées d’indiquer précisément ce qui leur déplaisait dans les sollicitations reçues. Le ton des sollicitations était de loin l’aspect qui leur déplaisait. Environ la moitié des d’entre elles n’aimaient pas recevoir plusieurs demandes de dons du même organisme et étaient tout aussi nombreuses à ne pas aimer le nombre de demandes qu’elles recevaient de différents organismes. Les personnes avaient relativement moins tendance à ne pas aimer les autres aspects des sollicitations, comme les méthodes employées pour prendre contact avec elles où l’heure à laquelle on les sollicitait, mais ces raisons étaient quand même citées par une personne sur vingt. Fait intéressant, environ un tiers des personnes qui éprouvaient de l’aversion pour leurs sollicitations l’expliquaient pour d’autres raisons que celles mentionnées expressément par le questionnaire de l’enquête."),
                     # Reasons for disliking solicitations.
                     dcc.Graph(id='DislikeSolicitations_13', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -149,6 +149,8 @@ layout = html.Div([
             html.Div(
                 [
                     html.Div([
+                        html.H4('Caractéristiques personnelles et économiques'),
+                        html.P("Toutes les personnes au Canada ne font pas face aux mêmes freins et n’y réagissent pas de la même façon. L’incidence de nombreux freins variait selon leurs caractéristiques personnelles et économiques. Nous analysons ci-dessous les variations des freins aux dons selon certains des facteurs démographiques les plus importants. Là encore, nous présentons dans le texte les résultats au niveau national, mais vous pourrez utiliser le menu déroulant pour passer en revue les résultats au niveau national."),
                         html.H3("Genre"),
                         html.P("""
                         À l’échelle nationale, les hommes faisaient état des principaux freins légèrement plus souvent que les femmes. Les différences ne variaient normalement pas beaucoup, mais cette tendance était très uniforme. Les hommes avaient plus particulièrement tendance à croire que des dons supplémentaires ne seraient pas utilisés efficacement, à ne pas aimer la méthode employée pour solliciter leurs dons et à avoir de la difficulté à trouver des causes dignes de leur soutien. Ne pas avoir les moyens financiers de donner plus était le seul frein dont les hommes avaient significativement moins tendance à faire état.
@@ -255,7 +257,7 @@ layout = html.Div([
                         html.Div([
                         "Sélectionnez une barrière:",
                         dcc.Dropdown(
-                          id='barrier-selection-religion',
+                          id='barrier-selection-immstat',
                           options=[{'label': barriers_names[i], 'value': barriers_names[i]} for i in range(len(barriers_names))],
                           value='Montant déjà donné suffisant',
                           style={'verticalAlgin': 'middle'}
@@ -263,7 +265,7 @@ layout = html.Div([
                       ],
                      className='col-md-10 col-lg-8 mx-auto mt-4'),
                         html.Div([
-                           dcc.Graph(id='Barriers-Relig_13', style={'marginTop': marginTop}),
+                           dcc.Graph(id='Barriers-Immstat_fr', style={'marginTop': marginTop}),
                         ]),
                     ]),
                     # Other personal & economic characteristics
@@ -459,7 +461,7 @@ def update_graph(region, barrier):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == "Fréquence de la fréquentation religieuse"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon la pratique religiouse", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon la statut d'immigration", region)
     return single_vertical_percentage_graph(dff, title)
 
 # @app.callback(
@@ -494,17 +496,17 @@ def update_graph(region, barrier):
 
 
 @app.callback(
-    dash.dependencies.Output('Barriers-Immstat', 'figure'),
+    dash.dependencies.Output('Barriers-Immstat_fr', 'figure'),
     [
         dash.dependencies.Input('region-selection-fr', 'value'),
-        dash.dependencies.Input('barrier-selection', 'value')
+        dash.dependencies.Input('barrier-selection-immstat', 'value')
     ])
 def update_graph(region, barrier):
     dff = Barriers_2018[Barriers_2018['Region'] == region]
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Immigration status"]
+    dff = dff[dff["Group"] == "Statut d'immigration"]
     dff = dff[dff["QuestionText"] == barrier]
-    title = '{}, {}'.format("Barriers reported by immigration status", region)
+    title = '{}, {}'.format("Barrière de donateurs: " + str(barrier) + " selon la statut d'immigration", region)
     return single_vertical_percentage_graph(dff, title)
 
 @app.callback(

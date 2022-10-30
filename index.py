@@ -136,6 +136,7 @@ def display_page(pathname):
         return WDC020513_fr.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013': 
         return WKC010613_fr.layout
+        # return qu_est_ce_qui_empeche_de_donner_plus_2013.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013': 
         return WKC020613_fr.layout
     elif pathname == '/quelles_sont_les_activites_des_benevoles_2013': 

@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.gen_navbar import gen_navbar
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
@@ -12,7 +14,7 @@ from utils.graphs.HOA0204_graph_utils import rate_avg_cause
 from utils.data.GAV0302_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer
 
 ####################### Data processing ######################
 SubSecAvgDon_2018,SubSecDonRates_2018 ,SubSecAvgHrs_2018 ,SubSecVolRates_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018 = get_data()
@@ -35,6 +37,8 @@ region_names = get_region_names()
 ###################### App layout ######################
 
 marginTop = 20
+
+navbar = gen_navbar("giving_and_volunteering_for_religious_organizations")
 
 layout = html.Div([
     navbar,

@@ -164,7 +164,7 @@ region_names = np.array(['Canada',
 
 marginTop = 20
 
-navbar = gen_navbar("les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada")
+navbar = gen_navbar("giving_and_volunteering_among_new_canadians")
 
 layout = html.Div([
     navbar,

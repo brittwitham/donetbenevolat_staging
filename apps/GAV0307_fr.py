@@ -5,77 +5,80 @@ import numpy as np
 import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
-import os
 import os.path as op
+import os
 
-# from utils.graphs.WTO0207_graph_utils import rate_avg_cause, single_vertical_percentage_graph
-# from utils.data.WTO0207_data_utils import get_data, process_data, get_region_names, get_region_values
+# from utils.graphs.GAV0307_graph_utils import triple_horizontal_rate_avg, vertical_double_graph, triple_vertical_graphs_pops
+# from utils.data.GAV0307_data_utils import get_data, process_data, process_rates, get_region_names, get_region_values
 from utils.data.general import get_dataframe
+from utils.gen_navbar import gen_navbar
 
 from app import app
-from homepage import footer #navbar, footer
+from homepage import footer
 
-####################### Data processing ######################
-YouthAvgDonAmt_2018 = get_dataframe("2018-YouthAvgDonAmt_FR.csv")
-YouthAvgDonByCause_2018 = get_dataframe("2018-YouthAvgDonByCause_FR.csv")
-YouthAvgDonByMeth_2018 = get_dataframe("2018-YouthAvgDonByMeth_FR.csv")
-YouthAvgHrs_2018 = get_dataframe("2018-YouthAvgHrs_FR.csv")
-YouthAvgHrsByActivity_2018 = get_dataframe("2018-YouthAvgHrsByActivity_FR.csv")
-YouthAvgHrsByCause_2018 = get_dataframe("2018-YouthAvgHrsByCause_FR.csv")
-YouthAvgHrsCommInvolve_2018 = get_dataframe("2018-YouthAvgHrsCommInvolve_FR.csv")
-YouthAvgHrsHelpDirectly_2018 = get_dataframe("2018-YouthAvgHrsHelpDirectly_FR.csv")
-YouthBarriers_2018 = get_dataframe("2018-YouthBarriersGiving_FR.csv")
-YouthBarriersVol_2018 = get_dataframe("2018-YouthBarriersVol_FR.csv")
-YouthCommInvolveRate_2018 = get_dataframe("2018-YouthCommInvolveRate_FR.csv")
-YouthDonRateByCause_2018 = get_dataframe("2018-YouthDonRateByCause_FR.csv")
-YouthDonRateByMeth_2018 = get_dataframe("2018-YouthDonRateByMeth_FR.csv")
-YouthDonRates_2018 = get_dataframe("2018-YouthDonRates_FR.csv")
-YouthEfficiencyConcerns_2018 = get_dataframe("2018-YouthEfficiencyConcerns_FR.csv")
-YouthHelpDirectlyRate_2018 = get_dataframe("2018-YouthHelpDirectlyRate_FR.csv")
-YouthReasonsGiving_2018 = get_dataframe("2018-YouthReasonsGiving_FR.csv")
-YouthReasonsVol_2018 = get_dataframe("2018-YouthReasonsVol_FR.csv")
-YouthSolicitationConcerns_2018 = get_dataframe("2018-YouthSolicitationConcerns_FR.csv")
-YouthVolRateByActivity_2018 = get_dataframe("2018-YouthVolRateByActivity_FR.csv")
-YouthVolRateByCause_2018 = get_dataframe("2018-YouthVolRateByCause_FR.csv")
-YouthVolRate_2018 = get_dataframe("2018-YouthVolRates_FR.csv")
+####################### Raw copy-paste #######################
 
-rates = [YouthBarriers_2018,
-         YouthBarriersVol_2018,
-         YouthCommInvolveRate_2018,
-         YouthDonRateByCause_2018,
-         YouthDonRateByMeth_2018,
-         YouthDonRates_2018,
-         YouthEfficiencyConcerns_2018,
-         YouthHelpDirectlyRate_2018,
-         YouthReasonsGiving_2018,
-         YouthReasonsVol_2018,
-         YouthSolicitationConcerns_2018,
-         YouthVolRateByActivity_2018,
-         YouthVolRateByCause_2018,
-         YouthVolRate_2018]
 
-data = [YouthAvgDonAmt_2018,
-        YouthAvgDonByCause_2018,
-        YouthAvgDonByMeth_2018,
-        YouthAvgHrs_2018,
-        YouthAvgHrsByActivity_2018,
-        YouthAvgHrsByCause_2018,
-        YouthAvgHrsCommInvolve_2018,
-        YouthAvgHrsHelpDirectly_2018,
-        YouthBarriers_2018,
-        YouthBarriersVol_2018,
-        YouthCommInvolveRate_2018,
-        YouthDonRateByCause_2018,
-        YouthDonRateByMeth_2018,
-        YouthDonRates_2018,
-        YouthEfficiencyConcerns_2018,
-        YouthHelpDirectlyRate_2018,
-        YouthReasonsGiving_2018,
-        YouthReasonsVol_2018,
-        YouthSolicitationConcerns_2018,
-        YouthVolRateByActivity_2018,
-        YouthVolRateByCause_2018,
-        YouthVolRate_2018]
+SeniorsAvgDonAmt_2018 = get_dataframe("2018-SeniorsAvgDonAmt_FR.csv")
+SeniorsAvgDonByCause_2018 = get_dataframe("2018-SeniorsAvgDonByCause_FR.csv")
+SeniorsAvgDonByMeth_2018 = get_dataframe("2018-SeniorsAvgDonByMeth_FR.csv")
+SeniorsAvgHrs_2018 = get_dataframe("2018-SeniorsAvgHrs_FR.csv")
+SeniorsAvgHrsByActivity_2018 = get_dataframe("2018-SeniorsAvgHrsByActivity_FR.csv")
+SeniorsAvgHrsByCause_2018 = get_dataframe("2018-SeniorsAvgHrsByCause_FR.csv")
+SeniorsAvgHrsCommInvolve_2018 = get_dataframe("2018-SeniorsAvgHrsCommInvolve_FR.csv")
+SeniorsAvgHrsHelpDirectly_2018 = get_dataframe("2018-SeniorsAvgHrsHelpDirectly_FR.csv")
+SeniorsBarriers_2018 = get_dataframe("2018-SeniorsBarriersGiving_FR.csv")
+SeniorsBarriersVol_2018 = get_dataframe("2018-SeniorsBarriersVol_FR.csv")
+SeniorsCommInvolveRate_2018 = get_dataframe("2018-SeniorsCommInvolveRate_FR.csv")
+SeniorsDonRateByCause_2018 = get_dataframe("2018-SeniorsDonRateByCause_FR.csv")
+SeniorsDonRateByMeth_2018 = get_dataframe("2018-SeniorsDonRateByMeth_FR.csv")
+SeniorsDonRates_2018 = get_dataframe("2018-SeniorsDonRates_FR.csv")
+SeniorsEfficiencyConcerns_2018 = get_dataframe("2018-SeniorsEfficiencyConcerns_FR.csv")
+SeniorsHelpDirectlyRate_2018 = get_dataframe("2018-SeniorsHelpDirectlyRate_FR.csv")
+SeniorsReasonsGiving_2018 = get_dataframe("2018-SeniorsReasonsGiving_FR.csv")
+SeniorsReasonsVol_2018 = get_dataframe("2018-SeniorsReasonsVol_FR.csv")
+SeniorsSolicitationConcerns_2018 = get_dataframe("2018-SeniorsSolicitationConcerns_FR.csv")
+SeniorsVolRateByActivity_2018 = get_dataframe("2018-SeniorsVolRateByActivity_FR.csv")
+SeniorsVolRateByCause_2018 = get_dataframe("2018-SeniorsVolRateByCause_FR.csv")
+SeniorsVolRate_2018 = get_dataframe("2018-SeniorsVolRates_FR.csv")
+
+rates = [SeniorsBarriers_2018,
+         SeniorsBarriersVol_2018,
+         SeniorsCommInvolveRate_2018,
+         SeniorsDonRateByCause_2018,
+         SeniorsDonRateByMeth_2018,
+         SeniorsDonRates_2018,
+         SeniorsEfficiencyConcerns_2018,
+         SeniorsHelpDirectlyRate_2018,
+         SeniorsReasonsGiving_2018,
+         SeniorsReasonsVol_2018,
+         SeniorsSolicitationConcerns_2018,
+         SeniorsVolRateByActivity_2018,
+         SeniorsVolRateByCause_2018,
+         SeniorsVolRate_2018]
+
+data = [SeniorsAvgDonAmt_2018,
+        SeniorsAvgDonByCause_2018,
+        SeniorsAvgDonByMeth_2018,
+        SeniorsAvgHrs_2018,
+        SeniorsAvgHrsByActivity_2018,
+        SeniorsAvgHrsByCause_2018,
+        SeniorsAvgHrsCommInvolve_2018,
+        SeniorsAvgHrsHelpDirectly_2018,
+        SeniorsBarriers_2018,
+        SeniorsBarriersVol_2018,
+        SeniorsCommInvolveRate_2018,
+        SeniorsDonRateByCause_2018,
+        SeniorsDonRateByMeth_2018,
+        SeniorsDonRates_2018,
+        SeniorsEfficiencyConcerns_2018,
+        SeniorsHelpDirectlyRate_2018,
+        SeniorsReasonsGiving_2018,
+        SeniorsReasonsVol_2018,
+        SeniorsSolicitationConcerns_2018,
+        SeniorsVolRateByActivity_2018,
+        SeniorsVolRateByCause_2018,
+        SeniorsVolRate_2018]
 
 for i in range(len(rates)):
     rates[i]['Estimate'] = rates[i]['Estimate'] * 100
@@ -99,7 +102,7 @@ for i in range(len(data)):
     #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>barrier", "Do not report barrier", data[i]["Attribute"])
     #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>barrier", "Report barrier", data[i]["Attribute"])
 
-    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
+    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
     data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
 region_values = np.array(['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT'], dtype=object)
@@ -113,25 +116,10 @@ region_names = np.array(['Canada',
 
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/giving_and_volunteering_by_youth",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
 
 marginTop = 20
 
+navbar = gen_navbar("les_dons_et_le_benevolat_des_jeunes")
 
 layout = html.Div([
     navbar,
@@ -141,12 +129,12 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1('Les dons et le bénévolat des jeunes (2018)'),
-                        #html.Span(
-                            #'David Lasby',
-                            #className='meta'
-                     #   )
-                        ],
+                        html.H1('Les dons et le bénévolat des personnes agées (2018)'),
+                        # html.Span(
+                        #     'David Lasby',
+                        #     className='meta'
+                        # )
+                    ],
                         className='post-heading'
                     ),
                     className='col-md-10 col-lg-8 mx-auto position-relative'
@@ -160,193 +148,555 @@ layout = html.Div([
     # Note: filters put in separate container to make floating element later
     dbc.Container([
         dbc.Row(
-           dbc.Col(
-               html.Div([
-                   "Sélectionnez une région:",
-                   dcc.Dropdown(
-                       id='region-selection',
-                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
-                       value='CA',
-                       ),
+            dbc.Col(
+                html.Div([
+                    "Sélectionnez une région:",
+                    dcc.Dropdown(
+                        id='region-selection',
+                        options=[{'label': region_values[i], 'value': region_values[i]}
+                                 for i in range(len(region_values))],
+                        value='CA',
+                    ),
                     html.Br(),
-                ],className="m-2 p-2"),
-            ),id='sticky-dropdown'),
-    ],className='sticky-top bg-light mb-2', fluid=True),
-   dbc.Container([
-       dbc.Row([
+                ], className="m-2 p-2"),
+            ), id='sticky-dropdown'),
+    ], className='sticky-top bg-light mb-2', fluid=True),
+    dbc.Container([
+        dbc.Row([
             html.Div([
                 html.H3('Dons'),
                 dcc.Markdown("""
-                D’après les données de l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, il existe une forte corrélation entre l’âge et les comportements en matière de dons. Au Canada, les personnes âgées de 15 à 24 ans sont moins enclines à donner et donnent moins d’argent, en moyenne, que les personnes âgées de 25 à 34 ans qui, elles aussi, sont moins enclines à donner et donnent moins d’argent, en moyenne, que les personnes âgées de 35 ans ou plus. C’est vrai pour les dons aux causes laïques et aux causes religieuses. Les personnes âgées de 15 à 24 ans sont 3 fois plus susceptibles de donner de l’argent à des causes laïques qu’à des causes religieuses tandis que celles âgées de 25 à 34 ans sont trois fois et demie plus susceptibles de faire de même. Ces deux groupes, en revanche, donnent beaucoup plus d’argent, en moyenne, aux causes religieuses. 
+                D’après les données de l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, les personnes âgées sont plus enclines à donner, et à donner plus, que les personnes plus jeunes au Canada, ce qui est vrai pour les dons aux causes laïques comme aux causes religieuses. Tout comme leurs homologues plus jeunes, les personnes âgées ont plus tendance à donner à des causes laïques qu’à des causes religieuses. En revanche, elles donnent beaucoup plus d’argent, en moyenne, aux causes religieuses.
                 """
                 ),
                 # Donation rate and average donation amount
-                dcc.Graph(id='YouthDonRateAmt', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsDonRateAmt_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Les dons selon la cause'),
                 dcc.Markdown("""
-                Les jeunes personnes ont tendance à donner le plus aux organismes de services sociaux, suivis par les organismes de santé et les congrégations religieuses, qui sont aussi les causes les plus populaires chez les personnes plus âgées. 
+                Les personnes âgées ont plus tendance que les personnes plus jeunes à donner de l’argent à la majorité des causes, mais les différences les plus importantes ont trait aux causes les plus populaires. À l’échelle nationale, entre 39 % et 46 % des personnes canadiennes âgées de 65 ans ou plus donnent aux organismes de santé et de services sociaux, par comparaison avec moins d’un tiers de celles âgées de 15 à 64 ans. Les personnes plus âgées ont également beaucoup plus tendance à donner de l’argent aux congrégations religieuses. Les taux de dons pour les autres causes sont similaires pour les divers groupes d’âge. 
                 """),
                 # Donation rate by cause
-                dcc.Graph(id='YouthDonRateByCause', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsDonRateByCause_fr', style={'marginTop': marginTop}),
                 dcc.Markdown("""
-                Les jeunes personnes donnent moins, en moyenne, aux causes qu’elles soutiennent, ce qui est vrai pour toutes les causes, bien que, dans de nombreux cas, les différences ne soient pas statistiquement significatives. 
+                Les personnes plus âgées donnent plus d’argent, en moyenne, aux causes qu’elles soutiennent, mais, dans la majorité des cas, les différences ne sont pas statistiquement significatives. 
                 """),
                 # Average amount donated by cause
-                dcc.Graph(id='YouthAvgAmtByCause', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsAvgAmtByCause_fr', style={'marginTop': marginTop}),
             ], className='col-md-10 col-lg-8 mx-auto'),
             html.Div([
                 html.H4('Méthodes de dons'),
                 dcc.Markdown("""
-                Les personnes plus jeunes ont moins tendance à donner par toutes les méthodes que les personnes plus âgées. Les différences sont cependant plus importantes pour certaines méthodes que pour d’autres. Elles sont particulièrement importantes pour les dons par courrier, à la mémoire de quelqu’un, pour parrainer quelqu’un et à la suite d’une sollicitation au porte-à-porte ou dans un lieu de culte. Les personnes âgées de 15 à 34 ans sont nettement moins enclines à donner par ces méthodes que celles âgées de 35 ans ou plus. 
+                L’incidence de l’âge est évidente sur le choix des méthodes de dons. Par exemple, le don par courrier est la méthode préférée des personnes âgées de 75 ans ou plus et la deuxième méthode par ordre de préférence pour les personnes âgées de 65 à 74 ans, tandis que les dons par courrier sont relativement rares chez les personnes âgées de 15 à 64 ans. Les personnes âgées ont également significativement plus tendance à donner à un lieu de culte ou à la mémoire de quelqu’un et significativement moins tendance à donner en ligne. Les personnes âgées de 65 à 74 ans sont plus enclines que celles des groupes d’âge plus jeunes et plus âgés à parrainer quelqu’un ou à donner de l’argent en étant sollicitées à leur porte. 
                 """),
                 # Donation rate by method
-                dcc.Graph(id='YouthDonRateByMeth', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsAvgAmtByMeth_fr', style={'marginTop': marginTop}),
                 dcc.Markdown("""
-                Le montant moyen des dons des personnes âgées de 15 à 34 ans est le plus élevé quand elles donnent de l’argent dans les lieux de culte et de leur propre initiative.
+                Le montant moyen des dons des personnes canadiennes âgées de 65 ans ou plus est le plus élevé quand elles donnent de l’argent dans les lieux de culte et de leur propre initiative.
                 """),
                 # Average amount donated by method
-                dcc.Graph(id='YouthAvgAmtByMeth', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsDonRateByMeth_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Motivations des dons'),
                 dcc.Markdown("""
-                En général, les personnes plus jeunes donnent de l’argent pour les mêmes raisons que les personnes plus âgées, la conviction du bien-fondé de la cause et la compassion envers les personnes dans le besoin étant les deux principales motivations des dons pour tous les groupes d’âge. Il existe cependant quelques différences. La différence la plus importante est liée aux crédits d’impôt que les personnes plus jeunes ont moins tendance à citer pour justifier leurs dons que les personnes plus âgées. Les personnes de 15 à 24 ans sont également moins susceptibles de déclarer donner de l’argent parce que la cause les touche personnellement ou en raison de leurs croyances spirituelles que les personnes âgées de 35 ans ou plus.
+                En général, les personnes plus âgées donnent de l’argent pour les mêmes raisons que les personnes plus jeunes, la conviction du bien-fondé de la cause et la compassion envers les personnes dans le besoin étant les deux principales motivations des dons pour tous les groupes d’âge. Il existe cependant quelques différences. Les personnes plus âgées sont plus enclines que les personnes plus jeunes à donner de l’argent pour des raisons religieuses ou spirituelles ou parce qu’elles recevront un crédit d’impôt et moins enclines à donner après avoir été sollicitées par une personne de leur connaissance. Les personnes âgées de 65 à 74 ans sont plus enclines à donner de l’argent parce que la cause les touche personnellement que les personnes plus jeunes et que les personnes plus âgées.
                 """),
                 # Motivations for donating
-                dcc.Graph(id='YouthMotivations', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsMotivations_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Freins à donner davantage'),
                 dcc.Markdown("""
-                Les personnes plus jeunes ont davantage tendance que les personnes plus âgées à déclarer ne pas avoir donné plus parce qu’elles n’en avaient pas les moyens, qu’elles avaient préféré faire du bénévolat ou qu’elles ne savaient pas où s’adresser pour donner de l’argent. En revanche, elles ont moins tendance que les personnes plus âgées à déclarer ne pas avoir donné plus parce qu’elles étaient satisfaites du montant de leurs dons, qu’elles ne pensaient pas que leur argent serait utilisé avec efficience, qu’elles avaient donné directement aux personnes dans le besoin, qu’elles n’aimaient pas la méthode de sollicitation ou qu’elles ne pensaient pas que le crédit d’impôt était suffisant. 
+                Les personnes plus âgées ont nettement plus tendance que les personnes plus jeunes à déclarer ne pas avoir donné plus parce qu’elles étaient satisfaites du montant de leurs dons ou parce qu’elles avaient donné directement aux personnes dans le besoin. L’âge ne semble pas avoir une grande incidence sur les autres freins à donner davantage.
                 """),
                 # Barriers to donating more
-                dcc.Graph(id='YouthBarriers', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsBarriers_fr', style={'marginTop': marginTop}),
                 html.Div([
                     html.H5('Préoccupations relatives à l’efficience'),
                     dcc.Markdown("""
-                    La moindre préoccupation des personnes plus jeunes à l’égard de l’utilisation de leurs dons semble principalement liée à leur moindre préoccupation à l’égard des coûts des collectes de fonds.
+                    Les personnes plus âgées ont relativement plus tendance que les personnes plus jeunes à déclarer ne pas avoir donné plus parce qu’elles ne croyaient pas que leur argent serait utilisé avec efficience. Cette préoccupation semble principalement liée à leur conviction que trop d’argent est dépensé pour les collectes de fonds.
                     """),
                     # Reasons for concern about efficiency
-                    dcc.Graph(id='YouthEfficiency', style={'marginTop': marginTop}), 
-                    ]),
+                    dcc.Graph(id='SeniorsEfficiency_fr', style={'marginTop': 50}),
+                ]),
                 html.Div([
                     html.H5('Préoccupations relatives aux sollicitations'),
                     dcc.Markdown("""
-                    La moindre préoccupation des personnes plus jeunes à l’égard des méthodes de sollicitation semble principalement liée à leur moindre préoccupation à l’égard de l’heure des sollicitations.
+                    Les personnes plus âgées ont également plus tendance à déclarer ne pas avoir donné plus parce qu’elles n’aimaient pas les méthodes de sollicitation. Cette préoccupation semble principalement liée au nombre de demandes de don qu’elles reçoivent.
                     """),
                     # Reasons for disliking solicitations
-                    dcc.Graph(id='YouthSolicitations', style={'marginTop': marginTop}), 
-                    ]),
-                ], className='col-md-10 col-lg-8 mx-auto'
+                    dcc.Graph(id='SeniorsSolicitations_fr', style={'marginTop': 50}),
+                ]),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
-       dbc.Row([
+        dbc.Row([
             html.Div([
                 html.H3('Bénévolat'),
                 dcc.Markdown("""
-                D’après les données de l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, les personnes âgées de 15 à 24 ans au Canada ont plus tendance à faire du bénévolat que les personnes plus âgées, mais en faisant don de moins d’heures de leur temps. À l’échelle nationale, les personnes canadiennes âgées de 15 à 24 ans qui font du bénévolat (52 % de ce groupe d’âge) lui consacrent en moyenne de 86 heures par année, tandis que les personnes canadiennes âgées de 35 ans ou plus qui font du bénévolat (40 % de ce groupe d’âge) lui consacrent en moyenne 145 heures. La corrélation est moins forte entre l’âge et la probabilité d’aider autrui par ses propres moyens (c.-à-d. en dehors d’un groupe ou d’un organisme) ou de pratiquer d’autres formes d’engagement communautaire. Les personnes plus jeunes participent à ces activités à une fréquence comparable à celle des personnes plus âgées, tout en y consacrant cependant moins d’heures en moyenne.
+                D’après les données de l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, les personnes plus âgées sont moins susceptibles de faire du bénévolat que les personnes plus jeunes au Canada. En revanche, les personnes plus âgées font don d’un nombre d’heures de bénévolat beaucoup plus important, en moyenne, que les bénévoles plus jeunes. À l’échelle nationale, les personnes canadiennes âgées de 75 ans ou plus qui font du bénévolat (30 % de ce groupe d’âge) font don en moyenne de 223 heures par année, tandis que les personnes canadiennes âgées de 15 à 64 ans qui font du bénévolat (42 % de ce groupe d’âge) font don en moyenne de 181 heures. Les personnes canadiennes âgées de 65 à 74 ans se situent entre le groupe d’âge plus jeune et le groupe d’âge plus âgé, à la fois pour leur taux et pour leur nombre moyen d’heures de bénévolat. Les personnes âgées de 75 ans ou plus ont moins tendance à aider autrui directement que les personnes âgées de moins de 75 ans (c.-à-d. en dehors d’un groupe ou d’un organisme) ou à pratiquer d’autres formes d’engagement communautaire. 
                 """),
                 # Rates and average hours devoted to volunteering, helping others and community engagement
-                dcc.Graph(id='YouthVolRateVolAmt', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsVolRateVolAmt', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
-                html.H4('Bénévolat selon la cause'),
+               html.H4('Bénévolat selon la cause'),
                 dcc.Markdown("""
-                Tout comme leurs homologues d’un âge plus avancé, c’est pour les organismes de services sociaux, d’éducation et de recherche, des sports et des loisirs et pour les congrégations religieuses que les personnes âgées de 15 à 34 ans sont les plus enclines à faire du bénévolat. Les personnes plus jeunes sont plus enclines à faire du bénévolat pour les organismes d’éducation et de recherche et pour les universités et les collèges que les personnes plus âgées, ce qui constitue la principale différence entre ces deux groupes d’âge. 
+                Les personnes âgées de 65 ans ou plus sont plus enclines à faire du bénévolat pour les congrégations religieuses, les organismes de services sociaux et les organismes des sports et des loisirs. Par comparaison avec les personnes âgées de 15 à 64 ans, celles âgées de 65 ans ou plus sont plus susceptibles de faire du bénévolat pour les organismes religieux et les hôpitaux. Elles sont moins susceptibles de faire du bénévolat pour les organismes d’éducation et de recherche, des sports et des loisirs et pour les universités et les collèges. 
                 """),
                 # Volunteer rate by cause
-                dcc.Graph(id='YouthVolRateByCause', style={'marginTop': marginTop}), 
-                dcc.Markdown("""
-                En raison de la grande variation des heures de bénévolat, la prudence est de rigueur pour interpréter les données. Par exemple, bien qu’il semble que, à l’échelle nationale, les bénévoles plus jeunes font don d’un plus grand nombre d’heures de leur temps aux organismes environnementaux et aux universités et aux collèges, ces différences ne sont pas statistiquement significatives. En revanche, les bénévoles plus jeunes font don d’un nombre d’heures de bénévolat significativement inférieur aux congrégations religieuses et aux organismes spécialisés dans le droit, le plaidoyer et la politique.
+                dcc.Graph(id='SeniorsVolRateByCause_fr', style={'marginTop': marginTop}),
+                 dcc.Markdown("""
+                En raison de la grande variation des heures de bénévolat, la prudence est de rigueur pour interpréter les données. Par exemple, bien qu’il semble que, à l’échelle nationale, les personnes plus âgées font don d’un plus grand nombre d’heures de bénévolat à la plupart des types d’organismes, un grand nombre de ces différences ne sont pas statistiquement significatives. En revanche, les personnes plus âgées font don d’un nombre d’heures de bénévolat significativement plus élevé aux organismes des arts et de la culture, aux hôpitaux, aux organismes des sports et des loisirs, aux organismes de services sociaux et aux organismes du développement et du logement.
                 """),
                 # Average hours volunteered by cause
-                dcc.Graph(id='YouthAvgHrsByCause', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsAvgHrsByCause_fr', style={'marginTop': marginTop}),
             ], className='col-md-10 col-lg-8 mx-auto'),
             html.Div([
                 html.H4('Activités des bénévoles'),
                 dcc.Markdown("""
-                L’âge influe sur le type d’activités bénévoles. Les bénévoles plus jeunes ont plus tendance à organiser des activités ou des événements, à enseigner ou à mentorer, à entraîner, à arbitrer ou à jouer un autre rôle officiel dans le domaine sportif que les personnes plus âgées. Les bénévoles plus jeunes ont également moins tendance à siéger à des comités ou à des conseils d’administration, à offrir des soins ou du soutien en santé, à faire du travail de bureau ou à conduire bénévolement. 
+                La probabilité de participer à des activités bénévoles décroît avec l’âge. Par exemple, les personnes âgées de 75 ans ou plus sont moins susceptibles d’organiser des activités ou des événements et de collecter des fonds bénévolement que celles âgées de 65 à 74 ans et ces dernières sont moins susceptibles de pratiquer ces activités que les personnes âgées de 15 à 64 ans. En revanche, les bénévoles de 65 à 74 ans ont plus tendance à siéger à des comités ou à des conseils d’administration ou à faire du travail administratif que les bénévoles plus jeunes et plus âgés. 
                 """),
                 # Volunteer rate by activity
-                dcc.Graph(id='YouthVolRateByActivity', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsVolRateByActivity_fr', style={'marginTop': marginTop}),
                 dcc.Markdown("""
-                En moyenne, c’est aux activités d’enseignement, de mentorat, d’entraînement, d’arbitrage ou de présidence que les personnes canadiennes âgées de 15 à 34 ans consacrent le plus d’heures de bénévolat. Bien que les bénévoles plus jeunes consacrent moins de temps à la majorité des activités que les personnes plus âgées, la plupart des différences ne sont pas statistiquement significatives. En revanche, les bénévoles plus jeunes consacrent un nombre d’heures significativement inférieur aux activités d’entretien, de réparation, de construction ou à conduire bénévolement que les personnes plus âgées. 
+                Sur le plan du nombre moyen d’heures consacrées aux diverses activités, les bénévoles de 65 ans ou plus consacrent moins d’heures, en moyenne, que les bénévoles de 15 à 64 ans à faire du travail de bureau, à offrir des soins de santé ou du soutien, à collecter, à offrir ou à livrer des marchandises, à organiser des activités et des événements, à conduire bénévolement et à collecter des fonds. 
                 """),
                 # Average hours volunteered by activity
-                dcc.Graph(id='YouthAvgHrsByActivity', style={'marginTop': marginTop}), 
-            
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsAvgHrsByActivity_fr', style={'marginTop': marginTop}),
+
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Motivations du bénévolat'),
                 dcc.Markdown("""
-                Les personnes plus jeunes ont tendance à faire du bénévolat pour les mêmes raisons que les personnes plus âgées. Par exemple, apporter une contribution à la communauté et utiliser leurs compétences sont les deux principales motivations du bénévolat pour tous les groupes d’âge. Cela dit, il existe plusieurs différences. Les personnes âgées de 15 à 24 ans sont plus enclines à faire du bénévolat pour améliorer leurs possibilités d’emploi ou pour prendre conscience de leurs points forts que les personnes âgées de 25 à 34 ans qui sont, elles aussi, plus enclines à faire du bénévolat pour ces mêmes raisons que les personnes âgées de 35 ans ou plus. Les bénévoles les plus jeunes ont également plus tendance que les personnes plus âgées à faire du bénévolat pour utiliser leurs compétences ou parce que leurs proches sont des bénévoles. 
+                Les personnes plus âgées ont tendance à faire du bénévolat pour les mêmes raisons que les personnes plus jeunes. Par exemple, apporter une contribution à la communauté et utiliser leurs compétences sont les deux principales motivations du bénévolat pour tous les groupes d’âge. Cela dit, il existe plusieurs différences. Les personnes plus âgées ont plus tendance à déclarer faire du bénévolat pour améliorer leur santé et leur bien-être, pour réseauter et rencontrer des personnes ou pour des raisons spirituelles ou religieuses. Les personnes âgées de 75 ans ou plus ont davantage tendance à déclarer faire du bénévolat parce que leurs connaissances en font. 
                 """),
                 # Motivations for volunteering
-                dcc.Graph(id='YouthVolMotivations', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsVolMotivations_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Freins au bénévolat'),
                 dcc.Markdown("""
-                Le manque de temps et l’impossibilité de s’engager à long terme pour faire du bénévolat sont les obstacles les plus fréquents pour tous les groupes d’âge. Les bénévoles plus jeunes ont moins tendance à limiter leur bénévolat parce qu’ils pensent avoir déjà donné suffisamment de leur temps, ou parce que plus de bénévolat ne présente aucun intérêt pour eux ou encore à cause de problèmes de santé. Les bénévoles plus jeunes ont plus tendance à limiter leur bénévolat faute de sollicitation ou de savoir comment s’impliquer. Les bénévoles de 15 à 24 ans ont relativement moins tendance à faire des dons de préférence au bénévolat, vraisemblablement en raison de leurs ressources financières souvent inférieures.  
+                Malgré la tendance à l’uniformité du classement général des freins au bénévolat entre les divers groupes d’âge, il existe d’importantes différences entre ceux-ci. Les personnes plus âgées ont moins tendance que les bénévoles plus jeunes à déclarer manquer de temps pour faire du bénévolat et ne pas savoir comment s’impliquer. En revanche, elles ont plus tendance à penser avoir déjà donné suffisamment de leur temps, à déclarer que plus de bénévolat ne présente aucun intérêt pour elles et à avoir des problèmes de santé qui les empêchent d’en faire plus.
                 """),
                 # Barriers to volunteering more
-                dcc.Graph(id='YouthVolBarriers', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsVolBarriers_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Aide directe d’autrui '),
                 dcc.Markdown("""
-                Les jeunes aident autrui directement de préférence en cuisinant, en faisant le ménage ou d’autres tâches à la maison, en offrant des soins liés à la santé ou personnels, ou en magasinant, en conduisant ou en accompagnant d’autres personnes à des magasins ou à des rendez-vous. Les jeunes personnes sont plus enclines à enseigner, à entraîner ou à aider à la lecture et moins enclines à apporter leur aide pour des tâches administratives ou les déclarations d’impôt que les personnes plus âgées. Les personnes âgées de 15 à 24 ans sont également moins susceptibles d’apporter leur aide en cuisinant, en faisant le ménage ou d’autres corvées ménagères que celles âgées de 25 à 34 ans. 
+                Les personnes plus âgées sont plus enclines à aider directement autrui en cuisinant, en faisant le ménage et d’autres tâches à domicile, en magasinant, en conduisant ou en accompagnant des personnes aux magasins ou à des rendez-vous et en offrant des soins en santé ou personnels. Les personnes âgées de 65 à 74 ans sont plus enclines que celles âgées de 75 ans ou plus à offrir tous les types d’aide directe. 
                 """),
                 # Methods of helping others directly
-                dcc.Graph(id='YouthRateHelpDirect', style={'marginTop': marginTop}),
-                dcc.Markdown("""
-                Les jeunes consacrent le plus de temps en moyenne, à aider d’autres personnes en offrant des soins liés à la santé ou personnels, en cuisinant, en faisant le ménage ou d’autres corvées ménagères. En moyenne, cependant, les personnes âgées de 15 à 34 ans consacrent moins de temps à ces activités et à d’autres formes d’aide directe que les personnes âgées de 35 ans ou plus. 
+                dcc.Graph(id='SeniorsRateHelpDirect_fr', style={'marginTop': marginTop}),
+               dcc.Markdown("""
+                Les personnes âgées de 65 ans ou plus consacrent plus de temps, en moyenne, à aider autrui directement que leurs homologues plus jeunes. Les différences les plus importantes concernent les soins liés à la santé ou personnels, cuisiner, faire le ménage ou les autres corvées ménagères, et magasiner, conduire ou accompagner d’autres personnes aux magasins ou à des rendez-vous. 
                 """),
                 # Average hours devoted to means of helping others directly
-                dcc.Graph(id='YouthHrsHelpDirect', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsHrsHelpDirect_fr', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
                 html.H4('Engagement communautaire'),
                 dcc.Markdown("""
-                Sur le plan des activités visant à améliorer la communauté, les personnes âgées de moins de 35 ans au Canada sont plus enclines que les personnes âgées de 35 ans ou plus à créer ou à diffuser de l’information pour sensibiliser les autres personnes à un enjeu. Les personnes âgées de 15 à 24 ans ont moins tendance à participer à des réunions publiques que celles âgées de 25 ans ou plus. Les jeunes personnes sont à peu près aussi enclines à participer aux autres types d’activités communautaires que les personnes plus âgées.
+                Sur le plan des activités visant à améliorer la communauté, les personnes âgées de 65 ans et plus sont plus enclines que les personnes plus jeunes à participer à des réunions publiques, mais moins enclines à participer à la plupart des autres types d’activités. 
                 """),
                 # Types of community engagement
-                dcc.Graph(id='YouthRateCommInvolve', style={'marginTop': marginTop}), 
+                dcc.Graph(id='SeniorsRateCommInvolve_fr', style={'marginTop': marginTop}),
                 dcc.Markdown("""
                 L’âge n’a pas une incidence significative sur le nombre moyen d’heures consacrées aux diverses formes d’engagement communautaire au Canada.
                 """),
                 # Average hours devoted to forms of community engagement
-                dcc.Graph(id='YouthHrsCommInvolve', style={'marginTop': marginTop}), 
-                ], className='col-md-10 col-lg-8 mx-auto'
+                dcc.Graph(id='SeniorsHrsCommInvolve_FR', style={'marginTop': marginTop}),
+            ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
-   ]),
-   footer
+    ]),
+    footer
 ])
 
 
-################## CALLBACKS ##################
+@app.callback(
+    dash.dependencies.Output('SeniorsDonRateAmt_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff1 = SeniorsDonRates_2018[SeniorsDonRates_2018['Region'] == region]
+    dff1 = dff1[dff1["Group"] == "Senior"]
+
+    dff2 = SeniorsAvgDonAmt_2018[SeniorsAvgDonAmt_2018['Region'] == region]
+    dff2 = dff2[dff2["Group"] == "Senior"]
+
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 à 74 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Taux des dons laïcs et religieux totaux et montant moyen des dons", region)
+    return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, "dollar")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsDonRateByCause_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsDonRateByCause_2018[SeniorsDonRateByCause_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Taux de dons par cause", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsAvgAmtByCause_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgDonByCause_2018[SeniorsAvgDonByCause_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+
+    title = '{}, {}'.format("Montant moyen des dons selon la cause", region)
+    return vertical_double_graph(dff, title, name1, name2, "dollar", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsDonRateByMeth_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsDonRateByMeth_2018[SeniorsDonRateByMeth_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Taux de dons par méthode", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsAvgAmtByMeth_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgDonByMeth_2018[SeniorsAvgDonByMeth_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Montant moyen des dons par méthode", region)
+    return vertical_double_graph(dff, title, name1, name2, "dollar", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsMotivations_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsReasonsGiving_2018[SeniorsReasonsGiving_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Motivations des dons", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsBarriers_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsBarriers_2018[SeniorsBarriers_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Freins à donner davantage", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsEfficiency_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsEfficiencyConcerns_2018[SeniorsEfficiencyConcerns_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Raisons des préoccupations relatives à l’efficience", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsSolicitations_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsSolicitationConcerns_2018[SeniorsSolicitationConcerns_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Raisons de l’aversion pour les sollicitations", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsVolRateVolAmt_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff1 = SeniorsVolRate_2018[SeniorsVolRate_2018['Region'] == region]
+    dff1 = dff1[dff1["Group"] == "Senior"]
+
+    dff2 = SeniorsAvgHrs_2018[SeniorsAvgHrs_2018['Region'] == region]
+    dff2 = dff2[dff2["Group"] == "Senior"]
+
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 à 74 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format(
+        "Taux et nombre moyen d’heures consacrées au bénévolat, à l’aide d’autrui et à l’engagement communautaire", region)
+    return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsVolRateByCause_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsVolRateByCause_2018[SeniorsVolRateByCause_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Taux de bénévoles selon la cause", region)
+    return vertical_double_graph(dff, title, name1, name2, "percent", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsAvgHrsByCause_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgHrsByCause_2018[SeniorsAvgHrsByCause_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat selon la cause", region)
+    return vertical_double_graph(dff, title, name1, name2, "hours", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsVolRateByActivity_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsVolRateByActivity_2018[SeniorsVolRateByActivity_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Taux de bénévoles par activité", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsAvgHrsByActivity_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgHrsByActivity_2018[SeniorsAvgHrsByActivity_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat par activité", region)
+    return vertical_double_graph(dff, title, name1, name2, "hours", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsVolMotivations_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsReasonsVol_2018[SeniorsReasonsVol_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Motivations du bénévolat", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsVolBarriers_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsBarriersVol_2018[SeniorsBarriersVol_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Freins à faire plus de bénévolat", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsRateHelpDirect_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+
+    dff = SeniorsHelpDirectlyRate_2018[SeniorsHelpDirectlyRate_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Méthodes d’aide directe d’autrui", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsHrsHelpDirect_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgHrsHelpDirectly_2018[SeniorsAvgHrsHelpDirectly_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Nombre moyen d’heures consacrées à l’aide directe d’autrui", region)
+    return vertical_double_graph(dff, title, name1, name2, "hours", seniors=True)
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsRateCommInvolve_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsCommInvolveRate_2018[SeniorsCommInvolveRate_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior"]
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "64 à 75 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Types d’engagement communautaire", region)
+    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
+
+
+@app.callback(
+    dash.dependencies.Output('SeniorsHrsCommInvolve_FR', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value')
+    ])
+def update_graph(region):
+    dff = SeniorsAvgHrsCommInvolve_2018[SeniorsAvgHrsCommInvolve_2018['Region'] == region]
+    dff = dff[dff["Group"] == "Senior2"]
+    # name1 = "15 to 64"
+    # name2 = "65 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 ans et plus"
+    title = '{}, {}'.format("Nombre moyen d'heures consacrées aux formes d'engagement communautaire", region)
+    return vertical_double_graph(dff, title, name1, name2, "hours", seniors=True)
+
+
+
+
+# Graphs
+
 
 def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=True):
     dff_1['Text'] = np.select([dff_1["Marker"] == "*", dff_1["Marker"] == "...", pd.isnull(dff_1["Marker"])],
-                             [dff_1.Estimate.map(str) + "%*", "...", dff_1.Estimate.map(str)+"%"])
+                              [dff_1.Estimate.map(str) + "%*", "...", dff_1.Estimate.map(str)+"%"])
     dff_1['HoverText'] = np.select([dff_1["Marker"] == "*",
-                                   dff_1["Marker"] == "...",
-                                   pd.isnull(dff_1["Marker"])],
-                                  ["Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
-                                   "Estimate Suppressed",
-                                   "Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str)+"%"])
+                                    dff_1["Marker"] == "...",
+                                    pd.isnull(dff_1["Marker"])],
+                                   ["Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
+                                    "Estimate Suppressed",
+                                    "Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str)+"%"])
 
     if giving:
         dff_2['Text'] = np.select([dff_2["Marker"] == "*", dff_2["Marker"] == "...", pd.isnull(dff_2["Marker"])],
@@ -358,9 +708,9 @@ def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=
                                         "Estimate Suppressed",
                                         "Estimate: $" + dff_2.Estimate.map(str) + " ± $" + (dff_2["CI Upper"] - dff_2["Estimate"]).map(str)])
         dff_1['QuestionText'] = np.select([dff_1["QuestionText"] == 'Donor flag', dff_1["QuestionText"] == 'Secular donor flag', dff_1["QuestionText"] == 'Religious donor flag'],
-                                         ["Le don en général", "Dons séculaires", "Dons religieux"])
-        dff_2['QuestionText'] = np.select([dff_2["QuestionText"] == 'Total donation<br>amount', dff_2["QuestionText"] == 'Secular donation<br>amount', dff_2["QuestionText"] == 'Religious donation<br>amount'],
-                                 ["Le don en général", "Dons séculaires", "Dons religieux"])
+                                          ["Le don en général", "Dons séculaires", "Dons religieux"])
+        dff_2['QuestionText'] = np.select([dff_2["QuestionText"] == 'Total donation amount', dff_2["QuestionText"] == 'Secular donation amount', dff_2["QuestionText"] == 'Religious donation amount'],
+                                          ["Le don en général", "Dons séculaires", "Dons religieux"])
     else:
         dff_2['Text'] = np.select([dff_2["Marker"] == "*", dff_2["Marker"] == "...", pd.isnull(dff_2["Marker"])],
                                   [dff_2.Estimate.map(str) + "*", "...", dff_2.Estimate.map(str)])
@@ -370,11 +720,10 @@ def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=
                                        ["Estimate: " + dff_2.Estimate.map(str) + " ± " + (dff_2["CI Upper"] - dff_2["Estimate"]).map(str) + "<br><b>Use with caution</b>",
                                         "Estimate Suppressed",
                                         "Estimate: " + dff_2.Estimate.map(str) + " ± " + (dff_2["CI Upper"] - dff_2["Estimate"]).map(str)])
-        dff_1['QuestionText'] = np.select([dff_1["QuestionText"] == 'Volunteer flag', dff_1["QuestionText"] == 'Direct help flag', dff_1["QuestionText"] == 'Community<br>involvement flag'],
+        dff_1['QuestionText'] = np.select([dff_1["QuestionText"] == 'Volunteer flag', dff_1["QuestionText"] == 'Direct help flag', dff_1["QuestionText"] == 'Community involvement flag'],
                                           ["Volontariat", "Aider les autres", "Engagement communautaire"])
-        dff_2['QuestionText'] = np.select([dff_2["QuestionText"] == 'Total formal<br>volunteer hours', dff_2["QuestionText"] == 'Total hours spent<br>helping directly', dff_2["QuestionText"] == 'Total hours spent on<br>community<br>involvement'],
+        dff_2['QuestionText'] = np.select([dff_2["QuestionText"] == 'Total formal volunteer hours', dff_2["QuestionText"] == 'Total hours spent helping directly', dff_2["QuestionText"] == 'Total hours spent on community involvement'],
                                           ["Volontariat", "Aider les autres", "Engagement communautaire"])
-
 
     dff1 = dff_1[dff_1['Attribute'] == name1]
 
@@ -595,7 +944,7 @@ def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=
                          range = [0, 1.25*max(np.concatenate([dff4["CI Upper"], dff5["CI Upper"], dff6["CI Upper"]]))])
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.97},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -758,7 +1107,7 @@ def vertical_double_graph(dff, title, name1, name2, type, seniors=False):
                   )
 
     fig.update_layout(title={'text': title,
-                             'y': 0.97},
+                             'y': 0.99},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -1016,342 +1365,3 @@ def triple_vertical_graphs_pops(dff, title, name1, name2, name3, type):
                           annotations=[dict(text="<a href=\"https://www.scribbr.com/statistics/confidence-interval/\">What is this?</a>", xref="paper", yref="paper", xanchor='right', y=0.32, x=1.2, align="left", showarrow=False)])
 
     return fig
-
-
-@app.callback(
-    dash.dependencies.Output('YouthDonRateAmt', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff1 = YouthDonRates_2018[YouthDonRates_2018['Region'] == region]
-    dff1 = dff1[dff1["Group"] == "Younger"]
-
-    dff2 = YouthAvgDonAmt_2018[YouthAvgDonAmt_2018['Region'] == region]
-    dff2 = dff2[dff2["Group"] == "Younger"]
-
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-
-    title = '{}, {}'.format("Taux des dons laïcs et religieux totaux et montant moyen des dons", region)
-    return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, "dollar")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthDonRateByCause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthDonRateByCause_2018[YouthDonRateByCause_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Taux de dons par cause", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthAvgAmtByCause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgDonByCause_2018[YouthAvgDonByCause_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Montant moyen des dons selon la cause", region)
-    return vertical_double_graph(dff, title, name1, name2, "dollar")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthDonRateByMeth', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthDonRateByMeth_2018[YouthDonRateByMeth_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Taux de dons par méthode", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthAvgAmtByMeth', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgDonByMeth_2018[YouthAvgDonByMeth_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Montant moyen des dons par méthode", region)
-    return vertical_double_graph(dff, title, name1, name2, "dollar")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthMotivations', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthReasonsGiving_2018[YouthReasonsGiving_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Motivations des dons", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthBarriers', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthBarriers_2018[YouthBarriers_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Freins à donner davantage", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthEfficiency', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthEfficiencyConcerns_2018[YouthEfficiencyConcerns_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Raisons des préoccupations relatives à l’efficience", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthSolicitations', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthSolicitationConcerns_2018[YouthSolicitationConcerns_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Raisons de l’aversion pour les sollicitations", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-
-@app.callback(
-    dash.dependencies.Output('YouthVolRateVolAmt', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff1 = YouthVolRate_2018[YouthVolRate_2018['Region'] == region]
-    dff1 = dff1[dff1["Group"] == "Younger"]
-
-    dff2 = YouthAvgHrs_2018[YouthAvgHrs_2018['Region'] == region]
-    dff2 = dff2[dff2["Group"] == "Younger"]
-
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Taux et nombre moyen d’heures consacrées au bénévolat, <br> à l’aide d’autrui et à l’engagement communautaire", region)
-    return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
-
-
-@app.callback(
-    dash.dependencies.Output('YouthVolRateByCause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthVolRateByCause_2018[YouthVolRateByCause_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Taux de bénévoles selon la cause", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthAvgHrsByCause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgHrsByCause_2018[YouthAvgHrsByCause_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat selon la cause", region)
-    return vertical_double_graph(dff, title, name1, name2, "hours")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthVolRateByActivity', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthVolRateByActivity_2018[YouthVolRateByActivity_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Taux de bénévoles par activité", region)
-    return vertical_double_graph(dff, title, name1, name2, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthAvgHrsByActivity', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgHrsByActivity_2018[YouthAvgHrsByActivity_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat par activité", region)
-    return vertical_double_graph(dff, title, name1, name2, "hours")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthVolMotivations', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthReasonsVol_2018[YouthReasonsVol_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Motivations du bénévolat", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthVolBarriers', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthBarriersVol_2018[YouthBarriersVol_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Freins à faire plus de bénévolat", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthRateHelpDirect', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthHelpDirectlyRate_2018[YouthHelpDirectlyRate_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Méthodes d’aide directe d’autrui", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthHrsHelpDirect', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgHrsHelpDirectly_2018[YouthAvgHrsHelpDirectly_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Nombre moyen d’heures consacrées à l’aide directe d’autrui", region)
-    return vertical_double_graph(dff, title, name1, name2, "hours")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthRateCommInvolve', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthCommInvolveRate_2018[YouthCommInvolveRate_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger"]
-    # name1 = "15 to 24"
-    # name2 = "25 to 34"
-    # name3 = ">=35"
-    name1 = "15 à 24 ans"
-    name2 = "25 à 34 ans"
-    name3 = ">=35"
-    title = '{}, {}'.format("Types d’engagement communautaire", region)
-    return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
-
-
-@app.callback(
-    dash.dependencies.Output('YouthHrsCommInvolve', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = YouthAvgHrsCommInvolve_2018[YouthAvgHrsCommInvolve_2018['Region'] == region]
-    dff = dff[dff["Group"] == "Younger2"]
-    # name1 = "15 to 34"
-    name1 = "15 à 34 ans"
-    name2 = ">=35"
-    title = '{}, {}'.format("Nombre moyen d’heures consacrées aux formes d’engagement communautaire", region)
-    return vertical_double_graph(dff, title, name1, name2, "hours")
-
-
-if __name__ == '__main__':
-    app.run_server(debug=True)

@@ -1,0 +1,481 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Younger,15 à 24 ans,2018,nv_020,0.3158703367981082,8.796467186043094,0.2614118936704652,0.3703287799257512,461,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA,
+1,Younger,25 à 34 ans,2018,nv_020,0.3308098555676836,6.7684879678834,0.2869246444530389,0.3746950666823284,803,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA,
+2,Younger,>=35,2018,nv_020,0.4497934871814471,2.0891899124700397,0.4313756269043323,0.4682113474585619,5794,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA,
+3,Younger,15 à 24 ans,2018,nv_030,0.0477944224058914,29.555040724823957,0.0201086355758086,0.0754802092359742,462,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA,*
+4,Younger,25 à 34 ans,2018,nv_030,0.0422328024683191,23.24284662522533,0.0229935892135119,0.0614720157231262,796,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA,*
+5,Younger,>=35,2018,nv_030,0.0632312763669469,7.340894781247026,0.0541336302662041,0.0723289224676898,5729,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA,
+6,Younger,15 à 24 ans,2018,nv_040,0.3182247680673068,8.87885214202795,0.2628465606669872,0.3736029754676264,463,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA,
+7,Younger,25 à 34 ans,2018,nv_040,0.3028643276600343,7.595805279948414,0.2577753863958324,0.3479532689242363,803,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA,
+8,Younger,>=35,2018,nv_040,0.2214764255878471,3.327559353530983,0.2070319623627174,0.2359208888129769,5752,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA,
+9,Younger,15 à 24 ans,2018,nv_050,0.2625694631030081,10.667524484883744,0.2076715348218309,0.3174673913841854,461,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA,
+10,Younger,25 à 34 ans,2018,nv_050,0.1718528651866685,11.276786097789795,0.1338697823279082,0.2098359480454288,799,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA,
+11,Younger,>=35,2018,nv_050,0.0985545840764673,6.068630382053657,0.0868322091547601,0.1102769589981745,5719,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA,
+12,Younger,15 à 24 ans,2018,nv_060,0.0690607105815955,21.15970613291868,0.0404196717888278,0.0977017493743631,459,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA,*
+13,Younger,25 à 34 ans,2018,nv_060,0.1222892548151639,12.128062838674674,0.0932204063407884,0.1513581032895394,797,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA,
+14,Younger,>=35,2018,nv_060,0.2122646762682399,3.596372385271372,0.1973026479301202,0.2272267046063595,5752,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA,
+15,Younger,15 à 24 ans,2018,nv_070,0.7779747457907306,3.446179426740237,0.7254273163358582,0.8305221752456029,480,Manque de temps,Younger Canadians Barriers to Volunteering,CA,
+16,Younger,25 à 34 ans,2018,nv_070,0.8203380182692301,2.312891549091048,0.7831505853604742,0.8575254511779861,859,Manque de temps,Younger Canadians Barriers to Volunteering,CA,
+17,Younger,>=35,2018,nv_070,0.7121006541976979,1.045741958728855,0.697505321149813,0.7266959872455827,6572,Manque de temps,Younger Canadians Barriers to Volunteering,CA,
+18,Younger,15 à 24 ans,2018,nv_080,0.0975565508605453,20.756884342619426,0.0578678673185068,0.1372452344025838,461,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA,*
+19,Younger,25 à 34 ans,2018,nv_080,0.129567825961553,12.210151418656986,0.0985603573715901,0.1605752945515159,799,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA,
+20,Younger,>=35,2018,nv_080,0.1057683752786247,5.710439905977579,0.0939305073669858,0.1176062431902635,5725,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA,
+21,Younger,15 à 24 ans,2018,nv_090,0.408374561569396,6.992174691451466,0.3524092349931549,0.4643398881456371,461,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA,
+22,Younger,25 à 34 ans,2018,nv_090,0.4836733656567191,4.907513051332745,0.4371510067826585,0.5301957245307798,801,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA,
+23,Younger,>=35,2018,nv_090,0.4267767927845618,2.300868933314125,0.4075307801471011,0.4460228054220225,5762,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA,
+24,Younger,15 à 24 ans,2018,nv_100,0.1154296565149551,17.620589378392385,0.0755651928883271,0.1552941201415831,478,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA,*
+25,Younger,25 à 34 ans,2018,nv_100,0.1841291426477779,9.705494939644524,0.1491033228079653,0.2191549624875905,847,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA,
+26,Younger,>=35,2018,nv_100,0.2219394250666599,3.260321286879902,0.2077572465662294,0.2361216035670905,6407,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA,
+27,Younger,15 à 24 ans,2018,nv_110,0.1892887444428727,12.49315155779604,0.1429392618799508,0.2356382270057945,458,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA,
+28,Younger,25 à 34 ans,2018,nv_110,0.1625546216783114,9.384445554527648,0.1326556651519211,0.1924535782047017,799,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA,
+29,Younger,>=35,2018,nv_110,0.250539450784595,3.2500466799206977,0.2345801518056997,0.2664987497634903,5742,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA,
+30,Younger,15 à 24 ans,2018,nv_120,0.2232112101844957,10.848029802520427,0.1757526058008869,0.2706698145681045,460,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA,
+31,Younger,25 à 34 ans,2018,nv_120,0.1990355042161506,9.48507956117854,0.1620339793177537,0.2360370291145475,798,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA,
+32,Younger,>=35,2018,nv_120,0.1765654049012147,4.313870000812825,0.1616367472375027,0.1914940625649266,5705,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA,
+33,Younger,15 à 24 ans,2018,nv_130,0.176816022888343,12.723753593594395,0.1327214684210574,0.2209105773556286,462,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA,
+34,Younger,25 à 34 ans,2018,nv_130,0.1734906466686002,9.67244497294154,0.1406009078652214,0.2063803854719789,796,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA,
+35,Younger,>=35,2018,nv_130,0.1584809031692727,4.165243561731255,0.1455429543044577,0.1714188520340877,5710,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA,
+36,Younger2,15 à 34 ans,2018,nv_020,0.3223550832383598,5.5863469181406495,0.2870603002146044,0.3576498662621152,1264,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA,
+37,Younger2,>=35,2018,nv_020,0.4497934871814471,2.0891899124700397,0.4313756269043323,0.4682113474585619,5794,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA,
+38,Younger2,15 à 34 ans,2018,nv_030,0.045393980379353,19.66556943384923,0.0278974118174464,0.0628905489412595,1258,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA,*
+39,Younger2,>=35,2018,nv_030,0.0632312763669469,7.340894781247026,0.0541336302662041,0.0723289224676898,5729,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA,
+40,Younger2,15 à 34 ans,2018,nv_040,0.3115652033100282,6.190788661671143,0.2737607451593325,0.3493696614607239,1266,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA,
+41,Younger2,>=35,2018,nv_040,0.2214764255878471,3.327559353530983,0.2070319623627174,0.2359208888129769,5752,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA,
+42,Younger2,15 à 34 ans,2018,nv_050,0.2233048608802684,8.029315198703504,0.1881629984092617,0.2584467233512751,1260,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA,
+43,Younger2,>=35,2018,nv_050,0.0985545840764673,6.068630382053657,0.0868322091547601,0.1102769589981745,5719,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA,
+44,Younger2,15 à 34 ans,2018,nv_060,0.092134231767315,11.432977227378984,0.0714885870991594,0.1127798764354705,1256,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA,
+45,Younger2,>=35,2018,nv_060,0.2122646762682399,3.596372385271372,0.1973026479301202,0.2272267046063595,5752,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA,
+46,Younger2,15 à 34 ans,2018,nv_070,0.7968862300712195,2.232957534410784,0.7620103739495235,0.8317620861929155,1339,Manque de temps,Younger Canadians Barriers to Volunteering,CA,
+47,Younger2,>=35,2018,nv_070,0.7121006541976979,1.045741958728855,0.697505321149813,0.7266959872455827,6572,Manque de temps,Younger Canadians Barriers to Volunteering,CA,
+48,Younger2,15 à 34 ans,2018,nv_080,0.1114235979825449,12.105120458835207,0.0849876806771587,0.137859515287931,1260,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA,
+49,Younger2,>=35,2018,nv_080,0.1057683752786247,5.710439905977579,0.0939305073669858,0.1176062431902635,5725,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA,
+50,Younger2,15 à 34 ans,2018,nv_090,0.4410548875979386,4.198043375124359,0.4047648304891513,0.4773449447067258,1262,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA,
+51,Younger2,>=35,2018,nv_090,0.4267767927845618,2.300868933314125,0.4075307801471011,0.4460228054220225,5762,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA,
+52,Younger2,15 à 34 ans,2018,nv_100,0.1459021076131659,9.430667916236164,0.1189338983959418,0.1728703168303899,1325,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA,
+53,Younger2,>=35,2018,nv_100,0.2219394250666599,3.260321286879902,0.2077572465662294,0.2361216035670905,6407,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA,
+54,Younger2,15 à 34 ans,2018,nv_110,0.177693033621331,8.61198404241958,0.147699909190236,0.2076861580524261,1257,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA,
+55,Younger2,>=35,2018,nv_110,0.250539450784595,3.2500466799206977,0.2345801518056997,0.2664987497634903,5742,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA,
+56,Younger2,15 à 34 ans,2018,nv_120,0.2127304355286095,7.602192952315468,0.1810335487497604,0.2444273223074586,1258,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA,
+57,Younger2,>=35,2018,nv_120,0.1765654049012147,4.313870000812825,0.1616367472375027,0.1914940625649266,5705,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA,
+58,Younger2,15 à 34 ans,2018,nv_130,0.1753797640975354,8.188748256347383,0.1472319228761622,0.2035276053189086,1258,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA,
+59,Younger2,>=35,2018,nv_130,0.1584809031692727,4.165243561731255,0.1455429543044577,0.1714188520340877,5710,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA,
+60,Younger,15 à 24 ans,2018,nv_020,0.3102472703492068,9.7325774420049,0.2510660483750833,0.3694284923233303,408,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA (without QC),
+61,Younger,25 à 34 ans,2018,nv_020,0.3168381979259407,7.475554936795496,0.2704156404154588,0.3632607554364226,722,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA (without QC),
+62,Younger,>=35,2018,nv_020,0.4250745565659399,2.41194102655707,0.40497993247455,0.4451691806573297,5087,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA (without QC),
+63,Younger,15 à 24 ans,2018,nv_030,0.0527493490367356,31.666095941143467,0.0200107780570837,0.0854879200163876,409,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA (without QC),*
+64,Younger,25 à 34 ans,2018,nv_030,0.0481117305071857,24.282677484551343,0.0252138312206491,0.0710096297937223,715,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA (without QC),*
+65,Younger,>=35,2018,nv_030,0.0647524296476092,8.101469912803273,0.0544706573138684,0.07503420198135,5036,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA (without QC),
+66,Younger,15 à 24 ans,2018,nv_040,0.2993677520140478,10.095971696338642,0.240129636866162,0.3586058671619336,411,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA (without QC),
+67,Younger,25 à 34 ans,2018,nv_040,0.3189481312667513,7.666113704941013,0.2710251961288322,0.3668710664046704,721,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA (without QC),
+68,Younger,>=35,2018,nv_040,0.227116367344184,3.602247372795986,0.2110813269805707,0.2431514077077974,5056,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA (without QC),
+69,Younger,15 à 24 ans,2018,nv_050,0.2573638730133157,11.64231846675483,0.1986372335883397,0.3160905124382918,409,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+70,Younger,25 à 34 ans,2018,nv_050,0.1860521504391302,11.471244744007056,0.1442216239434078,0.2278826769348525,717,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+71,Younger,>=35,2018,nv_050,0.1035109153156493,6.5910577690111545,0.0901391311474905,0.1168826994838081,5026,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+72,Younger,15 à 24 ans,2018,nv_060,0.0764526717594945,23.20838017885912,0.0416761944282448,0.1112291490907441,407,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA (without QC),*
+73,Younger,25 à 34 ans,2018,nv_060,0.125889737488058,12.925295286082576,0.0939979477197442,0.1577815272563718,715,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA (without QC),
+74,Younger,>=35,2018,nv_060,0.2172489592001493,3.874183188791666,0.2007526819245776,0.233745236475721,5053,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA (without QC),
+75,Younger,15 à 24 ans,2018,nv_070,0.7951006573117553,3.392234478619848,0.7422371385805246,0.8479641760429859,427,Manque de temps,Younger Canadians Barriers to Volunteering,CA (without QC),
+76,Younger,25 à 34 ans,2018,nv_070,0.8176786734018497,2.574627858712774,0.7764171530823927,0.8589401937213068,765,Manque de temps,Younger Canadians Barriers to Volunteering,CA (without QC),
+77,Younger,>=35,2018,nv_070,0.7155935698962099,1.1028172251797417,0.7001261433828802,0.7310609964095397,5783,Manque de temps,Younger Canadians Barriers to Volunteering,CA (without QC),
+78,Younger,15 à 24 ans,2018,nv_080,0.1054197235752991,22.71194268786322,0.0584925661764273,0.1523468809741711,409,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA (without QC),*
+79,Younger,25 à 34 ans,2018,nv_080,0.1349849405300326,13.07675064523737,0.1003883538619137,0.1695815271981514,717,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA (without QC),
+80,Younger,>=35,2018,nv_080,0.1109571563002411,6.165447498590108,0.0975490324556554,0.1243652801448267,5034,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA (without QC),
+81,Younger,15 à 24 ans,2018,nv_090,0.4222498040269398,7.385689971645205,0.36112624680192,0.4833733612519595,409,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA (without QC),
+82,Younger,25 à 34 ans,2018,nv_090,0.4869822059834685,5.218945440724074,0.4371690634813001,0.5367953484856368,719,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA (without QC),
+83,Younger,>=35,2018,nv_090,0.4318662225856738,2.493313428427966,0.4107617644918463,0.4529706806795013,5061,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA (without QC),
+84,Younger,15 à 24 ans,2018,nv_100,0.097111820633256,19.935938765176655,0.0591666178314939,0.1350570234350181,425,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA (without QC),*
+85,Younger,25 à 34 ans,2018,nv_100,0.1924765822578656,10.387507966233017,0.1532900025159648,0.2316631619997665,753,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA (without QC),
+86,Younger,>=35,2018,nv_100,0.217429492836298,3.676437905149615,0.201762206560098,0.2330967791124981,5631,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA (without QC),
+87,Younger,15 à 24 ans,2018,nv_110,0.186677748196431,13.65899235326308,0.1367019998006773,0.2366534965921846,406,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+88,Younger,25 à 34 ans,2018,nv_110,0.1443010671302781,10.55789844098233,0.1144407020025148,0.1741614322580414,717,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+89,Younger,>=35,2018,nv_110,0.239163640105005,3.6494504670112766,0.2220567636354135,0.2562705165745965,5046,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+90,Younger,15 à 24 ans,2018,nv_120,0.2220032579243454,11.863815935105482,0.170381613037054,0.2736249028116368,409,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA (without QC),
+91,Younger,25 à 34 ans,2018,nv_120,0.2106780022485776,10.017299074958768,0.1693144410097274,0.2520415634874278,716,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA (without QC),
+92,Younger,>=35,2018,nv_120,0.1798821481177293,4.683167270916244,0.1633710550202483,0.1963932412152103,5011,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA (without QC),
+93,Younger,15 à 24 ans,2018,nv_130,0.1699647498996362,13.574010375206214,0.1247463565537764,0.215183143245496,410,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA (without QC),
+94,Younger,25 à 34 ans,2018,nv_130,0.1881390127510364,10.20782024363954,0.1504981156536869,0.225779909848386,714,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA (without QC),
+95,Younger,>=35,2018,nv_130,0.1675401716924965,4.293969053210524,0.1534399494687734,0.1816403939162196,5017,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA (without QC),
+96,Younger2,15 à 34 ans,2018,nv_020,0.3131925062941827,6.217880668901903,0.2750242924985376,0.3513607200898279,1130,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA (without QC),
+97,Younger2,>=35,2018,nv_020,0.4250745565659399,2.41194102655707,0.40497993247455,0.4451691806573297,5087,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,CA (without QC),
+98,Younger2,15 à 34 ans,2018,nv_030,0.0506906983970867,20.8315894606748,0.0299941094664867,0.0713872873276867,1124,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA (without QC),*
+99,Younger2,>=35,2018,nv_030,0.0647524296476092,8.101469912803273,0.0544706573138684,0.07503420198135,5036,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,CA (without QC),
+100,Younger2,15 à 34 ans,2018,nv_040,0.3080806901790021,6.597137368752525,0.2682453897535352,0.3479159906044691,1132,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA (without QC),
+101,Younger2,>=35,2018,nv_040,0.227116367344184,3.602247372795986,0.2110813269805707,0.2431514077077974,5056,Aucune sollicitation,Younger Canadians Barriers to Volunteering,CA (without QC),
+102,Younger2,15 à 34 ans,2018,nv_050,0.2256900703401428,8.171277210235427,0.1895448824130596,0.261835258267226,1126,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+103,Younger2,>=35,2018,nv_050,0.1035109153156493,6.5910577690111545,0.0901391311474905,0.1168826994838081,5026,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+104,Younger2,15 à 34 ans,2018,nv_060,0.0984522305878691,12.508167669649362,0.0743161167529511,0.1225883444227871,1122,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA (without QC),
+105,Younger2,>=35,2018,nv_060,0.2172489592001493,3.874183188791666,0.2007526819245776,0.233745236475721,5053,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,CA (without QC),
+106,Younger2,15 à 34 ans,2018,nv_070,0.8053734494966095,2.252212950091948,0.7698222015238546,0.8409246974693644,1192,Manque de temps,Younger Canadians Barriers to Volunteering,CA (without QC),
+107,Younger2,>=35,2018,nv_070,0.7155935698962099,1.1028172251797417,0.7001261433828802,0.7310609964095397,5783,Manque de temps,Younger Canadians Barriers to Volunteering,CA (without QC),
+108,Younger2,15 à 34 ans,2018,nv_080,0.1185643298733268,13.458325538441883,0.0872896285296873,0.1498390312169664,1126,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA (without QC),
+109,Younger2,>=35,2018,nv_080,0.1109571563002411,6.165447498590108,0.0975490324556554,0.1243652801448267,5034,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,CA (without QC),
+110,Younger2,15 à 34 ans,2018,nv_090,0.4510933463729303,4.429776686195592,0.4119285073836708,0.4902581853621899,1128,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA (without QC),
+111,Younger2,>=35,2018,nv_090,0.4318662225856738,2.493313428427966,0.4107617644918463,0.4529706806795013,5061,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,CA (without QC),
+112,Younger2,15 à 34 ans,2018,nv_100,0.1401761176619301,10.093739776622174,0.1124445626554215,0.1679076726684387,1178,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA (without QC),
+113,Younger2,>=35,2018,nv_100,0.217429492836298,3.676437905149615,0.201762206560098,0.2330967791124981,5631,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,CA (without QC),
+114,Younger2,15 à 34 ans,2018,nv_110,0.1678071329378386,9.464307742907543,0.1366794093150327,0.1989348565606445,1123,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+115,Younger2,>=35,2018,nv_110,0.239163640105005,3.6494504670112766,0.2220567636354135,0.2562705165745965,5046,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,CA (without QC),
+116,Younger2,15 à 34 ans,2018,nv_120,0.2169713933058308,8.050997112946973,0.1827340356393651,0.2512087509722964,1125,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA (without QC),
+117,Younger2,>=35,2018,nv_120,0.1798821481177293,4.683167270916244,0.1633710550202483,0.1963932412152103,5011,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,CA (without QC),
+118,Younger2,15 à 34 ans,2018,nv_130,0.1780165234573976,8.488271512901392,0.1484004370061084,0.2076326099086869,1124,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA (without QC),
+119,Younger2,>=35,2018,nv_130,0.1675401716924965,4.293969053210524,0.1534399494687734,0.1816403939162196,5017,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,CA (without QC),
+120,Younger,15 à 24 ans,2018,nv_020,0.2369322305966933,32.02819124124606,0.0882001520955466,0.38566430909784,39,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AB,*
+121,Younger,25 à 34 ans,2018,nv_020,0.2975218583203468,20.68872947158308,0.1768792301197088,0.4181644865209847,86,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AB,*
+122,Younger,>=35,2018,nv_020,0.3909674031817329,7.156325600710847,0.3361297661406139,0.4458050402228518,486,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AB,
+123,Younger,15 à 24 ans,2018,nv_020,0.2391288370670703,21.28103921102767,0.1393880307624793,0.3388696433716613,100,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AT,*
+124,Younger,25 à 34 ans,2018,nv_020,0.3314264467699414,17.38806314465139,0.218476388200745,0.4443765053391378,148,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AT,*
+125,Younger,>=35,2018,nv_020,0.4129872762667796,4.095723604852468,0.379834843437879,0.4461397090956802,1448,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AT,
+126,Younger,15 à 24 ans,2018,nv_020,0.2544009548008463,24.45909758294316,0.1324438073713399,0.3763581022303527,61,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,BC,*
+127,Younger,25 à 34 ans,2018,nv_020,0.338040578532552,16.20939332971052,0.2306456710782351,0.445435485986869,109,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,BC,
+128,Younger,>=35,2018,nv_020,0.4754946119533609,4.79145019525284,0.4308405809715388,0.5201486429351829,825,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,BC,
+129,Younger,15 à 24 ans,2018,nv_020,0.3756047763621727,12.565152797640131,0.2831036605554387,0.4681058921689067,135,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,ON,
+130,Younger,25 à 34 ans,2018,nv_020,0.3260059916947819,12.053279399042834,0.2489903573494195,0.4030216260401442,232,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,ON,
+131,Younger,>=35,2018,nv_020,0.4250092314172296,4.049047263229656,0.3912805548807461,0.4587379079537131,1621,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,ON,
+132,Younger,15 à 24 ans,2018,nv_020,0.2033063297701778,27.281857555830516,0.0945954705462552,0.3120171889941004,73,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,PR,*
+133,Younger,25 à 34 ans,2018,nv_020,0.2733632694456283,16.539231502108624,0.1847490171915523,0.3619775216997042,147,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,PR,*
+134,Younger,>=35,2018,nv_020,0.3912464439203151,5.483230977297911,0.3491994419852343,0.433293445855396,707,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,PR,
+135,Younger,15 à 24 ans,2018,nv_020,0.3384697308874446,21.012512421750003,0.1990751436194515,0.4778643181554376,53,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,QC,*
+136,Younger,25 à 34 ans,2018,nv_020,0.4060762161672375,14.917477552337596,0.2873487942029925,0.5248036381314825,81,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,QC,
+137,Younger,>=35,2018,nv_020,0.5602482797746987,3.9389141015007976,0.516996385501906,0.6035001740474915,707,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,QC,
+138,Younger,15 à 24 ans,2018,nv_030,0.0390988498742238,89.94852176597247,-0.0298308049830659,0.1080285047315136,39,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AB,...
+139,Younger,25 à 34 ans,2018,nv_030,0.0513312797732449,48.51256426298552,0.0025240212640171,0.1001385382824726,85,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AB,...
+140,Younger,>=35,2018,nv_030,0.094482557637379,21.873543359463728,0.0539766028620733,0.1349885124126847,484,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AB,*
+141,Younger,15 à 24 ans,2018,nv_030,0.0461116375172254,68.45285319923863,-0.0157540994778156,0.1079773745122665,100,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AT,...
+142,Younger,25 à 34 ans,2018,nv_030,0.0293165275130554,50.286663710130185,0.0004221434040234916,0.0582109116220874,147,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AT,...
+143,Younger,>=35,2018,nv_030,0.0529542532291776,12.904166055429233,0.0395612219843849,0.0663472844739703,1437,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AT,
+144,Younger,15 à 24 ans,2018,nv_030,0.0,,0.0,0.0,61,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,BC,
+145,Younger,25 à 34 ans,2018,nv_030,0.0662849250779212,56.68128279504936,-0.0073531676144309,0.1399230177702733,105,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,BC,...
+146,Younger,>=35,2018,nv_030,0.0773417641301309,16.893614610862763,0.051733228353474,0.1029502999067879,810,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,BC,*
+147,Younger,15 à 24 ans,2018,nv_030,0.0697438454657382,40.02939661945531,0.0150254915292932,0.1244621994021832,136,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,ON,...
+148,Younger,25 à 34 ans,2018,nv_030,0.0447125979578729,39.1847480258274,0.0103730120300538,0.079052183885692,231,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,ON,...
+149,Younger,>=35,2018,nv_030,0.0518174775416027,12.732908898556367,0.0388858856375567,0.0647490694456487,1599,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,ON,
+150,Younger,15 à 24 ans,2018,nv_030,0.0595466757869657,47.58840600472236,0.0040065612501559,0.1150867903237756,73,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,PR,...
+151,Younger,25 à 34 ans,2018,nv_030,0.04907053913107,39.505009433746814,0.0110760079210036,0.0870650703411364,147,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,PR,...
+152,Younger,>=35,2018,nv_030,0.0687027701683457,18.21563179333976,0.0441745193434396,0.0932310209932519,706,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,PR,*
+153,Younger,15 à 24 ans,2018,nv_030,0.0278402581372642,74.67846423439582,-0.0129087204199019,0.0685892366944303,53,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,QC,...
+154,Younger,25 à 34 ans,2018,nv_030,0.0108768197123781,113.67707255338009,-0.0133570574387028,0.0351106968634591,81,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,QC,...
+155,Younger,>=35,2018,nv_030,0.0563688374399232,18.75686912839122,0.0356460812595362,0.0770915936203102,693,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,QC,*
+156,Younger,15 à 24 ans,2018,nv_040,0.3211447689945431,26.95588939305801,0.1514757264656539,0.4908138115234323,39,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AB,*
+157,Younger,25 à 34 ans,2018,nv_040,0.2305843858501974,24.563955481134894,0.1195707598511967,0.3415980118491981,85,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AB,*
+158,Younger,>=35,2018,nv_040,0.2157985890347037,10.718640988074398,0.1704632971053577,0.2611338809640497,486,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AB,
+159,Younger,15 à 24 ans,2018,nv_040,0.3372002871373389,19.204785312844766,0.2102757806585039,0.464124793616174,100,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AT,*
+160,Younger,25 à 34 ans,2018,nv_040,0.3248366917204018,14.381098749341312,0.2332768067812967,0.416396576659507,148,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AT,
+161,Younger,>=35,2018,nv_040,0.2387691318332461,6.21189663774546,0.2096987663400957,0.2678394973263965,1446,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AT,
+162,Younger,15 à 24 ans,2018,nv_040,0.2739152922941449,23.516728123248463,0.147662419692378,0.4001681648959118,61,Aucune sollicitation,Younger Canadians Barriers to Volunteering,BC,*
+163,Younger,25 à 34 ans,2018,nv_040,0.3408250231781769,16.749518207175647,0.228937442525302,0.4527126038310518,109,Aucune sollicitation,Younger Canadians Barriers to Volunteering,BC,*
+164,Younger,>=35,2018,nv_040,0.2548765136728707,8.462715515368123,0.2126011209428654,0.297151906402876,809,Aucune sollicitation,Younger Canadians Barriers to Volunteering,BC,
+165,Younger,15 à 24 ans,2018,nv_040,0.292974040964137,15.136011348232506,0.206060253242823,0.3798878286854509,137,Aucune sollicitation,Younger Canadians Barriers to Volunteering,ON,
+166,Younger,25 à 34 ans,2018,nv_040,0.3260222331339378,12.224785108650975,0.2479068544309126,0.404137611836963,231,Aucune sollicitation,Younger Canadians Barriers to Volunteering,ON,
+167,Younger,>=35,2018,nv_040,0.219502301563996,5.831244643208187,0.1944153187963906,0.2445892843316015,1610,Aucune sollicitation,Younger Canadians Barriers to Volunteering,ON,
+168,Younger,15 à 24 ans,2018,nv_040,0.311258069404544,20.466736739811186,0.1863997992396817,0.4361163395694064,74,Aucune sollicitation,Younger Canadians Barriers to Volunteering,PR,*
+169,Younger,25 à 34 ans,2018,nv_040,0.3687345666474587,13.959332261833037,0.2678495691548304,0.469619564140087,148,Aucune sollicitation,Younger Canadians Barriers to Volunteering,PR,
+170,Younger,>=35,2018,nv_040,0.2169408592656973,9.045168812488068,0.1784811387751375,0.2554005797562572,705,Aucune sollicitation,Younger Canadians Barriers to Volunteering,PR,
+171,Younger,15 à 24 ans,2018,nv_040,0.3953322183729639,20.043450926640716,0.2400281625677744,0.5506362741781534,52,Aucune sollicitation,Younger Canadians Barriers to Volunteering,QC,*
+172,Younger,25 à 34 ans,2018,nv_040,0.2173659461777821,23.91626639636032,0.1154756137349736,0.3192562786205906,82,Aucune sollicitation,Younger Canadians Barriers to Volunteering,QC,*
+173,Younger,>=35,2018,nv_040,0.1960001261065882,9.190519220580333,0.1606944535146404,0.2313057986985359,696,Aucune sollicitation,Younger Canadians Barriers to Volunteering,QC,
+174,Younger,15 à 24 ans,2018,nv_050,0.2642190047090275,29.521571361844902,0.1113386740002065,0.4170993354178485,39,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AB,*
+175,Younger,25 à 34 ans,2018,nv_050,0.0755080993250757,37.14602977314836,0.0205345178254934,0.130481680824658,85,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AB,...
+176,Younger,>=35,2018,nv_050,0.0654073010325966,19.83158072407304,0.0399840168607085,0.0908305852044847,482,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AB,*
+177,Younger,15 à 24 ans,2018,nv_050,0.3182551712753471,18.839206155068528,0.2007421049263676,0.4357682376243267,100,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AT,*
+178,Younger,25 à 34 ans,2018,nv_050,0.1907121543122313,24.46488674329693,0.0992651100899554,0.2821591985345071,148,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AT,*
+179,Younger,>=35,2018,nv_050,0.110368172632066,10.17413647278864,0.0883597203779977,0.1323766248861342,1437,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AT,
+180,Younger,15 à 24 ans,2018,nv_050,0.2638536142741404,26.857019295992917,0.1249642628918515,0.4027429656564293,61,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,BC,*
+181,Younger,25 à 34 ans,2018,nv_050,0.2110910915873129,24.020542227427764,0.1117106771648908,0.3104715060097351,106,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,BC,*
+182,Younger,>=35,2018,nv_050,0.1232513266926839,13.008915858350765,0.0918259278402188,0.154676725545149,809,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,BC,
+183,Younger,15 à 24 ans,2018,nv_050,0.2384885442376184,19.004145267545983,0.1496576661448328,0.3273194223304041,136,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,ON,*
+184,Younger,25 à 34 ans,2018,nv_050,0.1973134952805529,18.283922024864104,0.1266045691791431,0.2680224213819628,230,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,ON,*
+185,Younger,>=35,2018,nv_050,0.1097839216390596,10.56623139819573,0.0870482939503725,0.1325195493277467,1591,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,ON,
+186,Younger,15 à 24 ans,2018,nv_050,0.2924855471987762,20.03058887269496,0.17765796537729,0.4073131290202623,73,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,PR,*
+187,Younger,25 à 34 ans,2018,nv_050,0.2442123322762371,18.0632549308344,0.157753036558156,0.3306716279943182,148,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,PR,*
+188,Younger,>=35,2018,nv_050,0.087382240887547,16.710060466464984,0.0587635812048458,0.1160009005702482,707,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,PR,*
+189,Younger,15 à 24 ans,2018,nv_050,0.2837705938782019,28.671660129578708,0.1243045133187857,0.4432366744376182,52,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,QC,*
+190,Younger,25 à 34 ans,2018,nv_050,0.0969232821751779,38.25257536452352,0.0242563404145554,0.1695902239358005,82,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,QC,...
+191,Younger,>=35,2018,nv_050,0.0762522210185243,15.995686755727563,0.0523464101214012,0.1001580319156473,693,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,QC,
+192,Younger,15 à 24 ans,2018,nv_060,0.0544643033079234,69.86498681628055,-0.0201152237688761,0.1290438303847231,39,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AB,...
+193,Younger,25 à 34 ans,2018,nv_060,0.0683392283843029,39.85970707655919,0.0149501695841807,0.121728287184425,85,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AB,...
+194,Younger,>=35,2018,nv_060,0.1746093818021176,12.007546703688272,0.1335161828981012,0.215702580706134,483,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AB,
+195,Younger,15 à 24 ans,2018,nv_060,0.1388181899259208,39.19942268650431,0.0321649288323939,0.2454714510194476,100,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AT,...
+196,Younger,25 à 34 ans,2018,nv_060,0.1617279494517702,26.428708959954704,0.0779539750741735,0.245501923829367,148,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AT,*
+197,Younger,>=35,2018,nv_060,0.2319573179583693,5.536945382965632,0.2067848145035192,0.2571298214132194,1445,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AT,
+198,Younger,15 à 24 ans,2018,nv_060,0.0625611054326032,55.5609455089376,-0.0055663444169423,0.1306885552821489,60,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,BC,...
+199,Younger,25 à 34 ans,2018,nv_060,0.07347052314808,33.73206868786358,0.0248964861498694,0.1220445601462906,104,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,BC,...
+200,Younger,>=35,2018,nv_060,0.2135015216861912,8.66021567214015,0.1772623908079641,0.2497406525644184,814,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,BC,
+201,Younger,15 à 24 ans,2018,nv_060,0.0783043527638877,38.30890183660055,0.0195102593761607,0.1370984461516148,135,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,ON,...
+202,Younger,25 à 34 ans,2018,nv_060,0.1477105027772665,19.33728648521015,0.091727653436226,0.2036933521183069,231,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,ON,*
+203,Younger,>=35,2018,nv_060,0.2298791535967601,5.6540003132126415,0.2044047802967812,0.2553535268967392,1601,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,ON,
+204,Younger,15 à 24 ans,2018,nv_060,0.0718504870111208,38.09303068322009,0.0182062177514191,0.1254947562708224,73,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,PR,...
+205,Younger,25 à 34 ans,2018,nv_060,0.1415881404481261,32.29793746823325,0.0519588912707112,0.2312173896255409,147,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,PR,*
+206,Younger,>=35,2018,nv_060,0.2148637826166015,8.477037914168505,0.1791648333454228,0.2505627318877801,710,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,PR,
+207,Younger,15 à 24 ans,2018,nv_060,0.0391160319859771,63.02175802401946,-0.0092002377874424,0.0874323017593967,52,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,QC,...
+208,Younger,25 à 34 ans,2018,nv_060,0.103326630031859,34.99028690172032,0.0324655349287447,0.1741877251349732,82,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,QC,...
+209,Younger,>=35,2018,nv_060,0.1898785422704465,9.663070023800731,0.153916933946041,0.225840150594852,699,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,QC,
+210,Younger,15 à 24 ans,2018,nv_070,0.7536828127690306,11.96534049316744,0.5769318596878115,0.9304337658502496,41,Manque de temps,Younger Canadians Barriers to Volunteering,AB,
+211,Younger,25 à 34 ans,2018,nv_070,0.8803650029111272,3.794530667121766,0.814890994798081,0.9458390110241732,92,Manque de temps,Younger Canadians Barriers to Volunteering,AB,
+212,Younger,>=35,2018,nv_070,0.7225572851715752,2.91323720766924,0.6813004202405282,0.7638141501026223,574,Manque de temps,Younger Canadians Barriers to Volunteering,AB,
+213,Younger,15 à 24 ans,2018,nv_070,0.8119618914176587,6.255378266531371,0.7124127968202618,0.9115109860150556,105,Manque de temps,Younger Canadians Barriers to Volunteering,AT,
+214,Younger,25 à 34 ans,2018,nv_070,0.8360558670854491,4.221005682260248,0.7668888053829616,0.9052229287879366,158,Manque de temps,Younger Canadians Barriers to Volunteering,AT,
+215,Younger,>=35,2018,nv_070,0.6784491875118408,2.089826610387852,0.6506600113030361,0.7062383637206455,1642,Manque de temps,Younger Canadians Barriers to Volunteering,AT,
+216,Younger,15 à 24 ans,2018,nv_070,0.798354600912114,8.240202864352856,0.669416334390132,0.927292867434096,65,Manque de temps,Younger Canadians Barriers to Volunteering,BC,
+217,Younger,25 à 34 ans,2018,nv_070,0.8354510078472763,4.809131446332648,0.7567036980854727,0.91419831760908,116,Manque de temps,Younger Canadians Barriers to Volunteering,BC,
+218,Younger,>=35,2018,nv_070,0.7171683418283796,2.356490935757631,0.684044936830058,0.7502917468267013,941,Manque de temps,Younger Canadians Barriers to Volunteering,BC,
+219,Younger,15 à 24 ans,2018,nv_070,0.7997284549536363,5.094734213289892,0.7198716055213908,0.8795853043858818,141,Manque de temps,Younger Canadians Barriers to Volunteering,ON,
+220,Younger,25 à 34 ans,2018,nv_070,0.7993518576385477,4.202407308044191,0.7335127065411472,0.8651910087359481,247,Manque de temps,Younger Canadians Barriers to Volunteering,ON,
+221,Younger,>=35,2018,nv_070,0.7261705041821764,1.81557955485191,0.7003299407310176,0.7520110676333353,1831,Manque de temps,Younger Canadians Barriers to Volunteering,ON,
+222,Younger,15 à 24 ans,2018,nv_070,0.8099395583415963,6.648486565416828,0.7043980011884113,0.9154811154947812,75,Manque de temps,Younger Canadians Barriers to Volunteering,PR,
+223,Younger,25 à 34 ans,2018,nv_070,0.7850646211715817,6.074178862566047,0.6916013292307529,0.8785279131124105,152,Manque de temps,Younger Canadians Barriers to Volunteering,PR,
+224,Younger,>=35,2018,nv_070,0.6848192023350196,3.118123214578998,0.6429670986006087,0.7266713060694304,795,Manque de temps,Younger Canadians Barriers to Volunteering,PR,
+225,Younger,15 à 24 ans,2018,nv_070,0.709613334152603,11.51695846918824,0.5494335664946007,0.8697931018106052,53,Manque de temps,Younger Canadians Barriers to Volunteering,QC,
+226,Younger,25 à 34 ans,2018,nv_070,0.8331277028526995,5.676810700808691,0.7404310443364425,0.9258243613689566,94,Manque de temps,Younger Canadians Barriers to Volunteering,QC,
+227,Younger,>=35,2018,nv_070,0.69620996372344,2.922353245851937,0.6563330961169843,0.7360868313298957,789,Manque de temps,Younger Canadians Barriers to Volunteering,QC,
+228,Younger,15 à 24 ans,2018,nv_080,0.1248257320473316,57.239221506311786,-0.0152122781104417,0.2648637422051051,39,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AB,...
+229,Younger,25 à 34 ans,2018,nv_080,0.0895349157349749,46.67747359223856,0.0076228530858752,0.1714469783840745,85,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AB,...
+230,Younger,>=35,2018,nv_080,0.1464853832384927,16.960932246330554,0.0977895163132747,0.1951812501637107,483,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AB,*
+231,Younger,15 à 24 ans,2018,nv_080,0.0275265860695974,56.21924454054691,-0.0028043245053786,0.0578574966445735,100,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AT,...
+232,Younger,25 à 34 ans,2018,nv_080,0.1919058200167426,25.86934603849493,0.0946038379259924,0.2892078021074928,147,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AT,*
+233,Younger,>=35,2018,nv_080,0.0882422727564611,9.507890315815343,0.0717982170538967,0.1046863284590254,1435,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AT,
+234,Younger,15 à 24 ans,2018,nv_080,0.0523679467635457,62.9115017681553,-0.0122039717285216,0.1169398652556131,61,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,BC,...
+235,Younger,25 à 34 ans,2018,nv_080,0.1027742799279781,35.59405575984065,0.0310757898002639,0.1744727700556924,106,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,BC,...
+236,Younger,>=35,2018,nv_080,0.1237219683871748,12.956266318708783,0.0923042401766892,0.1551396965976604,806,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,BC,
+237,Younger,15 à 24 ans,2018,nv_080,0.1353630639402662,28.791538887423272,0.0589771735553233,0.211748954325209,136,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,ON,*
+238,Younger,25 à 34 ans,2018,nv_080,0.1557564279586342,19.15665333017974,0.0972755734485325,0.2142372824687358,231,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,ON,*
+239,Younger,>=35,2018,nv_080,0.1045706835787738,8.847109117743203,0.0864381111116577,0.1227032560458898,1603,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,ON,
+240,Younger,15 à 24 ans,2018,nv_080,0.0546452376425866,46.51165171209971,0.0048300039112613,0.1044604713739119,73,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,PR,...
+241,Younger,25 à 34 ans,2018,nv_080,0.1109583402555509,24.973742079005756,0.0566468568274314,0.1652698236836703,148,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,PR,*
+242,Younger,>=35,2018,nv_080,0.0836210705270736,15.805273442556771,0.0577171303761007,0.1095250106780466,707,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,PR,
+243,Younger,15 à 24 ans,2018,nv_080,0.0655317179096121,52.28401449670726,-0.0016217693745593,0.1326852051937835,52,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,QC,...
+244,Younger,25 à 34 ans,2018,nv_080,0.1009310725058548,36.88362656510405,0.0279674151072389,0.1738947299044707,82,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,QC,...
+245,Younger,>=35,2018,nv_080,0.082333852242504,14.772056331063684,0.0584959803327603,0.1061717241522476,691,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,QC,
+246,Younger,15 à 24 ans,2018,nv_090,0.4069701721744622,22.10563658376716,0.2306452516059648,0.5832950927429597,39,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AB,*
+247,Younger,25 à 34 ans,2018,nv_090,0.5047596071740225,12.889705058768698,0.3772403821565235,0.6322788321915214,85,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AB,
+248,Younger,>=35,2018,nv_090,0.4615160738053426,6.54783828944345,0.4022872828308526,0.5207448647798326,487,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AB,
+249,Younger,15 à 24 ans,2018,nv_090,0.339518826038917,19.094494035716856,0.2124555330028993,0.4665821190749346,100,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AT,*
+250,Younger,25 à 34 ans,2018,nv_090,0.466775854698508,11.194822955193962,0.3643584648357234,0.5691932445612927,148,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AT,
+251,Younger,>=35,2018,nv_090,0.4436894461600931,3.883770192640295,0.4099155849967227,0.4774633073234634,1443,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AT,
+252,Younger,15 à 24 ans,2018,nv_090,0.3572775773415593,18.04222537189108,0.2309366805417404,0.4836184741413782,61,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,BC,*
+253,Younger,25 à 34 ans,2018,nv_090,0.5082848729912479,10.5412461435242,0.4032708659220083,0.6132988800604875,108,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,BC,
+254,Younger,>=35,2018,nv_090,0.4243987496430955,5.764354374057243,0.3764504888583771,0.4723470104278139,815,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,BC,
+255,Younger,15 à 24 ans,2018,nv_090,0.4412118960587323,11.115935726796309,0.3450857940925297,0.5373379980249349,135,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,ON,
+256,Younger,25 à 34 ans,2018,nv_090,0.4763154826777735,9.207622449389987,0.3903566928463333,0.5622742725092138,231,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,ON,
+257,Younger,>=35,2018,nv_090,0.4166289771976868,3.888667081077573,0.3848749854778855,0.4483829689174881,1605,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,ON,
+258,Younger,15 à 24 ans,2018,nv_090,0.4871269341262406,12.967875348927436,0.3633159825505917,0.6109378857018894,74,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,PR,
+259,Younger,25 à 34 ans,2018,nv_090,0.4956516876662875,10.487710433836954,0.3937678328652121,0.5975355424673628,147,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,PR,
+260,Younger,>=35,2018,nv_090,0.4635816372329427,5.303220520659289,0.4153963998933947,0.5117668745724908,711,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,PR,
+261,Younger,15 à 24 ans,2018,nv_090,0.3519073627291526,21.354534013610973,0.2046196413833477,0.4991950840749574,52,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,QC,*
+262,Younger,25 à 34 ans,2018,nv_090,0.4661253168385366,13.972667424110517,0.3384725875396929,0.5937780461373803,82,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,QC,
+263,Younger,>=35,2018,nv_090,0.4039772637460198,5.301782725335157,0.3619987614292315,0.445955766062808,701,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,QC,
+264,Younger,15 à 24 ans,2018,nv_100,0.1167245421172946,48.98616253166661,0.0046560085655316,0.2287930756690577,41,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AB,...
+265,Younger,25 à 34 ans,2018,nv_100,0.2114060940295146,25.00777525845816,0.107786794773374,0.3150253932856552,90,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AB,*
+266,Younger,>=35,2018,nv_100,0.2326172891571525,9.527907194369114,0.1891775109071959,0.2760570674071091,560,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AB,
+267,Younger,15 à 24 ans,2018,nv_100,0.053425712494625,44.95553089358549,0.0063516646433427,0.1004997603459073,105,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AT,...
+268,Younger,25 à 34 ans,2018,nv_100,0.1717661224719136,24.09267437448188,0.0906568298588355,0.2528754150849918,156,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AT,*
+269,Younger,>=35,2018,nv_100,0.2371320010462023,5.585082699332049,0.2111742020401931,0.2630898000522116,1612,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AT,
+270,Younger,15 à 24 ans,2018,nv_100,0.0652010234102926,47.677153971630105,0.0042735980346925,0.1261284487858927,64,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,BC,...
+271,Younger,25 à 34 ans,2018,nv_100,0.1631615252128913,27.245579236745776,0.0760326930889553,0.2502903573368272,111,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,BC,*
+272,Younger,>=35,2018,nv_100,0.224727441153539,8.530021030594751,0.187156307480471,0.262298574826607,904,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,BC,
+273,Younger,15 à 24 ans,2018,nv_100,0.1033568192284371,31.910433622904804,0.0387140530547752,0.1679995854020991,141,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,ON,*
+274,Younger,25 à 34 ans,2018,nv_100,0.1995963039165859,15.931378709167124,0.1372725007418936,0.2619201070912782,244,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,ON,
+275,Younger,>=35,2018,nv_100,0.2001906911556344,5.669506247652632,0.1779454453898729,0.2224359369213958,1766,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,ON,
+276,Younger,15 à 24 ans,2018,nv_100,0.1128498688915041,37.93641607596369,0.0289414669808452,0.196758270802163,74,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,PR,...
+277,Younger,25 à 34 ans,2018,nv_100,0.1832711018783534,17.278099311756836,0.1212073468704779,0.2453348568862289,152,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,PR,*
+278,Younger,>=35,2018,nv_100,0.2415758782077017,8.005266532250243,0.2036725405640484,0.2794792158513551,789,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,PR,
+279,Younger,15 à 24 ans,2018,nv_100,0.1881511340797206,34.63571886696254,0.0604251853412156,0.3158770828182256,53,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,QC,...
+280,Younger,25 à 34 ans,2018,nv_100,0.1447485273894617,25.426517479391705,0.0726130140698303,0.2168840407090931,94,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,QC,*
+281,Younger,>=35,2018,nv_100,0.2420631408500747,7.528136236534051,0.2063470248317589,0.2777792568683905,776,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,QC,
+282,Younger,15 à 24 ans,2018,nv_110,0.115771806216201,51.797937955384434,-0.0017621544032488,0.2333057668356509,39,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AB,...
+283,Younger,25 à 34 ans,2018,nv_110,0.1318786692373073,28.90169727622889,0.0571743014132449,0.2065830370613696,85,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AB,*
+284,Younger,>=35,2018,nv_110,0.2543221023026114,9.863605471905132,0.2051557613162563,0.3034884432889665,483,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AB,
+285,Younger,15 à 24 ans,2018,nv_110,0.1810420948371681,30.24390711497472,0.0737258289519203,0.2883583607224158,98,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AT,*
+286,Younger,25 à 34 ans,2018,nv_110,0.1203798938255644,25.945638316876924,0.059163688266263,0.1815960993848658,148,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AT,*
+287,Younger,>=35,2018,nv_110,0.2512975140944154,5.79343779045187,0.222762858744935,0.2798321694438958,1445,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AT,
+288,Younger,15 à 24 ans,2018,nv_110,0.189189329299567,30.05599250114864,0.0777404252075518,0.3006382333915821,60,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,BC,*
+289,Younger,25 à 34 ans,2018,nv_110,0.1831196519155377,23.3328809475349,0.0993760936202839,0.2668632102107915,105,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,BC,*
+290,Younger,>=35,2018,nv_110,0.2533465633591416,8.412182880700232,0.2115758575055574,0.2951172692127258,813,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,BC,
+291,Younger,15 à 24 ans,2018,nv_110,0.2142297480941925,19.308470774617295,0.1331568407847094,0.2953026554036757,136,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,ON,*
+292,Younger,25 à 34 ans,2018,nv_110,0.1169779033196519,18.301991131470068,0.075016474821885,0.1589393318174187,231,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,ON,*
+293,Younger,>=35,2018,nv_110,0.2276190088576088,5.827667519612303,0.2016203236649185,0.2536176940502991,1600,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,ON,
+294,Younger,15 à 24 ans,2018,nv_110,0.1416710755442798,29.800232803226333,0.0589247078151655,0.2244174432733942,73,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,PR,*
+295,Younger,25 à 34 ans,2018,nv_110,0.2377246161078077,20.266730303151416,0.1432954979477857,0.3321537342678297,148,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,PR,*
+296,Younger,>=35,2018,nv_110,0.2319254434293211,8.401531504773558,0.1937349783742654,0.2701159084843769,705,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,PR,
+297,Younger,15 à 24 ans,2018,nv_110,0.1998732083179442,28.79783242948565,0.0870593441957001,0.3126870724401882,52,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,QC,*
+298,Younger,25 à 34 ans,2018,nv_110,0.2588764241158418,21.832722168095387,0.1480997096469825,0.3696531385847011,82,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,QC,*
+299,Younger,>=35,2018,nv_110,0.3017411431965289,6.863503349484056,0.2611502626758616,0.3423320237171962,696,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,QC,
+300,Younger,15 à 24 ans,2018,nv_120,0.230480445507314,34.9329349859292,0.0726767202397544,0.3882841707748737,39,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AB,...
+301,Younger,25 à 34 ans,2018,nv_120,0.1971728602824591,24.449782958547047,0.1026862571991154,0.2916594633658028,85,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AB,*
+302,Younger,>=35,2018,nv_120,0.1775955793171157,11.833698293921094,0.1364047311446569,0.2187864274895746,482,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AB,
+303,Younger,15 à 24 ans,2018,nv_120,0.2412091963991677,22.129343266372658,0.1365902171527747,0.3458281756455608,100,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AT,*
+304,Younger,25 à 34 ans,2018,nv_120,0.1708056011996272,27.597051853313577,0.0784181706219462,0.2631930317773082,147,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AT,*
+305,Younger,>=35,2018,nv_120,0.1756229510650918,6.894513505668909,0.1518910249155525,0.1993548772146312,1428,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AT,
+306,Younger,15 à 24 ans,2018,nv_120,0.2340506267431373,28.89151652021697,0.1015163421737853,0.3665849113124892,61,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,BC,*
+307,Younger,25 à 34 ans,2018,nv_120,0.3664177863042006,15.248315263553511,0.2569096216740989,0.4759259509343023,106,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,BC,
+308,Younger,>=35,2018,nv_120,0.1904487693833503,9.875566852144676,0.1535859715008612,0.2273115672658394,803,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,BC,
+309,Younger,15 à 24 ans,2018,nv_120,0.2298722975535073,18.006673832012122,0.1487447728110051,0.3109998222960095,136,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,ON,*
+310,Younger,25 à 34 ans,2018,nv_120,0.1873287980313335,17.448140956562554,0.123266605454613,0.251390990608054,231,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,ON,*
+311,Younger,>=35,2018,nv_120,0.1796530571258948,7.620222998888993,0.152821221564693,0.2064848926870966,1595,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,ON,
+312,Younger,15 à 24 ans,2018,nv_120,0.1445191410012153,31.991359109602666,0.0539028768624993,0.2351354051399312,73,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,PR,*
+313,Younger,25 à 34 ans,2018,nv_120,0.1784230829471293,18.48464088363397,0.1137817731410736,0.2430643927531851,147,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,PR,*
+314,Younger,>=35,2018,nv_120,0.1679766684009378,11.269337086245494,0.1308748304712848,0.2050785063305908,703,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,PR,
+315,Younger,15 à 24 ans,2018,nv_120,0.2281901780804489,30.432660172412728,0.0920817699239355,0.3642985862369622,51,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,QC,*
+316,Younger,25 à 34 ans,2018,nv_120,0.1375620123029936,30.788839051737543,0.0545501944266283,0.2205738301793589,82,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,QC,*
+317,Younger,>=35,2018,nv_120,0.161711964629986,10.990606083987728,0.1268772796918661,0.1965466495681058,694,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,QC,
+318,Younger,15 à 24 ans,2018,nv_130,0.1378625080176441,45.436288978308575,0.0150911332420647,0.2606338827932235,39,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AB,...
+319,Younger,25 à 34 ans,2018,nv_130,0.1457760123508829,32.13303626972088,0.0539668719107093,0.2375851527910564,84,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AB,*
+320,Younger,>=35,2018,nv_130,0.17810495978752,12.35235966707035,0.1349854283066121,0.2212244912684279,481,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AB,
+321,Younger,15 à 24 ans,2018,nv_130,0.1959651670569008,25.05137853679844,0.0997466625595893,0.2921836715542123,100,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AT,*
+322,Younger,25 à 34 ans,2018,nv_130,0.2104348489995173,23.364629985087056,0.1140686650796081,0.3068010329194266,147,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AT,*
+323,Younger,>=35,2018,nv_130,0.1474393518350513,7.880768552916972,0.1246658363263116,0.1702128673437911,1431,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AT,
+324,Younger,15 à 24 ans,2018,nv_130,0.2090139359364899,30.778303518485146,0.082927603392021,0.3351002684809587,61,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,BC,*
+325,Younger,25 à 34 ans,2018,nv_130,0.360508297405357,16.007569638928036,0.2474014869556309,0.473615107855083,105,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,BC,
+326,Younger,>=35,2018,nv_130,0.1965968496023319,10.033365519782938,0.1579360101962619,0.235257689008402,809,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,BC,
+327,Younger,15 à 24 ans,2018,nv_130,0.1808127678713345,19.79569366412484,0.1106594993762617,0.2509660363664073,137,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,ON,*
+328,Younger,25 à 34 ans,2018,nv_130,0.150394341142879,18.40696233174243,0.0961365999023729,0.204652082383385,231,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,ON,*
+329,Younger,>=35,2018,nv_130,0.1533700262754576,6.57433105829925,0.1336076050090226,0.1731324475418927,1591,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,ON,
+330,Younger,15 à 24 ans,2018,nv_130,0.0892613673607768,39.76651648290662,0.0196902184962476,0.1588325162253061,73,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,PR,...
+331,Younger,25 à 34 ans,2018,nv_130,0.1970695137217837,17.710119872870226,0.1286643263647509,0.2654747010788165,147,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,PR,*
+332,Younger,>=35,2018,nv_130,0.1842918288743013,10.14563654885142,0.1476452471484512,0.2209384106001514,705,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,PR,
+333,Younger,15 à 24 ans,2018,nv_130,0.2047940988951624,31.804654922356747,0.0771336940764492,0.3324545037138756,52,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,QC,*
+334,Younger,25 à 34 ans,2018,nv_130,0.0963384301126608,33.257371387110084,0.0335419102321384,0.1591349499931832,82,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,QC,*
+335,Younger,>=35,2018,nv_130,0.1178889914194177,13.368622707067852,0.0869996954548917,0.1487782873839436,693,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,QC,
+336,Younger2,15 à 34 ans,2018,nv_020,0.2655628266007945,18.772153562517943,0.1678549732741695,0.3632706799274194,125,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AB,*
+337,Younger2,>=35,2018,nv_020,0.3909674031817329,7.156325600710847,0.3361297661406139,0.4458050402228518,486,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AB,
+338,Younger2,15 à 34 ans,2018,nv_020,0.279471509173785,13.646427523326995,0.2047226439093771,0.3542203744381929,248,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AT,
+339,Younger2,>=35,2018,nv_020,0.4129872762667796,4.095723604852468,0.379834843437879,0.4461397090956802,1448,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,AT,
+340,Younger2,15 à 34 ans,2018,nv_020,0.2914198930305769,13.820648760152157,0.2124801487209419,0.3703596373402119,170,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,BC,
+341,Younger2,>=35,2018,nv_020,0.4754946119533609,4.79145019525284,0.4308405809715388,0.5201486429351829,825,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,BC,
+342,Younger2,15 à 34 ans,2018,nv_020,0.3541464766983159,9.1663618255786,0.2905214448491463,0.4177715085474855,367,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,ON,
+343,Younger2,>=35,2018,nv_020,0.4250092314172296,4.049047263229656,0.3912805548807461,0.4587379079537131,1621,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,ON,
+344,Younger2,15 à 34 ans,2018,nv_020,0.2375587504494367,14.7571815102992,0.1688483400876043,0.3062691608112692,220,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,PR,
+345,Younger2,>=35,2018,nv_020,0.3912464439203151,5.483230977297911,0.3491994419852343,0.433293445855396,707,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,PR,
+346,Younger2,15 à 34 ans,2018,nv_020,0.3638936959225011,13.603331083159034,0.2668722168234267,0.4609151750215755,134,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,QC,
+347,Younger2,>=35,2018,nv_020,0.5602482797746987,3.9389141015007976,0.516996385501906,0.6035001740474915,707,Assez de temps déjà donné,Younger Canadians Barriers to Volunteering,QC,
+348,Younger2,15 à 34 ans,2018,nv_030,0.0448742167890885,51.322260650595744,-0.00026466026881400567,0.0900130938469911,124,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AB,...
+349,Younger2,>=35,2018,nv_030,0.094482557637379,21.873543359463728,0.0539766028620733,0.1349885124126847,484,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AB,*
+350,Younger2,15 à 34 ans,2018,nv_030,0.0387850230732286,49.392651340222,0.0012380886308203,0.0763319575156369,247,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AT,...
+351,Younger2,>=35,2018,nv_030,0.0529542532291776,12.904166055429233,0.0395612219843849,0.0663472844739703,1437,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,AT,
+352,Younger2,15 à 34 ans,2018,nv_030,0.0283938794490269,58.29921122524141,-0.0040502035722351,0.060837962470289,166,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,BC,...
+353,Younger2,>=35,2018,nv_030,0.0773417641301309,16.893614610862763,0.051733228353474,0.1029502999067879,810,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,BC,*
+354,Younger2,15 à 34 ans,2018,nv_030,0.0589561711120649,30.13850418214656,0.0241305351844199,0.0937818070397099,367,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,ON,*
+355,Younger2,>=35,2018,nv_030,0.0518174775416027,12.732908898556367,0.0388858856375567,0.0647490694456487,1599,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,ON,
+356,Younger2,15 à 34 ans,2018,nv_030,0.0544246558772538,30.777686561255525,0.0215939851636493,0.0872553265908582,220,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,PR,*
+357,Younger2,>=35,2018,nv_030,0.0687027701683457,18.21563179333976,0.0441745193434396,0.0932310209932519,706,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,PR,*
+358,Younger2,15 à 34 ans,2018,nv_030,0.0214610200567195,64.6022036730141,-0.005712492713634,0.0486345328270731,134,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,QC,...
+359,Younger2,>=35,2018,nv_030,0.0563688374399232,18.75686912839122,0.0356460812595362,0.0770915936203102,693,Expérience bénévole passée insatisfaisante,Younger Canadians Barriers to Volunteering,QC,*
+360,Younger2,15 à 34 ans,2018,nv_040,0.278387978648973,19.128580427967616,0.1740166264728855,0.3827593308250605,124,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AB,*
+361,Younger2,>=35,2018,nv_040,0.2157985890347037,10.718640988074398,0.1704632971053577,0.2611338809640497,486,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AB,
+362,Younger2,15 à 34 ans,2018,nv_040,0.3317938011364507,12.456762583655529,0.2507869881762873,0.412800614096614,248,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AT,
+363,Younger2,>=35,2018,nv_040,0.2387691318332461,6.21189663774546,0.2096987663400957,0.2678394973263965,1446,Aucune sollicitation,Younger Canadians Barriers to Volunteering,AT,
+364,Younger2,15 à 34 ans,2018,nv_040,0.3034633313050066,14.573575823101669,0.2167830250864735,0.3901436375235396,170,Aucune sollicitation,Younger Canadians Barriers to Volunteering,BC,
+365,Younger2,>=35,2018,nv_040,0.2548765136728707,8.462715515368123,0.2126011209428654,0.297151906402876,809,Aucune sollicitation,Younger Canadians Barriers to Volunteering,BC,
+366,Younger2,15 à 34 ans,2018,nv_040,0.3071766126487102,10.049985321155171,0.2466701637061532,0.3676830615912672,368,Aucune sollicitation,Younger Canadians Barriers to Volunteering,ON,
+367,Younger2,>=35,2018,nv_040,0.219502301563996,5.831244643208187,0.1944153187963906,0.2445892843316015,1610,Aucune sollicitation,Younger Canadians Barriers to Volunteering,ON,
+368,Younger2,15 à 34 ans,2018,nv_040,0.3392628368917825,12.559126767144196,0.2557518099269629,0.4227738638566021,222,Aucune sollicitation,Younger Canadians Barriers to Volunteering,PR,
+369,Younger2,>=35,2018,nv_040,0.2169408592656973,9.045168812488068,0.1784811387751375,0.2554005797562572,705,Aucune sollicitation,Younger Canadians Barriers to Volunteering,PR,
+370,Younger2,15 à 34 ans,2018,nv_040,0.3274442022291359,16.391060059258194,0.2222498465736705,0.4326385578846013,134,Aucune sollicitation,Younger Canadians Barriers to Volunteering,QC,
+371,Younger2,>=35,2018,nv_040,0.1960001261065882,9.190519220580333,0.1606944535146404,0.2313057986985359,696,Aucune sollicitation,Younger Canadians Barriers to Volunteering,QC,
+372,Younger2,15 à 34 ans,2018,nv_050,0.1751218483447093,24.95625897328037,0.0894638528556665,0.2607798438337522,124,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AB,*
+373,Younger2,>=35,2018,nv_050,0.0654073010325966,19.83158072407304,0.0399840168607085,0.0908305852044847,482,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AB,*
+374,Younger2,15 à 34 ans,2018,nv_050,0.2624510252557079,15.169341684327872,0.1844207572674231,0.3404812932439928,248,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AT,
+375,Younger2,>=35,2018,nv_050,0.110368172632066,10.17413647278864,0.0883597203779977,0.1323766248861342,1437,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,AT,
+376,Younger2,15 à 34 ans,2018,nv_050,0.2411061614656918,18.891219165836663,0.1518339308597747,0.3303783920716089,167,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,BC,*
+377,Younger2,>=35,2018,nv_050,0.1232513266926839,13.008915858350765,0.0918259278402188,0.154676725545149,809,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,BC,
+378,Younger2,15 à 34 ans,2018,nv_050,0.2207741242089886,13.299600750474111,0.1632255106206031,0.2783227377973741,366,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,ON,
+379,Younger2,>=35,2018,nv_050,0.1097839216390596,10.56623139819573,0.0870482939503725,0.1325195493277467,1591,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,ON,
+380,Younger2,15 à 34 ans,2018,nv_050,0.2688194283075728,13.9149367042699,0.1955049110401403,0.3421339455750053,221,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,PR,
+381,Younger2,>=35,2018,nv_050,0.087382240887547,16.710060466464984,0.0587635812048458,0.1160009005702482,707,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,PR,*
+382,Younger2,15 à 34 ans,2018,nv_050,0.2124947664033532,24.90129770522343,0.1087853215191267,0.3162042112875798,134,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,QC,*
+383,Younger2,>=35,2018,nv_050,0.0762522210185243,15.995686755727563,0.0523464101214012,0.1001580319156473,693,Ne savaient pas comment s'engager plus,Younger Canadians Barriers to Volunteering,QC,
+384,Younger2,15 à 34 ans,2018,nv_060,0.0610151508413936,39.69771726360904,0.0135416439390503,0.1084886577437369,124,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AB,...
+385,Younger2,>=35,2018,nv_060,0.1746093818021176,12.007546703688272,0.1335161828981012,0.215702580706134,483,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AB,
+386,Younger2,15 à 34 ans,2018,nv_060,0.1488419418826825,24.198166393437145,0.0782498783626618,0.2194340054027032,248,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AT,*
+387,Younger2,>=35,2018,nv_060,0.2319573179583693,5.536945382965632,0.2067848145035192,0.2571298214132194,1445,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,AT,
+388,Younger2,15 à 34 ans,2018,nv_060,0.0671944899154998,33.34806079031272,0.0232755006363312,0.1111134791946685,164,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,BC,...
+389,Younger2,>=35,2018,nv_060,0.2135015216861912,8.66021567214015,0.1772623908079641,0.2497406525644184,814,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,BC,
+390,Younger2,15 à 34 ans,2018,nv_060,0.1084300421335008,19.656110470424032,0.0666570771604588,0.1502030071065428,366,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,ON,*
+391,Younger2,>=35,2018,nv_060,0.2298791535967601,5.6540003132126415,0.2044047802967812,0.2553535268967392,1601,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,ON,
+392,Younger2,15 à 34 ans,2018,nv_060,0.1058608465351862,24.809027228257257,0.0543862217785593,0.157335471291813,220,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,PR,*
+393,Younger2,>=35,2018,nv_060,0.2148637826166015,8.477037914168505,0.1791648333454228,0.2505627318877801,710,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,PR,
+394,Younger2,15 à 34 ans,2018,nv_060,0.0636101682229988,32.47612492708965,0.0231210015456807,0.104099334900317,134,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,QC,*
+395,Younger2,>=35,2018,nv_060,0.1898785422704465,9.663070023800731,0.153916933946041,0.225840150594852,699,Problèmes de santé/handicap physique,Younger Canadians Barriers to Volunteering,QC,
+396,Younger2,15 à 34 ans,2018,nv_070,0.8145832027569415,6.0292250793557445,0.7183233842706299,0.9108430212432532,133,Manque de temps,Younger Canadians Barriers to Volunteering,AB,
+397,Younger2,>=35,2018,nv_070,0.7225572851715752,2.91323720766924,0.6813004202405282,0.7638141501026223,574,Manque de temps,Younger Canadians Barriers to Volunteering,AB,
+398,Younger2,15 à 34 ans,2018,nv_070,0.8227715012038149,3.890494410984692,0.7600332906861015,0.8855097117215284,263,Manque de temps,Younger Canadians Barriers to Volunteering,AT,
+399,Younger2,>=35,2018,nv_070,0.6784491875118408,2.089826610387852,0.6506600113030361,0.7062383637206455,1642,Manque de temps,Younger Canadians Barriers to Volunteering,AT,
+400,Younger2,15 à 34 ans,2018,nv_070,0.8146705763729263,5.17197893937758,0.7320882962243729,0.8972528565214797,181,Manque de temps,Younger Canadians Barriers to Volunteering,BC,
+401,Younger2,>=35,2018,nv_070,0.7171683418283796,2.356490935757631,0.684044936830058,0.7502917468267013,941,Manque de temps,Younger Canadians Barriers to Volunteering,BC,
+402,Younger2,15 à 34 ans,2018,nv_070,0.7995612105936029,3.4446229535090147,0.7455801393112571,0.8535422818759486,388,Manque de temps,Younger Canadians Barriers to Volunteering,ON,
+403,Younger2,>=35,2018,nv_070,0.7261705041821764,1.81557955485191,0.7003299407310176,0.7520110676333353,1831,Manque de temps,Younger Canadians Barriers to Volunteering,ON,
+404,Younger2,15 à 34 ans,2018,nv_070,0.7976538037330615,4.598718229029932,0.7257586971282196,0.8695489103379034,227,Manque de temps,Younger Canadians Barriers to Volunteering,PR,
+405,Younger2,>=35,2018,nv_070,0.6848192023350196,3.118123214578998,0.6429670986006087,0.7266713060694304,795,Manque de temps,Younger Canadians Barriers to Volunteering,PR,
+406,Younger2,15 à 34 ans,2018,nv_070,0.7601675150553118,7.032092212014825,0.6553963062622726,0.8649387238483509,147,Manque de temps,Younger Canadians Barriers to Volunteering,QC,
+407,Younger2,>=35,2018,nv_070,0.69620996372344,2.922353245851937,0.6563330961169843,0.7360868313298957,789,Manque de temps,Younger Canadians Barriers to Volunteering,QC,
+408,Younger2,15 à 34 ans,2018,nv_080,0.1081636776058617,41.07571356769786,0.021084433037381,0.1952429221743424,124,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AB,...
+409,Younger2,>=35,2018,nv_080,0.1464853832384927,16.960932246330554,0.0977895163132747,0.1951812501637107,483,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AB,*
+410,Younger2,15 à 34 ans,2018,nv_080,0.0992679823597143,24.853945888502103,0.0509117301177538,0.1476242346016749,247,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AT,*
+411,Younger2,>=35,2018,nv_080,0.0882422727564611,9.507890315815343,0.0717982170538967,0.1046863284590254,1435,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,AT,
+412,Younger2,15 à 34 ans,2018,nv_080,0.0741487686715729,33.101738993322755,0.026042370184221,0.1222551671589247,167,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,BC,*
+413,Younger2,>=35,2018,nv_080,0.1237219683871748,12.956266318708783,0.0923042401766892,0.1551396965976604,806,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,BC,
+414,Younger2,15 à 34 ans,2018,nv_080,0.1441519574996841,18.23377015609995,0.0926356043943742,0.195668310604994,367,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,ON,*
+415,Younger2,>=35,2018,nv_080,0.1045706835787738,8.847109117743203,0.0864381111116577,0.1227032560458898,1603,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,ON,
+416,Younger2,15 à 34 ans,2018,nv_080,0.0822529406660845,22.2931734601476,0.0463134912260624,0.1181923901061067,221,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,PR,*
+417,Younger2,>=35,2018,nv_080,0.0836210705270736,15.805273442556771,0.0577171303761007,0.1095250106780466,707,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,PR,
+418,Younger2,15 à 34 ans,2018,nv_080,0.0790353550126872,31.869944531473404,0.0296667555354762,0.1284039544898982,134,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,QC,*
+419,Younger2,>=35,2018,nv_080,0.082333852242504,14.772056331063684,0.0584959803327603,0.1061717241522476,691,Coût financier du bénévolat,Younger Canadians Barriers to Volunteering,QC,
+420,Younger2,15 à 34 ans,2018,nv_090,0.4531400560145463,12.764015053099378,0.3397779637836842,0.5665021482454085,124,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AB,
+421,Younger2,>=35,2018,nv_090,0.4615160738053426,6.54783828944345,0.4022872828308526,0.5207448647798326,487,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AB,
+422,Younger2,15 à 34 ans,2018,nv_090,0.3951978430359737,10.769207456998332,0.3117824117012967,0.4786132743706507,248,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AT,
+423,Younger2,>=35,2018,nv_090,0.4436894461600931,3.883770192640295,0.4099155849967227,0.4774633073234634,1443,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,AT,
+424,Younger2,15 à 34 ans,2018,nv_090,0.4235470470871011,9.9522981642847,0.3409293418501408,0.5061647523240614,169,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,BC,
+425,Younger2,>=35,2018,nv_090,0.4243987496430955,5.764354374057243,0.3764504888583771,0.4723470104278139,815,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,BC,
+426,Younger2,15 à 34 ans,2018,nv_090,0.4563741569144861,7.363787534706937,0.3905067776394317,0.5222415361895405,366,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,ON,
+427,Younger2,>=35,2018,nv_090,0.4166289771976868,3.888667081077573,0.3848749854778855,0.4483829689174881,1605,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,ON,
+428,Younger2,15 à 34 ans,2018,nv_090,0.4912667136264654,8.414840204191075,0.4102431569817161,0.5722902702712147,221,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,PR,
+429,Younger2,>=35,2018,nv_090,0.4635816372329427,5.303220520659289,0.4153963998933947,0.5117668745724908,711,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,PR,
+430,Younger2,15 à 34 ans,2018,nv_090,0.3954775865521742,13.520068835504585,0.2906805820726506,0.5002745910316977,134,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,QC,
+431,Younger2,>=35,2018,nv_090,0.4039772637460198,5.301782725335157,0.3619987614292315,0.445955766062808,701,Incapable de s'engager à long terme,Younger Canadians Barriers to Volunteering,QC,
+432,Younger2,15 à 34 ans,2018,nv_100,0.1617485091295653,23.86490707075361,0.0860916818385505,0.2374053364205801,131,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AB,*
+433,Younger2,>=35,2018,nv_100,0.2326172891571525,9.527907194369114,0.1891775109071959,0.2760570674071091,560,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AB,
+434,Younger2,15 à 34 ans,2018,nv_100,0.1059724994180682,21.697782065140817,0.0609057108795788,0.1510392879565577,261,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AT,*
+435,Younger2,>=35,2018,nv_100,0.2371320010462023,5.585082699332049,0.2111742020401931,0.2630898000522116,1612,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,AT,
+436,Younger2,15 à 34 ans,2018,nv_100,0.107630681325385,23.989407574780973,0.0570244841186475,0.1582368785321224,175,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,BC,*
+437,Younger2,>=35,2018,nv_100,0.224727441153539,8.530021030594751,0.187156307480471,0.262298574826607,904,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,BC,
+438,Younger2,15 à 34 ans,2018,nv_100,0.1457659072294932,16.71745829510951,0.0980048095578237,0.1935270049011627,385,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,ON,*
+439,Younger2,>=35,2018,nv_100,0.2001906911556344,5.669506247652632,0.1779454453898729,0.2224359369213958,1766,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,ON,
+440,Younger2,15 à 34 ans,2018,nv_100,0.1478411548453554,17.793163069546296,0.0962830914338307,0.1993992182568801,226,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,PR,*
+441,Younger2,>=35,2018,nv_100,0.2415758782077017,8.005266532250243,0.2036725405640484,0.2794792158513551,789,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,PR,
+442,Younger2,15 à 34 ans,2018,nv_100,0.1703865350831769,25.032887444607567,0.0867888389243372,0.2539842312420166,147,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,QC,*
+443,Younger2,>=35,2018,nv_100,0.2420631408500747,7.528136236534051,0.2063470248317589,0.2777792568683905,776,Préférence pour les dons d'argent,Younger Canadians Barriers to Volunteering,QC,
+444,Younger2,15 à 34 ans,2018,nv_110,0.1233764313448354,29.251844704325,0.052641562225029,0.1941113004646419,124,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AB,*
+445,Younger2,>=35,2018,nv_110,0.2543221023026114,9.863605471905132,0.2051557613162563,0.3034884432889665,483,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AB,
+446,Younger2,15 à 34 ans,2018,nv_110,0.1543282522401323,23.003672194498364,0.0847472469432429,0.2239092575370217,246,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AT,*
+447,Younger2,>=35,2018,nv_110,0.2512975140944154,5.79343779045187,0.222762858744935,0.2798321694438958,1445,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,AT,
+448,Younger2,15 à 34 ans,2018,nv_110,0.1865493451110808,19.449324429310277,0.1154367806363931,0.2576619095857686,165,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,BC,*
+449,Younger2,>=35,2018,nv_110,0.2533465633591416,8.412182880700232,0.2115758575055574,0.2951172692127258,813,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,BC,
+450,Younger2,15 à 34 ans,2018,nv_110,0.1723172852258487,14.946627754109072,0.1218371913962235,0.2227973790554739,367,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,ON,
+451,Younger2,>=35,2018,nv_110,0.2276190088576088,5.827667519612303,0.2016203236649185,0.2536176940502991,1600,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,ON,
+452,Younger2,15 à 34 ans,2018,nv_110,0.1887616725667727,16.85044349363227,0.1264207473288946,0.2511025978046508,221,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,PR,*
+453,Younger2,>=35,2018,nv_110,0.2319254434293211,8.401531504773558,0.1937349783742654,0.2701159084843769,705,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,PR,
+454,Younger2,15 à 34 ans,2018,nv_110,0.2223809072050251,19.402686215670144,0.1378126367234343,0.3069491776866159,134,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,QC,*
+455,Younger2,>=35,2018,nv_110,0.3017411431965289,6.863503349484056,0.2611502626758616,0.3423320237171962,696,Aucun intérêt pour en faire plus,Younger Canadians Barriers to Volunteering,QC,
+456,Younger2,15 à 34 ans,2018,nv_120,0.2147547452736214,21.580173588385072,0.1239212986242799,0.305588191922963,124,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AB,*
+457,Younger2,>=35,2018,nv_120,0.1775955793171157,11.833698293921094,0.1364047311446569,0.2187864274895746,482,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AB,
+458,Younger2,15 à 34 ans,2018,nv_120,0.2104823697667764,17.94846812409307,0.1364381427247513,0.2845265968088016,247,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AT,*
+459,Younger2,>=35,2018,nv_120,0.1756229510650918,6.894513505668909,0.1518910249155525,0.1993548772146312,1428,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,AT,
+460,Younger2,15 à 34 ans,2018,nv_120,0.291116389749095,15.657241846540163,0.2017796688545235,0.3804531106436665,167,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,BC,
+461,Younger2,>=35,2018,nv_120,0.1904487693833503,9.875566852144676,0.1535859715008612,0.2273115672658394,803,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,BC,
+462,Younger2,15 à 34 ans,2018,nv_120,0.2115373976022901,13.188326312393489,0.156857847523988,0.2662169476805922,367,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,ON,
+463,Younger2,>=35,2018,nv_120,0.1796530571258948,7.620222998888993,0.152821221564693,0.2064848926870966,1595,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,ON,
+464,Younger2,15 à 34 ans,2018,nv_120,0.1610994927785475,17.360415896447623,0.1062841178137245,0.2159148677433704,220,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,PR,*
+465,Younger2,>=35,2018,nv_120,0.1679766684009378,11.269337086245494,0.1308748304712848,0.2050785063305908,703,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,PR,
+466,Younger2,15 à 34 ans,2018,nv_120,0.1933622260808357,23.80926258618511,0.103129168670753,0.2835952834909185,133,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,QC,*
+467,Younger2,>=35,2018,nv_120,0.161711964629986,10.990606083987728,0.1268772796918661,0.1965466495681058,694,Utilisation des compétences impossible,Younger Canadians Barriers to Volunteering,QC,
+468,Younger2,15 à 34 ans,2018,nv_130,0.1415868959779975,27.638710095278384,0.0648880336074563,0.2182857583485387,123,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AB,*
+469,Younger2,>=35,2018,nv_130,0.17810495978752,12.35235966707035,0.1349854283066121,0.2212244912684279,481,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AB,
+470,Younger2,15 à 34 ans,2018,nv_130,0.2022802906981935,17.285052844893357,0.1337516098736303,0.2708089715227567,247,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AT,*
+471,Younger2,>=35,2018,nv_130,0.1474393518350513,7.880768552916972,0.1246658363263116,0.1702128673437911,1431,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,AT,
+472,Younger2,15 à 34 ans,2018,nv_130,0.2738933745486321,15.673668500873914,0.1897538070990242,0.3580329419982401,166,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,BC,
+473,Younger2,>=35,2018,nv_130,0.1965968496023319,10.033365519782938,0.1579360101962619,0.235257689008402,809,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,BC,
+474,Younger2,15 à 34 ans,2018,nv_130,0.1677403467257807,14.06473140044258,0.1215004271451489,0.2139802663064125,368,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,ON,
+475,Younger2,>=35,2018,nv_130,0.1533700262754576,6.57433105829925,0.1336076050090226,0.1731324475418927,1591,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,ON,
+476,Younger2,15 à 34 ans,2018,nv_130,0.1419837615289578,17.38190127229762,0.0936128749584327,0.190354648099483,220,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,PR,*
+477,Younger2,>=35,2018,nv_130,0.1842918288743013,10.14563654885142,0.1476452471484512,0.2209384106001514,705,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,PR,
+478,Younger2,15 à 34 ans,2018,nv_130,0.1634219888746691,25.5756883613602,0.0815027489540834,0.2453412287952547,134,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,QC,*
+479,Younger2,>=35,2018,nv_130,0.1178889914194177,13.368622707067852,0.0869996954548917,0.1487782873839436,693,Aucune sollicitation pour une contribution importante,Younger Canadians Barriers to Volunteering,QC,

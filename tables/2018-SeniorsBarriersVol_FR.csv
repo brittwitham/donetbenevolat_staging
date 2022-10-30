@@ -1,0 +1,481 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Senior,15 à 64 ans,2018,nv_020,0.3276007084836468,2.6426453820605325,0.3106326632922807,0.3445687536750129,6233,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA,
+1,Senior,64 à 75 ans,2018,nv_020,0.521648900987202,3.7769804142391417,0.4830325600146628,0.5602652419597411,1491,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA,
+2,Senior,75 ans et plus,2018,nv_020,0.547490841787748,4.350102027111345,0.5008115355412746,0.5941701480342214,814,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA,
+3,Senior,15 à 64 ans,2018,nv_030,0.0604107594316344,7.803967466648891,0.0511706346399112,0.0696508842233576,6204,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA,
+4,Senior,64 à 75 ans,2018,nv_030,0.0755619233251342,12.213485523745604,0.0574739163517276,0.0936499302985408,1448,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA,
+5,Senior,75 ans et plus,2018,nv_030,0.0738875157401493,17.243749658088444,0.0489156572564293,0.0988593742238694,803,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA,*
+6,Senior,15 à 64 ans,2018,nv_040,0.3005728942607752,3.1040399147695794,0.282286621164277,0.3188591673572734,6228,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA,
+7,Senior,64 à 75 ans,2018,nv_040,0.2287740616399326,6.336578797588349,0.2003615443150545,0.2571865789648107,1453,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA,
+8,Senior,75 ans et plus,2018,nv_040,0.1616687599868054,10.233043318862862,0.1292438326980661,0.1940936872755447,808,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA,
+9,Senior,15 à 64 ans,2018,nv_050,0.1676562970765699,4.943183750613148,0.1514129802422344,0.1838996139109053,6200,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA,
+10,Senior,64 à 75 ans,2018,nv_050,0.0742825189309942,13.949831131506924,0.0539728116693262,0.0945922261926622,1441,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA,
+11,Senior,75 ans et plus,2018,nv_050,0.0753977412125568,16.736889809337537,0.0506644914438455,0.1001309909812682,800,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA,*
+12,Senior,15 à 64 ans,2018,nv_060,0.1536267027084755,4.690727168614168,0.139502791658327,0.167750613758624,6203,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA,
+13,Senior,64 à 75 ans,2018,nv_060,0.3173296852184672,5.541865209687248,0.2828617910724896,0.3517975793644449,1464,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA,
+14,Senior,75 ans et plus,2018,nv_060,0.5412781472980156,4.406025303592124,0.4945352560451745,0.5880210385508566,818,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA,
+15,Senior,15 à 64 ans,2018,nv_070,0.7801246308169387,1.0718056698720364,0.7637365487080048,0.7965127129258727,6355,Manque de temps,Older Canadians Barriers to Volunteering,CA,
+16,Senior,64 à 75 ans,2018,nv_070,0.5408039139430547,3.269447518066838,0.5061492024648535,0.5754586254212559,1497,Manque de temps,Older Canadians Barriers to Volunteering,CA,
+17,Senior,75 ans et plus,2018,nv_070,0.3688753541502611,6.922402876735828,0.3188275990769604,0.4189231092235618,812,Manque de temps,Older Canadians Barriers to Volunteering,CA,
+18,Senior,15 à 64 ans,2018,nv_080,0.1215945990374027,5.846305927178888,0.1076616222525452,0.1355275758222601,6196,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA,
+19,Senior,64 à 75 ans,2018,nv_080,0.0964257982241963,11.361081042717135,0.074954367132649,0.1178972293157436,1448,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA,
+20,Senior,75 ans et plus,2018,nv_080,0.0779060428610738,17.83360731308892,0.0506753660366043,0.1051367196855433,798,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA,*
+21,Senior,15 à 64 ans,2018,nv_090,0.4759399548082939,2.008329127600744,0.4572057552050163,0.4946741544115716,6233,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA,
+22,Senior,64 à 75 ans,2018,nv_090,0.4372401908055124,4.414850462755484,0.3994060248791896,0.4750743567318352,1467,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA,
+23,Senior,75 ans et plus,2018,nv_090,0.4481234700765545,5.588076180273142,0.3990430694134662,0.4972038707396428,807,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA,
+24,Senior,15 à 64 ans,2018,nv_100,0.2280419131130803,3.4577074098744243,0.2125875537262113,0.2434962724999492,6213,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA,
+25,Senior,64 à 75 ans,2018,nv_100,0.2790954944114181,5.927275412163289,0.2466722833177395,0.3115187055050967,1466,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA,
+26,Senior,75 ans et plus,2018,nv_100,0.2997037530062391,7.682072321373344,0.25457860245732,0.3448289035551581,802,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA,
+27,Senior,15 à 64 ans,2018,nv_110,0.2171198838339352,3.929040242890924,0.2003999649541533,0.2338398027137171,6205,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA,
+28,Senior,64 à 75 ans,2018,nv_110,0.2892605901847496,6.644617264144823,0.2515895745482071,0.3269316058212922,1455,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA,
+29,Senior,75 ans et plus,2018,nv_110,0.2647118738365503,7.949480146744486,0.2234679247185649,0.3059558229545357,804,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA,
+30,Senior,15 à 64 ans,2018,nv_120,0.2152294732222647,3.8677276461510286,0.1989137729491689,0.2315451734953605,6191,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA,
+31,Senior,64 à 75 ans,2018,nv_120,0.1908406497319315,8.775277256934482,0.158017532454989,0.223663767008874,1439,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA,
+32,Senior,75 ans et plus,2018,nv_120,0.1287785338894489,13.254553907021716,0.0953238690557655,0.1622331987231322,795,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA,
+33,Senior,15 à 64 ans,2018,nv_130,0.1880547040697663,3.887915734274223,0.173724606873504,0.2023848012660285,6193,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA,
+34,Senior,64 à 75 ans,2018,nv_130,0.1681551257165423,8.116421198849835,0.1414051878515645,0.1949050635815201,1439,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA,
+35,Senior,75 ans et plus,2018,nv_130,0.1503542942706421,11.209163345041013,0.1173221227111829,0.1833864658301013,794,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA,
+36,Senior2,15 à 64 ans,2018,nv_020,0.3276007084836468,2.6426453820605325,0.3106326632922807,0.3445687536750129,6233,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA,
+37,Senior2,65 ans et plus,2018,nv_020,0.5314302400671509,2.808222917440599,0.50218023580084,0.5606802443334618,2305,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA,
+38,Senior2,15 à 64 ans,2018,nv_030,0.0604107594316344,7.803967466648891,0.0511706346399112,0.0696508842233576,6204,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA,
+39,Senior2,65 ans et plus,2018,nv_030,0.0749216988679723,9.840601177713085,0.0604713830617134,0.0893720146742312,2251,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA,
+40,Senior2,15 à 64 ans,2018,nv_040,0.3005728942607752,3.1040399147695794,0.282286621164277,0.3188591673572734,6228,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA,
+41,Senior2,65 ans et plus,2018,nv_040,0.2028901717625823,5.477203373510517,0.1811096656205373,0.2246706779046273,2261,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA,
+42,Senior2,15 à 64 ans,2018,nv_050,0.1676562970765699,4.943183750613148,0.1514129802422344,0.1838996139109053,6200,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA,
+43,Senior2,65 ans et plus,2018,nv_050,0.0747099018267976,10.842208655331303,0.0588337948125312,0.0905860088410639,2241,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA,
+44,Senior2,15 à 64 ans,2018,nv_060,0.1536267027084755,4.690727168614168,0.139502791658327,0.167750613758624,6203,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA,
+45,Senior2,65 ans et plus,2018,nv_060,0.4032118507412848,3.5956111308102265,0.3747964297263496,0.43162727175622,2282,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA,
+46,Senior2,15 à 64 ans,2018,nv_070,0.7801246308169387,1.0718056698720364,0.7637365487080048,0.7965127129258727,6355,Manque de temps,Older Canadians Barriers to Volunteering,CA,
+47,Senior2,65 ans et plus,2018,nv_070,0.476116405444445,3.1016385308026995,0.4471728139293383,0.5050599969595518,2309,Manque de temps,Older Canadians Barriers to Volunteering,CA,
+48,Senior2,15 à 64 ans,2018,nv_080,0.1215945990374027,5.846305927178888,0.1076616222525452,0.1355275758222601,6196,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA,
+49,Senior2,65 ans et plus,2018,nv_080,0.0893652748548615,9.497966761627572,0.0727293277096937,0.1060012220000292,2246,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA,
+50,Senior2,15 à 64 ans,2018,nv_090,0.4759399548082939,2.008329127600744,0.4572057552050163,0.4946741544115716,6233,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA,
+51,Senior2,65 ans et plus,2018,nv_090,0.441387380350025,3.393247124323328,0.4120322851686271,0.470742475531423,2274,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA,
+52,Senior2,15 à 64 ans,2018,nv_100,0.2280419131130803,3.4577074098744243,0.2125875537262113,0.2434962724999492,6213,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA,
+53,Senior2,65 ans et plus,2018,nv_100,0.286944868388914,4.549935185620389,0.2613559597606428,0.3125337770171851,2268,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA,
+54,Senior2,15 à 64 ans,2018,nv_110,0.2171198838339352,3.929040242890924,0.2003999649541533,0.2338398027137171,6205,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA,
+55,Senior2,65 ans et plus,2018,nv_110,0.2798689536315816,5.0930961393410845,0.2519316370454192,0.307806270217744,2259,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA,
+56,Senior2,15 à 64 ans,2018,nv_120,0.2152294732222647,3.8677276461510286,0.1989137729491689,0.2315451734953605,6191,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA,
+57,Senior2,65 ans et plus,2018,nv_120,0.1673267222675261,7.323406965999808,0.143309290605921,0.1913441539291312,2234,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA,
+58,Senior2,15 à 64 ans,2018,nv_130,0.1880547040697663,3.887915734274223,0.173724606873504,0.2023848012660285,6193,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA,
+59,Senior2,65 ans et plus,2018,nv_130,0.1613716542060806,6.599081089368829,0.1404999069564041,0.1822434014557572,2233,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA,
+60,Senior,15 à 64 ans,2018,nv_020,0.3129347477047204,2.959489436015981,0.2947829904857568,0.3310865049236841,5494,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA (without QC),
+61,Senior,64 à 75 ans,2018,nv_020,0.5049138039984634,4.225573952982369,0.4630969802804597,0.5467306277164671,1318,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA (without QC),
+62,Senior,75 ans et plus,2018,nv_020,0.5261675308356099,4.8543029063276295,0.4761065898807004,0.5762284717905193,719,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA (without QC),
+63,Senior,15 à 64 ans,2018,nv_030,0.0608609719828664,8.413940908006841,0.0508243762224508,0.070897567743282,5470,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA (without QC),
+64,Senior,64 à 75 ans,2018,nv_030,0.0704349729036455,13.529226543613804,0.0517578742878902,0.0891120715194009,1283,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA (without QC),
+65,Senior,75 ans et plus,2018,nv_030,0.0907888751859603,17.027269405652763,0.0604900538623232,0.1210876965095974,710,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA (without QC),*
+66,Senior,15 à 64 ans,2018,nv_040,0.3024144277720084,3.372876758917928,0.2824226658701991,0.3224061896738177,5492,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA (without QC),
+67,Senior,64 à 75 ans,2018,nv_040,0.2374024868285455,6.734795564987292,0.2060654612422926,0.2687395124147985,1289,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA (without QC),
+68,Senior,75 ans et plus,2018,nv_040,0.1815704513169783,10.79206975171029,0.1431645459284084,0.2199763567055483,714,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA (without QC),
+69,Senior,15 à 64 ans,2018,nv_050,0.1670511245566535,5.000629781931141,0.1506783531758615,0.1834238959374454,5466,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA (without QC),
+70,Senior,64 à 75 ans,2018,nv_050,0.0748077858091059,13.2603488025791,0.0553653873479485,0.0942501842702634,1276,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA (without QC),
+71,Senior,75 ans et plus,2018,nv_050,0.0826818715746405,17.555764132719013,0.0542321430205285,0.1111316001287525,707,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA (without QC),*
+72,Senior,15 à 64 ans,2018,nv_060,0.1516643098537042,5.057555705367178,0.1366303924767571,0.1666982272306512,5467,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA (without QC),
+73,Senior,64 à 75 ans,2018,nv_060,0.332527448576225,5.927600581114515,0.2938947964839452,0.3711601006685049,1295,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA (without QC),
+74,Senior,75 ans et plus,2018,nv_060,0.5474083288091643,4.537032273471156,0.4987304819028085,0.5960861757155201,725,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA (without QC),
+75,Senior,15 à 64 ans,2018,nv_070,0.7927528708638926,1.0831994809473935,0.7759224739665772,0.8095832677612079,5608,Manque de temps,Older Canadians Barriers to Volunteering,CA (without QC),
+76,Senior,64 à 75 ans,2018,nv_070,0.5425885139609467,3.523105310852304,0.5051219115184014,0.5800551164034919,1327,Manque de temps,Older Canadians Barriers to Volunteering,CA (without QC),
+77,Senior,75 ans et plus,2018,nv_070,0.3740591534876298,6.755979093255769,0.3245282015633928,0.4235901054118667,717,Manque de temps,Older Canadians Barriers to Volunteering,CA (without QC),
+78,Senior,15 à 64 ans,2018,nv_080,0.1313299929268275,6.294307243773012,0.1151283166561434,0.1475316691975116,5463,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA (without QC),
+79,Senior,64 à 75 ans,2018,nv_080,0.1004387455544921,12.00183081438334,0.0768123826078964,0.1240651085010877,1283,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA (without QC),
+80,Senior,75 ans et plus,2018,nv_080,0.0706921378929498,17.589562271408198,0.0463210879982262,0.0950631877876734,706,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA (without QC),*
+81,Senior,15 à 64 ans,2018,nv_090,0.4820234071922333,2.1596855111149966,0.4616198103367885,0.5024270040476781,5494,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA (without QC),
+82,Senior,64 à 75 ans,2018,nv_090,0.4413797013089489,4.530877853882539,0.4021836062888732,0.4805757963290247,1300,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA (without QC),
+83,Senior,75 ans et plus,2018,nv_090,0.4486924556486043,5.962040325847035,0.3962610178224679,0.5011238934747407,712,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA (without QC),
+84,Senior,15 à 64 ans,2018,nv_100,0.2244472527457174,3.831345994622103,0.2075928348321924,0.2413016706592423,5474,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA (without QC),
+85,Senior,64 à 75 ans,2018,nv_100,0.2861549436190012,6.199796755150805,0.2513831737481521,0.3209267134898502,1299,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA (without QC),
+86,Senior,75 ans et plus,2018,nv_100,0.2773796763652427,8.269890362275484,0.2324200720833281,0.3223392806471573,707,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA (without QC),
+87,Senior,15 à 64 ans,2018,nv_110,0.2046685502282748,4.393855919173581,0.1870429053401592,0.2222941951163903,5469,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA (without QC),
+88,Senior,64 à 75 ans,2018,nv_110,0.2941823955842011,7.1220048625304,0.2531178485130538,0.3352469426553484,1290,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA (without QC),
+89,Senior,75 ans et plus,2018,nv_110,0.255199222423705,8.261962342486463,0.2138744330266303,0.2965240118207797,710,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA (without QC),
+90,Senior,15 à 64 ans,2018,nv_120,0.2151823876497652,4.110281131717731,0.197847288078579,0.2325174872209514,5458,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA (without QC),
+91,Senior,64 à 75 ans,2018,nv_120,0.1855124945051285,9.296456374360575,0.1517107829144361,0.2193142060958209,1273,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA (without QC),
+92,Senior,75 ans et plus,2018,nv_120,0.1470005806800902,13.977614611259902,0.1067288583942323,0.1872723029659481,703,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA (without QC),
+93,Senior,15 à 64 ans,2018,nv_130,0.195408486130066,4.03526743157774,0.1799536703224341,0.2108633019376979,5460,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA (without QC),
+94,Senior,64 à 75 ans,2018,nv_130,0.1875907638300953,8.212568305393726,0.157395520241231,0.2177860074189595,1274,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA (without QC),
+95,Senior,75 ans et plus,2018,nv_130,0.1789854307799145,11.259781483653294,0.1394855545616946,0.2184853069981344,702,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA (without QC),
+96,Senior2,15 à 64 ans,2018,nv_020,0.3129347477047204,2.959489436015981,0.2947829904857568,0.3310865049236841,5494,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA (without QC),
+97,Senior2,65 ans et plus,2018,nv_020,0.5129128907421775,3.0886170351885465,0.4818633080545135,0.5439624734298414,2037,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,CA (without QC),
+98,Senior2,15 à 64 ans,2018,nv_030,0.0608609719828664,8.413940908006841,0.0508243762224508,0.070897567743282,5470,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA (without QC),
+99,Senior2,65 ans et plus,2018,nv_030,0.078146243196751,10.541205963991525,0.0620009292370925,0.0942915571564095,1993,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,CA (without QC),
+100,Senior2,15 à 64 ans,2018,nv_040,0.3024144277720084,3.372876758917928,0.2824226658701991,0.3224061896738177,5492,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA (without QC),
+101,Senior2,65 ans et plus,2018,nv_040,0.2160990919911597,5.675953303796178,0.1920587939847566,0.2401393899975627,2003,Aucune sollicitation,Older Canadians Barriers to Volunteering,CA (without QC),
+102,Senior2,15 à 64 ans,2018,nv_050,0.1670511245566535,5.000629781931141,0.1506783531758615,0.1834238959374454,5466,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA (without QC),
+103,Senior2,65 ans et plus,2018,nv_050,0.0777992258633498,10.688055959398314,0.0615016847393385,0.0940967669873611,1983,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,CA (without QC),
+104,Senior2,15 à 64 ans,2018,nv_060,0.1516643098537042,5.057555705367178,0.1366303924767571,0.1666982272306512,5467,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA (without QC),
+105,Senior2,65 ans et plus,2018,nv_060,0.4146092252337425,3.8896571565954288,0.3830011263442797,0.4462173241232052,2020,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,CA (without QC),
+106,Senior2,15 à 64 ans,2018,nv_070,0.7927528708638926,1.0831994809473935,0.7759224739665772,0.8095832677612079,5608,Manque de temps,Older Canadians Barriers to Volunteering,CA (without QC),
+107,Senior2,65 ans et plus,2018,nv_070,0.4797250482849927,3.125640236044773,0.4503364092201566,0.5091136873498289,2044,Manque de temps,Older Canadians Barriers to Volunteering,CA (without QC),
+108,Senior2,15 à 64 ans,2018,nv_080,0.1313299929268275,6.294307243773012,0.1151283166561434,0.1475316691975116,5463,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA (without QC),
+109,Senior2,65 ans et plus,2018,nv_080,0.0892063449100789,9.846616021119164,0.0719904010133506,0.1064222888068072,1989,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,CA (without QC),
+110,Senior2,15 à 64 ans,2018,nv_090,0.4820234071922333,2.1596855111149966,0.4616198103367885,0.5024270040476781,5494,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA (without QC),
+111,Senior2,65 ans et plus,2018,nv_090,0.4441437726383389,3.638209595451923,0.4124729471545718,0.4758145981221059,2012,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,CA (without QC),
+112,Senior2,15 à 64 ans,2018,nv_100,0.2244472527457174,3.831345994622103,0.2075928348321924,0.2413016706592423,5474,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA (without QC),
+113,Senior2,65 ans et plus,2018,nv_100,0.282854386735231,4.877042889699983,0.25581682124328,0.309891952227182,2006,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,CA (without QC),
+114,Senior2,15 à 64 ans,2018,nv_110,0.2046685502282748,4.393855919173581,0.1870429053401592,0.2222941951163903,5469,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA (without QC),
+115,Senior2,65 ans et plus,2018,nv_110,0.2794216505964573,5.448605258264312,0.2495820167324375,0.309261284460477,2000,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,CA (without QC),
+116,Senior2,15 à 64 ans,2018,nv_120,0.2151823876497652,4.110281131717731,0.197847288078579,0.2325174872209514,5458,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA (without QC),
+117,Senior2,65 ans et plus,2018,nv_120,0.1709329643664107,7.725956498343919,0.1450492753161847,0.1968166534166367,1976,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,CA (without QC),
+118,Senior2,15 à 64 ans,2018,nv_130,0.195408486130066,4.03526743157774,0.1799536703224341,0.2108633019376979,5460,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA (without QC),
+119,Senior2,65 ans et plus,2018,nv_130,0.1843261996519753,6.606620771296747,0.1604582815720575,0.2081941177318931,1976,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,CA (without QC),
+120,Senior,15 à 64 ans,2018,nv_020,0.293294079721488,7.938917823794249,0.2476575414155588,0.3389306180274172,620,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AB,
+121,Senior,64 à 75 ans,2018,nv_020,0.4474410323653787,14.565275504450264,0.3197081821250174,0.57517388260574,92,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AB,
+122,Senior,75 ans et plus,2018,nv_020,0.448561990218356,17.8910524085309,0.2912700574683998,0.6058539229683122,50,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AB,*
+123,Senior,15 à 64 ans,2018,nv_020,0.3026942884460293,5.540458950144461,0.2698244129690664,0.3355641639229921,1470,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AT,
+124,Senior,64 à 75 ans,2018,nv_020,0.5133299362565262,6.282750831852956,0.4501186657527969,0.5765412067602556,403,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AT,
+125,Senior,75 ans et plus,2018,nv_020,0.4008679053952434,11.885386409775588,0.3074860102249749,0.4942498005655119,191,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AT,
+126,Senior,15 à 64 ans,2018,nv_020,0.3201306141261623,5.976036393740861,0.282634304007257,0.3576269242450676,855,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,BC,
+127,Senior,64 à 75 ans,2018,nv_020,0.5052462036426456,9.027683396412026,0.4158482722117916,0.5946441350734997,224,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,BC,
+128,Senior,75 ans et plus,2018,nv_020,0.6052938712675484,8.886643769997908,0.4998668007520009,0.7107209417830959,138,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,BC,
+129,Senior,15 à 64 ans,2018,nv_020,0.3239136227991067,4.847725554863431,0.2931373991323227,0.3546898464658907,1713,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,ON,
+130,Senior,64 à 75 ans,2018,nv_020,0.5217693682363886,6.671270900343572,0.4535456717469386,0.5899930647258387,397,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,ON,
+131,Senior,75 ans et plus,2018,nv_020,0.5342952198797091,8.094111044548107,0.4495337385509981,0.61905670120842,229,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,ON,
+132,Senior,15 à 64 ans,2018,nv_020,0.2859057564140758,6.732102030593443,0.2481814138435153,0.3236300989846362,836,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,PR,
+133,Senior,64 à 75 ans,2018,nv_020,0.4783252305315574,8.17292681703155,0.4017040232541595,0.5549464378089553,202,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,PR,
+134,Senior,75 ans et plus,2018,nv_020,0.507201672209964,10.60932955287042,0.4017346442982106,0.6126687001217175,111,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,PR,
+135,Senior,15 à 64 ans,2018,nv_020,0.3847150343701023,5.849532739474699,0.3406079423604069,0.4288221263797978,739,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,QC,
+136,Senior,64 à 75 ans,2018,nv_020,0.587416148156245,8.97957117887042,0.4840330436458157,0.6907992526666743,173,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,QC,
+137,Senior,75 ans et plus,2018,nv_020,0.6276651270577324,10.624739619010056,0.4969594694077405,0.7583707847077242,95,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,QC,
+138,Senior,15 à 64 ans,2018,nv_030,0.0711079165944317,19.56681306013629,0.0438378535999059,0.0983779795889575,618,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AB,*
+139,Senior,64 à 75 ans,2018,nv_030,0.1137952231743576,34.99258758844509,0.0357496667502469,0.1918407795984683,90,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AB,...
+140,Senior,75 ans et plus,2018,nv_030,0.1439234839778022,38.73343654754365,0.0346623294806785,0.2531846384749259,51,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AB,...
+141,Senior,15 à 64 ans,2018,nv_030,0.0527805064993694,16.069803139671208,0.0361566339310248,0.0694043790677141,1466,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AT,
+142,Senior,64 à 75 ans,2018,nv_030,0.071361743156056,21.45474133445295,0.0413537588544003,0.1013697274577118,395,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AT,*
+143,Senior,75 ans et plus,2018,nv_030,0.03296863091623,34.630001752421244,0.0105916486765676,0.0553456131558924,188,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AT,...
+144,Senior,15 à 64 ans,2018,nv_030,0.0657988462090825,17.441920237024753,0.043305158289037,0.0882925341291281,847,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,BC,*
+145,Senior,64 à 75 ans,2018,nv_030,0.056751127045285,37.9335063526206,0.01455762530453,0.0989446287860399,215,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,BC,...
+146,Senior,75 ans et plus,2018,nv_030,0.107357518186812,30.83885021865278,0.0424673750854255,0.1722476612881985,137,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,BC,*
+147,Senior,15 à 64 ans,2018,nv_030,0.0573421644593778,14.166109175590586,0.0414210759214058,0.0732632529973498,1704,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,ON,
+148,Senior,64 à 75 ans,2018,nv_030,0.0660984536578857,21.117470940545417,0.0387406457562897,0.0934562615594817,384,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,ON,*
+149,Senior,75 ans et plus,2018,nv_030,0.0801210534678,29.52617991920417,0.0337548001301153,0.1264873068054848,223,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,ON,*
+150,Senior,15 à 64 ans,2018,nv_030,0.0599219091134858,16.611192559382445,0.0404129299342691,0.0794308882927026,835,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,PR,*
+151,Senior,64 à 75 ans,2018,nv_030,0.0661515818086552,31.574015711465663,0.0252143808192028,0.1070887827981076,199,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,PR,*
+152,Senior,75 ans et plus,2018,nv_030,0.1040183534049868,38.750104936547096,0.0250176517366002,0.1830190550733734,111,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,PR,...
+153,Senior,15 à 64 ans,2018,nv_030,0.0586549991162896,19.325215572039667,0.0364384055138303,0.080871592718749,734,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,QC,*
+154,Senior,64 à 75 ans,2018,nv_030,0.0961881396556524,28.320896815454997,0.0427960869552354,0.1495801923560694,165,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,QC,*
+155,Senior,75 ans et plus,2018,nv_030,0.0106424129983231,105.27732121425356,-0.011317116224456,0.0326019422211024,93,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,QC,...
+156,Senior,15 à 64 ans,2018,nv_040,0.2903786059252547,9.1155534382076,0.2384991099280572,0.3422581019224521,620,Aucune sollicitation,Older Canadians Barriers to Volunteering,AB,
+157,Senior,64 à 75 ans,2018,nv_040,0.2345296682445961,21.871358138965068,0.1339936612308155,0.3350656752583766,89,Aucune sollicitation,Older Canadians Barriers to Volunteering,AB,*
+158,Senior,75 ans et plus,2018,nv_040,0.2025075072981038,31.02218384063129,0.0793781575083846,0.3256368570878231,52,Aucune sollicitation,Older Canadians Barriers to Volunteering,AB,*
+159,Senior,15 à 64 ans,2018,nv_040,0.3158539217598249,5.712243043483395,0.2804915779634725,0.3512162655561774,1470,Aucune sollicitation,Older Canadians Barriers to Volunteering,AT,
+160,Senior,64 à 75 ans,2018,nv_040,0.2094825763999363,11.56933033630628,0.1619814159899457,0.256983736809927,398,Aucune sollicitation,Older Canadians Barriers to Volunteering,AT,
+161,Senior,75 ans et plus,2018,nv_040,0.1897430432315113,19.580221858859296,0.1169262479818954,0.2625598384811272,190,Aucune sollicitation,Older Canadians Barriers to Volunteering,AT,*
+162,Senior,15 à 64 ans,2018,nv_040,0.3230620840504737,6.924044460823417,0.2792197235009345,0.366904444600013,851,Aucune sollicitation,Older Canadians Barriers to Volunteering,BC,
+163,Senior,64 à 75 ans,2018,nv_040,0.2938380113057135,14.339233135916688,0.2112566585185218,0.3764193640929052,217,Aucune sollicitation,Older Canadians Barriers to Volunteering,BC,
+164,Senior,75 ans et plus,2018,nv_040,0.1952804428056646,22.82410744106362,0.1079228526197755,0.2826380329915536,136,Aucune sollicitation,Older Canadians Barriers to Volunteering,BC,*
+165,Senior,15 à 64 ans,2018,nv_040,0.2930616512565628,5.470898510767404,0.26163734188835,0.3244859606247757,1713,Aucune sollicitation,Older Canadians Barriers to Volunteering,ON,
+166,Senior,64 à 75 ans,2018,nv_040,0.2213392976770636,11.53829280917236,0.1712842159830567,0.2713943793710706,387,Aucune sollicitation,Older Canadians Barriers to Volunteering,ON,
+167,Senior,75 ans et plus,2018,nv_040,0.1650128682540737,18.4946591021144,0.1051975751762219,0.2248281613319254,226,Aucune sollicitation,Older Canadians Barriers to Volunteering,ON,*
+168,Senior,15 à 64 ans,2018,nv_040,0.3209837069767766,7.36807534217799,0.2746299288762956,0.3673374850772575,838,Aucune sollicitation,Older Canadians Barriers to Volunteering,PR,
+169,Senior,64 à 75 ans,2018,nv_040,0.2279835640720534,15.515076067866357,0.1586560641640385,0.2973110639800684,198,Aucune sollicitation,Older Canadians Barriers to Volunteering,PR,
+170,Senior,75 ans et plus,2018,nv_040,0.2083677611149723,23.096019466777456,0.1140451633542684,0.3026903588756762,110,Aucune sollicitation,Older Canadians Barriers to Volunteering,PR,*
+171,Senior,15 à 64 ans,2018,nv_040,0.2933844479648747,8.629692071910343,0.2437617378959367,0.3430071580338127,736,Aucune sollicitation,Older Canadians Barriers to Volunteering,QC,
+172,Senior,64 à 75 ans,2018,nv_040,0.1930630976856762,18.497200005288963,0.123070299905355,0.2630558954659975,164,Aucune sollicitation,Older Canadians Barriers to Volunteering,QC,*
+173,Senior,75 ans et plus,2018,nv_040,0.0861823882424889,31.3550745603047,0.0332191593732154,0.1391456171117624,94,Aucune sollicitation,Older Canadians Barriers to Volunteering,QC,*
+174,Senior,15 à 64 ans,2018,nv_050,0.1147409363354953,14.630122280782714,0.0818395319053158,0.1476423407656748,617,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AB,
+175,Senior,64 à 75 ans,2018,nv_050,0.038877222955538,55.37001650855987,-0.0033135983103345,0.0810680442214105,89,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AB,...
+176,Senior,75 ans et plus,2018,nv_050,0.101105352641189,42.9166424872656,0.0160605108409539,0.186150194441424,51,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AB,...
+177,Senior,15 à 64 ans,2018,nv_050,0.1807278768210838,8.609267359833417,0.1502321188239064,0.2112236348182611,1467,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AT,
+178,Senior,64 à 75 ans,2018,nv_050,0.1168448771709219,17.774986061623284,0.0761380703453244,0.1575516839965195,393,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AT,*
+179,Senior,75 ans et plus,2018,nv_050,0.0693702959722403,39.10622520876687,0.0162001888284403,0.1225404031160402,189,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AT,...
+180,Senior,15 à 64 ans,2018,nv_050,0.1852931337540628,10.399328057483164,0.1475261156843657,0.22306015182376,848,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,BC,
+181,Senior,64 à 75 ans,2018,nv_050,0.0444990883594838,32.31046244624641,0.0163189981674756,0.072679178551492,217,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,BC,*
+182,Senior,75 ans et plus,2018,nv_050,0.0983520280561009,35.15147073442293,0.0305917918458725,0.1661122642663293,134,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,BC,...
+183,Senior,15 à 64 ans,2018,nv_050,0.1725048323675162,8.29585718009634,0.1444562689128539,0.2005533958221785,1697,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,ON,
+184,Senior,64 à 75 ans,2018,nv_050,0.0859119555162039,20.19464186234068,0.051907341372926,0.1199165696594819,379,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,ON,*
+185,Senior,75 ans et plus,2018,nv_050,0.077481586886673,27.355283193623062,0.0359395475145274,0.1190236262588187,222,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,ON,*
+186,Senior,15 à 64 ans,2018,nv_050,0.1817224028750675,10.299656451962653,0.1450381819115513,0.2184066238385837,837,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,PR,
+187,Senior,64 à 75 ans,2018,nv_050,0.085251796126108,24.86319483456524,0.043707771986559,0.126795820265657,198,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,PR,*
+188,Senior,75 ans et plus,2018,nv_050,0.0650457626481796,41.51040432638684,0.0121252473109516,0.1179662779854075,111,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,PR,...
+189,Senior,15 à 64 ans,2018,nv_050,0.1700088703612037,13.443841112861689,0.1252124775986614,0.2148052631237459,734,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,QC,
+190,Senior,64 à 75 ans,2018,nv_050,0.0721736717211008,48.60476330530899,0.0034184442125245,0.140928899229677,165,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,QC,...
+191,Senior,75 ans et plus,2018,nv_050,0.0480918482485114,45.906889683027394,0.0048207988037427,0.0913628976932801,93,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,QC,...
+192,Senior,15 à 64 ans,2018,nv_060,0.1199291042840584,12.35759640245981,0.0908817428799908,0.1489764656881259,617,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AB,
+193,Senior,64 à 75 ans,2018,nv_060,0.3838333717009988,16.129699620679418,0.2624897084576364,0.5051770349443613,89,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AB,
+194,Senior,75 ans et plus,2018,nv_060,0.5759766063346456,13.112754548538422,0.4279475851071305,0.7240056275621608,52,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AB,
+195,Senior,15 à 64 ans,2018,nv_060,0.1732140578842742,8.104448223664487,0.1456999979416876,0.2007281178268607,1467,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AT,
+196,Senior,64 à 75 ans,2018,nv_060,0.3644889286032231,7.850658358703544,0.3084049893194272,0.420572867887019,399,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AT,
+197,Senior,75 ans et plus,2018,nv_060,0.579700205885456,7.813785731793231,0.4909206345905677,0.6684797771803443,193,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AT,
+198,Senior,15 à 64 ans,2018,nv_060,0.137488350487284,10.085028678248534,0.1103120002995211,0.1646647006750468,841,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,BC,
+199,Senior,64 à 75 ans,2018,nv_060,0.2524901037787615,16.433896085264944,0.1711634340929266,0.3338167734645964,220,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,BC,
+200,Senior,75 ans et plus,2018,nv_060,0.5430456599051503,10.008998651008724,0.4365148892314662,0.6495764305788344,141,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,BC,
+201,Senior,15 à 64 ans,2018,nv_060,0.1648248932577076,8.185612313067978,0.1383812027309473,0.1912685837844678,1706,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,ON,
+202,Senior,64 à 75 ans,2018,nv_060,0.3406723457775631,9.58475357956955,0.2766744162573691,0.4046702752977571,385,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,ON,
+203,Senior,75 ans et plus,2018,nv_060,0.5276401876391561,7.243770999559539,0.4527283122750553,0.6025520630032569,227,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,ON,
+204,Senior,15 à 64 ans,2018,nv_060,0.1439626174936548,10.567031595997689,0.1141465178386699,0.1737787171486396,836,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,PR,
+205,Senior,64 à 75 ans,2018,nv_060,0.3699531626263276,10.949945720318684,0.2905556674242999,0.4493506578283553,202,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,PR,
+206,Senior,75 ans et plus,2018,nv_060,0.603468160286773,9.032470194021323,0.4966342832721158,0.7103020373014302,112,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,PR,
+207,Senior,15 à 64 ans,2018,nv_060,0.1612558749041007,12.602831242677915,0.1214239075044858,0.2010878423037156,736,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,QC,
+208,Senior,64 à 75 ans,2018,nv_060,0.2569769106236528,15.837413668992658,0.1772093235149584,0.3367444977323472,169,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,QC,
+209,Senior,75 ans et plus,2018,nv_060,0.5176830137627071,13.05996939033213,0.3851713321934328,0.6501946953319814,93,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,QC,
+210,Senior,15 à 64 ans,2018,nv_070,0.7856081485923971,2.7995008797716223,0.7425024509027152,0.8287138462820791,631,Manque de temps,Older Canadians Barriers to Volunteering,AB,
+211,Senior,64 à 75 ans,2018,nv_070,0.5440787250439906,11.061670394046788,0.4261198699184072,0.6620375801695739,94,Manque de temps,Older Canadians Barriers to Volunteering,AB,
+212,Senior,75 ans et plus,2018,nv_070,0.3278415737248921,24.64427478368789,0.1694878941278828,0.4861952533219013,50,Manque de temps,Older Canadians Barriers to Volunteering,AB,*
+213,Senior,15 à 64 ans,2018,nv_070,0.7672531282311913,1.9421670082675384,0.7380470441419443,0.7964592123204383,1492,Manque de temps,Older Canadians Barriers to Volunteering,AT,
+214,Senior,64 à 75 ans,2018,nv_070,0.4591764058677872,6.516712936737255,0.4005279954083779,0.5178248163271965,407,Manque de temps,Older Canadians Barriers to Volunteering,AT,
+215,Senior,75 ans et plus,2018,nv_070,0.3196971783645005,14.035195985424984,0.2317533483177803,0.4076410084112206,191,Manque de temps,Older Canadians Barriers to Volunteering,AT,
+216,Senior,15 à 64 ans,2018,nv_070,0.7886637657643097,2.480439138550812,0.7503223138639622,0.8270052176646573,875,Manque de temps,Older Canadians Barriers to Volunteering,BC,
+217,Senior,64 à 75 ans,2018,nv_070,0.6215457628430935,6.513090537969688,0.5422028178081035,0.7008887078780834,228,Manque de temps,Older Canadians Barriers to Volunteering,BC,
+218,Senior,75 ans et plus,2018,nv_070,0.3961685545224706,13.30765207993594,0.2928378168274292,0.499499292217512,140,Manque de temps,Older Canadians Barriers to Volunteering,BC,
+219,Senior,15 à 64 ans,2018,nv_070,0.8056303360112194,1.8178926692259656,0.7769256936294108,0.834334978393028,1760,Manque de temps,Older Canadians Barriers to Volunteering,ON,
+220,Senior,64 à 75 ans,2018,nv_070,0.5277858659480923,6.066823193528393,0.4650281419152821,0.5905435899809025,397,Manque de temps,Older Canadians Barriers to Volunteering,ON,
+221,Senior,75 ans et plus,2018,nv_070,0.4042135953005258,9.780912647294697,0.3267248930167047,0.481702297584347,224,Manque de temps,Older Canadians Barriers to Volunteering,ON,
+222,Senior,15 à 64 ans,2018,nv_070,0.7685408296607468,2.4619705031394234,0.7314558639977874,0.8056257953237062,850,Manque de temps,Older Canadians Barriers to Volunteering,PR,
+223,Senior,64 à 75 ans,2018,nv_070,0.528410912486332,8.366931995722354,0.4417574126507987,0.6150644123218653,201,Manque de temps,Older Canadians Barriers to Volunteering,PR,
+224,Senior,75 ans et plus,2018,nv_070,0.2593106250407008,19.494664250272898,0.160231043679455,0.3583902064019465,112,Manque de temps,Older Canadians Barriers to Volunteering,PR,*
+225,Senior,15 à 64 ans,2018,nv_070,0.7301887980246305,3.356230328639405,0.6821563175735137,0.7782212784757474,747,Manque de temps,Older Canadians Barriers to Volunteering,QC,
+226,Senior,64 à 75 ans,2018,nv_070,0.5336400568366952,8.981249916082533,0.4397037905419664,0.6275763231314241,170,Manque de temps,Older Canadians Barriers to Volunteering,QC,
+227,Senior,75 ans et plus,2018,nv_070,0.3494222315019746,19.26007297064144,0.2175186608502456,0.4813258021537036,95,Manque de temps,Older Canadians Barriers to Volunteering,QC,*
+228,Senior,15 à 64 ans,2018,nv_080,0.1292646884432258,16.7561706932607,0.0868122373216608,0.1717171395647908,617,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AB,*
+229,Senior,64 à 75 ans,2018,nv_080,0.074825204178051,36.04263687133472,0.0219669812830944,0.1276834270730076,89,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AB,...
+230,Senior,75 ans et plus,2018,nv_080,0.0989575784928156,50.66400414497416,0.0006930756873359117,0.1972220812982954,51,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AB,...
+231,Senior,15 à 64 ans,2018,nv_080,0.1016746862494747,11.16607570752318,0.0794230731492746,0.1239262993496748,1460,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AT,
+232,Senior,64 à 75 ans,2018,nv_080,0.0934532550568306,19.690546752282057,0.0573870623119143,0.129519447801747,394,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AT,*
+233,Senior,75 ans et plus,2018,nv_080,0.0871959198725293,27.888691466935512,0.0395339056019077,0.1348579341431509,188,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AT,*
+234,Senior,15 à 64 ans,2018,nv_080,0.1392676590240457,12.926610192340448,0.1039832360796803,0.174552081968411,846,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,BC,
+235,Senior,64 à 75 ans,2018,nv_080,0.1102620324701158,31.66880912325209,0.0418226917893469,0.1787013731508848,216,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,BC,*
+236,Senior,75 ans et plus,2018,nv_080,0.0828170114363479,37.63976644368445,0.0217207599415854,0.1439132629311103,134,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,BC,...
+237,Senior,15 à 64 ans,2018,nv_080,0.1383560824115912,9.43208491312308,0.1127788205843733,0.1639333442388091,1705,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,ON,
+238,Senior,64 à 75 ans,2018,nv_080,0.1123619083969805,17.49571272398093,0.0738319236670376,0.1508918931269235,385,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,ON,*
+239,Senior,75 ans et plus,2018,nv_080,0.0521121200171422,27.42464063588547,0.0241011739151206,0.0801230661191638,221,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,ON,*
+240,Senior,15 à 64 ans,2018,nv_080,0.1108563471458925,12.585805423096255,0.0835106079036707,0.1382020863881143,835,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,PR,
+241,Senior,64 à 75 ans,2018,nv_080,0.0578665851742296,29.34989429740924,0.0245789849519078,0.0911541853965514,199,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,PR,*
+242,Senior,75 ans et plus,2018,nv_080,0.0944598051714308,37.12530039809232,0.02572683478542,0.1631927755574416,112,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,PR,...
+243,Senior,15 à 64 ans,2018,nv_080,0.0837081989528861,15.36843878482304,0.0584939613835858,0.1089224365221864,733,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,QC,
+244,Senior,64 à 75 ans,2018,nv_080,0.0802209961669962,30.478258937286927,0.0322999493933146,0.1281420429406778,165,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,QC,*
+245,Senior,75 ans et plus,2018,nv_080,0.1049166288486447,43.43460438625094,0.0156008296330045,0.1942324280642849,92,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,QC,...
+246,Senior,15 à 64 ans,2018,nv_090,0.5059835443368644,5.431781724475288,0.4521160476702667,0.5598510410034622,621,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AB,
+247,Senior,64 à 75 ans,2018,nv_090,0.4680278906654194,13.462335544836012,0.3445354891427726,0.5915202921880661,89,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AB,
+248,Senior,75 ans et plus,2018,nv_090,0.4960767415377394,16.132937864860487,0.3392173890684713,0.6529360940070076,53,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AB,
+249,Senior,15 à 64 ans,2018,nv_090,0.4428814397440269,4.315943152850273,0.4054176862611395,0.4803451932269144,1471,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AT,
+250,Senior,64 à 75 ans,2018,nv_090,0.4569812919999762,7.300345005161081,0.391594520106252,0.5223680638937004,403,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AT,
+251,Senior,75 ans et plus,2018,nv_090,0.4179572574632691,10.98531206720246,0.3279676493556936,0.5079468655708446,187,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AT,
+252,Senior,15 à 64 ans,2018,nv_090,0.4774078222870392,4.931991711730807,0.4312590704131183,0.5235565741609602,852,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,BC,
+253,Senior,64 à 75 ans,2018,nv_090,0.5270096945816368,8.423787176230018,0.4399987103217433,0.6140206788415303,222,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,BC,
+254,Senior,75 ans et plus,2018,nv_090,0.3908808467137667,14.315096124164109,0.2812111228391856,0.5005505705883477,136,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,BC,
+255,Senior,15 à 64 ans,2018,nv_090,0.4791395065464425,3.621821729725843,0.445127117166515,0.5131518959263701,1709,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,ON,
+256,Senior,64 à 75 ans,2018,nv_090,0.4002772364637786,8.210947609882354,0.3358599739744057,0.4646944989531514,385,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,ON,
+257,Senior,75 ans et plus,2018,nv_090,0.4528941321016333,9.06718213120684,0.3724087288613423,0.5333795353419243,224,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,ON,
+258,Senior,15 à 64 ans,2018,nv_090,0.4990063686186434,4.500030592744728,0.4549945164363526,0.5430182208009343,841,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,PR,
+259,Senior,64 à 75 ans,2018,nv_090,0.4012676457575417,10.645297654105352,0.3175455590489987,0.4849897324660848,201,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,PR,
+260,Senior,75 ans et plus,2018,nv_090,0.5370745479162979,9.660183384532782,0.4353869394531865,0.6387621563794094,112,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,PR,
+261,Senior,15 à 64 ans,2018,nv_090,0.4522536298943934,5.49288158720996,0.4035646821083174,0.5009425776804695,739,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,QC,
+262,Senior,64 à 75 ans,2018,nv_090,0.4207994361844718,12.442474927452068,0.3181799077664973,0.5234189646024464,167,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,QC,
+263,Senior,75 ans et plus,2018,nv_090,0.4460025251092189,14.903278777254966,0.3157256796663922,0.5762793705520456,95,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,QC,
+264,Senior,15 à 64 ans,2018,nv_100,0.2444047754915033,9.375167921777573,0.1994954188287376,0.289314132154269,618,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AB,
+265,Senior,64 à 75 ans,2018,nv_100,0.3269981314397035,17.93918596759104,0.2120250704328494,0.4419711924465576,88,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AB,*
+266,Senior,75 ans et plus,2018,nv_100,0.256993965940421,26.979872742116857,0.1210966389989169,0.3928912928819251,52,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AB,*
+267,Senior,15 à 64 ans,2018,nv_100,0.2307194308724495,6.544667755765701,0.2011243271101722,0.2603145346347268,1473,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AT,
+268,Senior,64 à 75 ans,2018,nv_100,0.2758154507596563,10.372050457839496,0.2197453543420824,0.3318855471772301,398,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AT,
+269,Senior,75 ans et plus,2018,nv_100,0.3597872791040983,12.739389433221405,0.2699529127341205,0.4496216454740762,186,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AT,
+270,Senior,15 à 64 ans,2018,nv_100,0.22325759010363,9.009289956216504,0.1838350241781145,0.2626801560291456,845,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,BC,
+271,Senior,64 à 75 ans,2018,nv_100,0.2867441046633039,14.020416037194131,0.2079482283682192,0.3655399809583886,222,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,BC,
+272,Senior,75 ans et plus,2018,nv_100,0.3026882187176522,17.516340324611242,0.1987711271680318,0.4066053102672726,135,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,BC,*
+273,Senior,15 à 64 ans,2018,nv_100,0.2191741896785754,6.324458946623002,0.1920059888800964,0.2463423904770545,1701,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,ON,
+274,Senior,64 à 75 ans,2018,nv_100,0.2554808585775546,11.723276718295809,0.1967785103606833,0.3141832067944259,386,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,ON,
+275,Senior,75 ans et plus,2018,nv_100,0.2423754841288602,14.085512692424317,0.1754626477131459,0.3092883205445746,223,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,ON,
+276,Senior,15 à 64 ans,2018,nv_100,0.2149375593335108,8.203750214467128,0.1803776310417776,0.2494974876252439,837,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,PR,
+277,Senior,64 à 75 ans,2018,nv_100,0.3984767738312778,9.67211845817549,0.3229375165455398,0.4740160311170158,205,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,PR,
+278,Senior,75 ans et plus,2018,nv_100,0.3562160070686593,14.448235444471043,0.2553426829850613,0.4570893311522574,111,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,PR,
+279,Senior,15 à 64 ans,2018,nv_100,0.2420061340495901,8.348864827459458,0.2024055223218121,0.2816067457773681,739,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,QC,
+280,Senior,64 à 75 ans,2018,nv_100,0.2510009285010101,16.870934969454243,0.168003894915545,0.3339979620864752,167,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,QC,*
+281,Senior,75 ans et plus,2018,nv_100,0.38033207609654,17.705319378578114,0.2483500441486577,0.5123141080444222,95,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,QC,*
+282,Senior,15 à 64 ans,2018,nv_110,0.2120985418574424,10.589760005324871,0.1680763267381466,0.2561207569767382,618,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AB,
+283,Senior,64 à 75 ans,2018,nv_110,0.3192017730997397,20.39519799510804,0.1916045238621498,0.4467990223373296,88,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AB,*
+284,Senior,75 ans et plus,2018,nv_110,0.2802516130691024,28.362827712718776,0.1244594027733965,0.4360438233648083,51,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AB,*
+285,Senior,15 à 64 ans,2018,nv_110,0.2052826432772386,7.743545069759039,0.1741267539395077,0.2364385326149695,1469,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AT,
+286,Senior,64 à 75 ans,2018,nv_110,0.296885990383556,10.069576388808317,0.2382925503564399,0.3554794304106721,398,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AT,
+287,Senior,75 ans et plus,2018,nv_110,0.2302743350379177,18.54216602844708,0.1465880877542859,0.3139605823215494,189,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AT,*
+288,Senior,15 à 64 ans,2018,nv_110,0.2189872735078587,8.993224242690081,0.1803877103206747,0.2575868366950427,850,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,BC,
+289,Senior,64 à 75 ans,2018,nv_110,0.2959614441484141,14.46538098859147,0.212051563108707,0.3798713251881213,219,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,BC,
+290,Senior,75 ans et plus,2018,nv_110,0.2579495265957731,16.550234456302775,0.1742762113370029,0.3416228418545432,134,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,BC,*
+291,Senior,15 à 64 ans,2018,nv_110,0.1958956006848612,7.169653951470455,0.1683678346398096,0.2234233667299129,1697,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,ON,
+292,Senior,64 à 75 ans,2018,nv_110,0.298443735510252,11.266913780056573,0.2325391657550763,0.3643483052654276,387,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,ON,
+293,Senior,75 ans et plus,2018,nv_110,0.2466229623960766,13.523276819576148,0.1812552119911989,0.3119907128009543,224,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,ON,
+294,Senior,15 à 64 ans,2018,nv_110,0.2103675721603614,8.789501233985181,0.1741273278077508,0.2466078165129721,835,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,PR,
+295,Senior,64 à 75 ans,2018,nv_110,0.2325285561176591,14.95184938619917,0.1643858620770543,0.3006712501582639,198,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,PR,
+296,Senior,75 ans et plus,2018,nv_110,0.2924007796978132,17.706133269163864,0.1909278157241981,0.3938737436714283,112,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,PR,*
+297,Senior,15 à 64 ans,2018,nv_110,0.2655399476282389,8.065576795447866,0.2235627553220186,0.3075171399344592,736,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,QC,
+298,Senior,64 à 75 ans,2018,nv_110,0.269416555572018,15.802530194278408,0.1859718091333911,0.3528613020106448,165,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,QC,
+299,Senior,75 ans et plus,2018,nv_110,0.3000761943701255,20.50837067516886,0.1794585638193625,0.4206938249208884,94,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,QC,*
+300,Senior,15 à 64 ans,2018,nv_120,0.2050931950970568,10.87950461243195,0.1613602764185449,0.2488261137755688,618,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AB,
+301,Senior,64 à 75 ans,2018,nv_120,0.2394460077947337,24.21818629849792,0.1257887150185299,0.3531033005709375,89,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AB,*
+302,Senior,75 ans et plus,2018,nv_120,0.1304224330119914,43.26870287875925,0.019817559186523,0.2410273068374598,50,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AB,...
+303,Senior,15 à 64 ans,2018,nv_120,0.2020301077885554,7.770015361406149,0.171263043147698,0.2327971724294128,1461,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AT,
+304,Senior,64 à 75 ans,2018,nv_120,0.1749973438370474,13.120870860530715,0.1299942668256767,0.2200004208484181,392,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AT,
+305,Senior,75 ans et plus,2018,nv_120,0.117965533833668,26.30607467416725,0.0571437326857468,0.1787873349815891,185,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AT,*
+306,Senior,15 à 64 ans,2018,nv_120,0.2583645024900889,8.120003852144794,0.2172460112585492,0.2994829937216286,842,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,BC,
+307,Senior,64 à 75 ans,2018,nv_120,0.1667097032404617,18.352723968257283,0.1067430926997659,0.2266763137811576,216,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,BC,*
+308,Senior,75 ans et plus,2018,nv_120,0.1415086963875927,27.24150174007638,0.0659538605329237,0.2170635322422618,133,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,BC,*
+309,Senior,15 à 64 ans,2018,nv_120,0.2084444593223569,7.303224098507447,0.1786076022606232,0.2382813163840905,1704,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,ON,
+310,Senior,64 à 75 ans,2018,nv_120,0.1903169029915167,16.166789972454872,0.1300124685021244,0.250621337480909,378,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,ON,
+311,Senior,75 ans et plus,2018,nv_120,0.1573456954083902,21.103290120040143,0.0922648588628915,0.222426531953889,224,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,ON,*
+312,Senior,15 à 64 ans,2018,nv_120,0.2002791123766127,8.77987424841349,0.1658146074251055,0.2347436173281199,833,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,PR,
+313,Senior,64 à 75 ans,2018,nv_120,0.1469453612316374,20.539471516547128,0.0877901190375521,0.2061006034257228,198,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,PR,*
+314,Senior,75 ans et plus,2018,nv_120,0.1503608258903176,24.81940924197014,0.0772175792533808,0.2235040725272545,111,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,PR,*
+315,Senior,15 à 64 ans,2018,nv_120,0.2154130125711874,10.329409059519143,0.1718020671248832,0.2590239580174915,733,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,QC,
+316,Senior,64 à 75 ans,2018,nv_120,0.2118690208410637,22.637442503230893,0.1178657617656434,0.3058722799164841,166,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,QC,*
+317,Senior,75 ans et plus,2018,nv_120,0.0573215055479348,34.314659893760826,0.0187696417979714,0.0958733692978982,92,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,QC,...
+318,Senior,15 à 64 ans,2018,nv_130,0.1663405994477346,11.840210349476234,0.1277389581074515,0.2049422407880178,612,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AB,
+319,Senior,64 à 75 ans,2018,nv_130,0.2379498148203746,21.790468568191727,0.1363249382068964,0.3395746914338528,89,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AB,*
+320,Senior,75 ans et plus,2018,nv_130,0.1285033135522884,36.72689706919271,0.0360022651022462,0.2210043620023307,51,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AB,...
+321,Senior,15 à 64 ans,2018,nv_130,0.182349357140434,8.040070806460676,0.1536142910024552,0.2110844232784129,1463,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AT,
+322,Senior,64 à 75 ans,2018,nv_130,0.188504574233232,13.144321649521332,0.1399412773915029,0.2370678710749611,393,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AT,
+323,Senior,75 ans et plus,2018,nv_130,0.1442476501234469,25.358021514091615,0.0725554012118761,0.2159398990350176,183,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AT,*
+324,Senior,15 à 64 ans,2018,nv_130,0.2607214038851661,7.901651489119144,0.2203436043329546,0.3010992034373776,848,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,BC,
+325,Senior,64 à 75 ans,2018,nv_130,0.1621708808815607,20.41359350502488,0.0972864605328268,0.2270553012302946,216,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,BC,*
+326,Senior,75 ans et plus,2018,nv_130,0.2112717532999935,19.80479944243499,0.1292630440985842,0.2932804625014029,135,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,BC,*
+327,Senior,15 à 64 ans,2018,nv_130,0.1843828383306858,7.137727809891812,0.1585882518697083,0.2101774247916634,1700,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,ON,
+328,Senior,64 à 75 ans,2018,nv_130,0.1878117895300783,14.352668193474894,0.134978994523144,0.2406445845370126,381,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,ON,
+329,Senior,75 ans et plus,2018,nv_130,0.1766242645758157,18.392421181785565,0.1129538964012408,0.2402946327503905,222,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,ON,*
+330,Senior,15 à 64 ans,2018,nv_130,0.193546598791299,8.919981501837746,0.1597091517868984,0.2273840457956996,837,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,PR,
+331,Senior,64 à 75 ans,2018,nv_130,0.178113304621115,17.43860275931093,0.1172358988357468,0.2389907104064832,195,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,PR,*
+332,Senior,75 ans et plus,2018,nv_130,0.2097916919015748,21.794337068981108,0.1201768300134853,0.2994065537896643,111,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,PR,*
+333,Senior,15 à 64 ans,2018,nv_130,0.1594422767715726,12.854895638807584,0.1192705839144961,0.199613969628649,733,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,QC,
+334,Senior,64 à 75 ans,2018,nv_130,0.0888708719296062,27.823866266849794,0.0404062298856222,0.1373355139735901,165,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,QC,*
+335,Senior,75 ans et plus,2018,nv_130,0.0377270535694251,40.36526008320219,0.0078795003770436,0.0675746067618067,92,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,QC,...
+336,Senior2,15 à 64 ans,2018,nv_020,0.293294079721488,7.938917823794249,0.2476575414155588,0.3389306180274172,620,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AB,
+337,Senior2,65 ans et plus,2018,nv_020,0.4478391263177664,11.364197713473526,0.3480900447082645,0.5475882079272685,142,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AB,
+338,Senior2,15 à 64 ans,2018,nv_020,0.3026942884460293,5.540458950144461,0.2698244129690664,0.3355641639229921,1470,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AT,
+339,Senior2,65 ans et plus,2018,nv_020,0.4750348291209457,5.617033925998865,0.4227373697931047,0.5273322884487868,594,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,AT,
+340,Senior2,15 à 64 ans,2018,nv_020,0.3201306141261623,5.976036393740861,0.282634304007257,0.3576269242450676,855,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,BC,
+341,Senior2,65 ans et plus,2018,nv_020,0.5434785280222607,6.304103546280112,0.4763273216137988,0.6106297344307225,362,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,BC,
+342,Senior2,15 à 64 ans,2018,nv_020,0.3239136227991067,4.847725554863431,0.2931373991323227,0.3546898464658907,1713,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,ON,
+343,Senior2,65 ans et plus,2018,nv_020,0.526633636816029,4.960615188258593,0.475431012071789,0.577836261560269,626,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,ON,
+344,Senior2,15 à 64 ans,2018,nv_020,0.2859057564140758,6.732102030593443,0.2481814138435153,0.3236300989846362,836,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,PR,
+345,Senior2,65 ans et plus,2018,nv_020,0.48884885707555,6.370007512854103,0.4278161490989501,0.5498815650521499,313,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,PR,
+346,Senior2,15 à 64 ans,2018,nv_020,0.3847150343701023,5.849532739474699,0.3406079423604069,0.4288221263797978,739,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,QC,
+347,Senior2,65 ans et plus,2018,nv_020,0.6029842140543231,6.98788751427557,0.5203994487270198,0.6855689793816264,268,Assez de temps déjà donné,Older Canadians Barriers to Volunteering,QC,
+348,Senior2,15 à 64 ans,2018,nv_030,0.0711079165944317,19.56681306013629,0.0438378535999059,0.0983779795889575,618,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AB,*
+349,Senior2,65 ans et plus,2018,nv_030,0.1244543148273601,26.063319459764305,0.060879108774522,0.1880295208801981,141,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AB,*
+350,Senior2,15 à 64 ans,2018,nv_030,0.0527805064993694,16.069803139671208,0.0361566339310248,0.0694043790677141,1466,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AT,
+351,Senior2,65 ans et plus,2018,nv_030,0.0584089072956636,18.996324524850596,0.0366620375674864,0.0801557770238409,583,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,AT,*
+352,Senior2,15 à 64 ans,2018,nv_030,0.0657988462090825,17.441920237024753,0.043305158289037,0.0882925341291281,847,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,BC,*
+353,Senior2,65 ans et plus,2018,nv_030,0.0764512506452832,23.82088113616381,0.0407576379109312,0.1121448633796351,352,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,BC,*
+354,Senior2,15 à 64 ans,2018,nv_030,0.0573421644593778,14.166109175590586,0.0414210759214058,0.0732632529973498,1704,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,ON,
+355,Senior2,65 ans et plus,2018,nv_030,0.0715778684283834,18.031306296996856,0.046281740852726,0.0968739960040409,607,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,ON,*
+356,Senior2,15 à 64 ans,2018,nv_030,0.0599219091134858,16.611192559382445,0.0404129299342691,0.0794308882927026,835,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,PR,*
+357,Senior2,65 ans et plus,2018,nv_030,0.0801512828102293,25.76142328775381,0.0396817284402491,0.1206208371802095,310,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,PR,*
+358,Senior2,15 à 64 ans,2018,nv_030,0.0586549991162896,19.325215572039667,0.0364384055138303,0.080871592718749,734,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,QC,*
+359,Senior2,65 ans et plus,2018,nv_030,0.06230800978792,27.870786045381116,0.0282718003123812,0.0963442192634587,258,Expérience bénévole passée insatisfaisante,Older Canadians Barriers to Volunteering,QC,*
+360,Senior2,15 à 64 ans,2018,nv_040,0.2903786059252547,9.1155534382076,0.2384991099280572,0.3422581019224521,620,Aucune sollicitation,Older Canadians Barriers to Volunteering,AB,
+361,Senior2,65 ans et plus,2018,nv_040,0.2228972569267531,18.012260307105407,0.1442069880007939,0.3015875258527122,141,Aucune sollicitation,Older Canadians Barriers to Volunteering,AB,*
+362,Senior2,15 à 64 ans,2018,nv_040,0.3158539217598249,5.712243043483395,0.2804915779634725,0.3512162655561774,1470,Aucune sollicitation,Older Canadians Barriers to Volunteering,AT,
+363,Senior2,65 ans et plus,2018,nv_040,0.202777901940804,10.15772177752488,0.1624073181667056,0.2431484857149025,588,Aucune sollicitation,Older Canadians Barriers to Volunteering,AT,
+364,Senior2,15 à 64 ans,2018,nv_040,0.3230620840504737,6.924044460823417,0.2792197235009345,0.366904444600013,851,Aucune sollicitation,Older Canadians Barriers to Volunteering,BC,
+365,Senior2,65 ans et plus,2018,nv_040,0.2557453547914028,12.467053622049708,0.1932540384903239,0.3182366710924817,353,Aucune sollicitation,Older Canadians Barriers to Volunteering,BC,
+366,Senior2,15 à 64 ans,2018,nv_040,0.2930616512565628,5.470898510767404,0.26163734188835,0.3244859606247757,1713,Aucune sollicitation,Older Canadians Barriers to Volunteering,ON,
+367,Senior2,65 ans et plus,2018,nv_040,0.19909965567705,9.714146796150825,0.1611923199127649,0.2370069914413351,613,Aucune sollicitation,Older Canadians Barriers to Volunteering,ON,
+368,Senior2,15 à 64 ans,2018,nv_040,0.3209837069767766,7.36807534217799,0.2746299288762956,0.3673374850772575,838,Aucune sollicitation,Older Canadians Barriers to Volunteering,PR,
+369,Senior2,65 ans et plus,2018,nv_040,0.2207392885513152,12.868070831225758,0.1650667310802923,0.2764118460223381,308,Aucune sollicitation,Older Canadians Barriers to Volunteering,PR,
+370,Senior2,15 à 64 ans,2018,nv_040,0.2933844479648747,8.629692071910343,0.2437617378959367,0.3430071580338127,736,Aucune sollicitation,Older Canadians Barriers to Volunteering,QC,
+371,Senior2,65 ans et plus,2018,nv_040,0.1500594238858539,16.194814764590877,0.102428681487158,0.1976901662845497,258,Aucune sollicitation,Older Canadians Barriers to Volunteering,QC,
+372,Senior2,15 à 64 ans,2018,nv_050,0.1147409363354953,14.630122280782714,0.0818395319053158,0.1476423407656748,617,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AB,
+373,Senior2,65 ans et plus,2018,nv_050,0.0609965960337629,34.52369478274658,0.0197231283179339,0.1022700637495919,140,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AB,...
+374,Senior2,15 à 64 ans,2018,nv_050,0.1807278768210838,8.609267359833417,0.1502321188239064,0.2112236348182611,1467,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AT,
+375,Senior2,65 ans et plus,2018,nv_050,0.100779299981998,15.214970302466632,0.0707261127224563,0.1308324872415398,582,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,AT,
+376,Senior2,15 à 64 ans,2018,nv_050,0.1852931337540628,10.399328057483164,0.1475261156843657,0.22306015182376,848,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,BC,
+377,Senior2,65 ans et plus,2018,nv_050,0.065144481130823,24.859997869792227,0.0334030278202307,0.0968859344414153,351,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,BC,*
+378,Senior2,15 à 64 ans,2018,nv_050,0.1725048323675162,8.29585718009634,0.1444562689128539,0.2005533958221785,1697,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,ON,
+379,Senior2,65 ans et plus,2018,nv_050,0.0825839922816219,16.473084102075273,0.0559203864539694,0.1092475981092744,601,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,ON,
+380,Senior2,15 à 64 ans,2018,nv_050,0.1817224028750675,10.299656451962653,0.1450381819115513,0.2184066238385837,837,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,PR,
+381,Senior2,65 ans et plus,2018,nv_050,0.077761706940747,21.095702589893104,0.0456097160388944,0.1099136978425997,309,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,PR,*
+382,Senior2,15 à 64 ans,2018,nv_050,0.1700088703612037,13.443841112861689,0.1252124775986614,0.2148052631237459,734,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,QC,
+383,Senior2,65 ans et plus,2018,nv_050,0.0626325838632608,36.551251453567005,0.0177631416542768,0.1075020260722447,258,Ne savaient pas comment s'engager plus,Older Canadians Barriers to Volunteering,QC,...
+384,Senior2,15 à 64 ans,2018,nv_060,0.1199291042840584,12.35759640245981,0.0908817428799908,0.1489764656881259,617,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AB,
+385,Senior2,65 ans et plus,2018,nv_060,0.4529122837703046,10.755859938249236,0.3574334009139204,0.5483911666266889,141,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AB,
+386,Senior2,15 à 64 ans,2018,nv_060,0.1732140578842742,8.104448223664487,0.1456999979416876,0.2007281178268607,1467,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AT,
+387,Senior2,65 ans et plus,2018,nv_060,0.4369117838398009,5.641638534025909,0.3886006638129408,0.485222903866661,592,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,AT,
+388,Senior2,15 à 64 ans,2018,nv_060,0.137488350487284,10.085028678248534,0.1103120002995211,0.1646647006750468,841,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,BC,
+389,Senior2,65 ans et plus,2018,nv_060,0.3673781800579763,9.368548649931626,0.2999201327233926,0.4348362273925601,361,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,BC,
+390,Senior2,15 à 64 ans,2018,nv_060,0.1648248932577076,8.185612313067978,0.1383812027309473,0.1912685837844678,1706,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,ON,
+391,Senior2,65 ans et plus,2018,nv_060,0.4144633091617642,5.985829323697046,0.3658384327319884,0.4630881855915399,612,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,ON,
+392,Senior2,15 à 64 ans,2018,nv_060,0.1439626174936548,10.567031595997689,0.1141465178386699,0.1737787171486396,836,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,PR,
+393,Senior2,65 ans et plus,2018,nv_060,0.4545011816292285,7.57139757224997,0.3870547217903524,0.5219476414681047,314,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,PR,
+394,Senior2,15 à 64 ans,2018,nv_060,0.1612558749041007,12.602831242677915,0.1214239075044858,0.2010878423037156,736,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,QC,
+395,Senior2,65 ans et plus,2018,nv_060,0.3584931431202889,10.59417290035554,0.2840549194658096,0.4329313667747683,262,Problèmes de santé/handicap physique,Older Canadians Barriers to Volunteering,QC,
+396,Senior2,15 à 64 ans,2018,nv_070,0.7856081485923971,2.7995008797716223,0.7425024509027152,0.8287138462820791,631,Manque de temps,Older Canadians Barriers to Volunteering,AB,
+397,Senior2,65 ans et plus,2018,nv_070,0.4704474023354211,10.49838045642074,0.3736460391526102,0.5672487655182321,144,Manque de temps,Older Canadians Barriers to Volunteering,AB,
+398,Senior2,15 à 64 ans,2018,nv_070,0.7672531282311913,1.9421670082675384,0.7380470441419443,0.7964592123204383,1492,Manque de temps,Older Canadians Barriers to Volunteering,AT,
+399,Senior2,65 ans et plus,2018,nv_070,0.4118184403069479,6.170175627466509,0.3620159102318064,0.4616209703820894,598,Manque de temps,Older Canadians Barriers to Volunteering,AT,
+400,Senior2,15 à 64 ans,2018,nv_070,0.7886637657643097,2.480439138550812,0.7503223138639622,0.8270052176646573,875,Manque de temps,Older Canadians Barriers to Volunteering,BC,
+401,Senior2,65 ans et plus,2018,nv_070,0.5361157278565134,6.396512099536741,0.4689032564204149,0.6033281992926118,368,Manque de temps,Older Canadians Barriers to Volunteering,BC,
+402,Senior2,15 à 64 ans,2018,nv_070,0.8056303360112194,1.8178926692259656,0.7769256936294108,0.834334978393028,1760,Manque de temps,Older Canadians Barriers to Volunteering,ON,
+403,Senior2,65 ans et plus,2018,nv_070,0.4801253780120575,5.141911788117881,0.4317385252650645,0.5285122307590506,621,Manque de temps,Older Canadians Barriers to Volunteering,ON,
+404,Senior2,15 à 64 ans,2018,nv_070,0.7685408296607468,2.4619705031394234,0.7314558639977874,0.8056257953237062,850,Manque de temps,Older Canadians Barriers to Volunteering,PR,
+405,Senior2,65 ans et plus,2018,nv_070,0.4290445217270531,8.273036514188052,0.359475580604741,0.4986134628493652,313,Manque de temps,Older Canadians Barriers to Volunteering,PR,
+406,Senior2,15 à 64 ans,2018,nv_070,0.7301887980246305,3.356230328639405,0.6821563175735137,0.7782212784757474,747,Manque de temps,Older Canadians Barriers to Volunteering,QC,
+407,Senior2,65 ans et plus,2018,nv_070,0.46199747196754,8.519076107723778,0.3848573736057542,0.5391375703293259,265,Manque de temps,Older Canadians Barriers to Volunteering,QC,
+408,Senior2,15 à 64 ans,2018,nv_080,0.1292646884432258,16.7561706932607,0.0868122373216608,0.1717171395647908,617,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AB,*
+409,Senior2,65 ans et plus,2018,nv_080,0.0834032056932522,29.319482010889164,0.0354754461293778,0.1313309652571265,140,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AB,*
+410,Senior2,15 à 64 ans,2018,nv_080,0.1016746862494747,11.16607570752318,0.0794230731492746,0.1239262993496748,1460,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AT,
+411,Senior2,65 ans et plus,2018,nv_080,0.0913368228005595,15.952653868759764,0.0627788790647724,0.1198947665363466,582,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,AT,
+412,Senior2,15 à 64 ans,2018,nv_080,0.1392676590240457,12.926610192340448,0.1039832360796803,0.174552081968411,846,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,BC,
+413,Senior2,65 ans et plus,2018,nv_080,0.0997187951252934,24.38218100163912,0.0520649812359956,0.1473726090145913,350,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,BC,*
+414,Senior2,15 à 64 ans,2018,nv_080,0.1383560824115912,9.43208491312308,0.1127788205843733,0.1639333442388091,1705,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,ON,
+415,Senior2,65 ans et plus,2018,nv_080,0.0888903068872049,15.274302485872548,0.0622791421476258,0.1155014716267839,606,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,ON,
+416,Senior2,15 à 64 ans,2018,nv_080,0.1108563471458925,12.585805423096255,0.0835106079036707,0.1382020863881143,835,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,PR,
+417,Senior2,65 ans et plus,2018,nv_080,0.0714340504267541,23.107023508371302,0.0390823305709419,0.1037857702825663,311,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,PR,*
+418,Senior2,15 à 64 ans,2018,nv_080,0.0837081989528861,15.36843878482304,0.0584939613835858,0.1089224365221864,733,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,QC,
+419,Senior2,65 ans et plus,2018,nv_080,0.0899885807053943,25.61139754760096,0.0448166377879698,0.1351605236228188,257,Coût financier du bénévolat,Older Canadians Barriers to Volunteering,QC,*
+420,Senior2,15 à 64 ans,2018,nv_090,0.5059835443368644,5.431781724475288,0.4521160476702667,0.5598510410034622,621,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AB,
+421,Senior2,65 ans et plus,2018,nv_090,0.4781866907130829,10.514300511893362,0.3796436495857369,0.5767297318404291,142,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AB,
+422,Senior2,15 à 64 ans,2018,nv_090,0.4428814397440269,4.315943152850273,0.4054176862611395,0.4803451932269144,1471,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AT,
+423,Senior2,65 ans et plus,2018,nv_090,0.444026337501886,6.333471778759173,0.3889076760979927,0.4991449989057793,590,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,AT,
+424,Senior2,15 à 64 ans,2018,nv_090,0.4774078222870392,4.931991711730807,0.4312590704131183,0.5235565741609602,852,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,BC,
+425,Senior2,65 ans et plus,2018,nv_090,0.4753130361290404,7.383007155789466,0.4065332048769817,0.5440928673810992,358,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,BC,
+426,Senior2,15 à 64 ans,2018,nv_090,0.4791395065464425,3.621821729725843,0.445127117166515,0.5131518959263701,1709,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,ON,
+427,Senior2,65 ans et plus,2018,nv_090,0.4209349644022831,6.25050103974819,0.3693672451084469,0.4725026836961193,609,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,ON,
+428,Senior2,15 à 64 ans,2018,nv_090,0.4990063686186434,4.500030592744728,0.4549945164363526,0.5430182208009343,841,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,PR,
+429,Senior2,65 ans et plus,2018,nv_090,0.4512150415307159,7.551258453989215,0.3844343372846286,0.5179957457768033,313,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,PR,
+430,Senior2,15 à 64 ans,2018,nv_090,0.4522536298943934,5.49288158720996,0.4035646821083174,0.5009425776804695,739,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,QC,
+431,Senior2,65 ans et plus,2018,nv_090,0.4307043100327599,9.046504171628852,0.35433689391372,0.5070717261517997,262,Incapable de s'engager à long terme,Older Canadians Barriers to Volunteering,QC,
+432,Senior2,15 à 64 ans,2018,nv_100,0.2444047754915033,9.375167921777573,0.1994954188287376,0.289314132154269,618,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AB,
+433,Senior2,65 ans et plus,2018,nv_100,0.3018742270981329,14.734812413045296,0.2146938509584088,0.3890546032378569,140,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AB,
+434,Senior2,15 à 64 ans,2018,nv_100,0.2307194308724495,6.544667755765701,0.2011243271101722,0.2603145346347268,1473,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AT,
+435,Senior2,65 ans et plus,2018,nv_100,0.3036725162580276,8.21757022535638,0.2547625905398289,0.3525824419762262,584,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,AT,
+436,Senior2,15 à 64 ans,2018,nv_100,0.22325759010363,9.009289956216504,0.1838350241781145,0.2626801560291456,845,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,BC,
+437,Senior2,65 ans et plus,2018,nv_100,0.2928228106526016,11.01947860733916,0.2295795807076928,0.3560660405975103,357,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,BC,
+438,Senior2,15 à 64 ans,2018,nv_100,0.2191741896785754,6.324458946623002,0.1920059888800964,0.2463423904770545,1701,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,ON,
+439,Senior2,65 ans et plus,2018,nv_100,0.2503624051252784,8.909983139299074,0.2066410022868186,0.2940838079637382,609,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,ON,
+440,Senior2,15 à 64 ans,2018,nv_100,0.2149375593335108,8.203750214467128,0.1803776310417776,0.2494974876252439,837,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,PR,
+441,Senior2,65 ans et plus,2018,nv_100,0.3833128982254861,7.768086690617358,0.3249528572929106,0.4416729391580615,316,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,PR,
+442,Senior2,15 à 64 ans,2018,nv_100,0.2420061340495901,8.348864827459458,0.2024055223218121,0.2816067457773681,739,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,QC,
+443,Senior2,65 ans et plus,2018,nv_100,0.3026229840601745,12.206767707156256,0.2302209644910489,0.3750250036293001,262,Préférence pour les dons d'argent,Older Canadians Barriers to Volunteering,QC,
+444,Senior2,15 à 64 ans,2018,nv_110,0.2120985418574424,10.589760005324871,0.1680763267381466,0.2561207569767382,618,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AB,
+445,Senior2,65 ans et plus,2018,nv_110,0.3052996976292123,16.219381740094764,0.2082467431495158,0.4023526521089087,139,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AB,
+446,Senior2,15 à 64 ans,2018,nv_110,0.2052826432772386,7.743545069759039,0.1741267539395077,0.2364385326149695,1469,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AT,
+447,Senior2,65 ans et plus,2018,nv_110,0.2743916770375305,8.877763513550423,0.2266472597595394,0.3221360943155216,587,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,AT,
+448,Senior2,15 à 64 ans,2018,nv_110,0.2189872735078587,8.993224242690081,0.1803877103206747,0.2575868366950427,850,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,BC,
+449,Senior2,65 ans et plus,2018,nv_110,0.2814767806766925,10.940629974593769,0.2211190370298339,0.3418345243235511,353,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,BC,
+450,Senior2,15 à 64 ans,2018,nv_110,0.1958956006848612,7.169653951470455,0.1683678346398096,0.2234233667299129,1697,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,ON,
+451,Senior2,65 ans et plus,2018,nv_110,0.2780881501098192,8.764398600867366,0.2303184301884527,0.3258578700311857,611,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,ON,
+452,Senior2,15 à 64 ans,2018,nv_110,0.2103675721603614,8.789501233985181,0.1741273278077508,0.2466078165129721,835,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,PR,
+453,Senior2,65 ans et plus,2018,nv_110,0.2547579986061843,11.43074716227664,0.1976823917182821,0.3118336054940865,310,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,PR,
+454,Senior2,15 à 64 ans,2018,nv_110,0.2655399476282389,8.065576795447866,0.2235627553220186,0.3075171399344592,736,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,QC,
+455,Senior2,65 ans et plus,2018,nv_110,0.281616484036031,12.447465834285858,0.2129116798832886,0.3503212881887735,259,Aucun intérêt pour en faire plus,Older Canadians Barriers to Volunteering,QC,
+456,Senior2,15 à 64 ans,2018,nv_120,0.2050931950970568,10.87950461243195,0.1613602764185449,0.2488261137755688,618,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AB,
+457,Senior2,65 ans et plus,2018,nv_120,0.2011281602751019,21.376202340272624,0.1168623262008299,0.2853939943493739,139,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AB,*
+458,Senior2,15 à 64 ans,2018,nv_120,0.2020301077885554,7.770015361406149,0.171263043147698,0.2327971724294128,1461,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AT,
+459,Senior2,65 ans et plus,2018,nv_120,0.1558547956450768,11.978411122516896,0.1192643687891211,0.1924452225010325,577,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,AT,
+460,Senior2,15 à 64 ans,2018,nv_120,0.2583645024900889,8.120003852144794,0.2172460112585492,0.2994829937216286,842,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,BC,
+461,Senior2,65 ans et plus,2018,nv_120,0.1572229744993387,14.907715073005251,0.1112846466297811,0.2031613023688962,349,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,BC,
+462,Senior2,15 à 64 ans,2018,nv_120,0.2084444593223569,7.303224098507447,0.1786076022606232,0.2382813163840905,1704,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,ON,
+463,Senior2,65 ans et plus,2018,nv_120,0.1772405423418183,13.011497048350543,0.1320405429645149,0.2224405417191218,602,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,ON,
+464,Senior2,15 à 64 ans,2018,nv_120,0.2002791123766127,8.77987424841349,0.1658146074251055,0.2347436173281199,833,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,PR,
+465,Senior2,65 ans et plus,2018,nv_120,0.1482083989278519,15.801213934182137,0.1023085390453354,0.1941082588103684,309,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,PR,
+466,Senior2,15 à 64 ans,2018,nv_120,0.2154130125711874,10.329409059519143,0.1718020671248832,0.2590239580174915,733,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,QC,
+467,Senior2,65 ans et plus,2018,nv_120,0.1531286706739503,20.63392900474273,0.0912007446972052,0.2150565966506954,258,Utilisation des compétences impossible,Older Canadians Barriers to Volunteering,QC,*
+468,Senior2,15 à 64 ans,2018,nv_130,0.1663405994477346,11.840210349476234,0.1277389581074515,0.2049422407880178,612,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AB,
+469,Senior2,65 ans et plus,2018,nv_130,0.1990463798965794,19.295802823545312,0.1237688730590426,0.2743238867341161,140,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AB,*
+470,Senior2,15 à 64 ans,2018,nv_130,0.182349357140434,8.040070806460676,0.1536142910024552,0.2110844232784129,1463,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AT,
+471,Senior2,65 ans et plus,2018,nv_130,0.1737960640141919,11.681664247867928,0.1340043407685511,0.2135877872598327,576,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,AT,
+472,Senior2,15 à 64 ans,2018,nv_130,0.2607214038851661,7.901651489119144,0.2203436043329546,0.3010992034373776,848,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,BC,
+473,Senior2,65 ans et plus,2018,nv_130,0.1810817610672156,13.942302190821204,0.1315986163210347,0.2305649058133966,351,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,BC,
+474,Senior2,15 à 64 ans,2018,nv_130,0.1843828383306858,7.137727809891812,0.1585882518697083,0.2101774247916634,1700,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,ON,
+475,Senior2,65 ans et plus,2018,nv_130,0.1834059724929316,11.228120509595731,0.1430443486787964,0.2237675963070668,603,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,ON,
+476,Senior2,15 à 64 ans,2018,nv_130,0.193546598791299,8.919981501837746,0.1597091517868984,0.2273840457956996,837,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,PR,
+477,Senior2,65 ans et plus,2018,nv_130,0.1898963852778548,13.909787146107988,0.1381255379358109,0.2416672326198987,306,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,PR,
+478,Senior2,15 à 64 ans,2018,nv_130,0.1594422767715726,12.854895638807584,0.1192705839144961,0.199613969628649,733,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,QC,
+479,Senior2,65 ans et plus,2018,nv_130,0.0690291842414342,24.18055964420444,0.0363141649865173,0.1017442034963511,257,Aucune sollicitation pour une contribution importante,Older Canadians Barriers to Volunteering,QC,*

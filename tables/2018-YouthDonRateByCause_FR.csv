@@ -1,0 +1,601 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0167163649577333,3589.271717428492,0.0049566641606088,0.0284760657548577,845,Arts et culture,Younger Canadians Donation Rates by Cause,CA,...
+1,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0297641882191954,1648.982329621883,0.0201445633812247,0.0393838130571662,1846,Arts et culture,Younger Canadians Donation Rates by Cause,CA,
+2,Younger,>=35,2018,flag_gs1dnx01,0.0336414246269322,616.998491336518,0.0295731845678909,0.0377096646859736,13458,Arts et culture,Younger Canadians Donation Rates by Cause,CA,
+3,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0525723171013651,1817.504935632348,0.0338447738520559,0.0712998603506742,845,Sport et loisir,Younger Canadians Donation Rates by Cause,CA,*
+4,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0965949420947505,989.4706011419267,0.0778620266601274,0.1153278575293735,1846,Sport et loisir,Younger Canadians Donation Rates by Cause,CA,
+5,Younger,>=35,2018,flag_gs1dnx02,0.131196610896301,291.41491406735537,0.1237031493712515,0.1386900724213505,13458,Sport et loisir,Younger Canadians Donation Rates by Cause,CA,
+6,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0477645899155288,1814.8409231389928,0.0307746161547123,0.0647545636763454,845,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA,*
+7,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0954792007077263,951.4611278231964,0.0776739572834146,0.1132844441320381,1846,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA,
+8,Younger,>=35,2018,flag_gs1dnx03,0.1324612051788694,319.044773705631,0.1241781905587144,0.1407442197990245,13458,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA,
+9,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0045943389940321,5357.543562042088,-0.0002299891308433959,0.0094186671189076,845,Universités et collèges,Younger Canadians Donation Rates by Cause,CA,...
+10,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0101507881900908,2840.567078352988,0.0044994290656363,0.0158021473145454,1846,Universités et collèges,Younger Canadians Donation Rates by Cause,CA,*
+11,Younger,>=35,2018,flag_gs1dnx04,0.020657986459807,739.8224620431179,0.0176625259920121,0.0236534469276019,13458,Universités et collèges,Younger Canadians Donation Rates by Cause,CA,
+12,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1570552070871261,1088.1635880784331,0.1235590780942825,0.1905513360799697,845,Santé,Younger Canadians Donation Rates by Cause,CA,
+13,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.2635621451642644,501.0749230750291,0.2376780020039291,0.2894462883245998,1846,Santé,Younger Canadians Donation Rates by Cause,CA,
+14,Younger,>=35,2018,flag_gs1dnx05,0.3887153911228347,151.7672116964758,0.3771527303867167,0.4002780518589528,13458,Santé,Younger Canadians Donation Rates by Cause,CA,
+15,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.0793160026823761,1565.790343554121,0.0549747726728906,0.1036572326918616,845,Hôpitaux,Younger Canadians Donation Rates by Cause,CA,
+16,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.1763200597189881,792.0720257976166,0.1489475580738581,0.2036925613641181,1846,Hôpitaux,Younger Canadians Donation Rates by Cause,CA,
+17,Younger,>=35,2018,flag_gs1dnx06,0.1893601084212225,250.62689357452413,0.1800583671408951,0.19866184970155,13458,Hôpitaux,Younger Canadians Donation Rates by Cause,CA,
+18,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.185030765310478,1061.1911094116358,0.1465462838742883,0.2235152467466677,845,Services sociaux,Younger Canadians Donation Rates by Cause,CA,
+19,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2867513574638269,522.9016130095494,0.2573631190088275,0.3161395959188263,1846,Services sociaux,Younger Canadians Donation Rates by Cause,CA,
+20,Younger,>=35,2018,flag_gs1dnx07,0.3639201108651622,168.651977416576,0.3518906660345581,0.3759495556957663,13458,Services sociaux,Younger Canadians Donation Rates by Cause,CA,
+21,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0464462931051757,2342.215638359068,0.0251243870326715,0.06776819917768,845,Environnement,Younger Canadians Donation Rates by Cause,CA,*
+22,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.0782562043899033,1009.9301780286428,0.0627659617554343,0.0937464470243723,1846,Environnement,Younger Canadians Donation Rates by Cause,CA,
+23,Younger,>=35,2018,flag_gs1dnx08,0.078091803317118,392.8792814538578,0.0720785061062614,0.0841051005279746,13458,Environnement,Younger Canadians Donation Rates by Cause,CA,
+24,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0125746350097769,4895.911280045635,0.0005082544486081642,0.0246410155709457,845,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA,...
+25,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0219865914415941,3011.948416468781,0.0090072240067922,0.0349659588763959,1846,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA,*
+26,Younger,>=35,2018,flag_gs1dnx09,0.0236548683085858,684.1667469749623,0.0204828872325954,0.0268268493845762,13458,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA,
+27,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0176534872984041,3808.456738031569,0.0044761510798318,0.0308308235169763,845,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA,...
+28,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.018094328600948,2147.9937748781226,0.0104766335621487,0.0257120236397472,1846,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA,*
+29,Younger,>=35,2018,flag_gs1dnx10,0.0366179541527332,584.4603715364852,0.0324232895866489,0.0408126187188175,13458,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA,
+30,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0523466279860892,1783.049066813258,0.0340529893306116,0.0706402666415668,845,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA,*
+31,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.115338492298829,874.41062264767,0.0955716277644903,0.1351053568331676,1846,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA,
+32,Younger,>=35,2018,flag_gs1dnx11,0.1212383449017578,337.5661286554805,0.113217004386796,0.1292596854167196,13458,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA,
+33,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0297599794911506,2324.173296742149,0.0162034280701361,0.0433165309121651,845,International,Younger Canadians Donation Rates by Cause,CA,*
+34,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0979006028809363,1062.3338385656064,0.0775163652947154,0.1182848404671571,1846,International,Younger Canadians Donation Rates by Cause,CA,
+35,Younger,>=35,2018,flag_gs1dnx12,0.0913445603813134,409.63615183501474,0.0840107604397748,0.098678360322852,13458,International,Younger Canadians Donation Rates by Cause,CA,
+36,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1339453643880701,1160.451426301488,0.1034802547283766,0.1644104740477635,845,Religion,Younger Canadians Donation Rates by Cause,CA,
+37,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.1777070785351793,732.3704078845651,0.152198655771253,0.2032155012991056,1846,Religion,Younger Canadians Donation Rates by Cause,CA,
+38,Younger,>=35,2018,flag_gs1dnx13,0.2871565360846104,205.24393643923983,0.2756050693327317,0.298708002836489,13458,Religion,Younger Canadians Donation Rates by Cause,CA,
+39,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0022118165739879,10684.38253424237,-0.0024199496115822,0.0068435827595581,845,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA,...
+40,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0038155654806403,3980.9662155665055,0.0008384512815622714,0.0067926796797184,1846,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA,...
+41,Younger,>=35,2018,flag_gs1dnx14,0.0044759348823795,1593.841099217945,0.0030777104968527,0.0058741592679063,13458,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA,
+42,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0168406649283411,3703.5908634901903,0.0046161867384382,0.0290651431182441,845,Autre,Younger Canadians Donation Rates by Cause,CA,...
+43,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0270997338879418,2367.2009065034317,0.0145264640623654,0.0396730037135181,1846,Autre,Younger Canadians Donation Rates by Cause,CA,*
+44,Younger,>=35,2018,flag_gs1dnx15,0.0228159361546075,789.1105625163933,0.0192871589401015,0.0263447133691134,13458,Autre,Younger Canadians Donation Rates by Cause,CA,
+45,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0237406485381513,1642.5645252812228,0.0160976617516041,0.0313836353246985,2691,Arts et culture,Younger Canadians Donation Rates by Cause,CA,
+46,Younger2,>=35,2018,flag_gs1dnx01,0.0336414246269322,616.998491336518,0.0295731845678909,0.0377096646859736,13458,Arts et culture,Younger Canadians Donation Rates by Cause,CA,
+47,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.076271856534986,887.4945546802552,0.063004692286092,0.08953902078388,2691,Sport et loisir,Younger Canadians Donation Rates by Cause,CA,
+48,Younger2,>=35,2018,flag_gs1dnx02,0.131196610896301,291.41491406735537,0.1237031493712515,0.1386900724213505,13458,Sport et loisir,Younger Canadians Donation Rates by Cause,CA,
+49,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0734517064879611,881.4224449597784,0.0607625110462486,0.0861409019296735,2691,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA,
+50,Younger2,>=35,2018,flag_gs1dnx03,0.1324612051788694,319.044773705631,0.1241781905587144,0.1407442197990245,13458,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA,
+51,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0075856482776719,2552.4538214825084,0.0037907626916523,0.0113805338636914,2691,Universités et collèges,Younger Canadians Donation Rates by Cause,CA,*
+52,Younger2,>=35,2018,flag_gs1dnx04,0.020657986459807,739.8224620431179,0.0176625259920121,0.0236534469276019,13458,Universités et collèges,Younger Canadians Donation Rates by Cause,CA,
+53,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2143931186562938,500.81107401416085,0.193348897544862,0.2354373397677255,2691,Santé,Younger Canadians Donation Rates by Cause,CA,
+54,Younger2,>=35,2018,flag_gs1dnx05,0.3887153911228347,151.7672116964758,0.3771527303867167,0.4002780518589528,13458,Santé,Younger Canadians Donation Rates by Cause,CA,
+55,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.1315380470358381,714.8522750434156,0.1131084523432343,0.149967641728442,2691,Hôpitaux,Younger Canadians Donation Rates by Cause,CA,
+56,Younger2,>=35,2018,flag_gs1dnx06,0.1893601084212225,250.62689357452413,0.1800583671408951,0.19866184970155,13458,Hôpitaux,Younger Canadians Donation Rates by Cause,CA,
+57,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2397919519801004,495.1090337553298,0.216522639884182,0.2630612640760189,2691,Services sociaux,Younger Canadians Donation Rates by Cause,CA,
+58,Younger2,>=35,2018,flag_gs1dnx07,0.3639201108651622,168.651977416576,0.3518906660345581,0.3759495556957663,13458,Services sociaux,Younger Canadians Donation Rates by Cause,CA,
+59,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0635711294134526,1045.368236838009,0.0505461418191807,0.0765961170077245,2691,Environnement,Younger Canadians Donation Rates by Cause,CA,
+60,Younger2,>=35,2018,flag_gs1dnx08,0.078091803317118,392.8792814538578,0.0720785061062614,0.0841051005279746,13458,Environnement,Younger Canadians Donation Rates by Cause,CA,
+61,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0176415530465111,2668.729432310653,0.0084139383672208,0.0268691677258015,2691,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA,*
+62,Younger2,>=35,2018,flag_gs1dnx09,0.0236548683085858,684.1667469749623,0.0204828872325954,0.0268268493845762,13458,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA,
+63,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0178908138057438,2113.1260741885794,0.0104810631164449,0.0253005644950428,2691,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA,*
+64,Younger2,>=35,2018,flag_gs1dnx10,0.0366179541527332,584.4603715364852,0.0324232895866489,0.0408126187188175,13458,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA,
+65,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0862582398561534,814.8428867473873,0.0724822580163573,0.1000342216959496,2691,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA,
+66,Younger2,>=35,2018,flag_gs1dnx11,0.1212383449017578,337.5661286554805,0.113217004386796,0.1292596854167196,13458,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA,
+67,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0664434210464959,990.6505351590706,0.0535425048271828,0.079344337265809,2691,International,Younger Canadians Donation Rates by Cause,CA,
+68,Younger2,>=35,2018,flag_gs1dnx12,0.0913445603813134,409.63615183501474,0.0840107604397748,0.098678360322852,13458,International,Younger Canadians Donation Rates by Cause,CA,
+69,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1575044427090038,621.6819955124836,0.1383129308199171,0.1766959545980905,2691,Religion,Younger Canadians Donation Rates by Cause,CA,
+70,Younger2,>=35,2018,flag_gs1dnx13,0.2871565360846104,205.24393643923983,0.2756050693327317,0.298708002836489,13458,Religion,Younger Canadians Donation Rates by Cause,CA,
+71,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0030751933140289,4550.367170792123,0.0003325650061944052,0.0058178216218634,2691,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA,...
+72,Younger2,>=35,2018,flag_gs1dnx14,0.0044759348823795,1593.841099217945,0.0030777104968527,0.0058741592679063,13458,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA,
+73,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0223636252106238,2015.52423255394,0.0135291995544571,0.0311980508667905,2691,Autre,Younger Canadians Donation Rates by Cause,CA,*
+74,Younger2,>=35,2018,flag_gs1dnx15,0.0228159361546075,789.1105625163933,0.0192871589401015,0.0263447133691134,13458,Autre,Younger Canadians Donation Rates by Cause,CA,
+75,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0198460062735763,3744.320220619539,0.0052815525963641,0.0344104599507884,757,Arts et culture,Younger Canadians Donation Rates by Cause,CA (without QC),...
+76,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.032669370016401,1809.80699032208,0.0210810331306037,0.0442577069021983,1624,Arts et culture,Younger Canadians Donation Rates by Cause,CA (without QC),*
+77,Younger,>=35,2018,flag_gs1dnx01,0.0376797042120972,638.2333088387718,0.032966296133779,0.0423931122904154,11755,Arts et culture,Younger Canadians Donation Rates by Cause,CA (without QC),
+78,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0383435455670879,2099.988587638306,0.0225617179795092,0.0541253731546665,757,Sport et loisir,Younger Canadians Donation Rates by Cause,CA (without QC),*
+79,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0979912991186206,936.4990287454,0.0800049533638005,0.1159776448734407,1624,Sport et loisir,Younger Canadians Donation Rates by Cause,CA (without QC),
+80,Younger,>=35,2018,flag_gs1dnx02,0.1312390102508804,305.5258278682031,0.1233801608396574,0.1390978596621035,11755,Sport et loisir,Younger Canadians Donation Rates by Cause,CA (without QC),
+81,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.055581668669346,1877.7357791567124,0.0351259777209441,0.0760373596177479,757,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA (without QC),*
+82,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0908872689411047,987.7925749535484,0.0732911494739759,0.1084833884082334,1624,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA (without QC),
+83,Younger,>=35,2018,flag_gs1dnx03,0.1413503991227923,326.9802860434848,0.1322916819701483,0.1504091162754363,11755,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA (without QC),
+84,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0057805284364115,5357.934051195657,-0.0002898112857192964,0.0118508681585424,757,Universités et collèges,Younger Canadians Donation Rates by Cause,CA (without QC),...
+85,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0081606955776423,2975.898329761036,0.0034008445761466,0.0129205465791381,1624,Universités et collèges,Younger Canadians Donation Rates by Cause,CA (without QC),*
+86,Younger,>=35,2018,flag_gs1dnx04,0.0195432440643256,880.6740719369237,0.0161699052988747,0.0229165828297766,11755,Universités et collèges,Younger Canadians Donation Rates by Cause,CA (without QC),
+87,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1428207450593761,1203.7414730866417,0.1091251904416363,0.1765162996771159,757,Santé,Younger Canadians Donation Rates by Cause,CA (without QC),
+88,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.2691246900437802,543.2241192388793,0.2404709921198428,0.2977783879677176,1624,Santé,Younger Canadians Donation Rates by Cause,CA (without QC),
+89,Younger,>=35,2018,flag_gs1dnx05,0.3954642451339081,168.72653958274103,0.3823863239806057,0.4085421662872106,11755,Santé,Younger Canadians Donation Rates by Cause,CA (without QC),
+90,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.061558800962439,1726.7329678763808,0.0407252440183537,0.0823923579065243,757,Hôpitaux,Younger Canadians Donation Rates by Cause,CA (without QC),*
+91,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.1450605197967772,987.0361356547094,0.1169977603863725,0.1731232792071819,1624,Hôpitaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+92,Younger,>=35,2018,flag_gs1dnx06,0.1734088836030091,294.7574950819766,0.1633908083323419,0.1834269588736763,11755,Hôpitaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+93,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.1743276031311995,1137.341806744891,0.135467383272274,0.2131878229901251,757,Services sociaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+94,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2922618279733313,575.2321930439796,0.2593112246588898,0.3252124312877728,1624,Services sociaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+95,Younger,>=35,2018,flag_gs1dnx07,0.3648702733001046,177.69722648023364,0.3521625654357688,0.3775779811644403,11755,Services sociaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+96,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0478662105875643,2408.09906712388,0.0252743766211601,0.0704580445539684,757,Environnement,Younger Canadians Donation Rates by Cause,CA (without QC),*
+97,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.0878751399102057,1078.9499696750277,0.0692921569930564,0.1064581228273549,1624,Environnement,Younger Canadians Donation Rates by Cause,CA (without QC),
+98,Younger,>=35,2018,flag_gs1dnx08,0.0845722983332501,405.0347697373124,0.0778584963124183,0.091286100354082,11755,Environnement,Younger Canadians Donation Rates by Cause,CA (without QC),
+99,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0103067111721229,4506.785896761937,0.0012026509161462,0.0194107714280997,757,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA (without QC),...
+100,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0213967291300376,3547.103999191873,0.0065213034750083,0.0362721547850668,1624,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA (without QC),...
+101,Younger,>=35,2018,flag_gs1dnx09,0.0251076410104014,710.1964197463234,0.0216127593070957,0.0286025227137071,11755,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA (without QC),
+102,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0129616342562757,4228.040824164855,0.0022205771477956,0.0237026913647558,757,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA (without QC),...
+103,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0183587672138107,2212.404115609531,0.0103979791181431,0.0263195553094784,1624,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA (without QC),*
+104,Younger,>=35,2018,flag_gs1dnx10,0.0413033867059225,597.3011806335467,0.0364680454759371,0.0461387279359079,11755,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA (without QC),
+105,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0604607714671908,1886.3558005522384,0.0381072789406616,0.08281426399372,757,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA (without QC),*
+106,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.1189076990093039,956.7311832208468,0.0966106188317343,0.1412047791868735,1624,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA (without QC),
+107,Younger,>=35,2018,flag_gs1dnx11,0.1205177250689368,366.6680715226863,0.1118566438615366,0.1291788062763371,11755,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA (without QC),
+108,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0364242317293876,2356.1131633090326,0.0196038968918253,0.05324456656695,757,International,Younger Canadians Donation Rates by Cause,CA (without QC),*
+109,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.1075871958493854,1101.9404708884222,0.0843509045193933,0.1308234871793776,1624,International,Younger Canadians Donation Rates by Cause,CA (without QC),
+110,Younger,>=35,2018,flag_gs1dnx12,0.0982480486280739,415.3670789679569,0.0902496306288851,0.1062464666272627,11755,International,Younger Canadians Donation Rates by Cause,CA (without QC),
+111,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1277297352385767,1263.5569245290249,0.0960971333856631,0.1593623370914903,757,Religion,Younger Canadians Donation Rates by Cause,CA (without QC),
+112,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.1846397655407495,799.8406063039192,0.1556945505501273,0.2135849805313717,1624,Religion,Younger Canadians Donation Rates by Cause,CA (without QC),
+113,Younger,>=35,2018,flag_gs1dnx13,0.2875323186622551,219.70648455017917,0.2751506940558357,0.2999139432686745,11755,Religion,Younger Canadians Donation Rates by Cause,CA (without QC),
+114,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.002782874450203,10684.0799800433,-0.0030445792942753,0.0086103281946815,757,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA (without QC),...
+115,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0048570060521177,3980.876441362423,0.0010673880587049,0.0086466240455304,1624,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA (without QC),...
+116,Younger,>=35,2018,flag_gs1dnx14,0.0051967004559905,1663.3114902905056,0.0035025601970981,0.0068908407148829,11755,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA (without QC),*
+117,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.010022704219184,4299.203546650281,0.0015772888854003,0.0184681195529677,757,Autre,Younger Canadians Donation Rates by Cause,CA (without QC),...
+118,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0322130862805672,2468.557438374875,0.0166274813398004,0.047798691221334,1624,Autre,Younger Canadians Donation Rates by Cause,CA (without QC),*
+119,Younger,>=35,2018,flag_gs1dnx15,0.0248126549793232,818.6803964007547,0.0208312558338225,0.0287940541248238,11755,Autre,Younger Canadians Donation Rates by Cause,CA (without QC),
+120,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.026712265916781,1786.7020171938696,0.0173579733653833,0.0360665584681787,2381,Arts et culture,Younger Canadians Donation Rates by Cause,CA (without QC),*
+121,Younger2,>=35,2018,flag_gs1dnx01,0.0376797042120972,638.2333088387718,0.032966296133779,0.0423931122904154,11755,Arts et culture,Younger Canadians Donation Rates by Cause,CA (without QC),
+122,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.0702818864917049,880.6320957118304,0.0581511823419492,0.0824125906414607,2381,Sport et loisir,Younger Canadians Donation Rates by Cause,CA (without QC),
+123,Younger2,>=35,2018,flag_gs1dnx02,0.1312390102508804,305.5258278682031,0.1233801608396574,0.1390978596621035,11755,Sport et loisir,Younger Canadians Donation Rates by Cause,CA (without QC),
+124,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0744860235006388,939.8894305746588,0.0607645849020241,0.0882074620992536,2381,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA (without QC),
+125,Younger2,>=35,2018,flag_gs1dnx03,0.1413503991227923,326.9802860434848,0.1322916819701483,0.1504091162754363,11755,Éducation et recherche,Younger Canadians Donation Rates by Cause,CA (without QC),
+126,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0070549869882918,2721.524321168669,0.0032917936789863,0.0108181802975973,2381,Universités et collèges,Younger Canadians Donation Rates by Cause,CA (without QC),*
+127,Younger2,>=35,2018,flag_gs1dnx04,0.0195432440643256,880.6740719369237,0.0161699052988747,0.0229165828297766,11755,Universités et collèges,Younger Canadians Donation Rates by Cause,CA (without QC),
+128,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2104500892483547,549.0999197892888,0.1878011125195842,0.2330990659771251,2381,Santé,Younger Canadians Donation Rates by Cause,CA (without QC),
+129,Younger2,>=35,2018,flag_gs1dnx05,0.3954642451339081,168.72653958274103,0.3823863239806057,0.4085421662872106,11755,Santé,Younger Canadians Donation Rates by Cause,CA (without QC),
+130,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.1062697281161085,841.3121425797688,0.0887464716360396,0.1237929845961774,2381,Hôpitaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+131,Younger2,>=35,2018,flag_gs1dnx06,0.1734088836030091,294.7574950819766,0.1633908083323419,0.1834269588736763,11755,Hôpitaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+132,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2374753875055812,535.634920061354,0.2125446240228227,0.2624061509883396,2381,Services sociaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+133,Younger2,>=35,2018,flag_gs1dnx07,0.3648702733001046,177.69722648023364,0.3521625654357688,0.3775779811644403,11755,Services sociaux,Younger Canadians Donation Rates by Cause,CA (without QC),
+134,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0692889591179252,1110.9958066453046,0.0542012067307511,0.0843767115050993,2381,Environnement,Younger Canadians Donation Rates by Cause,CA (without QC),
+135,Younger2,>=35,2018,flag_gs1dnx08,0.0845722983332501,405.0347697373124,0.0778584963124183,0.091286100354082,11755,Environnement,Younger Canadians Donation Rates by Cause,CA (without QC),
+136,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0162448522304277,2913.729016526727,0.0069677356294095,0.025521968831446,2381,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA (without QC),*
+137,Younger2,>=35,2018,flag_gs1dnx09,0.0251076410104014,710.1964197463234,0.0216127593070957,0.0286025227137071,11755,Aménagement et logement,Younger Canadians Donation Rates by Cause,CA (without QC),
+138,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0158515246905285,2089.798989275911,0.0093588499429001,0.0223441994381568,2381,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA (without QC),*
+139,Younger2,>=35,2018,flag_gs1dnx10,0.0413033867059225,597.3011806335467,0.0364680454759371,0.0461387279359079,11755,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,CA (without QC),
+140,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0917561310857834,890.5113588690111,0.0757412894800218,0.107770972691545,2381,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA (without QC),
+141,Younger2,>=35,2018,flag_gs1dnx11,0.1205177250689368,366.6680715226863,0.1118566438615366,0.1291788062763371,11755,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,CA (without QC),
+142,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0745283827483723,1029.2175232488885,0.0594942991774733,0.0895624663192712,2381,International,Younger Canadians Donation Rates by Cause,CA (without QC),
+143,Younger2,>=35,2018,flag_gs1dnx12,0.0982480486280739,415.3670789679569,0.0902496306288851,0.1062464666272627,11755,International,Younger Canadians Donation Rates by Cause,CA (without QC),
+144,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1582021644852332,690.9370381339376,0.1367782421107304,0.1796260868597359,2381,Religion,Younger Canadians Donation Rates by Cause,CA (without QC),
+145,Younger2,>=35,2018,flag_gs1dnx13,0.2875323186622551,219.70648455017917,0.2751506940558357,0.2999139432686745,11755,Religion,Younger Canadians Donation Rates by Cause,CA (without QC),
+146,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0038934665224969,4550.354551951521,0.0004210663195890994,0.0073658667254048,2381,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA (without QC),...
+147,Younger2,>=35,2018,flag_gs1dnx14,0.0051967004559905,1663.3114902905056,0.0035025601970981,0.0068908407148829,11755,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,CA (without QC),*
+148,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0219045261709807,2183.972812021558,0.0125282760998852,0.0312807762420762,2381,Autre,Younger Canadians Donation Rates by Cause,CA (without QC),*
+149,Younger2,>=35,2018,flag_gs1dnx15,0.0248126549793232,818.6803964007547,0.0208312558338225,0.0287940541248238,11755,Autre,Younger Canadians Donation Rates by Cause,CA (without QC),
+150,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0231580965366707,7052.451358897924,-0.0088522997343259,0.0551684928076673,74,Arts et culture,Younger Canadians Donation Rates by Cause,AB,...
+151,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0359546152861141,5587.131721485008,-0.003417762857276,0.0753269934295042,205,Arts et culture,Younger Canadians Donation Rates by Cause,AB,...
+152,Younger,>=35,2018,flag_gs1dnx01,0.0379431264563491,1653.5262819260208,0.0256463208816422,0.0502399320310561,1133,Arts et culture,Younger Canadians Donation Rates by Cause,AB,*
+153,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0362796354261988,6172.064631439815,-0.0076079280271971,0.0801671988795948,194,Arts et culture,Younger Canadians Donation Rates by Cause,AT,...
+154,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.050407165012959,3318.8374289160647,0.0176183030846736,0.0831960269412444,363,Arts et culture,Younger Canadians Donation Rates by Cause,AT,*
+155,Younger,>=35,2018,flag_gs1dnx01,0.0385579097908103,941.342164908698,0.0314439880029348,0.0456718315786858,3491,Arts et culture,Younger Canadians Donation Rates by Cause,AT,
+156,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0258356980299277,7300.235878248182,-0.0111305338751466,0.0628019299350021,125,Arts et culture,Younger Canadians Donation Rates by Cause,BC,...
+157,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0119279606015501,5177.761319082516,-0.00017680303806647847,0.0240327242411668,245,Arts et culture,Younger Canadians Donation Rates by Cause,BC,...
+158,Younger,>=35,2018,flag_gs1dnx01,0.0471872979235081,1674.879873065427,0.0316971036756333,0.0626774921713829,1807,Arts et culture,Younger Canadians Donation Rates by Cause,BC,*
+159,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.016745869183973,6924.150361561962,-0.005980092781785,0.0394718311497311,226,Arts et culture,Younger Canadians Donation Rates by Cause,ON,...
+160,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0384655845683896,2330.902351959603,0.020892641259448,0.0560385278773312,509,Arts et culture,Younger Canadians Donation Rates by Cause,ON,*
+161,Younger,>=35,2018,flag_gs1dnx01,0.0345679536851192,897.6507095418857,0.0284861956029444,0.0406497117672939,3611,Arts et culture,Younger Canadians Donation Rates by Cause,ON,
+162,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0074115437726279,8071.795432120818,-0.004313835939906,0.019136923485162,138,Arts et culture,Younger Canadians Donation Rates by Cause,PR,...
+163,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0179063758755228,4906.188747968259,0.0006876885506305018,0.0351250632004151,302,Arts et culture,Younger Canadians Donation Rates by Cause,PR,...
+164,Younger,>=35,2018,flag_gs1dnx01,0.0348457239694514,1356.781619145076,0.0255793988371183,0.0441120491017846,1713,Arts et culture,Younger Canadians Donation Rates by Cause,PR,
+165,Younger,15 à 24 ans,2018,flag_gs1dnx01,0.0045946644763421,11301.033035679286,-0.0055823417022056,0.0147716706548899,88,Arts et culture,Younger Canadians Donation Rates by Cause,QC,...
+166,Younger,25 à 34 ans,2018,flag_gs1dnx01,0.0191203630370461,4139.051117640506,0.0036091767043295,0.0346315493697628,222,Arts et culture,Younger Canadians Donation Rates by Cause,QC,...
+167,Younger,>=35,2018,flag_gs1dnx01,0.0206804748793915,2130.336262788352,0.0120455858992372,0.0293153638595459,1703,Arts et culture,Younger Canadians Donation Rates by Cause,QC,*
+168,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0591217126498441,4736.329259206314,0.0042388212487267,0.1140046040509616,74,Sport et loisir,Younger Canadians Donation Rates by Cause,AB,...
+169,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0925804264122563,2247.538466258996,0.0517978741764899,0.1333629786480228,205,Sport et loisir,Younger Canadians Donation Rates by Cause,AB,*
+170,Younger,>=35,2018,flag_gs1dnx02,0.1357108129483522,921.810983653118,0.1111917187773885,0.1602299071193158,1133,Sport et loisir,Younger Canadians Donation Rates by Cause,AB,
+171,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0925772295836785,3686.268222880907,0.0256906167464438,0.1594638424209131,194,Sport et loisir,Younger Canadians Donation Rates by Cause,AT,...
+172,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.1443533016281044,1553.7692985992446,0.1003929306937275,0.1883136725624812,363,Sport et loisir,Younger Canadians Donation Rates by Cause,AT,
+173,Younger,>=35,2018,flag_gs1dnx02,0.2160151581121102,407.9186568589528,0.1987446192891252,0.2332856969350952,3491,Sport et loisir,Younger Canadians Donation Rates by Cause,AT,
+174,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0226965090549558,6250.78386397543,-0.005109690613792,0.0505027087237037,125,Sport et loisir,Younger Canadians Donation Rates by Cause,BC,...
+175,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0826719445658058,2560.452070109874,0.0411839068179528,0.1241599823136588,245,Sport et loisir,Younger Canadians Donation Rates by Cause,BC,*
+176,Younger,>=35,2018,flag_gs1dnx02,0.121599226937821,779.6250108987824,0.1030184158400294,0.1401800380356126,1807,Sport et loisir,Younger Canadians Donation Rates by Cause,BC,
+177,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0267650087073982,3877.241912773574,0.0064255973987312,0.0471044200160653,226,Sport et loisir,Younger Canadians Donation Rates by Cause,ON,...
+178,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0859048925897185,1731.4213545936595,0.0567528654380948,0.1150569197413423,509,Sport et loisir,Younger Canadians Donation Rates by Cause,ON,*
+179,Younger,>=35,2018,flag_gs1dnx02,0.1126275500366534,536.7956372989061,0.1007780041889695,0.1244770958843373,3611,Sport et loisir,Younger Canadians Donation Rates by Cause,ON,
+180,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.0539242749875231,3534.002648056481,0.0165735293311664,0.0912750206438797,138,Sport et loisir,Younger Canadians Donation Rates by Cause,PR,...
+181,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.1677297078254997,1419.6609189723897,0.1210591804376492,0.2144002352133502,302,Sport et loisir,Younger Canadians Donation Rates by Cause,PR,
+182,Younger,>=35,2018,flag_gs1dnx02,0.1646718686069377,647.8093139981926,0.1437637626388871,0.1855799745749883,1713,Sport et loisir,Younger Canadians Donation Rates by Cause,PR,
+183,Younger,15 à 24 ans,2018,flag_gs1dnx02,0.1076830756037959,3277.2059123790177,0.0385160226297244,0.1768501285778674,88,Sport et loisir,Younger Canadians Donation Rates by Cause,QC,*
+184,Younger,25 à 34 ans,2018,flag_gs1dnx02,0.0914790556919664,3022.7573661009524,0.0372823296582025,0.1456757817257303,222,Sport et loisir,Younger Canadians Donation Rates by Cause,QC,*
+185,Younger,>=35,2018,flag_gs1dnx02,0.1310605292079379,769.5636943600864,0.1112924451495546,0.1508286132663211,1703,Sport et loisir,Younger Canadians Donation Rates by Cause,QC,
+186,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0450766432074366,5509.3726689320965,-0.0035978914846048,0.0937511778994781,74,Éducation et recherche,Younger Canadians Donation Rates by Cause,AB,...
+187,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0909466320874021,2546.789690675227,0.045549565064132,0.1363436991106722,205,Éducation et recherche,Younger Canadians Donation Rates by Cause,AB,*
+188,Younger,>=35,2018,flag_gs1dnx03,0.145615461237218,857.4816095345041,0.1211428452408825,0.1700880772335534,1133,Éducation et recherche,Younger Canadians Donation Rates by Cause,AB,
+189,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0929645982989002,2954.616033884308,0.0391293477798008,0.1467998488179995,194,Éducation et recherche,Younger Canadians Donation Rates by Cause,AT,*
+190,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0960909625346949,2029.3901309540115,0.0578704788537677,0.134311446215622,363,Éducation et recherche,Younger Canadians Donation Rates by Cause,AT,*
+191,Younger,>=35,2018,flag_gs1dnx03,0.1683500314245626,471.2978355227032,0.1527990881196132,0.183900974729512,3491,Éducation et recherche,Younger Canadians Donation Rates by Cause,AT,
+192,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.1038292186773652,3227.68025639511,0.0381454318988145,0.1695130054559158,125,Éducation et recherche,Younger Canadians Donation Rates by Cause,BC,*
+193,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0802464718899194,2554.445634140689,0.0400701011979426,0.1204228425818962,245,Éducation et recherche,Younger Canadians Donation Rates by Cause,BC,*
+194,Younger,>=35,2018,flag_gs1dnx03,0.119494342845141,847.1308441856088,0.0996541480882321,0.1393345376020499,1807,Éducation et recherche,Younger Canadians Donation Rates by Cause,BC,
+195,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0336333724112466,4278.296255866439,0.0054307585236149,0.0618359862988782,226,Éducation et recherche,Younger Canadians Donation Rates by Cause,ON,...
+196,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.0842813044381997,1590.9318983106,0.0580009674846881,0.1105616413917112,509,Éducation et recherche,Younger Canadians Donation Rates by Cause,ON,
+197,Younger,>=35,2018,flag_gs1dnx03,0.1417402710873589,504.4265649551158,0.1277270072092637,0.1557535349654541,3611,Éducation et recherche,Younger Canadians Donation Rates by Cause,ON,
+198,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0760349320023663,3412.962253695096,0.0251730134535045,0.1268968505512281,138,Éducation et recherche,Younger Canadians Donation Rates by Cause,PR,...
+199,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.1428009054414809,1772.3367412278042,0.093195923848079,0.1924058870348828,302,Éducation et recherche,Younger Canadians Donation Rates by Cause,PR,*
+200,Younger,>=35,2018,flag_gs1dnx03,0.1487639179229449,693.5393872980424,0.1285422567558284,0.1689855790900614,1713,Éducation et recherche,Younger Canadians Donation Rates by Cause,PR,
+201,Younger,15 à 24 ans,2018,flag_gs1dnx03,0.0174875460851258,6487.452420917902,-0.0047481714652673,0.039723263635519,88,Éducation et recherche,Younger Canadians Donation Rates by Cause,QC,...
+202,Younger,25 à 34 ans,2018,flag_gs1dnx03,0.1123028359856601,2375.1784479742305,0.0600228986262432,0.1645827733450771,222,Éducation et recherche,Younger Canadians Donation Rates by Cause,QC,*
+203,Younger,>=35,2018,flag_gs1dnx03,0.103931135981439,915.8380306447784,0.0852753977589225,0.1225868742039556,1703,Éducation et recherche,Younger Canadians Donation Rates by Cause,QC,
+204,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0217158921493569,8118.534936941273,-0.0128385137975325,0.0562702980962464,74,Universités et collèges,Younger Canadians Donation Rates by Cause,AB,...
+205,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0068022684104651,8151.3880362381215,-0.0040653260419748,0.0176698628629052,205,Universités et collèges,Younger Canadians Donation Rates by Cause,AB,...
+206,Younger,>=35,2018,flag_gs1dnx04,0.0113557463913316,2971.23874494387,0.0047427037132621,0.0179687890694011,1133,Universités et collèges,Younger Canadians Donation Rates by Cause,AB,*
+207,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0,,0.0,0.0,194,Universités et collèges,Younger Canadians Donation Rates by Cause,AT,
+208,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0182038726665232,4340.669869446853,0.0027168249380872,0.0336909203949592,363,Universités et collèges,Younger Canadians Donation Rates by Cause,AT,...
+209,Younger,>=35,2018,flag_gs1dnx04,0.0200946134904014,1280.0127670111556,0.0150533192111588,0.025135907769644,3491,Universités et collèges,Younger Canadians Donation Rates by Cause,AT,
+210,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0084708852027325,10188.619664250338,-0.0084449029598116,0.0253866733652768,125,Universités et collèges,Younger Canadians Donation Rates by Cause,BC,...
+211,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0123373442680383,6207.04794892307,-0.0026717634680976,0.0273464520041744,245,Universités et collèges,Younger Canadians Donation Rates by Cause,BC,...
+212,Younger,>=35,2018,flag_gs1dnx04,0.0202342168705562,1757.4867242477503,0.0132643169114487,0.0272041168296638,1807,Universités et collèges,Younger Canadians Donation Rates by Cause,BC,*
+213,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0022582258406067,10320.167799335291,-0.0023095230667487,0.0068259747479623,226,Universités et collèges,Younger Canadians Donation Rates by Cause,ON,...
+214,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0062157830499969,5295.760260278143,-0.00023588858193050727,0.0126674546819244,509,Universités et collèges,Younger Canadians Donation Rates by Cause,ON,...
+215,Younger,>=35,2018,flag_gs1dnx04,0.0219385303645887,1289.1933978290815,0.016395162560341,0.0274818981688364,3611,Universités et collèges,Younger Canadians Donation Rates by Cause,ON,
+216,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0,,0.0,0.0,138,Universités et collèges,Younger Canadians Donation Rates by Cause,PR,
+217,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0063378752381153,7313.357333271155,-0.0027467825107047,0.0154225329869353,302,Universités et collèges,Younger Canadians Donation Rates by Cause,PR,...
+218,Younger,>=35,2018,flag_gs1dnx04,0.0169581194963783,2230.01305613811,0.0095461574300664,0.0243700815626902,1713,Universités et collèges,Younger Canadians Donation Rates by Cause,PR,*
+219,Younger,15 à 24 ans,2018,flag_gs1dnx04,0.0,,0.0,0.0,88,Universités et collèges,Younger Canadians Donation Rates by Cause,QC,
+220,Younger,25 à 34 ans,2018,flag_gs1dnx04,0.0174419662786921,5767.246080921743,-0.0022737253204048,0.0371576578777891,222,Universités et collèges,Younger Canadians Donation Rates by Cause,QC,...
+221,Younger,>=35,2018,flag_gs1dnx04,0.0242357774137479,1507.5661342750282,0.0170746496992765,0.0313969051282193,1703,Universités et collèges,Younger Canadians Donation Rates by Cause,QC,
+222,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1827250329594667,3278.6979350105144,0.0653035537515194,0.300146512167414,74,Santé,Younger Canadians Donation Rates by Cause,AB,*
+223,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.264538762423843,1476.1032327710177,0.1880048103872262,0.3410727144604597,205,Santé,Younger Canadians Donation Rates by Cause,AB,
+224,Younger,>=35,2018,flag_gs1dnx05,0.3843259827052459,468.20300395786126,0.3490578851747987,0.4195940802356931,1133,Santé,Younger Canadians Donation Rates by Cause,AB,
+225,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1797339733714907,1968.279549308228,0.110396973474356,0.2490709732686254,194,Santé,Younger Canadians Donation Rates by Cause,AT,*
+226,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.2945742867669982,1005.184615358032,0.2365394511272203,0.352609122406776,363,Santé,Younger Canadians Donation Rates by Cause,AT,
+227,Younger,>=35,2018,flag_gs1dnx05,0.4403832155788428,246.59635050177735,0.4190986155138906,0.4616678156437951,3491,Santé,Younger Canadians Donation Rates by Cause,AT,
+228,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1190220950525496,2922.2084266136435,0.0508531033500957,0.1871910867550035,125,Santé,Younger Canadians Donation Rates by Cause,BC,*
+229,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.26136105061302,1463.0015132129392,0.1864175916837823,0.3363045095422576,245,Santé,Younger Canadians Donation Rates by Cause,BC,
+230,Younger,>=35,2018,flag_gs1dnx05,0.3282255334610925,432.410931922401,0.3004080960967156,0.3560429708254695,1807,Santé,Younger Canadians Donation Rates by Cause,BC,
+231,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1360838255945536,1877.344608133332,0.0860114034020869,0.1861562477870202,226,Santé,Younger Canadians Donation Rates by Cause,ON,*
+232,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.2674020803956946,806.2448425817564,0.225146913408498,0.3096572473828912,509,Santé,Younger Canadians Donation Rates by Cause,ON,
+233,Younger,>=35,2018,flag_gs1dnx05,0.405080937784128,254.5204379602567,0.384873439080425,0.425288436487831,3611,Santé,Younger Canadians Donation Rates by Cause,ON,
+234,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.1300952629010309,2658.3398876082697,0.0623123728449251,0.1978781529571367,138,Santé,Younger Canadians Donation Rates by Cause,PR,*
+235,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.281959755469088,1130.225079603304,0.2195000177368002,0.3444194932013758,302,Santé,Younger Canadians Donation Rates by Cause,PR,
+236,Younger,>=35,2018,flag_gs1dnx05,0.4511544152991829,341.39218591573746,0.4209669339746224,0.4813418966237434,1713,Santé,Younger Canadians Donation Rates by Cause,PR,
+237,Younger,15 à 24 ans,2018,flag_gs1dnx05,0.2121880059611225,2453.0976905438843,0.110168370782976,0.314207641139269,88,Santé,Younger Canadians Donation Rates by Cause,QC,*
+238,Younger,25 à 34 ans,2018,flag_gs1dnx05,0.2431824376628698,1251.4391067095612,0.1835352432531745,0.3028296320725651,222,Santé,Younger Canadians Donation Rates by Cause,QC,
+239,Younger,>=35,2018,flag_gs1dnx05,0.3670547913931021,379.5444609212065,0.3397498250036299,0.3943597577825742,1703,Santé,Younger Canadians Donation Rates by Cause,QC,
+240,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.0281343648309797,6398.870956870811,-0.0071505081106505,0.0634192377726099,74,Hôpitaux,Younger Canadians Donation Rates by Cause,AB,...
+241,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.091327611814464,2323.468365325895,0.0497377999324527,0.1329174236964754,205,Hôpitaux,Younger Canadians Donation Rates by Cause,AB,*
+242,Younger,>=35,2018,flag_gs1dnx06,0.1239144460114781,1009.1644241543914,0.0994050864764843,0.1484238055464718,1133,Hôpitaux,Younger Canadians Donation Rates by Cause,AB,
+243,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.1259247892331514,2473.623145845463,0.0648737783169822,0.1869758001493207,194,Hôpitaux,Younger Canadians Donation Rates by Cause,AT,*
+244,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.2041983483466912,1369.9614682972956,0.1493695575086191,0.2590271391847634,363,Hôpitaux,Younger Canadians Donation Rates by Cause,AT,
+245,Younger,>=35,2018,flag_gs1dnx06,0.2453952450403115,380.0532872311173,0.2271159801007691,0.263674509979854,3491,Hôpitaux,Younger Canadians Donation Rates by Cause,AT,
+246,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.0562391073563741,4540.739440917193,0.0061880690254161,0.1062901456873321,125,Hôpitaux,Younger Canadians Donation Rates by Cause,BC,...
+247,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.0909221590269175,2693.597421455941,0.0429211332240487,0.1389231848297863,245,Hôpitaux,Younger Canadians Donation Rates by Cause,BC,*
+248,Younger,>=35,2018,flag_gs1dnx06,0.1326283555417001,749.0357593192151,0.1131574106553705,0.1520993004280296,1807,Hôpitaux,Younger Canadians Donation Rates by Cause,BC,
+249,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.0693237224349584,2608.468344483936,0.0338819415412639,0.1047655033286528,226,Hôpitaux,Younger Canadians Donation Rates by Cause,ON,*
+250,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.1797470320551988,1433.6194284174858,0.129240948011875,0.2302531160985227,509,Hôpitaux,Younger Canadians Donation Rates by Cause,ON,
+251,Younger,>=35,2018,flag_gs1dnx06,0.197491674381071,427.22346857019886,0.1809548549386004,0.2140284938235416,3611,Hôpitaux,Younger Canadians Donation Rates by Cause,ON,
+252,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.0278667797520457,5178.37314301594,-0.00041639896302375634,0.0561499584671152,138,Hôpitaux,Younger Canadians Donation Rates by Cause,PR,...
+253,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.1068923130310462,2174.8775577022875,0.0613275225405356,0.1524571035215569,302,Hôpitaux,Younger Canadians Donation Rates by Cause,PR,*
+254,Younger,>=35,2018,flag_gs1dnx06,0.1195164744102172,783.8031047821353,0.1011560445854161,0.1378769042350184,1713,Hôpitaux,Younger Canadians Donation Rates by Cause,PR,
+255,Younger,15 à 24 ans,2018,flag_gs1dnx06,0.1480930473702409,3109.0985891717182,0.0578492722608455,0.2383368224796362,88,Hôpitaux,Younger Canadians Donation Rates by Cause,QC,*
+256,Younger,25 à 34 ans,2018,flag_gs1dnx06,0.2908468265211428,1321.8607023521731,0.2154942490529806,0.366199403989305,222,Hôpitaux,Younger Canadians Donation Rates by Cause,QC,
+257,Younger,>=35,2018,flag_gs1dnx06,0.2405559255806087,503.84639859700553,0.2168005276937086,0.2643113234675087,1703,Hôpitaux,Younger Canadians Donation Rates by Cause,QC,
+258,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.2883172364470561,2136.573146205996,0.167581325502223,0.4090531473918891,74,Services sociaux,Younger Canadians Donation Rates by Cause,AB,*
+259,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2549291028042485,1349.4865700719877,0.1875017553116013,0.3223564502968957,205,Services sociaux,Younger Canadians Donation Rates by Cause,AB,
+260,Younger,>=35,2018,flag_gs1dnx07,0.3372835944502215,506.8118433544666,0.3037801033296844,0.3707870855707587,1133,Services sociaux,Younger Canadians Donation Rates by Cause,AB,
+261,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.2342214535261126,1829.530236381079,0.1502340115213382,0.3182088955308871,194,Services sociaux,Younger Canadians Donation Rates by Cause,AT,*
+262,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.3298930162471577,940.108929366594,0.2691076006332706,0.3906784318610448,363,Services sociaux,Younger Canadians Donation Rates by Cause,AT,
+263,Younger,>=35,2018,flag_gs1dnx07,0.4271836854216264,234.8870370778736,0.4075174244097163,0.4468499464335366,3491,Services sociaux,Younger Canadians Donation Rates by Cause,AT,
+264,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.1359278819705126,2743.843103499285,0.0628281280427886,0.2090276358982365,125,Services sociaux,Younger Canadians Donation Rates by Cause,BC,*
+265,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.3352006898654422,1237.0911636179765,0.253926116283894,0.4164752634469904,245,Services sociaux,Younger Canadians Donation Rates by Cause,BC,
+266,Younger,>=35,2018,flag_gs1dnx07,0.3753087687450837,385.0138444803104,0.346987471068481,0.4036300664216864,1807,Services sociaux,Younger Canadians Donation Rates by Cause,BC,
+267,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.1601100168673051,1775.2972266299794,0.1043994382766307,0.2158205954579795,226,Services sociaux,Younger Canadians Donation Rates by Cause,ON,*
+268,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2853539624941574,944.7057451405336,0.2325181299405177,0.3381897950477971,509,Services sociaux,Younger Canadians Donation Rates by Cause,ON,
+269,Younger,>=35,2018,flag_gs1dnx07,0.357174801103703,273.71121196432205,0.3380136546528662,0.3763359475545398,3611,Services sociaux,Younger Canadians Donation Rates by Cause,ON,
+270,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.0933691680706311,2825.399048229845,0.0416643070912918,0.1450740290499705,138,Services sociaux,Younger Canadians Donation Rates by Cause,PR,*
+271,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2957309115127939,1054.8469268480617,0.2345896697541873,0.3568721532714005,302,Services sociaux,Younger Canadians Donation Rates by Cause,PR,
+272,Younger,>=35,2018,flag_gs1dnx07,0.368508987415612,406.83374418643393,0.339124836707336,0.3978931381238879,1713,Services sociaux,Younger Canadians Donation Rates by Cause,PR,
+273,Younger,15 à 24 ans,2018,flag_gs1dnx07,0.22648616324512,2379.7686043760878,0.1208471109423642,0.3321252155478759,88,Services sociaux,Younger Canadians Donation Rates by Cause,QC,*
+274,Younger,25 à 34 ans,2018,flag_gs1dnx07,0.2665624368148784,1312.2711913179132,0.1980024641657596,0.3351224094639973,222,Services sociaux,Younger Canadians Donation Rates by Cause,QC,
+275,Younger,>=35,2018,flag_gs1dnx07,0.3608705430203481,411.29512118426703,0.3317799160074849,0.3899611700332112,1703,Services sociaux,Younger Canadians Donation Rates by Cause,QC,
+276,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.048299992060573,6176.027426417225,-0.0101661404205005,0.1067661245416466,74,Environnement,Younger Canadians Donation Rates by Cause,AB,...
+277,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.0550113807470564,2937.818213890549,0.0233357292846065,0.0866870322095063,205,Environnement,Younger Canadians Donation Rates by Cause,AB,*
+278,Younger,>=35,2018,flag_gs1dnx08,0.0718807313840821,1260.5196127420877,0.0541220716587935,0.0896393911093707,1133,Environnement,Younger Canadians Donation Rates by Cause,AB,
+279,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0578999079813576,4131.485162825478,0.0110150978088056,0.1047847181539096,194,Environnement,Younger Canadians Donation Rates by Cause,AT,...
+280,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.0559742933245341,2255.282530694679,0.0312321301789933,0.0807164564700749,363,Environnement,Younger Canadians Donation Rates by Cause,AT,*
+281,Younger,>=35,2018,flag_gs1dnx08,0.0992770577253816,646.6360014667289,0.0866948494802544,0.1118592659705088,3491,Environnement,Younger Canadians Donation Rates by Cause,AT,
+282,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0538458188344232,3669.766392336181,0.0151166215456167,0.0925750161232296,125,Environnement,Younger Canadians Donation Rates by Cause,BC,...
+283,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.1183088855920168,2055.053165225609,0.0706560754768784,0.1659616957071552,245,Environnement,Younger Canadians Donation Rates by Cause,BC,*
+284,Younger,>=35,2018,flag_gs1dnx08,0.1004701639335913,807.9606276784372,0.084559972696372,0.1163803551708105,1807,Environnement,Younger Canadians Donation Rates by Cause,BC,
+285,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0512381920959241,3746.2760020397695,0.01361621117173,0.0888601730201182,226,Environnement,Younger Canadians Donation Rates by Cause,ON,...
+286,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.084605439163039,1844.7594227832944,0.0540149717818966,0.1151959065441813,509,Environnement,Younger Canadians Donation Rates by Cause,ON,*
+287,Younger,>=35,2018,flag_gs1dnx08,0.0758929692397461,664.8434219000906,0.066003590454709,0.0857823480247832,3611,Environnement,Younger Canadians Donation Rates by Cause,ON,
+288,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.009098569079579,10385.364246845817,-0.0094215135905397,0.0276186517496978,138,Environnement,Younger Canadians Donation Rates by Cause,PR,...
+289,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.1385353449376041,1608.6197552658227,0.0948574117814614,0.1822132780937468,302,Environnement,Younger Canadians Donation Rates by Cause,PR,
+290,Younger,>=35,2018,flag_gs1dnx08,0.109436110993018,834.8446842403885,0.0915294575548367,0.1273427644311994,1713,Environnement,Younger Canadians Donation Rates by Cause,PR,
+291,Younger,15 à 24 ans,2018,flag_gs1dnx08,0.0409466806279647,7142.093114986396,-0.0163714872536246,0.0982648485095541,88,Environnement,Younger Canadians Donation Rates by Cause,QC,...
+292,Younger,25 à 34 ans,2018,flag_gs1dnx08,0.0430149440271464,2667.1616240660155,0.0205287068623954,0.0655011811918975,222,Environnement,Younger Canadians Donation Rates by Cause,QC,*
+293,Younger,>=35,2018,flag_gs1dnx08,0.0572925078567854,1158.6942342751863,0.0442813852335288,0.070303630480042,1703,Environnement,Younger Canadians Donation Rates by Cause,QC,
+294,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0271331435679637,8843.64388066804,-0.0198973405992826,0.0741636277352102,74,Aménagement et logement,Younger Canadians Donation Rates by Cause,AB,...
+295,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0072689074619438,6762.445428283553,-0.0023654111487268,0.0169032260726144,205,Aménagement et logement,Younger Canadians Donation Rates by Cause,AB,...
+296,Younger,>=35,2018,flag_gs1dnx09,0.0238400378432134,2196.2015156380367,0.0135781510714058,0.0341019246150211,1133,Aménagement et logement,Younger Canadians Donation Rates by Cause,AB,*
+297,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0361845822162372,6016.976870895863,-0.0064881053272199,0.0788572697596945,194,Aménagement et logement,Younger Canadians Donation Rates by Cause,AT,...
+298,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0270283929184978,3204.9297247879863,0.0100503813231402,0.0440064045138555,363,Aménagement et logement,Younger Canadians Donation Rates by Cause,AT,*
+299,Younger,>=35,2018,flag_gs1dnx09,0.0312183314627926,1174.5015729647398,0.0240319315529605,0.0384047313726247,3491,Aménagement et logement,Younger Canadians Donation Rates by Cause,AT,
+300,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0080313772606567,10527.504537659435,-0.0085401888961536,0.024602943417467,125,Aménagement et logement,Younger Canadians Donation Rates by Cause,BC,...
+301,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0147453481804575,6778.150918822548,-0.0048437461409974,0.0343344425019126,245,Aménagement et logement,Younger Canadians Donation Rates by Cause,BC,...
+302,Younger,>=35,2018,flag_gs1dnx09,0.0206098100397758,1852.33905532346,0.0131273817460211,0.0280922383335305,1807,Aménagement et logement,Younger Canadians Donation Rates by Cause,BC,*
+303,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0036056685042674,10195.901419767397,-0.0035997550538376,0.0108110920623726,226,Aménagement et logement,Younger Canadians Donation Rates by Cause,ON,...
+304,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0295099140279758,4880.795315408232,0.0012801901367233,0.0577396379192283,509,Aménagement et logement,Younger Canadians Donation Rates by Cause,ON,...
+305,Younger,>=35,2018,flag_gs1dnx09,0.0222643343199937,1142.4572849927342,0.0172789599449805,0.0272497086950069,3611,Aménagement et logement,Younger Canadians Donation Rates by Cause,ON,
+306,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0038421914891412,10654.577463398628,-0.004181298737286,0.0118656817155685,138,Aménagement et logement,Younger Canadians Donation Rates by Cause,PR,...
+307,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0109001583019864,4443.342878383669,0.0014074371463508,0.0203928794576219,302,Aménagement et logement,Younger Canadians Donation Rates by Cause,PR,...
+308,Younger,>=35,2018,flag_gs1dnx09,0.0477729022178378,1241.8702073727286,0.0361448780685601,0.0594009263671155,1713,Aménagement et logement,Younger Canadians Donation Rates by Cause,PR,
+309,Younger,15 à 24 ans,2018,flag_gs1dnx09,0.0213587385859541,10896.860067806569,-0.0242580875555745,0.0669755647274828,88,Aménagement et logement,Younger Canadians Donation Rates by Cause,QC,...
+310,Younger,25 à 34 ans,2018,flag_gs1dnx09,0.0241476924548885,5086.389283892285,7.452024308429034e-05,0.0482208646666929,222,Aménagement et logement,Younger Canadians Donation Rates by Cause,QC,...
+311,Younger,>=35,2018,flag_gs1dnx09,0.0189921614341034,1903.2163996841896,0.0119076377673407,0.0260766851008661,1703,Aménagement et logement,Younger Canadians Donation Rates by Cause,QC,*
+312,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0171569563153947,8042.00035112271,-0.0098858915044692,0.0441998041352588,74,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AB,...
+313,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0290931900574634,4361.860612448533,0.0042211608940168,0.05396521922091,205,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AB,...
+314,Younger,>=35,2018,flag_gs1dnx10,0.0420202633682458,1614.457031401043,0.0287238854041878,0.0553166413323038,1133,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AB,
+315,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0233228933166256,4741.21232115403,0.0016498488963025,0.0449959377369487,194,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AT,...
+316,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0325851073744497,3497.813767128801,0.0102460969797176,0.0549241177691818,363,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AT,...
+317,Younger,>=35,2018,flag_gs1dnx10,0.074682373298957,776.7853013486368,0.0633121969421564,0.0860525496557575,3491,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AT,
+318,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0,,0.0,0.0,125,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,BC,
+319,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.024637566193666,5142.19539822743,-0.00019344870512413156,0.0494685810924562,245,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,BC,...
+320,Younger,>=35,2018,flag_gs1dnx10,0.0386813160270618,1432.462992049729,0.0278212430633789,0.0495413889907446,1807,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,BC,
+321,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0157337839060353,6004.27474680506,-0.002781988286278,0.0342495560983486,226,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,ON,...
+322,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0107941441375821,4991.505217821007,0.00023404893558320696,0.021354239339581,509,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,ON,...
+323,Younger,>=35,2018,flag_gs1dnx10,0.0354385578990078,1063.4876382275452,0.0280517538602873,0.0428253619377284,3611,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,ON,
+324,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0059226347260759,8204.250323390683,-0.0036009827338824,0.0154462521860342,138,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,PR,...
+325,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0177033635678853,3980.772957024731,0.0038908954757664,0.0315158316600043,302,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,PR,...
+326,Younger,>=35,2018,flag_gs1dnx10,0.0447338604044821,1264.4136954425292,0.033647891389401,0.0558198294195633,1713,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,PR,
+327,Younger,15 à 24 ans,2018,flag_gs1dnx10,0.0358259331283714,6928.282495874643,-0.012822761260794,0.0844746275175368,88,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,QC,...
+328,Younger,25 à 34 ans,2018,flag_gs1dnx10,0.0171254947849615,5877.966479354023,-0.0026041071928282,0.0368550967627512,222,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,QC,...
+329,Younger,>=35,2018,flag_gs1dnx10,0.0215799523040087,1860.827392455786,0.0137094099201925,0.0294504946878249,1703,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,QC,*
+330,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.099042024617076,4384.652432126832,0.0139276772343965,0.1841563719997556,74,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AB,...
+331,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.0899279824812082,2363.211312834037,0.0482750580717063,0.13158090689071,205,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AB,*
+332,Younger,>=35,2018,flag_gs1dnx11,0.1199482216974344,1127.8957027498718,0.0934320485215074,0.1464643948733615,1133,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AB,
+333,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0515652435209978,3652.0881923814977,0.0146550416350207,0.0884754454069749,194,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AT,...
+334,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.1064167161984017,1741.4141577119376,0.0700955306847714,0.1427379017120321,363,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AT,*
+335,Younger,>=35,2018,flag_gs1dnx11,0.1275701531630013,548.1209944375339,0.1138653246714669,0.1412749816545358,3491,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AT,
+336,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0195221761451996,7150.271939994736,-0.0078367393056073,0.0468810915960066,125,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,BC,...
+337,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.0868231902229733,2533.8801820022136,0.0437040685968479,0.1299423118490988,245,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,BC,*
+338,Younger,>=35,2018,flag_gs1dnx11,0.0702733117558506,1005.9517226563758,0.0564180207873088,0.0841286027243924,1807,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,BC,
+339,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0627648892244858,2643.499622170301,0.0302453704429592,0.0952844080060124,226,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,ON,*
+340,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.1360243260345139,1501.656927047674,0.0959897348914419,0.1760589171775859,509,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,ON,
+341,Younger,>=35,2018,flag_gs1dnx11,0.1344072032761954,512.6068239183007,0.1209034336973921,0.1479109728549986,3611,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,ON,
+342,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0683952422148297,4073.878978526621,0.0137839935876931,0.1230064908419664,138,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,PR,...
+343,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.1465087635076886,1687.4281239599868,0.0980539443346253,0.1949635826807519,302,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,PR,*
+344,Younger,>=35,2018,flag_gs1dnx11,0.1367956123306663,866.826218434543,0.1135547468212055,0.160036477840127,1713,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,PR,
+345,Younger,15 à 24 ans,2018,flag_gs1dnx11,0.0209189955468578,6474.572622021431,-0.0056270616003324,0.0474650526940481,88,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,QC,...
+346,Younger,25 à 34 ans,2018,flag_gs1dnx11,0.1022618537553165,2047.1644634556253,0.0612306284644682,0.1432930790461649,222,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,QC,*
+347,Younger,>=35,2018,flag_gs1dnx11,0.1235511905686564,727.8489067875323,0.1059259010418507,0.1411764800954622,1703,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,QC,
+348,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0097362599057045,10261.37471604704,-0.0098452328733095,0.0293177526847186,74,International,Younger Canadians Donation Rates by Cause,AB,...
+349,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0923366473996476,2221.4731084813616,0.0521332038523061,0.132540090946989,205,International,Younger Canadians Donation Rates by Cause,AB,*
+350,Younger,>=35,2018,flag_gs1dnx12,0.111082311955357,1082.9018101858185,0.0875056627973466,0.1346589611133673,1133,International,Younger Canadians Donation Rates by Cause,AB,
+351,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0240921321077145,5508.538697908758,-0.0019190285602946,0.0501032927757237,194,International,Younger Canadians Donation Rates by Cause,AT,...
+352,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0609607229592342,2717.060962365348,0.0284970553820451,0.0934243905364232,363,International,Younger Canadians Donation Rates by Cause,AT,*
+353,Younger,>=35,2018,flag_gs1dnx12,0.0670719796913497,811.0215451632902,0.056410398765139,0.0777335606175604,3491,International,Younger Canadians Donation Rates by Cause,AT,
+354,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0247606268999755,5028.370536885328,0.00035797638403007453,0.049163277415921,125,International,Younger Canadians Donation Rates by Cause,BC,...
+355,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0960432803122523,2388.6419458665737,0.0510791569911487,0.1410074036333559,245,International,Younger Canadians Donation Rates by Cause,BC,*
+356,Younger,>=35,2018,flag_gs1dnx12,0.1024096368176641,835.347496857321,0.08564260870254,0.1191766649327881,1807,International,Younger Canadians Donation Rates by Cause,BC,
+357,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0489248522767468,3214.001740655634,0.0181054847660217,0.0797442197874718,226,International,Younger Canadians Donation Rates by Cause,ON,*
+358,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.1251331828970116,1657.949294960277,0.0844708935072449,0.1657954722867784,509,International,Younger Canadians Donation Rates by Cause,ON,*
+359,Younger,>=35,2018,flag_gs1dnx12,0.0994611199517256,625.0122644861206,0.0872771175571094,0.1116451223463417,3611,International,Younger Canadians Donation Rates by Cause,ON,
+360,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0404230022869818,4963.517303436312,0.0010982317257244,0.0797477728482392,138,International,Younger Canadians Donation Rates by Cause,PR,...
+361,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0956688746131576,2644.3161938636854,0.0460859498676729,0.1452517993586424,302,International,Younger Canadians Donation Rates by Cause,PR,*
+362,Younger,>=35,2018,flag_gs1dnx12,0.0940602614810997,907.4203600310811,0.0773315383987524,0.1107889845634471,1713,International,Younger Canadians Donation Rates by Cause,PR,
+363,Younger,15 à 24 ans,2018,flag_gs1dnx12,0.0039480536466739,10607.296042094604,-0.0042599175959438,0.0121560248892917,88,International,Younger Canadians Donation Rates by Cause,QC,...
+364,Younger,25 à 34 ans,2018,flag_gs1dnx12,0.0624114633489523,2967.0305282235986,0.0261174937261958,0.0987054329717087,222,International,Younger Canadians Donation Rates by Cause,QC,*
+365,Younger,>=35,2018,flag_gs1dnx12,0.0691876585715183,1058.1288668382692,0.0548388683211105,0.0835364488219262,1703,International,Younger Canadians Donation Rates by Cause,QC,
+366,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1811474507226011,2717.455314357833,0.0846662435008949,0.2776286579443073,74,Religion,Younger Canadians Donation Rates by Cause,AB,*
+367,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.1694253323433894,1878.6323826595765,0.1070420471784598,0.2318086175083191,205,Religion,Younger Canadians Donation Rates by Cause,AB,*
+368,Younger,>=35,2018,flag_gs1dnx13,0.2924626464448829,648.8192038271537,0.2552712751001688,0.3296540177895971,1133,Religion,Younger Canadians Donation Rates by Cause,AB,
+369,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.080496660662553,2711.421765463962,0.0377184087749622,0.1232749125501437,194,Religion,Younger Canadians Donation Rates by Cause,AT,*
+370,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.1888174381879954,1116.8106263533327,0.1474870266617648,0.230147849714226,363,Religion,Younger Canadians Donation Rates by Cause,AT,
+371,Younger,>=35,2018,flag_gs1dnx13,0.351840736334878,281.0440335988938,0.3324600754797173,0.3712213971900388,3491,Religion,Younger Canadians Donation Rates by Cause,AT,
+372,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.0779593883309549,3414.1684993704125,0.0257917153193358,0.130127061342574,125,Religion,Younger Canadians Donation Rates by Cause,BC,...
+373,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.1186498132085026,2192.845184846218,0.0676553386320332,0.1696442877849719,245,Religion,Younger Canadians Donation Rates by Cause,BC,*
+374,Younger,>=35,2018,flag_gs1dnx13,0.211345570741399,613.203283635846,0.1859448690935677,0.2367462723892304,1807,Religion,Younger Canadians Donation Rates by Cause,BC,
+375,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1258105036261688,1953.4369805429303,0.0776418622490007,0.173979145003337,226,Religion,Younger Canadians Donation Rates by Cause,ON,*
+376,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.2072606009909409,1234.720342678283,0.1571033821238124,0.2574178198580695,509,Religion,Younger Canadians Donation Rates by Cause,ON,
+377,Younger,>=35,2018,flag_gs1dnx13,0.2942600050844882,318.6779497740605,0.2758806044928105,0.312639405676166,3611,Religion,Younger Canadians Donation Rates by Cause,ON,
+378,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1834865303424434,2280.3541847202164,0.1014788389286959,0.265494221756191,138,Religion,Younger Canadians Donation Rates by Cause,PR,*
+379,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.2036455048999604,1649.2681264715757,0.1378169706321324,0.2694740391677885,302,Religion,Younger Canadians Donation Rates by Cause,PR,
+380,Younger,>=35,2018,flag_gs1dnx13,0.3307860908055979,451.1497286072104,0.3015367534804902,0.3600354281307057,1713,Religion,Younger Canadians Donation Rates by Cause,PR,
+381,Younger,15 à 24 ans,2018,flag_gs1dnx13,0.1580196870499525,2612.1561948231374,0.0771178411990887,0.2389215329008163,88,Religion,Younger Canadians Donation Rates by Cause,QC,*
+382,Younger,25 à 34 ans,2018,flag_gs1dnx13,0.152307529150413,1831.8149913947857,0.0976246877997141,0.2069903705011119,222,Religion,Younger Canadians Donation Rates by Cause,QC,*
+383,Younger,>=35,2018,flag_gs1dnx13,0.2859504533946583,456.42391911251207,0.2603700566334526,0.3115308501558639,1703,Religion,Younger Canadians Donation Rates by Cause,QC,
+384,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,74,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AB,
+385,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,205,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AB,
+386,Younger,>=35,2018,flag_gs1dnx14,0.003533295846361,5476.655655716999,-0.00025936081873985384,0.0073259525114619,1133,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AB,...
+387,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,194,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AT,
+388,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0142361802664327,7385.895795819486,-0.0063722420617736,0.0348446025946391,363,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AT,...
+389,Younger,>=35,2018,flag_gs1dnx14,0.0047122022220378,2885.81048087191,0.0020469407759147,0.0073774636681608,3491,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AT,*
+390,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,125,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,BC,
+391,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0120518976004897,6968.832531816798,-0.0044093805035138,0.0285131757044933,245,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,BC,...
+392,Younger,>=35,2018,flag_gs1dnx14,0.0056278568743976,2998.9911871278878,0.002319850599834,0.0089358631489613,1807,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,BC,*
+393,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0053909865478636,10685.626475789852,-0.0058995954241805,0.0166815685199078,226,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,ON,...
+394,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0028924829309883,7034.316852998308,-0.0010953855096251,0.0068803513716018,509,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,ON,...
+395,Younger,>=35,2018,flag_gs1dnx14,0.006038569678926,2493.798015887363,0.0030870651900259,0.008990074167826,3611,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,ON,*
+396,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,138,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,PR,
+397,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.004897580714465,10056.699337147444,-0.0047559272548593,0.0145510886837895,302,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,PR,...
+398,Younger,>=35,2018,flag_gs1dnx14,0.0025170611672949,3969.261331396698,0.0005588859321052006,0.0044752364024846,1713,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,PR,...
+399,Younger,15 à 24 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,88,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,QC,
+400,Younger,25 à 34 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,222,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,QC,
+401,Younger,>=35,2018,flag_gs1dnx14,0.002162621457116,5522.836824327912,-0.00017832138912605034,0.0045035643033581,1703,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,QC,...
+402,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0,,0.0,0.0,74,Autre,Younger Canadians Donation Rates by Cause,AB,
+403,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0206822860960124,7067.436199058067,-0.0079666520004634,0.0493312241924882,205,Autre,Younger Canadians Donation Rates by Cause,AB,...
+404,Younger,>=35,2018,flag_gs1dnx15,0.0295733132835684,2877.4474616473067,0.012894871332385,0.0462517552347518,1133,Autre,Younger Canadians Donation Rates by Cause,AB,*
+405,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0084109540945373,7283.311902662575,-0.0035957072818086,0.0204176154708834,194,Autre,Younger Canadians Donation Rates by Cause,AT,...
+406,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0480354408850827,3281.6482291929096,0.0171394663905661,0.0789314153795993,363,Autre,Younger Canadians Donation Rates by Cause,AT,*
+407,Younger,>=35,2018,flag_gs1dnx15,0.0338512329619863,1109.7751123203718,0.0264881861131221,0.0412142798108504,3491,Autre,Younger Canadians Donation Rates by Cause,AT,
+408,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0140659312413608,11038.363383086273,-0.016365422196378,0.0444972846790997,125,Autre,Younger Canadians Donation Rates by Cause,BC,...
+409,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0101404025401877,4756.324042867634,0.0006872923268729427,0.0195935127535025,245,Autre,Younger Canadians Donation Rates by Cause,BC,...
+410,Younger,>=35,2018,flag_gs1dnx15,0.0234004718725375,2190.732592440346,0.013352877926535,0.03344806581854,1807,Autre,Younger Canadians Donation Rates by Cause,BC,*
+411,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0110492864430021,5647.9341020975535,-0.001181994574443,0.0232805674604472,226,Autre,Younger Canadians Donation Rates by Cause,ON,...
+412,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0408663708094354,3535.5943061754247,0.0125474572278929,0.0691852843909779,509,Autre,Younger Canadians Donation Rates by Cause,ON,...
+413,Younger,>=35,2018,flag_gs1dnx15,0.0220563276497032,1230.1867242403478,0.0167382786857052,0.0273743766137013,3611,Autre,Younger Canadians Donation Rates by Cause,ON,
+414,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0141563964297283,6049.868213438069,-0.0026295843425681,0.0309423772020248,138,Autre,Younger Canadians Donation Rates by Cause,PR,...
+415,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0337531817694779,3541.6604822898016,0.0103233195418028,0.0571830439971529,302,Autre,Younger Canadians Donation Rates by Cause,PR,...
+416,Younger,>=35,2018,flag_gs1dnx15,0.0264931241026645,1796.1256521044536,0.0171666394403421,0.0358196087649868,1713,Autre,Younger Canadians Donation Rates by Cause,PR,*
+417,Younger,15 à 24 ans,2018,flag_gs1dnx15,0.0432479331325045,5779.949282460577,-0.0057454551610616,0.0922413214260707,88,Autre,Younger Canadians Donation Rates by Cause,QC,...
+418,Younger,25 à 34 ans,2018,flag_gs1dnx15,0.0083657500063889,6078.422278041286,-0.0016007768504022,0.0183322768631802,222,Autre,Younger Canadians Donation Rates by Cause,QC,...
+419,Younger,>=35,2018,flag_gs1dnx15,0.0164074218847735,2102.4692977760906,0.0096463103734615,0.0231685333960856,1703,Autre,Younger Canadians Donation Rates by Cause,QC,*
+420,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0305301797849242,4423.841286696492,0.004058774926867,0.0570015846429815,279,Arts et culture,Younger Canadians Donation Rates by Cause,AB,...
+421,Younger2,>=35,2018,flag_gs1dnx01,0.0379431264563491,1653.5262819260208,0.0256463208816422,0.0502399320310561,1133,Arts et culture,Younger Canadians Donation Rates by Cause,AB,*
+422,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0435214380069782,3189.2020483363167,0.0163174006860076,0.0707254753279487,557,Arts et culture,Younger Canadians Donation Rates by Cause,AT,*
+423,Younger2,>=35,2018,flag_gs1dnx01,0.0385579097908103,941.342164908698,0.0314439880029348,0.0456718315786858,3491,Arts et culture,Younger Canadians Donation Rates by Cause,AT,
+424,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0185013528358496,5244.740977620208,-0.0005171191473227095,0.037519824819022,370,Arts et culture,Younger Canadians Donation Rates by Cause,BC,...
+425,Younger2,>=35,2018,flag_gs1dnx01,0.0471872979235081,1674.879873065427,0.0316971036756333,0.0626774921713829,1807,Arts et culture,Younger Canadians Donation Rates by Cause,BC,*
+426,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0282445350614141,2602.0919139018933,0.0138398040027275,0.0426492661201008,735,Arts et culture,Younger Canadians Donation Rates by Cause,ON,*
+427,Younger2,>=35,2018,flag_gs1dnx01,0.0345679536851192,897.6507095418857,0.0284861956029444,0.0406497117672939,3611,Arts et culture,Younger Canadians Donation Rates by Cause,ON,
+428,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.0129781140324693,4216.813831409745,0.0022519581432076,0.0237042699217311,440,Arts et culture,Younger Canadians Donation Rates by Cause,PR,...
+429,Younger2,>=35,2018,flag_gs1dnx01,0.0348457239694514,1356.781619145076,0.0255793988371183,0.0441120491017846,1713,Arts et culture,Younger Canadians Donation Rates by Cause,PR,
+430,Younger2,15 à 34 ans,2018,flag_gs1dnx01,0.012572865210963,3885.968301853289,0.0029969210624551,0.022148809359471,310,Arts et culture,Younger Canadians Donation Rates by Cause,QC,...
+431,Younger2,>=35,2018,flag_gs1dnx01,0.0206804748793915,2130.336262788352,0.0120455858992372,0.0293153638595459,1703,Arts et culture,Younger Canadians Donation Rates by Cause,QC,*
+432,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.078397300648863,2140.2356060057105,0.0455113208719302,0.1112832804257957,279,Sport et loisir,Younger Canadians Donation Rates by Cause,AB,*
+433,Younger2,>=35,2018,flag_gs1dnx02,0.1357108129483522,921.810983653118,0.1111917187773885,0.1602299071193158,1133,Sport et loisir,Younger Canadians Donation Rates by Cause,AB,
+434,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.1191177574127854,1647.1111812046854,0.0806632267743275,0.1575722880512433,557,Sport et loisir,Younger Canadians Donation Rates by Cause,AT,
+435,Younger2,>=35,2018,flag_gs1dnx02,0.2160151581121102,407.9186568589528,0.1987446192891252,0.2332856969350952,3491,Sport et loisir,Younger Canadians Donation Rates by Cause,AT,
+436,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.0543249856110491,2357.1025979758856,0.02922773210256,0.0794222391195383,370,Sport et loisir,Younger Canadians Donation Rates by Cause,BC,*
+437,Younger2,>=35,2018,flag_gs1dnx02,0.121599226937821,779.6250108987824,0.1030184158400294,0.1401800380356126,1807,Sport et loisir,Younger Canadians Donation Rates by Cause,BC,
+438,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.0580743400111304,1616.432203150055,0.0396755243592453,0.0764731556630154,735,Sport et loisir,Younger Canadians Donation Rates by Cause,ON,
+439,Younger2,>=35,2018,flag_gs1dnx02,0.1126275500366534,536.7956372989061,0.1007780041889695,0.1244770958843373,3611,Sport et loisir,Younger Canadians Donation Rates by Cause,ON,
+440,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.1142878836315829,1349.4641186428962,0.0840598690499856,0.1445158982131802,440,Sport et loisir,Younger Canadians Donation Rates by Cause,PR,
+441,Younger2,>=35,2018,flag_gs1dnx02,0.1646718686069377,647.8093139981926,0.1437637626388871,0.1855799745749883,1713,Sport et loisir,Younger Canadians Donation Rates by Cause,PR,
+442,Younger2,15 à 34 ans,2018,flag_gs1dnx02,0.0987830613962792,2301.7338981568605,0.054218905376164,0.1433472174163945,310,Sport et loisir,Younger Canadians Donation Rates by Cause,QC,*
+443,Younger2,>=35,2018,flag_gs1dnx02,0.1310605292079379,769.5636943600864,0.1112924451495546,0.1508286132663211,1703,Sport et loisir,Younger Canadians Donation Rates by Cause,QC,
+444,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0715023753335494,2313.200574952245,0.0390847012233891,0.1039200494437098,279,Éducation et recherche,Younger Canadians Donation Rates by Cause,AB,*
+445,Younger2,>=35,2018,flag_gs1dnx03,0.145615461237218,857.4816095345041,0.1211428452408825,0.1700880772335534,1133,Éducation et recherche,Younger Canadians Donation Rates by Cause,AB,
+446,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0945671794474438,1794.434593185725,0.0613076454470391,0.1278267134478485,557,Éducation et recherche,Younger Canadians Donation Rates by Cause,AT,*
+447,Younger2,>=35,2018,flag_gs1dnx03,0.1683500314245626,471.2978355227032,0.1527990881196132,0.183900974729512,3491,Éducation et recherche,Younger Canadians Donation Rates by Cause,AT,
+448,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0913926878286633,2116.6258622941778,0.0534783356967684,0.1293070399605582,370,Éducation et recherche,Younger Canadians Donation Rates by Cause,BC,*
+449,Younger2,>=35,2018,flag_gs1dnx03,0.119494342845141,847.1308441856088,0.0996541480882321,0.1393345376020499,1807,Éducation et recherche,Younger Canadians Donation Rates by Cause,BC,
+450,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0604469672237795,1666.181549133189,0.0407070681438159,0.080186866303743,735,Éducation et recherche,Younger Canadians Donation Rates by Cause,ON,*
+451,Younger2,>=35,2018,flag_gs1dnx03,0.1417402710873589,504.4265649551158,0.1277270072092637,0.1557535349654541,3611,Éducation et recherche,Younger Canadians Donation Rates by Cause,ON,
+452,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.1114483124615945,1686.804460194783,0.074602653455552,0.148293971467637,440,Éducation et recherche,Younger Canadians Donation Rates by Cause,PR,*
+453,Younger2,>=35,2018,flag_gs1dnx03,0.1487639179229449,693.5393872980424,0.1285422567558284,0.1689855790900614,1713,Éducation et recherche,Younger Canadians Donation Rates by Cause,PR,
+454,Younger2,15 à 34 ans,2018,flag_gs1dnx03,0.0695645881892598,2264.667800117991,0.038687181730741,0.1004419946477786,310,Éducation et recherche,Younger Canadians Donation Rates by Cause,QC,*
+455,Younger2,>=35,2018,flag_gs1dnx03,0.103931135981439,915.8380306447784,0.0852753977589225,0.1225868742039556,1703,Éducation et recherche,Younger Canadians Donation Rates by Cause,QC,
+456,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0131241432613226,6071.817420537852,-0.0024943004708467,0.0287425869934919,279,Universités et collèges,Younger Canadians Donation Rates by Cause,AB,...
+457,Younger2,>=35,2018,flag_gs1dnx04,0.0113557463913316,2971.23874494387,0.0047427037132621,0.0179687890694011,1133,Universités et collèges,Younger Canadians Donation Rates by Cause,AB,*
+458,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.009331344963535,4337.101144167676,0.0013991772857335,0.0172635126413364,557,Universités et collèges,Younger Canadians Donation Rates by Cause,AT,...
+459,Younger2,>=35,2018,flag_gs1dnx04,0.0200946134904014,1280.0127670111556,0.0150533192111588,0.025135907769644,3491,Universités et collèges,Younger Canadians Donation Rates by Cause,AT,
+460,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0105098901530175,5501.162057054998,-0.0008219569687909541,0.021841737274826,370,Universités et collèges,Younger Canadians Donation Rates by Cause,BC,...
+461,Younger2,>=35,2018,flag_gs1dnx04,0.0202342168705562,1757.4867242477503,0.0132643169114487,0.0272041168296638,1807,Universités et collèges,Younger Canadians Donation Rates by Cause,BC,*
+462,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0043534019161775,4601.479448458896,0.0004271845308272421,0.0082796193015278,735,Universités et collèges,Younger Canadians Donation Rates by Cause,ON,...
+463,Younger2,>=35,2018,flag_gs1dnx04,0.0219385303645887,1289.1933978290815,0.016395162560341,0.0274818981688364,3611,Universités et collèges,Younger Canadians Donation Rates by Cause,ON,
+464,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0033616762483838,7313.357332349857,-0.0014569225765654,0.0081802750733331,440,Universités et collèges,Younger Canadians Donation Rates by Cause,PR,...
+465,Younger2,>=35,2018,flag_gs1dnx04,0.0169581194963783,2230.01305613811,0.0095461574300664,0.0243700815626902,1713,Universités et collèges,Younger Canadians Donation Rates by Cause,PR,*
+466,Younger2,15 à 34 ans,2018,flag_gs1dnx04,0.0095799529087261,5767.246081670879,-0.0012488374976392,0.0204087433150915,310,Universités et collèges,Younger Canadians Donation Rates by Cause,QC,...
+467,Younger2,>=35,2018,flag_gs1dnx04,0.0242357774137479,1507.5661342750282,0.0170746496992765,0.0313969051282193,1703,Universités et collèges,Younger Canadians Donation Rates by Cause,QC,
+468,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2298579787450316,1501.8341197080326,0.162198345216904,0.2975176122731592,279,Santé,Younger Canadians Donation Rates by Cause,AB,
+469,Younger2,>=35,2018,flag_gs1dnx05,0.3843259827052459,468.20300395786126,0.3490578851747987,0.4195940802356931,1133,Santé,Younger Canadians Donation Rates by Cause,AB,
+470,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2386013693176643,958.4731360694748,0.1937783644328392,0.2834243742024894,557,Santé,Younger Canadians Donation Rates by Cause,AT,
+471,Younger2,>=35,2018,flag_gs1dnx05,0.4403832155788428,246.59635050177735,0.4190986155138906,0.4616678156437951,3491,Santé,Younger Canadians Donation Rates by Cause,AT,
+472,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.194085565298609,1336.2335443537895,0.1432551453426007,0.2449159852546173,370,Santé,Younger Canadians Donation Rates by Cause,BC,
+473,Younger2,>=35,2018,flag_gs1dnx05,0.3282255334610925,432.410931922401,0.3004080960967156,0.3560429708254695,1807,Santé,Younger Canadians Donation Rates by Cause,BC,
+474,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2056052124470894,811.5889023109875,0.1728998993247832,0.2383105255693955,735,Santé,Younger Canadians Donation Rates by Cause,ON,
+475,Younger2,>=35,2018,flag_gs1dnx05,0.405080937784128,254.5204379602567,0.384873439080425,0.425288436487831,3611,Santé,Younger Canadians Donation Rates by Cause,ON,
+476,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2106458004958222,1102.3769454237947,0.1651332662877669,0.2561583347038775,440,Santé,Younger Canadians Donation Rates by Cause,PR,
+477,Younger2,>=35,2018,flag_gs1dnx05,0.4511544152991829,341.39218591573746,0.4209669339746224,0.4813418966237434,1713,Santé,Younger Canadians Donation Rates by Cause,PR,
+478,Younger2,15 à 34 ans,2018,flag_gs1dnx05,0.2292116139300362,1243.4173795110937,0.1733515223392959,0.2850717055207765,310,Santé,Younger Canadians Donation Rates by Cause,QC,
+479,Younger2,>=35,2018,flag_gs1dnx05,0.3670547913931021,379.5444609212065,0.3397498250036299,0.3943597577825742,1703,Santé,Younger Canadians Donation Rates by Cause,QC,
+480,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.0645400378590413,2189.1442557236564,0.036848205896214,0.0922318698218687,279,Hôpitaux,Younger Canadians Donation Rates by Cause,AB,*
+481,Younger2,>=35,2018,flag_gs1dnx06,0.1239144460114781,1009.1644241543914,0.0994050864764843,0.1484238055464718,1133,Hôpitaux,Younger Canadians Donation Rates by Cause,AB,
+482,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.1660479869170862,1259.7514659467986,0.1250496180780603,0.2070463557561121,557,Hôpitaux,Younger Canadians Donation Rates by Cause,AT,
+483,Younger2,>=35,2018,flag_gs1dnx06,0.2453952450403115,380.0532872311173,0.2271159801007691,0.263674509979854,3491,Hôpitaux,Younger Canadians Donation Rates by Cause,AT,
+484,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.0745294636882945,2337.4782781152226,0.0403847346368433,0.1086741927397456,370,Hôpitaux,Younger Canadians Donation Rates by Cause,BC,*
+485,Younger2,>=35,2018,flag_gs1dnx06,0.1326283555417001,749.0357593192151,0.1131574106553705,0.1520993004280296,1807,Hôpitaux,Younger Canadians Donation Rates by Cause,BC,
+486,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.1277830861941802,1236.386800935754,0.0968177482539362,0.1587484241344242,735,Hôpitaux,Younger Canadians Donation Rates by Cause,ON,
+487,Younger2,>=35,2018,flag_gs1dnx06,0.197491674381071,427.22346857019886,0.1809548549386004,0.2140284938235416,3611,Hôpitaux,Younger Canadians Donation Rates by Cause,ON,
+488,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.0697827607802369,2042.812839823707,0.0418428627266923,0.0977226588337815,440,Hôpitaux,Younger Canadians Donation Rates by Cause,PR,*
+489,Younger2,>=35,2018,flag_gs1dnx06,0.1195164744102172,783.8031047821353,0.1011560445854161,0.1378769042350184,1713,Hôpitaux,Younger Canadians Donation Rates by Cause,PR,
+490,Younger2,15 à 34 ans,2018,flag_gs1dnx06,0.2265001753257065,1305.3514469843649,0.1685514231728825,0.2844489274785305,310,Hôpitaux,Younger Canadians Donation Rates by Cause,QC,
+491,Younger2,>=35,2018,flag_gs1dnx06,0.2405559255806087,503.84639859700553,0.2168005276937086,0.2643113234675087,1703,Hôpitaux,Younger Canadians Donation Rates by Cause,QC,
+492,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2690823097034603,1254.341595810179,0.2029293830848331,0.3352352363220874,279,Services sociaux,Younger Canadians Donation Rates by Cause,AB,
+493,Younger2,>=35,2018,flag_gs1dnx07,0.3372835944502215,506.8118433544666,0.3037801033296844,0.3707870855707587,1133,Services sociaux,Younger Canadians Donation Rates by Cause,AB,
+494,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2832629059304846,913.0238279887104,0.2325731839739644,0.3339526278870047,557,Services sociaux,Younger Canadians Donation Rates by Cause,AT,
+495,Younger2,>=35,2018,flag_gs1dnx07,0.4271836854216264,234.8870370778736,0.4075174244097163,0.4468499464335366,3491,Services sociaux,Younger Canadians Donation Rates by Cause,AT,
+496,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2410158280452262,1176.5144991708935,0.1854393605145467,0.2965922955759056,370,Services sociaux,Younger Canadians Donation Rates by Cause,BC,
+497,Younger2,>=35,2018,flag_gs1dnx07,0.3753087687450837,385.0138444803104,0.346987471068481,0.4036300664216864,1807,Services sociaux,Younger Canadians Donation Rates by Cause,BC,
+498,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2264155949306735,847.6054797013882,0.1888017107125179,0.2640294791488292,735,Services sociaux,Younger Canadians Donation Rates by Cause,ON,
+499,Younger2,>=35,2018,flag_gs1dnx07,0.357174801103703,273.71121196432205,0.3380136546528662,0.3763359475545398,3611,Services sociaux,Younger Canadians Donation Rates by Cause,ON,
+500,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2007039831234688,999.076739846886,0.1614030437985988,0.2400049224483387,440,Services sociaux,Younger Canadians Donation Rates by Cause,PR,
+501,Younger2,>=35,2018,flag_gs1dnx07,0.368508987415612,406.83374418643393,0.339124836707336,0.3978931381238879,1713,Services sociaux,Younger Canadians Donation Rates by Cause,PR,
+502,Younger2,15 à 34 ans,2018,flag_gs1dnx07,0.2484979483512829,1276.864343205052,0.1863086498717995,0.3106872468307664,310,Services sociaux,Younger Canadians Donation Rates by Cause,QC,
+503,Younger2,>=35,2018,flag_gs1dnx07,0.3608705430203481,411.29512118426703,0.3317799160074849,0.3899611700332112,1703,Services sociaux,Younger Canadians Donation Rates by Cause,QC,
+504,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0521664276964599,2985.575744170992,0.0216406116724422,0.0826922437204776,279,Environnement,Younger Canadians Donation Rates by Cause,AB,*
+505,Younger2,>=35,2018,flag_gs1dnx08,0.0718807313840821,1260.5196127420877,0.0541220716587935,0.0896393911093707,1133,Environnement,Younger Canadians Donation Rates by Cause,AB,
+506,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0569128336945382,2415.170757388602,0.0299723032570064,0.08385336413207,557,Environnement,Younger Canadians Donation Rates by Cause,AT,*
+507,Younger2,>=35,2018,flag_gs1dnx08,0.0992770577253816,646.6360014667289,0.0866948494802544,0.1118592659705088,3491,Environnement,Younger Canadians Donation Rates by Cause,AT,
+508,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0878408799508628,1762.949120871692,0.0574890732738315,0.1181926866278941,370,Environnement,Younger Canadians Donation Rates by Cause,BC,*
+509,Younger2,>=35,2018,flag_gs1dnx08,0.1004701639335913,807.9606276784372,0.084559972696372,0.1163803551708105,1807,Environnement,Younger Canadians Donation Rates by Cause,BC,
+510,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0689031945365207,1862.3552317738904,0.0437525006280349,0.0940538884450064,735,Environnement,Younger Canadians Donation Rates by Cause,ON,*
+511,Younger2,>=35,2018,flag_gs1dnx08,0.0758929692397461,664.8434219000906,0.066003590454709,0.0857823480247832,3611,Environnement,Younger Canadians Donation Rates by Cause,ON,
+512,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0777532078538665,1627.1347483533184,0.0529567340294516,0.1025496816782814,440,Environnement,Younger Canadians Donation Rates by Cause,PR,
+513,Younger2,>=35,2018,flag_gs1dnx08,0.109436110993018,834.8446842403885,0.0915294575548367,0.1273427644311994,1713,Environnement,Younger Canadians Donation Rates by Cause,PR,
+514,Younger2,15 à 34 ans,2018,flag_gs1dnx08,0.0420826687184364,3461.2371121011806,0.0135342067428398,0.0706311306940329,310,Environnement,Younger Canadians Donation Rates by Cause,QC,...
+515,Younger2,>=35,2018,flag_gs1dnx08,0.0572925078567854,1158.6942342751863,0.0442813852335288,0.070303630480042,1703,Environnement,Younger Canadians Donation Rates by Cause,QC,
+516,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0156893434920319,6715.790047219412,-0.0049620790530136,0.0363407660370775,279,Aménagement et logement,Younger Canadians Donation Rates by Cause,AB,...
+517,Younger2,>=35,2018,flag_gs1dnx09,0.0238400378432134,2196.2015156380367,0.0135781510714058,0.0341019246150211,1133,Aménagement et logement,Younger Canadians Donation Rates by Cause,AB,*
+518,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0314910995461592,3560.95813530831,0.0095123599428132,0.0534698391495052,557,Aménagement et logement,Younger Canadians Donation Rates by Cause,AT,...
+519,Younger2,>=35,2018,flag_gs1dnx09,0.0312183314627926,1174.5015729647398,0.0240319315529605,0.0384047313726247,3491,Aménagement et logement,Younger Canadians Donation Rates by Cause,AT,
+520,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0115720380332958,5610.420403614428,-0.0011528318054455,0.0242969078720372,370,Aménagement et logement,Younger Canadians Donation Rates by Cause,BC,...
+521,Younger2,>=35,2018,flag_gs1dnx09,0.0206098100397758,1852.33905532346,0.0131273817460211,0.0280922383335305,1807,Aménagement et logement,Younger Canadians Donation Rates by Cause,BC,*
+522,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0173196725237692,4580.844893255118,0.0017695665129284,0.03286977853461,735,Aménagement et logement,Younger Canadians Donation Rates by Cause,ON,...
+523,Younger2,>=35,2018,flag_gs1dnx09,0.0222643343199937,1142.4572849927342,0.0172789599449805,0.0272497086950069,3611,Aménagement et logement,Younger Canadians Donation Rates by Cause,ON,
+524,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0075858119463465,4108.50544136466,0.0014773196602764,0.0136943042324165,440,Aménagement et logement,Younger Canadians Donation Rates by Cause,PR,...
+525,Younger2,>=35,2018,flag_gs1dnx09,0.0477729022178378,1241.8702073727286,0.0361448780685601,0.0594009263671155,1713,Aménagement et logement,Younger Canadians Donation Rates by Cause,PR,
+526,Younger2,15 à 34 ans,2018,flag_gs1dnx09,0.0228905639720427,5336.50505675442,-0.0010514957151061,0.0468326236591916,310,Aménagement et logement,Younger Canadians Donation Rates by Cause,QC,...
+527,Younger2,>=35,2018,flag_gs1dnx09,0.0189921614341034,1903.2163996841896,0.0119076377673407,0.0260766851008661,1703,Aménagement et logement,Younger Canadians Donation Rates by Cause,QC,*
+528,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0240334287795148,3922.4438695665176,0.0055568923217959,0.0425099652372337,279,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AB,...
+529,Younger2,>=35,2018,flag_gs1dnx10,0.0420202633682458,1614.457031401043,0.0287238854041878,0.0553166413323038,1133,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AB,
+530,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.028070724510732,2790.01072642731,0.01272075256848,0.043420696452984,557,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AT,*
+531,Younger2,>=35,2018,flag_gs1dnx10,0.074682373298957,776.7853013486368,0.0633121969421564,0.0860525496557575,3491,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,AT,
+532,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0129927974364536,5142.195400875463,-0.00010201657040326446,0.0260876114433106,370,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,BC,...
+533,Younger2,>=35,2018,flag_gs1dnx10,0.0386813160270618,1432.462992049729,0.0278212430633789,0.0495413889907446,1807,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,BC,
+534,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0131186820850825,3972.4976787270302,0.0029045386861474,0.0233328254840176,735,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,ON,...
+535,Younger2,>=35,2018,flag_gs1dnx10,0.0354385578990078,1063.4876382275452,0.0280517538602873,0.0428253619377284,3611,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,ON,
+536,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0121712582549824,3534.811730382935,0.0037388843398456,0.0206036321701192,440,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,PR,...
+537,Younger2,>=35,2018,flag_gs1dnx10,0.0447338604044821,1264.4136954425292,0.033647891389401,0.0558198294195633,1713,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,PR,
+538,Younger2,15 à 34 ans,2018,flag_gs1dnx10,0.0255547678342807,5074.649703673869,0.0001376618646829926,0.0509718738038784,310,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,QC,...
+539,Younger2,>=35,2018,flag_gs1dnx10,0.0215799523040087,1860.827392455786,0.0137094099201925,0.0294504946878249,1703,"Droit, plaidoyer et politique",Younger Canadians Donation Rates by Cause,QC,*
+540,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0937914186773449,2359.402910989,0.0504190334041366,0.1371638039505532,279,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AB,*
+541,Younger2,>=35,2018,flag_gs1dnx11,0.1199482216974344,1127.8957027498718,0.0934320485215074,0.1464643948733615,1133,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AB,
+542,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0796822284443233,1690.4096129830666,0.0532823749872852,0.1060820819013614,557,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AT,*
+543,Younger2,>=35,2018,flag_gs1dnx11,0.1275701531630013,548.1209944375339,0.1138653246714669,0.1412749816545358,3491,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,AT,
+544,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0550138491581465,2379.443018025972,0.0293574660311494,0.0806702322851437,370,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,BC,*
+545,Younger2,>=35,2018,flag_gs1dnx11,0.0702733117558506,1005.9517226563758,0.0564180207873088,0.0841286027243924,1807,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,BC,
+546,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.1015492734274398,1351.1759335332324,0.074656424471634,0.1284421223832457,735,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,ON,
+547,Younger2,>=35,2018,flag_gs1dnx11,0.1344072032761954,512.6068239183007,0.1209034336973921,0.1479109728549986,3611,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,ON,
+548,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.1098274824124006,1655.0760402049295,0.074200661475054,0.1454543033497472,440,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,PR,*
+549,Younger2,>=35,2018,flag_gs1dnx11,0.1367956123306663,866.826218434543,0.1135547468212055,0.160036477840127,1713,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,PR,
+550,Younger2,15 à 34 ans,2018,flag_gs1dnx11,0.0655963409015613,2032.3548413424612,0.0394670730047081,0.0917256087984145,310,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,QC,*
+551,Younger2,>=35,2018,flag_gs1dnx11,0.1235511905686564,727.8489067875323,0.1059259010418507,0.1411764800954622,1703,"Subventions, collecte de fonds",Younger Canadians Donation Rates by Cause,QC,
+552,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0573223999228744,2205.32799164289,0.0325455753639856,0.0820992244817632,279,International,Younger Canadians Donation Rates by Cause,AB,*
+553,Younger2,>=35,2018,flag_gs1dnx12,0.111082311955357,1082.9018101858185,0.0875056627973466,0.1346589611133673,1133,International,Younger Canadians Donation Rates by Cause,AB,
+554,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0429910524560004,2478.6502413530693,0.0221057188569251,0.0638763860550756,557,International,Younger Canadians Donation Rates by Cause,AT,*
+555,Younger2,>=35,2018,flag_gs1dnx12,0.0670719796913497,811.0215451632902,0.056410398765139,0.0777335606175604,3491,International,Younger Canadians Donation Rates by Cause,AT,
+556,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0623520460051933,2170.6778088574047,0.0358246777511026,0.0888794142592839,370,International,Younger Canadians Donation Rates by Cause,BC,*
+557,Younger2,>=35,2018,flag_gs1dnx12,0.1024096368176641,835.347496857321,0.08564260870254,0.1191766649327881,1807,International,Younger Canadians Donation Rates by Cause,BC,
+558,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0892704146089637,1507.739906912172,0.0628899723086332,0.1156508569092942,735,International,Younger Canadians Donation Rates by Cause,ON,
+559,Younger2,>=35,2018,flag_gs1dnx12,0.0994611199517256,625.0122644861206,0.0872771175571094,0.1116451223463417,3611,International,Younger Canadians Donation Rates by Cause,ON,
+560,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0697259989290204,2356.876825285079,0.0375168149560604,0.1019351829019803,440,International,Younger Canadians Donation Rates by Cause,PR,*
+561,Younger2,>=35,2018,flag_gs1dnx12,0.0940602614810997,907.4203600310811,0.0773315383987524,0.1107889845634471,1713,International,Younger Canadians Donation Rates by Cause,PR,
+562,Younger2,15 à 34 ans,2018,flag_gs1dnx12,0.0360589236530907,2847.994144215364,0.0159309552475304,0.056186892058651,310,International,Younger Canadians Donation Rates by Cause,QC,*
+563,Younger2,>=35,2018,flag_gs1dnx12,0.0691876585715183,1058.1288668382692,0.0548388683211105,0.0835364488219262,1703,International,Younger Canadians Donation Rates by Cause,QC,
+564,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1743943302662121,1650.409259827616,0.1179822514340193,0.2308064090984049,279,Religion,Younger Canadians Donation Rates by Cause,AB,*
+565,Younger2,>=35,2018,flag_gs1dnx13,0.2924626464448829,648.8192038271537,0.2552712751001688,0.3296540177895971,1133,Religion,Younger Canadians Donation Rates by Cause,AB,
+566,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1360221282553386,1138.80490880457,0.1056617633412278,0.1663824931694494,557,Religion,Younger Canadians Donation Rates by Cause,AT,
+567,Younger2,>=35,2018,flag_gs1dnx13,0.351840736334878,281.0440335988938,0.3324600754797173,0.3712213971900388,3491,Religion,Younger Canadians Donation Rates by Cause,AT,
+568,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.0994177760581131,1909.263162748878,0.0622147789646429,0.1366207731515833,370,Religion,Younger Canadians Donation Rates by Cause,BC,*
+569,Younger2,>=35,2018,flag_gs1dnx13,0.211345570741399,613.203283635846,0.1859448690935677,0.2367462723892304,1807,Religion,Younger Canadians Donation Rates by Cause,BC,
+570,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1689311172578985,1025.5045436048404,0.1349767740407614,0.2028854604750356,735,Religion,Younger Canadians Donation Rates by Cause,ON,
+571,Younger2,>=35,2018,flag_gs1dnx13,0.2942600050844882,318.6779497740605,0.2758806044928105,0.312639405676166,3611,Religion,Younger Canadians Donation Rates by Cause,ON,
+572,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1941790642620495,1329.8727080672063,0.1435662404457889,0.2447918880783101,440,Religion,Younger Canadians Donation Rates by Cause,PR,
+573,Younger2,>=35,2018,flag_gs1dnx13,0.3307860908055979,451.1497286072104,0.3015367534804902,0.3600354281307057,1713,Religion,Younger Canadians Donation Rates by Cause,PR,
+574,Younger2,15 à 34 ans,2018,flag_gs1dnx13,0.1548822997387726,1533.2393852207024,0.1083387131653371,0.2014258863122081,310,Religion,Younger Canadians Donation Rates by Cause,QC,
+575,Younger2,>=35,2018,flag_gs1dnx13,0.2859504533946583,456.42391911251207,0.2603700566334526,0.3115308501558639,1703,Religion,Younger Canadians Donation Rates by Cause,QC,
+576,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,279,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AB,
+577,Younger2,>=35,2018,flag_gs1dnx14,0.003533295846361,5476.655655716999,-0.00025936081873985384,0.0073259525114619,1133,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AB,...
+578,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0072974971569346,7387.563628734138,-0.0032688106982739,0.0178638050121432,557,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AT,...
+579,Younger2,>=35,2018,flag_gs1dnx14,0.0047122022220378,2885.81048087191,0.0020469407759147,0.0073774636681608,3491,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,AT,*
+580,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0063556547354219,6968.832535442813,-0.0023253184735599,0.0150366279444038,370,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,BC,...
+581,Younger2,>=35,2018,flag_gs1dnx14,0.0056278568743976,2998.9911871278878,0.002319850599834,0.0089358631489613,1807,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,BC,*
+582,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0040682501410762,7224.811966067904,-0.0016925430918912,0.0098290433740438,735,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,ON,...
+583,Younger2,>=35,2018,flag_gs1dnx14,0.006038569678926,2493.798015887363,0.0030870651900259,0.008990074167826,3611,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,ON,*
+584,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0025977287566891,10056.699335586782,-0.0025225942584853,0.0077180517718636,440,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,PR,...
+585,Younger2,>=35,2018,flag_gs1dnx14,0.0025170611672949,3969.261331396698,0.0005588859321052006,0.0044752364024846,1713,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,PR,...
+586,Younger2,15 à 34 ans,2018,flag_gs1dnx14,0.0,,0.0,0.0,310,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,QC,
+587,Younger2,>=35,2018,flag_gs1dnx14,0.002162621457116,5522.836824327912,-0.00017832138912605034,0.0045035643033581,1703,Entreprises et professionnels,Younger Canadians Donation Rates by Cause,QC,...
+588,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0119150792375178,7067.436203975018,-0.0045895937054579,0.0284197521804937,279,Autre,Younger Canadians Donation Rates by Cause,AB,...
+589,Younger2,>=35,2018,flag_gs1dnx15,0.0295733132835684,2877.4474616473067,0.012894871332385,0.0462517552347518,1133,Autre,Younger Canadians Donation Rates by Cause,AB,*
+590,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0287225527317647,3028.734267936416,0.0116722420156063,0.0457728634479232,557,Autre,Younger Canadians Donation Rates by Cause,AT,*
+591,Younger2,>=35,2018,flag_gs1dnx15,0.0338512329619863,1109.7751123203718,0.0264881861131221,0.0412142798108504,3491,Autre,Younger Canadians Donation Rates by Cause,AT,
+592,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0119957754944657,6429.978403924047,-0.0031219318730854,0.0271134828620168,370,Autre,Younger Canadians Donation Rates by Cause,BC,...
+593,Younger2,>=35,2018,flag_gs1dnx15,0.0234004718725375,2190.732592440346,0.013352877926535,0.03344806581854,1807,Autre,Younger Canadians Donation Rates by Cause,BC,*
+594,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0268347921230204,3080.454373440244,0.0106330726987667,0.0430365115472742,735,Autre,Younger Canadians Donation Rates by Cause,ON,*
+595,Younger2,>=35,2018,flag_gs1dnx15,0.0220563276497032,1230.1867242403478,0.0167382786857052,0.0273743766137013,3611,Autre,Younger Canadians Donation Rates by Cause,ON,
+596,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0245507392254226,3038.097261673494,0.0099318512677435,0.0391696271831017,440,Autre,Younger Canadians Donation Rates by Cause,PR,*
+597,Younger2,>=35,2018,flag_gs1dnx15,0.0264931241026645,1796.1256521044536,0.0171666394403421,0.0358196087649868,1713,Autre,Younger Canadians Donation Rates by Cause,PR,*
+598,Younger2,15 à 34 ans,2018,flag_gs1dnx15,0.0240889881854555,4836.193760072598,0.0012556009496173,0.0469223754212936,310,Autre,Younger Canadians Donation Rates by Cause,QC,...
+599,Younger2,>=35,2018,flag_gs1dnx15,0.0164074218847735,2102.4692977760906,0.0096463103734615,0.0231685333960856,1703,Autre,Younger Canadians Donation Rates by Cause,QC,*

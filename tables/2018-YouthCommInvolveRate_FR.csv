@@ -1,0 +1,241 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Younger,15 à 24 ans,2018,iva250_1,0.0605720823400189,17.768003458200766,0.039478068572232,0.0816660961078058,845,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA,*
+1,Younger,25 à 34 ans,2018,iva250_1,0.0557140923882604,14.93930855200184,0.0394007238248383,0.0720274609516826,1846,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA,
+2,Younger,>=35,2018,iva250_1,0.0495892869071644,4.941244639383039,0.0447867323140769,0.0543918415002519,13458,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA,
+3,Younger,15 à 24 ans,2018,iva250_2,0.0629056698319255,16.292428408220157,0.0428182709541038,0.0829930687097472,845,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA,
+4,Younger,25 à 34 ans,2018,iva250_2,0.1012037686815905,9.863565102508629,0.0816388209629045,0.1207687164002766,1846,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA,
+5,Younger,>=35,2018,iva250_2,0.1141699170219332,3.486019612340792,0.1063692883933442,0.1219705456505221,13458,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA,
+6,Younger,15 à 24 ans,2018,iva250_3,0.1760374871193944,11.09884818948348,0.1377434492284094,0.2143315250103794,845,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA,
+7,Younger,25 à 34 ans,2018,iva250_3,0.178422669614449,6.924206332413531,0.1542085811378893,0.2026367580910087,1846,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA,
+8,Younger,>=35,2018,iva250_3,0.1175735053378656,3.283094978694511,0.1100079466532921,0.1251390640224391,13458,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA,
+9,Younger,15 à 24 ans,2018,iva250_4,0.0942194356423006,14.218673005830423,0.0679622813471799,0.1204765899374214,845,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA,
+10,Younger,25 à 34 ans,2018,iva250_4,0.0861104295988132,10.542751961132128,0.0683170749115635,0.103903784286063,1846,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA,
+11,Younger,>=35,2018,iva250_4,0.0813858328222704,4.276508122804336,0.0745642335402069,0.0882074321043339,13458,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA,
+12,Younger,15 à 24 ans,2018,iva250_5,0.0173685805788092,30.511793096961625,0.0069818193161247,0.0277553418414936,845,Projet économique/social,Younger Canadians Community Involvement Rate,CA,*
+13,Younger,25 à 34 ans,2018,iva250_5,0.0344353706637087,20.83372958183596,0.0203742519158365,0.048496489411581,1846,Projet économique/social,Younger Canadians Community Involvement Rate,CA,*
+14,Younger,>=35,2018,iva250_5,0.0255533548714793,8.31984315832198,0.0213864733081996,0.0297202364347589,13458,Projet économique/social,Younger Canadians Community Involvement Rate,CA,
+15,Younger,15 à 24 ans,2018,iva3_190,0.0295135104286477,25.19198832353677,0.0149410996069772,0.0440859212503182,845,Autre,Younger Canadians Community Involvement Rate,CA,*
+16,Younger,25 à 34 ans,2018,iva3_190,0.0423262836002043,13.668101243590923,0.0309875013383721,0.0536650658620365,1846,Autre,Younger Canadians Community Involvement Rate,CA,
+17,Younger,>=35,2018,iva3_190,0.0380780586623227,5.301881956556273,0.0341211780778838,0.0420349392467616,13458,Autre,Younger Canadians Community Involvement Rate,CA,
+18,Younger2,15 à 34 ans,2018,iva250_1,0.0579567879443046,11.518505972362023,0.0448725464564526,0.0710410294321566,2691,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA,
+19,Younger2,>=35,2018,iva250_1,0.0495892869071644,4.941244639383039,0.0447867323140769,0.0543918415002519,13458,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA,
+20,Younger2,15 à 34 ans,2018,iva250_2,0.0835234159126449,8.441514614492533,0.0697044127775894,0.0973424190477004,2691,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA,
+21,Younger2,>=35,2018,iva250_2,0.1141699170219332,3.486019612340792,0.1063692883933442,0.1219705456505221,13458,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA,
+22,Younger2,15 à 34 ans,2018,iva250_3,0.1773215479087368,6.191874009218802,0.155802070739543,0.1988410250779306,2691,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA,
+23,Younger2,>=35,2018,iva250_3,0.1175735053378656,3.283094978694511,0.1100079466532921,0.1251390640224391,13458,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA,
+24,Younger2,15 à 34 ans,2018,iva250_4,0.0898539597415797,8.966772551034856,0.0740625295298209,0.1056453899533385,2691,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA,
+25,Younger2,>=35,2018,iva250_4,0.0813858328222704,4.276508122804336,0.0745642335402069,0.0882074321043339,13458,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA,
+26,Younger2,15 à 34 ans,2018,iva250_5,0.0265564712301091,16.88785536518509,0.0177663885880903,0.0353465538721279,2691,Projet économique/social,Younger Canadians Community Involvement Rate,CA,*
+27,Younger2,>=35,2018,iva250_5,0.0255533548714793,8.31984315832198,0.0213864733081996,0.0297202364347589,13458,Projet économique/social,Younger Canadians Community Involvement Rate,CA,
+28,Younger2,15 à 34 ans,2018,iva3_190,0.0364112550106432,12.705181348842132,0.0273442343005745,0.045478275720712,2691,Autre,Younger Canadians Community Involvement Rate,CA,
+29,Younger2,>=35,2018,iva3_190,0.0380780586623227,5.301881956556273,0.0341211780778838,0.0420349392467616,13458,Autre,Younger Canadians Community Involvement Rate,CA,
+30,Younger,15 à 24 ans,2018,iva250_1,0.070807107794369,18.37745752859706,0.0453029859694134,0.0963112296193246,757,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA (without QC),*
+31,Younger,25 à 34 ans,2018,iva250_1,0.0586545183226201,16.114931601064452,0.0401286731487248,0.0771803634965155,1624,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA (without QC),
+32,Younger,>=35,2018,iva250_1,0.0563605543229088,5.298979187908172,0.0505070551585352,0.0622140534872824,11755,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA (without QC),
+33,Younger,15 à 24 ans,2018,iva250_2,0.0725520654396213,17.001446156498425,0.0483761050180868,0.0967280258611558,757,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA (without QC),*
+34,Younger,25 à 34 ans,2018,iva250_2,0.1012854665402203,10.79919325196759,0.0798473544728417,0.1227235786075989,1624,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA (without QC),
+35,Younger,>=35,2018,iva250_2,0.1266652538041952,3.456269515287533,0.1180847420707649,0.1352457655376254,11755,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA (without QC),
+36,Younger,15 à 24 ans,2018,iva250_3,0.167225658214839,11.819207060235664,0.1284874663188683,0.2059638501108097,757,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA (without QC),
+37,Younger,25 à 34 ans,2018,iva250_3,0.181236854518014,7.707018141990736,0.1538601613553729,0.2086135476806552,1624,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA (without QC),
+38,Younger,>=35,2018,iva250_3,0.1278587759275928,3.587652123141552,0.1188681700803102,0.1368493817748755,11755,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA (without QC),
+39,Younger,15 à 24 ans,2018,iva250_4,0.0870822301028663,14.27540202413717,0.0627172544832519,0.1114472057224807,757,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA (without QC),
+40,Younger,25 à 34 ans,2018,iva250_4,0.0885661654924372,11.489800560338518,0.0686214234616069,0.1085109075232675,1624,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA (without QC),
+41,Younger,>=35,2018,iva250_4,0.0899858168932479,4.404946011186108,0.0822168594146181,0.0977547743718777,11755,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA (without QC),
+42,Younger,15 à 24 ans,2018,iva250_5,0.0177617499340022,33.52135910279866,0.0060921636118264,0.0294313362561781,757,Projet économique/social,Younger Canadians Community Involvement Rate,CA (without QC),...
+43,Younger,25 à 34 ans,2018,iva250_5,0.0366599735600702,23.03884998266666,0.0201060465760606,0.0532139005440798,1624,Projet économique/social,Younger Canadians Community Involvement Rate,CA (without QC),*
+44,Younger,>=35,2018,iva250_5,0.0248659372502311,9.19086063018818,0.0203866480310989,0.0293452264693634,11755,Projet économique/social,Younger Canadians Community Involvement Rate,CA (without QC),
+45,Younger,15 à 24 ans,2018,iva3_190,0.0349163442639725,26.062667616388257,0.0170804157407135,0.0527522727872314,757,Autre,Younger Canadians Community Involvement Rate,CA (without QC),*
+46,Younger,25 à 34 ans,2018,iva3_190,0.0433881976110705,14.56515596344738,0.0310020902553909,0.0557743049667502,1624,Autre,Younger Canadians Community Involvement Rate,CA (without QC),
+47,Younger,>=35,2018,iva3_190,0.0400688501622303,5.44003794053898,0.0357965977910332,0.0443411025334275,11755,Autre,Younger Canadians Community Involvement Rate,CA (without QC),
+48,Younger2,15 à 34 ans,2018,iva250_1,0.0643000136867879,12.276005221714245,0.0488290908198539,0.0797709365537219,2381,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA (without QC),
+49,Younger2,>=35,2018,iva250_1,0.0563605543229088,5.298979187908172,0.0505070551585352,0.0622140534872824,11755,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,CA (without QC),
+50,Younger2,15 à 34 ans,2018,iva250_2,0.0879373415922572,9.079162055850178,0.0722890405872396,0.1035856425972748,2381,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA (without QC),
+51,Younger2,>=35,2018,iva250_2,0.1266652538041952,3.456269515287533,0.1180847420707649,0.1352457655376254,11755,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,CA (without QC),
+52,Younger2,15 à 34 ans,2018,iva250_3,0.1747279418323759,6.483114568291927,0.1525258370112083,0.1969300466535434,2381,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA (without QC),
+53,Younger2,>=35,2018,iva250_3,0.1278587759275928,3.587652123141552,0.1188681700803102,0.1368493817748755,11755,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,CA (without QC),
+54,Younger2,15 à 34 ans,2018,iva250_4,0.0878768020952763,9.104657127157918,0.0721953624615357,0.1035582417290168,2381,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA (without QC),
+55,Younger2,>=35,2018,iva250_4,0.0899858168932479,4.404946011186108,0.0822168594146181,0.0977547743718777,11755,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,CA (without QC),
+56,Younger2,15 à 34 ans,2018,iva250_5,0.0278807883403279,18.575534643244467,0.0177301240905371,0.0380314525901188,2381,Projet économique/social,Younger Canadians Community Involvement Rate,CA (without QC),*
+57,Younger2,>=35,2018,iva250_5,0.0248659372502311,9.19086063018818,0.0203866480310989,0.0293452264693634,11755,Projet économique/social,Younger Canadians Community Involvement Rate,CA (without QC),
+58,Younger2,15 à 34 ans,2018,iva3_190,0.0394525912196807,13.650726412566112,0.028897077214761,0.0500081052246005,2381,Autre,Younger Canadians Community Involvement Rate,CA (without QC),
+59,Younger2,>=35,2018,iva3_190,0.0400688501622303,5.44003794053898,0.0357965977910332,0.0443411025334275,11755,Autre,Younger Canadians Community Involvement Rate,CA (without QC),
+60,Younger,15 à 24 ans,2018,iva250_1,0.0884874192668887,36.81649183672606,0.0246357841350176,0.1523390543987599,74,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AB,...
+61,Younger,25 à 34 ans,2018,iva250_1,0.0645254874194572,27.73143704513008,0.0294541958278036,0.0995967790111108,205,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AB,*
+62,Younger,>=35,2018,iva250_1,0.0676769498875882,13.512503122971086,0.0497533733080657,0.0856005264671106,1133,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AB,
+63,Younger,15 à 24 ans,2018,iva250_1,0.0332750880429179,46.75135687835719,0.0027848002008443,0.0637653758849914,194,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AT,...
+64,Younger,25 à 34 ans,2018,iva250_1,0.0284332723207237,32.492176543222406,0.0103259705354063,0.0465405741060411,363,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AT,*
+65,Younger,>=35,2018,iva250_1,0.0498715491964344,10.039798640134167,0.0400580034146012,0.0596850949782676,3491,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AT,
+66,Younger,15 à 24 ans,2018,iva250_1,0.0728395758748417,38.3118570349934,0.018144440348093,0.1275347114015904,125,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,BC,...
+67,Younger,25 à 34 ans,2018,iva250_1,0.031082971410541,33.75606123160652,0.0105182710492676,0.0516476717718144,245,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,BC,...
+68,Younger,>=35,2018,iva250_1,0.0709749032554102,12.00735422228508,0.0542716824227621,0.0876781240880582,1807,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,BC,
+69,Younger,15 à 24 ans,2018,iva250_1,0.0700448627812934,30.149697774162004,0.0286537270747236,0.1114359984878633,226,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,ON,*
+70,Younger,25 à 34 ans,2018,iva250_1,0.0642219137557376,26.53687051257167,0.030819254804364,0.0976245727071112,509,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,ON,*
+71,Younger,>=35,2018,iva250_1,0.0464903233832565,8.944017343154881,0.0383405920701107,0.0546400546964024,3611,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,ON,
+72,Younger,15 à 24 ans,2018,iva250_1,0.0742180024568633,38.57241954164891,0.0181087821010383,0.1303272228126883,138,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,PR,...
+73,Younger,25 à 34 ans,2018,iva250_1,0.0894086053554299,21.91193503011874,0.0510106461269452,0.1278065645839145,302,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,PR,*
+74,Younger,>=35,2018,iva250_1,0.0730351824666241,10.906616890782455,0.0574227609614521,0.0886476039717961,1713,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,PR,
+75,Younger,15 à 24 ans,2018,iva250_1,0.0209298676398886,68.51251764640882,-0.0071751912634603,0.0490349265432376,88,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,QC,...
+76,Younger,25 à 34 ans,2018,iva250_1,0.0449411419186937,43.29211132961744,0.006808143017578,0.0830741408198093,222,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,QC,...
+77,Younger,>=35,2018,iva250_1,0.0278567508477432,16.538570187385005,0.0188269845247445,0.0368865171707419,1703,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,QC,*
+78,Younger,15 à 24 ans,2018,iva250_2,0.0605787594904139,63.326033191792206,-0.0146096245504653,0.1357671435312931,74,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AB,...
+79,Younger,25 à 34 ans,2018,iva250_2,0.095832997201843,22.770054125787198,0.0530641814501913,0.1386018129534946,205,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AB,*
+80,Younger,>=35,2018,iva250_2,0.1294548563215373,9.11981980367942,0.1063154242595175,0.1525942883835571,1133,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AB,
+81,Younger,15 à 24 ans,2018,iva250_2,0.0741828882857602,35.41926477086076,0.0226847687046347,0.1256810078668858,194,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AT,...
+82,Younger,25 à 34 ans,2018,iva250_2,0.1166989059678195,19.529335230410275,0.0720303064878133,0.1613675054478256,363,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AT,*
+83,Younger,>=35,2018,iva250_2,0.1163818607148066,5.957837819577886,0.1027917791152553,0.129971942314358,3491,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AT,
+84,Younger,15 à 24 ans,2018,iva250_2,0.0924263483219832,36.8214923520643,0.02572336290132,0.1591293337426463,125,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,BC,...
+85,Younger,25 à 34 ans,2018,iva250_2,0.1304860936970931,24.01194782983384,0.069076006764868,0.1918961806293183,245,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,BC,*
+86,Younger,>=35,2018,iva250_2,0.158000260953768,7.186770890900232,0.1357446410604482,0.1802558808470878,1807,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,BC,
+87,Younger,15 à 24 ans,2018,iva250_2,0.0684602270050966,25.950092296043064,0.0336405023334153,0.1032799516767778,226,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,ON,*
+88,Younger,25 à 34 ans,2018,iva250_2,0.0956397777603754,18.348333296867807,0.0612457316024576,0.1300338239182931,509,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,ON,*
+89,Younger,>=35,2018,iva250_2,0.1111664517448988,5.634756131548206,0.0988893187706399,0.1234435847191576,3611,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,ON,
+90,Younger,15 à 24 ans,2018,iva250_2,0.076809227466742,36.200587370196416,0.0223116615556629,0.1313067933778211,138,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,PR,...
+91,Younger,25 à 34 ans,2018,iva250_2,0.0786048687822317,19.89834436307928,0.0479489398486582,0.1092607977158052,302,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,PR,*
+92,Younger,>=35,2018,iva250_2,0.1609383704415667,7.441187444971842,0.1374663791545775,0.184410361728556,1713,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,PR,
+93,Younger,15 à 24 ans,2018,iva250_2,0.0255433313142288,51.668918760689145,-0.0003242010418837947,0.0514108636703415,88,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,QC,...
+94,Younger,25 à 34 ans,2018,iva250_2,0.1009044491258066,22.398120783996905,0.0566078903328416,0.1452010079187717,222,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,QC,*
+95,Younger,>=35,2018,iva250_2,0.0740658507486522,11.178262481848751,0.0578387695266034,0.0902929319707011,1703,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,QC,
+96,Younger,15 à 24 ans,2018,iva250_3,0.0907783481231695,44.28920722268644,0.0119779751264621,0.1695787211198769,74,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AB,...
+97,Younger,25 à 34 ans,2018,iva250_3,0.169641870377995,18.753833685078288,0.1072868818939428,0.2319968588620472,205,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AB,*
+98,Younger,>=35,2018,iva250_3,0.1227335335427277,10.121399009647932,0.0983861736683408,0.1470808934171146,1133,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AB,
+99,Younger,15 à 24 ans,2018,iva250_3,0.1616002834611299,21.65968598488364,0.0929974007395721,0.2302031661826876,194,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AT,*
+100,Younger,25 à 34 ans,2018,iva250_3,0.1736859694212102,16.140970949487375,0.1187391594397692,0.2286327794026511,363,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AT,
+101,Younger,>=35,2018,iva250_3,0.108733963155187,6.034280236688292,0.0958740278473452,0.1215938984630288,3491,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AT,
+102,Younger,15 à 24 ans,2018,iva250_3,0.134649884699338,26.81077266585984,0.0638938628978333,0.2054059065008427,125,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,BC,*
+103,Younger,25 à 34 ans,2018,iva250_3,0.2200630767009462,16.625224712118953,0.1483558715824073,0.2917702818194852,245,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,BC,*
+104,Younger,>=35,2018,iva250_3,0.1407192056376604,7.424654404975245,0.1202416691120693,0.1611967421632515,1807,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,BC,
+105,Younger,15 à 24 ans,2018,iva250_3,0.2058506176141986,16.446343029017317,0.1394962354615903,0.2722049997668069,226,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,ON,
+106,Younger,25 à 34 ans,2018,iva250_3,0.1809285549031849,12.39804908861301,0.1369634051256329,0.224893704680737,509,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,ON,
+107,Younger,>=35,2018,iva250_3,0.1287560924689854,5.856003406360507,0.1139780401488288,0.1435341447891419,3611,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,ON,
+108,Younger,15 à 24 ans,2018,iva250_3,0.136880790223733,27.732750456657318,0.0624789737670292,0.2112826066804368,138,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,PR,*
+109,Younger,25 à 34 ans,2018,iva250_3,0.1408329329298346,16.53828314252113,0.0951827273350173,0.186483138524652,302,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,PR,*
+110,Younger,>=35,2018,iva250_3,0.1247183417952698,7.9610282009886015,0.105258129158046,0.1441785544324936,1713,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,PR,
+111,Younger,15 à 24 ans,2018,iva250_3,0.2101673888859533,27.33748290347669,0.0975586890847141,0.3227760886871925,88,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,QC,*
+112,Younger,25 à 34 ans,2018,iva250_3,0.1681122332167678,16.75914737574045,0.1128918611566728,0.2233326052768627,222,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,QC,*
+113,Younger,>=35,2018,iva250_3,0.0845626965412116,8.106630351624283,0.0711267803948954,0.0979986126875279,1703,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,QC,
+114,Younger,15 à 24 ans,2018,iva250_4,0.0867434836844663,45.08636121001442,0.0100903106853387,0.1633966566835938,74,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AB,...
+115,Younger,25 à 34 ans,2018,iva250_4,0.0773990382281954,23.21577531422141,0.0421808632338817,0.112617213222509,205,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AB,*
+116,Younger,>=35,2018,iva250_4,0.1019318085543621,11.808226612472634,0.0783410177178352,0.125522599390889,1133,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AB,
+117,Younger,15 à 24 ans,2018,iva250_4,0.1315537754328903,23.30421235093807,0.0714660400616056,0.1916415108041749,194,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AT,*
+118,Younger,25 à 34 ans,2018,iva250_4,0.1073547362608253,21.42844869089226,0.0622668338061261,0.1524426387155245,363,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AT,*
+119,Younger,>=35,2018,iva250_4,0.0754269542531309,7.289022050182052,0.0646512931005805,0.0862026154056813,3491,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AT,
+120,Younger,15 à 24 ans,2018,iva250_4,0.1182276896967556,25.8196366491364,0.0583979077024349,0.1780574716910763,125,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,BC,*
+121,Younger,25 à 34 ans,2018,iva250_4,0.0824855547290926,22.234677449256427,0.04653903707589,0.1184320723822953,245,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,BC,*
+122,Younger,>=35,2018,iva250_4,0.091004917901116,9.967824778560344,0.073225671522682,0.10878416427955,1807,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,BC,
+123,Younger,15 à 24 ans,2018,iva250_4,0.0695939342303759,25.218420320824748,0.0351956042494277,0.1039922642113241,226,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,ON,*
+124,Younger,25 à 34 ans,2018,iva250_4,0.0857130174000469,20.010614636490715,0.0520962999802151,0.1193297348198787,509,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,ON,*
+125,Younger,>=35,2018,iva250_4,0.0866241217462388,6.84425799904171,0.0750039296457546,0.0982443138467229,3611,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,ON,
+126,Younger,15 à 24 ans,2018,iva250_4,0.0918279453057332,35.2901114361039,0.0283129913427228,0.1553428992687436,138,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,PR,...
+127,Younger,25 à 34 ans,2018,iva250_4,0.1223730671664265,22.442987189227605,0.0685442795982425,0.1762018547346105,302,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,PR,*
+128,Younger,>=35,2018,iva250_4,0.1038507407041417,9.33345365544691,0.0848530827182395,0.1228483986900438,1713,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,PR,
+129,Younger,15 à 24 ans,2018,iva250_4,0.1218632002440744,39.95579874822815,0.026429780413944,0.2172966200742047,88,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,QC,...
+130,Younger,25 à 34 ans,2018,iva250_4,0.0771132564888878,25.33490411388439,0.0388222837099426,0.1154042292678331,222,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,QC,*
+131,Younger,>=35,2018,iva250_4,0.0537839892592186,12.122228002276508,0.0410053811722798,0.0665625973461574,1703,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,QC,
+132,Younger,15 à 24 ans,2018,iva250_5,0.0,,0.0,0.0,74,Projet économique/social,Younger Canadians Community Involvement Rate,AB,
+133,Younger,25 à 34 ans,2018,iva250_5,0.0266635975207297,37.45413868850937,0.0070901804357412,0.0462370146057182,205,Projet économique/social,Younger Canadians Community Involvement Rate,AB,...
+134,Younger,>=35,2018,iva250_5,0.0165191512095264,24.49508216792614,0.0085883928038048,0.0244499096152481,1133,Projet économique/social,Younger Canadians Community Involvement Rate,AB,*
+135,Younger,15 à 24 ans,2018,iva250_5,0.028923408528075,74.11824343523398,-0.0130933631812052,0.0709401802373552,194,Projet économique/social,Younger Canadians Community Involvement Rate,AT,...
+136,Younger,25 à 34 ans,2018,iva250_5,0.0107296891817917,59.92545076795985,-0.0018725158775296,0.023331894241113,363,Projet économique/social,Younger Canadians Community Involvement Rate,AT,...
+137,Younger,>=35,2018,iva250_5,0.0219665799719253,13.331320193200485,0.0162269526222193,0.0277062073216314,3491,Projet économique/social,Younger Canadians Community Involvement Rate,AT,
+138,Younger,15 à 24 ans,2018,iva250_5,0.0179221441438827,64.30622671249259,-0.004666547879987,0.0405108361677525,125,Projet économique/social,Younger Canadians Community Involvement Rate,BC,...
+139,Younger,25 à 34 ans,2018,iva250_5,0.0493081746056105,41.40340993488535,0.0092949891705882,0.0893213600406328,245,Projet économique/social,Younger Canadians Community Involvement Rate,BC,...
+140,Younger,>=35,2018,iva250_5,0.0343765908751759,16.76433964599459,0.0230813018646402,0.0456718798857116,1807,Projet économique/social,Younger Canadians Community Involvement Rate,BC,*
+141,Younger,15 à 24 ans,2018,iva250_5,0.0220563358691469,46.9837823478387,0.0017454234499972,0.0423672482882966,226,Projet économique/social,Younger Canadians Community Involvement Rate,ON,...
+142,Younger,25 à 34 ans,2018,iva250_5,0.0403703544414141,34.86432099172053,0.0127841554360271,0.0679565534468011,509,Projet économique/social,Younger Canadians Community Involvement Rate,ON,...
+143,Younger,>=35,2018,iva250_5,0.0247898981286235,15.522659436204272,0.0172478558542339,0.0323319404030132,3611,Projet économique/social,Younger Canadians Community Involvement Rate,ON,
+144,Younger,15 à 24 ans,2018,iva250_5,0.0124733026681836,96.86097132468905,-0.0112065159581118,0.0361531212944792,138,Projet économique/social,Younger Canadians Community Involvement Rate,PR,...
+145,Younger,25 à 34 ans,2018,iva250_5,0.0321981920639249,33.868766092114434,0.0108245293194103,0.0535718548084395,302,Projet économique/social,Younger Canadians Community Involvement Rate,PR,...
+146,Younger,>=35,2018,iva250_5,0.0225418610432487,17.322496026227075,0.0148885682293137,0.0301951538571837,1713,Projet économique/social,Younger Canadians Community Involvement Rate,PR,*
+147,Younger,15 à 24 ans,2018,iva250_5,0.0158457603316499,67.30332935420788,-0.0050567151321904,0.0367482357954902,88,Projet économique/social,Younger Canadians Community Involvement Rate,QC,...
+148,Younger,25 à 34 ans,2018,iva250_5,0.02628500831759,41.29712148338916,0.0050096937026775,0.0475603229325024,222,Projet économique/social,Younger Canadians Community Involvement Rate,QC,...
+149,Younger,>=35,2018,iva250_5,0.0277596372887,18.056498287418652,0.0179354776872649,0.0375837968901352,1703,Projet économique/social,Younger Canadians Community Involvement Rate,QC,*
+150,Younger,15 à 24 ans,2018,iva3_190,0.0476645045231441,61.25216929648328,-0.0095577082754446,0.104886717321733,74,Autre,Younger Canadians Community Involvement Rate,AB,...
+151,Younger,25 à 34 ans,2018,iva3_190,0.0215432386052297,47.15437803091884,0.0016327873340217,0.0414536898764377,205,Autre,Younger Canadians Community Involvement Rate,AB,...
+152,Younger,>=35,2018,iva3_190,0.0511008583505085,13.847349107935957,0.0372319292642423,0.0649697874367747,1133,Autre,Younger Canadians Community Involvement Rate,AB,
+153,Younger,15 à 24 ans,2018,iva3_190,0.0200742969633442,61.281119870249626,-0.0040366977943528,0.0441852917210414,194,Autre,Younger Canadians Community Involvement Rate,AT,...
+154,Younger,25 à 34 ans,2018,iva3_190,0.0250844586184125,40.24931361289753,0.0052960303039603,0.0448728869328647,363,Autre,Younger Canadians Community Involvement Rate,AT,...
+155,Younger,>=35,2018,iva3_190,0.0336913656456229,11.21134433400059,0.0262880818590179,0.0410946494322279,3491,Autre,Younger Canadians Community Involvement Rate,AT,
+156,Younger,15 à 24 ans,2018,iva3_190,0.027896017196286,53.94007365948238,-0.0015958200328536,0.0573878544254257,125,Autre,Younger Canadians Community Involvement Rate,BC,...
+157,Younger,25 à 34 ans,2018,iva3_190,0.0590784620462983,33.02920260039091,0.0208334007731525,0.0973235233194441,245,Autre,Younger Canadians Community Involvement Rate,BC,*
+158,Younger,>=35,2018,iva3_190,0.0485521179361024,10.897751533046597,0.0381817737107647,0.0589224621614402,1807,Autre,Younger Canadians Community Involvement Rate,BC,
+159,Younger,15 à 24 ans,2018,iva3_190,0.0389719337730442,37.44179961098123,0.0103725443414511,0.0675713232046373,226,Autre,Younger Canadians Community Involvement Rate,ON,...
+160,Younger,25 à 34 ans,2018,iva3_190,0.0471939052392593,22.808146516609128,0.0260967450060483,0.0682910654724704,509,Autre,Younger Canadians Community Involvement Rate,ON,*
+161,Younger,>=35,2018,iva3_190,0.0343394215048326,9.064372973397274,0.0282387332539449,0.0404401097557203,3611,Autre,Younger Canadians Community Involvement Rate,ON,
+162,Younger,15 à 24 ans,2018,iva3_190,0.0170365708853071,76.10382876431167,-0.0083753083152436,0.042448450085858,138,Autre,Younger Canadians Community Involvement Rate,PR,...
+163,Younger,25 à 34 ans,2018,iva3_190,0.0497115510900574,31.54330203306596,0.018978013013318,0.0804450891667968,302,Autre,Younger Canadians Community Involvement Rate,PR,*
+164,Younger,>=35,2018,iva3_190,0.0448667633100773,15.430940026721707,0.0312972205151063,0.0584363061050484,1713,Autre,Younger Canadians Community Involvement Rate,PR,
+165,Younger,15 à 24 ans,2018,iva3_190,0.0085872997568373,105.77166480570156,-0.0092149157500032,0.026389515263678,88,Autre,Younger Canadians Community Involvement Rate,QC,...
+166,Younger,25 à 34 ans,2018,iva3_190,0.0384357088000292,35.04944914671389,0.0120320457307607,0.0648393718692977,222,Autre,Younger Canadians Community Involvement Rate,QC,...
+167,Younger,>=35,2018,iva3_190,0.0316885682756437,15.064059577919387,0.0223325139818081,0.0410446225694794,1703,Autre,Younger Canadians Community Involvement Rate,QC,
+168,Younger2,15 à 34 ans,2018,iva250_1,0.0746829338574544,23.132818481069176,0.040822071720035,0.1085437959948738,279,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AB,*
+169,Younger2,>=35,2018,iva250_1,0.0676769498875882,13.512503122971086,0.0497533733080657,0.0856005264671106,1133,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AB,
+170,Younger2,15 à 34 ans,2018,iva250_1,0.0307931627086044,28.562207631703068,0.0135548736164008,0.048031451800808,557,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AT,*
+171,Younger2,>=35,2018,iva250_1,0.0498715491964344,10.039798640134167,0.0400580034146012,0.0596850949782676,3491,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,AT,
+172,Younger2,15 à 34 ans,2018,iva250_1,0.0508189306871586,28.241053279572636,0.0226899170426028,0.0789479443317144,370,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,BC,*
+173,Younger2,>=35,2018,iva250_1,0.0709749032554102,12.00735422228508,0.0542716824227621,0.0876781240880582,1807,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,BC,
+174,Younger2,15 à 34 ans,2018,iva250_1,0.0669621269313441,19.85749731066661,0.0409004808220756,0.0930237730406125,735,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,ON,*
+175,Younger2,>=35,2018,iva250_1,0.0464903233832565,8.944017343154881,0.0383405920701107,0.0546400546964024,3611,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,ON,
+176,Younger2,15 à 34 ans,2018,iva250_1,0.0822752593519876,21.398088075550664,0.0477694417935026,0.1167810769104726,440,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,PR,*
+177,Younger2,>=35,2018,iva250_1,0.0730351824666241,10.906616890782455,0.0574227609614521,0.0886476039717961,1713,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,PR,
+178,Younger2,15 à 34 ans,2018,iva250_1,0.0341179952393824,37.13225766014981,0.0092876389858898,0.0589483514928749,310,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,QC,...
+179,Younger2,>=35,2018,iva250_1,0.0278567508477432,16.538570187385005,0.0188269845247445,0.0368865171707419,1703,"Entretenir des parcs, lieux publics",Younger Canadians Community Involvement Rate,QC,*
+180,Younger2,15 à 34 ans,2018,iva250_2,0.0808887500707568,25.1146494741046,0.041072226675422,0.1207052734660915,279,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AB,*
+181,Younger2,>=35,2018,iva250_2,0.1294548563215373,9.11981980367942,0.1063154242595175,0.1525942883835571,1133,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AB,
+182,Younger2,15 à 34 ans,2018,iva250_2,0.0959766919853782,18.651473514096995,0.0608912448212458,0.1310621391495106,557,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AT,*
+183,Younger2,>=35,2018,iva250_2,0.1163818607148066,5.957837819577886,0.1027917791152553,0.129971942314358,3491,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,AT,
+184,Younger2,15 à 34 ans,2018,iva250_2,0.1124974283245581,20.523732348088743,0.0672444645415489,0.1577503921075674,370,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,BC,*
+185,Younger2,>=35,2018,iva250_2,0.158000260953768,7.186770890900232,0.1357446410604482,0.1802558808470878,1807,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,BC,
+186,Younger2,15 à 34 ans,2018,iva250_2,0.0828493922083448,14.947570723278524,0.0585772540942426,0.1071215303224471,735,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,ON,
+187,Younger2,>=35,2018,iva250_2,0.1111664517448988,5.634756131548206,0.0988893187706399,0.1234435847191576,3611,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,ON,
+188,Younger2,15 à 34 ans,2018,iva250_2,0.0777616546657813,20.016751647149817,0.0472541149686024,0.1082691943629601,440,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,PR,*
+189,Younger2,>=35,2018,iva250_2,0.1609383704415667,7.441187444971842,0.1374663791545775,0.184410361728556,1713,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,PR,
+190,Younger2,15 à 34 ans,2018,iva250_2,0.0669352218985978,20.57462435920828,0.0399432437711515,0.093927200026044,310,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,QC,*
+191,Younger2,>=35,2018,iva250_2,0.0740658507486522,11.178262481848751,0.0578387695266034,0.0902929319707011,1703,Participer aux réunions publiques,Younger Canadians Community Involvement Rate,QC,
+192,Younger2,15 à 34 ans,2018,iva250_3,0.1362116775072538,18.28415298561411,0.0873984775383328,0.1850248774761749,279,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AB,*
+193,Younger2,>=35,2018,iva250_3,0.1227335335427277,10.121399009647932,0.0983861736683408,0.1470808934171146,1133,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AB,
+194,Younger2,15 à 34 ans,2018,iva250_3,0.1677954325308031,13.155875277432669,0.1245293102335994,0.2110615548280068,557,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AT,
+195,Younger2,>=35,2018,iva250_3,0.108733963155187,6.034280236688292,0.0958740278473452,0.1215938984630288,3491,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,AT,
+196,Younger2,15 à 34 ans,2018,iva250_3,0.179693144790634,14.691446375529557,0.1279510324470208,0.2314352571342471,370,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,BC,
+197,Younger2,>=35,2018,iva250_3,0.1407192056376604,7.424654404975245,0.1202416691120693,0.1611967421632515,1807,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,BC,
+198,Younger2,15 à 34 ans,2018,iva250_3,0.1926565924154988,9.949096231475744,0.1550888067846886,0.2302243780463089,735,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,ON,
+199,Younger2,>=35,2018,iva250_3,0.1287560924689854,5.856003406360507,0.1139780401488288,0.1435341447891419,3611,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,ON,
+200,Younger2,15 à 34 ans,2018,iva250_3,0.1389770486330853,16.262373900209,0.0946799667403095,0.1832741305258612,440,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,PR,
+201,Younger2,>=35,2018,iva250_3,0.1247183417952698,7.9610282009886015,0.105258129158046,0.1441785544324936,1713,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,PR,
+202,Younger2,15 à 34 ans,2018,iva250_3,0.1870687081269997,15.83841841820933,0.1289974747626699,0.2451399414913294,310,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,QC,
+203,Younger2,>=35,2018,iva250_3,0.0845626965412116,8.106630351624283,0.0711267803948954,0.0979986126875279,1703,Produire/diffuser de l'information,Younger Canadians Community Involvement Rate,QC,
+204,Younger2,15 à 34 ans,2018,iva250_4,0.081360142233465,24.07970855315692,0.0429619289712353,0.1197583554956947,279,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AB,*
+205,Younger2,>=35,2018,iva250_4,0.1019318085543621,11.808226612472634,0.0783410177178352,0.125522599390889,1133,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AB,
+206,Younger2,15 à 34 ans,2018,iva250_4,0.1191492949996747,16.06956039838761,0.0816223194478455,0.156676270551504,557,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AT,
+207,Younger2,>=35,2018,iva250_4,0.0754269542531309,7.289022050182052,0.0646512931005805,0.0862026154056813,3491,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,AT,
+208,Younger2,15 à 34 ans,2018,iva250_4,0.0993788181836018,17.832830377078825,0.0646442265398452,0.1341134098273585,370,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,BC,*
+209,Younger2,>=35,2018,iva250_4,0.091004917901116,9.967824778560344,0.073225671522682,0.10878416427955,1807,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,BC,
+210,Younger2,15 à 34 ans,2018,iva250_4,0.0781275613216275,15.74281025610047,0.0540210357691298,0.1022340868741252,735,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,ON,
+211,Younger2,>=35,2018,iva250_4,0.0866241217462388,6.84425799904171,0.0750039296457546,0.0982443138467229,3611,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,ON,
+212,Younger2,15 à 34 ans,2018,iva250_4,0.1080294019146547,19.77697886855804,0.0661548654857851,0.1499039383435242,440,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,PR,*
+213,Younger2,>=35,2018,iva250_4,0.1038507407041417,9.33345365544691,0.0848530827182395,0.1228483986900438,1713,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,PR,
+214,Younger2,15 à 34 ans,2018,iva250_4,0.0972844144011874,25.302663845265165,0.0490388261759393,0.1455300026264355,310,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,QC,*
+215,Younger2,>=35,2018,iva250_4,0.0537839892592186,12.122228002276508,0.0410053811722798,0.0665625973461574,1703,Organiser/coordonner des événements,Younger Canadians Community Involvement Rate,QC,
+216,Younger2,15 à 34 ans,2018,iva250_5,0.0153609168610249,37.45413871361708,0.0040846578154676,0.0266371759065822,279,Projet économique/social,Younger Canadians Community Involvement Rate,AB,...
+217,Younger2,>=35,2018,iva250_5,0.0165191512095264,24.49508216792614,0.0085883928038048,0.0244499096152481,1133,Projet économique/social,Younger Canadians Community Involvement Rate,AB,*
+218,Younger2,15 à 34 ans,2018,iva250_5,0.019597268178713,55.703781385886,-0.0017985207322176,0.0409930570896437,557,Projet économique/social,Younger Canadians Community Involvement Rate,AT,...
+219,Younger2,>=35,2018,iva250_5,0.0219665799719253,13.331320193200485,0.0162269526222193,0.0277062073216314,3491,Projet économique/social,Younger Canadians Community Involvement Rate,AT,
+220,Younger2,15 à 34 ans,2018,iva250_5,0.0344737926678522,33.74324242602672,0.0116743637710227,0.0572732215646817,370,Projet économique/social,Younger Canadians Community Involvement Rate,BC,...
+221,Younger2,>=35,2018,iva250_5,0.0343765908751759,16.76433964599459,0.0230813018646402,0.0456718798857116,1807,Projet économique/social,Younger Canadians Community Involvement Rate,BC,*
+222,Younger2,15 à 34 ans,2018,iva250_5,0.0317519868806166,27.712409196405492,0.0145057923459144,0.0489981814153187,735,Projet économique/social,Younger Canadians Community Involvement Rate,ON,*
+223,Younger2,>=35,2018,iva250_5,0.0247898981286235,15.522659436204272,0.0172478558542339,0.0323319404030132,3611,Projet économique/social,Younger Canadians Community Involvement Rate,ON,
+224,Younger2,15 à 34 ans,2018,iva250_5,0.0229355932138997,35.06224325745283,0.0071740852096431,0.0386971012181563,440,Projet économique/social,Younger Canadians Community Involvement Rate,PR,...
+225,Younger2,>=35,2018,iva250_5,0.0225418610432487,17.322496026227075,0.0148885682293137,0.0301951538571837,1713,Projet économique/social,Younger Canadians Community Involvement Rate,PR,*
+226,Younger2,15 à 34 ans,2018,iva250_5,0.0215794891160011,36.550468107555446,0.0061204607817442,0.037038517450258,310,Projet économique/social,Younger Canadians Community Involvement Rate,QC,...
+227,Younger2,>=35,2018,iva250_5,0.0277596372887,18.056498287418652,0.0179354776872649,0.0375837968901352,1703,Projet économique/social,Younger Canadians Community Involvement Rate,QC,*
+228,Younger2,15 à 34 ans,2018,iva3_190,0.0326160252713156,40.647260219335735,0.0066317622431576,0.0586002882994735,279,Autre,Younger Canadians Community Involvement Rate,AB,...
+229,Younger2,>=35,2018,iva3_190,0.0511008583505085,13.847349107935957,0.0372319292642423,0.0649697874367747,1133,Autre,Younger Canadians Community Involvement Rate,AB,
+230,Younger2,15 à 34 ans,2018,iva3_190,0.0226425167912324,34.35279405802487,0.0073972560924452,0.0378877774900197,557,Autre,Younger Canadians Community Involvement Rate,AT,...
+231,Younger2,>=35,2018,iva3_190,0.0336913656456229,11.21134433400059,0.0262880818590179,0.0410946494322279,3491,Autre,Younger Canadians Community Involvement Rate,AT,
+232,Younger2,15 à 34 ans,2018,iva3_190,0.044340303386119,28.1762546216904,0.0198536172500693,0.0688269895221686,370,Autre,Younger Canadians Community Involvement Rate,BC,*
+233,Younger2,>=35,2018,iva3_190,0.0485521179361024,10.897751533046597,0.0381817737107647,0.0589224621614402,1807,Autre,Younger Canadians Community Involvement Rate,BC,
+234,Younger2,15 à 34 ans,2018,iva3_190,0.0433247395566639,20.945844879931357,0.0255385902126782,0.0611108889006495,735,Autre,Younger Canadians Community Involvement Rate,ON,*
+235,Younger2,>=35,2018,iva3_190,0.0343394215048326,9.064372973397274,0.0282387332539449,0.0404401097557203,3611,Autre,Younger Canadians Community Involvement Rate,ON,
+236,Younger2,15 à 34 ans,2018,iva3_190,0.034367726950062,30.75714364694913,0.0136498666060083,0.0550855872941156,440,Autre,Younger Canadians Community Involvement Rate,PR,*
+237,Younger2,>=35,2018,iva3_190,0.0448667633100773,15.430940026721707,0.0312972205151063,0.0584363061050484,1713,Autre,Younger Canadians Community Involvement Rate,PR,
+238,Younger2,15 à 34 ans,2018,iva3_190,0.024981457873259,33.75575592018252,0.0084537088879047,0.0415092068586132,310,Autre,Younger Canadians Community Involvement Rate,QC,...
+239,Younger2,>=35,2018,iva3_190,0.0316885682756437,15.064059577919387,0.0223325139818081,0.0410446225694794,1703,Autre,Younger Canadians Community Involvement Rate,QC,

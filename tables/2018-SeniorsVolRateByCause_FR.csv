@@ -1,0 +1,601 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Senior,15 à 64 ans,2018,flag_vd1dex01,0.024943684511861,7.650200795201075,0.02120359901435,0.028683770009372,11304,Arts et culture,Older Canadians Volunteer Rate by Cause,CA,
+1,Senior,64 à 75 ans,2018,flag_vd1dex01,0.043880248085529,11.813398710387046,0.0337202874041783,0.0540402087668798,3019,Arts et culture,Older Canadians Volunteer Rate by Cause,CA,
+2,Senior,75 ans et plus,2018,flag_vd1dex01,0.0187946274982777,16.53241628206424,0.012704615534643,0.0248846394619125,1826,Arts et culture,Older Canadians Volunteer Rate by Cause,CA,*
+3,Senior,15 à 64 ans,2018,flag_vd1dex02,0.0931275927562832,4.029195844875329,0.0857732334252186,0.1004819520873479,11304,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA,
+4,Senior,64 à 75 ans,2018,flag_vd1dex02,0.0785812012096005,7.425003442685235,0.0671454838330244,0.0900169185861767,3019,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA,
+5,Senior,75 ans et plus,2018,flag_vd1dex02,0.0701700504361277,9.411992170018133,0.0572256649772365,0.083114435895019,1826,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA,
+6,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0798696491694716,4.616431692525034,0.0726430114810177,0.0870962868579255,11304,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA,
+7,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0230328903872807,14.180536874927425,0.0166312804916556,0.0294345002829058,3019,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA,
+8,Senior,75 ans et plus,2018,flag_vd1dex03,0.006966102203172,29.64616503417181,0.0029184195566783,0.0110137848496656,1826,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA,*
+9,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0238964607608329,9.99661648106336,0.0192144252276913,0.0285784962939746,11304,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA,
+10,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0053129118204313,21.69445168251688,0.003053843439982,0.0075719802008806,3019,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA,*
+11,Senior,75 ans et plus,2018,flag_vd1dex04,0.0035194244692602,31.43173649556452,0.0013512805084833,0.005687568430037,1826,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA,*
+12,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0434412863941336,5.5949209169588165,0.0386775829165511,0.0482049898717161,11304,Santé,Older Canadians Volunteer Rate by Cause,CA,
+13,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0412918252296733,10.671996261659206,0.0326549263296658,0.0499287241296809,3019,Santé,Older Canadians Volunteer Rate by Cause,CA,
+14,Senior,75 ans et plus,2018,flag_vd1dex05,0.0344441760523029,16.65369587710849,0.0232013751240367,0.045686976980569,1826,Santé,Older Canadians Volunteer Rate by Cause,CA,*
+15,Senior,15 à 64 ans,2018,flag_vd1dex06,0.017734110994536,9.30742413924211,0.014499016143188,0.0209692058458841,11304,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA,
+16,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0238824582683633,12.273810875645784,0.0181372398298249,0.0296276767069017,3019,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA,
+17,Senior,75 ans et plus,2018,flag_vd1dex06,0.0332468728023418,15.311703532401108,0.0232693574542101,0.0432243881504735,1826,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA,
+18,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1141990003871144,3.568098597291853,0.1062126705958645,0.1221853301783642,11304,Services sociaux,Older Canadians Volunteer Rate by Cause,CA,
+19,Senior,64 à 75 ans,2018,flag_vd1dex07,0.106414015561101,7.223208665431906,0.0913487398634068,0.1214792912587951,3019,Services sociaux,Older Canadians Volunteer Rate by Cause,CA,
+20,Senior,75 ans et plus,2018,flag_vd1dex07,0.0808342252926224,9.671467607302295,0.065511509263311,0.0961569413219337,1826,Services sociaux,Older Canadians Volunteer Rate by Cause,CA,
+21,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0264745923224798,6.95610737656116,0.0228651205524506,0.0300840640925089,11304,Environnement,Older Canadians Volunteer Rate by Cause,CA,
+22,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0252276474587894,11.929269009626957,0.0193291869432649,0.0311261079743139,3019,Environnement,Older Canadians Volunteer Rate by Cause,CA,
+23,Senior,75 ans et plus,2018,flag_vd1dex08,0.0141916114856943,30.05338516516302,0.0058322481583388,0.0225509748130498,1826,Environnement,Older Canadians Volunteer Rate by Cause,CA,*
+24,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0441590781627007,5.960158108619814,0.0390005492331224,0.049317607092279,11304,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA,
+25,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0497021844529571,11.7204316973976,0.0382847855155871,0.0611195833903271,3019,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA,
+26,Senior,75 ans et plus,2018,flag_vd1dex09,0.028795668853651,15.04317168432144,0.0203055323342939,0.037285805373008,1826,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA,
+27,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0164508628879646,11.586550132731334,0.0127150000840511,0.0201867256918781,11304,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA,
+28,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0200188807882615,15.005009794054615,0.0141314723278015,0.0259062892487215,3019,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA,
+29,Senior,75 ans et plus,2018,flag_vd1dex10,0.0130660414050229,21.77645244462277,0.0074893161063412,0.0186427667037045,1826,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA,*
+30,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0157462923087482,8.439994854048424,0.0131415271020986,0.0183510575153979,11304,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA,
+31,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0115167313823161,18.288735095372843,0.007388528831852,0.0156449339327802,3019,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA,*
+32,Senior,75 ans et plus,2018,flag_vd1dex11,0.0119630787731367,25.221835421017463,0.006049263685557,0.0178768938607164,1826,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA,*
+33,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0074410782717755,15.82417488642475,0.0051332417708354,0.0097489147727155,11304,International,Older Canadians Volunteer Rate by Cause,CA,
+34,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0091869679243982,37.00579661800119,0.0025236574622324,0.0158502783865639,3019,International,Older Canadians Volunteer Rate by Cause,CA,...
+35,Senior,75 ans et plus,2018,flag_vd1dex12,0.0039542721153105,36.72677645725847,0.0011078621263316,0.0068006821042894,1826,International,Older Canadians Volunteer Rate by Cause,CA,...
+36,Senior,15 à 64 ans,2018,flag_vd1dex13,0.0716667438627024,4.762228772470172,0.0649775155599175,0.0783559721654873,11304,Religion,Older Canadians Volunteer Rate by Cause,CA,
+37,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1021941849444124,6.754416486783016,0.088665296627697,0.1157230732611278,3019,Religion,Older Canadians Volunteer Rate by Cause,CA,
+38,Senior,75 ans et plus,2018,flag_vd1dex13,0.1047857021004605,7.889181120591979,0.0885832015293905,0.1209882026715304,1826,Religion,Older Canadians Volunteer Rate by Cause,CA,
+39,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0140418399973954,11.866522069505448,0.0107759950463446,0.0173076849484462,11304,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA,
+40,Senior,64 à 75 ans,2018,flag_vd1dex14,0.0086559547514913,20.13239992807977,0.0052404207146829,0.0120714887882998,3019,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA,*
+41,Senior,75 ans et plus,2018,flag_vd1dex14,0.0044853589681798,39.17576134259389,0.0010413621451163,0.0079293557912432,1826,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA,...
+42,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0034865374418792,19.626517805192247,0.0021453617387927,0.0048277131449658,11304,Autre,Older Canadians Volunteer Rate by Cause,CA,*
+43,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0026856151523911,36.53417415338932,0.0007625625485291395,0.0046086677562531,3019,Autre,Older Canadians Volunteer Rate by Cause,CA,...
+44,Senior,75 ans et plus,2018,flag_vd1dex15,0.0022769190746665,44.32759415990065,0.000298720669530011,0.0042551174798031,1826,Autre,Older Canadians Volunteer Rate by Cause,CA,...
+45,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.024943684511861,7.650200795201075,0.02120359901435,0.028683770009372,11304,Arts et culture,Older Canadians Volunteer Rate by Cause,CA,
+46,Senior2,65 ans et plus,2018,flag_vd1dex01,0.0335727649014688,9.677217031655484,0.0272050196392689,0.0399405101636687,4845,Arts et culture,Older Canadians Volunteer Rate by Cause,CA,
+47,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.0931275927562832,4.029195844875329,0.0857732334252186,0.1004819520873479,11304,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA,
+48,Senior2,65 ans et plus,2018,flag_vd1dex02,0.075125125851424,5.839221866613657,0.0665273072002291,0.0837229445026188,4845,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA,
+49,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0798696491694716,4.616431692525034,0.0726430114810177,0.0870962868579255,11304,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA,
+50,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0164311741389802,12.805125815388744,0.0123073461746528,0.0205550021033076,4845,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA,
+51,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0238964607608329,9.99661648106336,0.0192144252276913,0.0285784962939746,11304,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA,
+52,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0045759820463114,17.666829103969214,0.0029914865435408,0.006160477549082,4845,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA,*
+53,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0434412863941336,5.5949209169588165,0.0386775829165511,0.0482049898717161,11304,Santé,Older Canadians Volunteer Rate by Cause,CA,
+54,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0384781803170193,8.813034315166266,0.0318317557879006,0.045124604846138,4845,Santé,Older Canadians Volunteer Rate by Cause,CA,
+55,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.017734110994536,9.30742413924211,0.014499016143188,0.0209692058458841,11304,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA,
+56,Senior2,65 ans et plus,2018,flag_vd1dex06,0.027730222169672,9.58729319555907,0.0225195056213255,0.0329409387180185,4845,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA,
+57,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1141990003871144,3.568098597291853,0.1062126705958645,0.1221853301783642,11304,Services sociaux,Older Canadians Volunteer Rate by Cause,CA,
+58,Senior2,65 ans et plus,2018,flag_vd1dex07,0.0959034819617,5.89395363668168,0.0848247722842703,0.1069821916391296,4845,Services sociaux,Older Canadians Volunteer Rate by Cause,CA,
+59,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0264745923224798,6.95610737656116,0.0228651205524506,0.0300840640925089,11304,Environnement,Older Canadians Volunteer Rate by Cause,CA,
+60,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0206930275232088,11.811285898146949,0.0159026547712228,0.0254834002751947,4845,Environnement,Older Canadians Volunteer Rate by Cause,CA,
+61,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0441590781627007,5.960158108619814,0.0390005492331224,0.049317607092279,11304,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA,
+62,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0411118624703845,9.420861127330516,0.0335207426799749,0.0487029822607941,4845,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA,
+63,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0164508628879646,11.586550132731334,0.0127150000840511,0.0201867256918781,11304,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA,
+64,Senior2,65 ans et plus,2018,flag_vd1dex10,0.017162014051601,12.606043603434165,0.0129217280591212,0.0214023000440809,4845,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA,
+65,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0157462923087482,8.439994854048424,0.0131415271020986,0.0183510575153979,11304,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA,
+66,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0117001319965895,14.987355863401074,0.0082632559302738,0.0151370080629052,4845,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA,
+67,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0074410782717755,15.82417488642475,0.0051332417708354,0.0097489147727155,11304,International,Older Canadians Volunteer Rate by Cause,CA,
+68,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0070368945837018,29.79145858069505,0.0029280387571486,0.0111457504102549,4845,International,Older Canadians Volunteer Rate by Cause,CA,*
+69,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.0716667438627024,4.762228772470172,0.0649775155599175,0.0783559721654873,11304,Religion,Older Canadians Volunteer Rate by Cause,CA,
+70,Senior2,65 ans et plus,2018,flag_vd1dex13,0.103259018856504,5.018834656151314,0.0931017026320177,0.1134163350809903,4845,Religion,Older Canadians Volunteer Rate by Cause,CA,
+71,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0140418399973954,11.866522069505448,0.0107759950463446,0.0173076849484462,11304,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA,
+72,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0069422899149178,17.815489374531627,0.0045182007315468,0.0093663790982888,4845,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA,*
+73,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0034865374418792,19.626517805192247,0.0021453617387927,0.0048277131449658,11304,Autre,Older Canadians Volunteer Rate by Cause,CA,*
+74,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0025176851650151,28.04957615480994,0.001133558564443,0.0039018117655872,4845,Autre,Older Canadians Volunteer Rate by Cause,CA,*
+75,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0269798813809234,8.012696705399458,0.0227427997493247,0.0312169630125222,9905,Arts et culture,Older Canadians Volunteer Rate by Cause,CA (without QC),
+76,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0453435263015646,13.91049784361649,0.0329810333825856,0.0577060192205436,2647,Arts et culture,Older Canadians Volunteer Rate by Cause,CA (without QC),
+77,Senior,75 ans et plus,2018,flag_vd1dex01,0.0219131030823551,17.928808079895404,0.0142128785142578,0.0296133276504525,1584,Arts et culture,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+78,Senior,15 à 64 ans,2018,flag_vd1dex02,0.0993892927972444,4.219763740409601,0.0911692169008006,0.1076093686936883,9905,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA (without QC),
+79,Senior,64 à 75 ans,2018,flag_vd1dex02,0.0863774634983962,7.760811653401562,0.0732386641152859,0.0995162628815065,2647,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA (without QC),
+80,Senior,75 ans et plus,2018,flag_vd1dex02,0.072489478059188,10.022916403446738,0.0582492425488176,0.0867297135695583,1584,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA (without QC),
+81,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0874042902712996,4.62146644269761,0.0794872902597483,0.0953212902828509,9905,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA (without QC),
+82,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0266926462076233,15.604422286705812,0.0185289390822955,0.034856353332951,2647,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA (without QC),
+83,Senior,75 ans et plus,2018,flag_vd1dex03,0.0093263103521624,29.64616503760392,0.0039072189475828,0.014745401756742,1584,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+84,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0244236386962774,10.628519380562672,0.0193358246901176,0.0295114527024372,9905,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA (without QC),
+85,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0059598008048142,23.58004104412692,0.0032054174053757,0.0087141842042527,2647,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+86,Senior,75 ans et plus,2018,flag_vd1dex04,0.0044238615989812,33.21093294572904,0.0015442713229715,0.0073034518749909,1584,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+87,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0445053451725286,6.004739909725461,0.0392674781832019,0.0497432121618553,9905,Santé,Older Canadians Volunteer Rate by Cause,CA (without QC),
+88,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0460438652549691,10.710388138439864,0.036378348566185,0.0557093819437531,2647,Santé,Older Canadians Volunteer Rate by Cause,CA (without QC),
+89,Senior,75 ans et plus,2018,flag_vd1dex05,0.0324527958196489,18.288080384399635,0.0208204225336598,0.044085169105638,1584,Santé,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+90,Senior,15 à 64 ans,2018,flag_vd1dex06,0.020719708837135,9.809851197196934,0.016735939734558,0.0247034779397119,9905,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+91,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0282629574324082,13.422892877036723,0.0208274293244248,0.0356984855403916,2647,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+92,Senior,75 ans et plus,2018,flag_vd1dex06,0.0390128307625451,15.951960405177292,0.0268153647182517,0.0512102968068386,1584,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+93,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1182145374209653,3.909668745087708,0.1091559821065766,0.1272730927353541,9905,Services sociaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+94,Senior,64 à 75 ans,2018,flag_vd1dex07,0.1110579916620063,7.725927451927578,0.094240991347878,0.1278749919761347,2647,Services sociaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+95,Senior,75 ans et plus,2018,flag_vd1dex07,0.0853194038835973,10.959364709614793,0.0669928299511235,0.103645977816071,1584,Services sociaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+96,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0293689430970779,7.326514450093074,0.0251516496669581,0.0335862365271976,9905,Environnement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+97,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0310573239614847,12.57077802069955,0.0234053359525829,0.0387093119703865,2647,Environnement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+98,Senior,75 ans et plus,2018,flag_vd1dex08,0.0142187312484071,32.07034706141225,0.0052813024189534,0.0231561600778608,1584,Environnement,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+99,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0456957191497061,6.168868294713522,0.0401707595618922,0.05122067873752,9905,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+100,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0518470006099642,10.989330106016372,0.0406798352407084,0.06301416597922,2647,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+101,Senior,75 ans et plus,2018,flag_vd1dex09,0.0304977004416664,16.059167613898655,0.0208984302424188,0.040096970640914,1584,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+102,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0165896946968486,11.381930901930051,0.0128888366312501,0.020290552762447,9905,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA (without QC),
+103,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0191876917140871,16.358258836050094,0.013035811098917,0.0253395723292572,2647,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA (without QC),
+104,Senior,75 ans et plus,2018,flag_vd1dex10,0.0148840691526104,22.525117949412348,0.0083129878006877,0.021455150504533,1584,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA (without QC),*
+105,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0167037586661403,9.240219918623822,0.0136786247452694,0.0197288925870111,9905,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA (without QC),
+106,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0111157923978398,20.768127097007984,0.006591133430713,0.0156404513649667,2647,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA (without QC),*
+107,Senior,75 ans et plus,2018,flag_vd1dex11,0.0105503668402811,27.253816773288055,0.004914730209112,0.0161860034714501,1584,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA (without QC),*
+108,Senior,15 à 64 ans,2018,flag_vd1dex12,0.008167076860005,17.705743990464324,0.0053328871680023,0.0110012665520078,9905,International,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+109,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0103255067460272,42.514316749477445,0.0017216203051352,0.0189293931869192,2647,International,Older Canadians Volunteer Rate by Cause,CA (without QC),...
+110,Senior,75 ans et plus,2018,flag_vd1dex12,0.0052940321414599,36.72677646328887,0.0014832205603459,0.0091048437225739,1584,International,Older Canadians Volunteer Rate by Cause,CA (without QC),...
+111,Senior,15 à 64 ans,2018,flag_vd1dex13,0.083326412927265,4.899313791871599,0.0753250119735849,0.0913278138809452,9905,Religion,Older Canadians Volunteer Rate by Cause,CA (without QC),
+112,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1245169608722394,6.970484193156633,0.1075055807183047,0.1415283410261742,2647,Religion,Older Canadians Volunteer Rate by Cause,CA (without QC),
+113,Senior,75 ans et plus,2018,flag_vd1dex13,0.1200534264898594,8.447889968919505,0.1001755082653726,0.1399313447143462,1584,Religion,Older Canadians Volunteer Rate by Cause,CA (without QC),
+114,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0157023920304542,10.816270761316469,0.0123735632530742,0.0190312208078342,9905,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA (without QC),
+115,Senior,64 à 75 ans,2018,flag_vd1dex14,0.0088068279765142,21.62496070575524,0.005074129311873,0.0125395266411555,2647,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+116,Senior,75 ans et plus,2018,flag_vd1dex14,0.0060050582891321,39.17576134720348,0.0013941895004277,0.0106159270778365,1584,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA (without QC),...
+117,Senior,15 à 64 ans,2018,flag_vd1dex15,0.003959599162176,21.59466528765117,0.002283708073457,0.005635490250895,9905,Autre,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+118,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0035743927537168,36.53393358625795,0.0010149418865716,0.0061338436208619,2647,Autre,Older Canadians Volunteer Rate by Cause,CA (without QC),...
+119,Senior,75 ans et plus,2018,flag_vd1dex15,0.0025619827626412,48.82460416916696,0.00011030704581161192,0.0050136584794708,1584,Autre,Older Canadians Volunteer Rate by Cause,CA (without QC),...
+120,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0269798813809234,8.012696705399458,0.0227427997493247,0.0312169630125222,9905,Arts et culture,Older Canadians Volunteer Rate by Cause,CA (without QC),
+121,Senior2,65 ans et plus,2018,flag_vd1dex01,0.035749584627201,11.25561119148202,0.0278630144209554,0.0436361548334467,4231,Arts et culture,Older Canadians Volunteer Rate by Cause,CA (without QC),
+122,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.0993892927972444,4.219763740409601,0.0911692169008006,0.1076093686936883,9905,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA (without QC),
+123,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0806908175069172,5.979025983413456,0.0712349223722661,0.0901467126415682,4231,Sport et loisir,Older Canadians Volunteer Rate by Cause,CA (without QC),
+124,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0874042902712996,4.62146644269761,0.0794872902597483,0.0953212902828509,9905,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA (without QC),
+125,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0195817369536195,13.929847913012866,0.0142355310875358,0.0249279428197032,4231,Éducation et recherche,Older Canadians Volunteer Rate by Cause,CA (without QC),
+126,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0244236386962774,10.628519380562672,0.0193358246901176,0.0295114527024372,9905,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA (without QC),
+127,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0053308872329906,19.22715013206364,0.0033219678723837,0.0073398065935976,4231,Universités et collèges,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+128,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0445053451725286,6.004739909725461,0.0392674781832019,0.0497432121618553,9905,Santé,Older Canadians Volunteer Rate by Cause,CA (without QC),
+129,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0404787960184994,9.251160059845937,0.0331392047961477,0.0478183872408511,4231,Santé,Older Canadians Volunteer Rate by Cause,CA (without QC),
+130,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.020719708837135,9.809851197196934,0.016735939734558,0.0247034779397119,9905,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+131,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0326646558896335,10.220643928246355,0.0261212413176431,0.039208070461624,4231,Hôpitaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+132,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1182145374209653,3.909668745087708,0.1091559821065766,0.1272730927353541,9905,Services sociaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+133,Senior2,65 ans et plus,2018,flag_vd1dex07,0.1005189370484262,6.402430273469478,0.0879052853134259,0.1131325887834265,4231,Services sociaux,Older Canadians Volunteer Rate by Cause,CA (without QC),
+134,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0293689430970779,7.326514450093074,0.0251516496669581,0.0335862365271976,9905,Environnement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+135,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0241625071305542,12.285958266553337,0.0183441667831508,0.0299808474779576,4231,Environnement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+136,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0456957191497061,6.168868294713522,0.0401707595618922,0.05122067873752,9905,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+137,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0431052062903804,9.171680251221218,0.0353565441590191,0.0508538684217416,4231,Aménagement et logement,Older Canadians Volunteer Rate by Cause,CA (without QC),
+138,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0165896946968486,11.381930901930051,0.0128888366312501,0.020290552762447,9905,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA (without QC),
+139,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0174255082717738,13.374797146069389,0.0128575644996332,0.0219934520439144,4231,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,CA (without QC),
+140,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0167037586661403,9.240219918623822,0.0136786247452694,0.0197288925870111,9905,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA (without QC),
+141,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0108842703391189,16.75549724550101,0.0073098573319503,0.0144586833462876,4231,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,CA (without QC),*
+142,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.008167076860005,17.705743990464324,0.0053328871680023,0.0110012665520078,9905,International,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+143,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0082652932603107,32.984690007760484,0.002921879982702,0.0136087065379194,4231,International,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+144,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.083326412927265,4.899313791871599,0.0753250119735849,0.0913278138809452,9905,Religion,Older Canadians Volunteer Rate by Cause,CA (without QC),
+145,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1226892991127642,5.210179798088442,0.1101605565050726,0.1352180417204558,4231,Religion,Older Canadians Volunteer Rate by Cause,CA (without QC),
+146,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0157023920304542,10.816270761316469,0.0123735632530742,0.0190312208078342,9905,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA (without QC),
+147,Senior2,65 ans et plus,2018,flag_vd1dex14,0.007659600941208,18.842023947095544,0.0048309341861336,0.0104882676962825,4231,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+148,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.003959599162176,21.59466528765117,0.002283708073457,0.005635490250895,9905,Autre,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+149,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0031598461484741,29.217136219007124,0.0013503749536619,0.0049693173432864,4231,Autre,Older Canadians Volunteer Rate by Cause,CA (without QC),*
+150,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0245993029595404,20.792938837977733,0.0145742478585311,0.0346243580605498,1098,Arts et culture,Older Canadians Volunteer Rate by Cause,AB,*
+151,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0372897895105795,34.74982828137712,0.011892306073903,0.062687272947256,197,Arts et culture,Older Canadians Volunteer Rate by Cause,AB,...
+152,Senior,75 ans et plus,2018,flag_vd1dex01,0.0183829152818433,60.79768111187867,-0.0035223991712256,0.0402882297349124,117,Arts et culture,Older Canadians Volunteer Rate by Cause,AB,...
+153,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0387185154168716,14.508792536394468,0.0277082431499145,0.0497287876838287,2765,Arts et culture,Older Canadians Volunteer Rate by Cause,AT,
+154,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0440308381584154,21.840312458438287,0.0251828981416406,0.0628787781751902,835,Arts et culture,Older Canadians Volunteer Rate by Cause,AT,*
+155,Senior,75 ans et plus,2018,flag_vd1dex01,0.0332374110687054,31.94916909706468,0.0124244032546144,0.0540504188827963,448,Arts et culture,Older Canadians Volunteer Rate by Cause,AT,*
+156,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0315350343887503,18.56929518577019,0.0200578113890325,0.0430122573884682,1483,Arts et culture,Older Canadians Volunteer Rate by Cause,BC,*
+157,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0512156320983955,23.76245942880822,0.027362686564687,0.0750685776321041,431,Arts et culture,Older Canadians Volunteer Rate by Cause,BC,*
+158,Senior,75 ans et plus,2018,flag_vd1dex01,0.0225309962166449,32.886479032264745,0.0080083464394135,0.0370536459938764,263,Arts et culture,Older Canadians Volunteer Rate by Cause,BC,*
+159,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0207513912234065,15.82318444076409,0.0143157889029662,0.0271869935438468,3056,Arts et culture,Older Canadians Volunteer Rate by Cause,ON,
+160,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0454243653597664,23.388464275619445,0.0246015875196187,0.0662471431999141,795,Arts et culture,Older Canadians Volunteer Rate by Cause,ON,*
+161,Senior,75 ans et plus,2018,flag_vd1dex01,0.0219799975773865,28.34447197086252,0.0097691980228804,0.0341907971318926,495,Arts et culture,Older Canadians Volunteer Rate by Cause,ON,*
+162,Senior,15 à 64 ans,2018,flag_vd1dex01,0.04780406555413,14.978957918100674,0.0337696437541737,0.0618384873540862,1503,Arts et culture,Older Canadians Volunteer Rate by Cause,PR,
+163,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0448785018821827,28.260078796670552,0.0200208666659029,0.0697361370984625,389,Arts et culture,Older Canadians Volunteer Rate by Cause,PR,*
+164,Senior,75 ans et plus,2018,flag_vd1dex01,0.0113009578162943,58.58266261350518,-0.0016747916465269,0.0242767072791155,261,Arts et culture,Older Canadians Volunteer Rate by Cause,PR,...
+165,Senior,15 à 64 ans,2018,flag_vd1dex01,0.0178711752230985,21.00861964002063,0.010512515476151,0.025229834970046,1399,Arts et culture,Older Canadians Volunteer Rate by Cause,QC,*
+166,Senior,64 à 75 ans,2018,flag_vd1dex01,0.0394586670923902,23.07466953294034,0.0216132792256082,0.0573040549591723,372,Arts et culture,Older Canadians Volunteer Rate by Cause,QC,*
+167,Senior,75 ans et plus,2018,flag_vd1dex01,0.0095905157142929,48.53687348158444,0.00046700786615467074,0.0187140235624312,242,Arts et culture,Older Canadians Volunteer Rate by Cause,QC,...
+168,Senior,15 à 64 ans,2018,flag_vd1dex02,0.1310394489792975,9.550126817063768,0.1065116099188853,0.1555672880397098,1098,Sport et loisir,Older Canadians Volunteer Rate by Cause,AB,
+169,Senior,64 à 75 ans,2018,flag_vd1dex02,0.1095926171024684,22.1004478794971,0.062121389337332,0.1570638448676048,197,Sport et loisir,Older Canadians Volunteer Rate by Cause,AB,*
+170,Senior,75 ans et plus,2018,flag_vd1dex02,0.0777579315524047,27.86349832127499,0.035293195158825,0.1202226679459843,117,Sport et loisir,Older Canadians Volunteer Rate by Cause,AB,*
+171,Senior,15 à 64 ans,2018,flag_vd1dex02,0.1190183485196419,7.096763020013904,0.1024636104386733,0.1355730866006105,2765,Sport et loisir,Older Canadians Volunteer Rate by Cause,AT,
+172,Senior,64 à 75 ans,2018,flag_vd1dex02,0.108175790457256,12.547382189487957,0.0815727487676363,0.1347788321468758,835,Sport et loisir,Older Canadians Volunteer Rate by Cause,AT,
+173,Senior,75 ans et plus,2018,flag_vd1dex02,0.0829466696591256,18.100671725424604,0.0535199578027429,0.1123733815155082,448,Sport et loisir,Older Canadians Volunteer Rate by Cause,AT,*
+174,Senior,15 à 64 ans,2018,flag_vd1dex02,0.1028473062814879,9.099536397067334,0.0845047323225471,0.1211898802404286,1483,Sport et loisir,Older Canadians Volunteer Rate by Cause,BC,
+175,Senior,64 à 75 ans,2018,flag_vd1dex02,0.085231906156787,17.443496329993184,0.0560922897459287,0.1143715225676453,431,Sport et loisir,Older Canadians Volunteer Rate by Cause,BC,*
+176,Senior,75 ans et plus,2018,flag_vd1dex02,0.0644972523219729,25.181473919999668,0.0326647740677342,0.0963297305762116,263,Sport et loisir,Older Canadians Volunteer Rate by Cause,BC,*
+177,Senior,15 à 64 ans,2018,flag_vd1dex02,0.0815617139580806,7.772884017307508,0.0691361353253596,0.0939872925908017,3056,Sport et loisir,Older Canadians Volunteer Rate by Cause,ON,
+178,Senior,64 à 75 ans,2018,flag_vd1dex02,0.0746151509616493,12.881207661895258,0.0557772853347024,0.0934530165885962,795,Sport et loisir,Older Canadians Volunteer Rate by Cause,ON,
+179,Senior,75 ans et plus,2018,flag_vd1dex02,0.0690960901156114,15.790055465363068,0.04771227358632,0.0904799066449027,495,Sport et loisir,Older Canadians Volunteer Rate by Cause,ON,
+180,Senior,15 à 64 ans,2018,flag_vd1dex02,0.1211054234432037,8.794873164747624,0.1002297130069084,0.141981133879499,1503,Sport et loisir,Older Canadians Volunteer Rate by Cause,PR,
+181,Senior,64 à 75 ans,2018,flag_vd1dex02,0.0990263219894988,16.867124204922156,0.0662892538098143,0.1317633901691833,389,Sport et loisir,Older Canadians Volunteer Rate by Cause,PR,*
+182,Senior,75 ans et plus,2018,flag_vd1dex02,0.0943700571348202,21.528954325776013,0.0545496913212143,0.1341904229484261,261,Sport et loisir,Older Canadians Volunteer Rate by Cause,PR,*
+183,Senior,15 à 64 ans,2018,flag_vd1dex02,0.0713782558547225,10.536429344133747,0.0566379165062869,0.0861185952031581,1399,Sport et loisir,Older Canadians Volunteer Rate by Cause,QC,
+184,Senior,64 à 75 ans,2018,flag_vd1dex02,0.055023271640296,20.08259148082468,0.033365475843395,0.0766810674371971,372,Sport et loisir,Older Canadians Volunteer Rate by Cause,QC,*
+185,Senior,75 ans et plus,2018,flag_vd1dex02,0.0633243110541969,24.194044814227933,0.0332962669349764,0.0933523551734174,242,Sport et loisir,Older Canadians Volunteer Rate by Cause,QC,*
+186,Senior,15 à 64 ans,2018,flag_vd1dex03,0.1135220792081619,11.164254847001288,0.0886817029726808,0.1383624554436431,1098,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AB,
+187,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0453434868771929,36.10210119120931,0.0132589714771133,0.0774280022772725,197,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AB,...
+188,Senior,75 ans et plus,2018,flag_vd1dex03,0.0157056145390728,102.1045149106893,-0.0157246453280853,0.0471358744062311,117,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AB,...
+189,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0852492896319778,8.470453097777902,0.0710963875545011,0.0994021917094545,2765,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AT,
+190,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0401326598012339,20.103288063598924,0.0243197013268406,0.0559456182756272,835,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AT,*
+191,Senior,75 ans et plus,2018,flag_vd1dex03,0.014653919729906,41.43104699382015,0.0027544445448941,0.026553394914918,448,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AT,...
+192,Senior,15 à 64 ans,2018,flag_vd1dex03,0.1016618675825915,10.274280994861329,0.0811899929224887,0.1221337422426943,1483,Éducation et recherche,Older Canadians Volunteer Rate by Cause,BC,
+193,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0343708142435837,39.65987151071795,0.0076537204837343,0.0610879080034331,431,Éducation et recherche,Older Canadians Volunteer Rate by Cause,BC,...
+194,Senior,75 ans et plus,2018,flag_vd1dex03,0.016365695505973,47.87322266285127,0.0010097974135875,0.0317215935983585,263,Éducation et recherche,Older Canadians Volunteer Rate by Cause,BC,...
+195,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0735734706583379,7.299667414022151,0.0630472515041361,0.0840996898125398,3056,Éducation et recherche,Older Canadians Volunteer Rate by Cause,ON,
+196,Senior,64 à 75 ans,2018,flag_vd1dex03,0.016665605716888,28.930931580715708,0.007215609990537,0.0261156014432389,795,Éducation et recherche,Older Canadians Volunteer Rate by Cause,ON,*
+197,Senior,75 ans et plus,2018,flag_vd1dex03,0.0052232218373828,46.21355251967744,0.0004921894934150021,0.0099542541813506,495,Éducation et recherche,Older Canadians Volunteer Rate by Cause,ON,...
+198,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0950483459073234,9.618095907510476,0.0771306666619116,0.1129660251527353,1503,Éducation et recherche,Older Canadians Volunteer Rate by Cause,PR,
+199,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0254236568873586,31.43879216331038,0.0097578790826972,0.0410894346920201,389,Éducation et recherche,Older Canadians Volunteer Rate by Cause,PR,*
+200,Senior,75 ans et plus,2018,flag_vd1dex03,0.0040817107190976,74.09685406798066,-0.001846042055666,0.0100094634938613,261,Éducation et recherche,Older Canadians Volunteer Rate by Cause,PR,...
+201,Senior,15 à 64 ans,2018,flag_vd1dex03,0.0536988893623875,14.70146230078526,0.038225910615146,0.069171868109629,1399,Éducation et recherche,Older Canadians Volunteer Rate by Cause,QC,
+202,Senior,64 à 75 ans,2018,flag_vd1dex03,0.0119742232128339,35.866423419048544,0.0035567157159839,0.0203917307096838,372,Éducation et recherche,Older Canadians Volunteer Rate by Cause,QC,...
+203,Senior,75 ans et plus,2018,flag_vd1dex03,0.0,,0.0,0.0,242,Éducation et recherche,Older Canadians Volunteer Rate by Cause,QC,
+204,Senior,15 à 64 ans,2018,flag_vd1dex04,0.014449843277293,30.17014578199578,0.0059053042753101,0.022994382279276,1098,Universités et collèges,Older Canadians Volunteer Rate by Cause,AB,*
+205,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0128473890088043,50.68021942905533,8.58970250131267e-05,0.0256088809925956,197,Universités et collèges,Older Canadians Volunteer Rate by Cause,AB,...
+206,Senior,75 ans et plus,2018,flag_vd1dex04,0.0,,0.0,0.0,117,Universités et collèges,Older Canadians Volunteer Rate by Cause,AB,
+207,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0128576708053275,21.825223524363658,0.007357589701618,0.018357751909037,2765,Universités et collèges,Older Canadians Volunteer Rate by Cause,AT,*
+208,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0048897116797237,45.02488790335659,0.000574680053817272,0.0092047433056301,835,Universités et collèges,Older Canadians Volunteer Rate by Cause,AT,...
+209,Senior,75 ans et plus,2018,flag_vd1dex04,0.0030465343138373,70.07100657086622,-0.0011374738307143,0.007230542458389,448,Universités et collèges,Older Canadians Volunteer Rate by Cause,AT,...
+210,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0188700482952867,21.922119765297943,0.0107622366903231,0.0269778599002503,1483,Universités et collèges,Older Canadians Volunteer Rate by Cause,BC,*
+211,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0061523434746531,43.33744049093623,0.0009265538449618496,0.0113781331043444,431,Universités et collèges,Older Canadians Volunteer Rate by Cause,BC,...
+212,Senior,75 ans et plus,2018,flag_vd1dex04,0.0059387914923897,57.13050812328285,-0.0007110953538633025,0.0125886783386427,263,Universités et collèges,Older Canadians Volunteer Rate by Cause,BC,...
+213,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0314040057879146,14.052594785613884,0.0227545324744773,0.0400534791013519,3056,Universités et collèges,Older Canadians Volunteer Rate by Cause,ON,
+214,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0027739024804215,52.474354827254565,-7.899645899896472e-05,0.0056268014198421,795,Universités et collèges,Older Canadians Volunteer Rate by Cause,ON,...
+215,Senior,75 ans et plus,2018,flag_vd1dex04,0.0045015548084429,50.96746205144756,4.754091841919529e-06,0.0089983555250438,495,Universités et collèges,Older Canadians Volunteer Rate by Cause,ON,...
+216,Senior,15 à 64 ans,2018,flag_vd1dex04,0.023426380901168,27.331500946396552,0.0108771597255792,0.0359756020767567,1503,Universités et collèges,Older Canadians Volunteer Rate by Cause,PR,*
+217,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0166108638610407,53.92673625986357,-0.0009458991432546582,0.034167626865336,389,Universités et collèges,Older Canadians Volunteer Rate by Cause,PR,...
+218,Senior,75 ans et plus,2018,flag_vd1dex04,0.007903413850873,72.9915347114952,-0.003403271588443,0.019210099290189,261,Universités et collèges,Older Canadians Volunteer Rate by Cause,PR,...
+219,Senior,15 à 64 ans,2018,flag_vd1dex04,0.0220653652995289,27.57589453869672,0.010139529589016,0.0339912010100418,1399,Universités et collèges,Older Canadians Volunteer Rate by Cause,QC,*
+220,Senior,64 à 75 ans,2018,flag_vd1dex04,0.0033582103790558,58.02290407315206,-0.0004608405698530867,0.0071772613279647,372,Universités et collèges,Older Canadians Volunteer Rate by Cause,QC,...
+221,Senior,75 ans et plus,2018,flag_vd1dex04,0.0008499982643403639,103.34505270848426,-0.0008716951609929336,0.0025716916896736,242,Universités et collèges,Older Canadians Volunteer Rate by Cause,QC,...
+222,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0320170923658005,16.646987007122142,0.0215707171597851,0.0424634675718159,1098,Santé,Older Canadians Volunteer Rate by Cause,AB,*
+223,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0418421268196694,33.89106630285558,0.0140483813774099,0.0696358722619289,197,Santé,Older Canadians Volunteer Rate by Cause,AB,...
+224,Senior,75 ans et plus,2018,flag_vd1dex05,0.0353064536176732,73.72711301374989,-0.0157122496457595,0.086325156881106,117,Santé,Older Canadians Volunteer Rate by Cause,AB,...
+225,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0493100694076952,9.993051136144548,0.03965218919246,0.0589679496229303,2765,Santé,Older Canadians Volunteer Rate by Cause,AT,
+226,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0473297943446549,19.641075851764068,0.0291098107641544,0.0655497779251555,835,Santé,Older Canadians Volunteer Rate by Cause,AT,*
+227,Senior,75 ans et plus,2018,flag_vd1dex05,0.0350626868597353,26.197340811834486,0.0170594541935541,0.0530659195259165,448,Santé,Older Canadians Volunteer Rate by Cause,AT,*
+228,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0355370370611866,14.44890817063484,0.0254731828412584,0.0456008912811148,1483,Santé,Older Canadians Volunteer Rate by Cause,BC,
+229,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0499085459558691,23.734912108818204,0.0266913035318536,0.0731257883798846,431,Santé,Older Canadians Volunteer Rate by Cause,BC,*
+230,Senior,75 ans et plus,2018,flag_vd1dex05,0.041042472609377,33.87756170677539,0.0137907629660514,0.0682941822527025,263,Santé,Older Canadians Volunteer Rate by Cause,BC,...
+231,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0503061057879191,9.388369955700831,0.0410493461756897,0.0595628654001485,3056,Santé,Older Canadians Volunteer Rate by Cause,ON,
+232,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0444459319074859,16.90982445283622,0.0297153736284382,0.0591764901865336,795,Santé,Older Canadians Volunteer Rate by Cause,ON,*
+233,Senior,75 ans et plus,2018,flag_vd1dex05,0.0276012404553361,30.02688126493297,0.0113574672135881,0.0438450136970841,495,Santé,Older Canadians Volunteer Rate by Cause,ON,*
+234,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0462816538746545,14.107344858405718,0.0334848284878333,0.0590784792614757,1503,Santé,Older Canadians Volunteer Rate by Cause,PR,
+235,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0516537538945833,22.28041422130688,0.029097174540646,0.0742103332485205,389,Santé,Older Canadians Volunteer Rate by Cause,PR,*
+236,Senior,75 ans et plus,2018,flag_vd1dex05,0.0363711697405099,33.61586147916239,0.0124077052877752,0.0603346341932446,261,Santé,Older Canadians Volunteer Rate by Cause,PR,...
+237,Senior,15 à 64 ans,2018,flag_vd1dex05,0.0397453934732036,15.578645700381989,0.0276097001719438,0.0518810867744634,1399,Santé,Older Canadians Volunteer Rate by Cause,QC,
+238,Senior,64 à 75 ans,2018,flag_vd1dex05,0.0269326079432926,32.286527886109724,0.0098895373302964,0.0439756785562888,372,Santé,Older Canadians Volunteer Rate by Cause,QC,*
+239,Senior,75 ans et plus,2018,flag_vd1dex05,0.0403216908096253,37.4101692904588,0.0107567850080839,0.0698865966111668,242,Santé,Older Canadians Volunteer Rate by Cause,QC,...
+240,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0136884252820004,30.85657399011102,0.0054099704159123,0.0219668801480885,1098,Hôpitaux,Older Canadians Volunteer Rate by Cause,AB,*
+241,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0172816312251322,59.43043126294704,-0.0028482728904405,0.0374115353407051,197,Hôpitaux,Older Canadians Volunteer Rate by Cause,AB,...
+242,Senior,75 ans et plus,2018,flag_vd1dex06,0.03128508752626,53.14067398080863,-0.0012995221920908,0.0638696972446108,117,Hôpitaux,Older Canadians Volunteer Rate by Cause,AB,...
+243,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0186893262693962,19.24624876444357,0.011639347133433,0.0257393054053595,2765,Hôpitaux,Older Canadians Volunteer Rate by Cause,AT,*
+244,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0254697602658385,21.881733638260084,0.0145464397927424,0.0363930807389346,835,Hôpitaux,Older Canadians Volunteer Rate by Cause,AT,*
+245,Senior,75 ans et plus,2018,flag_vd1dex06,0.0370844864058078,24.239938141327254,0.0194658672910159,0.0547031055205996,448,Hôpitaux,Older Canadians Volunteer Rate by Cause,AT,*
+246,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0291965484790879,21.47152564687329,0.0169096432444129,0.041483453713763,1483,Hôpitaux,Older Canadians Volunteer Rate by Cause,BC,*
+247,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0252856372167161,26.86993913486148,0.0119691806674392,0.038602093765993,431,Hôpitaux,Older Canadians Volunteer Rate by Cause,BC,*
+248,Senior,75 ans et plus,2018,flag_vd1dex06,0.0599483276909784,33.15583135325589,0.0209913653479541,0.0989052900340027,263,Hôpitaux,Older Canadians Volunteer Rate by Cause,BC,*
+249,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0203275678369994,14.273184956501645,0.0146409452770583,0.0260141903969405,3056,Hôpitaux,Older Canadians Volunteer Rate by Cause,ON,
+250,Senior,64 à 75 ans,2018,flag_vd1dex06,0.0331034752219032,19.85332268731524,0.0202223179977603,0.045984632446046,795,Hôpitaux,Older Canadians Volunteer Rate by Cause,ON,*
+251,Senior,75 ans et plus,2018,flag_vd1dex06,0.0349684613907776,23.51286107233563,0.0188534694509216,0.0510834533306336,495,Hôpitaux,Older Canadians Volunteer Rate by Cause,ON,*
+252,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0210526754536632,23.062834605275736,0.0115363766301674,0.0305689742771591,1503,Hôpitaux,Older Canadians Volunteer Rate by Cause,PR,*
+253,Senior,64 à 75 ans,2018,flag_vd1dex06,0.025208255750035,31.35501692329374,0.0097165968194124,0.0406999146806576,389,Hôpitaux,Older Canadians Volunteer Rate by Cause,PR,*
+254,Senior,75 ans et plus,2018,flag_vd1dex06,0.0275821319814752,35.065162471974304,0.0086259103035218,0.0465383536594287,261,Hôpitaux,Older Canadians Volunteer Rate by Cause,PR,...
+255,Senior,15 à 64 ans,2018,flag_vd1dex06,0.0073639602516891,24.68426510872256,0.0038012563551975,0.0109266641481806,1399,Hôpitaux,Older Canadians Volunteer Rate by Cause,QC,*
+256,Senior,64 à 75 ans,2018,flag_vd1dex06,0.010645924277803,36.46008722324024,0.0030382980485711,0.018253550507035,372,Hôpitaux,Older Canadians Volunteer Rate by Cause,QC,...
+257,Senior,75 ans et plus,2018,flag_vd1dex06,0.0162287752810911,50.236885962837285,0.0002495195000527077,0.0322080310621295,242,Hôpitaux,Older Canadians Volunteer Rate by Cause,QC,...
+258,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1285689684156569,9.813919504352665,0.1038388189132449,0.153299117918069,1098,Services sociaux,Older Canadians Volunteer Rate by Cause,AB,
+259,Senior,64 à 75 ans,2018,flag_vd1dex07,0.1085694749493261,21.3424911316527,0.0631543055760814,0.1539846443225708,197,Services sociaux,Older Canadians Volunteer Rate by Cause,AB,*
+260,Senior,75 ans et plus,2018,flag_vd1dex07,0.1057743900466162,35.267155515977585,0.0326606410313179,0.1788881390619145,117,Services sociaux,Older Canadians Volunteer Rate by Cause,AB,...
+261,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1390520179710311,6.332772388539872,0.121792873430127,0.1563111625119352,2765,Services sociaux,Older Canadians Volunteer Rate by Cause,AT,
+262,Senior,64 à 75 ans,2018,flag_vd1dex07,0.1343289225605275,11.50971177915207,0.1040261706183334,0.1646316745027216,835,Services sociaux,Older Canadians Volunteer Rate by Cause,AT,
+263,Senior,75 ans et plus,2018,flag_vd1dex07,0.0876754807804168,17.776187366047193,0.0571287409285294,0.1182222206323043,448,Services sociaux,Older Canadians Volunteer Rate by Cause,AT,*
+264,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1190934638935731,8.635344822942002,0.0989369369944508,0.1392499907926954,1483,Services sociaux,Older Canadians Volunteer Rate by Cause,BC,
+265,Senior,64 à 75 ans,2018,flag_vd1dex07,0.1343526610745499,15.90078017805182,0.0924817127275681,0.1762236094215316,431,Services sociaux,Older Canadians Volunteer Rate by Cause,BC,
+266,Senior,75 ans et plus,2018,flag_vd1dex07,0.0757876589414015,23.137953662334137,0.0414182922192319,0.1101570256635712,263,Services sociaux,Older Canadians Volunteer Rate by Cause,BC,*
+267,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1056585823495572,6.363157895400394,0.0924813085366149,0.1188358561624994,3056,Services sociaux,Older Canadians Volunteer Rate by Cause,ON,
+268,Senior,64 à 75 ans,2018,flag_vd1dex07,0.1016628613057915,13.143734545640257,0.0754732411768404,0.1278524814347427,795,Services sociaux,Older Canadians Volunteer Rate by Cause,ON,
+269,Senior,75 ans et plus,2018,flag_vd1dex07,0.0801105028980159,16.167064658519443,0.0547259964213473,0.1054950093746844,495,Services sociaux,Older Canadians Volunteer Rate by Cause,ON,
+270,Senior,15 à 64 ans,2018,flag_vd1dex07,0.151640875817157,8.04057996380829,0.1277434154259891,0.1755383362083248,1503,Services sociaux,Older Canadians Volunteer Rate by Cause,PR,
+271,Senior,64 à 75 ans,2018,flag_vd1dex07,0.0876305285115024,17.277433747670365,0.0579560730442408,0.1173049839787639,389,Services sociaux,Older Canadians Volunteer Rate by Cause,PR,*
+272,Senior,75 ans et plus,2018,flag_vd1dex07,0.1117825286013451,20.848203479651332,0.0661062558546829,0.1574588013480074,261,Services sociaux,Older Canadians Volunteer Rate by Cause,PR,*
+273,Senior,15 à 64 ans,2018,flag_vd1dex07,0.1002514674138625,8.789620004047675,0.0829808076251665,0.1175221272025585,1399,Services sociaux,Older Canadians Volunteer Rate by Cause,QC,
+274,Senior,64 à 75 ans,2018,flag_vd1dex07,0.0923813345334386,20.03147708603992,0.0561115231286476,0.1286511459382296,372,Services sociaux,Older Canadians Volunteer Rate by Cause,QC,*
+275,Senior,75 ans et plus,2018,flag_vd1dex07,0.0675963197809518,20.769368348964896,0.0400797412683561,0.0951128982935476,242,Services sociaux,Older Canadians Volunteer Rate by Cause,QC,*
+276,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0261771823373529,20.270984161759998,0.0157768833770229,0.0365774812976828,1098,Environnement,Older Canadians Volunteer Rate by Cause,AB,*
+277,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0397574095044784,32.06232204684281,0.0147734572001972,0.0647413618087596,197,Environnement,Older Canadians Volunteer Rate by Cause,AB,*
+278,Senior,75 ans et plus,2018,flag_vd1dex08,0.0040016288186286,100.31991437689716,-0.0038665105846845,0.0118697682219417,117,Environnement,Older Canadians Volunteer Rate by Cause,AB,...
+279,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0363406960157958,13.201153498439128,0.0269379823116866,0.045743409719905,2765,Environnement,Older Canadians Volunteer Rate by Cause,AT,
+280,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0352724623625055,18.112324253148945,0.0227509134530059,0.047794011272005,835,Environnement,Older Canadians Volunteer Rate by Cause,AT,*
+281,Senior,75 ans et plus,2018,flag_vd1dex08,0.0050381633687404,60.4077532628267,-0.0009268719619844548,0.0110031986994653,448,Environnement,Older Canadians Volunteer Rate by Cause,AT,...
+282,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0398973797152969,14.425489660107887,0.0286170179228519,0.0511777415077418,1483,Environnement,Older Canadians Volunteer Rate by Cause,BC,
+283,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0480193610400329,25.23287845787442,0.0242711300927085,0.0717675919873573,431,Environnement,Older Canadians Volunteer Rate by Cause,BC,*
+284,Senior,75 ans et plus,2018,flag_vd1dex08,0.0279134563495463,46.15886763899064,0.002660231067099,0.0531666816319937,263,Environnement,Older Canadians Volunteer Rate by Cause,BC,...
+285,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0253238761403996,12.59713789331597,0.0190714271819438,0.0315763250988554,3056,Environnement,Older Canadians Volunteer Rate by Cause,ON,
+286,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0204249872470503,25.420653040132013,0.0102485305678008,0.0306014439262999,795,Environnement,Older Canadians Volunteer Rate by Cause,ON,*
+287,Senior,75 ans et plus,2018,flag_vd1dex08,0.0135414449632537,54.49261586818013,-0.0009213009456935356,0.028004190872201,495,Environnement,Older Canadians Volunteer Rate by Cause,ON,...
+288,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0316315283663645,18.558344107966885,0.0201259755410379,0.0431370811916911,1503,Environnement,Older Canadians Volunteer Rate by Cause,PR,*
+289,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0390268157100925,32.57153726498257,0.0141124712336275,0.0639411601865575,389,Environnement,Older Canadians Volunteer Rate by Cause,PR,*
+290,Senior,75 ans et plus,2018,flag_vd1dex08,0.0103299466639891,75.80796513387745,-0.0050183791378947,0.025678272465873,261,Environnement,Older Canadians Volunteer Rate by Cause,PR,...
+291,Senior,15 à 64 ans,2018,flag_vd1dex08,0.0164213783875682,18.26426644947985,0.0105429675721011,0.0222997892030353,1399,Environnement,Older Canadians Volunteer Rate by Cause,QC,*
+292,Senior,64 à 75 ans,2018,flag_vd1dex08,0.0076121410308316,40.231775020649486,0.0016097523987517,0.0136145296629114,372,Environnement,Older Canadians Volunteer Rate by Cause,QC,...
+293,Senior,75 ans et plus,2018,flag_vd1dex08,0.0141115681052559,74.19581775450527,-0.0064096337791247,0.0346327699896365,242,Environnement,Older Canadians Volunteer Rate by Cause,QC,...
+294,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0502714144758563,13.898721457596231,0.0365769817321414,0.0639658472195713,1098,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AB,
+295,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0852190538080657,30.16326163627843,0.0348384810983111,0.1355996265178203,197,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AB,*
+296,Senior,75 ans et plus,2018,flag_vd1dex09,0.044222072739655,42.69342890049647,0.0072181111091044,0.0812260343702055,117,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AB,...
+297,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0453102611023866,12.588498968539785,0.0341308582973388,0.0564896639074344,2765,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AT,
+298,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0559278993678362,19.817418217220595,0.0342047057370043,0.0776510929986681,835,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AT,*
+299,Senior,75 ans et plus,2018,flag_vd1dex09,0.0203337537231708,41.63971628283336,0.0037389006375362,0.0369286068088054,448,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AT,...
+300,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0472661014223694,13.524059217879438,0.034737432372999,0.0597947704717398,1483,Aménagement et logement,Older Canadians Volunteer Rate by Cause,BC,
+301,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0589251530387047,19.709404857154883,0.0361625292437555,0.0816877768336539,431,Aménagement et logement,Older Canadians Volunteer Rate by Cause,BC,*
+302,Senior,75 ans et plus,2018,flag_vd1dex09,0.0345310413937909,31.159119868207448,0.0134426744885241,0.0556194082990577,263,Aménagement et logement,Older Canadians Volunteer Rate by Cause,BC,*
+303,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0414204890698691,10.103857684845568,0.033217907951738,0.0496230701880003,3056,Aménagement et logement,Older Canadians Volunteer Rate by Cause,ON,
+304,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0380482952458871,17.99327049948981,0.0246301217517921,0.0514664687399821,795,Aménagement et logement,Older Canadians Volunteer Rate by Cause,ON,*
+305,Senior,75 ans et plus,2018,flag_vd1dex09,0.0269250076971032,24.23276709148916,0.0141368808532279,0.0397131345409784,495,Aménagement et logement,Older Canadians Volunteer Rate by Cause,ON,*
+306,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0597154854662085,12.30986118460526,0.0453079992134714,0.0741229717189455,1503,Aménagement et logement,Older Canadians Volunteer Rate by Cause,PR,
+307,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0659592540164328,21.09984271681429,0.0386818494992356,0.0932366585336299,389,Aménagement et logement,Older Canadians Volunteer Rate by Cause,PR,*
+308,Senior,75 ans et plus,2018,flag_vd1dex09,0.0375171144376137,36.77340467769292,0.0104768234999832,0.0645574053752443,261,Aménagement et logement,Older Canadians Volunteer Rate by Cause,PR,...
+309,Senior,15 à 64 ans,2018,flag_vd1dex09,0.0388217221244839,16.37389329837495,0.0263629614411228,0.051280482807845,1399,Aménagement et logement,Older Canadians Volunteer Rate by Cause,QC,
+310,Senior,64 à 75 ans,2018,flag_vd1dex09,0.0432212034271528,34.53346648560149,0.013967212577606,0.0724751942766997,372,Aménagement et logement,Older Canadians Volunteer Rate by Cause,QC,...
+311,Senior,75 ans et plus,2018,flag_vd1dex09,0.0237721602278485,35.75211018387605,0.0071143304462184,0.0404299900094787,242,Aménagement et logement,Older Canadians Volunteer Rate by Cause,QC,...
+312,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0178334056187167,24.496904541205595,0.0092710435493286,0.0263957676881048,1098,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AB,*
+313,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0261733598394548,62.02470076052812,-0.0056445938014571,0.0579913134803669,197,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AB,...
+314,Senior,75 ans et plus,2018,flag_vd1dex10,0.0324371106128304,52.85359376168841,-0.0011648621275057,0.0660390833531666,117,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AB,...
+315,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0138660272593039,18.810422775332807,0.0087539348316768,0.0189781196869309,2765,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AT,*
+316,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0190448897653487,27.86678839996481,0.0086429706080106,0.0294468089226869,835,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AT,*
+317,Senior,75 ans et plus,2018,flag_vd1dex10,0.0022366009215012,75.19849525751428,-0.0010598433707021,0.0055330452137047,448,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AT,...
+318,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0208402262507507,20.341241465140573,0.0125316238687229,0.0291488286327785,1483,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,BC,*
+319,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0153604950357482,41.38043568393564,0.0029024940114032,0.0278184960600932,431,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,BC,...
+320,Senior,75 ans et plus,2018,flag_vd1dex10,0.0132705848247725,48.76221541742757,0.0005875968094963199,0.0259535728400488,263,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,BC,...
+321,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0161655825340465,18.62002234216866,0.0102660221858653,0.0220651428822278,3056,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,ON,*
+322,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0176734788435248,24.563647679604184,0.0091647830870075,0.0261821746000421,795,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,ON,*
+323,Senior,75 ans et plus,2018,flag_vd1dex10,0.0132207375843808,34.12226205179252,0.0043789191993584,0.0220625559694032,495,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,ON,...
+324,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0110340512842651,26.02660279486696,0.0054054488611783,0.016662653707352,1503,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,PR,*
+325,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0274455751143392,33.00644493183997,0.0096906364442701,0.0452005137844083,389,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,PR,*
+326,Senior,75 ans et plus,2018,flag_vd1dex10,0.020847100461259,49.022999061626976,0.0008165157622578995,0.0408776851602601,261,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,PR,...
+327,Senior,15 à 64 ans,2018,flag_vd1dex10,0.0159686456363687,34.193900424666786,0.0052666488270721,0.0266706424456653,1399,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,QC,...
+328,Senior,64 à 75 ans,2018,flag_vd1dex10,0.0225304809554747,34.37787257178364,0.007349579849162,0.0377113820617874,372,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,QC,...
+329,Senior,75 ans et plus,2018,flag_vd1dex10,0.0077001726771675,61.29616189083911,-0.0015506815408304,0.0169510268951655,242,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,QC,...
+330,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0109750797461832,29.848674083937016,0.0045544027933717,0.0173957566989948,1098,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AB,*
+331,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0128004866785729,78.34153639386669,-0.0068542240974448,0.0324551974545907,197,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AB,...
+332,Senior,75 ans et plus,2018,flag_vd1dex11,0.0127874781570887,74.34121767348945,-0.0058446587312864,0.031419615045464,117,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AB,...
+333,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0248052751043024,14.189404769234107,0.0179067489268729,0.0317038012817319,2765,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AT,
+334,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0120578299776984,36.02367072426726,0.0035443874004684,0.0205712725549285,835,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AT,...
+335,Senior,75 ans et plus,2018,flag_vd1dex11,0.008125841653745,59.39226531944312,-0.0013331825427546,0.0175848658502447,448,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AT,...
+336,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0072701658250457,23.756403011936357,0.0038850534380767,0.0106552782120147,1483,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,BC,*
+337,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0081544989204457,46.46450272380597,0.0007282985300417402,0.0155806993108496,431,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,BC,...
+338,Senior,75 ans et plus,2018,flag_vd1dex11,0.0152033085731005,61.89802499993049,-0.0032410260748271,0.0336476432210283,263,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,BC,...
+339,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0186039079877301,14.317632244200944,0.0133832712276023,0.0238245447478579,3056,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,ON,
+340,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0108899464534974,31.649302316208804,0.0041347501168205,0.0176451427901742,795,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,ON,*
+341,Senior,75 ans et plus,2018,flag_vd1dex11,0.0079309791520787,45.628853232632174,0.0008382324044227405,0.0150237258997347,495,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,ON,...
+342,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0268702253267752,20.783806979972702,0.0159245011573999,0.0378159494961505,1503,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,PR,*
+343,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0157865341166965,46.0891436910352,0.0015260745107613,0.0300469937226317,389,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,PR,...
+344,Senior,75 ans et plus,2018,flag_vd1dex11,0.0162452884370712,48.90075285886894,0.0006752005806943719,0.0318153762934481,261,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,PR,...
+345,Senior,15 à 64 ans,2018,flag_vd1dex11,0.0124206366173854,22.25895367654339,0.0070019168375112,0.0178393563972596,1399,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,QC,*
+346,Senior,64 à 75 ans,2018,flag_vd1dex11,0.0127282468506264,39.590288141801295,0.0028516951149341,0.0226047985863188,372,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,QC,...
+347,Senior,75 ans et plus,2018,flag_vd1dex11,0.0161326668292249,49.510605616880085,0.0004776876417937233,0.0317876460166562,242,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,QC,...
+348,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0048629594974973,46.307122349670784,0.00044932325612007714,0.0092765957388745,1098,International,Older Canadians Volunteer Rate by Cause,AB,...
+349,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0066938029841951,102.13009897360534,-0.0067052705213596,0.0200928764897499,197,International,Older Canadians Volunteer Rate by Cause,AB,...
+350,Senior,75 ans et plus,2018,flag_vd1dex12,0.0096652619086279,97.7021259585731,-0.0088430040652117,0.0281735278824677,117,International,Older Canadians Volunteer Rate by Cause,AB,...
+351,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0033835162803913,40.28742599328134,0.0007118274040342739,0.0060552051567484,2765,International,Older Canadians Volunteer Rate by Cause,AT,...
+352,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0039299577626096,46.44385643170343,0.00035258457434709806,0.0075073309508723,835,International,Older Canadians Volunteer Rate by Cause,AT,...
+353,Senior,75 ans et plus,2018,flag_vd1dex12,0.0,,0.0,0.0,448,International,Older Canadians Volunteer Rate by Cause,AT,
+354,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0080216901765702,32.808087438034214,0.0028635292315404,0.0131798511215999,1483,International,Older Canadians Volunteer Rate by Cause,BC,*
+355,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0040164323283038,49.40158979120719,0.00012750820029302406,0.0079053564563147,431,International,Older Canadians Volunteer Rate by Cause,BC,...
+356,Senior,75 ans et plus,2018,flag_vd1dex12,0.0101665243462374,59.28659525664814,-0.0016469354106902,0.0219799841031652,263,International,Older Canadians Volunteer Rate by Cause,BC,...
+357,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0096050509418772,25.91686407918551,0.004726057721378,0.0144840441623764,3056,International,Older Canadians Volunteer Rate by Cause,ON,*
+358,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0144429285703592,57.73786269602882,-0.0019012860991315,0.0307871432398499,795,International,Older Canadians Volunteer Rate by Cause,ON,...
+359,Senior,75 ans et plus,2018,flag_vd1dex12,0.0038799695937293,56.9419462919259,-0.000450238032547907,0.0082101772200065,495,International,Older Canadians Volunteer Rate by Cause,ON,...
+360,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0105296071014395,39.112422592128574,0.0024577219504095,0.0186014922524695,1503,International,Older Canadians Volunteer Rate by Cause,PR,...
+361,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0134025777006065,53.93411466218824,-0.0007651427439004377,0.0275702981451134,389,International,Older Canadians Volunteer Rate by Cause,PR,...
+362,Senior,75 ans et plus,2018,flag_vd1dex12,0.0031033660813619,95.8387253286018,-0.0027260107300314,0.0089327428927553,261,International,Older Canadians Volunteer Rate by Cause,PR,...
+363,Senior,15 à 64 ans,2018,flag_vd1dex12,0.0049194008068423,32.547212328617235,0.001781247933436,0.0080575536802487,1399,International,Older Canadians Volunteer Rate by Cause,QC,*
+364,Senior,64 à 75 ans,2018,flag_vd1dex12,0.0057466504519599,69.02619382228843,-0.0020279270810765,0.0135212279849963,372,International,Older Canadians Volunteer Rate by Cause,QC,...
+365,Senior,75 ans et plus,2018,flag_vd1dex12,0.0,,0.0,0.0,242,International,Older Canadians Volunteer Rate by Cause,QC,
+366,Senior,15 à 64 ans,2018,flag_vd1dex13,0.1005952466742349,11.22456619012524,0.078464548446225,0.1227259449022449,1098,Religion,Older Canadians Volunteer Rate by Cause,AB,
+367,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1623996518664845,19.83161200869641,0.0992761328284694,0.2255231709044997,197,Religion,Older Canadians Volunteer Rate by Cause,AB,*
+368,Senior,75 ans et plus,2018,flag_vd1dex13,0.1195650747312022,33.687148030231064,0.040621520478566,0.1985086289838384,117,Religion,Older Canadians Volunteer Rate by Cause,AB,...
+369,Senior,15 à 64 ans,2018,flag_vd1dex13,0.0641011121391484,9.17543429055078,0.0525734753353461,0.0756287489429507,2765,Religion,Older Canadians Volunteer Rate by Cause,AT,
+370,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1562450063449487,9.86107734409098,0.1260469770439878,0.1864430356459096,835,Religion,Older Canadians Volunteer Rate by Cause,AT,
+371,Senior,75 ans et plus,2018,flag_vd1dex13,0.1560290294685437,12.454922838552909,0.1179404707245513,0.194117588212536,448,Religion,Older Canadians Volunteer Rate by Cause,AT,
+372,Senior,15 à 64 ans,2018,flag_vd1dex13,0.0714130995731043,11.788531428192998,0.054913033624696,0.0879131655215126,1483,Religion,Older Canadians Volunteer Rate by Cause,BC,
+373,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1087123332049014,19.79047531957527,0.0665443206206555,0.1508803457891474,431,Religion,Older Canadians Volunteer Rate by Cause,BC,*
+374,Senior,75 ans et plus,2018,flag_vd1dex13,0.0878060102891848,20.603324663076776,0.0523483853911278,0.1232636351872418,263,Religion,Older Canadians Volunteer Rate by Cause,BC,*
+375,Senior,15 à 64 ans,2018,flag_vd1dex13,0.0774535975539703,8.26840020213822,0.0649016483064585,0.0900055468014821,3056,Religion,Older Canadians Volunteer Rate by Cause,ON,
+376,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1144764693928843,10.702738262903235,0.0904627615507129,0.1384901772350557,795,Religion,Older Canadians Volunteer Rate by Cause,ON,
+377,Senior,75 ans et plus,2018,flag_vd1dex13,0.1231817254281259,11.874840947839742,0.0945120896651578,0.1518513611910939,495,Religion,Older Canadians Volunteer Rate by Cause,ON,
+378,Senior,15 à 64 ans,2018,flag_vd1dex13,0.1278645028904012,9.667740097529991,0.1036361967791647,0.1520928090016378,1503,Religion,Older Canadians Volunteer Rate by Cause,PR,
+379,Senior,64 à 75 ans,2018,flag_vd1dex13,0.1255271798939504,15.805884058662478,0.0866401606535377,0.164414199134363,389,Religion,Older Canadians Volunteer Rate by Cause,PR,
+380,Senior,75 ans et plus,2018,flag_vd1dex13,0.1354657578192498,16.298338795976196,0.0921923633952795,0.1787391522432202,261,Religion,Older Canadians Volunteer Rate by Cause,PR,
+381,Senior,15 à 64 ans,2018,flag_vd1dex13,0.0311681461996063,21.74419309513613,0.0178849569739298,0.0444513354252828,1399,Religion,Older Canadians Volunteer Rate by Cause,QC,*
+382,Senior,64 à 75 ans,2018,flag_vd1dex13,0.0347415565413274,24.16407606390328,0.0182877056393312,0.0511954074433237,372,Religion,Older Canadians Volunteer Rate by Cause,QC,*
+383,Senior,75 ans et plus,2018,flag_vd1dex13,0.0597233509040591,22.28498453247013,0.033637524804008,0.0858091770041102,242,Religion,Older Canadians Volunteer Rate by Cause,QC,*
+384,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0228807345743097,23.56574311867733,0.0123125791086563,0.0334488900399632,1098,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AB,*
+385,Senior,64 à 75 ans,2018,flag_vd1dex14,0.014958026079899,55.68445223502804,-0.0013670919167328,0.0312831440765309,197,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AB,...
+386,Senior,75 ans et plus,2018,flag_vd1dex14,0.0054241395507622,100.8106149062854,-0.0052931560444144,0.016141435145939,117,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AB,...
+387,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0115910107619438,18.27153862275886,0.0074400892615541,0.0157419322623335,2765,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AT,*
+388,Senior,64 à 75 ans,2018,flag_vd1dex14,0.007357040846083,37.06130641724644,0.0020129727620233,0.0127011089301427,835,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AT,...
+389,Senior,75 ans et plus,2018,flag_vd1dex14,0.0,,0.0,0.0,448,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AT,
+390,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0143251327776211,24.47407026700379,0.0074536106445733,0.0211966549106689,1483,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,BC,*
+391,Senior,64 à 75 ans,2018,flag_vd1dex14,0.005378887734912,55.05924945821455,-0.0004256930260377427,0.0111834684958618,431,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,BC,...
+392,Senior,75 ans et plus,2018,flag_vd1dex14,0.0046373391212045,69.19820522562947,-0.0016520979733043,0.0109267762157134,263,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,BC,...
+393,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0145121534843498,17.29786578206928,0.0095920699433517,0.0194322370253479,3056,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,ON,*
+394,Senior,64 à 75 ans,2018,flag_vd1dex14,0.0080814986390528,35.54758729020971,0.0024509576486401,0.0137120396294655,795,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,ON,...
+395,Senior,75 ans et plus,2018,flag_vd1dex14,0.0084019876375303,51.12769314287318,-1.751286547780999e-05,0.0168214881405385,495,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,ON,...
+396,Senior,15 à 64 ans,2018,flag_vd1dex14,0.0162149595873877,20.42572114598614,0.0097235149100607,0.0227064042647147,1503,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,PR,*
+397,Senior,64 à 75 ans,2018,flag_vd1dex14,0.0141324400595681,42.824329072119205,0.0022704976609708,0.0259943824581655,389,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,PR,...
+398,Senior,75 ans et plus,2018,flag_vd1dex14,0.0015993895199304,106.69508815972456,-0.0017452303350476,0.0049440093749085,261,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,PR,...
+399,Senior,15 à 64 ans,2018,flag_vd1dex14,0.00827409236124,54.88943677092205,-0.0006272853530314721,0.0171754700755115,1399,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,QC,...
+400,Senior,64 à 75 ans,2018,flag_vd1dex14,0.0082000618277641,47.53937875161844,0.0005596156630065597,0.0158405079925217,372,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,QC,...
+401,Senior,75 ans et plus,2018,flag_vd1dex14,0.0,,0.0,0.0,242,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,QC,
+402,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0040806154325305,58.239523897800574,-0.0005772997356241006,0.0087385306006851,1098,Autre,Older Canadians Volunteer Rate by Cause,AB,...
+403,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0035907053281757,104.43010487792829,-0.0037587232084083,0.0109401338647599,197,Autre,Older Canadians Volunteer Rate by Cause,AB,...
+404,Senior,75 ans et plus,2018,flag_vd1dex15,0.0,,0.0,0.0,117,Autre,Older Canadians Volunteer Rate by Cause,AB,
+405,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0011680737788526,42.14901714412254,0.00020312154048526357,0.0021330260172199,2765,Autre,Older Canadians Volunteer Rate by Cause,AT,...
+406,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0027622116784983,71.92474020119862,-0.00113167537329,0.0066560987302866,835,Autre,Older Canadians Volunteer Rate by Cause,AT,...
+407,Senior,75 ans et plus,2018,flag_vd1dex15,0.0035595779460998,97.18665019662788,-0.0032207892119997,0.0103399451041995,448,Autre,Older Canadians Volunteer Rate by Cause,AT,...
+408,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0054751084651647,44.99383805164857,0.0006468127733635018,0.010303404156966,1483,Autre,Older Canadians Volunteer Rate by Cause,BC,...
+409,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0004187820812616909,99.9901298859098,-0.0004019347017029708,0.0012394988642263,431,Autre,Older Canadians Volunteer Rate by Cause,BC,...
+410,Senior,75 ans et plus,2018,flag_vd1dex15,0.0062603928132122,80.91446830113591,-0.0036679293225977,0.0161887149490222,263,Autre,Older Canadians Volunteer Rate by Cause,BC,...
+411,Senior,15 à 64 ans,2018,flag_vd1dex15,0.003881049193098,31.14561520906694,0.0015118904981414,0.0062502078880546,3056,Autre,Older Canadians Volunteer Rate by Cause,ON,*
+412,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0048058964139255,46.61749966043741,0.00041481516344891393,0.0091969776644021,795,Autre,Older Canadians Volunteer Rate by Cause,ON,...
+413,Senior,75 ans et plus,2018,flag_vd1dex15,0.0013010706803776,99.23144841766528,-0.0012293825320059,0.0038315238927613,495,Autre,Older Canadians Volunteer Rate by Cause,ON,...
+414,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0038519252861,37.71223772193842,0.0010047890511574,0.0066990615210425,1503,Autre,Older Canadians Volunteer Rate by Cause,PR,...
+415,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0043648858208237,85.70461449789451,-0.0029671602380137,0.0116969318796613,389,Autre,Older Canadians Volunteer Rate by Cause,PR,...
+416,Senior,75 ans et plus,2018,flag_vd1dex15,0.004144085474215,109.47987019164754,-0.0047481523455168,0.0130363232939468,261,Autre,Older Canadians Volunteer Rate by Cause,PR,...
+417,Senior,15 à 64 ans,2018,flag_vd1dex15,0.0018434087926848,52.05086931638645,-3.7196841338762304e-05,0.0037240144267083,1399,Autre,Older Canadians Volunteer Rate by Cause,QC,...
+418,Senior,64 à 75 ans,2018,flag_vd1dex15,0.0,,0.0,0.0,372,Autre,Older Canadians Volunteer Rate by Cause,QC,
+419,Senior,75 ans et plus,2018,flag_vd1dex15,0.0014355598980643,104.73752381060356,-0.0015113829346737,0.0043825027308024,242,Autre,Older Canadians Volunteer Rate by Cause,QC,...
+420,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0245993029595404,20.792938837977733,0.0145742478585311,0.0346243580605498,1098,Arts et culture,Older Canadians Volunteer Rate by Cause,AB,*
+421,Senior2,65 ans et plus,2018,flag_vd1dex01,0.0300457870112504,30.90365836377246,0.0118470365772046,0.0482445374452962,314,Arts et culture,Older Canadians Volunteer Rate by Cause,AB,*
+422,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0387185154168716,14.508792536394468,0.0277082431499145,0.0497287876838287,2765,Arts et culture,Older Canadians Volunteer Rate by Cause,AT,
+423,Senior2,65 ans et plus,2018,flag_vd1dex01,0.0398946214404952,18.77777106849249,0.0252119027056889,0.0545773401753015,1283,Arts et culture,Older Canadians Volunteer Rate by Cause,AT,*
+424,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0315350343887503,18.56929518577019,0.0200578113890325,0.0430122573884682,1483,Arts et culture,Older Canadians Volunteer Rate by Cause,BC,*
+425,Senior2,65 ans et plus,2018,flag_vd1dex01,0.0393275962028673,19.556710553743542,0.0242531522564082,0.0544020401493264,694,Arts et culture,Older Canadians Volunteer Rate by Cause,BC,*
+426,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0207513912234065,15.82318444076409,0.0143157889029662,0.0271869935438468,3056,Arts et culture,Older Canadians Volunteer Rate by Cause,ON,
+427,Senior2,65 ans et plus,2018,flag_vd1dex01,0.035613212560779,18.766989572455195,0.0225137386112224,0.0487126865103355,1290,Arts et culture,Older Canadians Volunteer Rate by Cause,ON,*
+428,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.04780406555413,14.978957918100674,0.0337696437541737,0.0618384873540862,1503,Arts et culture,Older Canadians Volunteer Rate by Cause,PR,
+429,Senior2,65 ans et plus,2018,flag_vd1dex01,0.0310590937502033,25.41142138994269,0.0155899659064682,0.0465282215939384,650,Arts et culture,Older Canadians Volunteer Rate by Cause,PR,*
+430,Senior2,15 à 64 ans,2018,flag_vd1dex01,0.0178711752230985,21.00861964002063,0.010512515476151,0.025229834970046,1399,Arts et culture,Older Canadians Volunteer Rate by Cause,QC,*
+431,Senior2,65 ans et plus,2018,flag_vd1dex01,0.027058536703952,20.95069153539375,0.0159475977784947,0.0381694756294094,614,Arts et culture,Older Canadians Volunteer Rate by Cause,QC,*
+432,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.1310394489792975,9.550126817063768,0.1065116099188853,0.1555672880397098,1098,Sport et loisir,Older Canadians Volunteer Rate by Cause,AB,
+433,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0973954374470647,17.40146509405899,0.0641775110663815,0.1306133638277479,314,Sport et loisir,Older Canadians Volunteer Rate by Cause,AB,*
+434,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.1190183485196419,7.096763020013904,0.1024636104386733,0.1355730866006105,2765,Sport et loisir,Older Canadians Volunteer Rate by Cause,AT,
+435,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0985075812447122,10.632527560933164,0.0779792208431962,0.1190359416462281,1283,Sport et loisir,Older Canadians Volunteer Rate by Cause,AT,
+436,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.1028473062814879,9.099536397067334,0.0845047323225471,0.1211898802404286,1483,Sport et loisir,Older Canadians Volunteer Rate by Cause,BC,
+437,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0766386540030637,14.23119213300944,0.0552621223743831,0.0980151856317443,694,Sport et loisir,Older Canadians Volunteer Rate by Cause,BC,
+438,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.0815617139580806,7.772884017307508,0.0691361353253596,0.0939872925908017,3056,Sport et loisir,Older Canadians Volunteer Rate by Cause,ON,
+439,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0723054981797951,9.995216075888775,0.0581406605422696,0.0864703358173206,1290,Sport et loisir,Older Canadians Volunteer Rate by Cause,ON,
+440,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.1211054234432037,8.794873164747624,0.1002297130069084,0.141981133879499,1503,Sport et loisir,Older Canadians Volunteer Rate by Cause,PR,
+441,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0971099571633183,13.123857739084418,0.0721310538129079,0.1220888605137286,650,Sport et loisir,Older Canadians Volunteer Rate by Cause,PR,
+442,Senior2,15 à 64 ans,2018,flag_vd1dex02,0.0713782558547225,10.536429344133747,0.0566379165062869,0.0861185952031581,1399,Sport et loisir,Older Canadians Volunteer Rate by Cause,QC,
+443,Senior2,65 ans et plus,2018,flag_vd1dex02,0.0584695502461899,15.964325784932184,0.0401747182310774,0.0767643822613024,614,Sport et loisir,Older Canadians Volunteer Rate by Cause,QC,
+444,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.1135220792081619,11.164254847001288,0.0886817029726808,0.1383624554436431,1098,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AB,
+445,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0339879968742063,35.07498938013156,0.0106227050882866,0.0573532886601261,314,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AB,...
+446,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0852492896319778,8.470453097777902,0.0710963875545011,0.0994021917094545,2765,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AT,
+447,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0303687924254086,18.442464245935344,0.0193915169165711,0.041346067934246,1283,Éducation et recherche,Older Canadians Volunteer Rate by Cause,AT,*
+448,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.1016618675825915,10.274280994861329,0.0811899929224887,0.1221337422426943,1483,Éducation et recherche,Older Canadians Volunteer Rate by Cause,BC,
+449,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0269087882747569,32.49121165801873,0.0097728401058114,0.0440447364437025,694,Éducation et recherche,Older Canadians Volunteer Rate by Cause,BC,*
+450,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0735734706583379,7.299667414022151,0.0630472515041361,0.0840996898125398,3056,Éducation et recherche,Older Canadians Volunteer Rate by Cause,ON,
+451,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0118771218614662,24.95575461781472,0.0060677388528874,0.0176865048700451,1290,Éducation et recherche,Older Canadians Volunteer Rate by Cause,ON,*
+452,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0950483459073234,9.618095907510476,0.0771306666619116,0.1129660251527353,1503,Éducation et recherche,Older Canadians Volunteer Rate by Cause,PR,
+453,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0166400167303777,29.1919224048218,0.0071194117636636,0.0261606216970919,650,Éducation et recherche,Older Canadians Volunteer Rate by Cause,PR,*
+454,Senior2,15 à 64 ans,2018,flag_vd1dex03,0.0536988893623875,14.70146230078526,0.038225910615146,0.069171868109629,1399,Éducation et recherche,Older Canadians Volunteer Rate by Cause,QC,
+455,Senior2,65 ans et plus,2018,flag_vd1dex03,0.0070029771768878,35.86642342460023,0.0020801014422291,0.0119258529115465,614,Éducation et recherche,Older Canadians Volunteer Rate by Cause,QC,...
+456,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.014449843277293,30.17014578199578,0.0059053042753101,0.022994382279276,1098,Universités et collèges,Older Canadians Volunteer Rate by Cause,AB,*
+457,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0079250249541378,50.68988151546726,5.148554665623112e-05,0.0157985643616194,314,Universités et collèges,Older Canadians Volunteer Rate by Cause,AB,...
+458,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0128576708053275,21.825223524363658,0.007357589701618,0.018357751909037,2765,Universités et collèges,Older Canadians Volunteer Rate by Cause,AT,*
+459,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0041833761505626,37.989252879252014,0.0010685360318665,0.0072982162692588,1283,Universités et collèges,Older Canadians Volunteer Rate by Cause,AT,...
+460,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0188700482952867,21.922119765297943,0.0107622366903231,0.0269778599002503,1483,Universités et collèges,Older Canadians Volunteer Rate by Cause,BC,*
+461,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0060638391742613,33.70567507425212,0.0020579512437053,0.0100697271048173,694,Universités et collèges,Older Canadians Volunteer Rate by Cause,BC,...
+462,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0314040057879146,14.052594785613884,0.0227545324744773,0.0400534791013519,3056,Universités et collèges,Older Canadians Volunteer Rate by Cause,ON,
+463,Senior2,65 ans et plus,2018,flag_vd1dex04,0.003496901758162,36.17503948125982,0.0010175363583137,0.0059762671580104,1290,Universités et collèges,Older Canadians Volunteer Rate by Cause,ON,...
+464,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.023426380901168,27.331500946396552,0.0108771597255792,0.0359756020767567,1503,Universités et collèges,Older Canadians Volunteer Rate by Cause,PR,*
+465,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0130271650281781,44.30054479605117,0.0017160069224133,0.0243383231339429,650,Universités et collèges,Older Canadians Volunteer Rate by Cause,PR,...
+466,Senior2,15 à 64 ans,2018,flag_vd1dex04,0.0220653652995289,27.57589453869672,0.010139529589016,0.0339912010100418,1399,Universités et collèges,Older Canadians Volunteer Rate by Cause,QC,*
+467,Senior2,65 ans et plus,2018,flag_vd1dex04,0.0023168952715148,50.81633318319452,9.309682190551758e-06,0.0046244808608392,614,Universités et collèges,Older Canadians Volunteer Rate by Cause,QC,...
+468,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0320170923658005,16.646987007122142,0.0215707171597851,0.0424634675718159,1098,Santé,Older Canadians Volunteer Rate by Cause,AB,*
+469,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0393380411396525,33.79110016955929,0.0132847163873705,0.0653913658919345,314,Santé,Older Canadians Volunteer Rate by Cause,AB,...
+470,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0493100694076952,9.993051136144548,0.03965218919246,0.0589679496229303,2765,Santé,Older Canadians Volunteer Rate by Cause,AT,
+471,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0426288393432522,15.735158812555875,0.029481958406318,0.0557757202801864,1283,Santé,Older Canadians Volunteer Rate by Cause,AT,
+472,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0355370370611866,14.44890817063484,0.0254731828412584,0.0456008912811148,1483,Santé,Older Canadians Volunteer Rate by Cause,BC,
+473,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0462340981214958,19.96923948398633,0.0281385389945515,0.0643296572484402,694,Santé,Older Canadians Volunteer Rate by Cause,BC,*
+474,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0503061057879191,9.388369955700831,0.0410493461756897,0.0595628654001485,3056,Santé,Older Canadians Volunteer Rate by Cause,ON,
+475,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0373966549458334,15.04213743651018,0.0263713553241489,0.0484219545675179,1290,Santé,Older Canadians Volunteer Rate by Cause,ON,
+476,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0462816538746545,14.107344858405718,0.0334848284878333,0.0590784792614757,1503,Santé,Older Canadians Volunteer Rate by Cause,PR,
+477,Senior2,65 ans et plus,2018,flag_vd1dex05,0.0453639470128758,18.44353714436282,0.0289654841657769,0.0617624098599746,650,Santé,Older Canadians Volunteer Rate by Cause,PR,*
+478,Senior2,15 à 64 ans,2018,flag_vd1dex05,0.0397453934732036,15.578645700381989,0.0276097001719438,0.0518810867744634,1399,Santé,Older Canadians Volunteer Rate by Cause,QC,
+479,Senior2,65 ans et plus,2018,flag_vd1dex05,0.032491250365531,25.263998435943822,0.0164027115926727,0.0485797891383892,614,Santé,Older Canadians Volunteer Rate by Cause,QC,*
+480,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0136884252820004,30.85657399011102,0.0054099704159123,0.0219668801480885,1098,Hôpitaux,Older Canadians Volunteer Rate by Cause,AB,*
+481,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0226469322906271,38.921396236635616,0.0053708253345159,0.0399230392467383,314,Hôpitaux,Older Canadians Volunteer Rate by Cause,AB,...
+482,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0186893262693962,19.24624876444357,0.011639347133433,0.0257393054053595,2765,Hôpitaux,Older Canadians Volunteer Rate by Cause,AT,*
+483,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0299207121307939,15.653183433970309,0.0207411346598002,0.0391002896017877,1283,Hôpitaux,Older Canadians Volunteer Rate by Cause,AT,
+484,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0291965484790879,21.47152564687329,0.0169096432444129,0.041483453713763,1483,Hôpitaux,Older Canadians Volunteer Rate by Cause,BC,*
+485,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0396512129309185,23.500149604611355,0.0213880835831073,0.0579143422787297,694,Hôpitaux,Older Canadians Volunteer Rate by Cause,BC,*
+486,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0203275678369994,14.273184956501645,0.0146409452770583,0.0260141903969405,3056,Hôpitaux,Older Canadians Volunteer Rate by Cause,ON,
+487,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0338839468661237,14.701647564668926,0.0241203893165375,0.0436475044157099,1290,Hôpitaux,Older Canadians Volunteer Rate by Cause,ON,
+488,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0210526754536632,23.062834605275736,0.0115363766301674,0.0305689742771591,1503,Hôpitaux,Older Canadians Volunteer Rate by Cause,PR,*
+489,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0261852648020581,23.351556394064065,0.0142007379453104,0.0381697916588058,650,Hôpitaux,Older Canadians Volunteer Rate by Cause,PR,*
+490,Senior2,15 à 64 ans,2018,flag_vd1dex06,0.0073639602516891,24.68426510872256,0.0038012563551975,0.0109266641481806,1399,Hôpitaux,Older Canadians Volunteer Rate by Cause,QC,*
+491,Senior2,65 ans et plus,2018,flag_vd1dex06,0.0129637135344478,31.586807712745674,0.004938007408939,0.0209894196599567,614,Hôpitaux,Older Canadians Volunteer Rate by Cause,QC,*
+492,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1285689684156569,9.813919504352665,0.1038388189132449,0.153299117918069,1098,Services sociaux,Older Canadians Volunteer Rate by Cause,AB,
+493,Senior2,65 ans et plus,2018,flag_vd1dex07,0.107498562762779,19.15672149176256,0.0671366318951769,0.147860493630381,314,Services sociaux,Older Canadians Volunteer Rate by Cause,AB,*
+494,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1390520179710311,6.332772388539872,0.121792873430127,0.1563111625119352,2765,Services sociaux,Older Canadians Volunteer Rate by Cause,AT,
+495,Senior2,65 ans et plus,2018,flag_vd1dex07,0.1164505652755297,9.972234599414886,0.0936900453323336,0.1392110852187258,1283,Services sociaux,Older Canadians Volunteer Rate by Cause,AT,
+496,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1190934638935731,8.635344822942002,0.0989369369944508,0.1392499907926954,1483,Services sociaux,Older Canadians Volunteer Rate by Cause,BC,
+497,Senior2,65 ans et plus,2018,flag_vd1dex07,0.1100810318145286,13.12750683229189,0.0817577981240387,0.1384042655050184,694,Services sociaux,Older Canadians Volunteer Rate by Cause,BC,
+498,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1056585823495572,6.363157895400394,0.0924813085366149,0.1188358561624994,3056,Services sociaux,Older Canadians Volunteer Rate by Cause,ON,
+499,Senior2,65 ans et plus,2018,flag_vd1dex07,0.0926434889994012,10.55726024760808,0.0734738373499048,0.1118131406488975,1290,Services sociaux,Older Canadians Volunteer Rate by Cause,ON,
+500,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.151640875817157,8.04057996380829,0.1277434154259891,0.1755383362083248,1503,Services sociaux,Older Canadians Volunteer Rate by Cause,PR,
+501,Senior2,65 ans et plus,2018,flag_vd1dex07,0.0975706940516085,13.17081071971088,0.0723834880753002,0.1227579000279169,650,Services sociaux,Older Canadians Volunteer Rate by Cause,PR,
+502,Senior2,15 à 64 ans,2018,flag_vd1dex07,0.1002514674138625,8.789620004047675,0.0829808076251665,0.1175221272025585,1399,Services sociaux,Older Canadians Volunteer Rate by Cause,QC,
+503,Senior2,65 ans et plus,2018,flag_vd1dex07,0.0820915308318418,14.627955121260294,0.0585556712313947,0.1056273904322888,614,Services sociaux,Older Canadians Volunteer Rate by Cause,QC,
+504,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0261771823373529,20.270984161759998,0.0157768833770229,0.0365774812976828,1098,Environnement,Older Canadians Volunteer Rate by Cause,AB,*
+505,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0260578967494781,30.33296546626251,0.0105660810888402,0.0415497124101159,314,Environnement,Older Canadians Volunteer Rate by Cause,AB,*
+506,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0363406960157958,13.201153498439128,0.0269379823116866,0.045743409719905,2765,Environnement,Older Canadians Volunteer Rate by Cause,AT,
+507,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0236861875015921,17.63054350496539,0.0155013708616959,0.0318710041414883,1283,Environnement,Older Canadians Volunteer Rate by Cause,AT,*
+508,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0398973797152969,14.425489660107887,0.0286170179228519,0.0511777415077418,1483,Environnement,Older Canadians Volunteer Rate by Cause,BC,
+509,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0396866871424834,22.901677829320985,0.0218727367122338,0.0575006375727331,694,Environnement,Older Canadians Volunteer Rate by Cause,BC,*
+510,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0253238761403996,12.59713789331597,0.0190714271819438,0.0315763250988554,3056,Environnement,Older Canadians Volunteer Rate by Cause,ON,
+511,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0175443173236167,24.932270328815147,0.0089710494822802,0.0261175851649532,1290,Environnement,Older Canadians Volunteer Rate by Cause,ON,*
+512,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0316315283663645,18.558344107966885,0.0201259755410379,0.0431370811916911,1503,Environnement,Older Canadians Volunteer Rate by Cause,PR,*
+513,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0272161322163896,30.908826432560417,0.0107285485310728,0.0437037159017065,650,Environnement,Older Canadians Volunteer Rate by Cause,PR,*
+514,Senior2,15 à 64 ans,2018,flag_vd1dex08,0.0164213783875682,18.26426644947985,0.0105429675721011,0.0222997892030353,1399,Environnement,Older Canadians Volunteer Rate by Cause,QC,*
+515,Senior2,65 ans et plus,2018,flag_vd1dex08,0.0103104581162374,45.67132976462686,0.0010811379903162,0.0195397782421585,614,Environnement,Older Canadians Volunteer Rate by Cause,QC,...
+516,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0502714144758563,13.898721457596231,0.0365769817321414,0.0639658472195713,1098,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AB,
+517,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0695114212437608,25.22100513808804,0.0351503535660889,0.1038724889214326,314,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AB,*
+518,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0453102611023866,12.588498968539785,0.0341308582973388,0.0564896639074344,2765,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AT,
+519,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0422876441410317,17.840475622901884,0.0275010548378915,0.0570742334441718,1283,Aménagement et logement,Older Canadians Volunteer Rate by Cause,AT,*
+520,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0472661014223694,13.524059217879438,0.034737432372999,0.0597947704717398,1483,Aménagement et logement,Older Canadians Volunteer Rate by Cause,BC,
+521,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0488152783284331,16.582200461145906,0.0329500611370283,0.0646804955198379,694,Aménagement et logement,Older Canadians Volunteer Rate by Cause,BC,*
+522,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0414204890698691,10.103857684845568,0.033217907951738,0.0496230701880003,3056,Aménagement et logement,Older Canadians Volunteer Rate by Cause,ON,
+523,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0333933489158686,14.466805205297442,0.0239248594559808,0.0428618383757564,1290,Aménagement et logement,Older Canadians Volunteer Rate by Cause,ON,
+524,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0597154854662085,12.30986118460526,0.0453079992134714,0.0741229717189455,1503,Aménagement et logement,Older Canadians Volunteer Rate by Cause,PR,
+525,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0542534087582106,18.51001767128782,0.0345708319619192,0.073935985554502,650,Aménagement et logement,Older Canadians Volunteer Rate by Cause,PR,*
+526,Senior2,15 à 64 ans,2018,flag_vd1dex09,0.0388217221244839,16.37389329837495,0.0263629614411228,0.051280482807845,1399,Aménagement et logement,Older Canadians Volunteer Rate by Cause,QC,
+527,Senior2,65 ans et plus,2018,flag_vd1dex09,0.0351466939421569,26.847844102014417,0.0166522197793637,0.0536411681049502,614,Aménagement et logement,Older Canadians Volunteer Rate by Cause,QC,*
+528,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0178334056187167,24.496904541205595,0.0092710435493286,0.0263957676881048,1098,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AB,*
+529,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0285732608335886,42.057419204967125,0.005020028502663,0.0521264931645142,314,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AB,...
+530,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0138660272593039,18.810422775332807,0.0087539348316768,0.0189781196869309,2765,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AT,*
+531,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0126036802461004,26.628578230619954,0.0060256866461282,0.0191816738460725,1283,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,AT,*
+532,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0208402262507507,20.341241465140573,0.0125316238687229,0.0291488286327785,1483,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,BC,*
+533,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0144943544401719,31.77738582198343,0.0054669035363448,0.023521805343999,694,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,BC,*
+534,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0161655825340465,18.62002234216866,0.0102660221858653,0.0220651428822278,3056,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,ON,*
+535,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0158100664762845,20.816704141813517,0.009359560872552,0.0222605720800169,1290,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,ON,*
+536,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0110340512842651,26.02660279486696,0.0054054488611783,0.016662653707352,1503,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,PR,*
+537,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0247298608828128,27.60004475945792,0.0113522194663184,0.0381075022993072,650,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,PR,*
+538,Senior2,15 à 64 ans,2018,flag_vd1dex10,0.0159686456363687,34.193900424666786,0.0052666488270721,0.0266706424456653,1399,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,QC,...
+539,Senior2,65 ans et plus,2018,flag_vd1dex10,0.0163734960780444,30.072442036743368,0.0067228095847136,0.0260241825713752,614,"Droit, plaidoyer et politique",Older Canadians Volunteer Rate by Cause,QC,*
+540,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0109750797461832,29.848674083937016,0.0045544027933717,0.0173957566989948,1098,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AB,*
+541,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0127955025780281,55.5592408243365,-0.0011380462053797,0.026729051361436,314,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AB,...
+542,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0248052751043024,14.189404769234107,0.0179067489268729,0.0317038012817319,2765,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AT,
+543,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0105510281338514,30.45326212572232,0.0042534046373489,0.016848651630354,1283,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,AT,*
+544,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0072701658250457,23.756403011936357,0.0038850534380767,0.0106552782120147,1483,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,BC,*
+545,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0110758015479899,40.57814447793867,0.0022670280959466,0.0198845750000332,694,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,BC,...
+546,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0186039079877301,14.317632244200944,0.0133832712276023,0.0238245447478579,3056,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,ON,
+547,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0096516584096097,25.57918210353925,0.0048128693751405,0.0144904474440789,1290,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,ON,*
+548,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0268702253267752,20.783806979972702,0.0159245011573999,0.0378159494961505,1503,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,PR,*
+549,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0159753422431374,35.25854337664892,0.0049355060766904,0.0270151784095844,650,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,PR,...
+550,Senior2,15 à 64 ans,2018,flag_vd1dex11,0.0124206366173854,22.25895367654339,0.0070019168375112,0.0178393563972596,1399,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,QC,*
+551,Senior2,65 ans et plus,2018,flag_vd1dex11,0.0141416336751817,32.022178448794584,0.0052660167944802,0.0230172505558832,614,"Subventions, collecte de fonds",Older Canadians Volunteer Rate by Cause,QC,*
+552,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0048629594974973,46.307122349670784,0.00044932325612007714,0.0092765957388745,1098,International,Older Canadians Volunteer Rate by Cause,AB,...
+553,Senior2,65 ans et plus,2018,flag_vd1dex12,0.007832291325252,70.21459866811536,-0.0029463579751631,0.0186109406256672,314,International,Older Canadians Volunteer Rate by Cause,AB,...
+554,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0033835162803913,40.28742599328134,0.0007118274040342739,0.0060552051567484,2765,International,Older Canadians Volunteer Rate by Cause,AT,...
+555,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0024239340628782,46.44385637503287,0.00021746843656114505,0.0046303996891954,1283,International,Older Canadians Volunteer Rate by Cause,AT,...
+556,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0080216901765702,32.808087438034214,0.0028635292315404,0.0131798511215999,1483,International,Older Canadians Volunteer Rate by Cause,BC,*
+557,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0065652711900344,41.3910258230238,0.0012392001961445,0.0118913421839243,694,International,Older Canadians Volunteer Rate by Cause,BC,...
+558,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0096050509418772,25.91686407918551,0.004726057721378,0.0144840441623764,3056,International,Older Canadians Volunteer Rate by Cause,ON,*
+559,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0100224722163584,49.55522210219733,0.000288000693626932,0.01975694373909,1290,International,Older Canadians Volunteer Rate by Cause,ON,...
+560,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0105296071014395,39.112422592128574,0.0024577219504095,0.0186014922524695,1503,International,Older Canadians Volunteer Rate by Cause,PR,...
+561,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0091637623624544,48.59855018250524,0.00043514968107505846,0.0178923750438337,650,International,Older Canadians Volunteer Rate by Cause,PR,...
+562,Senior2,15 à 64 ans,2018,flag_vd1dex12,0.0049194008068423,32.547212328617235,0.001781247933436,0.0080575536802487,1399,International,Older Canadians Volunteer Rate by Cause,QC,*
+563,Senior2,65 ans et plus,2018,flag_vd1dex12,0.0033608578396546,69.0261938300982,-0.0011860082127173,0.0079077238920266,614,International,Older Canadians Volunteer Rate by Cause,QC,...
+564,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.1005952466742349,11.22456619012524,0.078464548446225,0.1227259449022449,1098,Religion,Older Canadians Volunteer Rate by Cause,AB,
+565,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1459879605381485,16.805825122187528,0.0979012607176995,0.1940746603585974,314,Religion,Older Canadians Volunteer Rate by Cause,AB,*
+566,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.0641011121391484,9.17543429055078,0.0525734753353461,0.0756287489429507,2765,Religion,Older Canadians Volunteer Rate by Cause,AT,
+567,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1561622404950063,7.733645515632653,0.1324916886010036,0.179832792389009,1283,Religion,Older Canadians Volunteer Rate by Cause,AT,
+568,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.0714130995731043,11.788531428192998,0.054913033624696,0.0879131655215126,1483,Religion,Older Canadians Volunteer Rate by Cause,BC,
+569,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1000479346645085,14.514937579773571,0.0715855429550899,0.128510326373927,694,Religion,Older Canadians Volunteer Rate by Cause,BC,
+570,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.0774535975539703,8.26840020213822,0.0649016483064585,0.0900055468014821,3056,Religion,Older Canadians Volunteer Rate by Cause,ON,
+571,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1181195020354729,7.907642770139825,0.0998125206415803,0.1364264834293654,1290,Religion,Older Canadians Volunteer Rate by Cause,ON,
+572,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.1278645028904012,9.667740097529991,0.1036361967791647,0.1520928090016378,1503,Religion,Older Canadians Volunteer Rate by Cause,PR,
+573,Senior2,65 ans et plus,2018,flag_vd1dex13,0.1296175703147532,11.255803268026291,0.1010226782800282,0.1582124623494782,650,Religion,Older Canadians Volunteer Rate by Cause,PR,
+574,Senior2,15 à 64 ans,2018,flag_vd1dex13,0.0311681461996063,21.74419309513613,0.0178849569739298,0.0444513354252828,1399,Religion,Older Canadians Volunteer Rate by Cause,QC,*
+575,Senior2,65 ans et plus,2018,flag_vd1dex13,0.0451130557182797,16.25393166308536,0.0307413351216165,0.059484776314943,614,Religion,Older Canadians Volunteer Rate by Cause,QC,
+576,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0228807345743097,23.56574311867733,0.0123125791086563,0.0334488900399632,1098,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AB,*
+577,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0113052013448395,49.21170420636561,0.0004009765145287832,0.0222094261751503,314,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AB,...
+578,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0115910107619438,18.27153862275886,0.0074400892615541,0.0157419322623335,2765,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AT,*
+579,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0045377031983584,37.06130635792332,0.0012415688821574,0.0078338375145594,1283,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,AT,...
+580,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0143251327776211,24.47407026700379,0.0074536106445733,0.0211966549106689,1483,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,BC,*
+581,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0050715609633826,42.33118193081879,0.0008638089548758882,0.0092793129718895,694,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,BC,...
+582,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0145121534843498,17.29786578206928,0.0095920699433517,0.0194322370253479,3056,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,ON,*
+583,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0082156189771931,29.6293428767506,0.0034446081714953,0.0129866297828908,1290,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,ON,*
+584,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.0162149595873877,20.42572114598614,0.0097235149100607,0.0227064042647147,1503,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,PR,*
+585,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0089742504014409,40.35031161085775,0.0018769503350202,0.0160715504678615,650,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,PR,...
+586,Senior2,15 à 64 ans,2018,flag_vd1dex14,0.00827409236124,54.88943677092205,-0.0006272853530314721,0.0171754700755115,1399,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,QC,...
+587,Senior2,65 ans et plus,2018,flag_vd1dex14,0.0047957053086628,47.53937875898145,0.00032728433718994324,0.0092641262801357,614,Entreprises et professionnels,Older Canadians Volunteer Rate by Cause,QC,...
+588,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0040806154325305,58.239523897800574,-0.0005772997356241006,0.0087385306006851,1098,Autre,Older Canadians Volunteer Rate by Cause,AB,...
+589,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0022149581762681,104.43779932843704,-0.0023189355185062,0.0067488518710424,314,Autre,Older Canadians Volunteer Rate by Cause,AB,...
+590,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0011680737788526,42.14901714412254,0.00020312154048526357,0.0021330260172199,2765,Autre,Older Canadians Volunteer Rate by Cause,AT,...
+591,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0030677753941696,58.25738420872997,-0.0004350834069580087,0.0065706341952972,1283,Autre,Older Canadians Volunteer Rate by Cause,AT,...
+592,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0054751084651647,44.99383805164857,0.0006468127733635018,0.010303404156966,1483,Autre,Older Canadians Volunteer Rate by Cause,BC,...
+593,Senior2,65 ans et plus,2018,flag_vd1dex15,0.002839774223376,74.60447726152691,-0.001312602955241,0.0069921514019932,694,Autre,Older Canadians Volunteer Rate by Cause,BC,...
+594,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.003881049193098,31.14561520906694,0.0015118904981414,0.0062502078880546,3056,Autre,Older Canadians Volunteer Rate by Cause,ON,*
+595,Senior2,65 ans et plus,2018,flag_vd1dex15,0.003339173953126,41.5764010074707,0.0006181395816360819,0.0060602083246159,1290,Autre,Older Canadians Volunteer Rate by Cause,ON,...
+596,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0038519252861,37.71223772193842,0.0010047890511574,0.0066990615210425,1503,Autre,Older Canadians Volunteer Rate by Cause,PR,...
+597,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0042740116907956,66.60512168153384,-0.0013054387307909,0.0098534621123822,650,Autre,Older Canadians Volunteer Rate by Cause,PR,...
+598,Senior2,15 à 64 ans,2018,flag_vd1dex15,0.0018434087926848,52.05086931638645,-3.7196841338762304e-05,0.0037240144267083,1399,Autre,Older Canadians Volunteer Rate by Cause,QC,...
+599,Senior2,65 ans et plus,2018,flag_vd1dex15,0.0005959903474128214,104.73752379787896,-0.0006274692134484829,0.0018194499082741,614,Autre,Older Canadians Volunteer Rate by Cause,QC,...

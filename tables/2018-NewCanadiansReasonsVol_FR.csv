@@ -1,0 +1,241 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,ImmStat,Né.e au Canada,2018,rv_020,0.6074370248447971,1.7170305130858776,0.586994837515531,0.6278792121740632,5523,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA,
+1,ImmStat,Naturalisé.e,2018,rv_020,0.5089593197600112,4.584246533526776,0.4632295381235277,0.5546891013964946,952,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA,
+2,ImmStat,Non canadien.ne,2018,rv_020,0.5437651231287555,13.071017782865589,0.4044594365057609,0.68307080975175,138,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA,
+3,ImmStat,Né.e au Canada,2018,rv_030,0.3927804011447774,2.547496002467493,0.3731688740832389,0.412391928206316,5433,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA,
+4,ImmStat,Naturalisé.e,2018,rv_030,0.3608346286951867,6.136495810527027,0.3174359265004682,0.4042333308899051,927,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA,
+5,ImmStat,Non canadien.ne,2018,rv_030,0.4576139919108955,15.674628283419633,0.3170271625526422,0.5982008212691489,137,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA,
+6,ImmStat,Né.e au Canada,2018,rv_040,0.4551382024889011,2.363783825163828,0.4340519628639772,0.476224442113825,5427,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA,
+7,ImmStat,Naturalisé.e,2018,rv_040,0.5540523541861926,4.196604191264348,0.5084804783330431,0.5996242300393421,932,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA,
+8,ImmStat,Non canadien.ne,2018,rv_040,0.6132572694411882,10.540053367834458,0.4865698161724459,0.7399447227099305,138,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA,
+9,ImmStat,Né.e au Canada,2018,rv_050,0.2227045392819607,4.523812842450992,0.2029584184926644,0.242450660071257,5377,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA,
+10,ImmStat,Naturalisé.e,2018,rv_050,0.2414874573749463,9.145728305727085,0.1982001107866288,0.2847748039632638,911,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA,
+11,ImmStat,Non canadien.ne,2018,rv_050,0.335245673719544,20.64043878183411,0.1996236568681767,0.4708676905709112,137,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA,*
+12,ImmStat,Né.e au Canada,2018,rv_060,0.1601954302038212,4.981480861461187,0.1445547124057463,0.1758361480018961,5408,Raisons religieuses,New Canadians Reasons for Volunteering,CA,
+13,ImmStat,Naturalisé.e,2018,rv_060,0.2916282732638692,7.273982184503678,0.2500515795207204,0.3332049670070179,933,Raisons religieuses,New Canadians Reasons for Volunteering,CA,
+14,ImmStat,Non canadien.ne,2018,rv_060,0.2540040942950064,22.814546062450635,0.140424414443476,0.3675837741465367,137,Raisons religieuses,New Canadians Reasons for Volunteering,CA,*
+15,ImmStat,Né.e au Canada,2018,rv_070,0.3985460099172136,2.6248273191040363,0.3780425433670341,0.4190494764673931,5387,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA,
+16,ImmStat,Naturalisé.e,2018,rv_070,0.5181186186199255,4.7151118652944,0.4702369484458374,0.5660002887940134,927,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA,
+17,ImmStat,Non canadien.ne,2018,rv_070,0.4906177394135531,15.110879449488332,0.3453125653645374,0.6359229134625687,136,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA,
+18,ImmStat,Né.e au Canada,2018,rv_080,0.8928851390668372,0.7095419420454081,0.8804679939092855,0.9053022842243889,5573,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA,
+19,ImmStat,Naturalisé.e,2018,rv_080,0.8937888274904003,1.6821801607982083,0.864320497850293,0.9232571571305076,971,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA,
+20,ImmStat,Non canadien.ne,2018,rv_080,0.9320389487649876,2.6782022806082533,0.883114546550196,0.9809633509797796,142,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA,
+21,ImmStat,Né.e au Canada,2018,rv_090,0.7370500895037945,1.187777581364474,0.7198915539776614,0.7542086250299276,5514,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA,
+22,ImmStat,Naturalisé.e,2018,rv_090,0.7652560183414053,2.298765472632411,0.730777427296576,0.7997346093862346,952,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA,
+23,ImmStat,Non canadien.ne,2018,rv_090,0.7269358295364625,8.886169605826954,0.6003285245714065,0.8535431345015185,138,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA,
+24,ImmStat,Né.e au Canada,2018,rv_100,0.3003437647402545,3.35575856346666,0.280589656987276,0.320097872493233,5391,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA,
+25,ImmStat,Naturalisé.e,2018,rv_100,0.36791231957134,6.108428593863132,0.3238647527656694,0.4119598863770106,916,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA,
+26,ImmStat,Non canadien.ne,2018,rv_100,0.2988497062502718,20.03963554937398,0.1814706148913129,0.4162287976092306,137,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA,*
+27,ImmStat,Né.e au Canada,2018,rv_110,0.4927229747825025,2.0016236265097005,0.4733929094096002,0.5120530401554048,5450,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA,
+28,ImmStat,Naturalisé.e,2018,rv_110,0.5794820422262832,4.081172913664588,0.5331295522519117,0.6258345322006547,935,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA,
+29,ImmStat,Non canadien.ne,2018,rv_110,0.4091303307476698,17.100877087010254,0.272001695590621,0.5462589659047186,137,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA,*
+30,ImmStat,Né.e au Canada,2018,rv_020,0.6069062884662465,1.8193154983051332,0.5852652674065345,0.6285473095259585,4840,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA (without QC),
+31,ImmStat,Naturalisé.e,2018,rv_020,0.5048330207711179,4.920525833095012,0.4561466545769289,0.5535193869653069,874,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA (without QC),
+32,ImmStat,Non canadien.ne,2018,rv_020,0.5425071061339084,14.174809901724045,0.3917871477436655,0.6932270645241513,118,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,CA (without QC),
+33,ImmStat,Né.e au Canada,2018,rv_030,0.396827606725749,2.7091983453844373,0.3757563338897793,0.4178988795617187,4767,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA (without QC),
+34,ImmStat,Naturalisé.e,2018,rv_030,0.3708595850846674,6.296926102610658,0.3250890282710735,0.4166301418982612,849,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA (without QC),
+35,ImmStat,Non canadien.ne,2018,rv_030,0.405772409267408,18.1335012087046,0.2615567996231464,0.5499880189116697,118,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,CA (without QC),*
+36,ImmStat,Né.e au Canada,2018,rv_040,0.4643863385333855,2.4900156047214383,0.4417227020911514,0.4870499749756196,4756,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA (without QC),
+37,ImmStat,Naturalisé.e,2018,rv_040,0.5542654923831177,4.527959146137,0.5050764427498211,0.6034545420164144,853,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA (without QC),
+38,ImmStat,Non canadien.ne,2018,rv_040,0.5642219129435843,13.041023701880173,0.4200071487119922,0.7084366771751763,119,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,CA (without QC),
+39,ImmStat,Né.e au Canada,2018,rv_050,0.2419157521685773,4.518894246916039,0.2204895885526226,0.2633419157845321,4719,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA (without QC),
+40,ImmStat,Naturalisé.e,2018,rv_050,0.2325008966614817,9.76847538866017,0.1879866006143176,0.2770151927086458,834,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA (without QC),
+41,ImmStat,Non canadien.ne,2018,rv_050,0.365904465799279,20.78919622206089,0.2168127545794213,0.5149961770191366,118,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,CA (without QC),*
+42,ImmStat,Né.e au Canada,2018,rv_060,0.178727566519831,5.042779429392772,0.1610627306814315,0.1963924023582305,4744,Raisons religieuses,New Canadians Reasons for Volunteering,CA (without QC),
+43,ImmStat,Naturalisé.e,2018,rv_060,0.3065741355625302,7.436655519395227,0.2618891864222806,0.3512590847027799,855,Raisons religieuses,New Canadians Reasons for Volunteering,CA (without QC),
+44,ImmStat,Non canadien.ne,2018,rv_060,0.2468966274047735,25.278019314265705,0.1245741439135829,0.3692191108959641,118,Raisons religieuses,New Canadians Reasons for Volunteering,CA (without QC),*
+45,ImmStat,Né.e au Canada,2018,rv_070,0.4338187203650148,2.55026175581556,0.4121346335090478,0.4555028072209819,4727,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA (without QC),
+46,ImmStat,Naturalisé.e,2018,rv_070,0.5231566140435323,4.823187925510526,0.473701182600877,0.5726120454861875,849,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA (without QC),
+47,ImmStat,Non canadien.ne,2018,rv_070,0.4235850847826208,17.527366930015173,0.278070867031148,0.5690993025340936,117,Découvrir ses points forts,New Canadians Reasons for Volunteering,CA (without QC),*
+48,ImmStat,Né.e au Canada,2018,rv_080,0.9001258721473092,0.7528056497314332,0.8868447672915822,0.9134069770030362,4885,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA (without QC),
+49,ImmStat,Naturalisé.e,2018,rv_080,0.8916854408308721,1.8240401359318328,0.8598072139705842,0.92356366769116,891,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA (without QC),
+50,ImmStat,Non canadien.ne,2018,rv_080,0.931545551984348,3.068535569971911,0.875520360517569,0.9875707434511268,122,Contribuer à la communauté,New Canadians Reasons for Volunteering,CA (without QC),
+51,ImmStat,Né.e au Canada,2018,rv_090,0.7448089258692434,1.29132544490579,0.7259581741982631,0.7636596775402237,4836,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA (without QC),
+52,ImmStat,Naturalisé.e,2018,rv_090,0.77162335868011,2.323390755878256,0.7364854658188904,0.8067612515413296,872,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA (without QC),
+53,ImmStat,Non canadien.ne,2018,rv_090,0.6918066610898376,10.733014627596948,0.5462759834455836,0.8373373387340916,119,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,CA (without QC),
+54,ImmStat,Né.e au Canada,2018,rv_100,0.2860359729880877,3.675401903921057,0.2654309272872727,0.3066410186889027,4723,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA (without QC),
+55,ImmStat,Naturalisé.e,2018,rv_100,0.358040717538312,6.260745110295816,0.3141061320978143,0.4019753029788097,839,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA (without QC),
+56,ImmStat,Non canadien.ne,2018,rv_100,0.290112071665827,22.99587303971417,0.159355419194761,0.420868724136893,117,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,CA (without QC),*
+57,ImmStat,Né.e au Canada,2018,rv_110,0.497442757698167,2.142526238791265,0.4765537719962003,0.5183317434001337,4777,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA (without QC),
+58,ImmStat,Naturalisé.e,2018,rv_110,0.5773751321428117,4.220052879981429,0.5296195593299067,0.6251307049557167,860,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA (without QC),
+59,ImmStat,Non canadien.ne,2018,rv_110,0.4802554508262005,15.684001873273916,0.3326245467765553,0.6278863548758458,118,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,CA (without QC),
+60,ImmStat,Né.e au Canada,2018,rv_020,0.5836738276932089,5.280837164638149,0.5232621235431931,0.6440855318432246,501,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AB,
+61,ImmStat,Naturalisé.e,2018,rv_020,0.4625560090689351,13.267202987167677,0.3422764597555583,0.5828355583823118,99,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AB,
+62,ImmStat,Non canadien.ne,2018,rv_020,0.839163689844579,15.407277414793116,0.5857554821546324,1.0925718975345258,11,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AB,...
+63,ImmStat,Né.e au Canada,2018,rv_020,0.6299849666322649,2.8304295439889398,0.5950362988222707,0.6649336344422591,1528,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AT,
+64,ImmStat,Naturalisé.e,2018,rv_020,0.580075552999556,16.78258189572207,0.3892698158753201,0.7708812901237919,43,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AT,*
+65,ImmStat,Non canadien.ne,2018,rv_020,0.733474666116972,19.67033818211642,0.4506970455990878,1.0162522866348562,15,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,AT,*
+66,ImmStat,Né.e au Canada,2018,rv_020,0.5895657630067015,4.063784006788705,0.5426076146838785,0.6365239113295245,684,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,BC,
+67,ImmStat,Naturalisé.e,2018,rv_020,0.5145431617744707,8.993244428878727,0.4238475448666387,0.6052387786823026,229,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,BC,
+68,ImmStat,Non canadien.ne,2018,rv_020,0.2280402282742819,45.46797642862923,0.0248208191577275,0.4312596373908364,31,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,BC,...
+69,ImmStat,Né.e au Canada,2018,rv_020,0.6105235381116112,3.069393740070642,0.5737950453481933,0.6472520308750291,1388,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,ON,
+70,ImmStat,Naturalisé.e,2018,rv_020,0.5027906289703978,7.128610902423171,0.4325416241535006,0.573039633787295,419,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,ON,
+71,ImmStat,Non canadien.ne,2018,rv_020,0.5946275413122758,18.661020814407948,0.3771429419813871,0.8121121406431644,48,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,ON,*
+72,ImmStat,Né.e au Canada,2018,rv_020,0.6295719107352907,3.8193954364614138,0.5824429287346894,0.6767008927358921,739,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,PR,
+73,ImmStat,Naturalisé.e,2018,rv_020,0.5669194079725641,12.51823018058668,0.4278241421279686,0.7060146738171597,84,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,PR,
+74,ImmStat,Non canadien.ne,2018,rv_020,0.5996025115686665,36.4458423548042,0.1712912172351768,1.0279138059021562,13,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,PR,...
+75,ImmStat,Né.e au Canada,2018,rv_020,0.6095507337047545,4.368406991043746,0.5573614852564346,0.6617399821530745,683,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,QC,
+76,ImmStat,Naturalisé.e,2018,rv_020,0.5402248188389194,14.27082307782711,0.389122320320541,0.6913273173572977,78,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,QC,
+77,ImmStat,Non canadien.ne,2018,rv_020,0.5485186163722126,34.58836751794135,0.176667124883298,0.920370107861127,20,Touché.e personnellement par la cause,New Canadians Reasons for Volunteering,QC,...
+78,ImmStat,Né.e au Canada,2018,rv_030,0.3491271668272229,8.687420622521548,0.2896811740214072,0.4085731596330387,493,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AB,
+79,ImmStat,Naturalisé.e,2018,rv_030,0.3932853201179598,16.974215095551774,0.2624438159004216,0.524126824335498,93,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AB,*
+80,ImmStat,Non canadien.ne,2018,rv_030,0.1805566187877197,72.96843911258343,-0.0776673552289294,0.4387805928043689,10,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AB,...
+81,ImmStat,Né.e au Canada,2018,rv_030,0.4333457737237507,4.186298154071514,0.3977897806782295,0.4689017667692718,1507,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AT,
+82,ImmStat,Naturalisé.e,2018,rv_030,0.4609599580854877,20.927845304738877,0.2718842180483798,0.6500356981225955,45,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AT,*
+83,ImmStat,Non canadien.ne,2018,rv_030,0.4682912669836044,37.80368948466602,0.1213161449996437,0.8152663889675652,14,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,AT,...
+84,ImmStat,Né.e au Canada,2018,rv_030,0.3926804340012504,6.715897636369535,0.3409922324698076,0.4443686355326932,670,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,BC,
+85,ImmStat,Naturalisé.e,2018,rv_030,0.408707754712065,11.552811764632654,0.3161636696266843,0.5012518397974457,223,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,BC,
+86,ImmStat,Non canadien.ne,2018,rv_030,0.2127127634832605,49.9350209188224,0.0045289896122057,0.4208965373543153,32,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,BC,...
+87,ImmStat,Né.e au Canada,2018,rv_030,0.3927316577934774,4.648097790455761,0.3569533942832411,0.4285099213037138,1361,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,ON,
+88,ImmStat,Naturalisé.e,2018,rv_030,0.3482283538871973,9.300870701781667,0.2847485132392979,0.4117081945350967,405,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,ON,
+89,ImmStat,Non canadien.ne,2018,rv_030,0.4660372481726885,23.09470322858667,0.2550864824894371,0.6769880138559399,49,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,ON,*
+90,ImmStat,Né.e au Canada,2018,rv_030,0.4555275312285092,5.55534526647483,0.4059284334388762,0.5051266290181422,736,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,PR,
+91,ImmStat,Naturalisé.e,2018,rv_030,0.3766356161898847,17.8216860545762,0.2450773121583385,0.508193920221431,83,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,PR,*
+92,ImmStat,Non canadien.ne,2018,rv_030,0.6656856630772457,29.06309419789436,0.2864936823557568,1.0448776437987346,13,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,PR,...
+93,ImmStat,Né.e au Canada,2018,rv_030,0.3765149451504416,7.239512521182183,0.3230905475216786,0.4299393427792046,666,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,QC,
+94,ImmStat,Naturalisé.e,2018,rv_030,0.2869731173925687,20.9565674245506,0.1691014422721111,0.4048447925130263,78,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,QC,*
+95,ImmStat,Non canadien.ne,2018,rv_030,0.6558452401614543,26.281121958560043,0.3180190125562959,0.9936714677666126,19,Bénévoles parmi les amis,New Canadians Reasons for Volunteering,QC,*
+96,ImmStat,Né.e au Canada,2018,rv_040,0.4151022144836017,7.263860977059677,0.3560045028032183,0.474199926163985,490,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AB,
+97,ImmStat,Naturalisé.e,2018,rv_040,0.6114611754321572,10.277763578442295,0.4882881521965862,0.734634198667728,95,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AB,
+98,ImmStat,Non canadien.ne,2018,rv_040,0.3325820520791248,52.37724895090309,-0.0088384397156065,0.6740025438738562,10,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AB,...
+99,ImmStat,Né.e au Canada,2018,rv_040,0.4723150459895158,4.128069226013252,0.4341006637565461,0.5105294282224855,1501,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AT,
+100,ImmStat,Naturalisé.e,2018,rv_040,0.5649778005060064,18.02343484020618,0.3653977926606475,0.7645578083513653,41,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AT,*
+101,ImmStat,Non canadien.ne,2018,rv_040,0.7168801818713046,19.81577938519633,0.4384567232819127,0.9953036404606964,15,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,AT,*
+102,ImmStat,Né.e au Canada,2018,rv_040,0.4424215829550031,5.754401044234052,0.3925234239708524,0.4923197419391538,665,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,BC,
+103,ImmStat,Naturalisé.e,2018,rv_040,0.5199093203792224,8.476270163360335,0.4335358270859214,0.6062828136725235,223,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,BC,
+104,ImmStat,Non canadien.ne,2018,rv_040,0.6132076364363087,18.643750618155316,0.3891349449832629,0.8372803278893545,32,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,BC,*
+105,ImmStat,Né.e au Canada,2018,rv_040,0.4725832971331303,4.134043417110778,0.4342918753363462,0.5108747189299143,1363,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,ON,
+106,ImmStat,Naturalisé.e,2018,rv_040,0.5416851055359133,6.852901492590413,0.4689289949735601,0.6144412160982665,411,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,ON,
+107,ImmStat,Non canadien.ne,2018,rv_040,0.5878658571107535,17.484197699990244,0.3864136467211617,0.7893180675003452,49,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,ON,*
+108,ImmStat,Né.e au Canada,2018,rv_040,0.5286545690189451,4.834206327215803,0.4785652342948645,0.5787439037430258,737,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,PR,
+109,ImmStat,Naturalisé.e,2018,rv_040,0.6650222531619115,9.313124204367568,0.5436331608455975,0.7864113454782256,83,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,PR,
+110,ImmStat,Non canadien.ne,2018,rv_040,0.3191700469855429,64.81560913996397,-0.0862916423099998,0.7246317362810857,13,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,PR,...
+111,ImmStat,Né.e au Canada,2018,rv_040,0.4185758456347233,6.2987491638584485,0.3669013117328783,0.4702503795365683,671,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,QC,
+112,ImmStat,Naturalisé.e,2018,rv_040,0.5524763751340401,12.772653929722445,0.4141697615361026,0.6907829887319776,79,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,QC,
+113,ImmStat,Non canadien.ne,2018,rv_040,0.8002172481389747,15.286319409788227,0.5604670752210433,1.039967421056906,19,Réseauter ou rencontrer des gens,New Canadians Reasons for Volunteering,QC,
+114,ImmStat,Né.e au Canada,2018,rv_050,0.185869090414905,13.3153308011815,0.1373617766426095,0.2343764041872004,489,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AB,
+115,ImmStat,Naturalisé.e,2018,rv_050,0.1868424739213338,28.368768120641864,0.0829547628893579,0.2907301849533097,92,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AB,*
+116,ImmStat,Non canadien.ne,2018,rv_050,0.3597082589526169,49.05793423159994,0.0138423498755311,0.7055741680297026,10,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AB,...
+117,ImmStat,Né.e au Canada,2018,rv_050,0.2394146454383458,7.283559463299172,0.2052369736665016,0.27359231721019,1488,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AT,
+118,ImmStat,Naturalisé.e,2018,rv_050,0.1629311971082733,45.545821253255895,0.0174855002267758,0.3083768939897708,41,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AT,...
+119,ImmStat,Non canadien.ne,2018,rv_050,0.5982440887545073,27.31506095500601,0.2779649285614713,0.9185232489475432,14,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,AT,...
+120,ImmStat,Né.e au Canada,2018,rv_050,0.2285739620058051,11.491156494818618,0.1770939562866045,0.2800539677250057,658,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,BC,
+121,ImmStat,Naturalisé.e,2018,rv_050,0.1912845148139182,22.20191574718847,0.1080471437880968,0.2745218858397396,218,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,BC,*
+122,ImmStat,Non canadien.ne,2018,rv_050,0.1643774853441451,56.52720865073532,-0.0177384562372202,0.3464934269255104,31,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,BC,...
+123,ImmStat,Né.e au Canada,2018,rv_050,0.2671777575435783,6.866729811398662,0.2312195238324266,0.30313599125473,1351,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,ON,
+124,ImmStat,Naturalisé.e,2018,rv_050,0.2501053285667411,13.12038278142848,0.1857895485351851,0.3144211085982972,401,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,ON,
+125,ImmStat,Non canadien.ne,2018,rv_050,0.4359298781521853,24.947148799106728,0.2227797271979145,0.649080029106456,50,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,ON,*
+126,ImmStat,Né.e au Canada,2018,rv_050,0.2447179281008671,9.495408968991786,0.1991743075274643,0.2902615486742698,733,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,PR,
+127,ImmStat,Naturalisé.e,2018,rv_050,0.3211368154221401,25.28531557665525,0.1619868437578287,0.4802867870864514,82,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,PR,*
+128,ImmStat,Non canadien.ne,2018,rv_050,0.2327589205303295,77.0885104408387,-0.1189181713216479,0.584436012382307,13,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,PR,...
+129,ImmStat,Né.e au Canada,2018,rv_050,0.1453814490609368,14.709465783113862,0.1034679436165447,0.1872949545053289,658,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,QC,
+130,ImmStat,Naturalisé.e,2018,rv_050,0.3077918261567212,26.65856190920689,0.1469711472549,0.4686125050585423,77,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,QC,*
+131,ImmStat,Non canadien.ne,2018,rv_050,0.2170006796567897,65.22198717174861,-0.0603972476763176,0.494398606989897,19,Améliorer ses possibilités d'emploi,New Canadians Reasons for Volunteering,QC,...
+132,ImmStat,Né.e au Canada,2018,rv_060,0.2085849719736651,12.663751436330406,0.1568131458374031,0.260356798109927,494,Raisons religieuses,New Canadians Reasons for Volunteering,AB,
+133,ImmStat,Naturalisé.e,2018,rv_060,0.4028465851220705,15.349300230916636,0.2816539137388201,0.5240392565053208,96,Raisons religieuses,New Canadians Reasons for Volunteering,AB,
+134,ImmStat,Non canadien.ne,2018,rv_060,0.3251213692694606,60.857827453604365,-0.0626806364193535,0.7129233749582748,11,Raisons religieuses,New Canadians Reasons for Volunteering,AB,...
+135,ImmStat,Né.e au Canada,2018,rv_060,0.1682357375063139,7.31564855731768,0.1441134115724628,0.192358063440165,1501,Raisons religieuses,New Canadians Reasons for Volunteering,AT,
+136,ImmStat,Naturalisé.e,2018,rv_060,0.0965176541181309,53.54730784450204,-0.0047783910439227,0.1978136992801846,42,Raisons religieuses,New Canadians Reasons for Volunteering,AT,...
+137,ImmStat,Non canadien.ne,2018,rv_060,0.2991681304013096,47.99648465080893,0.0177365377230684,0.5805997230795508,14,Raisons religieuses,New Canadians Reasons for Volunteering,AT,...
+138,ImmStat,Né.e au Canada,2018,rv_060,0.1147762865017991,14.040029318944388,0.0831922032963498,0.1463603697072485,661,Raisons religieuses,New Canadians Reasons for Volunteering,BC,
+139,ImmStat,Naturalisé.e,2018,rv_060,0.2387132197359198,14.319281876954534,0.1717176939464303,0.3057087455254092,223,Raisons religieuses,New Canadians Reasons for Volunteering,BC,
+140,ImmStat,Non canadien.ne,2018,rv_060,0.1614927397074617,62.99311991765902,-0.0378930542216412,0.3608785336365647,31,Raisons religieuses,New Canadians Reasons for Volunteering,BC,...
+141,ImmStat,Né.e au Canada,2018,rv_060,0.1860883941767279,8.134165069880478,0.1564209345031579,0.2157558538502978,1353,Raisons religieuses,New Canadians Reasons for Volunteering,ON,
+142,ImmStat,Naturalisé.e,2018,rv_060,0.3055006470371264,11.415929468303384,0.2371454558565866,0.3738558382176662,412,Raisons religieuses,New Canadians Reasons for Volunteering,ON,
+143,ImmStat,Non canadien.ne,2018,rv_060,0.2392092253930818,35.00095563463785,0.0751102316925734,0.4033082190935901,49,Raisons religieuses,New Canadians Reasons for Volunteering,ON,...
+144,ImmStat,Né.e au Canada,2018,rv_060,0.204322659519389,9.317985655663042,0.1670073832425865,0.2416379357961914,735,Raisons religieuses,New Canadians Reasons for Volunteering,PR,
+145,ImmStat,Naturalisé.e,2018,rv_060,0.3839388110855263,18.040661638651464,0.24818170615752,0.5196959160135326,82,Raisons religieuses,New Canadians Reasons for Volunteering,PR,*
+146,ImmStat,Non canadien.ne,2018,rv_060,0.5003818701002727,50.41128450332468,0.0059830558084028,0.9947806843921424,13,Raisons religieuses,New Canadians Reasons for Volunteering,PR,...
+147,ImmStat,Né.e au Canada,2018,rv_060,0.0858896354443751,16.18243050431922,0.0586480361146034,0.1131312347741467,664,Raisons religieuses,New Canadians Reasons for Volunteering,QC,
+148,ImmStat,Naturalisé.e,2018,rv_060,0.1803644886380636,30.677688320010528,0.0719164363309347,0.2888125409451926,78,Raisons religieuses,New Canadians Reasons for Volunteering,QC,*
+149,ImmStat,Non canadien.ne,2018,rv_060,0.2818124253417516,55.54591969547018,-0.0249911317727809,0.5886159824562842,19,Raisons religieuses,New Canadians Reasons for Volunteering,QC,...
+150,ImmStat,Né.e au Canada,2018,rv_070,0.4094584462830005,7.464530471637763,0.3495538121016196,0.4693630804643813,487,Découvrir ses points forts,New Canadians Reasons for Volunteering,AB,
+151,ImmStat,Naturalisé.e,2018,rv_070,0.5414628015325141,11.472452500112793,0.4197116758643976,0.6632139272006305,95,Découvrir ses points forts,New Canadians Reasons for Volunteering,AB,
+152,ImmStat,Non canadien.ne,2018,rv_070,0.2287720997262186,64.33589510836264,-0.0597004525349696,0.517244651987407,10,Découvrir ses points forts,New Canadians Reasons for Volunteering,AB,...
+153,ImmStat,Né.e au Canada,2018,rv_070,0.4432371543082678,4.144390633343123,0.4072336368444758,0.4792406717720598,1496,Découvrir ses points forts,New Canadians Reasons for Volunteering,AT,
+154,ImmStat,Naturalisé.e,2018,rv_070,0.2903813566383714,32.09931946448481,0.1076922525632104,0.4730704607135324,41,Découvrir ses points forts,New Canadians Reasons for Volunteering,AT,*
+155,ImmStat,Non canadien.ne,2018,rv_070,0.6714406810877755,23.49732583421164,0.3622159782161238,0.9806653839594272,15,Découvrir ses points forts,New Canadians Reasons for Volunteering,AT,*
+156,ImmStat,Né.e au Canada,2018,rv_070,0.4187214903327448,6.452323225429442,0.3657686259895494,0.4716743546759403,659,Découvrir ses points forts,New Canadians Reasons for Volunteering,BC,
+157,ImmStat,Naturalisé.e,2018,rv_070,0.4563348949180624,10.100549766862358,0.3659955819517158,0.5466742078844091,223,Découvrir ses points forts,New Canadians Reasons for Volunteering,BC,
+158,ImmStat,Non canadien.ne,2018,rv_070,0.3961740090362899,30.19671742271563,0.1617004874400162,0.6306475306325637,31,Découvrir ses points forts,New Canadians Reasons for Volunteering,BC,*
+159,ImmStat,Né.e au Canada,2018,rv_070,0.4430412822089374,4.044391254142423,0.4079220147205756,0.4781605496972993,1354,Découvrir ses points forts,New Canadians Reasons for Volunteering,ON,
+160,ImmStat,Naturalisé.e,2018,rv_070,0.5407332751416731,6.459418025186004,0.4722752167180242,0.6091913335653221,409,Découvrir ses points forts,New Canadians Reasons for Volunteering,ON,
+161,ImmStat,Non canadien.ne,2018,rv_070,0.4266852576649299,24.473837557101888,0.222013555216208,0.6313569601136518,48,Découvrir ses points forts,New Canadians Reasons for Volunteering,ON,*
+162,ImmStat,Né.e au Canada,2018,rv_070,0.4447646327204905,5.812507110291691,0.3940956910254483,0.4954335744155327,731,Découvrir ses points forts,New Canadians Reasons for Volunteering,PR,
+163,ImmStat,Naturalisé.e,2018,rv_070,0.601423316422131,11.255851093470485,0.4687429411417044,0.7341036917025576,81,Découvrir ses points forts,New Canadians Reasons for Volunteering,PR,
+164,ImmStat,Non canadien.ne,2018,rv_070,0.5927131861690769,36.5292744764032,0.1683538838123958,1.0170724885257578,13,Découvrir ses points forts,New Canadians Reasons for Volunteering,PR,...
+165,ImmStat,Né.e au Canada,2018,rv_070,0.257097308986906,10.4853438540526,0.2042615075768813,0.3099331103969306,660,Découvrir ses points forts,New Canadians Reasons for Volunteering,QC,
+166,ImmStat,Naturalisé.e,2018,rv_070,0.480895963394663,16.529737648900618,0.325096777711817,0.636695149077509,78,Découvrir ses points forts,New Canadians Reasons for Volunteering,QC,*
+167,ImmStat,Non canadien.ne,2018,rv_070,0.7441299371716235,19.59452115772032,0.4583501404980969,1.02990973384515,19,Découvrir ses points forts,New Canadians Reasons for Volunteering,QC,*
+168,ImmStat,Né.e au Canada,2018,rv_080,0.8967435752235803,2.063680218183406,0.860472638974142,0.9330145114730186,505,Contribuer à la communauté,New Canadians Reasons for Volunteering,AB,
+169,ImmStat,Naturalisé.e,2018,rv_080,0.892331291582121,4.7767947138345885,0.8087881521613955,0.9758744310028464,99,Contribuer à la communauté,New Canadians Reasons for Volunteering,AB,
+170,ImmStat,Non canadien.ne,2018,rv_080,0.9269448185999636,10.43074888031947,0.737441219713952,1.1164484174859757,11,Contribuer à la communauté,New Canadians Reasons for Volunteering,AB,...
+171,ImmStat,Né.e au Canada,2018,rv_080,0.903920202306626,1.1663097468184254,0.8832572635309445,0.9245831410823075,1537,Contribuer à la communauté,New Canadians Reasons for Volunteering,AT,
+172,ImmStat,Naturalisé.e,2018,rv_080,0.8802144597628185,8.627144334705402,0.7313799457607705,1.0290489737648665,46,Contribuer à la communauté,New Canadians Reasons for Volunteering,AT,
+173,ImmStat,Non canadien.ne,2018,rv_080,0.7552244817006389,18.67895167410611,0.4787362510330716,1.0317127123682064,15,Contribuer à la communauté,New Canadians Reasons for Volunteering,AT,*
+174,ImmStat,Né.e au Canada,2018,rv_080,0.9227206111275528,1.4066488242529418,0.897281378877977,0.9481598433771288,688,Contribuer à la communauté,New Canadians Reasons for Volunteering,BC,
+175,ImmStat,Naturalisé.e,2018,rv_080,0.8928401461352431,3.5706381040923567,0.8303563169969482,0.955323975273538,233,Contribuer à la communauté,New Canadians Reasons for Volunteering,BC,
+176,ImmStat,Non canadien.ne,2018,rv_080,0.8834233864936805,11.057705311580598,0.6919616494378451,1.0748851235495158,32,Contribuer à la communauté,New Canadians Reasons for Volunteering,BC,
+177,ImmStat,Né.e au Canada,2018,rv_080,0.8908395977741703,1.2895590755120203,0.8683237218688273,0.9133554736795132,1406,Contribuer à la communauté,New Canadians Reasons for Volunteering,ON,
+178,ImmStat,Naturalisé.e,2018,rv_080,0.8926746443362131,2.349361308008347,0.8515699803650839,0.9337793083073423,430,Contribuer à la communauté,New Canadians Reasons for Volunteering,ON,
+179,ImmStat,Non canadien.ne,2018,rv_080,0.9591937500189518,2.3852493705926934,0.914351414767747,1.0040360852701566,51,Contribuer à la communauté,New Canadians Reasons for Volunteering,ON,
+180,ImmStat,Né.e au Canada,2018,rv_080,0.9070620542490492,1.6576485600939062,0.8775922296543638,0.9365318788437345,749,Contribuer à la communauté,New Canadians Reasons for Volunteering,PR,
+181,ImmStat,Naturalisé.e,2018,rv_080,0.8790094572292658,4.88389430475364,0.7948684134421639,0.9631505010163678,83,Contribuer à la communauté,New Canadians Reasons for Volunteering,PR,
+182,ImmStat,Non canadien.ne,2018,rv_080,0.8758627662799185,14.662509635473464,0.6241574050113261,1.127568127548511,13,Contribuer à la communauté,New Canadians Reasons for Volunteering,PR,...
+183,ImmStat,Né.e au Canada,2018,rv_080,0.8639837331218444,1.9390309793338865,0.8311486284920738,0.896818837751615,688,Contribuer à la communauté,New Canadians Reasons for Volunteering,QC,
+184,ImmStat,Naturalisé.e,2018,rv_080,0.9099273177426408,4.168655078777787,0.835582490436632,0.9842721450486492,80,Contribuer à la communauté,New Canadians Reasons for Volunteering,QC,
+185,ImmStat,Non canadien.ne,2018,rv_080,0.9339706702735384,6.634407604780213,0.8125245964115649,1.0554167441355118,20,Contribuer à la communauté,New Canadians Reasons for Volunteering,QC,
+186,ImmStat,Né.e au Canada,2018,rv_090,0.7291376805188835,3.8811770027573056,0.6736724167343652,0.7846029443034018,498,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AB,
+187,ImmStat,Naturalisé.e,2018,rv_090,0.8032858864283627,6.1608821463876,0.706288255162975,0.9002835176937505,99,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AB,
+188,ImmStat,Non canadien.ne,2018,rv_090,0.5607701959108848,34.922682464069666,0.1769386990869588,0.9446016927348108,10,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AB,...
+189,ImmStat,Né.e au Canada,2018,rv_090,0.7294843974392532,2.2422167100414074,0.6974260092596892,0.7615427856188172,1522,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AT,
+190,ImmStat,Naturalisé.e,2018,rv_090,0.7013551696407053,13.969119632435769,0.5093313385055513,0.8933790007758593,41,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AT,
+191,ImmStat,Non canadien.ne,2018,rv_090,0.7247645926768118,22.04930611444061,0.4115514433968464,1.037977741956777,15,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,AT,*
+192,ImmStat,Né.e au Canada,2018,rv_090,0.7429303896407284,3.052710010364003,0.6984793661195123,0.7873814131619445,686,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,BC,
+193,ImmStat,Naturalisé.e,2018,rv_090,0.744377795667601,5.060216136405106,0.6705515866153551,0.8182040047198469,226,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,BC,
+194,ImmStat,Non canadien.ne,2018,rv_090,0.7036919479689783,15.901629221325503,0.4843749485687167,0.9230089473692398,31,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,BC,
+195,ImmStat,Né.e au Canada,2018,rv_090,0.7537502336651056,2.1809365176016136,0.7215307500854371,0.7859697172447742,1385,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,ON,
+196,ImmStat,Naturalisé.e,2018,rv_090,0.7700554187223555,3.2318335402983656,0.7212779728055786,0.8188328646391324,423,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,ON,
+197,ImmStat,Non canadien.ne,2018,rv_090,0.6817260456166659,15.633200122525691,0.4728417138684879,0.8906103773648439,50,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,ON,
+198,ImmStat,Né.e au Canada,2018,rv_090,0.7499349686178649,2.828641804123057,0.7083583035217996,0.7915116337139302,745,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,PR,
+199,ImmStat,Naturalisé.e,2018,rv_090,0.8274973185266898,6.32674907795689,0.7248859932873074,0.9301086437660724,83,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,PR,
+200,ImmStat,Non canadien.ne,2018,rv_090,0.886802935493434,12.997280897901431,0.6608969603126611,1.112708910674207,13,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,PR,...
+201,ImmStat,Né.e au Canada,2018,rv_090,0.7060792773899257,3.174946055070832,0.6621415178916015,0.7500170368882499,678,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,QC,
+202,ImmStat,Naturalisé.e,2018,rv_090,0.7171677514767242,8.624521957678029,0.5959394903243925,0.8383960126290558,80,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,QC,
+203,ImmStat,Non canadien.ne,2018,rv_090,0.863088973889528,11.071123266245175,0.67580727267248,1.050370675106576,19,Utiliser ses compétences et son expérience,New Canadians Reasons for Volunteering,QC,
+204,ImmStat,Né.e au Canada,2018,rv_100,0.2211237697372741,10.494791903798236,0.175639905741135,0.2666076337334131,491,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AB,
+205,ImmStat,Naturalisé.e,2018,rv_100,0.2625342098102435,21.654042284906257,0.151111690405684,0.373956729214803,92,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AB,*
+206,ImmStat,Non canadien.ne,2018,rv_100,0.0,,0.0,0.0,10,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AB,...
+207,ImmStat,Né.e au Canada,2018,rv_100,0.3215368617534382,5.379998302258846,0.2876320764744683,0.3554416470324081,1487,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AT,
+208,ImmStat,Naturalisé.e,2018,rv_100,0.4757067310963226,21.252788658677183,0.2775525177511945,0.6738609444414507,40,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AT,*
+209,ImmStat,Non canadien.ne,2018,rv_100,0.1729942246208895,70.04521326059199,-0.0645027914213667,0.4104912406631459,14,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,AT,...
+210,ImmStat,Né.e au Canada,2018,rv_100,0.3026976412829425,8.671251578336257,0.2512531455702199,0.3541421369956651,662,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,BC,
+211,ImmStat,Naturalisé.e,2018,rv_100,0.3533437235139779,11.423649385938596,0.2742302709900905,0.4324571760378654,221,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,BC,
+212,ImmStat,Non canadien.ne,2018,rv_100,0.4317242507808176,28.224593848117657,0.1928979033512763,0.6705505982103588,32,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,BC,*
+213,ImmStat,Né.e au Canada,2018,rv_100,0.3015311629290181,5.759904616387755,0.2674906899903339,0.3355716358677023,1353,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,ON,
+214,ImmStat,Naturalisé.e,2018,rv_100,0.3711949220510379,9.13057657657009,0.3047673589473569,0.4376224851547189,404,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,ON,
+215,ImmStat,Non canadien.ne,2018,rv_100,0.2816008748931372,33.70414259317142,0.0955784187437353,0.4676233310425391,48,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,ON,...
+216,ImmStat,Né.e au Canada,2018,rv_100,0.2620290983222664,8.445432735147108,0.2186560924852457,0.305402104159287,730,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,PR,
+217,ImmStat,Naturalisé.e,2018,rv_100,0.4327949743808855,16.342729462257317,0.2941657186657445,0.5714242300960265,82,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,PR,
+218,ImmStat,Non canadien.ne,2018,rv_100,0.218204880104295,73.06389715717113,-0.0942701968023385,0.5306799570109286,13,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,PR,...
+219,ImmStat,Né.e au Canada,2018,rv_100,0.3572832528070371,7.608026720094346,0.3040071093203008,0.4105593962937734,668,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,QC,
+220,ImmStat,Naturalisé.e,2018,rv_100,0.4405402207862657,19.20475264950743,0.2747181348037506,0.6063623067687808,77,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,QC,*
+221,ImmStat,Non canadien.ne,2018,rv_100,0.3312552752391953,47.30227545224052,0.0241460043701184,0.6383645461082722,20,"Soutenir une cause politique, environnementale ou sociale",New Canadians Reasons for Volunteering,QC,...
+222,ImmStat,Né.e au Canada,2018,rv_110,0.4772862046665649,6.146395804024676,0.4197888986691134,0.5347835106640164,494,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AB,
+223,ImmStat,Naturalisé.e,2018,rv_110,0.6214570551685761,10.044833474065832,0.4991076238525466,0.7438064864846055,95,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AB,
+224,ImmStat,Non canadien.ne,2018,rv_110,0.1845442566011855,75.15654844620155,-0.0872970516488135,0.4563855648511847,10,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AB,...
+225,ImmStat,Né.e au Canada,2018,rv_110,0.5118295174719918,3.6747206294478696,0.4749659173240947,0.5486931176198889,1511,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AT,
+226,ImmStat,Naturalisé.e,2018,rv_110,0.3832047880788121,26.9245587907222,0.1809831550449763,0.5854264211126479,42,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AT,*
+227,ImmStat,Non canadien.ne,2018,rv_110,0.6417210530610544,24.207301924590148,0.3372536762801845,0.9461884298419244,15,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,AT,*
+228,ImmStat,Né.e au Canada,2018,rv_110,0.5376963092411201,4.674429628928662,0.4884341127002427,0.5869585057819975,672,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,BC,
+229,ImmStat,Naturalisé.e,2018,rv_110,0.6194115935312317,6.682212192500482,0.5382879060569951,0.7005352810054682,225,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,BC,
+230,ImmStat,Non canadien.ne,2018,rv_110,0.4196728132949806,28.63366654339456,0.1841484218834201,0.6551972047065411,32,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,BC,*
+231,ImmStat,Né.e au Canada,2018,rv_110,0.4748664666536318,3.810336136632454,0.4394028615015531,0.5103300718057104,1360,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,ON,
+232,ImmStat,Naturalisé.e,2018,rv_110,0.5569355370653853,6.298957298663048,0.488177782473254,0.6256932916575166,415,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,ON,
+233,ImmStat,Non canadien.ne,2018,rv_110,0.5349541745462659,20.83296713820843,0.3165224066751262,0.7533859424174056,48,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,ON,*
+234,ImmStat,Né.e au Canada,2018,rv_110,0.5469967361110806,4.8738292783689925,0.4947447096024156,0.5992487626197456,740,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,PR,
+235,ImmStat,Naturalisé.e,2018,rv_110,0.5620722266890122,12.704211317405813,0.422117385306682,0.7020270680713425,83,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,PR,
+236,ImmStat,Non canadien.ne,2018,rv_110,0.3668717974202405,58.76976699537956,-0.0557154503078736,0.7894590451483546,13,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,PR,...
+237,ImmStat,Né.e au Canada,2018,rv_110,0.4737566828364658,5.422571111836275,0.4234056137393648,0.5241077519335667,673,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,QC,
+238,ImmStat,Naturalisé.e,2018,rv_110,0.595840131492685,12.406056724848526,0.4509590749483243,0.7407211880370457,75,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,QC,
+239,ImmStat,Non canadien.ne,2018,rv_110,0.1396801563584412,85.80021132349019,-0.0952134312291992,0.3745737439460818,19,Améliorer le bien-être ou la santé,New Canadians Reasons for Volunteering,QC,...

@@ -1,0 +1,601 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Senior,15 à 64 ans,2018,fv_020,0.0326234121551488,7.555659701939652,0.0277922694791761,0.0374545548311215,11266,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA,
+1,Senior,64 à 75 ans,2018,fv_020,0.0257971950409249,12.839690823144904,0.0193052453689907,0.0322891447128591,2982,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA,
+2,Senior,75 ans et plus,2018,fv_020,0.0185269592512054,19.8039689309694,0.0113357078168005,0.0257182106856103,1814,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA,*
+3,Senior,15 à 64 ans,2018,fv_030,0.1737166198502766,2.678198845115322,0.164597933458415,0.1828353062421382,11272,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA,
+4,Senior,64 à 75 ans,2018,fv_030,0.1335789313406455,6.1139101882007445,0.1175721095258076,0.1495857531554834,2995,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA,
+5,Senior,75 ans et plus,2018,fv_030,0.0775598746107643,9.03348237402341,0.0638276660474909,0.0912920831740377,1815,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA,
+6,Senior,15 à 64 ans,2018,fv_040,0.1269311412942365,3.26392495971417,0.1188111335874142,0.1350511490010588,11273,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA,
+7,Senior,64 à 75 ans,2018,fv_040,0.1636221650745675,5.42551027705772,0.146222903527893,0.181021426621242,2994,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA,
+8,Senior,75 ans et plus,2018,fv_040,0.1201016320684798,7.147454166963307,0.1032768913852148,0.1369263727517448,1817,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA,
+9,Senior,15 à 64 ans,2018,fv_050,0.1305475507764988,3.481604534526686,0.1216392215549524,0.1394558799980452,11268,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA,
+10,Senior,64 à 75 ans,2018,fv_050,0.1035981553468746,7.8856140881258305,0.0875865221329783,0.1196097885607708,2985,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA,
+11,Senior,75 ans et plus,2018,fv_050,0.0534684287275398,11.949952994167663,0.0409453327312603,0.0659915247238193,1813,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA,
+12,Senior,15 à 64 ans,2018,fv_060,0.1893536268948772,2.712410464350399,0.1792871585945671,0.1994200951951873,11275,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA,
+13,Senior,64 à 75 ans,2018,fv_060,0.1478371651894834,6.162366709243644,0.1299813675269932,0.1656929628519735,2993,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA,
+14,Senior,75 ans et plus,2018,fv_060,0.1145180397387908,7.609166881514788,0.0974391708165803,0.1315969086610012,1813,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA,
+15,Senior,15 à 64 ans,2018,fv_070,0.0727939552787345,4.390116726181889,0.0665304207463378,0.0790574898111313,11268,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA,
+16,Senior,64 à 75 ans,2018,fv_070,0.0929205844799347,7.360828591998163,0.0795149699132831,0.1063261990465864,2983,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA,
+17,Senior,75 ans et plus,2018,fv_070,0.0574260167722684,10.485716590247328,0.0456240360795145,0.0692279974650222,1814,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA,
+18,Senior,15 à 64 ans,2018,fv_080,0.0685109270448728,4.989099368932688,0.0618116168199948,0.0752102372697508,11264,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA,
+19,Senior,64 à 75 ans,2018,fv_080,0.0155761236998263,17.19292917060955,0.010327355995071,0.0208248914045816,2982,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA,*
+20,Senior,75 ans et plus,2018,fv_080,0.0130541924475209,31.05975083532953,0.0051073231661739,0.0210010617288679,1812,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA,*
+21,Senior,15 à 64 ans,2018,fv_090,0.1004803173580117,3.7485150288122018,0.0930980742085146,0.1078625605075088,11264,Conseils,Older Canadians Volunteer Rate by Activity,CA,
+22,Senior,64 à 75 ans,2018,fv_090,0.1010082510458036,7.377480197372781,0.086402866539614,0.1156136355519931,2981,Conseils,Older Canadians Volunteer Rate by Activity,CA,
+23,Senior,75 ans et plus,2018,fv_090,0.0706130804246583,10.157150417804608,0.0565556762224852,0.0846704846268314,1813,Conseils,Older Canadians Volunteer Rate by Activity,CA,
+24,Senior,15 à 64 ans,2018,fv_100,0.0712260425417477,4.237505251714476,0.0653104649490135,0.0771416201344819,11264,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA,
+25,Senior,64 à 75 ans,2018,fv_100,0.1122849099135753,7.206013256112431,0.0964263209579707,0.1281434988691799,2987,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA,
+26,Senior,75 ans et plus,2018,fv_100,0.09657466486085,8.416031271739628,0.0806445597549254,0.1125047699667747,1816,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA,
+27,Senior,15 à 64 ans,2018,fv_110,0.1111769111783312,3.603539959038233,0.1033246988049377,0.1190291235517246,11269,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA,
+28,Senior,64 à 75 ans,2018,fv_110,0.0997157473113949,7.220870938975725,0.0856033296135326,0.1138281650092572,2985,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA,
+29,Senior,75 ans et plus,2018,fv_110,0.0827299874914379,9.597682012246652,0.0671675576487217,0.0982924173341541,1814,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA,
+30,Senior,15 à 64 ans,2018,fv_120,0.0615971759686185,4.957409652125086,0.0556121822263705,0.0675821697108665,11262,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA,
+31,Senior,64 à 75 ans,2018,fv_120,0.0760376763558675,8.501189666087335,0.0633682592776493,0.0887070934340857,2986,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA,
+32,Senior,75 ans et plus,2018,fv_120,0.0375824575859004,13.089406582753153,0.0279407662301671,0.0472241489416338,1813,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA,
+33,Senior,15 à 64 ans,2018,fv_130,0.0615942702837077,4.832936367705591,0.0557598261925873,0.0674287143748282,11258,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA,
+34,Senior,64 à 75 ans,2018,fv_130,0.0777647963347591,8.544737946637218,0.0647412314495965,0.0907883612199216,2983,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA,
+35,Senior,75 ans et plus,2018,fv_130,0.0571269269260298,11.32633949476422,0.0444451961744171,0.0698086576776425,1811,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA,
+36,Senior,15 à 64 ans,2018,fv_140,0.0223916580653191,8.250028213024258,0.018770981106135,0.0260123350245032,11256,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA,
+37,Senior,64 à 75 ans,2018,fv_140,0.0162499210435209,26.23892852883417,0.0078930164759663,0.0246068256110755,2979,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA,*
+38,Senior,75 ans et plus,2018,fv_140,0.006261181306179,36.90610945161082,0.0017321780145949,0.010790184597763,1811,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA,...
+39,Senior,15 à 64 ans,2018,fv_150,0.0558701113366519,4.8921942316555285,0.0505129920232841,0.0612272306500196,11259,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA,
+40,Senior,64 à 75 ans,2018,fv_150,0.0521719599569932,8.527184205335844,0.043452473889569,0.0608914460244174,2980,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA,
+41,Senior,75 ans et plus,2018,fv_150,0.0361324646350129,14.93883716596629,0.0255530297286692,0.0467118995413565,1812,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA,
+42,Senior,15 à 64 ans,2018,fv_160,0.071143222815828,5.176114025707697,0.0639257449454739,0.0783607006861822,11297,Autre,Older Canadians Volunteer Rate by Activity,CA,
+43,Senior,64 à 75 ans,2018,fv_160,0.0965448110846562,6.853038888617635,0.0835771926128624,0.10951242955645,3016,Autre,Older Canadians Volunteer Rate by Activity,CA,
+44,Senior,75 ans et plus,2018,fv_160,0.0953953535277284,8.950112374831441,0.0786611979988587,0.1121295090565981,1825,Autre,Older Canadians Volunteer Rate by Activity,CA,
+45,Senior2,15 à 64 ans,2018,fv_020,0.0326234121551488,7.555659701939652,0.0277922694791761,0.0374545548311215,11266,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA,
+46,Senior2,65 ans et plus,2018,fv_020,0.0227969344996983,10.803835966311183,0.0179696541226961,0.0276242148767004,4796,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA,
+47,Senior2,15 à 64 ans,2018,fv_030,0.1737166198502766,2.678198845115322,0.164597933458415,0.1828353062421382,11272,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA,
+48,Senior2,65 ans et plus,2018,fv_030,0.1105090927318373,5.12406474335198,0.099410684052063,0.1216075014116116,4810,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA,
+49,Senior2,15 à 64 ans,2018,fv_040,0.1269311412942365,3.26392495971417,0.1188111335874142,0.1350511490010588,11273,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA,
+50,Senior2,65 ans et plus,2018,fv_040,0.145685753181235,4.316917894811862,0.1333592763627278,0.1580122299997423,4811,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA,
+51,Senior2,15 à 64 ans,2018,fv_050,0.1305475507764988,3.481604534526686,0.1216392215549524,0.1394558799980452,11268,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA,
+52,Senior2,65 ans et plus,2018,fv_050,0.082923928351191,6.907615534690986,0.071697124982873,0.094150731719509,4798,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA,
+53,Senior2,15 à 64 ans,2018,fv_060,0.1893536268948772,2.712410464350399,0.1792871585945671,0.1994200951951873,11275,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA,
+54,Senior2,65 ans et plus,2018,fv_060,0.1341129247911197,4.735663833790329,0.1216649244697377,0.1465609251125016,4806,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA,
+55,Senior2,15 à 64 ans,2018,fv_070,0.0727939552787345,4.390116726181889,0.0665304207463378,0.0790574898111313,11268,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA,
+56,Senior2,65 ans et plus,2018,fv_070,0.0782758371874115,6.086403068922006,0.0689382101763259,0.0876134641984971,4797,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA,
+57,Senior2,15 à 64 ans,2018,fv_080,0.0685109270448728,4.989099368932688,0.0618116168199948,0.0752102372697508,11264,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA,
+58,Senior2,65 ans et plus,2018,fv_080,0.0145354588824404,15.221072563404665,0.0101991311868602,0.0188717865780207,4794,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA,
+59,Senior2,15 à 64 ans,2018,fv_090,0.1004803173580117,3.7485150288122018,0.0930980742085146,0.1078625605075088,11264,Conseils,Older Canadians Volunteer Rate by Activity,CA,
+60,Senior2,65 ans et plus,2018,fv_090,0.0884649772908208,6.041075134705709,0.0779904677036932,0.0989394868779485,4794,Conseils,Older Canadians Volunteer Rate by Activity,CA,
+61,Senior2,15 à 64 ans,2018,fv_100,0.0712260425417477,4.237505251714476,0.0653104649490135,0.0771416201344819,11264,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA,
+62,Senior2,65 ans et plus,2018,fv_100,0.1058019090905926,5.625252642231675,0.0941369390552589,0.1174668791259263,4803,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA,
+63,Senior2,15 à 64 ans,2018,fv_110,0.1111769111783312,3.603539959038233,0.1033246988049377,0.1190291235517246,11269,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA,
+64,Senior2,65 ans et plus,2018,fv_110,0.0927128497545833,5.670388292819512,0.0824089690805783,0.1030167304285883,4799,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA,
+65,Senior2,15 à 64 ans,2018,fv_120,0.0615971759686185,4.957409652125086,0.0556121822263705,0.0675821697108665,11262,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA,
+66,Senior2,65 ans et plus,2018,fv_120,0.0601787481144939,6.884462241359514,0.0520586502710593,0.0682988459579285,4799,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA,
+67,Senior2,15 à 64 ans,2018,fv_130,0.0615942702837077,4.832936367705591,0.0557598261925873,0.0674287143748282,11258,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA,
+68,Senior2,65 ans et plus,2018,fv_130,0.06925263993504,6.833038881690653,0.059977973128168,0.0785273067419121,4794,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA,
+69,Senior2,15 à 64 ans,2018,fv_140,0.0223916580653191,8.250028213024258,0.018770981106135,0.0260123350245032,11256,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA,
+70,Senior2,65 ans et plus,2018,fv_140,0.012127615066821,22.26944026605036,0.0068342384293618,0.0174209917042801,4790,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA,*
+71,Senior2,15 à 64 ans,2018,fv_150,0.0558701113366519,4.8921942316555285,0.0505129920232841,0.0612272306500196,11259,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA,
+72,Senior2,65 ans et plus,2018,fv_150,0.0455529469201596,7.225717516496946,0.0391016720268425,0.0520042218134767,4792,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA,
+73,Senior2,15 à 64 ans,2018,fv_160,0.071143222815828,5.176114025707697,0.0639257449454739,0.0783607006861822,11297,Autre,Older Canadians Volunteer Rate by Activity,CA,
+74,Senior2,65 ans et plus,2018,fv_160,0.0960724340639906,5.63038064794283,0.0854705111587204,0.1066743569692608,4841,Autre,Older Canadians Volunteer Rate by Activity,CA,
+75,Senior,15 à 64 ans,2018,fv_020,0.0317871367508236,8.947278326926149,0.0262128353311791,0.0373614381704681,9875,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA (without QC),
+76,Senior,64 à 75 ans,2018,fv_020,0.0275491664778634,13.334138310043272,0.0203493486142493,0.0347489843414774,2614,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA (without QC),
+77,Senior,75 ans et plus,2018,fv_020,0.0174714573066436,18.18371179996838,0.0112447312162658,0.0236981833970213,1572,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA (without QC),*
+78,Senior,15 à 64 ans,2018,fv_030,0.1937740077331744,2.7550569362664654,0.183310574892902,0.2042374405734468,9878,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA (without QC),
+79,Senior,64 à 75 ans,2018,fv_030,0.1597022414147286,6.409002241412249,0.1396413823900575,0.1797631004393996,2627,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA (without QC),
+80,Senior,75 ans et plus,2018,fv_030,0.0902225443651045,9.300638223357042,0.0737759525839211,0.1066691361462878,1573,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA (without QC),
+81,Senior,15 à 64 ans,2018,fv_040,0.1329450652271901,3.356033612429054,0.1242003310095093,0.1416897994448709,9879,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA (without QC),
+82,Senior,64 à 75 ans,2018,fv_040,0.1814999737802639,5.592053982291579,0.1616071693591209,0.2013927782014069,2624,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA (without QC),
+83,Senior,75 ans et plus,2018,fv_040,0.1291651100146773,7.959213773255663,0.1090156469085969,0.1493145731207576,1575,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA (without QC),
+84,Senior,15 à 64 ans,2018,fv_050,0.1443545848580169,3.476455612160092,0.1345186563880862,0.1541905133279475,9876,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA (without QC),
+85,Senior,64 à 75 ans,2018,fv_050,0.1181265146866513,8.016757015012892,0.0995658210706638,0.1366872083026389,2617,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA (without QC),
+86,Senior,75 ans et plus,2018,fv_050,0.0658542042695019,12.666546863499503,0.0495052555458445,0.0822031529931593,1571,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA (without QC),
+87,Senior,15 à 64 ans,2018,fv_060,0.2052004659905577,2.7994339566474613,0.19394154789231,0.2164593840888054,9881,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA (without QC),
+88,Senior,64 à 75 ans,2018,fv_060,0.1584003198924021,6.492511607406856,0.138243738336964,0.1785569014478402,2622,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA (without QC),
+89,Senior,75 ans et plus,2018,fv_060,0.1248988212911873,8.450377569055034,0.1042125343358763,0.1455851082464984,1571,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA (without QC),
+90,Senior,15 à 64 ans,2018,fv_070,0.0787952089703398,4.472802126452015,0.0718876024881217,0.085702815452558,9875,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA (without QC),
+91,Senior,64 à 75 ans,2018,fv_070,0.1031856888303897,8.229026473281527,0.0865432864490965,0.1198280912116828,2613,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA (without QC),
+92,Senior,75 ans et plus,2018,fv_070,0.0648234988744708,11.250272957282148,0.0505298332236339,0.0791171645253078,1572,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA (without QC),
+93,Senior,15 à 64 ans,2018,fv_080,0.0751983917662637,5.047340853975981,0.0677593109312946,0.0826374726012329,9873,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA (without QC),
+94,Senior,64 à 75 ans,2018,fv_080,0.0199314523293528,17.510978398182505,0.0130908010990337,0.026772103559672,2614,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA (without QC),*
+95,Senior,75 ans et plus,2018,fv_080,0.0162220829192958,32.711698795500475,0.0058214969862987,0.0266226688522928,1570,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA (without QC),*
+96,Senior,15 à 64 ans,2018,fv_090,0.0945037985774136,4.132814720018807,0.0868488321205781,0.102158765034249,9872,Conseils,Older Canadians Volunteer Rate by Activity,CA (without QC),
+97,Senior,64 à 75 ans,2018,fv_090,0.1000005878178351,7.800944679344831,0.0847109273261068,0.1152902483095633,2612,Conseils,Older Canadians Volunteer Rate by Activity,CA (without QC),
+98,Senior,75 ans et plus,2018,fv_090,0.0687904820804259,11.59389887414136,0.0531587914239078,0.0844221727369441,1571,Conseils,Older Canadians Volunteer Rate by Activity,CA (without QC),
+99,Senior,15 à 64 ans,2018,fv_100,0.0767606169215142,4.657110396552003,0.0697540853951667,0.0837671484478616,9873,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA (without QC),
+100,Senior,64 à 75 ans,2018,fv_100,0.1280205130516966,7.411782896247825,0.109423193907573,0.1466178321958203,2619,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA (without QC),
+101,Senior,75 ans et plus,2018,fv_100,0.1060782424913818,8.87270474116703,0.0876310433375001,0.1245254416452634,1574,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA (without QC),
+102,Senior,15 à 64 ans,2018,fv_110,0.1180329262019503,3.816035401376407,0.1092048990536737,0.1268609533502269,9876,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA (without QC),
+103,Senior,64 à 75 ans,2018,fv_110,0.1023668672910759,6.831201247827552,0.0886610611802374,0.1160726734019144,2617,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA (without QC),
+104,Senior,75 ans et plus,2018,fv_110,0.088079232902995,10.605515820157436,0.0697707056522527,0.1063877601537372,1572,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA (without QC),
+105,Senior,15 à 64 ans,2018,fv_120,0.065247134014774,5.359138470870729,0.0583937587996183,0.0721005092299297,9872,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA (without QC),
+106,Senior,64 à 75 ans,2018,fv_120,0.079948878731459,8.076834093581404,0.0672927282376234,0.0926050292252947,2617,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA (without QC),
+107,Senior,75 ans et plus,2018,fv_120,0.045274517952159,13.785222117652705,0.0330420047212833,0.0575070311830347,1571,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA (without QC),
+108,Senior,15 à 64 ans,2018,fv_130,0.0656330376126462,5.227857602216464,0.0589080057660146,0.0723580694592779,9869,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA (without QC),
+109,Senior,64 à 75 ans,2018,fv_130,0.0811944811424316,8.123699273021163,0.0682665675706124,0.0941223947142508,2616,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA (without QC),
+110,Senior,75 ans et plus,2018,fv_130,0.0588238012471608,12.749721200778913,0.044124324867374,0.0735232776269476,1569,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA (without QC),
+111,Senior,15 à 64 ans,2018,fv_140,0.02644967868044,8.574548723997191,0.0220045968132051,0.0308947605476749,9867,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA (without QC),
+112,Senior,64 à 75 ans,2018,fv_140,0.0133739209370258,17.86933532637198,0.0086899386819793,0.0180579031920723,2612,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA (without QC),*
+113,Senior,75 ans et plus,2018,fv_140,0.0052578654354245,42.3863758008324,0.0008898532391287692,0.0096258776317203,1569,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA (without QC),...
+114,Senior,15 à 64 ans,2018,fv_150,0.0609943122374901,5.227194788080941,0.0547453757050797,0.0672432487699006,9868,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA (without QC),
+115,Senior,64 à 75 ans,2018,fv_150,0.0607560064313483,9.126090154570027,0.0498886961987606,0.071623316663936,2613,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA (without QC),
+116,Senior,75 ans et plus,2018,fv_150,0.0423868952633068,14.335737976156045,0.0304772245976177,0.0542965659289959,1570,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA (without QC),
+117,Senior,15 à 64 ans,2018,fv_160,0.0742653167126227,5.886409126682447,0.0656972158097549,0.0828334176154906,9899,Autre,Older Canadians Volunteer Rate by Activity,CA (without QC),
+118,Senior,64 à 75 ans,2018,fv_160,0.0957419219724944,7.013473014813767,0.0825810894419707,0.1089027545030181,2645,Autre,Older Canadians Volunteer Rate by Activity,CA (without QC),
+119,Senior,75 ans et plus,2018,fv_160,0.097079520436972,9.641089178474294,0.07873519217135,0.115423848702594,1583,Autre,Older Canadians Volunteer Rate by Activity,CA (without QC),
+120,Senior2,15 à 64 ans,2018,fv_020,0.0317871367508236,8.947278326926149,0.0262128353311791,0.0373614381704681,9875,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA (without QC),
+121,Senior2,65 ans et plus,2018,fv_020,0.0234038693872882,10.660409715798096,0.0185138604465722,0.0282938783280042,4186,Porte-à-porte,Older Canadians Volunteer Rate by Activity,CA (without QC),
+122,Senior2,15 à 64 ans,2018,fv_030,0.1937740077331744,2.7550569362664654,0.183310574892902,0.2042374405734468,9878,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA (without QC),
+123,Senior2,65 ans et plus,2018,fv_030,0.1312020261929294,5.383436372781363,0.1173584524807226,0.1450455999051362,4200,Collecte de fonds,Older Canadians Volunteer Rate by Activity,CA (without QC),
+124,Senior2,15 à 64 ans,2018,fv_040,0.1329450652271901,3.356033612429054,0.1242003310095093,0.1416897994448709,9879,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA (without QC),
+125,Senior2,65 ans et plus,2018,fv_040,0.1600011630646254,4.560467228803307,0.1456996966720133,0.1743026294572374,4199,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,CA (without QC),
+126,Senior2,15 à 64 ans,2018,fv_050,0.1443545848580169,3.476455612160092,0.1345186563880862,0.1541905133279475,9876,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA (without QC),
+127,Senior2,65 ans et plus,2018,fv_050,0.0966434856267813,7.034319152984884,0.0833192364771537,0.1099677347764089,4188,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,CA (without QC),
+128,Senior2,15 à 64 ans,2018,fv_060,0.2052004659905577,2.7994339566474613,0.19394154789231,0.2164593840888054,9881,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA (without QC),
+129,Senior2,65 ans et plus,2018,fv_060,0.1446420478267993,5.043862104575783,0.1303430415214919,0.1589410541321066,4193,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,CA (without QC),
+130,Senior2,15 à 64 ans,2018,fv_070,0.0787952089703398,4.472802126452015,0.0718876024881217,0.085702815452558,9875,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA (without QC),
+131,Senior2,65 ans et plus,2018,fv_070,0.0874022536936729,6.5683497800617126,0.0761503244073288,0.0986541829800169,4185,Travail de bureau,Older Canadians Volunteer Rate by Activity,CA (without QC),
+132,Senior2,15 à 64 ans,2018,fv_080,0.0751983917662637,5.047340853975981,0.0677593109312946,0.0826374726012329,9873,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA (without QC),
+133,Senior2,65 ans et plus,2018,fv_080,0.0184058227088537,15.753719286530323,0.0127227079211591,0.0240889374965483,4184,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,CA (without QC),
+134,Senior2,15 à 64 ans,2018,fv_090,0.0945037985774136,4.132814720018807,0.0868488321205781,0.102158765034249,9872,Conseils,Older Canadians Volunteer Rate by Activity,CA (without QC),
+135,Senior2,65 ans et plus,2018,fv_090,0.0871600760919325,6.42888123847676,0.0761775790541411,0.0981425731297239,4183,Conseils,Older Canadians Volunteer Rate by Activity,CA (without QC),
+136,Senior2,15 à 64 ans,2018,fv_100,0.0767606169215142,4.657110396552003,0.0697540853951667,0.0837671484478616,9873,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA (without QC),
+137,Senior2,65 ans et plus,2018,fv_100,0.1189953831889614,5.689718071721899,0.1057254434609371,0.1322653229169856,4193,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,CA (without QC),
+138,Senior2,15 à 64 ans,2018,fv_110,0.1180329262019503,3.816035401376407,0.1092048990536737,0.1268609533502269,9876,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA (without QC),
+139,Senior2,65 ans et plus,2018,fv_110,0.0964953524684907,5.75990143476189,0.0856017997487867,0.1073889051881947,4189,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,CA (without QC),
+140,Senior2,15 à 64 ans,2018,fv_120,0.065247134014774,5.359138470870729,0.0583937587996183,0.0721005092299297,9872,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA (without QC),
+141,Senior2,65 ans et plus,2018,fv_120,0.0656933288390153,6.553803298523124,0.057254877257765,0.0741317804202656,4188,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,CA (without QC),
+142,Senior2,15 à 64 ans,2018,fv_130,0.0656330376126462,5.227857602216464,0.0589080057660146,0.0723580694592779,9869,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA (without QC),
+143,Senior2,65 ans et plus,2018,fv_130,0.0720005082447616,7.048358024629945,0.062053977960686,0.0819470385288373,4185,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,CA (without QC),
+144,Senior2,15 à 64 ans,2018,fv_140,0.02644967868044,8.574548723997191,0.0220045968132051,0.0308947605476749,9867,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA (without QC),
+145,Senior2,65 ans et plus,2018,fv_140,0.0100357450216418,16.780858138368384,0.0067350007696948,0.0133364892735889,4181,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,CA (without QC),*
+146,Senior2,15 à 64 ans,2018,fv_150,0.0609943122374901,5.227194788080941,0.0547453757050797,0.0672432487699006,9868,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA (without QC),
+147,Senior2,65 ans et plus,2018,fv_150,0.053201317248962,7.514321782799585,0.0453659336139015,0.0610367008840224,4183,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,CA (without QC),
+148,Senior2,15 à 64 ans,2018,fv_160,0.0742653167126227,5.886409126682447,0.0656972158097549,0.0828334176154906,9899,Autre,Older Canadians Volunteer Rate by Activity,CA (without QC),
+149,Senior2,65 ans et plus,2018,fv_160,0.0962896687261954,5.849115559844408,0.0852509673365175,0.1073283701158733,4228,Autre,Older Canadians Volunteer Rate by Activity,CA (without QC),
+150,Senior,15 à 64 ans,2018,fv_020,0.0394522656452947,21.37791598150463,0.0229217878854801,0.0559827434051093,1093,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AB,*
+151,Senior,64 à 75 ans,2018,fv_020,0.019668077820661,46.65595322672144,0.0016828031007159,0.0376533525406061,194,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AB,...
+152,Senior,75 ans et plus,2018,fv_020,0.0060323807006382,99.24444751697447,-0.005701537362901,0.0177662987641775,117,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AB,...
+153,Senior,15 à 64 ans,2018,fv_020,0.032023546432709,11.86863454360124,0.0245741982385081,0.0394728946269099,2760,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AT,
+154,Senior,64 à 75 ans,2018,fv_020,0.0436979246795073,19.522054604738333,0.0269779957923109,0.0604178535667037,829,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AT,*
+155,Senior,75 ans et plus,2018,fv_020,0.0290128720402612,33.77922441202227,0.0098045916198959,0.0482211524606264,444,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AT,...
+156,Senior,15 à 64 ans,2018,fv_020,0.0341599944280092,20.89599393047338,0.0201696335987358,0.0481503552572826,1478,Porte-à-porte,Older Canadians Volunteer Rate by Activity,BC,*
+157,Senior,64 à 75 ans,2018,fv_020,0.0217340467454912,39.27119065417944,0.0050053250341178,0.0384627684568646,420,Porte-à-porte,Older Canadians Volunteer Rate by Activity,BC,...
+158,Senior,75 ans et plus,2018,fv_020,0.0103630271879737,56.4484997696034,-0.0011023179512689,0.0218283723272164,259,Porte-à-porte,Older Canadians Volunteer Rate by Activity,BC,...
+159,Senior,15 à 64 ans,2018,fv_020,0.0287079290649076,14.146441862830985,0.0207482203585384,0.0366676377712769,3042,Porte-à-porte,Older Canadians Volunteer Rate by Activity,ON,
+160,Senior,64 à 75 ans,2018,fv_020,0.0252181151168697,22.671795544091815,0.0140122180128764,0.0364240122208631,784,Porte-à-porte,Older Canadians Volunteer Rate by Activity,ON,*
+161,Senior,75 ans et plus,2018,fv_020,0.0211781247738895,25.46505139530647,0.0106079991038613,0.0317482504439177,492,Porte-à-porte,Older Canadians Volunteer Rate by Activity,ON,*
+162,Senior,15 à 64 ans,2018,fv_020,0.0310135047157878,19.46510320313349,0.0191815731626217,0.0428454362689539,1502,Porte-à-porte,Older Canadians Volunteer Rate by Activity,PR,*
+163,Senior,64 à 75 ans,2018,fv_020,0.0463234511857098,24.01324039478968,0.0245212788960239,0.0681256234753957,387,Porte-à-porte,Older Canadians Volunteer Rate by Activity,PR,*
+164,Senior,75 ans et plus,2018,fv_020,0.0122584238474944,53.04157191389313,-0.0004853809509328625,0.0250022286459217,260,Porte-à-porte,Older Canadians Volunteer Rate by Activity,PR,...
+165,Senior,15 à 64 ans,2018,fv_020,0.0355263528379687,15.756380310913444,0.0245551266035851,0.0464975790723524,1391,Porte-à-porte,Older Canadians Volunteer Rate by Activity,QC,
+166,Senior,64 à 75 ans,2018,fv_020,0.02053527066939,35.081438320971024,0.0064155562319278,0.0346549851068523,368,Porte-à-porte,Older Canadians Volunteer Rate by Activity,QC,...
+167,Senior,75 ans et plus,2018,fv_020,0.0216280225652957,53.123774917047925,-0.0008912228028106102,0.044147267933402,242,Porte-à-porte,Older Canadians Volunteer Rate by Activity,QC,...
+168,Senior,15 à 64 ans,2018,fv_030,0.2374641500591612,6.8920224590145,0.2053872176849487,0.2695410824333736,1093,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AB,
+169,Senior,64 à 75 ans,2018,fv_030,0.1754826134957665,17.0488883681678,0.1168447346346946,0.2341204923568384,196,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AB,*
+170,Senior,75 ans et plus,2018,fv_030,0.0576774754006363,38.56781981849298,0.0140781847773432,0.1012767660239294,117,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AB,...
+171,Senior,15 à 64 ans,2018,fv_030,0.2553477096910309,4.298774327886249,0.2338335343158711,0.2768618850661907,2760,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AT,
+172,Senior,64 à 75 ans,2018,fv_030,0.200169460412824,8.767902078411593,0.165770794439431,0.2345681263862169,832,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AT,
+173,Senior,75 ans et plus,2018,fv_030,0.13597365250984,14.451972825784734,0.0974586446356925,0.1744886603839875,444,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AT,
+174,Senior,15 à 64 ans,2018,fv_030,0.1940351523190363,6.350025558222677,0.1698858838178438,0.2181844208202289,1479,Collecte de fonds,Older Canadians Volunteer Rate by Activity,BC,
+175,Senior,64 à 75 ans,2018,fv_030,0.1527669243404333,13.21283653303644,0.1132053570871617,0.192328491593705,424,Collecte de fonds,Older Canadians Volunteer Rate by Activity,BC,
+176,Senior,75 ans et plus,2018,fv_030,0.1009691247608998,20.01160609997583,0.0613669871545444,0.1405712623672553,259,Collecte de fonds,Older Canadians Volunteer Rate by Activity,BC,*
+177,Senior,15 à 64 ans,2018,fv_030,0.1605742269582409,4.716219356359405,0.1457313554691665,0.1754170984473153,3044,Collecte de fonds,Older Canadians Volunteer Rate by Activity,ON,
+178,Senior,64 à 75 ans,2018,fv_030,0.152540780201893,11.198764143858904,0.1190593383344455,0.1860222220693405,788,Collecte de fonds,Older Canadians Volunteer Rate by Activity,ON,
+179,Senior,75 ans et plus,2018,fv_030,0.0805024666184129,14.984780607630254,0.0568591897844164,0.1041457434524094,493,Collecte de fonds,Older Canadians Volunteer Rate by Activity,ON,
+180,Senior,15 à 64 ans,2018,fv_030,0.250187356422521,5.838521476348217,0.2215576871388395,0.2788170257062026,1502,Collecte de fonds,Older Canadians Volunteer Rate by Activity,PR,
+181,Senior,64 à 75 ans,2018,fv_030,0.1429166421888891,14.424003655372855,0.1025133533032615,0.1833199310745167,387,Collecte de fonds,Older Canadians Volunteer Rate by Activity,PR,
+182,Senior,75 ans et plus,2018,fv_030,0.1180551589661735,18.657609395742547,0.074884462206828,0.1612258557255189,260,Collecte de fonds,Older Canadians Volunteer Rate by Activity,PR,*
+183,Senior,15 à 64 ans,2018,fv_030,0.1041108864147405,10.410223792134804,0.0828684512718542,0.1253533215576268,1394,Collecte de fonds,Older Canadians Volunteer Rate by Activity,QC,
+184,Senior,64 à 75 ans,2018,fv_030,0.0547196331328076,20.42267608517588,0.0328166172910279,0.0766226489745874,368,Collecte de fonds,Older Canadians Volunteer Rate by Activity,QC,*
+185,Senior,75 ans et plus,2018,fv_030,0.0403428778867713,31.70615548670641,0.0152726344092835,0.0654131213642591,242,Collecte de fonds,Older Canadians Volunteer Rate by Activity,QC,*
+186,Senior,15 à 64 ans,2018,fv_040,0.1535712128847283,8.046982696145555,0.1293502740612353,0.1777921517082213,1092,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AB,
+187,Senior,64 à 75 ans,2018,fv_040,0.1628283359839313,17.034659802311076,0.1084643188844708,0.2171923530833919,196,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AB,*
+188,Senior,75 ans et plus,2018,fv_040,0.154506954453083,22.91597593321433,0.0851109477091063,0.2239029611970596,117,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AB,*
+189,Senior,15 à 64 ans,2018,fv_040,0.152875220770072,5.622080552125593,0.1360297849249674,0.1697206566151766,2762,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AT,
+190,Senior,64 à 75 ans,2018,fv_040,0.2033246236172352,8.69178059986499,0.1686871009285281,0.2379621463059422,831,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AT,
+191,Senior,75 ans et plus,2018,fv_040,0.1305381340443171,14.134568143858411,0.0943748356056011,0.1667014324830331,445,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AT,
+192,Senior,15 à 64 ans,2018,fv_040,0.1370803811003885,7.070637514562955,0.1180835147503477,0.1560772474504293,1479,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,BC,
+193,Senior,64 à 75 ans,2018,fv_040,0.1969072349572526,12.989070868208852,0.1467783723290662,0.2470360975854389,422,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,BC,
+194,Senior,75 ans et plus,2018,fv_040,0.1292931082126378,16.763563909088532,0.0868125884789662,0.1717736279463093,259,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,BC,*
+195,Senior,15 à 64 ans,2018,fv_040,0.1150197233720147,5.626885879573158,0.1023347804617383,0.1277046662822911,3044,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,ON,
+196,Senior,64 à 75 ans,2018,fv_040,0.1735441892216344,9.856961203766971,0.1400166858388794,0.2070716926043893,787,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,ON,
+197,Senior,75 ans et plus,2018,fv_040,0.1154747298961459,12.742655046732027,0.0866347487135555,0.1443147110787362,494,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,ON,
+198,Senior,15 à 64 ans,2018,fv_040,0.1735553107646103,6.699806601007579,0.1507651040203697,0.196345517508851,1502,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,PR,
+199,Senior,64 à 75 ans,2018,fv_040,0.1947323301144827,11.31358850298214,0.1515519431364207,0.2379127170925447,388,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,PR,
+200,Senior,75 ans et plus,2018,fv_040,0.1822443935650684,15.45618192429791,0.1270360790175942,0.2374527081125425,260,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,PR,
+201,Senior,15 à 64 ans,2018,fv_040,0.106076069423893,9.61246537543747,0.0860912467842531,0.1260608920635328,1394,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,QC,
+202,Senior,64 à 75 ans,2018,fv_040,0.1098782282495052,17.424281431306262,0.0723537540082188,0.1474027024907916,370,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,QC,*
+203,Senior,75 ans et plus,2018,fv_040,0.0934491914375485,18.962634945449164,0.058717788744669,0.1281805941304279,242,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,QC,*
+204,Senior,15 à 64 ans,2018,fv_050,0.1506977446373508,8.255405081290963,0.126314402529579,0.1750810867451226,1092,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AB,
+205,Senior,64 à 75 ans,2018,fv_050,0.1544274361888319,20.27500600582039,0.0930606267937127,0.2157942455839512,194,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AB,*
+206,Senior,75 ans et plus,2018,fv_050,0.0972550884859887,39.7622993730772,0.021461596733652,0.1730485802383254,117,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AB,...
+207,Senior,15 à 64 ans,2018,fv_050,0.1178026187434524,6.582120946342382,0.1026052327505587,0.1330000047363462,2760,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AT,
+208,Senior,64 à 75 ans,2018,fv_050,0.09160671604576,12.221602816549144,0.0696633336507125,0.1135500984408075,829,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AT,
+209,Senior,75 ans et plus,2018,fv_050,0.0408106660090051,23.36261031232025,0.0221235131396632,0.059497818878347,443,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AT,*
+210,Senior,15 à 64 ans,2018,fv_050,0.1445782342682575,7.892726512341658,0.1222127625773543,0.1669437059591607,1479,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,BC,
+211,Senior,64 à 75 ans,2018,fv_050,0.1757385543946078,14.395503839192443,0.1261545028540915,0.2253226059351242,423,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,BC,
+212,Senior,75 ans et plus,2018,fv_050,0.1088812937420618,20.51082174950768,0.0651104998225864,0.1526520876615372,259,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,BC,*
+213,Senior,15 à 64 ans,2018,fv_050,0.1375850834028537,5.691021472731648,0.122238571989909,0.1529315948157984,3045,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,ON,
+214,Senior,64 à 75 ans,2018,fv_050,0.0962006814473897,14.858306672373544,0.0681853633949747,0.1242159994998047,784,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,ON,
+215,Senior,75 ans et plus,2018,fv_050,0.0489544249456602,21.34764405639114,0.0284715932104008,0.0694372566809196,492,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,ON,*
+216,Senior,15 à 64 ans,2018,fv_050,0.1969900677697757,6.771039108752951,0.1708475300769289,0.2231326054626225,1500,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,PR,
+217,Senior,64 à 75 ans,2018,fv_050,0.1003627327516672,17.40139404680585,0.0661329131237632,0.1345925523795712,387,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,PR,*
+218,Senior,75 ans et plus,2018,fv_050,0.059563820836891,26.128697605328576,0.0290604101223648,0.0900672315514172,260,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,PR,*
+219,Senior,15 à 64 ans,2018,fv_050,0.0826271873068204,10.9573757081909,0.0648821215359348,0.1003722530777061,1392,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,QC,
+220,Senior,64 à 75 ans,2018,fv_050,0.0599179004486837,28.736312268378377,0.0261708584138192,0.0936649424835483,368,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,QC,*
+221,Senior,75 ans et plus,2018,fv_050,0.0170938959001462,36.71236249281824,0.0047939987848621,0.0293937930154303,242,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,QC,...
+222,Senior,15 à 64 ans,2018,fv_060,0.2057746298677809,7.098302756120686,0.1771464037301491,0.2344028560054126,1092,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AB,
+223,Senior,64 à 75 ans,2018,fv_060,0.1830561034966375,17.148232079861746,0.1215310985444632,0.2445811084488118,194,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AB,*
+224,Senior,75 ans et plus,2018,fv_060,0.1465867442337261,24.015916817101832,0.0775878770296643,0.2155856114377879,117,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AB,*
+225,Senior,15 à 64 ans,2018,fv_060,0.2179632656958925,5.093694673882443,0.196202994372019,0.239723537019766,2761,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AT,
+226,Senior,64 à 75 ans,2018,fv_060,0.1903611610137822,8.829356707271584,0.1574187411111011,0.2233035809164633,831,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AT,
+227,Senior,75 ans et plus,2018,fv_060,0.0927489960281396,17.42988591381729,0.061064131635582,0.1244338604206972,442,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AT,*
+228,Senior,15 à 64 ans,2018,fv_060,0.2143189233664689,6.530275959633269,0.1868880178511481,0.2417498288817897,1481,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,BC,
+229,Senior,64 à 75 ans,2018,fv_060,0.1576667127988749,13.307430016431956,0.1165439490219534,0.1987894765757964,422,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,BC,
+230,Senior,75 ans et plus,2018,fv_060,0.1368141696287971,19.261615740020908,0.0851639842521873,0.1884643550054069,259,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,BC,*
+231,Senior,15 à 64 ans,2018,fv_060,0.1934371952624693,4.628229805179968,0.1758901905648573,0.2109841999600813,3046,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,ON,
+232,Senior,64 à 75 ans,2018,fv_060,0.1486132718966927,11.245201867285054,0.1158586234264383,0.181367920366947,788,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,ON,
+233,Senior,75 ans et plus,2018,fv_060,0.1205653329244371,12.450134304526944,0.0911452036235176,0.1499854622253567,493,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,ON,
+234,Senior,15 à 64 ans,2018,fv_060,0.2430245225154194,5.652709352657202,0.2160995762462967,0.269949468784542,1501,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,PR,
+235,Senior,64 à 75 ans,2018,fv_060,0.1415848769133043,14.504323243708672,0.1013351972292473,0.1818345565973612,387,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,PR,
+236,Senior,75 ans et plus,2018,fv_060,0.1328744554425095,17.35104768754686,0.0876872699312447,0.1780616409537742,260,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,PR,*
+237,Senior,15 à 64 ans,2018,fv_060,0.1343417120191782,8.9804245607478,0.110695812567175,0.1579876114711815,1394,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,QC,
+238,Senior,64 à 75 ans,2018,fv_060,0.1161814788400887,16.82092506508242,0.0778782956724171,0.1544846620077602,371,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,QC,*
+239,Senior,75 ans et plus,2018,fv_060,0.0840277320570469,19.42406622808717,0.0520379793306096,0.1160174847834841,242,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,QC,*
+240,Senior,15 à 64 ans,2018,fv_070,0.0937204887008147,11.987811964573863,0.0717002228586448,0.1157407545429846,1091,Travail de bureau,Older Canadians Volunteer Rate by Activity,AB,
+241,Senior,64 à 75 ans,2018,fv_070,0.1205542803771877,22.057252826746435,0.0684369517270578,0.1726716090273176,194,Travail de bureau,Older Canadians Volunteer Rate by Activity,AB,*
+242,Senior,75 ans et plus,2018,fv_070,0.053811336736556,36.9696783189231,0.0148200521661157,0.0928026213069962,117,Travail de bureau,Older Canadians Volunteer Rate by Activity,AB,...
+243,Senior,15 à 64 ans,2018,fv_070,0.0782198838774066,8.30043237378434,0.0654946441253403,0.0909451236294729,2762,Travail de bureau,Older Canadians Volunteer Rate by Activity,AT,
+244,Senior,64 à 75 ans,2018,fv_070,0.1067155902527051,13.629439394985775,0.0782084301590392,0.1352227503463709,829,Travail de bureau,Older Canadians Volunteer Rate by Activity,AT,
+245,Senior,75 ans et plus,2018,fv_070,0.0722327231070576,20.427891664216062,0.0433122345896371,0.1011532116244782,443,Travail de bureau,Older Canadians Volunteer Rate by Activity,AT,*
+246,Senior,15 à 64 ans,2018,fv_070,0.0934868608722534,10.030212641698524,0.0751084139491636,0.1118653077953431,1478,Travail de bureau,Older Canadians Volunteer Rate by Activity,BC,
+247,Senior,64 à 75 ans,2018,fv_070,0.1106823996448226,18.406888659205,0.0707516887012901,0.1506131105883551,420,Travail de bureau,Older Canadians Volunteer Rate by Activity,BC,*
+248,Senior,75 ans et plus,2018,fv_070,0.0580156585004602,27.4915327781424,0.0267554211299188,0.0892758958710017,259,Travail de bureau,Older Canadians Volunteer Rate by Activity,BC,*
+249,Senior,15 à 64 ans,2018,fv_070,0.066031759514327,7.632138526618183,0.0561542557180266,0.0759092633106273,3044,Travail de bureau,Older Canadians Volunteer Rate by Activity,ON,
+250,Senior,64 à 75 ans,2018,fv_070,0.0965962712701898,13.315039490700146,0.0713875444292806,0.121804998111099,783,Travail de bureau,Older Canadians Volunteer Rate by Activity,ON,
+251,Senior,75 ans et plus,2018,fv_070,0.0681758141848885,17.422034354095615,0.0448961189763991,0.0914555093933779,493,Travail de bureau,Older Canadians Volunteer Rate by Activity,ON,*
+252,Senior,15 à 64 ans,2018,fv_070,0.0981933522288179,10.02344579915708,0.0789026861253473,0.1174840183322884,1500,Travail de bureau,Older Canadians Volunteer Rate by Activity,PR,
+253,Senior,64 à 75 ans,2018,fv_070,0.0958945852620664,18.74194868389344,0.0606691051879432,0.1311200653361897,387,Travail de bureau,Older Canadians Volunteer Rate by Activity,PR,*
+254,Senior,75 ans et plus,2018,fv_070,0.0655500336252885,22.67695734414266,0.0364156527842261,0.0946844144663509,260,Travail de bureau,Older Canadians Volunteer Rate by Activity,PR,*
+255,Senior,15 à 64 ans,2018,fv_070,0.0519809025305955,13.380671221628011,0.0383485814476158,0.0656132236135751,1393,Travail de bureau,Older Canadians Volunteer Rate by Activity,QC,
+256,Senior,64 à 75 ans,2018,fv_070,0.0621868571677746,16.858940345049433,0.0416385062568254,0.0827352080787237,370,Travail de bureau,Older Canadians Volunteer Rate by Activity,QC,*
+257,Senior,75 ans et plus,2018,fv_070,0.0356942535031433,26.86163678989268,0.0169019997890398,0.0544865072172468,242,Travail de bureau,Older Canadians Volunteer Rate by Activity,QC,*
+258,Senior,15 à 64 ans,2018,fv_080,0.0953140240679815,12.415854227808882,0.0721197117143447,0.1185083364216184,1091,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AB,
+259,Senior,64 à 75 ans,2018,fv_080,0.0289606831681384,46.70709127145077,0.0024488526066492,0.0554725137296277,194,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AB,...
+260,Senior,75 ans et plus,2018,fv_080,0.0116810691832788,83.27401094072306,-0.0073840783498908,0.0307462167164484,117,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AB,...
+261,Senior,15 à 64 ans,2018,fv_080,0.079233514868196,8.898980818703112,0.0654138572437083,0.0930531724926838,2759,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AT,
+262,Senior,64 à 75 ans,2018,fv_080,0.0193629174490627,30.23172199859472,0.0078897912612473,0.030836043636878,829,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AT,*
+263,Senior,75 ans et plus,2018,fv_080,0.0045939396508633,70.90477168666104,-0.001790294980072,0.0109781742817988,442,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AT,...
+264,Senior,15 à 64 ans,2018,fv_080,0.0694939142522772,11.81550208015618,0.0534005424044383,0.0855872861001161,1479,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,BC,
+265,Senior,64 à 75 ans,2018,fv_080,0.0185247994883465,37.49991508640586,0.0049093528869787,0.0321402460897144,421,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,BC,...
+266,Senior,75 ans et plus,2018,fv_080,0.0238422026999683,42.623904595584335,0.0039241123509301,0.0437602930490064,259,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,BC,...
+267,Senior,15 à 64 ans,2018,fv_080,0.0690058731698486,8.349659805480739,0.0577130395973802,0.0802987067423169,3043,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,ON,
+268,Senior,64 à 75 ans,2018,fv_080,0.0180001188605188,27.75027105259777,0.0082099384844622,0.0277902992365755,783,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,ON,*
+269,Senior,75 ans et plus,2018,fv_080,0.0180007167565756,51.86040870873202,-0.00029602777997609145,0.0362974612931273,492,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,ON,...
+270,Senior,15 à 64 ans,2018,fv_080,0.0823528998581882,10.911748882406332,0.0647403859035982,0.0999654138127781,1501,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,PR,
+271,Senior,64 à 75 ans,2018,fv_080,0.0224533677201098,41.9043109014665,0.0040122057131386,0.040894529727081,387,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,PR,...
+272,Senior,75 ans et plus,2018,fv_080,0.0061757012656303,87.78392856575206,-0.0044497989321344,0.0168012014633951,260,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,PR,...
+273,Senior,15 à 64 ans,2018,fv_080,0.0453086785979229,15.069454775484973,0.0319264936750895,0.0586908635207564,1391,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,QC,
+274,Senior,64 à 75 ans,2018,fv_080,0.0025014686349872,102.88232218740744,-0.0025426339568512,0.0075455712268257,368,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,QC,...
+275,Senior,75 ans et plus,2018,fv_080,0.0037530272783851,87.09664063772749,-0.0026536259318098,0.0101596804885801,242,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,QC,...
+276,Senior,15 à 64 ans,2018,fv_090,0.1121730254350894,10.326168418113124,0.089470418577288,0.1348756322928908,1093,Conseils,Older Canadians Volunteer Rate by Activity,AB,
+277,Senior,64 à 75 ans,2018,fv_090,0.0994542404889479,24.455619310305035,0.0517837015961955,0.1471247793817003,194,Conseils,Older Canadians Volunteer Rate by Activity,AB,*
+278,Senior,75 ans et plus,2018,fv_090,0.0690640090997393,35.54628567694057,0.0209475009180138,0.1171805172814649,117,Conseils,Older Canadians Volunteer Rate by Activity,AB,...
+279,Senior,15 à 64 ans,2018,fv_090,0.0841335240323206,7.784841905242303,0.0712964227243627,0.0969706253402785,2759,Conseils,Older Canadians Volunteer Rate by Activity,AT,
+280,Senior,64 à 75 ans,2018,fv_090,0.1097181306644999,12.291961629090864,0.0832850557653647,0.1361512055636352,828,Conseils,Older Canadians Volunteer Rate by Activity,AT,
+281,Senior,75 ans et plus,2018,fv_090,0.0549710426869779,20.81632628369804,0.0325432696598896,0.0773988157140662,442,Conseils,Older Canadians Volunteer Rate by Activity,AT,*
+282,Senior,15 à 64 ans,2018,fv_090,0.0933435386006807,10.226380278882823,0.0746343785549843,0.1120526986463771,1477,Conseils,Older Canadians Volunteer Rate by Activity,BC,
+283,Senior,64 à 75 ans,2018,fv_090,0.1278422872090344,18.27412954634112,0.0820534808525716,0.1736310935654972,421,Conseils,Older Canadians Volunteer Rate by Activity,BC,*
+284,Senior,75 ans et plus,2018,fv_090,0.0736252927878192,21.870760089858205,0.042065146867447,0.1051854387081913,259,Conseils,Older Canadians Volunteer Rate by Activity,BC,*
+285,Senior,15 à 64 ans,2018,fv_090,0.0869278847766148,7.04035609848231,0.0749328412235871,0.0989229283296426,3042,Conseils,Older Canadians Volunteer Rate by Activity,ON,
+286,Senior,64 à 75 ans,2018,fv_090,0.0869199167632077,12.292415318379415,0.0659785695331188,0.1078612639932966,782,Conseils,Older Canadians Volunteer Rate by Activity,ON,
+287,Senior,75 ans et plus,2018,fv_090,0.0666048303035561,18.92002811498021,0.0419060450239106,0.0913036155832016,493,Conseils,Older Canadians Volunteer Rate by Activity,ON,*
+288,Senior,15 à 64 ans,2018,fv_090,0.1187614816809814,9.80140781720488,0.0959469184989933,0.1415760448629694,1501,Conseils,Older Canadians Volunteer Rate by Activity,PR,
+289,Senior,64 à 75 ans,2018,fv_090,0.1045914632804119,16.98158723132439,0.0697799734374368,0.1394029531233869,387,Conseils,Older Canadians Volunteer Rate by Activity,PR,*
+290,Senior,75 ans et plus,2018,fv_090,0.0873487279170754,22.52996156394685,0.0487773524286006,0.1259201034055503,260,Conseils,Older Canadians Volunteer Rate by Activity,PR,*
+291,Senior,15 à 64 ans,2018,fv_090,0.1212136112437066,8.784495863337918,0.1003439055921006,0.1420833168953127,1392,Conseils,Older Canadians Volunteer Rate by Activity,QC,
+292,Senior,64 à 75 ans,2018,fv_090,0.1040289824250948,18.397275655536298,0.0665182143364742,0.1415397505137154,369,Conseils,Older Canadians Volunteer Rate by Activity,QC,*
+293,Senior,75 ans et plus,2018,fv_090,0.0759659455661354,20.469203533942064,0.0454892425247411,0.1064426486075297,242,Conseils,Older Canadians Volunteer Rate by Activity,QC,*
+294,Senior,15 à 64 ans,2018,fv_100,0.0654394562161788,12.10900110248698,0.0499085752346355,0.0809703371977221,1092,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AB,
+295,Senior,64 à 75 ans,2018,fv_100,0.1350775339345012,20.06486328080685,0.0819563899521197,0.1881986779168828,194,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AB,*
+296,Senior,75 ans et plus,2018,fv_100,0.1036485689882049,31.10012806851537,0.0404694480555409,0.1668276899208688,117,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AB,*
+297,Senior,15 à 64 ans,2018,fv_100,0.0869103667387667,9.717839305629154,0.0703568837504621,0.1034638497270712,2759,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AT,
+298,Senior,64 à 75 ans,2018,fv_100,0.1155052151750862,10.985042603646356,0.0906366098409655,0.140373820509207,830,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AT,
+299,Senior,75 ans et plus,2018,fv_100,0.1017443634729464,15.981349292684492,0.0698751097487521,0.1336136171971406,443,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AT,
+300,Senior,15 à 64 ans,2018,fv_100,0.0771925829198925,10.2679739037295,0.061657684413678,0.0927274814261069,1479,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,BC,
+301,Senior,64 à 75 ans,2018,fv_100,0.1617493145672087,15.570284769557258,0.112387956984199,0.2111106721502184,423,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,BC,
+302,Senior,75 ans et plus,2018,fv_100,0.149882649920025,16.893273138927896,0.1002561943743962,0.1995091054656538,260,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,BC,*
+303,Senior,15 à 64 ans,2018,fv_100,0.0731950072553981,8.180063288071372,0.061459922976576,0.0849300915342202,3041,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,ON,
+304,Senior,64 à 75 ans,2018,fv_100,0.1193055222643218,11.539707698830268,0.0923217013732575,0.1462893431553861,784,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,ON,
+305,Senior,75 ans et plus,2018,fv_100,0.0919736739542035,14.425058132154552,0.0659703301495508,0.1179770177588562,493,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,ON,
+306,Senior,15 à 64 ans,2018,fv_100,0.1076493438099607,10.067254648293268,0.0864085603271254,0.1288901272927959,1502,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,PR,
+307,Senior,64 à 75 ans,2018,fv_100,0.1093234759515292,15.644498770077128,0.0758019966206376,0.1428449552824209,388,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,PR,
+308,Senior,75 ans et plus,2018,fv_100,0.1013941450401062,19.27793410105988,0.0630833239555668,0.1397049661246456,261,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,PR,*
+309,Senior,15 à 64 ans,2018,fv_100,0.0520335179149759,13.330047284846664,0.0384390263391496,0.0656280094908023,1391,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,QC,
+310,Senior,64 à 75 ans,2018,fv_100,0.064978699596999,26.00068100120914,0.0318652954488903,0.0980921037451076,368,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,QC,*
+311,Senior,75 ans et plus,2018,fv_100,0.0686287311311939,24.96190767994497,0.03505250872,0.1022049535423879,242,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,QC,*
+312,Senior,15 à 64 ans,2018,fv_110,0.1245940209400054,9.814079029129328,0.1006280601942311,0.1485599816857797,1094,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AB,
+313,Senior,64 à 75 ans,2018,fv_110,0.0924535236681894,22.642560938380267,0.051423940555212,0.1334831067811668,194,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AB,*
+314,Senior,75 ans et plus,2018,fv_110,0.0707233200477584,37.93794230361463,0.0181355805619267,0.12331105953359,117,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AB,...
+315,Senior,15 à 64 ans,2018,fv_110,0.1257904579468802,6.95168091298853,0.1086514524252255,0.1429294634685348,2760,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AT,
+316,Senior,64 à 75 ans,2018,fv_110,0.1520844402321761,9.867423173221823,0.1226716227247959,0.1814972577395563,830,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AT,
+317,Senior,75 ans et plus,2018,fv_110,0.1258765837137922,13.855818704497608,0.0916923986553925,0.1600607687721919,444,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AT,
+318,Senior,15 à 64 ans,2018,fv_110,0.1115620106354207,8.80501622127076,0.0923091802760771,0.1308148409947642,1479,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,BC,
+319,Senior,64 à 75 ans,2018,fv_110,0.0929683315320938,16.000663657107886,0.0638127892111627,0.1221238738530249,422,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,BC,
+320,Senior,75 ans et plus,2018,fv_110,0.0778106757716755,26.612737961151687,0.03722462111578,0.1183967304275709,259,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,BC,*
+321,Senior,15 à 64 ans,2018,fv_110,0.1124762883979714,6.283416877778866,0.0986245289181327,0.1263280478778101,3042,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,ON,
+322,Senior,64 à 75 ans,2018,fv_110,0.1000928944164759,11.273313622615673,0.0779770804402302,0.1222087083927216,784,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,ON,
+323,Senior,75 ans et plus,2018,fv_110,0.0874991518853303,15.812024991003598,0.0603822901576559,0.1146160136130048,491,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,ON,
+324,Senior,15 à 64 ans,2018,fv_110,0.1439770378750974,8.410811891184164,0.1202425838778134,0.1677114918723813,1501,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,PR,
+325,Senior,64 à 75 ans,2018,fv_110,0.0871977251987845,18.517842151932363,0.0555499180050765,0.1188455323924925,387,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,PR,*
+326,Senior,75 ans et plus,2018,fv_110,0.0953760587806047,19.778339541474526,0.0584036887051324,0.1323484288560769,261,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,PR,*
+327,Senior,15 à 64 ans,2018,fv_110,0.0873932603010593,11.353824459651308,0.0679455620299145,0.1068409585722041,1393,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,QC,
+328,Senior,64 à 75 ans,2018,fv_110,0.0917550955105372,20.828662536016,0.0542975197760907,0.1292126712449836,368,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,QC,*
+329,Senior,75 ans et plus,2018,fv_110,0.0670138734179486,25.28794704084368,0.0337994754244213,0.100228271411476,242,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,QC,*
+330,Senior,15 à 64 ans,2018,fv_120,0.0824522699139348,11.64688200887863,0.0636305033372522,0.1012740364906174,1092,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AB,
+331,Senior,64 à 75 ans,2018,fv_120,0.1142065700604447,21.582262010636736,0.0658966698622487,0.1625164702586407,194,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AB,*
+332,Senior,75 ans et plus,2018,fv_120,0.0504963541162681,42.334207494569945,0.0085977506226902,0.092394957609846,117,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AB,...
+333,Senior,15 à 64 ans,2018,fv_120,0.0694183164277878,9.767103860134018,0.0561294488539563,0.0827071840016193,2758,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AT,
+334,Senior,64 à 75 ans,2018,fv_120,0.102860419562178,14.931660759514669,0.0727577856618221,0.132963053462534,829,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AT,
+335,Senior,75 ans et plus,2018,fv_120,0.05868745612518,21.80921396152807,0.0336013422620394,0.0837735699883205,443,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AT,*
+336,Senior,15 à 64 ans,2018,fv_120,0.0594840575104082,11.96580764239513,0.0455335279761818,0.0734345870446347,1480,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,BC,
+337,Senior,64 à 75 ans,2018,fv_120,0.0905887458482962,21.7753139218474,0.0519265280674664,0.129250963629126,422,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,BC,*
+338,Senior,75 ans et plus,2018,fv_120,0.0539735226407221,25.456439244227894,0.0270441329656198,0.0809029123158244,259,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,BC,*
+339,Senior,15 à 64 ans,2018,fv_120,0.0551399581437562,9.929622792365077,0.0444087832262128,0.0658711330612997,3041,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,ON,
+340,Senior,64 à 75 ans,2018,fv_120,0.0582015673908875,14.63421928686367,0.0415078779462517,0.0748952568355232,785,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,ON,
+341,Senior,75 ans et plus,2018,fv_120,0.0372745912353519,23.807042804563046,0.0198819141701199,0.0546672683005839,492,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,ON,*
+342,Senior,15 à 64 ans,2018,fv_120,0.1004210568928307,9.852864479437166,0.0810284859792606,0.1198136278064009,1501,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,PR,
+343,Senior,64 à 75 ans,2018,fv_120,0.1093605136950311,17.92440950297146,0.0709408561120965,0.1477801712779657,387,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,PR,*
+344,Senior,75 ans et plus,2018,fv_120,0.0537198500028353,30.134944043526247,0.0219910774294939,0.0854486225761767,260,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,PR,*
+345,Senior,15 à 64 ans,2018,fv_120,0.0489335247064427,14.678217890986508,0.0348559474088057,0.0630111020040797,1390,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,QC,
+346,Senior,64 à 75 ans,2018,fv_120,0.064302670605858,25.712028860554685,0.0318975644686296,0.0967077767430864,369,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,QC,*
+347,Senior,75 ans et plus,2018,fv_120,0.0149801166779055,40.349588221497584,0.0031332801968219,0.0268269531589892,242,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,QC,...
+348,Senior,15 à 64 ans,2018,fv_130,0.0723114626551695,12.70462586552386,0.0543054679807014,0.0903174573296377,1092,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AB,
+349,Senior,64 à 75 ans,2018,fv_130,0.0918985064819263,22.450468386293934,0.0514612250555214,0.1323357879083313,194,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AB,*
+350,Senior,75 ans et plus,2018,fv_130,0.0727441946501558,36.88388697727961,0.0201566233637755,0.1253317659365361,117,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AB,...
+351,Senior,15 à 64 ans,2018,fv_130,0.0707488376483228,9.026889092844366,0.0582316862045228,0.0832659890921228,2757,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AT,
+352,Senior,64 à 75 ans,2018,fv_130,0.116465263213732,12.26133915808582,0.0884765837107101,0.144453942716754,829,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AT,
+353,Senior,75 ans et plus,2018,fv_130,0.0429262873825973,23.23892071287353,0.0233744591145805,0.0624781156506141,442,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AT,*
+354,Senior,15 à 64 ans,2018,fv_130,0.0900456790311019,10.384309207590045,0.0717187971902637,0.10837256087194,1480,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,BC,
+355,Senior,64 à 75 ans,2018,fv_130,0.1143017977714939,18.99339976828546,0.0717513767694014,0.1568522187735865,423,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,BC,*
+356,Senior,75 ans et plus,2018,fv_130,0.060618754102155,25.35768577746128,0.0304911418668972,0.0907463663374128,259,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,BC,*
+357,Senior,15 à 64 ans,2018,fv_130,0.048531138625137,9.694383833770036,0.0393099101503369,0.0577523670999371,3039,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,ON,
+358,Senior,64 à 75 ans,2018,fv_130,0.0604733575911937,14.290530329473118,0.0435354203601565,0.0774112948222308,783,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,ON,
+359,Senior,75 ans et plus,2018,fv_130,0.0567381576595714,19.14980511301297,0.0354426656080427,0.0780336497111002,491,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,ON,*
+360,Senior,15 à 64 ans,2018,fv_130,0.1005630944067064,10.407706964498209,0.0800494994824014,0.1210766893310114,1501,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,PR,
+361,Senior,64 à 75 ans,2018,fv_130,0.0697306397617816,20.944341763254588,0.0411061036834081,0.0983551758401552,387,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,PR,*
+362,Senior,75 ans et plus,2018,fv_130,0.0678967917091168,23.15882419224753,0.0370781247165429,0.0987154587016908,260,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,PR,*
+363,Senior,15 à 64 ans,2018,fv_130,0.0475741591767725,12.818710429363655,0.0356215271532397,0.0595267912003054,1389,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,QC,
+364,Senior,64 à 75 ans,2018,fv_130,0.067450609231902,25.88632662280536,0.0332286874502098,0.1016725310135942,367,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,QC,*
+365,Senior,75 ans et plus,2018,fv_130,0.05214540209415,24.355215534341674,0.0272536143552883,0.0770371898330117,242,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,QC,*
+366,Senior,15 à 64 ans,2018,fv_140,0.0336517860421423,19.846742510297315,0.0205616112628313,0.0467419608214532,1091,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AB,*
+367,Senior,64 à 75 ans,2018,fv_140,0.0079425168230273,75.33697993116442,-0.0037852261907699,0.0196702598368246,194,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AB,...
+368,Senior,75 ans et plus,2018,fv_140,0.0157056145390728,102.1045149106893,-0.0157246453280853,0.0471358744062311,117,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AB,...
+369,Senior,15 à 64 ans,2018,fv_140,0.0437300817832328,11.998864871012456,0.0334459284549755,0.0540142351114902,2758,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AT,
+370,Senior,64 à 75 ans,2018,fv_140,0.0225031164032704,25.086870812228124,0.0114384773503505,0.0335677554561902,829,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AT,*
+371,Senior,75 ans et plus,2018,fv_140,0.0087250083053687,60.963920146505465,-0.0017002500328221,0.0191502666435597,442,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AT,...
+372,Senior,15 à 64 ans,2018,fv_140,0.0243662862392523,19.395274853799265,0.0151036763969871,0.0336288960815175,1478,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,BC,*
+373,Senior,64 à 75 ans,2018,fv_140,0.0228208269397377,34.82672731122392,0.0072435287313087,0.0383981251481667,420,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,BC,...
+374,Senior,75 ans et plus,2018,fv_140,0.0040862456187264,100.38921760669032,-0.0039538206524635,0.0121263118899165,259,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,BC,...
+375,Senior,15 à 64 ans,2018,fv_140,0.0184903874178223,19.204964788452443,0.011530413421359,0.0254503614142855,3039,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,ON,*
+376,Senior,64 à 75 ans,2018,fv_140,0.0100821453085918,32.2405400031584,0.0037112077190857,0.0164530828980978,782,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,ON,*
+377,Senior,75 ans et plus,2018,fv_140,0.0024684485021717,62.74684591901718,-0.000567287927799991,0.0055041849321433,491,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,ON,...
+378,Senior,15 à 64 ans,2018,fv_140,0.0476764828712823,15.666106109571832,0.0330374170164788,0.0623155487260857,1501,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,PR,
+379,Senior,64 à 75 ans,2018,fv_140,0.0078633349104032,61.89097385268128,-0.001675211137913,0.0174018809587196,387,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,PR,...
+380,Senior,75 ans et plus,2018,fv_140,0.0079519306650137,59.88871306346037,-0.0013820233386311,0.0172858846686586,260,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,PR,...
+381,Senior,15 à 64 ans,2018,fv_140,0.0083155529683763,22.33895082183846,0.0046747095861449,0.0119563963506077,1389,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,QC,*
+382,Senior,64 à 75 ans,2018,fv_140,0.0248861814098647,60.15238474629856,-0.0044537573690026,0.0542261201887322,367,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,QC,...
+383,Senior,75 ans et plus,2018,fv_140,0.0092061726757849,72.80528311680422,-0.0039306428861317,0.0223429882377015,242,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,QC,...
+384,Senior,15 à 64 ans,2018,fv_150,0.0470247245928949,14.114685430497762,0.0340156754179626,0.0600337737678272,1093,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AB,
+385,Senior,64 à 75 ans,2018,fv_150,0.0751628043235516,25.74609399281745,0.0372345882286225,0.1130910204184806,194,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AB,*
+386,Senior,75 ans et plus,2018,fv_150,0.0299487362513639,46.50193169095136,0.0026528257164736,0.0572446467862542,117,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AB,...
+387,Senior,15 à 64 ans,2018,fv_150,0.0738468101877602,9.041098097403356,0.0607609880475091,0.0869326323280112,2757,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AT,
+388,Senior,64 à 75 ans,2018,fv_150,0.0757175626974001,14.163944558362363,0.0546977454898214,0.0967373799049787,829,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AT,
+389,Senior,75 ans et plus,2018,fv_150,0.048142283217646,25.75620446096472,0.0238394649963212,0.0724451014389709,442,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AT,*
+390,Senior,15 à 64 ans,2018,fv_150,0.084518722457456,9.810167831020774,0.0682678211745141,0.1007696237403978,1479,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,BC,
+391,Senior,64 à 75 ans,2018,fv_150,0.0847163660804818,17.777131508362604,0.0551990344561668,0.1142336977047967,420,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,BC,*
+392,Senior,75 ans et plus,2018,fv_150,0.0780801179596573,24.11342432644744,0.041178327341102,0.1149819085782126,260,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,BC,*
+393,Senior,15 à 64 ans,2018,fv_150,0.0533669346237797,9.469381844617788,0.0434622197447295,0.0632716495028299,3039,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,ON,
+394,Senior,64 à 75 ans,2018,fv_150,0.0446836395191022,16.623815980854708,0.030124780072357,0.0592424989658475,783,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,ON,*
+395,Senior,75 ans et plus,2018,fv_150,0.0309168552024776,28.794913957761736,0.0134683113956178,0.0483653990093374,491,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,ON,*
+396,Senior,15 à 64 ans,2018,fv_150,0.0726831619281542,13.06260281113005,0.0540746508738341,0.0912916729824743,1500,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,PR,
+397,Senior,64 à 75 ans,2018,fv_150,0.0636795421029346,21.958389598121254,0.0362733618866276,0.0910857223192416,387,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,PR,*
+398,Senior,75 ans et plus,2018,fv_150,0.0415619904042044,30.65224879275165,0.0165926672140525,0.0665313135943563,260,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,PR,*
+399,Senior,15 à 64 ans,2018,fv_150,0.038098081282667,13.3705357212144,0.0281141863111384,0.0480819762541956,1391,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,QC,
+400,Senior,64 à 75 ans,2018,fv_150,0.0263861414658164,28.751667616497308,0.0115169615410097,0.0412553213906232,367,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,QC,*
+401,Senior,75 ans et plus,2018,fv_150,0.0177702345038735,63.8326821670498,-0.0044620628948838,0.040002531902631,242,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,QC,...
+402,Senior,15 à 64 ans,2018,fv_160,0.0775193455905024,12.56238222948583,0.0584326743890545,0.0966060167919503,1098,Autre,Older Canadians Volunteer Rate by Activity,AB,
+403,Senior,64 à 75 ans,2018,fv_160,0.1152639170769378,24.294113508368905,0.0603803257705667,0.1701475083833089,197,Autre,Older Canadians Volunteer Rate by Activity,AB,*
+404,Senior,75 ans et plus,2018,fv_160,0.0855721883806311,42.61026615712006,0.0141069286337802,0.1570374481274819,117,Autre,Older Canadians Volunteer Rate by Activity,AB,...
+405,Senior,15 à 64 ans,2018,fv_160,0.0579332351539475,8.560416265283983,0.048213134639515,0.0676533356683801,2763,Autre,Older Canadians Volunteer Rate by Activity,AT,
+406,Senior,64 à 75 ans,2018,fv_160,0.1318445181418588,11.181380580861862,0.1029506558801628,0.1607383804035548,835,Autre,Older Canadians Volunteer Rate by Activity,AT,
+407,Senior,75 ans et plus,2018,fv_160,0.08411350923851,17.83258546136924,0.0547148071542389,0.1135122113227812,448,Autre,Older Canadians Volunteer Rate by Activity,AT,*
+408,Senior,15 à 64 ans,2018,fv_160,0.062438818743355,12.332934910729191,0.0473460398874979,0.0775315975992121,1483,Autre,Older Canadians Volunteer Rate by Activity,BC,
+409,Senior,64 à 75 ans,2018,fv_160,0.0781173642574693,16.523014085002956,0.052819436647142,0.1034152918677966,431,Autre,Older Canadians Volunteer Rate by Activity,BC,*
+410,Senior,75 ans et plus,2018,fv_160,0.0869843723278278,20.7561140640027,0.0515980545167573,0.1223706901388983,263,Autre,Older Canadians Volunteer Rate by Activity,BC,*
+411,Senior,15 à 64 ans,2018,fv_160,0.0778771544359287,9.120662492217765,0.0639557019178836,0.0917986069539739,3053,Autre,Older Canadians Volunteer Rate by Activity,ON,
+412,Senior,64 à 75 ans,2018,fv_160,0.0864790809594053,11.547488111633555,0.0669065638936471,0.1060515980251636,794,Autre,Older Canadians Volunteer Rate by Activity,ON,
+413,Senior,75 ans et plus,2018,fv_160,0.1087928565158552,12.670087196152998,0.0817764193822105,0.1358092936495,494,Autre,Older Canadians Volunteer Rate by Activity,ON,
+414,Senior,15 à 64 ans,2018,fv_160,0.0858116169545258,10.68706263919298,0.0678372943819465,0.1037859395271051,1502,Autre,Older Canadians Volunteer Rate by Activity,PR,
+415,Senior,64 à 75 ans,2018,fv_160,0.1184478116040829,15.449183250486822,0.0825820004959128,0.1543136227122531,388,Autre,Older Canadians Volunteer Rate by Activity,PR,
+416,Senior,75 ans et plus,2018,fv_160,0.0761255590398518,22.67451825169493,0.0422944173001994,0.1099567007795041,261,Autre,Older Canadians Volunteer Rate by Activity,PR,*
+417,Senior,15 à 64 ans,2018,fv_160,0.0603050128185159,11.660185614244067,0.0465231802660847,0.074086845370947,1398,Autre,Older Canadians Volunteer Rate by Activity,QC,
+418,Senior,64 à 75 ans,2018,fv_160,0.0989713968309774,19.416357206878917,0.0613074746420767,0.1366353190198782,371,Autre,Older Canadians Volunteer Rate by Activity,QC,*
+419,Senior,75 ans et plus,2018,fv_160,0.0904259479559449,22.05145957826424,0.0513437930438447,0.129508102868045,242,Autre,Older Canadians Volunteer Rate by Activity,QC,*
+420,Senior2,15 à 64 ans,2018,fv_020,0.0394522656452947,21.37791598150463,0.0229217878854801,0.0559827434051093,1093,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AB,*
+421,Senior2,65 ans et plus,2018,fv_020,0.014405593108216,43.61801882244932,0.0020902881546756,0.0267208980617563,311,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AB,...
+422,Senior2,15 à 64 ans,2018,fv_020,0.032023546432709,11.86863454360124,0.0245741982385081,0.0394728946269099,2760,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AT,
+423,Senior2,65 ans et plus,2018,fv_020,0.0380801622923361,16.9302870062849,0.0254441161805542,0.050716208404118,1273,Porte-à-porte,Older Canadians Volunteer Rate by Activity,AT,*
+424,Senior2,15 à 64 ans,2018,fv_020,0.0341599944280092,20.89599393047338,0.0201696335987358,0.0481503552572826,1478,Porte-à-porte,Older Canadians Volunteer Rate by Activity,BC,*
+425,Senior2,65 ans et plus,2018,fv_020,0.0169911147140654,32.838221063367925,0.0060553392357655,0.0279268901923653,679,Porte-à-porte,Older Canadians Volunteer Rate by Activity,BC,*
+426,Senior2,15 à 64 ans,2018,fv_020,0.0287079290649076,14.146441862830985,0.0207482203585384,0.0366676377712769,3042,Porte-à-porte,Older Canadians Volunteer Rate by Activity,ON,
+427,Senior2,65 ans et plus,2018,fv_020,0.0235193317070439,16.585698541663028,0.0158738151041368,0.0311648483099511,1276,Porte-à-porte,Older Canadians Volunteer Rate by Activity,ON,*
+428,Senior2,15 à 64 ans,2018,fv_020,0.0310135047157878,19.46510320313349,0.0191815731626217,0.0428454362689539,1502,Porte-à-porte,Older Canadians Volunteer Rate by Activity,PR,*
+429,Senior2,65 ans et plus,2018,fv_020,0.032262799254016,21.955937210137225,0.0183791984780952,0.0461464000299369,647,Porte-à-porte,Older Canadians Volunteer Rate by Activity,PR,*
+430,Senior2,15 à 64 ans,2018,fv_020,0.0355263528379687,15.756380310913444,0.0245551266035851,0.0464975790723524,1391,Porte-à-porte,Older Canadians Volunteer Rate by Activity,QC,
+431,Senior2,65 ans et plus,2018,fv_020,0.0209905951947483,30.09444979267443,0.0086094946057062,0.0333716957837905,610,Porte-à-porte,Older Canadians Volunteer Rate by Activity,QC,*
+432,Senior2,15 à 64 ans,2018,fv_030,0.2374641500591612,6.8920224590145,0.2053872176849487,0.2695410824333736,1093,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AB,
+433,Senior2,65 ans et plus,2018,fv_030,0.1302507078987308,15.521715973916328,0.0906258319577539,0.1698755838397077,313,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AB,
+434,Senior2,15 à 64 ans,2018,fv_030,0.2553477096910309,4.298774327886249,0.2338335343158711,0.2768618850661907,2760,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AT,
+435,Senior2,65 ans et plus,2018,fv_030,0.1756376123661054,7.438673192162682,0.1500304712585719,0.2012447534736389,1276,Collecte de fonds,Older Canadians Volunteer Rate by Activity,AT,
+436,Senior2,15 à 64 ans,2018,fv_030,0.1940351523190363,6.350025558222677,0.1698858838178438,0.2181844208202289,1479,Collecte de fonds,Older Canadians Volunteer Rate by Activity,BC,
+437,Senior2,65 ans et plus,2018,fv_030,0.1312589129604756,11.208271834028269,0.1024242055035665,0.1600936204173846,683,Collecte de fonds,Older Canadians Volunteer Rate by Activity,BC,
+438,Senior2,15 à 64 ans,2018,fv_030,0.1605742269582409,4.716219356359405,0.1457313554691665,0.1754170984473153,3044,Collecte de fonds,Older Canadians Volunteer Rate by Activity,ON,
+439,Senior2,65 ans et plus,2018,fv_030,0.1223210641390144,8.996914947355275,0.1007514211711061,0.1438907071069226,1281,Collecte de fonds,Older Canadians Volunteer Rate by Activity,ON,
+440,Senior2,15 à 64 ans,2018,fv_030,0.250187356422521,5.838521476348217,0.2215576871388395,0.2788170257062026,1502,Collecte de fonds,Older Canadians Volunteer Rate by Activity,PR,
+441,Senior2,65 ans et plus,2018,fv_030,0.1326548373581004,11.619595517857285,0.1024440396484685,0.1628656350677323,647,Collecte de fonds,Older Canadians Volunteer Rate by Activity,PR,
+442,Senior2,15 à 64 ans,2018,fv_030,0.1041108864147405,10.410223792134804,0.0828684512718542,0.1253533215576268,1394,Collecte de fonds,Older Canadians Volunteer Rate by Activity,QC,
+443,Senior2,65 ans et plus,2018,fv_030,0.048729170628811,17.412916272617508,0.0320985436495057,0.0653597976081163,610,Collecte de fonds,Older Canadians Volunteer Rate by Activity,QC,*
+444,Senior2,15 à 64 ans,2018,fv_040,0.1535712128847283,8.046982696145555,0.1293502740612353,0.1777921517082213,1092,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AB,
+445,Senior2,65 ans et plus,2018,fv_040,0.1596286996681549,13.103042801264106,0.1186336679677102,0.2006237313685996,313,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AB,
+446,Senior2,15 à 64 ans,2018,fv_040,0.152875220770072,5.622080552125593,0.1360297849249674,0.1697206566151766,2762,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AT,
+447,Senior2,65 ans et plus,2018,fv_040,0.1754838046469224,7.415035231696551,0.1499803888434219,0.2009872204504229,1276,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,AT,
+448,Senior2,15 à 64 ans,2018,fv_040,0.1370803811003885,7.070637514562955,0.1180835147503477,0.1560772474504293,1479,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,BC,
+449,Senior2,65 ans et plus,2018,fv_040,0.1687510327906353,10.686768369826003,0.1334049795823847,0.204097085998886,681,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,BC,
+450,Senior2,15 à 64 ans,2018,fv_040,0.1150197233720147,5.626885879573158,0.1023347804617383,0.1277046662822911,3044,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,ON,
+451,Senior2,65 ans et plus,2018,fv_040,0.1491459533468641,7.887313120237368,0.1260897046592339,0.1722022020344943,1281,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,ON,
+452,Senior2,15 à 64 ans,2018,fv_040,0.1735553107646103,6.699806601007579,0.1507651040203697,0.196345517508851,1502,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,PR,
+453,Senior2,65 ans et plus,2018,fv_040,0.1895884505747463,8.969490604213965,0.1562590312303876,0.222917869919105,648,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,PR,
+454,Senior2,15 à 64 ans,2018,fv_040,0.106076069423893,9.61246537543747,0.0860912467842531,0.1260608920635328,1394,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,QC,
+455,Senior2,65 ans et plus,2018,fv_040,0.1030414672559071,12.908602158235048,0.0769715686957103,0.129111365816104,612,Membre d'un comité ou d'un conseil d'administration,Older Canadians Volunteer Rate by Activity,QC,
+456,Senior2,15 à 64 ans,2018,fv_050,0.1506977446373508,8.255405081290963,0.126314402529579,0.1750810867451226,1092,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AB,
+457,Senior2,65 ans et plus,2018,fv_050,0.1323626599538857,18.747269112761654,0.0837273608852666,0.1809979590225047,311,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AB,*
+458,Senior2,15 à 64 ans,2018,fv_050,0.1178026187434524,6.582120946342382,0.1026052327505587,0.1330000047363462,2760,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AT,
+459,Senior2,65 ans et plus,2018,fv_050,0.0722263628563772,10.91088292099317,0.0567808002543018,0.0876719254584525,1272,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,AT,
+460,Senior2,15 à 64 ans,2018,fv_050,0.1445782342682575,7.892726512341658,0.1222127625773543,0.1669437059591607,1479,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,BC,
+461,Senior2,65 ans et plus,2018,fv_050,0.1479440242239939,12.150377732994803,0.1127121863870253,0.1831758620609626,682,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,BC,
+462,Senior2,15 à 64 ans,2018,fv_050,0.1375850834028537,5.691021472731648,0.122238571989909,0.1529315948157984,3045,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,ON,
+463,Senior2,65 ans et plus,2018,fv_050,0.0763333319884415,12.50934413974738,0.0576180294769671,0.095048634499916,1276,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,ON,
+464,Senior2,15 à 64 ans,2018,fv_050,0.1969900677697757,6.771039108752951,0.1708475300769289,0.2231326054626225,1500,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,PR,
+465,Senior2,65 ans et plus,2018,fv_050,0.0835226083058562,14.597712653989149,0.0596259623116556,0.1074192543000567,647,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,PR,
+466,Senior2,15 à 64 ans,2018,fv_050,0.0826271873068204,10.9573757081909,0.0648821215359348,0.1003722530777061,1392,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,QC,
+467,Senior2,65 ans et plus,2018,fv_050,0.0420741249145818,24.39600380496204,0.021956260566324,0.0621919892628395,610,Enseignement ou mentorat,Older Canadians Volunteer Rate by Activity,QC,*
+468,Senior2,15 à 64 ans,2018,fv_060,0.2057746298677809,7.098302756120686,0.1771464037301491,0.2344028560054126,1092,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AB,
+469,Senior2,65 ans et plus,2018,fv_060,0.1689813228745364,13.730837015628111,0.1235051604647681,0.2144574852843047,311,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AB,
+470,Senior2,15 à 64 ans,2018,fv_060,0.2179632656958925,5.093694673882443,0.196202994372019,0.239723537019766,2761,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AT,
+471,Senior2,65 ans et plus,2018,fv_060,0.1532184681592129,7.910499945389153,0.1294630248725602,0.1769739114458656,1273,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,AT,
+472,Senior2,15 à 64 ans,2018,fv_060,0.2143189233664689,6.530275959633269,0.1868880178511481,0.2417498288817897,1481,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,BC,
+473,Senior2,65 ans et plus,2018,fv_060,0.1489837673391301,11.170185627689545,0.1163665105007565,0.1816010241775038,681,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,BC,
+474,Senior2,15 à 64 ans,2018,fv_060,0.1934371952624693,4.628229805179968,0.1758901905648573,0.2109841999600813,3046,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,ON,
+475,Senior2,65 ans et plus,2018,fv_060,0.136837509860054,8.343708748814603,0.1144599674277707,0.1592150522923372,1281,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,ON,
+476,Senior2,15 à 64 ans,2018,fv_060,0.2430245225154194,5.652709352657202,0.2160995762462967,0.269949468784542,1501,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,PR,
+477,Senior2,65 ans et plus,2018,fv_060,0.1379895706990098,10.955808500819582,0.1083590838670658,0.1676200575309537,647,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,PR,
+478,Senior2,15 à 64 ans,2018,fv_060,0.1343417120191782,8.9804245607478,0.110695812567175,0.1579876114711815,1394,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,QC,
+479,Senior2,65 ans et plus,2018,fv_060,0.1028200580533806,12.745936832240227,0.0771339859349575,0.1285061301718037,613,Organisation d'activités ou d'événements,Older Canadians Volunteer Rate by Activity,QC,
+480,Senior2,15 à 64 ans,2018,fv_070,0.0937204887008147,11.987811964573863,0.0717002228586448,0.1157407545429846,1091,Travail de bureau,Older Canadians Volunteer Rate by Activity,AB,
+481,Senior2,65 ans et plus,2018,fv_070,0.0947958818530191,18.44122885245604,0.0605327214483717,0.1290590422576666,311,Travail de bureau,Older Canadians Volunteer Rate by Activity,AB,*
+482,Senior2,15 à 64 ans,2018,fv_070,0.0782198838774066,8.30043237378434,0.0654946441253403,0.0909451236294729,2762,Travail de bureau,Older Canadians Volunteer Rate by Activity,AT,
+483,Senior2,65 ans et plus,2018,fv_070,0.0935647356929964,11.407766702718442,0.0726447724521044,0.1144846989338883,1272,Travail de bureau,Older Canadians Volunteer Rate by Activity,AT,
+484,Senior2,15 à 64 ans,2018,fv_070,0.0934868608722534,10.030212641698524,0.0751084139491636,0.1118653077953431,1478,Travail de bureau,Older Canadians Volunteer Rate by Activity,BC,
+485,Senior2,65 ans et plus,2018,fv_070,0.0887147324272191,14.830619665327646,0.0629275949559765,0.1145018698984617,679,Travail de bureau,Older Canadians Volunteer Rate by Activity,BC,
+486,Senior2,15 à 64 ans,2018,fv_070,0.066031759514327,7.632138526618183,0.0561542557180266,0.0759092633106273,3044,Travail de bureau,Older Canadians Volunteer Rate by Activity,ON,
+487,Senior2,65 ans et plus,2018,fv_070,0.0846337908908625,10.38581353761032,0.0674058883484291,0.101861693433296,1276,Travail de bureau,Older Canadians Volunteer Rate by Activity,ON,
+488,Senior2,15 à 64 ans,2018,fv_070,0.0981933522288179,10.02344579915708,0.0789026861253473,0.1174840183322884,1500,Travail de bureau,Older Canadians Volunteer Rate by Activity,PR,
+489,Senior2,65 ans et plus,2018,fv_070,0.0833695937406478,14.745126448540177,0.0592758505242509,0.1074633369570446,647,Travail de bureau,Older Canadians Volunteer Rate by Activity,PR,
+490,Senior2,15 à 64 ans,2018,fv_070,0.0519809025305955,13.380671221628011,0.0383485814476158,0.0656132236135751,1393,Travail de bureau,Older Canadians Volunteer Rate by Activity,QC,
+491,Senior2,65 ans et plus,2018,fv_070,0.0511650169542413,14.278266896402563,0.0368465438148802,0.0654834900936023,612,Travail de bureau,Older Canadians Volunteer Rate by Activity,QC,
+492,Senior2,15 à 64 ans,2018,fv_080,0.0953140240679815,12.415854227808882,0.0721197117143447,0.1185083364216184,1091,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AB,
+493,Senior2,65 ans et plus,2018,fv_080,0.0222918855531821,41.31313429308996,0.004241643071224,0.0403421280351401,311,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AB,...
+494,Senior2,15 à 64 ans,2018,fv_080,0.079233514868196,8.898980818703112,0.0654138572437083,0.0930531724926838,2759,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AT,
+495,Senior2,65 ans et plus,2018,fv_080,0.013737153151939,28.175455780175128,0.0061511017468874,0.0213232045569906,1271,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,AT,*
+496,Senior2,15 à 64 ans,2018,fv_080,0.0694939142522772,11.81550208015618,0.0534005424044383,0.0855872861001161,1479,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,BC,
+497,Senior2,65 ans et plus,2018,fv_080,0.0207415626658064,28.1156768785219,0.0093117764468681,0.0321713488847446,680,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,BC,*
+498,Senior2,15 à 64 ans,2018,fv_080,0.0690058731698486,8.349659805480739,0.0577130395973802,0.0802987067423169,3043,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,ON,
+499,Senior2,65 ans et plus,2018,fv_080,0.0180003704587194,26.87021715154852,0.0085205369406172,0.0274802039768215,1275,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,ON,*
+500,Senior2,15 à 64 ans,2018,fv_080,0.0823528998581882,10.911748882406332,0.0647403859035982,0.0999654138127781,1501,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,PR,
+501,Senior2,65 ans et plus,2018,fv_080,0.0157346118534476,37.99788721453335,0.0040163398545956,0.0274528838522995,647,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,PR,...
+502,Senior2,15 à 64 ans,2018,fv_080,0.0453086785979229,15.069454775484973,0.0319264936750895,0.0586908635207564,1391,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,QC,
+503,Senior2,65 ans et plus,2018,fv_080,0.003022964271278,66.78303345919248,-0.0009338644115945343,0.0069797929541505,610,"Entraînement, arbitrage, présidence",Older Canadians Volunteer Rate by Activity,QC,...
+504,Senior2,15 à 64 ans,2018,fv_090,0.1121730254350894,10.326168418113124,0.089470418577288,0.1348756322928908,1093,Conseils,Older Canadians Volunteer Rate by Activity,AB,
+505,Senior2,65 ans et plus,2018,fv_090,0.0877256044914134,20.474953760425944,0.0525211685599567,0.1229300404228701,311,Conseils,Older Canadians Volunteer Rate by Activity,AB,*
+506,Senior2,15 à 64 ans,2018,fv_090,0.0841335240323206,7.784841905242303,0.0712964227243627,0.0969706253402785,2759,Conseils,Older Canadians Volunteer Rate by Activity,AT,
+507,Senior2,65 ans et plus,2018,fv_090,0.0888591071978691,10.574790681981112,0.0704419830304845,0.1072762313652536,1270,Conseils,Older Canadians Volunteer Rate by Activity,AT,
+508,Senior2,15 à 64 ans,2018,fv_090,0.0933435386006807,10.226380278882823,0.0746343785549843,0.1120526986463771,1477,Conseils,Older Canadians Volunteer Rate by Activity,BC,
+509,Senior2,65 ans et plus,2018,fv_090,0.1052439966864115,14.241309838385485,0.0758678141279311,0.134620179244892,680,Conseils,Older Canadians Volunteer Rate by Activity,BC,
+510,Senior2,15 à 64 ans,2018,fv_090,0.0869278847766148,7.04035609848231,0.0749328412235871,0.0989229283296426,3042,Conseils,Older Canadians Volunteer Rate by Activity,ON,
+511,Senior2,65 ans et plus,2018,fv_090,0.0783659686892445,10.505586308712711,0.062229968421962,0.0945019689565271,1275,Conseils,Older Canadians Volunteer Rate by Activity,ON,
+512,Senior2,15 à 64 ans,2018,fv_090,0.1187614816809814,9.80140781720488,0.0959469184989933,0.1415760448629694,1501,Conseils,Older Canadians Volunteer Rate by Activity,PR,
+513,Senior2,65 ans et plus,2018,fv_090,0.0974743663854918,13.423546924358998,0.0718291837008838,0.1231195490700997,647,Conseils,Older Canadians Volunteer Rate by Activity,PR,
+514,Senior2,15 à 64 ans,2018,fv_090,0.1212136112437066,8.784495863337918,0.1003439055921006,0.1420833168953127,1392,Conseils,Older Canadians Volunteer Rate by Activity,QC,
+515,Senior2,65 ans et plus,2018,fv_090,0.0923437112844356,13.611255279513248,0.0677086529438294,0.1169787696250417,611,Conseils,Older Canadians Volunteer Rate by Activity,QC,
+516,Senior2,15 à 64 ans,2018,fv_100,0.0654394562161788,12.10900110248698,0.0499085752346355,0.0809703371977221,1092,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AB,
+517,Senior2,65 ans et plus,2018,fv_100,0.1229480149152654,16.11247341840776,0.0841211945858134,0.1617748352447175,311,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AB,
+518,Senior2,15 à 64 ans,2018,fv_100,0.0869103667387667,9.717839305629154,0.0703568837504621,0.1034638497270712,2759,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AT,
+519,Senior2,65 ans et plus,2018,fv_100,0.1102633605000667,8.743953283314317,0.0913666093464371,0.1291601116536962,1273,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,AT,
+520,Senior2,15 à 64 ans,2018,fv_100,0.0771925829198925,10.2679739037295,0.061657684413678,0.0927274814261069,1479,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,BC,
+521,Senior2,65 ans et plus,2018,fv_100,0.1568082754520487,11.809116129672145,0.120514306530325,0.1931022443737724,683,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,BC,
+522,Senior2,15 à 64 ans,2018,fv_100,0.0731950072553981,8.180063288071372,0.061459922976576,0.0849300915342202,3041,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,ON,
+523,Senior2,65 ans et plus,2018,fv_100,0.1077985805263349,9.049703092843098,0.0886782469805787,0.1269189140720911,1277,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,ON,
+524,Senior2,15 à 64 ans,2018,fv_100,0.1076493438099607,10.067254648293268,0.0864085603271254,0.1288901272927959,1502,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,PR,
+525,Senior2,65 ans et plus,2018,fv_100,0.1060499816161172,11.911500002641056,0.0812914351850886,0.1308085280471457,649,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,PR,
+526,Senior2,15 à 64 ans,2018,fv_100,0.0520335179149759,13.330047284846664,0.0384390263391496,0.0656280094908023,1391,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,QC,
+527,Senior2,65 ans et plus,2018,fv_100,0.066499583598278,17.974908365886037,0.0430716652373331,0.0899275019592228,610,Soins de santé ou soutien,Older Canadians Volunteer Rate by Activity,QC,*
+528,Senior2,15 à 64 ans,2018,fv_110,0.1245940209400054,9.814079029129328,0.1006280601942311,0.1485599816857797,1094,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AB,
+529,Senior2,65 ans et plus,2018,fv_110,0.0840670903715069,19.61983861547126,0.0517397825834496,0.1163943981595643,311,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AB,*
+530,Senior2,15 à 64 ans,2018,fv_110,0.1257904579468802,6.95168091298853,0.1086514524252255,0.1429294634685348,2760,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AT,
+531,Senior2,65 ans et plus,2018,fv_110,0.1420681349647643,7.934087160316509,0.1199757940000981,0.1641604759294305,1274,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,AT,
+532,Senior2,15 à 64 ans,2018,fv_110,0.1115620106354207,8.80501622127076,0.0923091802760771,0.1308148409947642,1479,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,BC,
+533,Senior2,65 ans et plus,2018,fv_110,0.08666216960374,14.210717542202929,0.0625245935143837,0.1107997456930963,681,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,BC,
+534,Senior2,15 à 64 ans,2018,fv_110,0.1124762883979714,6.283416877778866,0.0986245289181327,0.1263280478778101,3042,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,ON,
+535,Senior2,65 ans et plus,2018,fv_110,0.0948027294835712,9.006090162610816,0.0780685191682065,0.1115369397989359,1275,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,ON,
+536,Senior2,15 à 64 ans,2018,fv_110,0.1439770378750974,8.410811891184164,0.1202425838778134,0.1677114918723813,1501,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,PR,
+537,Senior2,65 ans et plus,2018,fv_110,0.0905809828194586,13.320738327559363,0.0669319482200175,0.1142300174188997,648,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,PR,
+538,Senior2,15 à 64 ans,2018,fv_110,0.0873932603010593,11.353824459651308,0.0679455620299145,0.1068409585722041,1393,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,QC,
+539,Senior2,65 ans et plus,2018,fv_110,0.0814568731629428,15.987521121871406,0.0559323899777322,0.1069813563481533,610,"Collecte, distribution ou livraison de biens",Older Canadians Volunteer Rate by Activity,QC,
+540,Senior2,15 à 64 ans,2018,fv_120,0.0824522699139348,11.64688200887863,0.0636305033372522,0.1012740364906174,1092,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AB,
+541,Senior2,65 ans et plus,2018,fv_120,0.0896186055081607,19.2258822737909,0.0558484895761607,0.1233887214401608,311,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AB,*
+542,Senior2,15 à 64 ans,2018,fv_120,0.0694183164277878,9.767103860134018,0.0561294488539563,0.0827071840016193,2758,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AT,
+543,Senior2,65 ans et plus,2018,fv_120,0.0860098591220739,12.233134112149884,0.0653877032904839,0.106632014953664,1272,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,AT,
+544,Senior2,15 à 64 ans,2018,fv_120,0.0594840575104082,11.96580764239513,0.0455335279761818,0.0734345870446347,1480,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,BC,
+545,Senior2,65 ans et plus,2018,fv_120,0.0753469007858517,16.94022768794077,0.0503300448489942,0.1003637567227092,681,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,BC,*
+546,Senior2,15 à 64 ans,2018,fv_120,0.0551399581437562,9.929622792365077,0.0444087832262128,0.0658711330612997,3041,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,ON,
+547,Senior2,65 ans et plus,2018,fv_120,0.0493998500945923,12.140734927820734,0.0376449565822267,0.0611547436069579,1277,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,ON,
+548,Senior2,15 à 64 ans,2018,fv_120,0.1004210568928307,9.852864479437166,0.0810284859792606,0.1198136278064009,1501,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,PR,
+549,Senior2,65 ans et plus,2018,fv_120,0.086394320312684,14.78734292044623,0.0613549485849565,0.1114336920404116,647,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,PR,
+550,Senior2,15 à 64 ans,2018,fv_120,0.0489335247064427,14.678217890986508,0.0348559474088057,0.0630111020040797,1390,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,QC,
+551,Senior2,65 ans et plus,2018,fv_120,0.0437752356047628,22.48737606010024,0.0244815425082053,0.0630689287013202,611,"Entretien, réparation ou construction",Older Canadians Volunteer Rate by Activity,QC,*
+552,Senior2,15 à 64 ans,2018,fv_130,0.0723114626551695,12.70462586552386,0.0543054679807014,0.0903174573296377,1092,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AB,
+553,Senior2,65 ans et plus,2018,fv_130,0.0845061984609391,19.235431589503428,0.0526467251890602,0.116365671732818,311,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AB,*
+554,Senior2,15 à 64 ans,2018,fv_130,0.0707488376483228,9.026889092844366,0.0582316862045228,0.0832659890921228,2757,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AT,
+555,Senior2,65 ans et plus,2018,fv_130,0.0884249575926251,10.94702333868998,0.0694527007587156,0.1073972144265347,1271,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,AT,
+556,Senior2,15 à 64 ans,2018,fv_130,0.0900456790311019,10.384309207590045,0.0717187971902637,0.10837256087194,1480,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,BC,
+557,Senior2,65 ans et plus,2018,fv_130,0.0919911688671374,15.771784694834642,0.0635547391825138,0.120427598551761,682,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,BC,
+558,Senior2,15 à 64 ans,2018,fv_130,0.048531138625137,9.694383833770036,0.0393099101503369,0.0577523670999371,3039,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,ON,
+559,Senior2,65 ans et plus,2018,fv_130,0.0589023082973015,11.722653001114203,0.0453689270867019,0.072435689507901,1274,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,ON,
+560,Senior2,15 à 64 ans,2018,fv_130,0.1005630944067064,10.407706964498209,0.0800494994824014,0.1210766893310114,1501,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,PR,
+561,Senior2,65 ans et plus,2018,fv_130,0.0689737021874146,15.968354725933567,0.0473867266119706,0.0905606777628587,647,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,PR,
+562,Senior2,15 à 64 ans,2018,fv_130,0.0475741591767725,12.818710429363655,0.0356215271532397,0.0595267912003054,1389,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,QC,
+563,Senior2,65 ans et plus,2018,fv_130,0.0610709336573876,18.621133826220397,0.0387820266696917,0.0833598406450836,609,Chauffeur.euse bénévole,Older Canadians Volunteer Rate by Activity,QC,*
+564,Senior2,15 à 64 ans,2018,fv_140,0.0336517860421423,19.846742510297315,0.0205616112628313,0.0467419608214532,1091,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AB,*
+565,Senior2,65 ans et plus,2018,fv_140,0.0109385633538583,66.10237166252924,-0.0032332498442722,0.0251103765519889,311,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AB,...
+566,Senior2,15 à 64 ans,2018,fv_140,0.0437300817832328,11.998864871012456,0.0334459284549755,0.0540142351114902,2758,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AT,
+567,Senior2,65 ans et plus,2018,fv_140,0.0172547918625878,23.41093320737457,0.0093375020631961,0.0251720816619795,1271,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,AT,*
+568,Senior2,15 à 64 ans,2018,fv_140,0.0243662862392523,19.395274853799265,0.0151036763969871,0.0336288960815175,1478,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,BC,*
+569,Senior2,65 ans et plus,2018,fv_140,0.0150065016373042,33.277609708379465,0.0052188236018322,0.0247941796727762,679,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,BC,*
+570,Senior2,15 à 64 ans,2018,fv_140,0.0184903874178223,19.204964788452443,0.011530413421359,0.0254503614142855,3039,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,ON,*
+571,Senior2,65 ans et plus,2018,fv_140,0.0068786225521645,29.0078696597172,0.0029678243612605,0.0107894207430685,1273,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,ON,*
+572,Senior2,15 à 64 ans,2018,fv_140,0.0476764828712823,15.666106109571832,0.0330374170164788,0.0623155487260857,1501,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,PR,
+573,Senior2,65 ans et plus,2018,fv_140,0.0078999036192974,45.34753246772033,0.0008785063784783826,0.0149213008601165,647,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,PR,...
+574,Senior2,15 à 64 ans,2018,fv_140,0.0083155529683763,22.33895082183846,0.0046747095861449,0.0119563963506077,1389,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,QC,*
+575,Senior2,65 ans et plus,2018,fv_140,0.0183502771369825,50.76434175325463,9.243373426958552e-05,0.0366081205396954,609,"Premier soins, incendies",Older Canadians Volunteer Rate by Activity,QC,...
+576,Senior2,15 à 64 ans,2018,fv_150,0.0470247245928949,14.114685430497762,0.0340156754179626,0.0600337737678272,1093,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AB,
+577,Senior2,65 ans et plus,2018,fv_150,0.0577131396732606,22.48316251055367,0.0322811585944115,0.0831451207521097,311,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AB,*
+578,Senior2,15 à 64 ans,2018,fv_150,0.0738468101877602,9.041098097403356,0.0607609880475091,0.0869326323280112,2757,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AT,
+579,Senior2,65 ans et plus,2018,fv_150,0.0652136520747352,12.292175915854765,0.0495022341860382,0.0809250699634321,1271,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,AT,
+580,Senior2,15 à 64 ans,2018,fv_150,0.084518722457456,9.810167831020774,0.0682678211745141,0.1007696237403978,1479,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,BC,
+581,Senior2,65 ans et plus,2018,fv_150,0.0819465808409901,14.735838885189326,0.0582790041419439,0.1056141575400362,680,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,BC,
+582,Senior2,15 à 64 ans,2018,fv_150,0.0533669346237797,9.469381844617788,0.0434622197447295,0.0632716495028299,3039,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,ON,
+583,Senior2,65 ans et plus,2018,fv_150,0.0388934895649023,14.193862825942048,0.0280735308159907,0.0497134483138139,1274,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,ON,
+584,Senior2,15 à 64 ans,2018,fv_150,0.0726831619281542,13.06260281113005,0.0540746508738341,0.0912916729824743,1500,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,PR,
+585,Senior2,65 ans et plus,2018,fv_150,0.0545503201319835,17.98425367350305,0.035322156274101,0.073778483989866,647,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,PR,*
+586,Senior2,15 à 64 ans,2018,fv_150,0.038098081282667,13.3705357212144,0.0281141863111384,0.0480819762541956,1391,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,QC,
+587,Senior2,65 ans et plus,2018,fv_150,0.0227947695423477,28.511356504767765,0.0100567715133801,0.0355327675713154,609,Protection de l'environnement,Older Canadians Volunteer Rate by Activity,QC,*
+588,Senior2,15 à 64 ans,2018,fv_160,0.0775193455905024,12.56238222948583,0.0584326743890545,0.0966060167919503,1098,Autre,Older Canadians Volunteer Rate by Activity,AB,
+589,Senior2,65 ans et plus,2018,fv_160,0.1038877924841936,21.551081440510806,0.0600062710128308,0.1477693139555564,314,Autre,Older Canadians Volunteer Rate by Activity,AB,*
+590,Senior2,15 à 64 ans,2018,fv_160,0.0579332351539475,8.560416265283983,0.048213134639515,0.0676533356683801,2763,Autre,Older Canadians Volunteer Rate by Activity,AT,
+591,Senior2,65 ans et plus,2018,fv_160,0.1135532196183856,9.126598898005362,0.0932410409612248,0.1338653982755464,1283,Autre,Older Canadians Volunteer Rate by Activity,AT,
+592,Senior2,15 à 64 ans,2018,fv_160,0.062438818743355,12.332934910729191,0.0473460398874979,0.0775315975992121,1483,Autre,Older Canadians Volunteer Rate by Activity,BC,
+593,Senior2,65 ans et plus,2018,fv_160,0.0817921994780002,13.314299961724874,0.0604480764722412,0.1031363224837591,694,Autre,Older Canadians Volunteer Rate by Activity,BC,
+594,Senior2,15 à 64 ans,2018,fv_160,0.0778771544359287,9.120662492217765,0.0639557019178836,0.0917986069539739,3053,Autre,Older Canadians Volunteer Rate by Activity,ON,
+595,Senior2,65 ans et plus,2018,fv_160,0.0958162116158317,8.744655556010065,0.0793940699437442,0.1122383532879193,1288,Autre,Older Canadians Volunteer Rate by Activity,ON,
+596,Senior2,15 à 64 ans,2018,fv_160,0.0858116169545258,10.68706263919298,0.0678372943819465,0.1037859395271051,1502,Autre,Older Canadians Volunteer Rate by Activity,PR,
+597,Senior2,65 ans et plus,2018,fv_160,0.1009987316357503,12.910434066178212,0.0754420269300267,0.1265554363414739,649,Autre,Older Canadians Volunteer Rate by Activity,PR,
+598,Senior2,15 à 64 ans,2018,fv_160,0.0603050128185159,11.660185614244067,0.0465231802660847,0.074086845370947,1398,Autre,Older Canadians Volunteer Rate by Activity,QC,
+599,Senior2,65 ans et plus,2018,fv_160,0.0954223468579925,14.736639978928368,0.0678612397859318,0.1229834539300532,613,Autre,Older Canadians Volunteer Rate by Activity,QC,

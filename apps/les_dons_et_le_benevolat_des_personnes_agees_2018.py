@@ -17,7 +17,7 @@ from homepage import footer #navbar, footer
 SeniorsAvgDonAmt_2018 = get_dataframe("2018-SeniorsAvgDonAmt.csv")
 SeniorsAvgDonByCause_2018 = get_dataframe("2018-SeniorsAvgDonByCause.csv")
 SeniorsAvgDonByMeth_2018 = get_dataframe("2018-SeniorsAvgDonByMeth.csv")
-SeniorsAvgHrs_2018 = get_dataframe("2018-SeniorsAvgHrs.csv")
+SeniorsAvgHrs_2018 = get_dataframe("2018-SeniorsAvgHrs_FR.csv")
 SeniorsAvgHrsByActivity_2018 = get_dataframe("2018-SeniorsAvgHrsByActivity.csv")
 SeniorsAvgHrsByCause_2018 = get_dataframe("2018-SeniorsAvgHrsByCause.csv")
 SeniorsAvgHrsCommInvolve_2018 = get_dataframe("2018-SeniorsAvgHrsCommInvolve.csv")
@@ -35,7 +35,7 @@ SeniorsReasonsVol_2018 = get_dataframe("2018-SeniorsReasonsVol.csv")
 SeniorsSolicitationConcerns_2018 = get_dataframe("2018-SeniorsSolicitationConcerns.csv")
 SeniorsVolRateByActivity_2018 = get_dataframe("2018-SeniorsVolRateByActivity.csv")
 SeniorsVolRateByCause_2018 = get_dataframe("2018-SeniorsVolRateByCause.csv")
-SeniorsVolRate_2018 = get_dataframe("2018-SeniorsVolRates.csv")
+SeniorsVolRate_2018 = get_dataframe("2018-SeniorsVolRates_FR.csv")
 
 rates = [SeniorsBarriers_2018,
          SeniorsBarriersVol_2018,
@@ -366,9 +366,9 @@ def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=
                                         "Estimate Suppressed",
                                         "Estimate: " + dff_2.Estimate.map(str) + " ± " + (dff_2["CI Upper"] - dff_2["Estimate"]).map(str)])
         dff_1['QuestionText'] = np.select([dff_1["QuestionText"] == 'Volunteer flag', dff_1["QuestionText"] == 'Direct help flag', dff_1["QuestionText"] == 'Community<br>involvement flag'],
-                                          ["Volunteering", "Helping others", "Community engagement"])
+                                          ["Volontariat", "Aider les autres", "Engagement communautaire"])
         dff_2['QuestionText'] = np.select([dff_2["QuestionText"] == 'Total formal<br>volunteer hours', dff_2["QuestionText"] == 'Total hours spent<br>helping directly', dff_2["QuestionText"] == 'Total hours spent on<br>community<br>involvement'],
-                                          ["Volunteering", "Helping others", "Community engagement"])
+                                          ["Volontariat", "Aider les autres", "Engagement communautaire"])
 
     dff1 = dff_1[dff_1['Attribute'] == name1]
 
@@ -589,7 +589,7 @@ def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=
                          range = [0, 1.25*max(np.concatenate([dff4["CI Upper"], dff5["CI Upper"], dff6["CI Upper"]]))])
 
     fig.update_layout(title={'text': title,
-                             'y': 0.99},
+                             'y': 0.97},
                       margin={'l': 30, 'b': 30, 'r': 10, 't': 10},
                       height=600,
                       plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -1161,10 +1161,13 @@ def update_graph(region):
     dff2 = SeniorsAvgHrs_2018[SeniorsAvgHrs_2018['Region'] == region]
     dff2 = dff2[dff2["Group"] == "Senior"]
 
-    name1 = "15 to 64"
-    name2 = "65 to 74"
-    name3 = "75 plus"
-    title = '{}, {}'.format("Rates and average hours devoted to volunteering, helping others and community engagement", region)
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 à 74 ans"
+    name3 = "75 ans et plus"
+    title = '{}, {}'.format("Taux et nombre moyen d’heures consacrées au <br> bénévolat, à l’aide d’autrui et à l’engagement communautaire", region)
     return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
 
 
@@ -1293,9 +1296,15 @@ def update_graph(region):
 def update_graph(region):
     dff = SeniorsCommInvolveRate_2018[SeniorsCommInvolveRate_2018['Region'] == region]
     dff = dff[dff["Group"] == "Senior"]
-    name1 = "15 to 64"
-    name2 = "65 to 74"
-    name3 = "75 plus"
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    # name1 = "15 to 64"
+    # name2 = "65 to 74"
+    # name3 = "75 plus"
+    name1 = "15 à 64 ans"
+    name2 = "65 à 74 ans"
+    name3 = "75 ans et plus"
     title = '{}, {}'.format("Types of community engagement", region)
     return triple_vertical_graphs_pops(dff, title, name1, name2, name3, "percent")
 

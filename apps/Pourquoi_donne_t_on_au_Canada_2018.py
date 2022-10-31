@@ -121,7 +121,7 @@ layout = html.Div([
                     dcc.Markdown('''
                     Certaines motivations ont clairement tendance à être associées à des dons beaucoup plus importants que d’autres. Les croyances et les obligations religieuses constituaient le facteur le plus significatif, en étant associées à des dons beaucoup plus importants. Bien que les personnes motivées par ce facteur étaient enclines à réserver leur soutien à des organismes religieux, elles avaient également tendance à donner des montants relativement plus élevés à des causes laïques. Bien que seulement une petite minorité de personnes ait déclaré que les crédits d’impôt qu’elles recevraient étaient un facteur important dans leurs décisions de donner, les personnes motivées par ce facteur avaient tendance à donner beaucoup plus. Au chapitre des motivations les plus courantes, les personnes qui donnaient par motivation envers une cause et par compassion envers les personnes dans le besoin donnaient nettement plus que les personnes non motivées par ces facteurs. Le fait d’être touché personnellement par la cause et la sollicitation par une personne amie ou un proche parent avaient la plus faible incidence sur les montants moyens des dons, tout en demeurant des facteurs de motivation positifs.
                     '''),
-                    # Average amounts contributed by donors reporting and not reporting specific motivations.
+                    ## Average amounts contributed by donors reporting and not reporting specific motivations.
                     dcc.Graph(id='MotivationsAvgAmts', style={'marginTop': marginTop}),
 
                 ], className='col-md-10 col-lg-8 mx-auto'

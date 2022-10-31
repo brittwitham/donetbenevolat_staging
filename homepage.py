@@ -417,27 +417,27 @@ content = dbc.Container(
         html.Br(),
         html.Hr(),
                 html.H2("Dons et bénévolat selon les caractéristiques démographiques"),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4("Les dons et le bénévolat des personnes nouvellement arrivées au canada",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018'),
-                                html.P("""
-                                Cette analyse des dons et du bénévolat des personnes nouvellement arrivées au Canada approfondit leurs différences avec ceux des personnes nées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles.
-                                """),
-
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
+#        html.Br(),
+ #       dbc.Row(
+  #          html.Div(
+   #             html.Div(
+    #                html.Div(
+     #                   html.Div(
+      #                      [
+       #                         dcc.Link(html.H4("Les dons et le bénévolat des personnes nouvellement arrivées au canada",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018'),
+        #                        html.P("""
+         #                       Cette analyse des dons et du bénévolat des personnes nouvellement arrivées au Canada approfondit leurs différences avec ceux des personnes nées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles.
+          #                      """),
+#
+ #                           ]
+  #                      ),
+   #                     className='card-body'
+    #                ),
+     #               className="card"
+      #          ),
+       #         className="col-md-10 col-lg-8"
+        #    )
+  #      ),
         html.Br(),
         dbc.Row(
             html.Div(

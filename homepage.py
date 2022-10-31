@@ -303,7 +303,7 @@ content = dbc.Container(
         ),
         html.Br(),
         html.Hr(),
-                html.H2("Giving and Volunteering by Demographic"),
+                html.H2("Giving and Volunteering by Organization Type"),
         html.Br(),
         dbc.Row(
             html.Div(
@@ -415,6 +415,9 @@ content = dbc.Container(
             )
         ),
         html.Br(),
+        html.Hr(),
+                html.H2("Giving and Volunteering by Demographic"),
+        html.Br(),
         dbc.Row(
             html.Div(
                 html.Div(
@@ -480,6 +483,10 @@ content = dbc.Container(
         html.Br(),
         html.Hr(),
         html.H2("Articles de 2013"),
+        html.Br(),
+        html.H3("Note générale sur la comparaison des résultats de l’enquête de 2013 et de celle de 2018 "),
+        html.P(
+        """En raison des modifications méthodologiques entre les versions de 2013 et de 2018 de l’enquête (principalement liées à la nouvelle option de répondre au questionnaire en ligne), la comparaison directe des résultats entre ses deux versions n’est pas pertinente. Les tendances générales (p. ex. variations selon les caractéristiques personnelles et économiques, liens avec les motivations et les freins, etc.) sont très similaires, mais les estimations clés, comme les taux généraux des dons et du bénévolat, sont quelque peu différentes. Bien qu’il soit impossible d’en être certain, ces différences sont vraisemblablement moins attribuables à des changements dans les habitudes de don et de bénévolat qu’aux modifications méthodologiques. """),
         html.Br(),
         dbc.Row(
             html.Div(
@@ -645,11 +652,6 @@ content = dbc.Container(
                 className="col-md-10 col-lg-8"
             )
         ),
-        html.Br(),
-        html.H3("Note générale sur la comparaison des résultats de l’enquête de 2013 et de celle de 2018 "),
-        html.P(
-            """En raison des modifications méthodologiques entre les versions de 2013 et de 2018 de l’enquête (principalement liées à la nouvelle option de répondre au questionnaire en ligne), la comparaison directe des résultats entre ses deux versions n’est pas pertinente. Les tendances générales (p. ex. variations selon les caractéristiques personnelles et économiques, liens avec les motivations et les freins, etc.) sont très similaires, mais les estimations clés, comme les taux généraux des dons et du bénévolat, sont quelque peu différentes. Bien qu’il soit impossible d’en être certain, ces différences sont vraisemblablement moins attribuables à des changements dans les habitudes de don et de bénévolat qu’aux modifications méthodologiques. """
-        )
     ]
 )
 

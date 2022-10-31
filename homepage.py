@@ -303,7 +303,7 @@ content = dbc.Container(
         ),
         html.Br(),
         html.Hr(),
-                html.H2("Giving and Volunteering by Organization Type"),
+                html.H2("Dons et bénévolat selon le type d'organisation"),
         html.Br(),
         dbc.Row(
             html.Div(
@@ -416,7 +416,7 @@ content = dbc.Container(
         ),
         html.Br(),
         html.Hr(),
-                html.H2("Giving and Volunteering by Demographic"),
+                html.H2("Dons et bénévolat selon les caractéristiques démographiques"),
         html.Br(),
         dbc.Row(
             html.Div(

@@ -513,47 +513,7 @@ def update_graph(region):
 #         "Taux et nombre moyen d’heures consacrées au bénévolat, à l’aide d’autrui et à l’engagement communautaire", region)
 #     return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
 
-# @app.callback(
-#     dash.dependencies.Output('SeniorsVolRateVolAmt', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value')
-#     ])
-# def update_graph(region):
-#     dff1 = SeniorsVolRate_2018[SeniorsVolRate_2018['Region'] == region]
-#     dff1 = dff1[dff1["Group"] == "Senior"]
 
-#     dff2 = SeniorsAvgHrs_2018[SeniorsAvgHrs_2018['Region'] == region]
-#     dff2 = dff2[dff2["Group"] == "Senior"]
-
-#     # name1 = "15 to 64"
-#     # name2 = "65 to 74"
-#     # name3 = "75 plus"
-#     name1 = "15 à 64 ans"
-#     name2 = "65 à 74 ans"
-#     name3 = "75 ans et plus"
-#     title = '{}, {}'.format("Taux et nombre moyen d’heures consacrées au <br> bénévolat, à l’aide d’autrui et à l’engagement communautaire", region)
-#     return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
-
-@app.callback(
-    dash.dependencies.Output('SeniorsVolRateVolAmt', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff1 = SeniorsVolRate_2018[SeniorsVolRate_2018['Region'] == region]
-    dff1 = dff1[dff1["Group"] == "Senior"]
-
-    dff2 = SeniorsAvgHrs_2018[SeniorsAvgHrs_2018['Region'] == region]
-    dff2 = dff2[dff2["Group"] == "Senior"]
-
-    name1 = "15 to 64"
-    # name2 = "65 to 74"
-    # name3 = "75 plus"
-    name1 = "15 à 64 ans"
-    name2 = "65 à 74 ans"
-    name3 = "75 ans et plus"
-    title = '{}, {}'.format("Rates and average hours devoted to volunteering, helping others and community engagement", region)
-    return triple_horizontal_rate_avg(dff1, dff2, name1, name2, name3, title, giving=False)
 
 
 

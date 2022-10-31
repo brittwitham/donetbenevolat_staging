@@ -414,9 +414,9 @@ content = dbc.Container(
   #              className="col-md-10 col-lg-8"
    #         )
     #    ),
-        html.Br(),
-        html.Hr(),
-                html.H2("Dons et bénévolat selon les caractéristiques démographiques"),
+#        html.Br(),
+ #       html.Hr(),
+  #              html.H2("Dons et bénévolat selon les caractéristiques démographiques"),
 #        html.Br(),
  #       dbc.Row(
   #          html.Div(
@@ -438,48 +438,48 @@ content = dbc.Container(
        #         className="col-md-10 col-lg-8"
         #    )
   #      ),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4("Les dons et le bénévolat des personnes agées",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_agees_2018'),
-                                html.P("""
-                                Cette analyse des dons et du bénévolat des personnes âgées (de 65 ans ou plus) approfondit leurs différences avec ceux des personnes plus jeunes au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 65 à 74 ans et celles de 75 ans ou plus.
-                                """),
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
-        html.Br(),
-        dbc.Row(
-            html.Div(
-                html.Div(
-                    html.Div(
-                        html.Div(
-                            [
-                                dcc.Link(html.H4("Les dons et le bénévolat des jeunes",className='card-title'), href='/les_dons_et_le_benevolat_des_jeunes_2018'),
-                                # html.H6("David Lasby",className="text-muted card-subtitle"),
-                                html.P("""
-                                Cette analyse des dons et du bénévolat des personnes jeunes (de moins de 34 ans) approfondit leurs différences avec ceux des personnes plus âgées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 15 à 24 ans et celles de 25 à 34 ans. 
-                                """,
-                                className='card-text')
-                            ]
-                        ),
-                        className='card-body'
-                    ),
-                    className="card"
-                ),
-                className="col-md-10 col-lg-8"
-            )
-        ),
+#        html.Br(),
+ #       dbc.Row(
+  #          html.Div(
+   #             html.Div(
+    #                html.Div(
+     #                   html.Div(
+      #                      [
+       #                         dcc.Link(html.H4("Les dons et le bénévolat des personnes agées",className='card-title'), href='/les_dons_et_le_benevolat_des_personnes_agees_2018'),
+        #                        html.P("""
+         #                       Cette analyse des dons et du bénévolat des personnes âgées (de 65 ans ou plus) approfondit leurs différences avec ceux des personnes plus jeunes au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 65 à 74 ans et celles de 75 ans ou plus.
+          #                      """),
+           #                 ]
+            #            ),
+             #           className='card-body'
+              #      ),
+               #     className="card"
+#                ),
+ #               className="col-md-10 col-lg-8"
+  #          )
+   #     ),
+    #    html.Br(),
+     #   dbc.Row(
+      #      html.Div(
+       #         html.Div(
+        #            html.Div(
+         #               html.Div(
+          #                  [
+           #                     dcc.Link(html.H4("Les dons et le bénévolat des jeunes",className='card-title'), href='/les_dons_et_le_benevolat_des_jeunes_2018'),
+            #                    # html.H6("David Lasby",className="text-muted card-subtitle"),
+             #                   html.P("""
+              #                  Cette analyse des dons et du bénévolat des personnes jeunes (de moins de 34 ans) approfondit leurs différences avec ceux des personnes plus âgées au Canada. Elle porte sur l’importance générale des dons et du bénévolat, les causes soutenues, les méthodes de dons, les types d’activités bénévoles, les motivations et les freins aux dons et au bénévolat, ainsi que sur des formes de bénévolat moins conventionnelles. Dans la mesure du possible, l’analyse fait la distinction entre les personnes de 15 à 24 ans et celles de 25 à 34 ans. 
+               #                 """,
+                #                className='card-text')
+                 #           ]
+                  #      ),
+                   #     className='card-body'
+                    #),
+#                    className="card"
+ #               ),
+  #              className="col-md-10 col-lg-8"
+   #         )
+    #    ),
         html.Br(),
         html.Hr(),
         html.H2("Articles de 2013"),

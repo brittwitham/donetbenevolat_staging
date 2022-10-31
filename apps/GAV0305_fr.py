@@ -6,6 +6,8 @@ import pandas as pd
 
 from utils.data.WDA0101_data_utils import get_region_values
 from utils.data.WDC0105_data_utils import get_region_names
+from utils.gen_navbar import gen_navbar
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -15,7 +17,7 @@ from utils.graphs.GAV0305_graph_utils import rate_avg_cause, vertical_percentage
 from utils.data.GAV0305_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import footer
 
 ####################### Data processing ######################
 SubSecAvgDon_2018, SubSecDonRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, ArtRecDonorsBarriers_2018, ArtRecDonorsDonMeth_2018, ArtRecDonorsDonRates_2018, ArtRecDonorsMotivations_2018, ArtRecVolsActivities_2018, ArtRecVolsBarriers_2018, ArtRecVolsMotivations_2018, ArtRecVolsVolRates_2018 = get_data()
@@ -28,6 +30,8 @@ region_names = get_region_names()
 ###################### App layout ######################
 
 marginTop = 20
+home_button = gen_home_button()
+navbar = gen_navbar("giving_and_volunteering_for_arts_and_recreation_organizations")
 
 layout = html.Div([
     navbar,
@@ -51,10 +55,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

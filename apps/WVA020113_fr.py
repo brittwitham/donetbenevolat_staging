@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -38,7 +40,7 @@ navbar = dbc.NavbarSimple(
                 dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Who_volunteers_and_how_much_time_do_they_contribute_2018",external_link=True)
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/who_volunteers_and_how_much_time_do_they_contribute_2013",external_link=True)
             ),
         ],
         brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
@@ -49,6 +51,7 @@ navbar = dbc.NavbarSimple(
     )
 
 marginTop = 20
+home_button = gen_home_button()
 
 layout = html.Div([
     navbar,
@@ -72,9 +75,10 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

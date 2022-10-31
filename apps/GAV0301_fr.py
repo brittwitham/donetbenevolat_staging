@@ -1,8 +1,12 @@
+from imp import get_frozen_object
 import dash
 from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.gen_navbar import gen_navbar
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -13,7 +17,7 @@ from utils.graphs.HOA0204_graph_utils import rate_avg_cause
 from utils.data.GAV0301_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import  footer
 
 ####################### Data processing ######################
 SubSecAvgDon_2018, SubSecDonRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, HealthDonorsBarriers_2018, HealthDonorsDonMeth_2018, HealthDonorsDonRates_2018, HealthDonorsMotivations_2018, HealthVolsActivities_2018, HealthVolsBarriers_2018, HealthVolsMotivations_2018, HealthVolsVolRates_2018 = get_data()
@@ -26,6 +30,8 @@ region_names = get_region_names()
 ###################### App layout ######################
 
 marginTop = 20
+home_button = gen_home_button()
+navbar = gen_navbar("giving_and_volunteering_for_health_organizations")
 
 layout = html.Div([
     navbar,
@@ -49,10 +55,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # dropdown menu
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

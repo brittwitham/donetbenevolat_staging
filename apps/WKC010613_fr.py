@@ -6,6 +6,7 @@ import pandas as pd
 
 from utils.data.WDA0101_data_utils import get_region_values
 from utils.data.WDC0105_data_utils import get_region_names
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -39,7 +40,7 @@ navbar = dbc.NavbarSimple(
                 dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_keeps_Canadians_from_giving_more_2018",external_link=True)
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/what_keeps_canadians_from_giving_more_2013",external_link=True)
             ),
         ],
         brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
@@ -48,7 +49,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -71,9 +72,10 @@ layout = html.Div([
                 )
             )
         ),
+        home_button
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
 
     dbc.Container([

@@ -1,13 +1,15 @@
 import dash
 from dash import dcc, html
 import dash_bootstrap_components as dbc
+from utils.gen_navbar import gen_navbar
 
 
 from utils.graphs.HDC0102_graph_utils_13 import don_rate_avg_don_by_meth, don_rate_avg_don
 from utils.data.HDC0102_data_utils_13 import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import navbar, footer
+from homepage import  footer
+from utils.home_button import gen_home_button
 
 ####################### Data processing ######################
 # DonMethAvgDon_2013, DonMethDonRates_2013 = get_data()
@@ -31,6 +33,8 @@ status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 ###################### App layout ######################
 
 marginTop = 20
+home_button = gen_home_button()
+navbar = gen_navbar("how_do_canadians_donate_2013")
 
 layout = html.Div([
     navbar,
@@ -54,9 +58,10 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row([
            dbc.Col([
                 html.Div([

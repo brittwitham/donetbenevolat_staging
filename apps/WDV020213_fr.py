@@ -12,7 +12,8 @@ from utils.graphs.WDV0202_graph_utils import vol_rate_avg_hrs_qt, single_vertica
 from utils.data.WDV0202_data_utils_13 import get_data, get_region_values, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import footer #navbar, footer
+from homepage import footer
+from utils.home_button import gen_home_button #navbar, footer
 
 ####################### Data processing ######################
 
@@ -40,7 +41,7 @@ navbar = dbc.NavbarSimple(
                 dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_do_volunteers_do_2018",external_link=True)
+                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/what_do_volunteers_do_2013",external_link=True)
             ),
         ],
         brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
@@ -49,7 +50,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -72,9 +73,10 @@ layout = html.Div([
                     )
                 )
             ),
-        ], className="bg-secondary text-white text-center py-4",
+        ], className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row([
             dbc.Col(
                html.Div([

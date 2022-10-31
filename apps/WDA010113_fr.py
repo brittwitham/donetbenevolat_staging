@@ -12,7 +12,8 @@ from utils.graphs.WDA0101_graph_utils import don_rate_avg_don_amt_prv, don_rate_
 from utils.data.WDA0101_data_utils_13 import get_data, get_region_values, process_data, process_data_num, get_region_names, get_region_values
 
 from app import app
-from homepage import footer #navbar, footer
+from homepage import footer
+from utils.home_button import gen_home_button #navbar, footer
 
 ####################### Data processing ######################
 
@@ -34,10 +35,10 @@ navbar = dbc.NavbarSimple(
         children=[
             dbc.NavItem(
                 # dcc.Link("Home", href="/")
-                dbc.NavLink("Home", href="/",external_link=True)
+                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
             ),
             dbc.NavItem(
-                dbc.NavLink("FR", href="http://app.donetbenevolat.ca/Qui_donne_aux_organismes_caritatifs_et_combien_2018",external_link=True)
+                dbc.NavLink("EN", href="http://app.donetbenevolat.ca/who_donates_and_how_much_do_they_give_2013",external_link=True)
             ),
             
         ],
@@ -47,9 +48,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
-
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -75,9 +74,10 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

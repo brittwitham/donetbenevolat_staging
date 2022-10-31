@@ -1,0 +1,241 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,ImmStat,Né.e au Canada,2018,ng_020,0.689581323410212,1.289645757347723,0.6721510573909146,0.7070115894295095,7734,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA,
+1,ImmStat,Naturalisé.e,2018,ng_020,0.6311574512833071,3.04607060969295,0.5934761605147121,0.6688387420519022,1382,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA,
+2,ImmStat,Non canadien.ne,2018,ng_020,0.6107754071703326,9.261754529052206,0.4999031473971273,0.7216476669435379,166,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA,
+3,ImmStat,Né.e au Canada,2018,ng_030,0.6727186232766494,1.2171223550661197,0.656670813013185,0.6887664335401139,7739,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA,
+4,ImmStat,Naturalisé.e,2018,ng_030,0.7039741839087684,2.397762400787793,0.6708907203820315,0.7370576474355054,1389,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA,
+5,ImmStat,Non canadien.ne,2018,ng_030,0.7446704426872672,6.6731531901346255,0.6472739535752338,0.8420669317993007,168,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA,
+6,ImmStat,Né.e au Canada,2018,ng_040,0.244981612985956,3.261454598093796,0.2293215711490063,0.2606416548229057,7612,Aucune sollicitation,New Canadians Barriers to Giving More,CA,
+7,ImmStat,Naturalisé.e,2018,ng_040,0.2751486419275769,6.095093251614509,0.242278935967404,0.3080183478877498,1342,Aucune sollicitation,New Canadians Barriers to Giving More,CA,
+8,ImmStat,Non canadien.ne,2018,ng_040,0.2070590755381339,22.701185886725654,0.1149312317988243,0.2991869192774434,163,Aucune sollicitation,New Canadians Barriers to Giving More,CA,*
+9,ImmStat,Né.e au Canada,2018,ng_050,0.0948391815777118,5.876475933624477,0.0839159070042548,0.1057624561511687,7589,Ne savent pas où donner,New Canadians Barriers to Giving More,CA,
+10,ImmStat,Naturalisé.e,2018,ng_050,0.1593019009157625,9.295966363062988,0.1302774780514395,0.1883263237800855,1334,Ne savent pas où donner,New Canadians Barriers to Giving More,CA,
+11,ImmStat,Non canadien.ne,2018,ng_050,0.1545713480673054,24.992206100478413,0.0788563912056842,0.2302863049289266,163,Ne savent pas où donner,New Canadians Barriers to Giving More,CA,*
+12,ImmStat,Né.e au Canada,2018,ng_060,0.0949363960117782,6.615651636022446,0.0826265261902508,0.1072462658333055,7593,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA,
+13,ImmStat,Naturalisé.e,2018,ng_060,0.1707948073656156,9.054657126744493,0.1404841913139421,0.201105423417289,1336,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA,
+14,ImmStat,Non canadien.ne,2018,ng_060,0.1915250893657651,28.83338555900031,0.0832896700338009,0.2997605086977292,163,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA,*
+15,ImmStat,Né.e au Canada,2018,ng_070,0.2613646592225162,2.9781037701175945,0.2461088664471206,0.2766204519979118,7560,Don de temps,New Canadians Barriers to Giving More,CA,
+16,ImmStat,Naturalisé.e,2018,ng_070,0.2838659372057917,6.133197085186013,0.2497428517593946,0.3179890226521887,1335,Don de temps,New Canadians Barriers to Giving More,CA,
+17,ImmStat,Non canadien.ne,2018,ng_070,0.3080750776572324,19.92435489314393,0.1877686236100583,0.4283815317044066,163,Don de temps,New Canadians Barriers to Giving More,CA,*
+18,ImmStat,Né.e au Canada,2018,ng_080,0.3702288489434905,2.310378952254348,0.3534639257822672,0.3869937721047138,7596,Don direct,New Canadians Barriers to Giving More,CA,
+19,ImmStat,Naturalisé.e,2018,ng_080,0.4015475665741151,4.660074632490818,0.3648719045872776,0.4382232285609527,1340,Don direct,New Canadians Barriers to Giving More,CA,
+20,ImmStat,Non canadien.ne,2018,ng_080,0.3037680811410092,18.91419085920896,0.1911578121318718,0.4163783501501466,162,Don direct,New Canadians Barriers to Giving More,CA,*
+21,ImmStat,Né.e au Canada,2018,ng_090,0.1652736906640859,3.9975073188401633,0.1523245459664192,0.1782228353617526,7589,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA,
+22,ImmStat,Naturalisé.e,2018,ng_090,0.1778619982694441,8.43288231820922,0.1484647081758343,0.2072592883630539,1330,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA,
+23,ImmStat,Non canadien.ne,2018,ng_090,0.2244600782136136,27.826429837145504,0.1020422444054065,0.3468779120218206,164,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA,*
+24,ImmStat,Né.e au Canada,2018,ng_110,0.2276264660069532,3.3323649078530053,0.212759464027188,0.2424934679867183,7585,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA,
+25,ImmStat,Naturalisé.e,2018,ng_110,0.2649647363033788,6.624277991462354,0.2305634470510787,0.2993660255556789,1344,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA,
+26,ImmStat,Non canadien.ne,2018,ng_110,0.1438535076116509,23.40326534429595,0.0778685406600572,0.2098384745632445,165,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA,*
+27,ImmStat,Né.e au Canada,2018,ng_130,0.2117102475553567,3.2755987177459027,0.1981183321322321,0.2253021629784814,7586,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA,
+28,ImmStat,Naturalisé.e,2018,ng_130,0.2323240184176025,6.9659640513173,0.2006047303708039,0.2640433064644011,1340,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA,
+29,ImmStat,Non canadien.ne,2018,ng_130,0.2998902227249779,19.980332222470164,0.1824510176433979,0.4173294278065578,162,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA,*
+30,ImmStat,Né.e au Canada,2018,ng_020,0.6662636693916006,1.46997573059661,0.6470679502099224,0.6854593885732789,6609,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA (without QC),
+31,ImmStat,Naturalisé.e,2018,ng_020,0.6461273269521142,3.099912746340197,0.606870456922648,0.6853841969815804,1257,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA (without QC),
+32,ImmStat,Non canadien.ne,2018,ng_020,0.5933727080717611,10.97124875560728,0.4657782768256052,0.720967139317917,136,Montant déjà donné suffisant,New Canadians Barriers to Giving More,CA (without QC),
+33,ImmStat,Né.e au Canada,2018,ng_030,0.7038524030722677,1.1873538930060468,0.687472554999916,0.7202322511446194,6617,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA (without QC),
+34,ImmStat,Naturalisé.e,2018,ng_030,0.7039130524845716,2.4999611670266857,0.6694224824635123,0.7384036225056309,1262,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA (without QC),
+35,ImmStat,Non canadien.ne,2018,ng_030,0.7143595293197643,8.444144943894184,0.5961314558387679,0.8325876028007607,137,Pas les moyens de donner plus,New Canadians Barriers to Giving More,CA (without QC),
+36,ImmStat,Né.e au Canada,2018,ng_040,0.2618226170772045,3.3620719803914625,0.2445697110089503,0.2790755231454587,6516,Aucune sollicitation,New Canadians Barriers to Giving More,CA (without QC),
+37,ImmStat,Naturalisé.e,2018,ng_040,0.2899285675191446,6.290695181196289,0.2541817204332756,0.3256754146050137,1220,Aucune sollicitation,New Canadians Barriers to Giving More,CA (without QC),
+38,ImmStat,Non canadien.ne,2018,ng_040,0.1754898916099223,25.29802001968845,0.0884763734255836,0.262503409794261,133,Aucune sollicitation,New Canadians Barriers to Giving More,CA (without QC),*
+39,ImmStat,Né.e au Canada,2018,ng_050,0.087943275022705,6.384064971301815,0.0769393398282453,0.0989472102171647,6494,Ne savent pas où donner,New Canadians Barriers to Giving More,CA (without QC),
+40,ImmStat,Naturalisé.e,2018,ng_050,0.1578995666632832,9.789231562468288,0.1276041010948683,0.1881950322316981,1213,Ne savent pas où donner,New Canadians Barriers to Giving More,CA (without QC),
+41,ImmStat,Non canadien.ne,2018,ng_050,0.1167368272481413,31.574066361841773,0.0444953706503396,0.188978283845943,133,Ne savent pas où donner,New Canadians Barriers to Giving More,CA (without QC),*
+42,ImmStat,Né.e au Canada,2018,ng_060,0.0935296263802513,7.1705805224331485,0.0803848982651769,0.1066743544953257,6499,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA (without QC),
+43,ImmStat,Naturalisé.e,2018,ng_060,0.1798541135936293,9.292506520504014,0.147097323261557,0.2126109039257016,1215,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA (without QC),
+44,ImmStat,Non canadien.ne,2018,ng_060,0.205482946385482,32.12946042950201,0.0760850227277218,0.3348808700432422,133,Difficulté à trouver une cause,New Canadians Barriers to Giving More,CA (without QC),*
+45,ImmStat,Né.e au Canada,2018,ng_070,0.2727401172984858,3.2436939086622734,0.2554006009622952,0.2900796336346765,6465,Don de temps,New Canadians Barriers to Giving More,CA (without QC),
+46,ImmStat,Naturalisé.e,2018,ng_070,0.2763155810840764,6.361872872438544,0.241861676043495,0.3107694861246577,1214,Don de temps,New Canadians Barriers to Giving More,CA (without QC),
+47,ImmStat,Non canadien.ne,2018,ng_070,0.3109923247248697,22.815731623546267,0.1719227388171579,0.4500619106325815,133,Don de temps,New Canadians Barriers to Giving More,CA (without QC),*
+48,ImmStat,Né.e au Canada,2018,ng_080,0.3558585850624383,2.5766054399417886,0.3378875348347829,0.3738296352900938,6499,Don direct,New Canadians Barriers to Giving More,CA (without QC),
+49,ImmStat,Naturalisé.e,2018,ng_080,0.3930609297437119,5.070780250902655,0.3539963858181253,0.4321254736692984,1219,Don direct,New Canadians Barriers to Giving More,CA (without QC),
+50,ImmStat,Non canadien.ne,2018,ng_080,0.2652875907155011,24.32793756979643,0.1387934761958698,0.3917817052351324,132,Don direct,New Canadians Barriers to Giving More,CA (without QC),*
+51,ImmStat,Né.e au Canada,2018,ng_090,0.165629000750105,4.263464592288748,0.1517886488234697,0.1794693526767403,6495,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA (without QC),
+52,ImmStat,Naturalisé.e,2018,ng_090,0.1732284153192027,9.06852095011274,0.1424388410311022,0.2040179896073032,1210,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA (without QC),
+53,ImmStat,Non canadien.ne,2018,ng_090,0.206780662660981,34.05473482930868,0.068762730378408,0.3447985949435541,134,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,CA (without QC),...
+54,ImmStat,Né.e au Canada,2018,ng_110,0.2400922820299252,3.4897090704984266,0.2236706803848666,0.2565138836749839,6488,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA (without QC),
+55,ImmStat,Naturalisé.e,2018,ng_110,0.2584540474635822,6.964420845238966,0.2231750337240922,0.2937330612030721,1223,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA (without QC),
+56,ImmStat,Non canadien.ne,2018,ng_110,0.1272417363791839,27.99744071483576,0.0574191371831175,0.1970643355752503,135,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,CA (without QC),*
+57,ImmStat,Né.e au Canada,2018,ng_130,0.2468902214557521,3.391205968575486,0.2304803133825647,0.2633001295289394,6491,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA (without QC),
+58,ImmStat,Naturalisé.e,2018,ng_130,0.2486583472333369,7.046208523152467,0.2143178463733745,0.2829988480932992,1219,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA (without QC),
+59,ImmStat,Non canadien.ne,2018,ng_130,0.2986324570520825,23.310961340993007,0.1621913348702566,0.4350735792339084,132,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,CA (without QC),*
+60,ImmStat,Né.e au Canada,2018,ng_020,0.6235903900169486,4.666047639662562,0.5665612695975605,0.6806195104363367,593,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AB,
+61,ImmStat,Naturalisé.e,2018,ng_020,0.5692524289245728,10.244157133676444,0.4549569070898464,0.6835479507592993,124,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AB,
+62,ImmStat,Non canadien.ne,2018,ng_020,0.4494927094838047,41.57420216322421,0.0832283446116183,0.8157570743559912,12,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AB,...
+63,ImmStat,Né.e au Canada,2018,ng_020,0.7462686352470167,1.71962224461766,0.7211164145790945,0.7714208559149389,2374,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AT,
+64,ImmStat,Naturalisé.e,2018,ng_020,0.5552908721328741,15.237457582141012,0.3894539857270286,0.7211277585387195,74,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AT,
+65,ImmStat,Non canadien.ne,2018,ng_020,0.4571528096612904,34.32042044759219,0.149640798297573,0.7646648210250078,17,Montant déjà donné suffisant,New Canadians Barriers to Giving More,AT,...
+66,ImmStat,Né.e au Canada,2018,ng_020,0.5759966061115888,4.278880962772883,0.527690923870898,0.6243022883522795,818,Montant déjà donné suffisant,New Canadians Barriers to Giving More,BC,
+67,ImmStat,Naturalisé.e,2018,ng_020,0.6884398265139691,5.109819361547487,0.6194921516332385,0.7573875013946997,301,Montant déjà donné suffisant,New Canadians Barriers to Giving More,BC,
+68,ImmStat,Non canadien.ne,2018,ng_020,0.3986706012986155,29.567798303019632,0.1676337329338952,0.6297074696633358,29,Montant déjà donné suffisant,New Canadians Barriers to Giving More,BC,*
+69,ImmStat,Né.e au Canada,2018,ng_020,0.6879726611176492,2.2571560985042023,0.6575371313100693,0.7184081909252291,1791,Montant déjà donné suffisant,New Canadians Barriers to Giving More,ON,
+70,ImmStat,Naturalisé.e,2018,ng_020,0.6550222054196512,4.269187853185152,0.6002135208388937,0.7098308900004087,627,Montant déjà donné suffisant,New Canadians Barriers to Giving More,ON,
+71,ImmStat,Non canadien.ne,2018,ng_020,0.6415967246536419,13.410202638013429,0.4729625584489345,0.8102308908583493,62,Montant déjà donné suffisant,New Canadians Barriers to Giving More,ON,
+72,ImmStat,Né.e au Canada,2018,ng_020,0.6568036146994654,3.004058169565364,0.6181320305270125,0.6954751988719182,1033,Montant déjà donné suffisant,New Canadians Barriers to Giving More,PR,
+73,ImmStat,Naturalisé.e,2018,ng_020,0.5740112640904819,9.655456445705838,0.4653833812985024,0.6826391468824613,131,Montant déjà donné suffisant,New Canadians Barriers to Giving More,PR,
+74,ImmStat,Non canadien.ne,2018,ng_020,0.8296558212113884,13.76406782145598,0.605838929739126,1.0534727126836507,16,Montant déjà donné suffisant,New Canadians Barriers to Giving More,PR,
+75,ImmStat,Né.e au Canada,2018,ng_020,0.7492812829105724,2.424677776656253,0.7136733299943865,0.7848892358267583,1125,Montant déjà donné suffisant,New Canadians Barriers to Giving More,QC,
+76,ImmStat,Naturalisé.e,2018,ng_020,0.5432208753667017,10.115233932370693,0.4355246522133241,0.6509170985200793,125,Montant déjà donné suffisant,New Canadians Barriers to Giving More,QC,
+77,ImmStat,Non canadien.ne,2018,ng_020,0.6669879625725322,18.24239069610102,0.4285102266816624,0.905465698463402,30,Montant déjà donné suffisant,New Canadians Barriers to Giving More,QC,*
+78,ImmStat,Né.e au Canada,2018,ng_030,0.6742516121143995,3.479118583159168,0.6282747512222602,0.7202284730065389,593,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AB,
+79,ImmStat,Naturalisé.e,2018,ng_030,0.7022866878594358,6.907450325405811,0.6072086309257237,0.7973647447931479,127,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AB,
+80,ImmStat,Non canadien.ne,2018,ng_030,0.6716808319339639,24.100012690315303,0.3544113371028903,0.9889503267650376,12,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AB,...
+81,ImmStat,Né.e au Canada,2018,ng_030,0.7022661573393705,1.8733003746718448,0.67648174421172,0.7280505704670209,2387,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AT,
+82,ImmStat,Naturalisé.e,2018,ng_030,0.6625143055514032,12.585753154556322,0.4990877749912025,0.825940836111604,74,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AT,
+83,ImmStat,Non canadien.ne,2018,ng_030,0.6090998625495206,27.823807847061904,0.2769354065706105,0.9412643185284308,17,Pas les moyens de donner plus,New Canadians Barriers to Giving More,AT,*
+84,ImmStat,Né.e au Canada,2018,ng_030,0.7197122096600128,3.125592913854452,0.6756222831401001,0.7638021361799255,813,Pas les moyens de donner plus,New Canadians Barriers to Giving More,BC,
+85,ImmStat,Naturalisé.e,2018,ng_030,0.6589142731741489,5.707700240236189,0.5852022786305292,0.7326262677177685,300,Pas les moyens de donner plus,New Canadians Barriers to Giving More,BC,
+86,ImmStat,Non canadien.ne,2018,ng_030,0.8366648727570739,10.333400486182796,0.6672143597299988,1.006115385784149,30,Pas les moyens de donner plus,New Canadians Barriers to Giving More,BC,
+87,ImmStat,Né.e au Canada,2018,ng_030,0.711661788901001,1.855418766702228,0.6857818239422016,0.7375417538598004,1793,Pas les moyens de donner plus,New Canadians Barriers to Giving More,ON,
+88,ImmStat,Naturalisé.e,2018,ng_030,0.7166862245925679,3.442210699755609,0.6683342072716233,0.7650382419135126,631,Pas les moyens de donner plus,New Canadians Barriers to Giving More,ON,
+89,ImmStat,Non canadien.ne,2018,ng_030,0.6967653327345815,12.100116353434906,0.5315219138732623,0.8620087515959007,62,Pas les moyens de donner plus,New Canadians Barriers to Giving More,ON,
+90,ImmStat,Né.e au Canada,2018,ng_030,0.6884040332048065,2.5731770088054366,0.6536855167295906,0.7231225496800223,1031,Pas les moyens de donner plus,New Canadians Barriers to Giving More,PR,
+91,ImmStat,Naturalisé.e,2018,ng_030,0.7445696155098686,5.908816259834692,0.658340509025261,0.8307987219944761,130,Pas les moyens de donner plus,New Canadians Barriers to Giving More,PR,
+92,ImmStat,Non canadien.ne,2018,ng_030,0.6334166303355814,25.767782423030727,0.3135163671791185,0.9533168934920442,16,Pas les moyens de donner plus,New Canadians Barriers to Giving More,PR,*
+93,ImmStat,Né.e au Canada,2018,ng_030,0.5934966014477326,3.2393155571988728,0.5558158474785521,0.6311773554169132,1122,Pas les moyens de donner plus,New Canadians Barriers to Giving More,QC,
+94,ImmStat,Naturalisé.e,2018,ng_030,0.7043266730051067,6.833629853840961,0.6099914939897293,0.798661852020484,127,Pas les moyens de donner plus,New Canadians Barriers to Giving More,QC,
+95,ImmStat,Non canadien.ne,2018,ng_030,0.8424360332391033,9.26621471730516,0.6894374585515458,0.9954346079266608,31,Pas les moyens de donner plus,New Canadians Barriers to Giving More,QC,
+96,ImmStat,Né.e au Canada,2018,ng_040,0.2198138971726566,10.387021261606217,0.1750637716606578,0.2645640226846554,584,Aucune sollicitation,New Canadians Barriers to Giving More,AB,
+97,ImmStat,Naturalisé.e,2018,ng_040,0.3213471029062724,18.198217039164536,0.2067295003278543,0.4359647054846906,122,Aucune sollicitation,New Canadians Barriers to Giving More,AB,*
+98,ImmStat,Non canadien.ne,2018,ng_040,0.3263290314428755,54.79295601195111,-0.0241229612005212,0.6767810240862723,11,Aucune sollicitation,New Canadians Barriers to Giving More,AB,...
+99,ImmStat,Né.e au Canada,2018,ng_040,0.2718795989159016,4.834407711746894,0.2461182864333147,0.2976409113984884,2350,Aucune sollicitation,New Canadians Barriers to Giving More,AT,
+100,ImmStat,Naturalisé.e,2018,ng_040,0.1921616345857468,28.402987345213223,0.085187496579417,0.2991357725920767,71,Aucune sollicitation,New Canadians Barriers to Giving More,AT,*
+101,ImmStat,Non canadien.ne,2018,ng_040,0.4147720185828696,40.79901106244569,0.0831012650015027,0.7464427721642365,17,Aucune sollicitation,New Canadians Barriers to Giving More,AT,...
+102,ImmStat,Né.e au Canada,2018,ng_040,0.2613491397835233,8.214422776987353,0.219271999374017,0.3034262801930296,801,Aucune sollicitation,New Canadians Barriers to Giving More,BC,
+103,ImmStat,Naturalisé.e,2018,ng_040,0.3508987621415855,11.172611308907516,0.2740592467392373,0.4277382775439337,292,Aucune sollicitation,New Canadians Barriers to Giving More,BC,
+104,ImmStat,Non canadien.ne,2018,ng_040,0.0130104307293666,118.61120026172118,-0.0172353964589986,0.0432562579177319,29,Aucune sollicitation,New Canadians Barriers to Giving More,BC,...
+105,ImmStat,Né.e au Canada,2018,ng_040,0.2653944428342751,5.44914624084454,0.2370499703221558,0.2937389153463944,1763,Aucune sollicitation,New Canadians Barriers to Giving More,ON,
+106,ImmStat,Naturalisé.e,2018,ng_040,0.2606772529778562,9.392297926463904,0.2126903096820468,0.3086641962736656,608,Aucune sollicitation,New Canadians Barriers to Giving More,ON,
+107,ImmStat,Non canadien.ne,2018,ng_040,0.1929472730722865,33.26042321913663,0.0671664283245894,0.3187281178199836,60,Aucune sollicitation,New Canadians Barriers to Giving More,ON,*
+108,ImmStat,Né.e au Canada,2018,ng_040,0.2967394545811496,5.942798306088568,0.2621762202308859,0.3313026889314134,1018,Aucune sollicitation,New Canadians Barriers to Giving More,PR,
+109,ImmStat,Naturalisé.e,2018,ng_040,0.3707176174906937,14.748144907296831,0.2635586026070861,0.4778766323743013,127,Aucune sollicitation,New Canadians Barriers to Giving More,PR,
+110,ImmStat,Non canadien.ne,2018,ng_040,0.2290797379902421,56.41992627805749,-0.0242389809457587,0.482398456926243,16,Aucune sollicitation,New Canadians Barriers to Giving More,PR,...
+111,ImmStat,Né.e au Canada,2018,ng_040,0.2018631311343252,8.902106824347014,0.1666424380525215,0.2370838242161289,1096,Aucune sollicitation,New Canadians Barriers to Giving More,QC,
+112,ImmStat,Naturalisé.e,2018,ng_040,0.1888160496504007,22.972150759669574,0.103802400959931,0.2738296983408704,122,Aucune sollicitation,New Canadians Barriers to Giving More,QC,*
+113,ImmStat,Non canadien.ne,2018,ng_040,0.3074274020839607,41.3645492305812,0.0581867022211657,0.5566681019467556,30,Aucune sollicitation,New Canadians Barriers to Giving More,QC,...
+114,ImmStat,Né.e au Canada,2018,ng_050,0.0863405131011858,20.95536217621681,0.0508789489664137,0.121802077235958,585,Ne savent pas où donner,New Canadians Barriers to Giving More,AB,*
+115,ImmStat,Naturalisé.e,2018,ng_050,0.2338431859955466,24.08454173345644,0.1234578973333962,0.3442284746576971,121,Ne savent pas où donner,New Canadians Barriers to Giving More,AB,*
+116,ImmStat,Non canadien.ne,2018,ng_050,0.1485493599650601,98.38475223553404,-0.1378992190865872,0.4349979390167076,11,Ne savent pas où donner,New Canadians Barriers to Giving More,AB,...
+117,ImmStat,Né.e au Canada,2018,ng_050,0.1126829245465462,7.674180546068686,0.0957341534843017,0.1296316956087907,2343,Ne savent pas où donner,New Canadians Barriers to Giving More,AT,
+118,ImmStat,Naturalisé.e,2018,ng_050,0.179725024872428,34.80940532881772,0.0571073017683494,0.3023427479765065,71,Ne savent pas où donner,New Canadians Barriers to Giving More,AT,...
+119,ImmStat,Non canadien.ne,2018,ng_050,0.2903669048868068,58.41809854889208,-0.0420955622393635,0.6228293720129772,17,Ne savent pas où donner,New Canadians Barriers to Giving More,AT,...
+120,ImmStat,Né.e au Canada,2018,ng_050,0.0762413546293594,18.099596313353672,0.0491950718932608,0.103287637365458,795,Ne savent pas où donner,New Canadians Barriers to Giving More,BC,*
+121,ImmStat,Naturalisé.e,2018,ng_050,0.2017016273711992,17.567290678523293,0.1322532216055255,0.271150033136873,293,Ne savent pas où donner,New Canadians Barriers to Giving More,BC,*
+122,ImmStat,Non canadien.ne,2018,ng_050,0.0656841129144822,69.6588684554545,-0.0239936664350111,0.1553618922639755,29,Ne savent pas où donner,New Canadians Barriers to Giving More,BC,...
+123,ImmStat,Né.e au Canada,2018,ng_050,0.0814790073304594,11.391615878253829,0.063287061566334,0.0996709530945847,1754,Ne savent pas où donner,New Canadians Barriers to Giving More,ON,
+124,ImmStat,Naturalisé.e,2018,ng_050,0.1273216684276747,15.375642375256144,0.0889523856540539,0.1656909512012956,604,Ne savent pas où donner,New Canadians Barriers to Giving More,ON,
+125,ImmStat,Non canadien.ne,2018,ng_050,0.1253063392134844,41.92333027897211,0.0223443539189335,0.2282683245080353,60,Ne savent pas où donner,New Canadians Barriers to Giving More,ON,...
+126,ImmStat,Né.e au Canada,2018,ng_050,0.1082456132490818,12.083100857086851,0.0826104081310204,0.1338808183671433,1017,Ne savent pas où donner,New Canadians Barriers to Giving More,PR,
+127,ImmStat,Naturalisé.e,2018,ng_050,0.1703329487421624,24.84195626819781,0.0873989608934089,0.253266936590916,124,Ne savent pas où donner,New Canadians Barriers to Giving More,PR,*
+128,ImmStat,Non canadien.ne,2018,ng_050,0.0860004848020627,82.94677855842858,-0.0538128241567332,0.2258137937608587,16,Ne savent pas où donner,New Canadians Barriers to Giving More,PR,...
+129,ImmStat,Né.e au Canada,2018,ng_050,0.11243206180693,12.375327039060474,0.0851614456431918,0.1397026779706682,1095,Ne savent pas où donner,New Canadians Barriers to Giving More,QC,
+130,ImmStat,Naturalisé.e,2018,ng_050,0.1675015749216828,28.90110418689841,0.0726201012447543,0.2623830485986113,121,Ne savent pas où donner,New Canadians Barriers to Giving More,QC,*
+131,ImmStat,Non canadien.ne,2018,ng_050,0.274859143561735,39.644336704567166,0.0612895427250493,0.4884287443984206,30,Ne savent pas où donner,New Canadians Barriers to Giving More,QC,...
+132,ImmStat,Né.e au Canada,2018,ng_060,0.0962384086276717,21.78211460020552,0.055152153116012,0.1373246641393314,585,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AB,*
+133,ImmStat,Naturalisé.e,2018,ng_060,0.230520217397283,25.00470059234058,0.1175461486370477,0.3434942861575183,121,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AB,*
+134,ImmStat,Non canadien.ne,2018,ng_060,0.0,,0.0,0.0,11,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AB,...
+135,ImmStat,Né.e au Canada,2018,ng_060,0.0875143314011433,9.845731861759615,0.0706264459613818,0.1044022168409049,2343,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AT,
+136,ImmStat,Naturalisé.e,2018,ng_060,0.2115960017086487,34.16595065513164,0.0699027857598494,0.3532892176574481,71,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AT,...
+137,ImmStat,Non canadien.ne,2018,ng_060,0.0887291489779774,94.37483489732791,-0.0753942913532649,0.2528525893092198,17,Difficulté à trouver une cause,New Canadians Barriers to Giving More,AT,...
+138,ImmStat,Né.e au Canada,2018,ng_060,0.0838979346184747,16.424640804073025,0.056889759479034,0.1109061097579153,799,Difficulté à trouver une cause,New Canadians Barriers to Giving More,BC,
+139,ImmStat,Naturalisé.e,2018,ng_060,0.2217937641167993,16.832070466222163,0.148623442638314,0.2949640855952846,296,Difficulté à trouver une cause,New Canadians Barriers to Giving More,BC,*
+140,ImmStat,Non canadien.ne,2018,ng_060,0.2159964751554857,46.6547351504296,0.018485841027039,0.4135071092839323,29,Difficulté à trouver une cause,New Canadians Barriers to Giving More,BC,...
+141,ImmStat,Né.e au Canada,2018,ng_060,0.0921706830586833,12.3062197335088,0.0699393470695336,0.114402019047833,1755,Difficulté à trouver une cause,New Canadians Barriers to Giving More,ON,
+142,ImmStat,Naturalisé.e,2018,ng_060,0.1544403552167452,13.46419155846398,0.1136845793983399,0.1951961310351505,602,Difficulté à trouver une cause,New Canadians Barriers to Giving More,ON,
+143,ImmStat,Non canadien.ne,2018,ng_060,0.2375361636952007,38.92085488021261,0.0563353264670166,0.4187370009233847,60,Difficulté à trouver une cause,New Canadians Barriers to Giving More,ON,...
+144,ImmStat,Né.e au Canada,2018,ng_060,0.1187969811308747,10.832624317860914,0.0935745365006693,0.1440194257610802,1017,Difficulté à trouver une cause,New Canadians Barriers to Giving More,PR,
+145,ImmStat,Naturalisé.e,2018,ng_060,0.1932265000735289,24.460172203540036,0.1005916743561855,0.2858613257908722,125,Difficulté à trouver une cause,New Canadians Barriers to Giving More,PR,*
+146,ImmStat,Non canadien.ne,2018,ng_060,0.0860004848020627,82.94677855842858,-0.0538128241567332,0.2258137937608587,16,Difficulté à trouver une cause,New Canadians Barriers to Giving More,PR,...
+147,ImmStat,Né.e au Canada,2018,ng_060,0.0985346261488458,12.886452628514633,0.0736477523335396,0.1234214999641519,1094,Difficulté à trouver une cause,New Canadians Barriers to Giving More,QC,
+148,ImmStat,Naturalisé.e,2018,ng_060,0.11775362016184,31.08139153198623,0.0460199894062047,0.1894872509174753,121,Difficulté à trouver une cause,New Canadians Barriers to Giving More,QC,*
+149,ImmStat,Non canadien.ne,2018,ng_060,0.1467938485190721,53.035648004550914,-0.0057953624009482,0.2993830594390925,30,Difficulté à trouver une cause,New Canadians Barriers to Giving More,QC,...
+150,ImmStat,Né.e au Canada,2018,ng_070,0.2778388283110665,9.292712728480485,0.2272349804260109,0.328442676196122,580,Don de temps,New Canadians Barriers to Giving More,AB,
+151,ImmStat,Naturalisé.e,2018,ng_070,0.2981823291841497,19.305918258075238,0.1853534024849114,0.411011255883388,121,Don de temps,New Canadians Barriers to Giving More,AB,*
+152,ImmStat,Non canadien.ne,2018,ng_070,0.1205112220343925,85.52002315370034,-0.0814850671419615,0.3225075112107466,11,Don de temps,New Canadians Barriers to Giving More,AB,...
+153,ImmStat,Né.e au Canada,2018,ng_070,0.2898633029851183,5.170548111741258,0.2604883005509094,0.3192383054193272,2330,Don de temps,New Canadians Barriers to Giving More,AT,
+154,ImmStat,Naturalisé.e,2018,ng_070,0.375613570017076,20.47902086195337,0.2248492569239302,0.5263778831102219,71,Don de temps,New Canadians Barriers to Giving More,AT,*
+155,ImmStat,Non canadien.ne,2018,ng_070,0.2483789828359155,53.78698690269101,-0.0134635247534517,0.5102214904252829,17,Don de temps,New Canadians Barriers to Giving More,AT,...
+156,ImmStat,Né.e au Canada,2018,ng_070,0.2107258227853939,9.472137672928554,0.1716044711711977,0.2498471743995902,791,Don de temps,New Canadians Barriers to Giving More,BC,
+157,ImmStat,Naturalisé.e,2018,ng_070,0.311353220458283,11.987499813058776,0.2382005699081409,0.384505871008425,291,Don de temps,New Canadians Barriers to Giving More,BC,
+158,ImmStat,Non canadien.ne,2018,ng_070,0.1431699248203646,43.66375497661123,0.0206459805273896,0.2656938691133396,29,Don de temps,New Canadians Barriers to Giving More,BC,...
+159,ImmStat,Né.e au Canada,2018,ng_070,0.2732728361884503,5.386240979022309,0.244423864669668,0.3021218077072327,1752,Don de temps,New Canadians Barriers to Giving More,ON,
+160,ImmStat,Naturalisé.e,2018,ng_070,0.2525902984121477,9.15230137714153,0.2072801933054632,0.2979004035188321,606,Don de temps,New Canadians Barriers to Giving More,ON,
+161,ImmStat,Non canadien.ne,2018,ng_070,0.3946877134219121,24.82229576857308,0.2026689607642907,0.5867064660795336,60,Don de temps,New Canadians Barriers to Giving More,ON,*
+162,ImmStat,Né.e au Canada,2018,ng_070,0.3333377645370435,5.846711519657076,0.2951394433950891,0.371536085678998,1012,Don de temps,New Canadians Barriers to Giving More,PR,
+163,ImmStat,Naturalisé.e,2018,ng_070,0.3623615662786305,15.065356678780065,0.2553650500445409,0.46935808251272,125,Don de temps,New Canadians Barriers to Giving More,PR,
+164,ImmStat,Non canadien.ne,2018,ng_070,0.1391433709575504,70.27122373443639,-0.0524974965855736,0.3307842385006745,16,Don de temps,New Canadians Barriers to Giving More,PR,...
+165,ImmStat,Né.e au Canada,2018,ng_070,0.2323679533751759,7.16487681589634,0.1997367528590174,0.2649991538913344,1095,Don de temps,New Canadians Barriers to Giving More,QC,
+166,ImmStat,Naturalisé.e,2018,ng_070,0.3281076102629249,16.84531121860448,0.2197789346261361,0.4364362858997137,121,Don de temps,New Canadians Barriers to Giving More,QC,*
+167,ImmStat,Non canadien.ne,2018,ng_070,0.2988633237411789,35.58258133244302,0.0904343146671361,0.5072923328152218,30,Don de temps,New Canadians Barriers to Giving More,QC,...
+168,ImmStat,Né.e au Canada,2018,ng_080,0.3282928454875469,7.617094047890117,0.2792812515088058,0.3773044394662879,584,Don direct,New Canadians Barriers to Giving More,AB,
+169,ImmStat,Naturalisé.e,2018,ng_080,0.4669257530918006,12.796765639938496,0.3498151721678258,0.5840363340157754,121,Don direct,New Canadians Barriers to Giving More,AB,
+170,ImmStat,Non canadien.ne,2018,ng_080,0.3096926627913075,54.77606605819041,-0.0227906444315882,0.6421759700142033,11,Don direct,New Canadians Barriers to Giving More,AB,...
+171,ImmStat,Né.e au Canada,2018,ng_080,0.4265162393842696,3.2961826005085646,0.3989615877377453,0.4540708910307939,2343,Don direct,New Canadians Barriers to Giving More,AT,
+172,ImmStat,Naturalisé.e,2018,ng_080,0.4255883427867901,18.81201945141033,0.2686701730651142,0.5825065125084661,70,Don direct,New Canadians Barriers to Giving More,AT,*
+173,ImmStat,Non canadien.ne,2018,ng_080,0.16514794845879,71.6364689223951,-0.0667278618868494,0.3970237588044296,17,Don direct,New Canadians Barriers to Giving More,AT,...
+174,ImmStat,Né.e au Canada,2018,ng_080,0.3078835004354479,7.131819993772913,0.2648472050505031,0.3509197958203926,801,Don direct,New Canadians Barriers to Giving More,BC,
+175,ImmStat,Naturalisé.e,2018,ng_080,0.4605652875513801,8.621675274003127,0.382738168375018,0.5383924067277421,296,Don direct,New Canadians Barriers to Giving More,BC,
+176,ImmStat,Non canadien.ne,2018,ng_080,0.1872652409000974,54.99032031392933,-0.0145674516915882,0.3890979334917832,27,Don direct,New Canadians Barriers to Giving More,BC,...
+177,ImmStat,Né.e au Canada,2018,ng_080,0.3509098891369079,4.4520780307328645,0.3202897989180009,0.3815299793558149,1759,Don direct,New Canadians Barriers to Giving More,ON,
+178,ImmStat,Naturalisé.e,2018,ng_080,0.3559300442999966,7.395822484997323,0.3043360420448042,0.4075240465551889,605,Don direct,New Canadians Barriers to Giving More,ON,
+179,ImmStat,Non canadien.ne,2018,ng_080,0.2535795660172429,34.43881435689993,0.0824163111040992,0.4247428209303865,61,Don direct,New Canadians Barriers to Giving More,ON,...
+180,ImmStat,Né.e au Canada,2018,ng_080,0.4047186107114694,4.883494467443625,0.3659810770487146,0.4434561443742242,1012,Don direct,New Canadians Barriers to Giving More,PR,
+181,ImmStat,Naturalisé.e,2018,ng_080,0.3869666699607549,14.10950541643382,0.2799544331863547,0.4939789067351551,127,Don direct,New Canadians Barriers to Giving More,PR,
+182,ImmStat,Non canadien.ne,2018,ng_080,0.5827328979386396,30.25699571394369,0.2371570109053977,0.9283087849718814,16,Don direct,New Canadians Barriers to Giving More,PR,*
+183,ImmStat,Né.e au Canada,2018,ng_080,0.4069287165377881,4.9808112652833625,0.3672034778560097,0.4466539552195666,1097,Don direct,New Canadians Barriers to Giving More,QC,
+184,ImmStat,Naturalisé.e,2018,ng_080,0.4513126462349351,13.092776370631604,0.3354996375775687,0.5671256548923015,121,Don direct,New Canadians Barriers to Giving More,QC,
+185,ImmStat,Non canadien.ne,2018,ng_080,0.4262625673318566,29.55173393164169,0.179369863820319,0.6731552708433941,30,Don direct,New Canadians Barriers to Giving More,QC,*
+186,ImmStat,Né.e au Canada,2018,ng_090,0.1744245070849412,12.035172772264998,0.1332803731936544,0.2155686409762281,586,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AB,
+187,ImmStat,Naturalisé.e,2018,ng_090,0.2001394956243388,27.92232221704909,0.0906096623881735,0.3096693288605041,121,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AB,*
+188,ImmStat,Non canadien.ne,2018,ng_090,0.177227013202963,77.88975634080563,-0.0933297251197203,0.4477837515256463,12,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AB,...
+189,ImmStat,Né.e au Canada,2018,ng_090,0.1673109336998334,5.893832345885206,0.1479836780291552,0.1866381893705115,2342,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AT,
+190,ImmStat,Naturalisé.e,2018,ng_090,0.1610736036564001,31.296706718666417,0.0622703818805873,0.2598768254322129,73,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AT,*
+191,ImmStat,Non canadien.ne,2018,ng_090,0.1198965914895984,74.02113982868227,-0.0540479065079242,0.2938410894871211,17,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,AT,...
+192,ImmStat,Né.e au Canada,2018,ng_090,0.1477631004567183,10.912856764249634,0.116158337225949,0.1793678636874875,798,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,BC,
+193,ImmStat,Naturalisé.e,2018,ng_090,0.2115940605870375,15.586339881244507,0.1469549002434239,0.2762332209306511,290,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,BC,
+194,ImmStat,Non canadien.ne,2018,ng_090,0.0347084175924479,82.63786494757314,-0.0215078481022503,0.0909246832871461,29,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,BC,...
+195,ImmStat,Né.e au Canada,2018,ng_090,0.1630194964323096,7.044529182242419,0.1405113562743863,0.185527636590233,1751,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,ON,
+196,ImmStat,Naturalisé.e,2018,ng_090,0.1523998731819289,13.02451896075755,0.1134958613230608,0.1913038850407969,600,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,ON,
+197,ImmStat,Non canadien.ne,2018,ng_090,0.2444293937573401,40.86333653618362,0.0486642597554641,0.4401945277592161,60,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,ON,...
+198,ImmStat,Né.e au Canada,2018,ng_090,0.1900293209145337,8.024463328160923,0.1601421570959756,0.2199164847330919,1018,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,PR,
+199,ImmStat,Naturalisé.e,2018,ng_090,0.2245536934932581,21.35503992250676,0.1305665000115498,0.3185408869749665,126,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,PR,*
+200,ImmStat,Non canadien.ne,2018,ng_090,0.3652827791589212,51.4849670262568,-0.0033192556367578,0.7338848139546004,16,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,PR,...
+201,ImmStat,Né.e au Canada,2018,ng_090,0.1643624377488947,9.13875318174082,0.1349224508071506,0.1938024246906387,1094,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,QC,
+202,ImmStat,Naturalisé.e,2018,ng_090,0.2053772972767816,23.05760841818683,0.1125630205398021,0.298191574013761,120,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,QC,*
+203,ImmStat,Non canadien.ne,2018,ng_090,0.2807817055613764,47.104593826580846,0.0215547483947718,0.540008662727981,30,Crédit d'impôt insuffisant,New Canadians Barriers to Giving More,QC,...
+204,ImmStat,Né.e au Canada,2018,ng_110,0.2307410995183391,9.287928963766593,0.1887369753177456,0.2727452237189325,579,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AB,
+205,ImmStat,Naturalisé.e,2018,ng_110,0.2769166213215175,20.48576232801396,0.1657308418780915,0.3881024007649435,119,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AB,*
+206,ImmStat,Non canadien.ne,2018,ng_110,0.0252123596861482,140.81164405650998,-0.0443701605270511,0.0947948798993476,12,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AB,...
+207,ImmStat,Né.e au Canada,2018,ng_110,0.2025941957248358,5.9569367302973575,0.1789405505792796,0.2262478408703919,2340,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AT,
+208,ImmStat,Naturalisé.e,2018,ng_110,0.2982154333600077,23.369716337399908,0.1616214256859344,0.434809441034081,72,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AT,*
+209,ImmStat,Non canadien.ne,2018,ng_110,0.0609899044565046,91.5513578555499,-0.0484487724872481,0.1704285814002575,17,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,AT,...
+210,ImmStat,Né.e au Canada,2018,ng_110,0.2511617528331814,8.320002473400924,0.2102050439021511,0.2921184617642117,799,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,BC,
+211,ImmStat,Naturalisé.e,2018,ng_110,0.319520102485465,11.235803897524722,0.2491561172922275,0.3898840876787025,296,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,BC,
+212,ImmStat,Non canadien.ne,2018,ng_110,0.1896904213404923,55.23296556684317,-0.0156582296616039,0.3950390723425887,29,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,BC,...
+213,ImmStat,Né.e au Canada,2018,ng_110,0.2481492996657331,5.637782269250971,0.2207291737793021,0.2755694255521641,1755,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,ON,
+214,ImmStat,Naturalisé.e,2018,ng_110,0.2403945547121571,10.125892536558968,0.1926849266270492,0.2881041827972651,610,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,ON,
+215,ImmStat,Non canadien.ne,2018,ng_110,0.0966111783071404,37.110084045293256,0.02634159019586,0.1668807664184209,61,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,ON,...
+216,ImmStat,Né.e au Canada,2018,ng_110,0.2463892250622746,6.357777414346738,0.2156866273753881,0.2770918227491611,1015,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,PR,
+217,ImmStat,Naturalisé.e,2018,ng_110,0.1715514620257851,20.841763459779365,0.1014742238778164,0.2416287001737538,126,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,PR,*
+218,ImmStat,Non canadien.ne,2018,ng_110,0.3932361995750182,46.88078127337776,0.0319125219877925,0.7545598771622439,16,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,PR,...
+219,ImmStat,Né.e au Canada,2018,ng_110,0.1958543361144178,8.058756581738843,0.1649193931253066,0.2267892791035291,1097,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,QC,
+220,ImmStat,Naturalisé.e,2018,ng_110,0.3033452342885508,17.35974204391992,0.2001336285178439,0.4065568400592578,121,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,QC,*
+221,ImmStat,Non canadien.ne,2018,ng_110,0.1973323424167072,46.36474077517137,0.0180100846727468,0.3766546001606675,30,Utilisation non efficiente de l'argent,New Canadians Barriers to Giving More,QC,...
+222,ImmStat,Né.e au Canada,2018,ng_130,0.2997450636253608,8.61827850535439,0.2491135798048543,0.3503765474458673,584,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AB,
+223,ImmStat,Naturalisé.e,2018,ng_130,0.3428471443583082,17.35294059708306,0.226240926917676,0.4594533617989405,120,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AB,*
+224,ImmStat,Non canadien.ne,2018,ng_130,0.137307140776974,78.94899139602967,-0.0751580564593975,0.3497723380133456,11,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AB,...
+225,ImmStat,Né.e au Canada,2018,ng_130,0.2157190984717317,5.006215688778613,0.1945527352470581,0.2368854616964054,2341,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AT,
+226,ImmStat,Naturalisé.e,2018,ng_130,0.2097107238199834,32.88263465699592,0.0745547215343551,0.3448667261056118,73,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AT,*
+227,ImmStat,Non canadien.ne,2018,ng_130,0.0075202914335704,125.64414389388318,-0.0109990276118109,0.0260396104789517,17,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,AT,...
+228,ImmStat,Né.e au Canada,2018,ng_130,0.2896242208274297,8.022182972152462,0.2440860551614496,0.3351623864934098,796,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,BC,
+229,ImmStat,Naturalisé.e,2018,ng_130,0.3743493848636232,10.01334735827331,0.3008803225893806,0.4478184471378658,294,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,BC,
+230,ImmStat,Non canadien.ne,2018,ng_130,0.3415896724866181,34.35026355773126,0.1116134709720584,0.5715658740011779,29,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,BC,...
+231,ImmStat,Né.e au Canada,2018,ng_130,0.2279703510720738,5.536212668869015,0.2032337956440951,0.2527069065000525,1756,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,ON,
+232,ImmStat,Naturalisé.e,2018,ng_130,0.19080042700969,11.07395980064702,0.1493880293166276,0.2322128247027524,608,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,ON,
+233,ImmStat,Non canadien.ne,2018,ng_130,0.3269642765813106,30.65935686697108,0.1304874039625272,0.5234411492000939,59,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,ON,*
+234,ImmStat,Né.e au Canada,2018,ng_130,0.235922052828593,6.758701694087428,0.2046699022534923,0.2671742034036937,1014,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,PR,
+235,ImmStat,Naturalisé.e,2018,ng_130,0.2462014792817789,21.7524684494258,0.1412358058446369,0.3511671527189209,124,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,PR,*
+236,ImmStat,Non canadien.ne,2018,ng_130,0.1442110151658346,65.12807734694267,-0.0398724507351558,0.328294481066825,16,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,PR,...
+237,ImmStat,Né.e au Canada,2018,ng_130,0.1219014958030826,10.086871650606772,0.0978016857041056,0.1460013059020596,1095,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,QC,
+238,ImmStat,Naturalisé.e,2018,ng_130,0.136650494445109,27.626488572151786,0.0626584569570779,0.2106425319331402,121,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,QC,*
+239,ImmStat,Non canadien.ne,2018,ng_130,0.3038697843385418,44.75350829496305,0.037329599452908,0.5704099692241755,30,N'aimaient pas les méthodes de sollicitation,New Canadians Barriers to Giving More,QC,...

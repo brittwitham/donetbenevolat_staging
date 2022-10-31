@@ -10,8 +10,8 @@ def get_data():
     filepath = op.join(os.getcwd(),"tables","{}")
 
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
-    DonMethAvgDon_2013 = pd.read_csv(op.abspath(filepath.format("2013-DonMethAvgDon.csv")))
-    DonMethDonRates_2013 = pd.read_csv(op.abspath(filepath.format("2013-DonMethDonRates.csv")))
+    DonMethAvgDon_2013 = pd.read_csv(op.abspath(filepath.format("2013-DonMethAvgDon_FR.csv")))
+    DonMethDonRates_2013 = pd.read_csv(op.abspath(filepath.format("2013-DonMethDonRates_FR.csv")))
 
     DonMethDonRates_2013['Estimate'] = DonMethDonRates_2013['Estimate']*100
     DonMethDonRates_2013['CI Upper'] = DonMethDonRates_2013['CI Upper']*100

@@ -13,13 +13,13 @@ def process_data(data):
         data[i]["Estimate"] = np.where(data[i]["Marker"]=="...", 0, data[i]["Estimate"])
         data[i]["CI Upper"] = np.where(data[i]["Marker"]=="...", 0, data[i]["CI Upper"])
 
-        data[i]["Region"] = np.select([data[i]["Province"] == "SK",
-                                    data[i]["Province"] == "MB",
-                                    data[i]["Province"] == "NB",
-                                    data[i]["Province"] == "NS",
-                                    data[i]["Province"] == "PE",
-                                    data[i]["Province"] == "NL"],
-                                    ["SK", "MB", "NB", "NS", "PE", "NL"], default=data[i]["Region"])
+        # data[i]["Region"] = np.select([data[i]["Province"] == "SK",
+        #                             data[i]["Province"] == "MB",
+        #                             data[i]["Province"] == "NB",
+        #                             data[i]["Province"] == "NS",
+        #                             data[i]["Province"] == "PE",
+        #                             data[i]["Province"] == "NL"],
+        #                             ["SK", "MB", "NB", "NS", "PE", "NL"], default=data[i]["Region"])
 
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
@@ -39,13 +39,13 @@ def process_data_num(data_num):
         data_num[i]["Estimate"] = np.where(data_num[i]["Marker"]=="...", 0, data_num[i]["Estimate"])
         data_num[i]["CI Upper"] = np.where(data_num[i]["Marker"]=="...", 0, data_num[i]["CI Upper"])
 
-        data_num[i]["Region"] = np.select([data_num[i]["Province"] == "SK",
-                                        data_num[i]["Province"] == "MB",
-                                        data_num[i]["Province"] == "NB",
-                                        data_num[i]["Province"] == "NS",
-                                        data_num[i]["Province"] == "PE",
-                                        data_num[i]["Province"] == "NL"],
-                                        ["SK", "MB", "NB", "NS", "PE", "NL"], default=data_num[i]["Region"])
+        # data_num[i]["Region"] = np.select([data_num[i]["Province"] == "SK",
+        #                                 data_num[i]["Province"] == "MB",
+        #                                 data_num[i]["Province"] == "NB",
+        #                                 data_num[i]["Province"] == "NS",
+        #                                 data_num[i]["Province"] == "PE",
+        #                                 data_num[i]["Province"] == "NL"],
+        #                                 ["SK", "MB", "NB", "NS", "PE", "NL"], default=data_num[i]["Region"])
 
         data_num[i]["Group"] = np.where(data_num[i]["Attribute"]=="Unable to determine", "", data_num[i]["Group"])
         data_num[i]["Group"] = np.where(data_num[i]["Attribute"]=="Unknown", "", data_num[i]["Group"])
@@ -62,13 +62,14 @@ def process_data_num(data_num):
 def get_data():
     filepath = op.join(os.getcwd(),"tables","{}")
 
-    DonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonRate_FR.csv")))
-    AvgTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotDon_FR.csv")))
-    FR_AvgNumCauses_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgNumCauses_FR.csv")))
-    FormsGiving_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsGiving_FR.csv")))
-    FR_TopCauseFocus_2018 = pd.read_csv(op.abspath(filepath.format("2018-TopCauseFocus_FR.csv")))
-    PropTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonors_FR.csv")))
-    PropTotDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotDonations_FR.csv")))
+    DonRates_2018 = pd.read_csv(op.abspath(filepath.format("2013-DonRate_FR.csv")))
+    AvgTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2013-AvgTotDon_FR.csv")))
+    FR_AvgNumCauses_2018 = pd.read_csv(op.abspath(filepath.format("2013-AvgNumCauses_FR.csv")))
+    FormsGiving_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsGiving.csv")))
+    FR_TopCauseFocus_2018 = pd.read_csv(op.abspath(filepath.format("2013-TopCauseFocus_FR.csv")))
+    # PropTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2013-PercTotDonors_FR.csv")))
+    PropTotDon_2018 = pd.read_csv(op.abspath(filepath.format("2013-PercTotPopn_FR.csv")))
+    PropTotDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2013-PercTotDonations_FR.csv")))
 
     # Format donation rates as percentage
     DonRates_2018['Estimate'] = DonRates_2018['Estimate']*100
@@ -101,4 +102,4 @@ def get_region_names():
                          'Newfoundland and Labrador'], dtype=str)
 
 def get_region_values():
-    return np.array(['CA', 'BC', 'AB', 'PR', 'SK', 'MB', 'ON', 'QC', 'AT', 'NB', 'NS', 'PE', 'NL'], dtype=object)
+    return np.array(['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT'], dtype=object)

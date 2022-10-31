@@ -1,0 +1,601 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Younger,15 à 24 ans,2018,fv_020,0.0479338150008761,19.11892979318376,0.0299718574851898,0.0658957725165625,845,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA,*
+1,Younger,25 à 34 ans,2018,fv_020,0.0170641936439517,22.36070916459821,0.009585608631696,0.0245427786562074,1844,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA,*
+2,Younger,>=35,2018,fv_020,0.0303340336796561,6.597468899283513,0.026411600018309,0.0342564673410031,13373,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA,
+3,Younger,15 à 24 ans,2018,fv_030,0.1946012773638877,8.101553084373357,0.1637010226282855,0.2255015320994899,845,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA,
+4,Younger,25 à 34 ans,2018,fv_030,0.1401256142291135,6.596666541634533,0.1220084529025026,0.1582427755557244,1844,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA,
+5,Younger,>=35,2018,fv_030,0.1589904811511953,2.661011754532842,0.1506983529554343,0.1672826093469564,13393,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA,
+6,Younger,15 à 24 ans,2018,fv_040,0.0815464061768672,15.186858248144327,0.0572735514638922,0.1058192608898421,844,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA,
+7,Younger,25 à 34 ans,2018,fv_040,0.1128791811382343,8.227510852641522,0.0946767077371993,0.1310816545392693,1844,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA,
+8,Younger,>=35,2018,fv_040,0.1454620700421009,2.670930423196006,0.1378472362304186,0.1530769038537832,13396,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA,
+9,Younger,15 à 24 ans,2018,fv_050,0.1802521364021387,9.087745106752838,0.1481462511429778,0.2123580216612997,845,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA,
+10,Younger,25 à 34 ans,2018,fv_050,0.1088554069080156,7.926675770644737,0.0919436319493072,0.1257671818667241,1844,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA,
+11,Younger,>=35,2018,fv_050,0.1114043131110355,3.151532926099544,0.1045229900860574,0.1182856361360136,13377,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA,
+12,Younger,15 à 24 ans,2018,fv_060,0.2508246476980885,7.388601231567654,0.2145017464547506,0.2871475489414263,845,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA,
+13,Younger,25 à 34 ans,2018,fv_060,0.1580769048440634,7.014754874663461,0.1363434377279588,0.1798103719601681,1845,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA,
+14,Younger,>=35,2018,fv_060,0.1678499516807755,2.599881857717676,0.1592968639824618,0.1764030393790892,13391,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA,
+15,Younger,15 à 24 ans,2018,fv_070,0.0557881868385987,18.136095904207316,0.0359576650619832,0.0756187086152142,844,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA,*
+16,Younger,25 à 34 ans,2018,fv_070,0.0568257413006104,11.92889146925944,0.0435397706654749,0.070111711935746,1845,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA,
+17,Younger,>=35,2018,fv_070,0.0819256942806215,3.635781862523281,0.0760876680722281,0.0877637204890148,13376,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA,
+18,Younger,15 à 24 ans,2018,fv_080,0.088634708013084,14.638219928677836,0.0632050700527259,0.114064345973442,844,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA,
+19,Younger,25 à 34 ans,2018,fv_080,0.0621153173620464,11.354109686159166,0.0482923944863879,0.0759382402377049,1845,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA,
+20,Younger,>=35,2018,fv_080,0.0499896170603797,4.758395930069028,0.0453274430793248,0.0546517910414346,13369,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA,
+21,Younger,15 à 24 ans,2018,fv_090,0.0975914129095907,12.917869075444932,0.0728826742876702,0.1223001515315113,844,Conseils,Younger Canadians Volunteer Rate by Activity,CA,
+22,Younger,25 à 34 ans,2018,fv_090,0.0864609230456393,9.654763946602278,0.0700999315570462,0.1028219145342324,1844,Conseils,Younger Canadians Volunteer Rate by Activity,CA,
+23,Younger,>=35,2018,fv_090,0.1010124234590584,3.388913491234143,0.0943030284010364,0.1077218185170804,13370,Conseils,Younger Canadians Volunteer Rate by Activity,CA,
+24,Younger,15 à 24 ans,2018,fv_100,0.0808319146635805,14.640617178384662,0.0576371301606679,0.1040266991664931,844,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA,
+25,Younger,25 à 34 ans,2018,fv_100,0.0496662484761581,10.739254284803216,0.0392122225284174,0.0601202744238988,1844,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA,
+26,Younger,>=35,2018,fv_100,0.0846721756210575,3.5500131896147127,0.0787807720101073,0.0905635792320077,13379,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA,
+27,Younger,15 à 24 ans,2018,fv_110,0.1210983526241002,11.961120760420544,0.0927088227133132,0.1494878825348873,844,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA,
+28,Younger,25 à 34 ans,2018,fv_110,0.0847380560716113,8.671146073782065,0.0703367098853662,0.0991394022578563,1844,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA,
+29,Younger,>=35,2018,fv_110,0.1101654725258679,3.1317613980333885,0.1034033620881659,0.1169275829635699,13380,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA,
+30,Younger,15 à 24 ans,2018,fv_120,0.0657315361433649,18.54891917491506,0.0418346958186234,0.0896283764681064,844,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA,*
+31,Younger,25 à 34 ans,2018,fv_120,0.0456997215051583,12.618246023970226,0.034397582736518,0.0570018602737986,1843,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA,
+32,Younger,>=35,2018,fv_120,0.0642213874134178,4.141437067375818,0.0590084940500131,0.0694342807768225,13374,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA,
+33,Younger,15 à 24 ans,2018,fv_130,0.0323246731243091,18.348846782500367,0.0206997254401098,0.0439496208085083,844,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA,*
+34,Younger,25 à 34 ans,2018,fv_130,0.0492424446683833,12.412033782584086,0.037263166613958,0.0612217227228087,1842,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA,
+35,Younger,>=35,2018,fv_130,0.0730556604768515,4.0791977943914,0.0672148014199139,0.078896519533789,13366,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA,
+36,Younger,15 à 24 ans,2018,fv_140,0.0260267372820397,26.662680321471537,0.012425712719796,0.0396277618442834,844,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA,*
+37,Younger,25 à 34 ans,2018,fv_140,0.0254922801016706,15.794956596099672,0.0176004957459913,0.0333840644573498,1842,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA,
+38,Younger,>=35,2018,fv_140,0.0178455862112502,8.247663797823211,0.0149608250716161,0.0207303473508843,13360,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA,
+39,Younger,15 à 24 ans,2018,fv_150,0.0547918591083064,16.69905454361364,0.0368587326613746,0.0727249855552382,844,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA,*
+40,Younger,25 à 34 ans,2018,fv_150,0.0516237314003415,11.204043793069792,0.0402874065833245,0.0629600562173585,1842,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA,
+41,Younger,>=35,2018,fv_150,0.0541130803290934,4.264449802972257,0.049590218150221,0.0586359425079657,13365,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA,
+42,Younger,15 à 24 ans,2018,fv_160,0.1028940676288402,14.208566683375428,0.0742398406305896,0.1315482946270907,844,Autre,Younger Canadians Volunteer Rate by Activity,CA,
+43,Younger,25 à 34 ans,2018,fv_160,0.0515360587136939,12.542097953869524,0.0388674336946762,0.0642046837327117,1845,Autre,Younger Canadians Volunteer Rate by Activity,CA,
+44,Younger,>=35,2018,fv_160,0.0766243165492225,3.7937032255333456,0.0709268988723304,0.0823217342261145,13449,Autre,Younger Canadians Volunteer Rate by Activity,CA,
+45,Younger2,15 à 34 ans,2018,fv_020,0.0313190349438585,15.17888356510148,0.022001601655258,0.0406364682324591,2689,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA,
+46,Younger2,>=35,2018,fv_020,0.0303340336796561,6.597468899283513,0.026411600018309,0.0342564673410031,13373,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA,
+47,Younger2,15 à 34 ans,2018,fv_030,0.1652767318805758,5.230588585528889,0.1483329493226076,0.1822205144385439,2689,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA,
+48,Younger2,>=35,2018,fv_030,0.1589904811511953,2.661011754532842,0.1506983529554343,0.1672826093469564,13393,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA,
+49,Younger2,15 à 34 ans,2018,fv_040,0.0984175790315833,7.662513803394673,0.0836369799001582,0.1131981781630084,2688,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA,
+50,Younger2,>=35,2018,fv_040,0.1454620700421009,2.670930423196006,0.1378472362304186,0.1530769038537832,13396,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA,
+51,Younger2,15 à 34 ans,2018,fv_050,0.1418246823164685,6.498259477276412,0.1237613879547362,0.1598879766782009,2689,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA,
+52,Younger2,>=35,2018,fv_050,0.1114043131110355,3.151532926099544,0.1045229900860574,0.1182856361360136,13377,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA,
+53,Younger2,15 à 34 ans,2018,fv_060,0.2009028927898697,5.144186658405458,0.1806470181809542,0.2211587673987853,2690,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA,
+54,Younger2,>=35,2018,fv_060,0.1678499516807755,2.599881857717676,0.1592968639824618,0.1764030393790892,13391,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA,
+55,Younger2,15 à 34 ans,2018,fv_070,0.0563467864228952,10.488916645571004,0.0447630710579981,0.0679305017877924,2689,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA,
+56,Younger2,>=35,2018,fv_070,0.0819256942806215,3.635781862523281,0.0760876680722281,0.0877637204890148,13376,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA,
+57,Younger2,15 à 34 ans,2018,fv_080,0.0743496024763086,9.672466506800124,0.0602546383003206,0.0884445666522966,2689,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA,
+58,Younger2,>=35,2018,fv_080,0.0499896170603797,4.758395930069028,0.0453274430793248,0.0546517910414346,13369,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA,
+59,Younger2,15 à 34 ans,2018,fv_090,0.0915968605387336,7.661891249469561,0.0778417316859827,0.1053519893914845,2688,Conseils,Younger Canadians Volunteer Rate by Activity,CA,
+60,Younger2,>=35,2018,fv_090,0.1010124234590584,3.388913491234143,0.0943030284010364,0.1077218185170804,13370,Conseils,Younger Canadians Volunteer Rate by Activity,CA,
+61,Younger2,15 à 34 ans,2018,fv_100,0.0640470093793821,9.40040381988906,0.0522466982850527,0.0758473204737115,2688,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA,
+62,Younger2,>=35,2018,fv_100,0.0846721756210575,3.5500131896147127,0.0787807720101073,0.0905635792320077,13379,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA,
+63,Younger2,15 à 34 ans,2018,fv_110,0.1015157731897741,7.699013289322444,0.0861972574537351,0.116834288925813,2688,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA,
+64,Younger2,>=35,2018,fv_110,0.1101654725258679,3.1317613980333885,0.1034033620881659,0.1169275829635699,13380,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA,
+65,Younger2,15 à 34 ans,2018,fv_120,0.0549432922901333,11.41405123803692,0.0426518573059198,0.0672347272743469,2687,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA,
+66,Younger2,>=35,2018,fv_120,0.0642213874134178,4.141437067375818,0.0590084940500131,0.0694342807768225,13374,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA,
+67,Younger2,15 à 34 ans,2018,fv_130,0.0414339502616384,10.431645533101346,0.0329625099987566,0.0499053905245203,2686,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA,
+68,Younger2,>=35,2018,fv_130,0.0730556604768515,4.0791977943914,0.0672148014199139,0.078896519533789,13366,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA,
+69,Younger2,15 à 34 ans,2018,fv_140,0.0257389618760807,14.91709058366687,0.0182136718112256,0.0332642519409357,2686,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA,
+70,Younger2,>=35,2018,fv_140,0.0178455862112502,8.247663797823211,0.0149608250716161,0.0207303473508843,13360,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA,
+71,Younger2,15 à 34 ans,2018,fv_150,0.0530856845421128,9.583486302274236,0.0431144475284384,0.0630569215557873,2686,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA,
+72,Younger2,>=35,2018,fv_150,0.0541130803290934,4.264449802972257,0.049590218150221,0.0586359425079657,13365,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA,
+73,Younger2,15 à 34 ans,2018,fv_160,0.0752285213109761,10.290797263372776,0.0600552354885895,0.0904018071333628,2689,Autre,Younger Canadians Volunteer Rate by Activity,CA,
+74,Younger2,>=35,2018,fv_160,0.0766243165492225,3.7937032255333456,0.0709268988723304,0.0823217342261145,13449,Autre,Younger Canadians Volunteer Rate by Activity,CA,
+75,Younger,15 à 24 ans,2018,fv_020,0.0397610818070767,24.27535649207583,0.0208432265000985,0.058678937114055,757,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+76,Younger,25 à 34 ans,2018,fv_020,0.0190516592934237,24.781201096600952,0.0097982185272782,0.0283051000595691,1622,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+77,Younger,>=35,2018,fv_020,0.0308436152757278,7.806759873161479,0.0261242435145603,0.0355629870368952,11682,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+78,Younger,15 à 24 ans,2018,fv_030,0.1968615961767557,8.444123292107495,0.1642806525141293,0.2294425398393822,757,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+79,Younger,25 à 34 ans,2018,fv_030,0.1498062884116097,6.73827338908997,0.1300217117207727,0.1695908651024467,1622,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+80,Younger,>=35,2018,fv_030,0.1861581323360339,2.7992899244238205,0.1759445525661305,0.1963717121059374,11699,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+81,Younger,15 à 24 ans,2018,fv_040,0.0719664801664364,15.307000401762716,0.0503756944693871,0.0935572658634857,756,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+82,Younger,25 à 34 ans,2018,fv_040,0.1148261596497717,8.647432907066683,0.095364667639494,0.1342876516600493,1622,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+83,Younger,>=35,2018,fv_040,0.1587525428367193,2.8896213873717165,0.1497615070877667,0.167743578585672,11700,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+84,Younger,15 à 24 ans,2018,fv_050,0.1899883083463541,9.356486001671351,0.1551475387939667,0.2248290778987416,757,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+85,Younger,25 à 34 ans,2018,fv_050,0.1174265016723243,8.274293425113013,0.0983830735240773,0.1364699298205713,1622,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+86,Younger,>=35,2018,fv_050,0.1273702462971275,3.155649706589281,0.1194924478012111,0.1352480447930439,11685,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+87,Younger,15 à 24 ans,2018,fv_060,0.2559258881009805,7.70411416099018,0.2172816259412326,0.2945701502607283,757,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+88,Younger,25 à 34 ans,2018,fv_060,0.172831183026355,7.32547115705232,0.148016670019777,0.197645696032933,1623,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+89,Younger,>=35,2018,fv_060,0.1847746217741633,2.689193726122011,0.1750356635621099,0.1945135799862166,11694,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+90,Younger,15 à 24 ans,2018,fv_070,0.0610791219904798,16.818745588266165,0.0409449173831667,0.081213326597793,756,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+91,Younger,25 à 34 ans,2018,fv_070,0.0618989258010182,12.6392558040309,0.0465650229692603,0.0772328286327762,1623,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+92,Younger,>=35,2018,fv_070,0.0894696035323314,3.9527436296807217,0.0825381829550668,0.0964010241095959,11681,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+93,Younger,15 à 24 ans,2018,fv_080,0.085500601400877,15.599722920815182,0.0593588822181603,0.1116423205835938,756,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+94,Younger,25 à 34 ans,2018,fv_080,0.0679649547133601,11.757356138780958,0.0523031142292291,0.083626795197491,1623,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+95,Younger,>=35,2018,fv_080,0.0583869225811319,4.960792348914786,0.0527099770814382,0.0640638680808256,11678,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+96,Younger,15 à 24 ans,2018,fv_090,0.0779887157725611,14.611636926888702,0.0556540873185871,0.1003233442265351,756,Conseils,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+97,Younger,25 à 34 ans,2018,fv_090,0.080554658114641,10.54755159865674,0.0639017376272497,0.0972075786020323,1622,Conseils,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+98,Younger,>=35,2018,fv_090,0.099557274378508,3.880778131177608,0.0919847635408564,0.1071297852161596,11677,Conseils,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+99,Younger,15 à 24 ans,2018,fv_100,0.0861516595250756,14.440994932889742,0.061767440297291,0.1105358787528602,756,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+100,Younger,25 à 34 ans,2018,fv_100,0.0546571649741497,11.411760523664029,0.0424321938542777,0.0668821360940217,1622,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+101,Younger,>=35,2018,fv_100,0.09250479878123,3.879791521669124,0.0854705010935835,0.0995390964688766,11688,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+102,Younger,15 à 24 ans,2018,fv_110,0.1163407366888507,12.238563442335543,0.0884339171494982,0.1442475562282033,756,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+103,Younger,25 à 34 ans,2018,fv_110,0.0888900781716309,9.319721502338233,0.0726531333863229,0.1051270229569389,1622,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+104,Younger,>=35,2018,fv_110,0.1195786800335775,3.496006910362971,0.1113850919175509,0.1277722681496041,11687,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+105,Younger,15 à 24 ans,2018,fv_120,0.0655239035756892,18.39508936756973,0.0419001036615913,0.0891477034897871,756,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+106,Younger,25 à 34 ans,2018,fv_120,0.0520539202634777,13.14757741383822,0.0386402609985301,0.0654675795284254,1621,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+107,Younger,>=35,2018,fv_120,0.0686626818617984,4.489115304270335,0.0626213928327722,0.0747039708908246,11683,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+108,Younger,15 à 24 ans,2018,fv_130,0.0378117210528131,18.74080796539624,0.0239229810857575,0.0517004610198686,756,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+109,Younger,25 à 34 ans,2018,fv_130,0.0479637889280448,13.812403507700768,0.0349791214826665,0.060948456373423,1620,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+110,Younger,>=35,2018,fv_130,0.078066315297435,4.513964168085032,0.0711596266320459,0.0849730039628241,11678,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+111,Younger,15 à 24 ans,2018,fv_140,0.0319768682161625,27.269581257598613,0.0148860644682531,0.0490676719640718,756,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+112,Younger,25 à 34 ans,2018,fv_140,0.0303242780054549,16.174593232781362,0.0207109905635197,0.0399375654473901,1620,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+113,Younger,>=35,2018,fv_140,0.019513425164446,8.348132150907723,0.016320631054868,0.0227062192740239,11672,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+114,Younger,15 à 24 ans,2018,fv_150,0.0585238971884069,17.649629256072743,0.0382789374764086,0.0787688569004051,756,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+115,Younger,25 à 34 ans,2018,fv_150,0.0583639648669867,11.617284664832344,0.0450748054999458,0.0716531242340276,1620,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+116,Younger,>=35,2018,fv_150,0.0599571751235647,4.548137924126524,0.0546124806961253,0.0653018695510041,11675,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+117,Younger,15 à 24 ans,2018,fv_160,0.1101844605119697,14.84196470555128,0.0781321135614194,0.14223680746252,756,Autre,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+118,Younger,25 à 34 ans,2018,fv_160,0.0505390888524714,14.072749148666738,0.0365993561784263,0.0644788215265165,1623,Autre,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+119,Younger,>=35,2018,fv_160,0.0787756061677365,4.300457775030606,0.0721358132844057,0.0854153990510673,11748,Autre,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+120,Younger2,15 à 34 ans,2018,fv_020,0.0286755310592838,18.37212768499359,0.0183498426458172,0.0390012194727504,2379,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA (without QC),*
+121,Younger2,>=35,2018,fv_020,0.0308436152757278,7.806759873161479,0.0261242435145603,0.0355629870368952,11682,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+122,Younger2,15 à 34 ans,2018,fv_030,0.1716684864145139,5.365559354474174,0.1536153080702618,0.189721664758766,2379,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+123,Younger2,>=35,2018,fv_030,0.1861581323360339,2.7992899244238205,0.1759445525661305,0.1963717121059374,11699,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+124,Younger2,15 à 34 ans,2018,fv_040,0.0949210988284641,7.717012455733601,0.080564219525703,0.1092779781312252,2378,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+125,Younger2,>=35,2018,fv_040,0.1587525428367193,2.8896213873717165,0.1497615070877667,0.167743578585672,11700,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+126,Younger2,15 à 34 ans,2018,fv_050,0.1511466849400911,6.621220217637239,0.1315318458453636,0.1707615240348186,2379,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+127,Younger2,>=35,2018,fv_050,0.1273702462971275,3.155649706589281,0.1194924478012111,0.1352480447930439,11685,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+128,Younger2,15 à 34 ans,2018,fv_060,0.211443063104704,5.403204515091707,0.1890510603508278,0.2338350658585802,2380,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+129,Younger2,>=35,2018,fv_060,0.1847746217741633,2.689193726122011,0.1750356635621099,0.1945135799862166,11694,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+130,Younger2,15 à 34 ans,2018,fv_070,0.0615181170454915,10.352396650810643,0.0490358914157592,0.0740003426752238,2379,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+131,Younger2,>=35,2018,fv_070,0.0894696035323314,3.9527436296807217,0.0825381829550668,0.0964010241095959,11681,Travail de bureau,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+132,Younger2,15 à 34 ans,2018,fv_080,0.0761041519333415,9.880225518699714,0.0613666695364034,0.0908416343302796,2379,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+133,Younger2,>=35,2018,fv_080,0.0583869225811319,4.960792348914786,0.0527099770814382,0.0640638680808256,11678,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+134,Younger2,15 à 34 ans,2018,fv_090,0.0793633580897879,8.278390868834228,0.0664863770926452,0.0922403390869305,2378,Conseils,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+135,Younger2,>=35,2018,fv_090,0.099557274378508,3.880778131177608,0.0919847635408564,0.1071297852161596,11677,Conseils,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+136,Younger2,15 à 34 ans,2018,fv_100,0.0692792363769092,9.519775931844087,0.0563528268891478,0.0822056458646706,2378,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+137,Younger2,>=35,2018,fv_100,0.09250479878123,3.879791521669124,0.0854705010935835,0.0995390964688766,11688,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+138,Younger2,15 à 34 ans,2018,fv_110,0.1016347021008235,7.808350470936581,0.0860804401886439,0.1171889640130031,2378,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+139,Younger2,>=35,2018,fv_110,0.1195786800335775,3.496006910362971,0.1113850919175509,0.1277722681496041,11687,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+140,Younger2,15 à 34 ans,2018,fv_120,0.0583079375813156,11.409513053047512,0.0452689797509943,0.0713468954116368,2377,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+141,Younger2,>=35,2018,fv_120,0.0686626818617984,4.489115304270335,0.0626213928327722,0.0747039708908246,11683,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+142,Younger2,15 à 34 ans,2018,fv_130,0.0432488172047007,11.256861268892251,0.0337068122122904,0.052790822197111,2376,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+143,Younger2,>=35,2018,fv_130,0.078066315297435,4.513964168085032,0.0711596266320459,0.0849730039628241,11678,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+144,Younger2,15 à 34 ans,2018,fv_140,0.0310917981018061,15.382994615977516,0.0217175850874329,0.0404660111161793,2376,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+145,Younger2,>=35,2018,fv_140,0.019513425164446,8.348132150907723,0.016320631054868,0.0227062192740239,11672,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,CA (without QC),
+146,Younger2,15 à 34 ans,2018,fv_150,0.0584382227504636,9.867959843465895,0.0471357761450569,0.0697406693558704,2376,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+147,Younger2,>=35,2018,fv_150,0.0599571751235647,4.548137924126524,0.0546124806961253,0.0653018695510041,11675,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+148,Younger2,15 à 34 ans,2018,fv_160,0.0782225274118072,11.24451626424004,0.0609831843530466,0.0954618704705679,2379,Autre,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+149,Younger2,>=35,2018,fv_160,0.0787756061677365,4.300457775030606,0.0721358132844057,0.0854153990510673,11748,Autre,Younger Canadians Volunteer Rate by Activity,CA (without QC),
+150,Younger,15 à 24 ans,2018,fv_020,0.0552041158217443,61.19437281425611,-0.0110070199024957,0.1214152515459844,74,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AB,...
+151,Younger,25 à 34 ans,2018,fv_020,0.0073504947756337,61.870090601557806,-0.001562946678379,0.0162639362296465,205,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AB,...
+152,Younger,>=35,2018,fv_020,0.0398681548989476,21.41722478834013,0.0231327038092438,0.0566036059886514,1125,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AB,*
+153,Younger,15 à 24 ans,2018,fv_020,0.0202940046762858,54.3267413673861,-0.0013147382604947,0.0419027476130665,194,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AT,...
+154,Younger,25 à 34 ans,2018,fv_020,0.0213419096606346,37.50067536373602,0.0056556117991528,0.0370282075221164,362,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AT,...
+155,Younger,>=35,2018,fv_020,0.0381723881171161,10.32527996884355,0.0304473744186478,0.0458974018155844,3477,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AT,
+156,Younger,15 à 24 ans,2018,fv_020,0.0612355461081136,45.50966631559431,0.0066150880976346,0.1158560041185926,125,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,BC,...
+157,Younger,25 à 34 ans,2018,fv_020,0.0175221615586607,48.92924878620586,0.0007184847731930288,0.0343258383441284,245,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,BC,...
+158,Younger,>=35,2018,fv_020,0.0270588815189352,20.19996436441552,0.0163459449037775,0.037771818134093,1787,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,BC,*
+159,Younger,15 à 24 ans,2018,fv_020,0.0337748104292624,37.74775847239498,0.0087867712227034,0.0587628496358214,226,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,ON,...
+160,Younger,25 à 34 ans,2018,fv_020,0.0248770680183898,35.15607186582105,0.0077356151775137,0.0420185208592659,508,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,ON,...
+161,Younger,>=35,2018,fv_020,0.0270218422597701,12.121871875093571,0.0206018761601638,0.0334418083593764,3584,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,ON,
+162,Younger,15 à 24 ans,2018,fv_020,0.025507842707693,54.31990712452276,-0.0016490977458285,0.0526647831612146,138,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,PR,...
+163,Younger,25 à 34 ans,2018,fv_020,0.0100151738803499,65.31055725654538,-0.002804883651834,0.0228352314125338,302,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,PR,...
+164,Younger,>=35,2018,fv_020,0.0385700987497199,16.99428080419191,0.0257231014802036,0.0514170960192362,1709,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,PR,*
+165,Younger,15 à 24 ans,2018,fv_020,0.0795883766236593,32.93943963839708,0.0282060288605311,0.1309707243867875,88,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,QC,*
+166,Younger,25 à 34 ans,2018,fv_020,0.0097872926847369,47.34801663284167,0.0007046452057652454,0.0188699401637086,222,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,QC,...
+167,Younger,>=35,2018,fv_020,0.0287022396907772,15.046272549499148,0.0202379054928601,0.0371665738886944,1691,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,QC,
+168,Younger,15 à 24 ans,2018,fv_030,0.2637472286494938,23.153062384205143,0.1440609295975122,0.3834335277014755,74,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AB,*
+169,Younger,25 à 34 ans,2018,fv_030,0.1546510121625334,15.899673727511782,0.1064574453006375,0.2028445790244293,205,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AB,
+170,Younger,>=35,2018,fv_030,0.2316679098306145,6.531146268377968,0.2020125374711085,0.2613232821901206,1127,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AB,
+171,Younger,15 à 24 ans,2018,fv_030,0.3294810839972796,13.261762881294914,0.2438404574998644,0.4151217104946949,194,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AT,
+172,Younger,25 à 34 ans,2018,fv_030,0.1958509872070612,12.943240515277392,0.1461669501011983,0.2455350243129241,361,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AT,
+173,Younger,>=35,2018,fv_030,0.2275429186910265,3.652131886973281,0.2112552897050042,0.2438305476770489,3481,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AT,
+174,Younger,15 à 24 ans,2018,fv_030,0.2017749777319489,19.23005249390935,0.1257255642740877,0.2778243911898101,125,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,BC,*
+175,Younger,25 à 34 ans,2018,fv_030,0.1398831907791087,15.658718116385325,0.0969523071675053,0.1828140743907121,245,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,BC,
+176,Younger,>=35,2018,fv_030,0.1856164784034897,6.287816002952545,0.1627413023869247,0.2084916544200547,1792,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,BC,
+177,Younger,15 à 24 ans,2018,fv_030,0.1515403751718782,14.723897060734403,0.1078083870345032,0.1952723633092532,226,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,ON,
+178,Younger,25 à 34 ans,2018,fv_030,0.1257333170531646,12.84041964988432,0.0940903148347223,0.1573763192716068,509,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,ON,
+179,Younger,>=35,2018,fv_030,0.1602163932702122,4.554779927703454,0.1459135480149179,0.1745192385255064,3590,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,ON,
+180,Younger,15 à 24 ans,2018,fv_030,0.2256295477583746,18.94047584254582,0.1418698793160518,0.3093892162006973,138,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,PR,*
+181,Younger,25 à 34 ans,2018,fv_030,0.257330793571812,12.65045982632932,0.1935270498254297,0.3211345373181944,302,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,PR,
+182,Younger,>=35,2018,fv_030,0.2214165094219967,5.689792493538357,0.1967246088820079,0.2461084099619855,1709,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,PR,
+183,Younger,15 à 24 ans,2018,fv_030,0.185846629505892,26.835535267257026,0.0880974676067241,0.2835957914050599,88,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,QC,*
+184,Younger,25 à 34 ans,2018,fv_030,0.1046660866695109,21.15600188895445,0.0612662919906998,0.1480658813483221,222,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,QC,*
+185,Younger,>=35,2018,fv_030,0.071944719281719,8.68276261507905,0.0597012374516441,0.0841882011117938,1694,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,QC,
+186,Younger,15 à 24 ans,2018,fv_040,0.0801937011776564,42.92146849125477,0.0127311250425431,0.1476562773127697,74,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AB,...
+187,Younger,25 à 34 ans,2018,fv_040,0.1295895999373347,18.655268701206754,0.082206905990282,0.1769722938843874,205,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AB,*
+188,Younger,>=35,2018,fv_040,0.1789028297851091,7.13057260127062,0.153899968746423,0.2039056908237953,1126,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AB,
+189,Younger,15 à 24 ans,2018,fv_040,0.0985475314458837,27.52474277837873,0.0453835974555517,0.1517114654362156,194,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AT,*
+190,Younger,25 à 34 ans,2018,fv_040,0.1019245866626175,15.744842478848,0.0704713480240766,0.1333778253011584,362,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AT,
+191,Younger,>=35,2018,fv_040,0.1798649916569032,4.236606524258696,0.1649297290369699,0.1948002542768364,3482,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AT,
+192,Younger,15 à 24 ans,2018,fv_040,0.0571217395719924,35.66403958414416,0.0171935104443245,0.0970499686996604,124,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,BC,...
+193,Younger,25 à 34 ans,2018,fv_040,0.0894214875090902,18.99446384491786,0.0561312402920118,0.1227117347261685,245,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,BC,*
+194,Younger,>=35,2018,fv_040,0.1746871064964174,6.424689132373758,0.1526902277500559,0.1966839852427788,1791,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,BC,
+195,Younger,15 à 24 ans,2018,fv_040,0.0736619822057519,22.3337787694572,0.0414176265939025,0.1059063378176013,226,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,ON,*
+196,Younger,25 à 34 ans,2018,fv_040,0.1084112863203399,15.41320704705545,0.0756609623213441,0.1411616103193357,508,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,ON,
+197,Younger,>=35,2018,fv_040,0.1359419429020993,4.968210509657525,0.1227045776334444,0.1491793081707541,3591,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,ON,
+198,Younger,15 à 24 ans,2018,fv_040,0.0544103248070356,43.19622611259666,0.0083448856986425,0.1004757639154286,138,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,PR,...
+199,Younger,25 à 34 ans,2018,fv_040,0.1780584203003765,13.613054750342709,0.1305504804095141,0.2255663601912389,302,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,PR,
+200,Younger,>=35,2018,fv_040,0.2061560226726942,6.064884858144635,0.1816503471881766,0.2306616981572117,1710,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,PR,
+201,Younger,15 à 24 ans,2018,fv_040,0.1186086757449674,37.80329069424134,0.0307278449438276,0.2064895065461073,88,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,QC,...
+202,Younger,25 à 34 ans,2018,fv_040,0.105750519668316,20.3878156313931,0.063493263050327,0.148007776286305,222,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,QC,*
+203,Younger,>=35,2018,fv_040,0.1029281836742174,7.436041494724564,0.0879270457310615,0.1179293216173732,1696,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,QC,
+204,Younger,15 à 24 ans,2018,fv_050,0.1148043952721762,30.61011427385952,0.0459278180136189,0.1836809725307335,74,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AB,*
+205,Younger,25 à 34 ans,2018,fv_050,0.1109461468245772,21.028145964422176,0.065220348377792,0.1566719452713623,205,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AB,*
+206,Younger,>=35,2018,fv_050,0.166697825169703,7.567214973132917,0.1419740892216887,0.1914215611177173,1124,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AB,
+207,Younger,15 à 24 ans,2018,fv_050,0.1163108847673376,22.0669169455804,0.0660060055213392,0.166615764013336,194,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AT,*
+208,Younger,25 à 34 ans,2018,fv_050,0.1100688444113573,16.58539874198524,0.0742890026832415,0.1458486861394731,362,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AT,*
+209,Younger,>=35,2018,fv_050,0.1049219291943598,5.729556669061173,0.0931394853762406,0.1167043730124789,3476,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AT,
+210,Younger,15 à 24 ans,2018,fv_050,0.1951631755500149,20.30976435972161,0.1174757282018527,0.272850622898177,125,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,BC,*
+211,Younger,25 à 34 ans,2018,fv_050,0.0885601218302121,21.43737250354684,0.0513502776979726,0.1257699659624516,245,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,BC,*
+212,Younger,>=35,2018,fv_050,0.1481211717060144,6.960202307595809,0.1279148579147997,0.1683274854972291,1791,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,BC,
+213,Younger,15 à 24 ans,2018,fv_050,0.2090180008973392,13.91697309120176,0.1520046498266201,0.2660313519680584,226,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,ON,
+214,Younger,25 à 34 ans,2018,fv_050,0.1180684123262944,13.715858133011466,0.0863285675323437,0.1498082571202451,508,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,ON,
+215,Younger,>=35,2018,fv_050,0.1085945005856386,5.1942914809404,0.0975389025489083,0.119650098622369,3587,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,ON,
+216,Younger,15 à 24 ans,2018,fv_050,0.2544259246842811,16.257476255694836,0.1733554751841861,0.335496374184376,138,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,PR,
+217,Younger,25 à 34 ans,2018,fv_050,0.1840194233620697,16.474630710241954,0.1246001351748224,0.2434387115493169,302,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,PR,
+218,Younger,>=35,2018,fv_050,0.1547133296894441,7.552077084731333,0.1318129734563336,0.1776136859225546,1707,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,PR,
+219,Younger,15 à 24 ans,2018,fv_050,0.1425420769312139,29.973490732362794,0.0588029366971995,0.2262812171652283,88,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,QC,*
+220,Younger,25 à 34 ans,2018,fv_050,0.0774732254205073,23.725511153177848,0.0414472866915265,0.1134991641494881,222,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,QC,*
+221,Younger,>=35,2018,fv_050,0.0602796878121238,10.463645820036318,0.0479173070311408,0.0726420685931068,1692,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,QC,
+222,Younger,15 à 24 ans,2018,fv_060,0.1728439466099809,27.043598351890697,0.0812289136029968,0.2644589796169651,74,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AB,*
+223,Younger,25 à 34 ans,2018,fv_060,0.1688280617309774,16.791800321282444,0.1132645115591839,0.2243916119027709,205,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AB,*
+224,Younger,>=35,2018,fv_060,0.2159136250349057,6.748929329352199,0.187353308233618,0.2444739418361934,1124,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AB,
+225,Younger,15 à 24 ans,2018,fv_060,0.2843613809284953,14.797145595213584,0.2018912559612442,0.3668315058957463,194,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AT,
+226,Younger,25 à 34 ans,2018,fv_060,0.1732452168747426,14.863196282347118,0.1227765820624045,0.2237138516870807,363,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AT,
+227,Younger,>=35,2018,fv_060,0.1936130495299851,4.0605649222171785,0.1782042368705994,0.2090218621893708,3477,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AT,
+228,Younger,15 à 24 ans,2018,fv_060,0.2452199240864336,17.922635630237327,0.1590797549272999,0.3313600932455672,125,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,BC,*
+229,Younger,25 à 34 ans,2018,fv_060,0.1447986432958393,16.583650322641084,0.0977342228063255,0.1918630637853532,245,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,BC,*
+230,Younger,>=35,2018,fv_060,0.2039049796496733,6.025383622490846,0.1798247499291368,0.2279852093702098,1792,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,BC,
+231,Younger,15 à 24 ans,2018,fv_060,0.2842457302200558,10.888992221665204,0.223581913862409,0.3449095465777025,226,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,ON,
+232,Younger,25 à 34 ans,2018,fv_060,0.1728957613028665,12.417252201389523,0.1308174851713536,0.2149740374343794,508,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,ON,
+233,Younger,>=35,2018,fv_060,0.1616984655014906,4.340517007933741,0.1479423614603215,0.1754545695426597,3593,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,ON,
+234,Younger,15 à 24 ans,2018,fv_060,0.2256975671384782,17.31024373386068,0.1491241282320365,0.3022710060449199,138,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,PR,*
+235,Younger,25 à 34 ans,2018,fv_060,0.2304321827354552,12.613333704845545,0.1734654763945939,0.2873988890763165,302,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,PR,
+236,Younger,>=35,2018,fv_060,0.2214540633139652,5.572086940840449,0.19726886636472,0.2456392602632104,1708,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,PR,
+237,Younger,15 à 24 ans,2018,fv_060,0.2310665661778835,24.03630240541464,0.1222104436069622,0.3399226887488048,88,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,QC,*
+238,Younger,25 à 34 ans,2018,fv_060,0.1040476764505917,21.79982450175136,0.0595913600666656,0.1485039928345179,222,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,QC,*
+239,Younger,>=35,2018,fv_060,0.1136731000531532,7.008451475117846,0.0980586078257091,0.1292875922805973,1697,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,QC,
+240,Younger,15 à 24 ans,2018,fv_070,0.0745977089884812,46.56976725325055,0.0065086004385217,0.1426868175384408,74,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AB,...
+241,Younger,25 à 34 ans,2018,fv_070,0.1089082346990414,21.66544263082057,0.0626620003265037,0.1551544690715792,205,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AB,*
+242,Younger,>=35,2018,fv_070,0.093629946656394,10.522597153901652,0.0743197893715376,0.1129401039412504,1123,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AB,
+243,Younger,15 à 24 ans,2018,fv_070,0.0643251652896166,32.13473410180502,0.0238112969354594,0.1048390336437738,194,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AT,*
+244,Younger,25 à 34 ans,2018,fv_070,0.0714374960531919,25.09453461632638,0.0363014036338334,0.1065735884725504,363,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AT,*
+245,Younger,>=35,2018,fv_070,0.0869987381231595,6.869999102837951,0.0752844008248706,0.0987130754214484,3477,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AT,
+246,Younger,15 à 24 ans,2018,fv_070,0.0430728016696759,47.16356021776512,0.0032567864759486,0.0828888168634031,125,Travail de bureau,Younger Canadians Volunteer Rate by Activity,BC,...
+247,Younger,25 à 34 ans,2018,fv_070,0.0345389201892261,31.037584119821915,0.013528015317322,0.0555498250611301,245,Travail de bureau,Younger Canadians Volunteer Rate by Activity,BC,*
+248,Younger,>=35,2018,fv_070,0.1164021760082548,8.849294758709958,0.0962130345406592,0.1365913174758504,1787,Travail de bureau,Younger Canadians Volunteer Rate by Activity,BC,
+249,Younger,15 à 24 ans,2018,fv_070,0.0596529691635115,25.88949420677116,0.029383575469266,0.089922362857757,226,Travail de bureau,Younger Canadians Volunteer Rate by Activity,ON,*
+250,Younger,25 à 34 ans,2018,fv_070,0.0539342361802584,22.47293144032697,0.0301782890268625,0.0776901833336543,508,Travail de bureau,Younger Canadians Volunteer Rate by Activity,ON,*
+251,Younger,>=35,2018,fv_070,0.0759529059678668,6.718026381883154,0.0659521186670298,0.0859536932687037,3586,Travail de bureau,Younger Canadians Volunteer Rate by Activity,ON,
+252,Younger,15 à 24 ans,2018,fv_070,0.0779156768736237,37.09552317745175,0.021266391008567,0.1345649627386803,137,Travail de bureau,Younger Canadians Volunteer Rate by Activity,PR,...
+253,Younger,25 à 34 ans,2018,fv_070,0.0583685144304712,25.09049118591528,0.0296649458166591,0.0870720830442832,302,Travail de bureau,Younger Canadians Volunteer Rate by Activity,PR,*
+254,Younger,>=35,2018,fv_070,0.1101153589734082,8.945590415260837,0.0908087945063915,0.1294219234404248,1708,Travail de bureau,Younger Canadians Volunteer Rate by Activity,PR,
+255,Younger,15 à 24 ans,2018,fv_070,0.0353086500464115,79.32295539801419,-0.0195857561042517,0.0902030561970748,88,Travail de bureau,Younger Canadians Volunteer Rate by Activity,QC,...
+256,Younger,25 à 34 ans,2018,fv_070,0.0382480622933286,28.991672649240886,0.0165145057509399,0.0599816188357173,222,Travail de bureau,Younger Canadians Volunteer Rate by Activity,QC,*
+257,Younger,>=35,2018,fv_070,0.0578047132127712,9.364022915594566,0.0471957288395171,0.0684136975860253,1695,Travail de bureau,Younger Canadians Volunteer Rate by Activity,QC,
+258,Younger,15 à 24 ans,2018,fv_080,0.1009100463058213,40.54434939611581,0.0207214091878937,0.1810986834237489,74,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AB,...
+259,Younger,25 à 34 ans,2018,fv_080,0.0746459310005829,30.238627706662356,0.0304058097981904,0.1188860522029753,205,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AB,*
+260,Younger,>=35,2018,fv_080,0.0832425016205945,12.208728502620724,0.0633236796379183,0.1031613236032708,1123,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AB,
+261,Younger,15 à 24 ans,2018,fv_080,0.1023582083768622,22.033911511511807,0.0581541272174401,0.1465622895362842,194,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AT,*
+262,Younger,25 à 34 ans,2018,fv_080,0.1061367190470638,19.241287499769104,0.0661101948982043,0.1461632431959234,362,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AT,*
+263,Younger,>=35,2018,fv_080,0.0487871242689233,9.640075537378111,0.039569187015,0.0580050615228465,3474,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AT,
+264,Younger,15 à 24 ans,2018,fv_080,0.0667238499967878,36.11427378875788,0.0194949234696723,0.1139527765239033,125,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,BC,...
+265,Younger,25 à 34 ans,2018,fv_080,0.0460277531515037,31.934898312982725,0.0172184068569506,0.0748370994460568,245,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,BC,*
+266,Younger,>=35,2018,fv_080,0.0604786936511614,12.158638969678496,0.0460663218980806,0.0748910654042422,1789,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,BC,
+267,Younger,15 à 24 ans,2018,fv_080,0.0856759179727938,24.05685481891328,0.0452792351300479,0.1260726008155396,225,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,ON,*
+268,Younger,25 à 34 ans,2018,fv_080,0.0575882351338204,20.47046756072519,0.0344830409609357,0.0806934293067051,509,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,ON,*
+269,Younger,>=35,2018,fv_080,0.0532774685196155,7.806909581475008,0.0451253436821096,0.0614295933571213,3584,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,ON,
+270,Younger,15 à 24 ans,2018,fv_080,0.0804295844847726,30.76877221057434,0.0319259723119449,0.1289331966576003,138,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,PR,*
+271,Younger,25 à 34 ans,2018,fv_080,0.1233465945797844,19.131392193016385,0.0770955197688092,0.1695976693907597,302,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,PR,*
+272,Younger,>=35,2018,fv_080,0.0527866159212692,12.607685126175731,0.0397427217750194,0.065830510067519,1708,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,PR,
+273,Younger,15 à 24 ans,2018,fv_080,0.1007524481933231,32.943658453501605,0.0356982204659445,0.1658066759207017,88,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,QC,*
+274,Younger,25 à 34 ans,2018,fv_080,0.0406869329910044,37.69429206461964,0.010627648694177,0.0707462172878319,222,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,QC,...
+275,Younger,>=35,2018,fv_080,0.0231129993589656,15.633244076018048,0.0160310387520167,0.0301949599659144,1691,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,QC,
+276,Younger,15 à 24 ans,2018,fv_090,0.0366386841679402,53.34201235422792,-0.0016664823658687,0.0749438507017491,74,Conseils,Younger Canadians Volunteer Rate by Activity,AB,...
+277,Younger,25 à 34 ans,2018,fv_090,0.0961463287481965,26.16328335390275,0.0468433633258629,0.1454492941705301,205,Conseils,Younger Canadians Volunteer Rate by Activity,AB,*
+278,Younger,>=35,2018,fv_090,0.1283894209588512,9.298524855080762,0.104990739373477,0.1517881025442255,1125,Conseils,Younger Canadians Volunteer Rate by Activity,AB,
+279,Younger,15 à 24 ans,2018,fv_090,0.0761635035247771,27.05278047379121,0.0357797285967298,0.1165472784528244,194,Conseils,Younger Canadians Volunteer Rate by Activity,AT,*
+280,Younger,25 à 34 ans,2018,fv_090,0.0691338296621202,24.065521797313743,0.0365250918468959,0.1017425674773446,362,Conseils,Younger Canadians Volunteer Rate by Activity,AT,*
+281,Younger,>=35,2018,fv_090,0.0899974891639518,6.465361188060853,0.078593119765881,0.1014018585620225,3473,Conseils,Younger Canadians Volunteer Rate by Activity,AT,
+282,Younger,15 à 24 ans,2018,fv_090,0.0848633654138484,34.84922418863459,0.0268989505876444,0.1428277802400524,125,Conseils,Younger Canadians Volunteer Rate by Activity,BC,...
+283,Younger,25 à 34 ans,2018,fv_090,0.0590766757531775,27.193909276952027,0.0275893494388293,0.0905640020675258,245,Conseils,Younger Canadians Volunteer Rate by Activity,BC,*
+284,Younger,>=35,2018,fv_090,0.1068441067993642,8.32681852563443,0.0894068660567471,0.1242813475419813,1787,Conseils,Younger Canadians Volunteer Rate by Activity,BC,
+285,Younger,15 à 24 ans,2018,fv_090,0.0795958266673609,22.654824225937947,0.0442531786483068,0.114938474686415,225,Conseils,Younger Canadians Volunteer Rate by Activity,ON,*
+286,Younger,25 à 34 ans,2018,fv_090,0.0750589637744157,15.812326116196518,0.0517969976887169,0.0983209298601144,508,Conseils,Younger Canadians Volunteer Rate by Activity,ON,
+287,Younger,>=35,2018,fv_090,0.0890711807479315,6.582181282617729,0.0775802517890296,0.1005621097068334,3584,Conseils,Younger Canadians Volunteer Rate by Activity,ON,
+288,Younger,15 à 24 ans,2018,fv_090,0.1237219077486302,26.32162183299373,0.0598944797571162,0.1875493357401443,138,Conseils,Younger Canadians Volunteer Rate by Activity,PR,*
+289,Younger,25 à 34 ans,2018,fv_090,0.1288590188439399,21.685392147299176,0.0740906014801519,0.1836274362077278,302,Conseils,Younger Canadians Volunteer Rate by Activity,PR,*
+290,Younger,>=35,2018,fv_090,0.1087749413693812,9.636482019195157,0.0882304466599866,0.1293194360787758,1708,Conseils,Younger Canadians Volunteer Rate by Activity,PR,
+291,Younger,15 à 24 ans,2018,fv_090,0.1733834711035443,25.854730544840432,0.0855225402427328,0.2612444019643558,88,Conseils,Younger Canadians Volunteer Rate by Activity,QC,*
+292,Younger,25 à 34 ans,2018,fv_090,0.1080861043176662,19.969189472775074,0.0657824005011604,0.150389808134172,222,Conseils,Younger Canadians Volunteer Rate by Activity,QC,*
+293,Younger,>=35,2018,fv_090,0.1056689150913362,7.375666689820067,0.0903933733232623,0.1209444568594101,1693,Conseils,Younger Canadians Volunteer Rate by Activity,QC,
+294,Younger,15 à 24 ans,2018,fv_100,0.0428662351174864,43.9974116323128,0.005901247895088,0.0798312223398847,74,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AB,...
+295,Younger,25 à 34 ans,2018,fv_100,0.0356184752929577,31.474445548847925,0.0136458725337416,0.0575910780521738,205,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AB,*
+296,Younger,>=35,2018,fv_100,0.093203535685653,10.706357666062532,0.0736456354529356,0.1127614359183704,1124,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AB,
+297,Younger,15 à 24 ans,2018,fv_100,0.1132965249585977,30.55958231136445,0.0454368001106284,0.1811562498065669,194,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AT,*
+298,Younger,25 à 34 ans,2018,fv_100,0.0737543570637629,24.008488651810698,0.0390486741666448,0.108460039960881,362,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AT,*
+299,Younger,>=35,2018,fv_100,0.092106987698781,6.017095178451881,0.0812445436753592,0.1029694317222029,3476,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AT,
+300,Younger,15 à 24 ans,2018,fv_100,0.0675152769593139,34.42983677378319,0.0219551308303336,0.1130754230882942,125,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,BC,...
+301,Younger,25 à 34 ans,2018,fv_100,0.0339284408507202,32.77440737230726,0.0121339443148723,0.055722937386568,245,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,BC,*
+302,Younger,>=35,2018,fv_100,0.1140284605137462,8.042915412827192,0.0960532140728746,0.1320037069546177,1792,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,BC,
+303,Younger,15 à 24 ans,2018,fv_100,0.0922507040201843,23.43640529180696,0.0498757948811092,0.1346256131592595,225,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,ON,*
+304,Younger,25 à 34 ans,2018,fv_100,0.0567791518781847,17.953177999227464,0.0367999410894588,0.0767583626669107,508,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,ON,*
+305,Younger,>=35,2018,fv_100,0.0831867987252096,6.232993434354409,0.0730243311688949,0.0933492662815242,3585,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,ON,
+306,Younger,15 à 24 ans,2018,fv_100,0.1326397935736587,27.352028234339524,0.0615329395778527,0.2037466475694646,138,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,PR,*
+307,Younger,25 à 34 ans,2018,fv_100,0.102057209885367,22.689549196160005,0.0566716550143824,0.1474427647563516,302,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,PR,*
+308,Younger,>=35,2018,fv_100,0.1026003589106587,9.414542830015774,0.0836683715193102,0.1215323463020072,1711,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,PR,
+309,Younger,15 à 24 ans,2018,fv_100,0.0602636015737565,52.08453749562022,-0.0012557835618057,0.1217829867093187,88,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,QC,...
+310,Younger,25 à 34 ans,2018,fv_100,0.0313925212994167,31.61970223910676,0.0119374841468204,0.050847558452013,222,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,QC,*
+311,Younger,>=35,2018,fv_100,0.0596038819336214,10.734783952919264,0.0470633503849362,0.0721444134823066,1691,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,QC,
+312,Younger,15 à 24 ans,2018,fv_110,0.0995206116403017,35.60720717814535,0.0300663275739511,0.1689748957066523,74,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AB,...
+313,Younger,25 à 34 ans,2018,fv_110,0.0614237061602413,25.518703719471848,0.030702184852218,0.0921452274682645,205,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AB,*
+314,Younger,>=35,2018,fv_110,0.1400951562527105,9.498797304925436,0.1140132198673503,0.1661770926380707,1126,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AB,
+315,Younger,15 à 24 ans,2018,fv_110,0.1636579605461954,20.200465293404207,0.0988621989461452,0.2284537221462456,194,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AT,*
+316,Younger,25 à 34 ans,2018,fv_110,0.109622669187544,18.605926950524932,0.0696466288196748,0.1495987095554132,362,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AT,*
+317,Younger,>=35,2018,fv_110,0.1272027605659485,5.219694219811541,0.1141893932182464,0.1402161279136506,3478,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AT,
+318,Younger,15 à 24 ans,2018,fv_110,0.0912653802765713,29.699961086137805,0.0381390229463682,0.1443917376067744,125,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,BC,*
+319,Younger,25 à 34 ans,2018,fv_110,0.082460626660223,20.35204930217329,0.0495676733972361,0.11535357992321,245,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,BC,*
+320,Younger,>=35,2018,fv_110,0.1148994069356531,8.447803845657077,0.0958750625440847,0.1339237513272216,1790,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,BC,
+321,Younger,15 à 24 ans,2018,fv_110,0.1161859932287451,20.581292671590557,0.0693181990040747,0.1630537874534155,225,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,ON,*
+322,Younger,25 à 34 ans,2018,fv_110,0.0893415536895846,15.165426827755685,0.0627859468789731,0.1158971605001962,508,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,ON,
+323,Younger,>=35,2018,fv_110,0.1123290411527269,5.55376541111484,0.1001018226238782,0.1245562596815757,3584,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,ON,
+324,Younger,15 à 24 ans,2018,fv_110,0.1507357494900391,24.42867466502489,0.0785644938184224,0.2229070051616557,138,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,PR,*
+325,Younger,25 à 34 ans,2018,fv_110,0.1346401927214845,20.30905386063716,0.0810466449881678,0.1882337404548012,302,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,PR,*
+326,Younger,>=35,2018,fv_110,0.1299715029724068,8.182372457013376,0.1091277711639943,0.1508152347808194,1709,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,PR,
+327,Younger,15 à 24 ans,2018,fv_110,0.1394932449855067,32.28607357716548,0.0512225592559313,0.2277639307150822,88,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,QC,*
+328,Younger,25 à 34 ans,2018,fv_110,0.0695358544082311,23.948381195967425,0.0368971396594445,0.1021745691570178,222,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,QC,*
+329,Younger,>=35,2018,fv_110,0.0800331849657593,8.528224342062394,0.0666556280445477,0.0934107418869709,1693,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,QC,
+330,Younger,15 à 24 ans,2018,fv_120,0.0331291285573406,54.23128897162155,-0.0020842771219309,0.0683425342366121,74,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AB,...
+331,Younger,25 à 34 ans,2018,fv_120,0.0629426608262758,29.71977423720104,0.0262787578214226,0.0996065638311289,205,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AB,*
+332,Younger,>=35,2018,fv_120,0.101243202067381,11.596522234738558,0.0782318716534932,0.1242545324812688,1124,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AB,
+333,Younger,15 à 24 ans,2018,fv_120,0.0883348174359354,26.93484932806381,0.0417016883844156,0.1349679464874552,194,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AT,*
+334,Younger,25 à 34 ans,2018,fv_120,0.0650216957121671,24.825125268742337,0.0333845109352283,0.0966588804891058,361,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AT,*
+335,Younger,>=35,2018,fv_120,0.0721280799445055,7.573508740802508,0.0614215288627358,0.0828346310262753,3475,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AT,
+336,Younger,15 à 24 ans,2018,fv_120,0.0302399860589548,57.694050320461486,-0.0039548642276584,0.0644348363455681,125,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,BC,...
+337,Younger,25 à 34 ans,2018,fv_120,0.0373779467512165,28.76075165329417,0.0163079841849303,0.0584479093175026,245,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,BC,*
+338,Younger,>=35,2018,fv_120,0.0757000205534481,10.490465178097622,0.060135389342349,0.0912646517645471,1791,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,BC,
+339,Younger,15 à 24 ans,2018,fv_120,0.0811946412643677,26.96530473206615,0.0382824402122541,0.1241068423164814,225,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,ON,*
+340,Younger,25 à 34 ans,2018,fv_120,0.0411176973093806,25.89334525864088,0.0202504559965097,0.0619849386222514,508,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,ON,*
+341,Younger,>=35,2018,fv_120,0.0511664114495338,7.532428342845375,0.0436125666307941,0.0587202562682735,3585,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,ON,
+342,Younger,15 à 24 ans,2018,fv_120,0.0753314619334415,33.90430870234596,0.0252727834386562,0.1253901404282269,138,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,PR,...
+343,Younger,25 à 34 ans,2018,fv_120,0.1086700288336316,18.72437453809967,0.0687891065778414,0.1485509510894218,302,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,PR,*
+344,Younger,>=35,2018,fv_120,0.1003920545035454,10.34673120838286,0.0800333283800417,0.120750780627049,1708,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,PR,
+345,Younger,15 à 24 ans,2018,fv_120,0.0665343287153373,51.72410709365975,-0.00091643521825846,0.1339850926489331,88,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,QC,...
+346,Younger,25 à 34 ans,2018,fv_120,0.0224362529346773,36.47097721310767,0.0063984150763752,0.0384740907929793,222,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,QC,...
+347,Younger,>=35,2018,fv_120,0.0500048107995383,11.215368138319134,0.0390128944909365,0.0609967271081401,1691,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,QC,
+348,Younger,15 à 24 ans,2018,fv_130,0.0199461043318011,58.472580211468326,-0.0029129592545948,0.0428051679181972,74,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AB,...
+349,Younger,25 à 34 ans,2018,fv_130,0.0401174156683007,31.429850258490223,0.0154045361842438,0.0648302951523576,205,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AB,*
+350,Younger,>=35,2018,fv_130,0.0968572831991263,11.419121165583272,0.0751795905077834,0.1185349758904692,1124,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AB,
+351,Younger,15 à 24 ans,2018,fv_130,0.0615463526742371,32.908175952719766,0.0218496693436946,0.1012430360047797,194,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AT,*
+352,Younger,25 à 34 ans,2018,fv_130,0.0484565872913743,27.91224201387396,0.0219474473757843,0.0749657272069644,361,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AT,*
+353,Younger,>=35,2018,fv_130,0.0823972063328803,6.932560809597018,0.0712014286502081,0.0935929840155525,3473,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AT,
+354,Younger,15 à 24 ans,2018,fv_130,0.0168425120193908,80.9651786789647,-0.009884673956301,0.0435696979950828,125,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,BC,...
+355,Younger,25 à 34 ans,2018,fv_130,0.0277979818150993,34.12386076629363,0.0092062640121231,0.0463896996180755,245,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,BC,...
+356,Younger,>=35,2018,fv_130,0.1204545433799035,8.988566465759016,0.0992337454064623,0.1416753413533448,1792,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,BC,
+357,Younger,15 à 24 ans,2018,fv_130,0.0346806466315594,32.08020892857228,0.0128748244875403,0.0564864687755784,225,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,ON,*
+358,Younger,25 à 34 ans,2018,fv_130,0.0473458893939401,23.89931906713966,0.0251682203852926,0.0695235584025876,507,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,ON,*
+359,Younger,>=35,2018,fv_130,0.0549661245298859,8.020151161731587,0.0463258854001417,0.0636063636596302,3581,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,ON,
+360,Younger,15 à 24 ans,2018,fv_130,0.102422722685714,30.393547858684634,0.0414092413375585,0.1634362040338696,138,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,PR,*
+361,Younger,25 à 34 ans,2018,fv_130,0.1024492083042096,23.18569217599656,0.0558930899741763,0.149005326634243,302,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,PR,*
+362,Younger,>=35,2018,fv_130,0.0907505112098041,10.477920895138425,0.0721136707904789,0.1093873516291293,1708,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,PR,
+363,Younger,15 à 24 ans,2018,fv_130,0.0111094978347518,77.1866736260231,-0.0056972949278042,0.0279162905973078,88,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,QC,...
+364,Younger,25 à 34 ans,2018,fv_130,0.0539210868066978,29.30218822667607,0.0229535414871292,0.0848886321262664,222,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,QC,*
+365,Younger,>=35,2018,fv_130,0.0569995042906529,10.96601823658752,0.0447486003788798,0.0692504082024259,1688,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,QC,
+366,Younger,15 à 24 ans,2018,fv_140,0.0176206313580092,64.54272460677275,-0.0046697167639808,0.0399109794799994,74,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AB,...
+367,Younger,25 à 34 ans,2018,fv_140,0.0294572244719814,35.68210611932707,0.0088561251610061,0.0500583237829567,205,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AB,...
+368,Younger,>=35,2018,fv_140,0.0332282248771398,23.262089846438247,0.0180785273919199,0.0483779223623598,1123,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AB,*
+369,Younger,15 à 24 ans,2018,fv_140,0.0478176172588005,36.45892166652611,0.0136480214110769,0.0819872131065242,194,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AT,...
+370,Younger,25 à 34 ans,2018,fv_140,0.0338741383994605,34.13730945351406,0.0112096647498696,0.0565386120490513,361,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AT,...
+371,Younger,>=35,2018,fv_140,0.0363725245621598,11.586661611717766,0.0281125281166354,0.0446325210076843,3474,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AT,
+372,Younger,15 à 24 ans,2018,fv_140,0.0074091669987554,76.34523295892173,-0.0036774590569558,0.0184957930544668,125,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,BC,...
+373,Younger,25 à 34 ans,2018,fv_140,0.0279663223731129,38.34392814883776,0.0069488709298391,0.0489837738163866,245,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,BC,...
+374,Younger,>=35,2018,fv_140,0.024185954391326,20.66278541655946,0.0143910503389136,0.0339808584437384,1787,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,BC,*
+375,Younger,15 à 24 ans,2018,fv_140,0.0401290819061346,40.331187436877634,0.0084079757287031,0.071850188083566,225,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,ON,...
+376,Younger,25 à 34 ans,2018,fv_140,0.0260154757767128,28.36852133266952,0.011550538219015,0.0404804133344106,507,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,ON,*
+377,Younger,>=35,2018,fv_140,0.0083442738168509,16.947970872399736,0.0055725219612309,0.0111160256724708,3580,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,ON,*
+378,Younger,15 à 24 ans,2018,fv_140,0.0411857750799527,44.45518769459504,0.0053003758087795,0.0770711743511258,138,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,PR,...
+379,Younger,25 à 34 ans,2018,fv_140,0.0574820766574674,32.69214046492988,0.0206501958280422,0.0943139574868926,302,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,PR,*
+380,Younger,>=35,2018,fv_140,0.0354308187964477,17.959042091872902,0.0229594980682511,0.0479021395246443,1708,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,PR,*
+381,Younger,15 à 24 ans,2018,fv_140,0.003021093371499,108.24302711540804,-0.0033882297714153,0.0094304165144134,88,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,QC,...
+382,Younger,25 à 34 ans,2018,fv_140,0.0078118456487615,62.8116550516441,-0.0018052067348481,0.0174288980323711,222,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,QC,...
+383,Younger,>=35,2018,fv_140,0.0125074744133564,26.22142827609014,0.0060795012034438,0.0189354476232691,1688,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,QC,*
+384,Younger,15 à 24 ans,2018,fv_150,0.0157892374888678,64.49999617117267,-0.0041711485761376,0.0357496235538733,74,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AB,...
+385,Younger,25 à 34 ans,2018,fv_150,0.0487605811185979,35.39400153270956,0.0149348938611501,0.0825862683760457,205,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AB,...
+386,Younger,>=35,2018,fv_150,0.0560439416324689,12.94419450000452,0.0418255067560107,0.0702623765089271,1125,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AB,
+387,Younger,15 à 24 ans,2018,fv_150,0.0889213209079337,25.551941698799,0.0443887360303213,0.1334539057855461,194,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AT,*
+388,Younger,25 à 34 ans,2018,fv_150,0.0749084936313795,23.971791445902294,0.0397136009352562,0.1101033863275027,360,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AT,*
+389,Younger,>=35,2018,fv_150,0.0681076897593637,8.089950130893925,0.0573085270519595,0.0789068524667678,3474,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AT,
+390,Younger,15 à 24 ans,2018,fv_150,0.0847760391980023,30.399135623323936,0.0342654484205255,0.1352866299754791,125,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,BC,*
+391,Younger,25 à 34 ans,2018,fv_150,0.0534442903780642,25.9627215653618,0.0262486291991601,0.0806399515569683,245,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,BC,*
+392,Younger,>=35,2018,fv_150,0.0909449900400749,9.42494205785994,0.0741451340200693,0.1077448460600806,1789,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,BC,
+393,Younger,15 à 24 ans,2018,fv_150,0.0542298722380722,30.21321070642359,0.0221166746288357,0.0863430698473087,225,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,ON,*
+394,Younger,25 à 34 ans,2018,fv_150,0.0530190432338009,20.171287793394853,0.0320579657654468,0.0739801207021551,508,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,ON,*
+395,Younger,>=35,2018,fv_150,0.0490340398657474,8.432747392639454,0.040929752018837,0.0571383277126577,3580,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,ON,
+396,Younger,15 à 24 ans,2018,fv_150,0.077346408815205,37.00897225188854,0.0212422222482899,0.1334505953821202,138,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,PR,...
+397,Younger,25 à 34 ans,2018,fv_150,0.1027155384671791,23.18499419315146,0.0560397965676538,0.1493912803667044,302,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,PR,*
+398,Younger,>=35,2018,fv_150,0.0580946019922611,13.079454450409738,0.0432018999229648,0.0729873040615574,1707,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,PR,
+399,Younger,15 à 24 ans,2018,fv_150,0.0403622709056349,45.35181010120464,0.0044850900801975,0.0762394517310722,88,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,QC,...
+400,Younger,25 à 34 ans,2018,fv_150,0.0269484615052622,36.031161305023325,0.0079175176867477,0.0459794053237767,222,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,QC,...
+401,Younger,>=35,2018,fv_150,0.0354113637269894,12.779695770605423,0.0265416161907144,0.0442811112632643,1690,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,QC,
+402,Younger,15 à 24 ans,2018,fv_160,0.1003501527223342,37.39948006777469,0.026791851082099,0.1739084543625694,74,Autre,Younger Canadians Volunteer Rate by Activity,AB,...
+403,Younger,25 à 34 ans,2018,fv_160,0.0653179927643064,25.361612956787127,0.0328498242140755,0.0977861613145373,205,Autre,Younger Canadians Volunteer Rate by Activity,AB,*
+404,Younger,>=35,2018,fv_160,0.0823104048516321,11.081829867567292,0.0644325952698461,0.100188214433418,1133,Autre,Younger Canadians Volunteer Rate by Activity,AB,
+405,Younger,15 à 24 ans,2018,fv_160,0.0630865082728248,26.8300452680256,0.0299118859693695,0.09626113057628,194,Autre,Younger Canadians Volunteer Rate by Activity,AT,*
+406,Younger,25 à 34 ans,2018,fv_160,0.0335066646651448,34.54577023370948,0.0108198161880969,0.0561935131421928,362,Autre,Younger Canadians Volunteer Rate by Activity,AT,...
+407,Younger,>=35,2018,fv_160,0.0796186832942628,6.417390338705078,0.0696043616016761,0.0896330049868495,3490,Autre,Younger Canadians Volunteer Rate by Activity,AT,
+408,Younger,15 à 24 ans,2018,fv_160,0.0880196416573474,30.849056225652973,0.0348002912541626,0.1412389920605321,125,Autre,Younger Canadians Volunteer Rate by Activity,BC,*
+409,Younger,25 à 34 ans,2018,fv_160,0.0450148369587697,32.90962081293446,0.0159795146801582,0.0740501592373812,245,Autre,Younger Canadians Volunteer Rate by Activity,BC,*
+410,Younger,>=35,2018,fv_160,0.067191907976015,9.609143362995942,0.0545372696513715,0.0798465463006585,1807,Autre,Younger Canadians Volunteer Rate by Activity,BC,
+411,Younger,15 à 24 ans,2018,fv_160,0.1281864156360661,21.383538078037176,0.0744622524914294,0.1819105787807029,225,Autre,Younger Canadians Volunteer Rate by Activity,ON,*
+412,Younger,25 à 34 ans,2018,fv_160,0.0431520611023878,26.21290603355903,0.0209821064005005,0.0653220158042752,509,Autre,Younger Canadians Volunteer Rate by Activity,ON,*
+413,Younger,>=35,2018,fv_160,0.0806500590110853,6.865443788915192,0.0697977688725469,0.0915023491496236,3607,Autre,Younger Canadians Volunteer Rate by Activity,ON,
+414,Younger,15 à 24 ans,2018,fv_160,0.1048347620851207,28.76618934331657,0.0457281945304458,0.1639413296397956,138,Autre,Younger Canadians Volunteer Rate by Activity,PR,*
+415,Younger,25 à 34 ans,2018,fv_160,0.0864763474978422,26.342515371357184,0.0418282794725188,0.1311244155231656,302,Autre,Younger Canadians Volunteer Rate by Activity,PR,*
+416,Younger,>=35,2018,fv_160,0.0851998570094657,8.64640622094499,0.0707613398815441,0.0996383741373872,1711,Autre,Younger Canadians Volunteer Rate by Activity,PR,
+417,Younger,15 à 24 ans,2018,fv_160,0.074706421929251,40.63229697433302,0.0152118421505091,0.134201001707993,88,Autre,Younger Canadians Volunteer Rate by Activity,QC,...
+418,Younger,25 à 34 ans,2018,fv_160,0.0551884164567282,26.925005414492563,0.0260643627543556,0.0843124701591008,222,Autre,Younger Canadians Volunteer Rate by Activity,QC,*
+419,Younger,>=35,2018,fv_160,0.0697214964145005,8.893890876473037,0.0575678502799466,0.0818751425490545,1701,Autre,Younger Canadians Volunteer Rate by Activity,QC,
+420,Younger2,15 à 34 ans,2018,fv_020,0.0276356118411088,52.65136454278471,-0.0008828965137971066,0.0561541201960148,279,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AB,...
+421,Younger2,>=35,2018,fv_020,0.0398681548989476,21.41722478834013,0.0231327038092438,0.0566036059886514,1125,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AB,*
+422,Younger2,15 à 34 ans,2018,fv_020,0.0208306078120762,31.084100234265705,0.0081398272694752,0.0335213883546771,556,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AT,*
+423,Younger2,>=35,2018,fv_020,0.0381723881171161,10.32527996884355,0.0304473744186478,0.0458974018155844,3477,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,AT,
+424,Younger2,15 à 34 ans,2018,fv_020,0.0381829788923283,35.8184054777713,0.011377464420832,0.0649884933638247,370,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,BC,...
+425,Younger2,>=35,2018,fv_020,0.0270588815189352,20.19996436441552,0.0163459449037775,0.037771818134093,1787,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,BC,*
+426,Younger2,15 à 34 ans,2018,fv_020,0.0290664084811983,27.161899004113994,0.0135925153318998,0.0445403016304968,734,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,ON,*
+427,Younger2,>=35,2018,fv_020,0.0270218422597701,12.121871875093571,0.0206018761601638,0.0334418083593764,3584,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,ON,
+428,Younger2,15 à 34 ans,2018,fv_020,0.0172903668401113,42.1722467223788,0.0029988265758314,0.0315819071043911,440,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,PR,...
+429,Younger2,>=35,2018,fv_020,0.0385700987497199,16.99428080419191,0.0257231014802036,0.0514170960192362,1709,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,PR,*
+430,Younger2,15 à 34 ans,2018,fv_020,0.0412503196392344,29.33108226896429,0.0175363916246283,0.0649642476538405,310,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,QC,*
+431,Younger2,>=35,2018,fv_020,0.0287022396907772,15.046272549499148,0.0202379054928601,0.0371665738886944,1691,Porte-à-porte,Younger Canadians Volunteer Rate by Activity,QC,
+432,Younger2,15 à 34 ans,2018,fv_030,0.2008968233354431,14.79056520669843,0.1426588932096557,0.2591347534612305,279,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AB,
+433,Younger2,>=35,2018,fv_030,0.2316679098306145,6.531146268377968,0.2020125374711085,0.2613232821901206,1127,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AB,
+434,Younger2,15 à 34 ans,2018,fv_030,0.2610895735462076,9.433518313221988,0.2128157924451499,0.3093633546472653,555,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AT,
+435,Younger2,>=35,2018,fv_030,0.2275429186910265,3.652131886973281,0.2112552897050042,0.2438305476770489,3481,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,AT,
+436,Younger2,15 à 34 ans,2018,fv_030,0.1691358994830132,12.990806694168503,0.1260713400244685,0.2122004589415579,370,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,BC,
+437,Younger2,>=35,2018,fv_030,0.1856164784034897,6.287816002952545,0.1627413023869247,0.2084916544200547,1792,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,BC,
+438,Younger2,15 à 34 ans,2018,fv_030,0.1378778232767598,9.793988919879562,0.1114109817001152,0.1643446648534044,735,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,ON,
+439,Younger2,>=35,2018,fv_030,0.1602163932702122,4.554779927703454,0.1459135480149179,0.1745192385255064,3590,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,ON,
+440,Younger2,15 à 34 ans,2018,fv_030,0.2424442247741533,10.36416709733284,0.1931955735823892,0.2916928759659175,440,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,PR,
+441,Younger2,>=35,2018,fv_030,0.2214165094219967,5.689792493538357,0.1967246088820079,0.2461084099619855,1709,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,PR,
+442,Younger2,15 à 34 ans,2018,fv_030,0.1412584354312689,17.773483871618463,0.0920505109872361,0.1904663598753018,310,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,QC,*
+443,Younger2,>=35,2018,fv_030,0.071944719281719,8.68276261507905,0.0597012374516441,0.0841882011117938,1694,Collecte de fonds,Younger Canadians Volunteer Rate by Activity,QC,
+444,Younger2,15 à 34 ans,2018,fv_040,0.1086507124092848,18.40111120367974,0.0694652731726729,0.1478361516458968,279,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AB,*
+445,Younger2,>=35,2018,fv_040,0.1789028297851091,7.13057260127062,0.153899968746423,0.2039056908237953,1126,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AB,
+446,Younger2,15 à 34 ans,2018,fv_040,0.100276827943278,15.712505860846395,0.0693956305663433,0.1311580253202127,556,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AT,
+447,Younger2,>=35,2018,fv_040,0.1798649916569032,4.236606524258696,0.1649297290369699,0.1948002542768364,3482,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,AT,
+448,Younger2,15 à 34 ans,2018,fv_040,0.0742102488643303,17.70172447024243,0.0484631941672118,0.0999573035614488,369,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,BC,*
+449,Younger2,>=35,2018,fv_040,0.1746871064964174,6.424689132373758,0.1526902277500559,0.1966839852427788,1791,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,BC,
+450,Younger2,15 à 34 ans,2018,fv_040,0.0920502074017378,12.79434378390178,0.0689672803857376,0.1151331344177379,734,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,ON,
+451,Younger2,>=35,2018,fv_040,0.1359419429020993,4.968210509657525,0.1227045776334444,0.1491793081707541,3591,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,ON,
+452,Younger2,15 à 34 ans,2018,fv_040,0.1199945861187917,13.923067383269846,0.0872496107465284,0.1527395614910551,440,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,PR,
+453,Younger2,>=35,2018,fv_040,0.2061560226726942,6.064884858144635,0.1816503471881766,0.2306616981572117,1710,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,PR,
+454,Younger2,15 à 34 ans,2018,fv_040,0.1115463682195909,21.11707457302473,0.0653787702451801,0.1577139661940017,310,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,QC,*
+455,Younger2,>=35,2018,fv_040,0.1029281836742174,7.436041494724564,0.0879270457310615,0.1179293216173732,1696,Membre d'un comité ou d'un conseil d'administration,Younger Canadians Volunteer Rate by Activity,QC,
+456,Younger2,15 à 34 ans,2018,fv_050,0.1125816556892422,18.434191828707863,0.0719055071243189,0.1532578042541655,279,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AB,*
+457,Younger2,>=35,2018,fv_050,0.166697825169703,7.567214973132917,0.1419740892216887,0.1914215611177173,1124,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AB,
+458,Younger2,15 à 34 ans,2018,fv_050,0.1131145086847959,13.91886511670202,0.0822563341745497,0.143972683195042,556,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AT,
+459,Younger2,>=35,2018,fv_050,0.1049219291943598,5.729556669061173,0.0931394853762406,0.1167043730124789,3476,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,AT,
+460,Younger2,15 à 34 ans,2018,fv_050,0.1389452897328327,15.426542829320733,0.0969345306298548,0.1809560488358106,370,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,BC,
+461,Younger2,>=35,2018,fv_050,0.1481211717060144,6.960202307595809,0.1279148579147997,0.1683274854972291,1791,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,BC,
+462,Younger2,15 à 34 ans,2018,fv_050,0.1608903747839707,9.97729503433594,0.1294280384692777,0.1923527110986637,734,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,ON,
+463,Younger2,>=35,2018,fv_050,0.1085945005856386,5.1942914809404,0.0975389025489083,0.119650098622369,3587,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,ON,
+464,Younger2,15 à 34 ans,2018,fv_050,0.2170815696229361,11.370666108115996,0.1687025625052806,0.2654605767405915,440,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,PR,
+465,Younger2,>=35,2018,fv_050,0.1547133296894441,7.552077084731333,0.1318129734563336,0.1776136859225546,1707,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,PR,
+466,Younger2,15 à 34 ans,2018,fv_050,0.1068031858373249,20.279769949506733,0.0643514627543875,0.1492549089202624,310,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,QC,*
+467,Younger2,>=35,2018,fv_050,0.0602796878121238,10.463645820036318,0.0479173070311408,0.0726420685931068,1692,Enseignement ou mentorat,Younger Canadians Volunteer Rate by Activity,QC,
+468,Younger2,15 à 34 ans,2018,fv_060,0.1705303925705509,15.15134504025602,0.119889532698674,0.2211712524424278,279,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AB,
+469,Younger2,>=35,2018,fv_060,0.2159136250349057,6.748929329352199,0.187353308233618,0.2444739418361934,1124,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AB,
+470,Younger2,15 à 34 ans,2018,fv_060,0.2274029920842854,11.04959033523099,0.1781547829389865,0.2766512012295843,557,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AT,
+471,Younger2,>=35,2018,fv_060,0.1936130495299851,4.0605649222171785,0.1782042368705994,0.2090218621893708,3477,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,AT,
+472,Younger2,15 à 34 ans,2018,fv_060,0.1922620406102297,12.831650498582995,0.1439089586643891,0.2406151225560702,370,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,BC,
+473,Younger2,>=35,2018,fv_060,0.2039049796496733,6.025383622490846,0.1798247499291368,0.2279852093702098,1792,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,BC,
+474,Younger2,15 à 34 ans,2018,fv_060,0.2253228724481865,8.243437031832848,0.1889178171590896,0.2617279277372835,734,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,ON,
+475,Younger2,>=35,2018,fv_060,0.1616984655014906,4.340517007933741,0.1479423614603215,0.1754545695426597,3593,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,ON,
+476,Younger2,15 à 34 ans,2018,fv_060,0.2282088574683772,10.415206988771471,0.1816236007499289,0.2747941141868255,440,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,PR,
+477,Younger2,>=35,2018,fv_060,0.2214540633139652,5.572086940840449,0.19726886636472,0.2456392602632104,1708,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,PR,
+478,Younger2,15 à 34 ans,2018,fv_060,0.1613017837753013,17.288142766363283,0.1066460660844157,0.2159575014661869,310,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,QC,*
+479,Younger2,>=35,2018,fv_060,0.1136731000531532,7.008451475117846,0.0980586078257091,0.1292875922805973,1697,Organisation d'activités ou d'événements,Younger Canadians Volunteer Rate by Activity,QC,
+480,Younger2,15 à 34 ans,2018,fv_070,0.0943640264363884,21.929229034177325,0.0538058968883409,0.1349221559844359,279,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AB,*
+481,Younger2,>=35,2018,fv_070,0.093629946656394,10.522597153901652,0.0743197893715376,0.1129401039412504,1123,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AB,
+482,Younger2,15 à 34 ans,2018,fv_070,0.0679709616026029,20.325879926538608,0.0408926949423432,0.0950492282628627,557,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AT,*
+483,Younger2,>=35,2018,fv_070,0.0869987381231595,6.869999102837951,0.0752844008248706,0.0987130754214484,3477,Travail de bureau,Younger Canadians Volunteer Rate by Activity,AT,
+484,Younger2,15 à 34 ans,2018,fv_070,0.0385723979954407,29.16479993225517,0.0165236602529064,0.0606211357379749,370,Travail de bureau,Younger Canadians Volunteer Rate by Activity,BC,*
+485,Younger2,>=35,2018,fv_070,0.1164021760082548,8.849294758709958,0.0962130345406592,0.1365913174758504,1787,Travail de bureau,Younger Canadians Volunteer Rate by Activity,BC,
+486,Younger2,15 à 34 ans,2018,fv_070,0.056626797773575,16.650422293452714,0.0381470794662782,0.0751065160808718,734,Travail de bureau,Younger Canadians Volunteer Rate by Activity,ON,*
+487,Younger2,>=35,2018,fv_070,0.0759529059678668,6.718026381883154,0.0659521186670298,0.0859536932687037,3586,Travail de bureau,Younger Canadians Volunteer Rate by Activity,ON,
+488,Younger2,15 à 34 ans,2018,fv_070,0.0675133741909271,23.31350191443882,0.0366640667669788,0.0983626816148753,439,Travail de bureau,Younger Canadians Volunteer Rate by Activity,PR,*
+489,Younger2,>=35,2018,fv_070,0.1101153589734082,8.945590415260837,0.0908087945063915,0.1294219234404248,1708,Travail de bureau,Younger Canadians Volunteer Rate by Activity,PR,
+490,Younger2,15 à 34 ans,2018,fv_070,0.0369231142905718,38.454921294967725,0.0090940667666701,0.0647521618144735,310,Travail de bureau,Younger Canadians Volunteer Rate by Activity,QC,...
+491,Younger2,>=35,2018,fv_070,0.0578047132127712,9.364022915594566,0.0471957288395171,0.0684136975860253,1695,Travail de bureau,Younger Canadians Volunteer Rate by Activity,QC,
+492,Younger2,15 à 34 ans,2018,fv_080,0.0857792714237565,25.93658487983915,0.042173574160825,0.1293849686866881,279,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AB,*
+493,Younger2,>=35,2018,fv_080,0.0832425016205945,12.208728502620724,0.0633236796379183,0.1031613236032708,1123,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AB,
+494,Younger2,15 à 34 ans,2018,fv_080,0.1042930790994281,14.898245741509466,0.0738394738392395,0.1347466843596168,556,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AT,
+495,Younger2,>=35,2018,fv_080,0.0487871242689233,9.640075537378111,0.039569187015,0.0580050615228465,3474,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,AT,
+496,Younger2,15 à 34 ans,2018,fv_080,0.0558096147219929,24.866910288833218,0.0286089859712093,0.0830102434727765,370,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,BC,*
+497,Younger2,>=35,2018,fv_080,0.0604786936511614,12.158638969678496,0.0460663218980806,0.0748910654042422,1789,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,BC,
+498,Younger2,15 à 34 ans,2018,fv_080,0.0707822032395,16.660865867472822,0.0476684892052646,0.0938959172737353,734,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,ON,*
+499,Younger2,>=35,2018,fv_080,0.0532774685196155,7.806909581475008,0.0451253436821096,0.0614295933571213,3584,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,ON,
+500,Younger2,15 à 34 ans,2018,fv_080,0.1031932218344649,16.430221167638216,0.0699622783003394,0.1364241653685903,440,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,PR,
+501,Younger2,>=35,2018,fv_080,0.0527866159212692,12.607685126175731,0.0397427217750194,0.065830510067519,1708,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,PR,
+502,Younger2,15 à 34 ans,2018,fv_080,0.0677616260645388,24.91819984027126,0.0346676784851189,0.1008555736439587,310,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,QC,*
+503,Younger2,>=35,2018,fv_080,0.0231129993589656,15.633244076018048,0.0160310387520167,0.0301949599659144,1691,"Entraînement, arbitrage, présidence",Younger Canadians Volunteer Rate by Activity,QC,
+504,Younger2,15 à 34 ans,2018,fv_090,0.0709210791179118,23.93977329001786,0.037644133311738,0.1041980249240856,279,Conseils,Younger Canadians Volunteer Rate by Activity,AB,*
+505,Younger2,>=35,2018,fv_090,0.1283894209588512,9.298524855080762,0.104990739373477,0.1517881025442255,1125,Conseils,Younger Canadians Volunteer Rate by Activity,AB,
+506,Younger2,15 à 34 ans,2018,fv_090,0.0725638021256764,18.008675372275306,0.046951424825085,0.0981761794262679,556,Conseils,Younger Canadians Volunteer Rate by Activity,AT,*
+507,Younger2,>=35,2018,fv_090,0.0899974891639518,6.465361188060853,0.078593119765881,0.1014018585620225,3473,Conseils,Younger Canadians Volunteer Rate by Activity,AT,
+508,Younger2,15 à 34 ans,2018,fv_090,0.0712645694660601,22.56093996716863,0.0397523533202729,0.1027767856118474,370,Conseils,Younger Canadians Volunteer Rate by Activity,BC,*
+509,Younger2,>=35,2018,fv_090,0.1068441067993642,8.32681852563443,0.0894068660567471,0.1242813475419813,1787,Conseils,Younger Canadians Volunteer Rate by Activity,BC,
+510,Younger2,15 à 34 ans,2018,fv_090,0.0771912229741045,13.241214966228988,0.057158321782767,0.097224124165442,733,Conseils,Younger Canadians Volunteer Rate by Activity,ON,
+511,Younger2,>=35,2018,fv_090,0.0890711807479315,6.582181282617729,0.0775802517890296,0.1005621097068334,3584,Conseils,Younger Canadians Volunteer Rate by Activity,ON,
+512,Younger2,15 à 34 ans,2018,fv_090,0.1264466859598761,16.468702259736926,0.0856321446234806,0.1672612272962717,440,Conseils,Younger Canadians Volunteer Rate by Activity,PR,
+513,Younger2,>=35,2018,fv_090,0.1087749413693812,9.636482019195157,0.0882304466599866,0.1293194360787758,1708,Conseils,Younger Canadians Volunteer Rate by Activity,PR,
+514,Younger2,15 à 34 ans,2018,fv_090,0.1375190686114512,17.28577798344137,0.0909282926088843,0.1841098446140181,310,Conseils,Younger Canadians Volunteer Rate by Activity,QC,*
+515,Younger2,>=35,2018,fv_090,0.1056689150913362,7.375666689820067,0.0903933733232623,0.1209444568594101,1693,Conseils,Younger Canadians Volunteer Rate by Activity,QC,
+516,Younger2,15 à 34 ans,2018,fv_100,0.0386907957002544,26.47284746208185,0.0186157561485112,0.0587658352519977,279,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AB,*
+517,Younger2,>=35,2018,fv_100,0.093203535685653,10.706357666062532,0.0736456354529356,0.1127614359183704,1124,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AB,
+518,Younger2,15 à 34 ans,2018,fv_100,0.093048075332698,20.940839328321275,0.0548580831067715,0.1312380675586246,556,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AT,*
+519,Younger2,>=35,2018,fv_100,0.092106987698781,6.017095178451881,0.0812445436753592,0.1029694317222029,3476,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,AT,
+520,Younger2,15 à 34 ans,2018,fv_100,0.0498030177751046,25.575952368428208,0.0248377881612537,0.0747682473889554,370,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,BC,*
+521,Younger2,>=35,2018,fv_100,0.1140284605137462,8.042915412827192,0.0960532140728746,0.1320037069546177,1792,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,BC,
+522,Younger2,15 à 34 ans,2018,fv_100,0.0734502625479895,15.329811445609256,0.0513814860347613,0.0955190390612177,733,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,ON,
+523,Younger2,>=35,2018,fv_100,0.0831867987252096,6.232993434354409,0.0730243311688949,0.0933492662815242,3585,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,ON,
+524,Younger2,15 à 34 ans,2018,fv_100,0.1164184668140436,17.182833820426257,0.0772113635566724,0.1556255700714147,440,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,PR,*
+525,Younger2,>=35,2018,fv_100,0.1026003589106587,9.414542830015774,0.0836683715193102,0.1215323463020072,1711,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,PR,
+526,Younger2,15 à 34 ans,2018,fv_100,0.0444062386461539,33.94051645492574,0.0148662362605696,0.0739462410317381,310,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,QC,...
+527,Younger2,>=35,2018,fv_100,0.0596038819336214,10.734783952919264,0.0470633503849362,0.0721444134823066,1691,Soins de santé ou soutien,Younger Canadians Volunteer Rate by Activity,QC,
+528,Younger2,15 à 34 ans,2018,fv_110,0.0775729582043178,22.445062056158587,0.0434474400090415,0.1116984763995941,279,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AB,*
+529,Younger2,>=35,2018,fv_110,0.1400951562527105,9.498797304925436,0.1140132198673503,0.1661770926380707,1126,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AB,
+530,Younger2,15 à 34 ans,2018,fv_110,0.1359879835736029,14.265681997341648,0.0979654402088319,0.174010526938374,556,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AT,
+531,Younger2,>=35,2018,fv_110,0.1272027605659485,5.219694219811541,0.1141893932182464,0.1402161279136506,3478,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,AT,
+532,Younger2,15 à 34 ans,2018,fv_110,0.0866221302365367,17.677451852522154,0.0566100144086037,0.1166342460644696,370,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,BC,*
+533,Younger2,>=35,2018,fv_110,0.1148994069356531,8.447803845657077,0.0958750625440847,0.1339237513272216,1790,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,BC,
+534,Younger2,15 à 34 ans,2018,fv_110,0.1019580476235036,12.94419704754898,0.0760911277861283,0.1278249674608788,733,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,ON,
+535,Younger2,>=35,2018,fv_110,0.1123290411527269,5.55376541111484,0.1001018226238782,0.1245562596815757,3584,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,ON,
+536,Younger2,15 à 34 ans,2018,fv_110,0.1421984954639636,15.353464605188154,0.0994077862542027,0.1849892046737245,440,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,PR,
+537,Younger2,>=35,2018,fv_110,0.1299715029724068,8.182372457013376,0.1091277711639943,0.1508152347808194,1709,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,PR,
+538,Younger2,15 à 34 ans,2018,fv_110,0.101069337001784,22.275853692371324,0.0569425948847255,0.1451960791188425,310,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,QC,*
+539,Younger2,>=35,2018,fv_110,0.0800331849657593,8.528224342062394,0.0666556280445477,0.0934107418869709,1693,"Collecte, distribution ou livraison de biens",Younger Canadians Volunteer Rate by Activity,QC,
+540,Younger2,15 à 34 ans,2018,fv_120,0.0503047249921635,26.06366419657573,0.0246071381899702,0.0760023117943568,279,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AB,*
+541,Younger2,>=35,2018,fv_120,0.101243202067381,11.596522234738558,0.0782318716534932,0.1242545324812688,1124,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AB,
+542,Younger2,15 à 34 ans,2018,fv_120,0.0764032268263645,18.98628944377675,0.0479717192038969,0.1048347344488321,555,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AT,*
+543,Younger2,>=35,2018,fv_120,0.0721280799445055,7.573508740802508,0.0614215288627358,0.0828346310262753,3475,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,AT,
+544,Younger2,15 à 34 ans,2018,fv_120,0.0340042408824595,28.93376191408224,0.014720731276646,0.053287750488273,370,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,BC,*
+545,Younger2,>=35,2018,fv_120,0.0757000205534481,10.490465178097622,0.060135389342349,0.0912646517645471,1791,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,BC,
+546,Younger2,15 à 34 ans,2018,fv_120,0.0599532747689321,19.764990485474744,0.0367281737979871,0.0831783757398771,733,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,ON,*
+547,Younger2,>=35,2018,fv_120,0.0511664114495338,7.532428342845375,0.0436125666307941,0.0587202562682735,3585,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,ON,
+548,Younger2,15 à 34 ans,2018,fv_120,0.0930145914197285,17.10660497968639,0.061828352578537,0.12420083026092,440,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,PR,*
+549,Younger2,>=35,2018,fv_120,0.1003920545035454,10.34673120838286,0.0800333283800417,0.120750780627049,1708,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,PR,
+550,Younger2,15 à 34 ans,2018,fv_120,0.0423135795982924,37.71262769998695,0.0110373313459885,0.0735898278505963,310,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,QC,...
+551,Younger2,>=35,2018,fv_120,0.0500048107995383,11.215368138319134,0.0390128944909365,0.0609967271081401,1691,"Entretien, réparation ou construction",Younger Canadians Volunteer Rate by Activity,QC,
+552,Younger2,15 à 34 ans,2018,fv_130,0.0315668106591047,26.75148741525919,0.0150157156884439,0.0481179056297656,279,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AB,*
+553,Younger2,>=35,2018,fv_130,0.0968572831991263,11.419121165583272,0.0751795905077834,0.1185349758904692,1124,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AB,
+554,Younger2,15 à 34 ans,2018,fv_130,0.0548470472970246,21.278331766367717,0.0319732157084529,0.0777208788855963,555,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AT,*
+555,Younger2,>=35,2018,fv_130,0.0823972063328803,6.932560809597018,0.0712014286502081,0.0935929840155525,3473,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,AT,
+556,Younger2,15 à 34 ans,2018,fv_130,0.0226199576793205,35.79040656894899,0.0067525306068343,0.0384873847518068,370,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,BC,...
+557,Younger2,>=35,2018,fv_130,0.1204545433799035,8.988566465759016,0.0992337454064623,0.1416753413533448,1792,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,BC,
+558,Younger2,15 à 34 ans,2018,fv_130,0.0413898403276465,19.2785046543607,0.0257506168110936,0.0570290638441994,732,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,ON,*
+559,Younger2,>=35,2018,fv_130,0.0549661245298859,8.020151161731587,0.0463258854001417,0.0636063636596302,3581,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,ON,
+560,Younger2,15 à 34 ans,2018,fv_130,0.1024367709386814,18.52601703064964,0.065241645306097,0.1396318965712658,440,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,PR,*
+561,Younger2,>=35,2018,fv_130,0.0907505112098041,10.477920895138425,0.0721136707904789,0.1093873516291293,1708,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,PR,
+562,Younger2,15 à 34 ans,2018,fv_130,0.0346236475438943,27.98165296861744,0.0156349894257677,0.0536123056620208,310,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,QC,*
+563,Younger2,>=35,2018,fv_130,0.0569995042906529,10.96601823658752,0.0447486003788798,0.0692504082024259,1688,Chauffeur.euse bénévole,Younger Canadians Volunteer Rate by Activity,QC,
+564,Younger2,15 à 34 ans,2018,fv_140,0.024439700787787,31.38189943315781,0.0094074780604264,0.0394719235151477,279,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AB,*
+565,Younger2,>=35,2018,fv_140,0.0332282248771398,23.262089846438247,0.0180785273919199,0.0483779223623598,1123,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AB,*
+566,Younger2,15 à 34 ans,2018,fv_140,0.040681383707837,24.6026758680376,0.0210646745904414,0.0602980928252326,555,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AT,*
+567,Younger2,>=35,2018,fv_140,0.0363725245621598,11.586661611717766,0.0281125281166354,0.0446325210076843,3474,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,AT,
+568,Younger2,15 à 34 ans,2018,fv_140,0.0182501304912208,33.444883619725374,0.0062870299096965,0.030213231072745,370,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,BC,...
+569,Younger2,>=35,2018,fv_140,0.024185954391326,20.66278541655946,0.0143910503389136,0.0339808584437384,1787,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,BC,*
+570,Younger2,15 à 34 ans,2018,fv_140,0.032652642721421,26.0793555068659,0.0159623758103236,0.0493429096325184,732,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,ON,*
+571,Younger2,>=35,2018,fv_140,0.0083442738168509,16.947970872399736,0.0055725219612309,0.0111160256724708,3580,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,ON,*
+572,Younger2,15 à 34 ans,2018,fv_140,0.0498295062818818,26.44399936261906,0.0240032287803008,0.0756557837834629,440,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,PR,*
+573,Younger2,>=35,2018,fv_140,0.0354308187964477,17.959042091872902,0.0229594980682511,0.0479021395246443,1708,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,PR,*
+574,Younger2,15 à 34 ans,2018,fv_140,0.0056524011311989,54.09276940912194,-0.0003402677576374571,0.0116450700200354,310,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,QC,...
+575,Younger2,>=35,2018,fv_140,0.0125074744133564,26.22142827609014,0.0060795012034438,0.0189354476232691,1688,"Premier soins, incendies",Younger Canadians Volunteer Rate by Activity,QC,*
+576,Younger2,15 à 34 ans,2018,fv_150,0.0347840512194161,30.95951763971245,0.0136772491017446,0.0558908533370875,279,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AB,*
+577,Younger2,>=35,2018,fv_150,0.0560439416324689,12.94419450000452,0.0418255067560107,0.0702623765089271,1125,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AB,
+578,Younger2,15 à 34 ans,2018,fv_150,0.0817527021757929,17.44840932067172,0.0537947055515515,0.1097106988000344,554,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AT,*
+579,Younger2,>=35,2018,fv_150,0.0681076897593637,8.089950130893925,0.0573085270519595,0.0789068524667678,3474,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,AT,
+580,Younger2,15 à 34 ans,2018,fv_150,0.0682530164875871,20.01453946306525,0.0414788757152517,0.0950271572599225,370,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,BC,*
+581,Younger2,>=35,2018,fv_150,0.0909449900400749,9.42494205785994,0.0741451340200693,0.1077448460600806,1789,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,BC,
+582,Younger2,15 à 34 ans,2018,fv_150,0.0535881151551989,18.04970640711053,0.0346303685035928,0.072545861806805,733,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,ON,*
+583,Younger2,>=35,2018,fv_150,0.0490340398657474,8.432747392639454,0.040929752018837,0.0571383277126577,3580,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,ON,
+584,Younger2,15 à 34 ans,2018,fv_150,0.0908024642579392,19.723676760526697,0.0557003235798396,0.1259046049360389,440,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,PR,*
+585,Younger2,>=35,2018,fv_150,0.0580946019922611,13.079454450409738,0.0432018999229648,0.0729873040615574,1707,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,PR,
+586,Younger2,15 à 34 ans,2018,fv_150,0.0329947722917209,29.40150293317181,0.0139812421476575,0.0520083024357843,310,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,QC,*
+587,Younger2,>=35,2018,fv_150,0.0354113637269894,12.779695770605423,0.0265416161907144,0.0442811112632643,1690,Protection de l'environnement,Younger Canadians Volunteer Rate by Activity,QC,
+588,Younger2,15 à 34 ans,2018,fv_160,0.0801681012883886,23.439615174040576,0.0433382329670041,0.116997969609773,279,Autre,Younger Canadians Volunteer Rate by Activity,AB,*
+589,Younger2,>=35,2018,fv_160,0.0823104048516321,11.081829867567292,0.0644325952698461,0.100188214433418,1133,Autre,Younger Canadians Volunteer Rate by Activity,AB,
+590,Younger2,15 à 34 ans,2018,fv_160,0.0479319357900722,21.327125889997248,0.0278961955548417,0.0679676760253028,556,Autre,Younger Canadians Volunteer Rate by Activity,AT,*
+591,Younger2,>=35,2018,fv_160,0.0796186832942628,6.417390338705078,0.0696043616016761,0.0896330049868495,3490,Autre,Younger Canadians Volunteer Rate by Activity,AT,
+592,Younger2,15 à 34 ans,2018,fv_160,0.0653407491137114,22.923690204224247,0.0359834071999356,0.0946980910274872,370,Autre,Younger Canadians Volunteer Rate by Activity,BC,*
+593,Younger2,>=35,2018,fv_160,0.067191907976015,9.609143362995942,0.0545372696513715,0.0798465463006585,1807,Autre,Younger Canadians Volunteer Rate by Activity,BC,
+594,Younger2,15 à 34 ans,2018,fv_160,0.0830962803545236,17.579094226161587,0.0544659625459631,0.111726598163084,734,Autre,Younger Canadians Volunteer Rate by Activity,ON,*
+595,Younger2,>=35,2018,fv_160,0.0806500590110853,6.865443788915192,0.0697977688725469,0.0915023491496236,3607,Autre,Younger Canadians Volunteer Rate by Activity,ON,
+596,Younger2,15 à 34 ans,2018,fv_160,0.0950972642712019,19.636439657393115,0.0584974516613909,0.131697076881013,440,Autre,Younger Canadians Volunteer Rate by Activity,PR,*
+597,Younger2,>=35,2018,fv_160,0.0851998570094657,8.64640622094499,0.0707613398815441,0.0996383741373872,1711,Autre,Younger Canadians Volunteer Rate by Activity,PR,
+598,Younger2,15 à 34 ans,2018,fv_160,0.0639862100958265,24.22918940450427,0.0336002219834602,0.0943721982081927,310,Autre,Younger Canadians Volunteer Rate by Activity,QC,*
+599,Younger2,>=35,2018,fv_160,0.0697214964145005,8.893890876473037,0.0575678502799466,0.0818751425490545,1701,Autre,Younger Canadians Volunteer Rate by Activity,QC,

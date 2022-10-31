@@ -7,7 +7,8 @@ from utils.graphs.HDC0102_graph_utils import don_rate_avg_don_by_meth, don_rate_
 from utils.data.HDC0102_data_utils import get_data, process_data, get_region_names, get_region_values
 
 from app import app
-from homepage import footer #navbar, footer
+from homepage import footer
+from utils.home_button import gen_home_button #navbar, footer
 
 ####################### Data processing ######################
 DonMethAvgDon_2018, DonMethDonRates_2018 = get_data()
@@ -40,7 +41,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -65,9 +66,10 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     dbc.Container([
+        home_button,
         dbc.Row([
            dbc.Col(
                html.Div([

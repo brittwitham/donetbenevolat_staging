@@ -1,4 +1,4 @@
-# StatsCan Data Portal
+# StatsCan Data Portal - Staging Environment
 
 ## Usage
 
@@ -40,14 +40,14 @@ And navigate to: [localhost:8050](localhost:8050)
 
 ## Reference
 
-| Code    | Blog Title                               |
-| ------- | ---------------------------------------- |
-| WDA0101 | Who Donates And How Much Do They Donate? |
-| HDC0102 | How Do Canadians Donate?                 |
-| UTD103  | Understanding Top Donors                 |
-| WDC0105 | Why Do Canadians Give?  |
-| WKC0106 | What Keeps Canadians From Giving More?|
-| WVA0201 | Who Volunteers and How Much Time Do They Contribute?|
-| UTV0203 | Understanding Top Volunteers|
+| Code    | Blog Title                                           |
+| ------- | ---------------------------------------------------- |
+| WDA0101 | Who Donates And How Much Do They Donate?             |
+| HDC0102 | How Do Canadians Donate?                             |
+| UTD103  | Understanding Top Donors                             |
+| WDC0105 | Why Do Canadians Give?                               |
+| WKC0106 | What Keeps Canadians From Giving More?               |
+| WVA0201 | Who Volunteers and How Much Time Do They Contribute? |
+| UTV0203 | Understanding Top Volunteers                         |
 
 [See full reference here.](https://docs.google.com/document/d/1eU3A8B6lnt5WAGv63xGwjQ_cgT90bfARafgWELqKmS0/edit)

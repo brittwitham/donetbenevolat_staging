@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -46,7 +48,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -71,10 +73,11 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="bg-secondary text-white text-center pt-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
+        home_button,
         dbc.Row([
            dbc.Col([
                     html.Div([
@@ -116,9 +119,9 @@ layout = html.Div([
                 [
                     dcc.Graph(id='MotivationsOverall', style={'marginTop': marginTop}),
                     dcc.Markdown('''
-                    Quant à l’incidence de ces motivations éventuelles sur les montants des dons, certaines motivations ont tendance à être associées à des dons beaucoup plus importants que d’autres. Les convictions religieuses et spirituelles semblent être, et de loin, les facteurs les plus significatifs. Bien que les personnes motivées par ce facteur aient tendance à réserver leur soutien à des organismes religieux, elles ont également tendance à donner des montants relativement plus élevés à des causes laïques. Bien que seulement une minorité de personnes déclarent que les crédits d’impôt qu’elles reçoivent constituent un facteur pertinent pour leurs décisions de donner, les personnes motivées par ce facteur ont également tendance à donner des montants nettement plus importants. Au chapitre de certaines motivations plus courantes, les personnes qui donnent par motivation envers une cause ou pour contribuer à la communauté ou par compassion envers les personnes dans le besoin donnent des montants environ deux fois plus supérieurs à ceux des personnes non motivées par ces facteurs. Les relations personnelles avec la cause et donner à la suite d’une sollicitation par une personne amie ou un proche parent sont associés à des différences plus petites dans les montants habituels des dons.
+                    Quant à l’incidence de ces motivations éventuelles sur les montants des dons, certaines motivations ont tendance à être associées à des dons beaucoup plus importants que d’autres. Les convictions religieuses et spirituelles semblent être, et de loin, les facteurs les plus significatifs. Bien que les personnes motivées par ce facteur aient tendance à réserver leur soutien à des organismes religieux, elles ont également tendance à donner des montants relativement plus élevés à des causes laïques. Bien que seulement une minorité de personnes déclarent que les crédits d’impôt qu’elles reçoivent constituent un facteur pertinent pour leurs décisions de donner, les personnes motivées par ce facteur ont également tendance à donner des montants nettement plus importants. Au chapitre de certaines motivations plus courantes, les personnes qui donnent par motivation envers une cause ou pour contribuer à la communauté ou par compassion envers les personnes dans le besoin donnent des montants environ deux fois plus supérieurs à ceux des personnes non motivées par ces facteurs. Les relations personnelles avec la cause et donner à la suite d’une sollicitation par une personne amie ou un proche parent sont associés à des différences plus petites dans les montants habituels des dons. 
                     '''),
-                    # Average amounts contributed by donors reporting and not reporting specific motivations.
+                    ## Average amounts contributed by donors reporting and not reporting specific motivations.
                     dcc.Graph(id='MotivationsAvgAmts', style={'marginTop': marginTop}),
 
                 ], className='col-md-10 col-lg-8 mx-auto'

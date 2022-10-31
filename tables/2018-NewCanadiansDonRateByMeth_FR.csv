@@ -1,0 +1,313 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,ImmStat,Né.e au Canada,2018,fg1a_030,0.1466614970895915,2.8726408291399967,0.1384040550546086,0.1549189391245744,12093,Demande par lettre,New Canadians Dontation Rates by Method,CA,
+1,ImmStat,Naturalisé.e,2018,fg1a_030,0.1395580063837158,5.979623584816249,0.1232020217444232,0.1559139910230085,2492,Demande par lettre,New Canadians Dontation Rates by Method,CA,
+2,ImmStat,Non canadien.ne,2018,fg1a_030,0.0781664314154408,20.371389833462025,0.0469567715242147,0.1093760913066668,319,Demande par lettre,New Canadians Dontation Rates by Method,CA,*
+3,ImmStat,Né.e au Canada,2018,fg1a_040,0.0601734221524704,4.691578167621858,0.0546402808797322,0.0657065634252086,12093,Demande au téléphone,New Canadians Dontation Rates by Method,CA,
+4,ImmStat,Naturalisé.e,2018,fg1a_040,0.0492856489646238,9.577068278208577,0.0400343832666333,0.0585369146626143,2492,Demande au téléphone,New Canadians Dontation Rates by Method,CA,
+5,ImmStat,Non canadien.ne,2018,fg1a_040,0.0380439762192571,34.26910522137965,0.0124912784923934,0.0635966739461207,319,Demande au téléphone,New Canadians Dontation Rates by Method,CA,...
+6,ImmStat,Né.e au Canada,2018,fg1a_050,0.0518263075593678,5.424964369821203,0.0463157537291405,0.0573368613895951,12093,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA,
+7,ImmStat,Naturalisé.e,2018,fg1a_050,0.0286681232345285,16.607484373632346,0.0193366286967608,0.0379996177722962,2492,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA,*
+8,ImmStat,Non canadien.ne,2018,fg1a_050,0.0154861222561984,35.79638805108259,0.0046211159697952,0.0263511285426016,319,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA,...
+9,ImmStat,Né.e au Canada,2018,fg1a_060,0.1264629071102966,3.810963183768228,0.1170169492162301,0.1359088650043632,12093,En ligne,New Canadians Dontation Rates by Method,CA,
+10,ImmStat,Naturalisé.e,2018,fg1a_060,0.1082278133274618,7.67193667502081,0.0919539005355677,0.1245017261193558,2492,En ligne,New Canadians Dontation Rates by Method,CA,
+11,ImmStat,Non canadien.ne,2018,fg1a_060,0.1219363738001682,23.98072556686849,0.0646246216886838,0.1792481259116525,319,En ligne,New Canadians Dontation Rates by Method,CA,*
+12,ImmStat,Né.e au Canada,2018,fg1a_070,0.1691761391088039,2.9728221707927878,0.1593188809301736,0.1790333972874342,12093,Initiative personnelle,New Canadians Dontation Rates by Method,CA,
+13,ImmStat,Naturalisé.e,2018,fg1a_070,0.1593445755442951,5.731480656526604,0.141444609558305,0.1772445415302851,2492,Initiative personnelle,New Canadians Dontation Rates by Method,CA,
+14,ImmStat,Non canadien.ne,2018,fg1a_070,0.085539862402029,17.7797980022321,0.05573113325141,0.1153485915526481,319,Initiative personnelle,New Canadians Dontation Rates by Method,CA,*
+15,ImmStat,Né.e au Canada,2018,fg1a_080,0.1501161244604077,3.171779941615237,0.1407840438181903,0.1594482051026251,12093,Activité caritative,New Canadians Dontation Rates by Method,CA,
+16,ImmStat,Naturalisé.e,2018,fg1a_080,0.124535679778771,6.843125139578418,0.107832607182345,0.141238752375197,2492,Activité caritative,New Canadians Dontation Rates by Method,CA,
+17,ImmStat,Non canadien.ne,2018,fg1a_080,0.1542577641666865,21.407392587506568,0.0895347257526894,0.2189808025806836,319,Activité caritative,New Canadians Dontation Rates by Method,CA,*
+18,ImmStat,Né.e au Canada,2018,fg1a_090,0.1848904079079248,2.6605320401475048,0.1752492107290033,0.1945316050868463,12093,À la mémoire,New Canadians Dontation Rates by Method,CA,
+19,ImmStat,Naturalisé.e,2018,fg1a_090,0.1278447658312348,6.292250270454139,0.1120782028082503,0.1436113288542193,2492,À la mémoire,New Canadians Dontation Rates by Method,CA,
+20,ImmStat,Non canadien.ne,2018,fg1a_090,0.0781119803410028,23.13039563572528,0.0427001152744135,0.113523845407592,319,À la mémoire,New Canadians Dontation Rates by Method,CA,*
+21,ImmStat,Né.e au Canada,2018,fg1a_100,0.1569469207723892,3.109767338549545,0.1473809557536348,0.1665128857911436,12093,Au travail,New Canadians Dontation Rates by Method,CA,
+22,ImmStat,Naturalisé.e,2018,fg1a_100,0.1510994976065896,6.303465793473364,0.1324318105503699,0.1697671846628093,2492,Au travail,New Canadians Dontation Rates by Method,CA,
+23,ImmStat,Non canadien.ne,2018,fg1a_100,0.0774898761626691,24.2147856612976,0.0407130974099161,0.1142666549154221,319,Au travail,New Canadians Dontation Rates by Method,CA,*
+24,ImmStat,Né.e au Canada,2018,fg1a_110,0.1635651716712673,2.8177345496426125,0.1545320262478918,0.1725983170946429,12093,Porte-à-porte,New Canadians Dontation Rates by Method,CA,
+25,ImmStat,Naturalisé.e,2018,fg1a_110,0.1201420252284628,7.589247432165661,0.1022713175063232,0.1380127329506024,2492,Porte-à-porte,New Canadians Dontation Rates by Method,CA,
+26,ImmStat,Non canadien.ne,2018,fg1a_110,0.0897441607697627,25.383790426105,0.0450952606275082,0.1343930609120171,319,Porte-à-porte,New Canadians Dontation Rates by Method,CA,*
+27,ImmStat,Né.e au Canada,2018,fg1a_120,0.3371192329510159,2.067433145737096,0.3234588430336382,0.3507796228683936,12093,Lieu public,New Canadians Dontation Rates by Method,CA,
+28,ImmStat,Naturalisé.e,2018,fg1a_120,0.2630672923324916,4.975603966504703,0.2374129579470994,0.2887216267178839,2492,Lieu public,New Canadians Dontation Rates by Method,CA,
+29,ImmStat,Non canadien.ne,2018,fg1a_120,0.2122962867108869,15.638671727174533,0.1472248564749735,0.2773677169468004,319,Lieu public,New Canadians Dontation Rates by Method,CA,
+30,ImmStat,Né.e au Canada,2018,fg1a_130,0.2129388753050953,2.64150538723548,0.201914485833664,0.2239632647765267,12093,Lieu de culture,New Canadians Dontation Rates by Method,CA,
+31,ImmStat,Naturalisé.e,2018,fg1a_130,0.2891286507694909,4.414420591728636,0.2641129352431158,0.314144366295866,2492,Lieu de culture,New Canadians Dontation Rates by Method,CA,
+32,ImmStat,Non canadien.ne,2018,fg1a_130,0.19509914984585,17.066172626600945,0.1298402719118629,0.2603580277798373,319,Lieu de culture,New Canadians Dontation Rates by Method,CA,*
+33,ImmStat,Né.e au Canada,2018,fg1a_140,0.2223606750264007,2.330753664847194,0.2122028097015703,0.2325185403512311,12093,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA,
+34,ImmStat,Naturalisé.e,2018,fg1a_140,0.1327794167617733,6.086798288511627,0.1169389579160458,0.1486198756075008,2492,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA,
+35,ImmStat,Non canadien.ne,2018,fg1a_140,0.1203515823045512,24.405693507883864,0.0627822690877205,0.1779208955213819,319,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA,*
+36,ImmStat,Né.e au Canada,2018,fg1a_170,0.0505440272221734,5.269236435819071,0.045324085916481,0.0557639685278657,12093,Autre méthode,New Canadians Dontation Rates by Method,CA,
+37,ImmStat,Naturalisé.e,2018,fg1a_170,0.0595468536363699,9.96227721659975,0.0479199109273811,0.0711737963453587,2492,Autre méthode,New Canadians Dontation Rates by Method,CA,
+38,ImmStat,Non canadien.ne,2018,fg1a_170,0.0372806044743217,38.94283553167072,0.0088256033593829,0.0657356055892605,319,Autre méthode,New Canadians Dontation Rates by Method,CA,...
+39,ImmStat,Né.e au Canada,2018,fg1a_030,0.1511404621496843,3.065369255078052,0.142059923022698,0.1602210012766707,10472,Demande par lettre,New Canadians Dontation Rates by Method,CA (without QC),
+40,ImmStat,Naturalisé.e,2018,fg1a_030,0.1436496581536734,6.1720220035487445,0.1262724439917651,0.1610268723155817,2280,Demande par lettre,New Canadians Dontation Rates by Method,CA (without QC),
+41,ImmStat,Non canadien.ne,2018,fg1a_030,0.0881163409330793,21.903603134683213,0.0502877549700157,0.1259449268961429,274,Demande par lettre,New Canadians Dontation Rates by Method,CA (without QC),*
+42,ImmStat,Né.e au Canada,2018,fg1a_040,0.0625791120299948,5.161609082755144,0.0562482536674629,0.0689099703925266,10472,Demande au téléphone,New Canadians Dontation Rates by Method,CA (without QC),
+43,ImmStat,Naturalisé.e,2018,fg1a_040,0.0544824328075035,9.876106605730037,0.0439363700323327,0.0650284955826742,2280,Demande au téléphone,New Canadians Dontation Rates by Method,CA (without QC),
+44,ImmStat,Non canadien.ne,2018,fg1a_040,0.0491540211656872,34.01395341511165,0.0163849406288326,0.0819231017025419,274,Demande au téléphone,New Canadians Dontation Rates by Method,CA (without QC),...
+45,ImmStat,Né.e au Canada,2018,fg1a_050,0.0389767833625122,6.283529785092795,0.034176600696581,0.0437769660284433,10472,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA (without QC),
+46,ImmStat,Naturalisé.e,2018,fg1a_050,0.0278863743113342,17.781952314360012,0.0181674190094993,0.0376053296131691,2280,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA (without QC),*
+47,ImmStat,Non canadien.ne,2018,fg1a_050,0.0154317651853977,41.34848216381099,0.0029256256693879,0.0279379047014074,274,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,CA (without QC),...
+48,ImmStat,Né.e au Canada,2018,fg1a_060,0.1389765539050755,3.862673640583035,0.1284550542436607,0.1494980535664903,10472,En ligne,New Canadians Dontation Rates by Method,CA (without QC),
+49,ImmStat,Naturalisé.e,2018,fg1a_060,0.1105601666412134,7.927359639421577,0.0933820583247033,0.1277382749577236,2280,En ligne,New Canadians Dontation Rates by Method,CA (without QC),
+50,ImmStat,Non canadien.ne,2018,fg1a_060,0.1306078467427033,26.74165844738713,0.0621527642524381,0.1990629292329685,274,En ligne,New Canadians Dontation Rates by Method,CA (without QC),*
+51,ImmStat,Né.e au Canada,2018,fg1a_070,0.1579615684547911,3.1533355608651643,0.14819887356115,0.1677242633484322,10472,Initiative personnelle,New Canadians Dontation Rates by Method,CA (without QC),
+52,ImmStat,Naturalisé.e,2018,fg1a_070,0.1582490914666947,5.899326560522865,0.1399515915517532,0.1765465913816361,2280,Initiative personnelle,New Canadians Dontation Rates by Method,CA (without QC),
+53,ImmStat,Non canadien.ne,2018,fg1a_070,0.0803908750031879,20.85185026715124,0.0475360283569283,0.1132457216494474,274,Initiative personnelle,New Canadians Dontation Rates by Method,CA (without QC),*
+54,ImmStat,Né.e au Canada,2018,fg1a_080,0.1504217062356452,3.2498356445445644,0.1408405041720155,0.1600029082992748,10472,Activité caritative,New Canadians Dontation Rates by Method,CA (without QC),
+55,ImmStat,Naturalisé.e,2018,fg1a_080,0.1182453540945538,7.087208209627008,0.1018202788066448,0.1346704293824628,2280,Activité caritative,New Canadians Dontation Rates by Method,CA (without QC),
+56,ImmStat,Non canadien.ne,2018,fg1a_080,0.1732125760122976,22.932891534096846,0.0953576083684682,0.2510675436561269,274,Activité caritative,New Canadians Dontation Rates by Method,CA (without QC),*
+57,ImmStat,Né.e au Canada,2018,fg1a_090,0.1978774481679177,2.7841634298441638,0.1870795527517378,0.2086753435840975,10472,À la mémoire,New Canadians Dontation Rates by Method,CA (without QC),
+58,ImmStat,Naturalisé.e,2018,fg1a_090,0.1336006731664679,6.316640902437013,0.1170603905599851,0.1501409557729507,2280,À la mémoire,New Canadians Dontation Rates by Method,CA (without QC),
+59,ImmStat,Non canadien.ne,2018,fg1a_090,0.0929631678824335,24.085505788543472,0.0490783018961499,0.136848033868717,274,À la mémoire,New Canadians Dontation Rates by Method,CA (without QC),*
+60,ImmStat,Né.e au Canada,2018,fg1a_100,0.1643604912810466,3.30267342529148,0.1537212378596707,0.1749997447024225,10472,Au travail,New Canadians Dontation Rates by Method,CA (without QC),
+61,ImmStat,Naturalisé.e,2018,fg1a_100,0.1600984949907684,6.43487034677501,0.1399066900903434,0.1802902998911935,2280,Au travail,New Canadians Dontation Rates by Method,CA (without QC),
+62,ImmStat,Non canadien.ne,2018,fg1a_100,0.0915733839074843,25.341193843067032,0.0460908737743216,0.137055894040647,274,Au travail,New Canadians Dontation Rates by Method,CA (without QC),*
+63,ImmStat,Né.e au Canada,2018,fg1a_110,0.1590834864758747,3.228126990861385,0.1490182541790139,0.1691487187727356,10472,Porte-à-porte,New Canadians Dontation Rates by Method,CA (without QC),
+64,ImmStat,Naturalisé.e,2018,fg1a_110,0.1170709051195517,7.839882877121484,0.0990819208620975,0.1350598893770059,2280,Porte-à-porte,New Canadians Dontation Rates by Method,CA (without QC),
+65,ImmStat,Non canadien.ne,2018,fg1a_110,0.111223536979133,25.88425213852468,0.0547973875737568,0.1676496863845093,274,Porte-à-porte,New Canadians Dontation Rates by Method,CA (without QC),*
+66,ImmStat,Né.e au Canada,2018,fg1a_120,0.3251441827632017,2.2072177332040805,0.3110782267147498,0.3392101388116535,10472,Lieu public,New Canadians Dontation Rates by Method,CA (without QC),
+67,ImmStat,Naturalisé.e,2018,fg1a_120,0.2539130225123997,5.307411400246881,0.2275001388053268,0.2803259062194726,2280,Lieu public,New Canadians Dontation Rates by Method,CA (without QC),
+68,ImmStat,Non canadien.ne,2018,fg1a_120,0.2191571957298944,17.105199366852343,0.1456834863488084,0.2926309051109804,274,Lieu public,New Canadians Dontation Rates by Method,CA (without QC),*
+69,ImmStat,Né.e au Canada,2018,fg1a_130,0.2066299264356695,3.0011987637472366,0.1944754551775056,0.2187843976938334,10472,Lieu de culture,New Canadians Dontation Rates by Method,CA (without QC),
+70,ImmStat,Naturalisé.e,2018,fg1a_130,0.2950875278824742,4.530478640282805,0.2688850096238695,0.3212900461410789,2280,Lieu de culture,New Canadians Dontation Rates by Method,CA (without QC),
+71,ImmStat,Non canadien.ne,2018,fg1a_130,0.1852517959081967,19.737092670690256,0.1135890082331976,0.2569145835831958,274,Lieu de culture,New Canadians Dontation Rates by Method,CA (without QC),*
+72,ImmStat,Né.e au Canada,2018,fg1a_140,0.2619630335484901,2.456473638692619,0.2493505616998919,0.2745755053970883,10472,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA (without QC),
+73,ImmStat,Naturalisé.e,2018,fg1a_140,0.1437653583819626,6.073995878410637,0.1266503610721362,0.160880355691789,2280,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA (without QC),
+74,ImmStat,Non canadien.ne,2018,fg1a_140,0.1360057257623186,26.02612355408556,0.0666288448762484,0.2053826066483888,274,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,CA (without QC),*
+75,ImmStat,Né.e au Canada,2018,fg1a_170,0.0552619459766778,5.477641238374557,0.0493290347591013,0.0611948571942543,10472,Autre méthode,New Canadians Dontation Rates by Method,CA (without QC),
+76,ImmStat,Naturalisé.e,2018,fg1a_170,0.0554126358252815,10.474998443441692,0.0440360783053072,0.0667891933452558,2280,Autre méthode,New Canadians Dontation Rates by Method,CA (without QC),
+77,ImmStat,Non canadien.ne,2018,fg1a_170,0.0464178630836642,40.37081905822358,0.0096895658153948,0.0831461603519335,274,Autre méthode,New Canadians Dontation Rates by Method,CA (without QC),...
+78,ImmStat,Né.e au Canada,2018,fg1a_030,0.1484396715406609,8.843452492503536,0.1227108483303683,0.1741684947509534,1039,Demande par lettre,New Canadians Dontation Rates by Method,AB,
+79,ImmStat,Naturalisé.e,2018,fg1a_030,0.1274466060753258,17.120133255242013,0.0846820954705001,0.1702111166801515,244,Demande par lettre,New Canadians Dontation Rates by Method,AB,*
+80,ImmStat,Non canadien.ne,2018,fg1a_030,0.0784016112426511,62.49035676618,-0.0176237795247297,0.174427002010032,23,Demande par lettre,New Canadians Dontation Rates by Method,AB,...
+81,ImmStat,Né.e au Canada,2018,fg1a_030,0.142560472418485,4.589552156604618,0.1297366490803355,0.1553842957566344,3527,Demande par lettre,New Canadians Dontation Rates by Method,AT,
+82,ImmStat,Naturalisé.e,2018,fg1a_030,0.1420217382351581,26.1763096665426,0.0691580191589842,0.2148854573113319,114,Demande par lettre,New Canadians Dontation Rates by Method,AT,*
+83,ImmStat,Non canadien.ne,2018,fg1a_030,0.037492371639079,76.00680013679084,-0.0183602359146764,0.0933449791928344,30,Demande par lettre,New Canadians Dontation Rates by Method,AT,...
+84,ImmStat,Né.e au Canada,2018,fg1a_030,0.1418195306744915,8.452914067745656,0.1183237116275915,0.1653153497213915,1417,Demande par lettre,New Canadians Dontation Rates by Method,BC,
+85,ImmStat,Naturalisé.e,2018,fg1a_030,0.1173492206499965,12.80342577391311,0.0879013098623228,0.1467971314376703,548,Demande par lettre,New Canadians Dontation Rates by Method,BC,
+86,ImmStat,Non canadien.ne,2018,fg1a_030,0.0534313303167895,56.93935277840826,-0.0061975431485494,0.1130602037821285,68,Demande par lettre,New Canadians Dontation Rates by Method,BC,...
+87,ImmStat,Né.e au Canada,2018,fg1a_030,0.1534333100492797,4.87792657069643,0.1387642257716808,0.1681023943268786,2802,Demande par lettre,New Canadians Dontation Rates by Method,ON,
+88,ImmStat,Naturalisé.e,2018,fg1a_030,0.1589030424412682,7.883741431127624,0.1343495838402839,0.1834565010422525,1147,Demande par lettre,New Canadians Dontation Rates by Method,ON,
+89,ImmStat,Non canadien.ne,2018,fg1a_030,0.0993227738066449,28.96249410207602,0.0429417589287564,0.1557037886845333,120,Demande par lettre,New Canadians Dontation Rates by Method,ON,*
+90,ImmStat,Né.e au Canada,2018,fg1a_030,0.1697119323322035,6.460467958196962,0.1482225245936341,0.191201340070773,1687,Demande par lettre,New Canadians Dontation Rates by Method,PR,
+91,ImmStat,Naturalisé.e,2018,fg1a_030,0.1132490616228265,17.04028510338495,0.0754257492120612,0.1510723740335919,227,Demande par lettre,New Canadians Dontation Rates by Method,PR,*
+92,ImmStat,Non canadien.ne,2018,fg1a_030,0.1446707447627452,43.58170130851368,0.0210950706844099,0.2682464188410806,33,Demande par lettre,New Canadians Dontation Rates by Method,PR,...
+93,ImmStat,Né.e au Canada,2018,fg1a_030,0.1339056761984464,6.645170912373738,0.1164654050256879,0.151345947371205,1621,Demande par lettre,New Canadians Dontation Rates by Method,QC,
+94,ImmStat,Naturalisé.e,2018,fg1a_030,0.1141553285749027,19.34159128337964,0.0708803878976376,0.1574302692521678,212,Demande par lettre,New Canadians Dontation Rates by Method,QC,*
+95,ImmStat,Non canadien.ne,2018,fg1a_030,0.0440950912095283,61.9873469930924,-0.009477343668463,0.0976675260875198,45,Demande par lettre,New Canadians Dontation Rates by Method,QC,...
+96,ImmStat,Né.e au Canada,2018,fg1a_040,0.0553597229370726,15.019635573279936,0.0390629582659799,0.0716564876081653,1039,Demande au téléphone,New Canadians Dontation Rates by Method,AB,
+97,ImmStat,Naturalisé.e,2018,fg1a_040,0.0323329180972293,39.59206545008796,0.0072428897547021,0.0574229464397566,244,Demande au téléphone,New Canadians Dontation Rates by Method,AB,...
+98,ImmStat,Non canadien.ne,2018,fg1a_040,0.0603468746033904,75.28523639033384,-0.0286987720425977,0.1493925212493786,23,Demande au téléphone,New Canadians Dontation Rates by Method,AB,...
+99,ImmStat,Né.e au Canada,2018,fg1a_040,0.0973951836321977,5.338810726668173,0.0872038716618006,0.1075864956025949,3527,Demande au téléphone,New Canadians Dontation Rates by Method,AT,
+100,ImmStat,Naturalisé.e,2018,fg1a_040,0.0728976393819496,34.7682081261173,0.0232219543615806,0.1225733244023185,114,Demande au téléphone,New Canadians Dontation Rates by Method,AT,...
+101,ImmStat,Non canadien.ne,2018,fg1a_040,0.0854515487587771,73.52877170755356,-0.0376958777833038,0.2085989753008581,30,Demande au téléphone,New Canadians Dontation Rates by Method,AT,...
+102,ImmStat,Né.e au Canada,2018,fg1a_040,0.0637750808630575,12.79279005245696,0.047784494786061,0.0797656669400539,1417,Demande au téléphone,New Canadians Dontation Rates by Method,BC,
+103,ImmStat,Naturalisé.e,2018,fg1a_040,0.0586790722959373,24.44970166673496,0.0305597470949889,0.0867983974968856,548,Demande au téléphone,New Canadians Dontation Rates by Method,BC,*
+104,ImmStat,Non canadien.ne,2018,fg1a_040,0.0341358568909262,87.86083356020737,-0.0246474778099387,0.0929191915917912,68,Demande au téléphone,New Canadians Dontation Rates by Method,BC,...
+105,ImmStat,Né.e au Canada,2018,fg1a_040,0.0539085433363958,9.221102909641033,0.0441656363419384,0.0636514503308532,2802,Demande au téléphone,New Canadians Dontation Rates by Method,ON,
+106,ImmStat,Naturalisé.e,2018,fg1a_040,0.0594222060095778,12.252497717285584,0.0451522875351236,0.073692124484032,1147,Demande au téléphone,New Canadians Dontation Rates by Method,ON,
+107,ImmStat,Non canadien.ne,2018,fg1a_040,0.0478205659377176,51.23811010952291,-0.0002031658898479366,0.0958442977652833,120,Demande au téléphone,New Canadians Dontation Rates by Method,ON,...
+108,ImmStat,Né.e au Canada,2018,fg1a_040,0.0742523627734464,11.957267409416396,0.0568507175323604,0.0916540080145324,1687,Demande au téléphone,New Canadians Dontation Rates by Method,PR,
+109,ImmStat,Naturalisé.e,2018,fg1a_040,0.0308322585546602,34.47140344286004,0.0100011493538454,0.0516633677554749,227,Demande au téléphone,New Canadians Dontation Rates by Method,PR,...
+110,ImmStat,Non canadien.ne,2018,fg1a_040,0.0878017885965648,61.09995461793741,-0.0173441111403775,0.1929476883335072,33,Demande au téléphone,New Canadians Dontation Rates by Method,PR,...
+111,ImmStat,Né.e au Canada,2018,fg1a_040,0.0533221632599295,11.138596206313998,0.0416812698781774,0.0649630566416816,1621,Demande au téléphone,New Canadians Dontation Rates by Method,QC,
+112,ImmStat,Naturalisé.e,2018,fg1a_040,0.0170218511087064,41.17754199042244,0.0032841109673877,0.0307595912500251,212,Demande au téléphone,New Canadians Dontation Rates by Method,QC,...
+113,ImmStat,Non canadien.ne,2018,fg1a_040,0.0,,0.0,0.0,45,Demande au téléphone,New Canadians Dontation Rates by Method,QC,
+114,ImmStat,Né.e au Canada,2018,fg1a_050,0.0319206190928941,21.536394782297823,0.0184467476151874,0.0453944905706008,1039,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AB,*
+115,ImmStat,Naturalisé.e,2018,fg1a_050,0.0173287013279072,36.42474862125084,0.0049575342950673,0.0296998683607472,244,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AB,...
+116,ImmStat,Non canadien.ne,2018,fg1a_050,0.0,,0.0,0.0,23,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AB,
+117,ImmStat,Né.e au Canada,2018,fg1a_050,0.0763957621484567,6.891525209775742,0.0660768786768302,0.0867146456200831,3527,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AT,
+118,ImmStat,Naturalisé.e,2018,fg1a_050,0.0649271816185619,39.00974870605856,0.015285350248623,0.1145690129885007,114,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AT,...
+119,ImmStat,Non canadien.ne,2018,fg1a_050,0.0219604221590305,113.318022558288,-0.0268135092187544,0.0707343535368155,30,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,AT,...
+120,ImmStat,Né.e au Canada,2018,fg1a_050,0.0304760425052681,17.624916452525692,0.0199483369798865,0.0410037480306497,1417,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,BC,*
+121,ImmStat,Naturalisé.e,2018,fg1a_050,0.0494591680080991,27.66258031328227,0.0226435638980294,0.0762747721181689,548,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,BC,*
+122,ImmStat,Non canadien.ne,2018,fg1a_050,0.0305018113166317,60.15193851054336,-0.0054584922362628,0.0664621148695263,68,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,BC,...
+123,ImmStat,Né.e au Canada,2018,fg1a_050,0.0321662968441932,12.210455137136906,0.0244682418592999,0.0398643518290866,2802,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,ON,
+124,ImmStat,Naturalisé.e,2018,fg1a_050,0.0233020055528967,26.22820385507092,0.0113232985317758,0.0352807125740176,1147,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,ON,*
+125,ImmStat,Non canadien.ne,2018,fg1a_050,0.0061682782502885,105.7727381589913,-0.0066192261050879,0.018955782605665,120,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,ON,...
+126,ImmStat,Né.e au Canada,2018,fg1a_050,0.0538874464278727,13.530619228741443,0.0395967508586175,0.0681781419971278,1687,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,PR,
+127,ImmStat,Naturalisé.e,2018,fg1a_050,0.0106646716068659,57.9676704487033,-0.0014519466586876,0.0227812898724194,227,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,PR,...
+128,ImmStat,Non canadien.ne,2018,fg1a_050,0.0718835522597734,67.95088330111454,-0.0238518856158834,0.1676189901354302,33,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,PR,...
+129,ImmStat,Né.e au Canada,2018,fg1a_050,0.0884209732896083,9.298037102267765,0.0723072961784455,0.1045346504007712,1621,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,QC,
+130,ImmStat,Naturalisé.e,2018,fg1a_050,0.0335215460426718,37.24143309260329,0.0090535435396892,0.0579895485456545,212,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,QC,...
+131,ImmStat,Non canadien.ne,2018,fg1a_050,0.0156722564364708,81.98744866101839,-0.0095118758624391,0.0408563887353809,45,Demande à la télé ou la radio,New Canadians Dontation Rates by Method,QC,...
+132,ImmStat,Né.e au Canada,2018,fg1a_060,0.158359989020877,9.616200951170272,0.1285132365218587,0.1882067415198954,1039,En ligne,New Canadians Dontation Rates by Method,AB,
+133,ImmStat,Naturalisé.e,2018,fg1a_060,0.1145010218362893,20.130833437248448,0.0693238324129715,0.1596782112596071,244,En ligne,New Canadians Dontation Rates by Method,AB,*
+134,ImmStat,Non canadien.ne,2018,fg1a_060,0.087273183008114,74.39187235465484,-0.0399758223289368,0.2145221883451649,23,En ligne,New Canadians Dontation Rates by Method,AB,...
+135,ImmStat,Né.e au Canada,2018,fg1a_060,0.1027956132646491,6.156749804194436,0.0903912585137191,0.1151999680155791,3527,En ligne,New Canadians Dontation Rates by Method,AT,
+136,ImmStat,Naturalisé.e,2018,fg1a_060,0.1486010684846068,29.308409806360903,0.0632395212008172,0.2339626157683964,114,En ligne,New Canadians Dontation Rates by Method,AT,*
+137,ImmStat,Non canadien.ne,2018,fg1a_060,0.0219604221590305,113.318022558288,-0.0268135092187544,0.0707343535368155,30,En ligne,New Canadians Dontation Rates by Method,AT,...
+138,ImmStat,Né.e au Canada,2018,fg1a_060,0.1393177302783558,8.43808999627624,0.1162768729624479,0.1623585875942636,1417,En ligne,New Canadians Dontation Rates by Method,BC,
+139,ImmStat,Naturalisé.e,2018,fg1a_060,0.1050300756208682,16.178111094636208,0.0717265982505452,0.1383335529911912,548,En ligne,New Canadians Dontation Rates by Method,BC,
+140,ImmStat,Non canadien.ne,2018,fg1a_060,0.0614731631837709,55.60962933091383,-0.0055282020693824,0.1284745284369244,68,En ligne,New Canadians Dontation Rates by Method,BC,...
+141,ImmStat,Né.e au Canada,2018,fg1a_060,0.1434746743850414,6.256857083387052,0.1258800672548483,0.1610692815152344,2802,En ligne,New Canadians Dontation Rates by Method,ON,
+142,ImmStat,Naturalisé.e,2018,fg1a_060,0.1127559023843986,10.197632159020394,0.0902193894667412,0.1352924153020559,1147,En ligne,New Canadians Dontation Rates by Method,ON,
+143,ImmStat,Non canadien.ne,2018,fg1a_060,0.1724739444825701,32.10797625977337,0.0639352683712964,0.2810126205938438,120,En ligne,New Canadians Dontation Rates by Method,ON,*
+144,ImmStat,Né.e au Canada,2018,fg1a_060,0.1271545837669658,7.910901826590419,0.1074391604411169,0.1468700070928148,1687,En ligne,New Canadians Dontation Rates by Method,PR,
+145,ImmStat,Naturalisé.e,2018,fg1a_060,0.0872559743332645,21.66353517015132,0.0502073068957523,0.1243046417707766,227,En ligne,New Canadians Dontation Rates by Method,PR,*
+146,ImmStat,Non canadien.ne,2018,fg1a_060,0.0911374845067073,56.051447988496925,-0.0089850799474194,0.1912600489608341,33,En ligne,New Canadians Dontation Rates by Method,PR,...
+147,ImmStat,Né.e au Canada,2018,fg1a_060,0.0908247998538982,10.384467363766245,0.0723390630097857,0.1093105366980107,1621,En ligne,New Canadians Dontation Rates by Method,QC,
+148,ImmStat,Naturalisé.e,2018,fg1a_060,0.0937475928452174,26.804371456509923,0.0444967299431841,0.1429984557472506,212,En ligne,New Canadians Dontation Rates by Method,QC,*
+149,ImmStat,Non canadien.ne,2018,fg1a_060,0.0922427666183415,55.44205383702132,-0.0079923087902068,0.1924778420268899,45,En ligne,New Canadians Dontation Rates by Method,QC,...
+150,ImmStat,Né.e au Canada,2018,fg1a_070,0.1830825172363893,7.918667900632963,0.154667554190423,0.2114974802823556,1039,Initiative personnelle,New Canadians Dontation Rates by Method,AB,
+151,ImmStat,Naturalisé.e,2018,fg1a_070,0.1634688748960337,18.46188272803031,0.1043182751410902,0.2226194746509772,244,Initiative personnelle,New Canadians Dontation Rates by Method,AB,*
+152,ImmStat,Non canadien.ne,2018,fg1a_070,0.0466162894922183,88.33220247016882,-0.0340895301201154,0.1273221091045521,23,Initiative personnelle,New Canadians Dontation Rates by Method,AB,...
+153,ImmStat,Né.e au Canada,2018,fg1a_070,0.1515268443976017,5.047649186290402,0.1365359745480505,0.1665177142471529,3527,Initiative personnelle,New Canadians Dontation Rates by Method,AT,
+154,ImmStat,Naturalisé.e,2018,fg1a_070,0.1930921157071531,25.807268573645864,0.0954235806680254,0.2907606507462807,114,Initiative personnelle,New Canadians Dontation Rates by Method,AT,*
+155,ImmStat,Non canadien.ne,2018,fg1a_070,0.1109853784535592,53.95930300867797,-0.006390860534837,0.2283616174419556,30,Initiative personnelle,New Canadians Dontation Rates by Method,AT,...
+156,ImmStat,Né.e au Canada,2018,fg1a_070,0.1534539401112062,7.187841621507525,0.1318354860554454,0.175072394166967,1417,Initiative personnelle,New Canadians Dontation Rates by Method,BC,
+157,ImmStat,Naturalisé.e,2018,fg1a_070,0.1785631163293876,11.567758598823646,0.1380785897784335,0.2190476428803416,548,Initiative personnelle,New Canadians Dontation Rates by Method,BC,
+158,ImmStat,Non canadien.ne,2018,fg1a_070,0.0719501743598751,55.2758750740534,-0.0059997267157474,0.1499000754354977,68,Initiative personnelle,New Canadians Dontation Rates by Method,BC,...
+159,ImmStat,Né.e au Canada,2018,fg1a_070,0.1528600975596285,5.598382144930342,0.136087328648194,0.1696328664710629,2802,Initiative personnelle,New Canadians Dontation Rates by Method,ON,
+160,ImmStat,Naturalisé.e,2018,fg1a_070,0.1514618823858981,8.185240240843084,0.1271631917529308,0.1757605730188654,1147,Initiative personnelle,New Canadians Dontation Rates by Method,ON,
+161,ImmStat,Non canadien.ne,2018,fg1a_070,0.0871092118750304,26.50075331209444,0.0418642324692431,0.1323541912808176,120,Initiative personnelle,New Canadians Dontation Rates by Method,ON,*
+162,ImmStat,Né.e au Canada,2018,fg1a_070,0.1570183367583635,7.222157134238579,0.1347921275975739,0.1792445459191532,1687,Initiative personnelle,New Canadians Dontation Rates by Method,PR,
+163,ImmStat,Naturalisé.e,2018,fg1a_070,0.1310229272468872,18.86914142320803,0.0825669308330311,0.1794789236607432,227,Initiative personnelle,New Canadians Dontation Rates by Method,PR,*
+164,ImmStat,Non canadien.ne,2018,fg1a_070,0.0883401684082697,55.02030389880312,-0.0069239381402218,0.1836042749567614,33,Initiative personnelle,New Canadians Dontation Rates by Method,PR,...
+165,ImmStat,Né.e au Canada,2018,fg1a_070,0.2011145562909897,6.147733229998298,0.1768815882270159,0.2253475243549635,1621,Initiative personnelle,New Canadians Dontation Rates by Method,QC,
+166,ImmStat,Naturalisé.e,2018,fg1a_070,0.1661457968193538,17.431765564143,0.1093810341437505,0.2229105594949571,212,Initiative personnelle,New Canadians Dontation Rates by Method,QC,*
+167,ImmStat,Non canadien.ne,2018,fg1a_070,0.1031714701137248,38.854233065369066,0.0246034062751538,0.1817395339522959,45,Initiative personnelle,New Canadians Dontation Rates by Method,QC,...
+168,ImmStat,Né.e au Canada,2018,fg1a_080,0.1321643064327672,10.246661722650556,0.105621632549015,0.1587069803165194,1039,Activité caritative,New Canadians Dontation Rates by Method,AB,
+169,ImmStat,Naturalisé.e,2018,fg1a_080,0.1167515622814023,19.88131386134713,0.071257378974082,0.1622457455887226,244,Activité caritative,New Canadians Dontation Rates by Method,AB,*
+170,ImmStat,Non canadien.ne,2018,fg1a_080,0.1250566779633383,61.65377947699267,-0.0260607953340301,0.2761741512607069,23,Activité caritative,New Canadians Dontation Rates by Method,AB,...
+171,ImmStat,Né.e au Canada,2018,fg1a_080,0.169998353008342,5.326805828859815,0.1522499340787501,0.1877467719379339,3527,Activité caritative,New Canadians Dontation Rates by Method,AT,
+172,ImmStat,Naturalisé.e,2018,fg1a_080,0.2410443135459661,23.69053149355136,0.1291211993297632,0.3529674277621691,114,Activité caritative,New Canadians Dontation Rates by Method,AT,*
+173,ImmStat,Non canadien.ne,2018,fg1a_080,0.0080716473915994,97.14088374805266,-0.0072961746499588,0.0234394694331576,30,Activité caritative,New Canadians Dontation Rates by Method,AT,...
+174,ImmStat,Né.e au Canada,2018,fg1a_080,0.1512254811291858,7.93283300791466,0.1277128420159344,0.1747381202424371,1417,Activité caritative,New Canadians Dontation Rates by Method,BC,
+175,ImmStat,Naturalisé.e,2018,fg1a_080,0.1232648034142014,14.453744281252012,0.0883453413097205,0.1581842655186824,548,Activité caritative,New Canadians Dontation Rates by Method,BC,
+176,ImmStat,Non canadien.ne,2018,fg1a_080,0.0923687088088089,51.669018396546015,-0.0011725424054322,0.1859099600230501,68,Activité caritative,New Canadians Dontation Rates by Method,BC,...
+177,ImmStat,Né.e au Canada,2018,fg1a_080,0.1434648632713531,5.60783743189329,0.1276964114695545,0.1592333150731517,2802,Activité caritative,New Canadians Dontation Rates by Method,ON,
+178,ImmStat,Naturalisé.e,2018,fg1a_080,0.1149742215913918,9.570046598976088,0.0934085681697277,0.1365398750130559,1147,Activité caritative,New Canadians Dontation Rates by Method,ON,
+179,ImmStat,Non canadien.ne,2018,fg1a_080,0.2019175956291626,29.935237359662853,0.0834485299819187,0.3203866612764064,120,Activité caritative,New Canadians Dontation Rates by Method,ON,*
+180,ImmStat,Né.e au Canada,2018,fg1a_080,0.1906571260183511,5.989633710137312,0.1682749968608669,0.2130392551758353,1687,Activité caritative,New Canadians Dontation Rates by Method,PR,
+181,ImmStat,Naturalisé.e,2018,fg1a_080,0.1118593625026044,20.54707809051909,0.0668118823684983,0.1569068426367105,227,Activité caritative,New Canadians Dontation Rates by Method,PR,*
+182,ImmStat,Non canadien.ne,2018,fg1a_080,0.338490547606411,37.607128264848974,0.0889938464217317,0.5879872487910903,33,Activité caritative,New Canadians Dontation Rates by Method,PR,...
+183,ImmStat,Né.e au Canada,2018,fg1a_080,0.1492458460947073,7.734816304511609,0.1266202334597108,0.1718714587297038,1621,Activité caritative,New Canadians Dontation Rates by Method,QC,
+184,ImmStat,Naturalisé.e,2018,fg1a_080,0.1635886406983481,20.10168659755408,0.099137036343199,0.2280402450534973,212,Activité caritative,New Canadians Dontation Rates by Method,QC,*
+185,ImmStat,Non canadien.ne,2018,fg1a_080,0.0893510590568548,48.12042224761155,0.005080238055713,0.1736218800579967,45,Activité caritative,New Canadians Dontation Rates by Method,QC,...
+186,ImmStat,Né.e au Canada,2018,fg1a_090,0.1429027571461497,8.340284858688952,0.1195429322431593,0.1662625820491401,1039,À la mémoire,New Canadians Dontation Rates by Method,AB,
+187,ImmStat,Naturalisé.e,2018,fg1a_090,0.1003979626089263,22.9939467197517,0.0551513041433463,0.1456446210745064,244,À la mémoire,New Canadians Dontation Rates by Method,AB,*
+188,ImmStat,Non canadien.ne,2018,fg1a_090,0.0543035877470981,80.64608659110635,-0.0315305230593313,0.1401376985535276,23,À la mémoire,New Canadians Dontation Rates by Method,AB,...
+189,ImmStat,Né.e au Canada,2018,fg1a_090,0.2348408181622008,3.4926737201083817,0.2187647554305783,0.2509168808938233,3527,À la mémoire,New Canadians Dontation Rates by Method,AT,
+190,ImmStat,Naturalisé.e,2018,fg1a_090,0.1441220021043191,26.28267388546821,0.0698802993499372,0.2183637048587011,114,À la mémoire,New Canadians Dontation Rates by Method,AT,*
+191,ImmStat,Non canadien.ne,2018,fg1a_090,0.0433100013486636,71.41808330120809,-0.0173139834191679,0.1039339861164951,30,À la mémoire,New Canadians Dontation Rates by Method,AT,...
+192,ImmStat,Né.e au Canada,2018,fg1a_090,0.1302384086129703,9.295879108064543,0.1065095068119409,0.1539673104139997,1417,À la mémoire,New Canadians Dontation Rates by Method,BC,
+193,ImmStat,Naturalisé.e,2018,fg1a_090,0.0981539059610511,16.13565212655022,0.0671124416493105,0.1291953702727918,548,À la mémoire,New Canadians Dontation Rates by Method,BC,
+194,ImmStat,Non canadien.ne,2018,fg1a_090,0.0411872276097417,66.11451036367644,-0.0121840300412986,0.094558485260782,68,À la mémoire,New Canadians Dontation Rates by Method,BC,...
+195,ImmStat,Né.e au Canada,2018,fg1a_090,0.2346637258980393,3.961210580737621,0.2164448329753484,0.2528826188207303,2802,À la mémoire,New Canadians Dontation Rates by Method,ON,
+196,ImmStat,Naturalisé.e,2018,fg1a_090,0.1532165482192488,8.330374741355936,0.1282005231434566,0.1782325732950409,1147,À la mémoire,New Canadians Dontation Rates by Method,ON,
+197,ImmStat,Non canadien.ne,2018,fg1a_090,0.1197832854739776,30.08574434045884,0.0491507050486738,0.1904158658992814,120,À la mémoire,New Canadians Dontation Rates by Method,ON,*
+198,ImmStat,Né.e au Canada,2018,fg1a_090,0.1717220836027409,6.6425051881881,0.1493654637257758,0.1940787034797059,1687,À la mémoire,New Canadians Dontation Rates by Method,PR,
+199,ImmStat,Naturalisé.e,2018,fg1a_090,0.133014396981725,19.62606095054631,0.0818485833985483,0.1841802105649016,227,À la mémoire,New Canadians Dontation Rates by Method,PR,*
+200,ImmStat,Non canadien.ne,2018,fg1a_090,0.1060421298773369,54.66274733339799,-0.0075682438497568,0.2196525036044308,33,À la mémoire,New Canadians Dontation Rates by Method,PR,...
+201,ImmStat,Né.e au Canada,2018,fg1a_090,0.1479041047687071,6.889844130664473,0.1279313617077112,0.1678768478297029,1621,À la mémoire,New Canadians Dontation Rates by Method,QC,
+202,ImmStat,Naturalisé.e,2018,fg1a_090,0.0921096965352899,25.201759054572605,0.0466125355496873,0.1376068575208925,212,À la mémoire,New Canadians Dontation Rates by Method,QC,*
+203,ImmStat,Non canadien.ne,2018,fg1a_090,0.027257260276575,62.139330352688624,-0.0059395885687003,0.0604541091218504,45,À la mémoire,New Canadians Dontation Rates by Method,QC,...
+204,ImmStat,Né.e au Canada,2018,fg1a_100,0.1590982896479774,9.098759234381228,0.1307259091773744,0.1874706701185805,1039,Au travail,New Canadians Dontation Rates by Method,AB,
+205,ImmStat,Naturalisé.e,2018,fg1a_100,0.1676227633983248,19.366008539897688,0.1039987287242925,0.2312467980723571,244,Au travail,New Canadians Dontation Rates by Method,AB,*
+206,ImmStat,Non canadien.ne,2018,fg1a_100,0.0647948594596755,71.98448744371146,-0.0266222657432932,0.1562119846626443,23,Au travail,New Canadians Dontation Rates by Method,AB,...
+207,ImmStat,Né.e au Canada,2018,fg1a_100,0.1803443770310485,4.421814983416312,0.1647146546529393,0.1959740994091577,3527,Au travail,New Canadians Dontation Rates by Method,AT,
+208,ImmStat,Naturalisé.e,2018,fg1a_100,0.1456191670813099,25.238677274726403,0.0735858815397569,0.2176524526228628,114,Au travail,New Canadians Dontation Rates by Method,AT,*
+209,ImmStat,Non canadien.ne,2018,fg1a_100,0.0505468264273215,70.04513617222483,-0.0188468614913881,0.1199405143460312,30,Au travail,New Canadians Dontation Rates by Method,AT,...
+210,ImmStat,Né.e au Canada,2018,fg1a_100,0.1432239518474615,7.902171775920126,0.1210414661728061,0.1654064375221169,1417,Au travail,New Canadians Dontation Rates by Method,BC,
+211,ImmStat,Naturalisé.e,2018,fg1a_100,0.1578450704772536,13.121578425368028,0.1172507575830155,0.1984393833714917,548,Au travail,New Canadians Dontation Rates by Method,BC,
+212,ImmStat,Non canadien.ne,2018,fg1a_100,0.1013507197058387,50.342094527533845,0.0013492900567891,0.2013521493548883,68,Au travail,New Canadians Dontation Rates by Method,BC,...
+213,ImmStat,Né.e au Canada,2018,fg1a_100,0.1671550685115468,5.281963385704231,0.149850410242934,0.1844597267801596,2802,Au travail,New Canadians Dontation Rates by Method,ON,
+214,ImmStat,Naturalisé.e,2018,fg1a_100,0.1602927883578671,8.54949557792879,0.1334330012111349,0.1871525755045992,1147,Au travail,New Canadians Dontation Rates by Method,ON,
+215,ImmStat,Non canadien.ne,2018,fg1a_100,0.098209617915862,33.24344221978572,0.0342202088890568,0.1621990269426672,120,Au travail,New Canadians Dontation Rates by Method,ON,*
+216,ImmStat,Né.e au Canada,2018,fg1a_100,0.1746735810806301,6.535546456698957,0.1522988810719039,0.1970482810893564,1687,Au travail,New Canadians Dontation Rates by Method,PR,
+217,ImmStat,Naturalisé.e,2018,fg1a_100,0.1501899960036879,19.720067800510567,0.0921406273726971,0.2082393646346786,227,Au travail,New Canadians Dontation Rates by Method,PR,*
+218,ImmStat,Non canadien.ne,2018,fg1a_100,0.0471817504614799,64.40194243171813,-0.0123736441641982,0.106737145087158,33,Au travail,New Canadians Dontation Rates by Method,PR,...
+219,ImmStat,Né.e au Canada,2018,fg1a_100,0.1358335215152964,8.057870789745849,0.1143811479953236,0.1572858950352692,1621,Au travail,New Canadians Dontation Rates by Method,QC,
+220,ImmStat,Naturalisé.e,2018,fg1a_100,0.0952299749773415,22.57829869147977,0.0530881852962025,0.1373717646584804,212,Au travail,New Canadians Dontation Rates by Method,QC,*
+221,ImmStat,Non canadien.ne,2018,fg1a_100,0.0292639116133872,72.09267846890725,-0.012085718468949,0.0706135416957235,45,Au travail,New Canadians Dontation Rates by Method,QC,...
+222,ImmStat,Né.e au Canada,2018,fg1a_110,0.1686979855560886,9.144001134962544,0.1384640795221564,0.1989318915900207,1039,Porte-à-porte,New Canadians Dontation Rates by Method,AB,
+223,ImmStat,Naturalisé.e,2018,fg1a_110,0.1280866791383761,21.275185862277723,0.0746763296431587,0.1814970286335936,244,Porte-à-porte,New Canadians Dontation Rates by Method,AB,*
+224,ImmStat,Non canadien.ne,2018,fg1a_110,0.0601999296417326,90.79801764931828,-0.0469323735131988,0.1673322327966642,23,Porte-à-porte,New Canadians Dontation Rates by Method,AB,...
+225,ImmStat,Né.e au Canada,2018,fg1a_110,0.2588804204169823,3.739006543902698,0.239908839544502,0.2778520012894625,3527,Porte-à-porte,New Canadians Dontation Rates by Method,AT,
+226,ImmStat,Naturalisé.e,2018,fg1a_110,0.2090589211871137,26.139107874965823,0.1019544609074443,0.3161633814667832,114,Porte-à-porte,New Canadians Dontation Rates by Method,AT,*
+227,ImmStat,Non canadien.ne,2018,fg1a_110,0.1032760623475945,55.79815447966766,-0.0096690903666715,0.2162212150618607,30,Porte-à-porte,New Canadians Dontation Rates by Method,AT,...
+228,ImmStat,Né.e au Canada,2018,fg1a_110,0.1223100850233667,9.493938989271562,0.0995508953308074,0.1450692747159259,1417,Porte-à-porte,New Canadians Dontation Rates by Method,BC,
+229,ImmStat,Naturalisé.e,2018,fg1a_110,0.1008705319025703,17.6745016391656,0.0659275809227656,0.1358134828823749,548,Porte-à-porte,New Canadians Dontation Rates by Method,BC,*
+230,ImmStat,Non canadien.ne,2018,fg1a_110,0.0794998731508053,56.17990236652615,-0.0080379024830313,0.167037648784642,68,Porte-à-porte,New Canadians Dontation Rates by Method,BC,...
+231,ImmStat,Né.e au Canada,2018,fg1a_110,0.1366711366160991,6.230865743805804,0.1199804850515322,0.1533617881806659,2802,Porte-à-porte,New Canadians Dontation Rates by Method,ON,
+232,ImmStat,Naturalisé.e,2018,fg1a_110,0.1199849307658051,9.930608276099155,0.096631502307605,0.1433383592240053,1147,Porte-à-porte,New Canadians Dontation Rates by Method,ON,
+233,ImmStat,Non canadien.ne,2018,fg1a_110,0.1157680800301315,38.89290580801377,0.0275195838159005,0.2040165762443626,120,Porte-à-porte,New Canadians Dontation Rates by Method,ON,...
+234,ImmStat,Né.e au Canada,2018,fg1a_110,0.1962198894320554,5.408616204154567,0.1754192214144662,0.2170205574496447,1687,Porte-à-porte,New Canadians Dontation Rates by Method,PR,
+235,ImmStat,Naturalisé.e,2018,fg1a_110,0.0992624242153167,20.01422343977965,0.0603245971067517,0.1382002513238816,227,Porte-à-porte,New Canadians Dontation Rates by Method,PR,*
+236,ImmStat,Non canadien.ne,2018,fg1a_110,0.2722046051239967,41.87322026060169,0.0488062758245318,0.4956029344234616,33,Porte-à-porte,New Canadians Dontation Rates by Method,PR,...
+237,ImmStat,Né.e au Canada,2018,fg1a_110,0.1763287393427997,6.606694144951156,0.1534961379287855,0.199161340756814,1621,Porte-à-porte,New Canadians Dontation Rates by Method,QC,
+238,ImmStat,Naturalisé.e,2018,fg1a_110,0.1392088175717529,21.289041705564596,0.0811228874018429,0.1972947477416628,212,Porte-à-porte,New Canadians Dontation Rates by Method,QC,*
+239,ImmStat,Non canadien.ne,2018,fg1a_110,0.0161926241509728,79.63370170715925,-0.0090806920266743,0.04146594032862,45,Porte-à-porte,New Canadians Dontation Rates by Method,QC,...
+240,ImmStat,Né.e au Canada,2018,fg1a_120,0.2823653195185772,6.503853776301708,0.2463713110359915,0.3183593280011628,1039,Lieu public,New Canadians Dontation Rates by Method,AB,
+241,ImmStat,Naturalisé.e,2018,fg1a_120,0.2724859620895928,12.109957617775583,0.207811198859444,0.3371607253197416,244,Lieu public,New Canadians Dontation Rates by Method,AB,
+242,ImmStat,Non canadien.ne,2018,fg1a_120,0.1577009767362565,56.89048631836634,-0.0181408231544097,0.3335427766269228,23,Lieu public,New Canadians Dontation Rates by Method,AB,...
+243,ImmStat,Né.e au Canada,2018,fg1a_120,0.4207832125836379,2.7732034579058484,0.3979120506350811,0.4436543745321946,3527,Lieu public,New Canadians Dontation Rates by Method,AT,
+244,ImmStat,Naturalisé.e,2018,fg1a_120,0.406548710969291,15.448369770476203,0.2834528825170136,0.5296445394215684,114,Lieu public,New Canadians Dontation Rates by Method,AT,
+245,ImmStat,Non canadien.ne,2018,fg1a_120,0.3342151836538095,35.14656692541918,0.1039876943480041,0.5644426729596149,30,Lieu public,New Canadians Dontation Rates by Method,AT,...
+246,ImmStat,Né.e au Canada,2018,fg1a_120,0.2947567644415637,5.741552673166328,0.2615870887725968,0.3279264401105305,1417,Lieu public,New Canadians Dontation Rates by Method,BC,
+247,ImmStat,Naturalisé.e,2018,fg1a_120,0.2028038658659136,10.150173800067687,0.1624581153192238,0.2431496164126035,548,Lieu public,New Canadians Dontation Rates by Method,BC,
+248,ImmStat,Non canadien.ne,2018,fg1a_120,0.1834361680639926,33.83780049637826,0.0617797049792464,0.3050926311487389,68,Lieu public,New Canadians Dontation Rates by Method,BC,...
+249,ImmStat,Né.e au Canada,2018,fg1a_120,0.3297556127691399,3.606362197642005,0.3064473648150582,0.3530638607232216,2802,Lieu public,New Canadians Dontation Rates by Method,ON,
+250,ImmStat,Naturalisé.e,2018,fg1a_120,0.2663893739025244,6.984405281632622,0.229922845534764,0.3028559022702848,1147,Lieu public,New Canadians Dontation Rates by Method,ON,
+251,ImmStat,Non canadien.ne,2018,fg1a_120,0.2229813476375927,26.332780519650512,0.1078977721727509,0.3380649231024344,120,Lieu public,New Canadians Dontation Rates by Method,ON,*
+252,ImmStat,Né.e au Canada,2018,fg1a_120,0.3083183637586536,4.734199981701174,0.2797099299305371,0.3369267975867701,1687,Lieu public,New Canadians Dontation Rates by Method,PR,
+253,ImmStat,Naturalisé.e,2018,fg1a_120,0.2344357848127566,14.568723068116975,0.1674945863821929,0.3013769832433204,227,Lieu public,New Canadians Dontation Rates by Method,PR,
+254,ImmStat,Non canadien.ne,2018,fg1a_120,0.3717591968972866,32.63572219759375,0.1339640209826675,0.6095543728119057,33,Lieu public,New Canadians Dontation Rates by Method,PR,*
+255,ImmStat,Né.e au Canada,2018,fg1a_120,0.3712234497307434,4.55615357741071,0.3380735783278172,0.4043733211336696,1621,Lieu public,New Canadians Dontation Rates by Method,QC,
+256,ImmStat,Naturalisé.e,2018,fg1a_120,0.3199008108939084,13.06357878469307,0.2379929468483524,0.4018086749394645,212,Lieu public,New Canadians Dontation Rates by Method,QC,
+257,ImmStat,Non canadien.ne,2018,fg1a_120,0.1888025690148592,35.26018511367042,0.0583235813862836,0.3192815566434349,45,Lieu public,New Canadians Dontation Rates by Method,QC,...
+258,ImmStat,Né.e au Canada,2018,fg1a_130,0.1972843261901984,8.6001657727919,0.1640300502282099,0.2305386021521868,1039,Lieu de culture,New Canadians Dontation Rates by Method,AB,
+259,ImmStat,Naturalisé.e,2018,fg1a_130,0.3350988043238479,11.904719079709372,0.2569108013364821,0.4132868073112137,244,Lieu de culture,New Canadians Dontation Rates by Method,AB,
+260,ImmStat,Non canadien.ne,2018,fg1a_130,0.187501257044141,53.317099622345886,-0.0084367972242681,0.3834393113125502,23,Lieu de culture,New Canadians Dontation Rates by Method,AB,...
+261,ImmStat,Né.e au Canada,2018,fg1a_130,0.261192950096195,3.2002269653975493,0.2448100673884773,0.2775758328039127,3527,Lieu de culture,New Canadians Dontation Rates by Method,AT,
+262,ImmStat,Naturalisé.e,2018,fg1a_130,0.3018878155044383,18.3887269860963,0.1930836954955079,0.4106919355133686,114,Lieu de culture,New Canadians Dontation Rates by Method,AT,*
+263,ImmStat,Non canadien.ne,2018,fg1a_130,0.1654954234088933,45.71115799344136,0.0172243940198633,0.3137664527979232,30,Lieu de culture,New Canadians Dontation Rates by Method,AT,...
+264,ImmStat,Né.e au Canada,2018,fg1a_130,0.1228835073614127,8.328366961449836,0.1028248646712612,0.1429421500515643,1417,Lieu de culture,New Canadians Dontation Rates by Method,BC,
+265,ImmStat,Naturalisé.e,2018,fg1a_130,0.2602618284222206,9.318553627551935,0.2127275313071342,0.307796125537307,548,Lieu de culture,New Canadians Dontation Rates by Method,BC,
+266,ImmStat,Non canadien.ne,2018,fg1a_130,0.0717280889781825,42.689404680561424,0.011713415202043,0.131742762754322,68,Lieu de culture,New Canadians Dontation Rates by Method,BC,...
+267,ImmStat,Né.e au Canada,2018,fg1a_130,0.2147975929986244,4.714327316029662,0.1949504849628131,0.2346447010344357,2802,Lieu de culture,New Canadians Dontation Rates by Method,ON,
+268,ImmStat,Naturalisé.e,2018,fg1a_130,0.2942268061493769,6.13048678916445,0.2588738862364242,0.3295797260623296,1147,Lieu de culture,New Canadians Dontation Rates by Method,ON,
+269,ImmStat,Non canadien.ne,2018,fg1a_130,0.2156068111884979,25.89299738654453,0.1061877724929073,0.3250258498840885,120,Lieu de culture,New Canadians Dontation Rates by Method,ON,*
+270,ImmStat,Né.e au Canada,2018,fg1a_130,0.2534775991263175,5.770946800999932,0.2248071334623908,0.2821480647902443,1687,Lieu de culture,New Canadians Dontation Rates by Method,PR,
+271,ImmStat,Naturalisé.e,2018,fg1a_130,0.3470934700886572,11.34866950818646,0.2698895267777799,0.4242974133995346,227,Lieu de culture,New Canadians Dontation Rates by Method,PR,
+272,ImmStat,Non canadien.ne,2018,fg1a_130,0.3221253217972098,35.34873796077077,0.0989496403996086,0.545301003194811,33,Lieu de culture,New Canadians Dontation Rates by Method,PR,...
+273,ImmStat,Né.e au Canada,2018,fg1a_130,0.2309063791168175,5.552148333684834,0.2057791220707541,0.2560336361628809,1621,Lieu de culture,New Canadians Dontation Rates by Method,QC,
+274,ImmStat,Naturalisé.e,2018,fg1a_130,0.2521334605837448,14.140295451419435,0.1822560087553924,0.3220109124120973,212,Lieu de culture,New Canadians Dontation Rates by Method,QC,
+275,ImmStat,Non canadien.ne,2018,fg1a_130,0.2288193103702289,38.20553291888798,0.0574760504820831,0.4001625702583747,45,Lieu de culture,New Canadians Dontation Rates by Method,QC,...
+276,ImmStat,Né.e au Canada,2018,fg1a_140,0.211962170893407,7.434419777490911,0.1810767496254501,0.2428475921613639,1039,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AB,
+277,ImmStat,Naturalisé.e,2018,fg1a_140,0.1116583667971585,18.34795101059837,0.0715045406659079,0.1518121929284092,244,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AB,*
+278,ImmStat,Non canadien.ne,2018,fg1a_140,0.066487192262141,89.09662119275099,-0.049616844249471,0.1825912287737532,23,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AB,...
+279,ImmStat,Né.e au Canada,2018,fg1a_140,0.2973434804860356,3.319495473323093,0.2779980413546391,0.3166889196174322,3527,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AT,
+280,ImmStat,Naturalisé.e,2018,fg1a_140,0.2282799278097476,21.00849551238716,0.1342836254020012,0.3222762302174941,114,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AT,*
+281,ImmStat,Non canadien.ne,2018,fg1a_140,0.0170280788011368,86.30465879304677,-0.0117756015190835,0.0458317591213572,30,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,AT,...
+282,ImmStat,Né.e au Canada,2018,fg1a_140,0.1850877866976021,6.88286356876807,0.160119139422723,0.2100564339724812,1417,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,BC,
+283,ImmStat,Naturalisé.e,2018,fg1a_140,0.1410927530490248,12.931252825597618,0.1053330913471582,0.1768524147508914,548,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,BC,
+284,ImmStat,Non canadien.ne,2018,fg1a_140,0.0446696094027272,84.09769379955814,-0.0289586158569443,0.1182978346623989,68,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,BC,...
+285,ImmStat,Né.e au Canada,2018,fg1a_140,0.2971978400710961,3.647121051609517,0.2759534670678917,0.3184422130743005,2802,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,ON,
+286,ImmStat,Naturalisé.e,2018,fg1a_140,0.1499099388129294,8.245527005293917,0.1256830895978075,0.1741367880280513,1147,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,ON,
+287,ImmStat,Non canadien.ne,2018,fg1a_140,0.1900093819627221,29.33705622854565,0.0807547974954454,0.2992639664299988,120,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,ON,*
+288,ImmStat,Né.e au Canada,2018,fg1a_140,0.2523960973078245,4.581663726964288,0.2297311905287511,0.275061004086898,1687,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,PR,
+289,ImmStat,Naturalisé.e,2018,fg1a_140,0.1470830478147193,20.505751146732624,0.0879695858811387,0.2061965097482999,227,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,PR,*
+290,ImmStat,Non canadien.ne,2018,fg1a_140,0.1069861495963003,50.59003637126784,0.0009044082027561128,0.2130678909898446,33,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,PR,...
+291,ImmStat,Né.e au Canada,2018,fg1a_140,0.1095755594032369,7.774984305380681,0.0928776804458952,0.1262734383605786,1621,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,QC,
+292,ImmStat,Naturalisé.e,2018,fg1a_140,0.0645741170211767,37.68017433450825,0.0168849791940222,0.1122632548483312,212,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,QC,...
+293,ImmStat,Non canadien.ne,2018,fg1a_140,0.0667473111866834,60.54280273412689,-0.0124561915701151,0.1459508139434819,45,Parrainage de quelqu'un,New Canadians Dontation Rates by Method,QC,...
+294,ImmStat,Né.e au Canada,2018,fg1a_170,0.0563537296671966,14.684983114454722,0.0401339777698738,0.0725734815645195,1039,Autre méthode,New Canadians Dontation Rates by Method,AB,
+295,ImmStat,Naturalisé.e,2018,fg1a_170,0.0280131697341327,34.09541480935285,0.0092931491379078,0.0467331903303577,244,Autre méthode,New Canadians Dontation Rates by Method,AB,...
+296,ImmStat,Non canadien.ne,2018,fg1a_170,0.0,,0.0,0.0,23,Autre méthode,New Canadians Dontation Rates by Method,AB,
+297,ImmStat,Né.e au Canada,2018,fg1a_170,0.0433613823155612,10.36579139605075,0.0345518333390063,0.0521709312921161,3527,Autre méthode,New Canadians Dontation Rates by Method,AT,
+298,ImmStat,Naturalisé.e,2018,fg1a_170,0.0346486216628333,47.9111321366281,0.0021121475987007,0.067185095726966,114,Autre méthode,New Canadians Dontation Rates by Method,AT,...
+299,ImmStat,Non canadien.ne,2018,fg1a_170,0.0503629773996097,86.81632337808678,-0.0353330871174318,0.1360590419166513,30,Autre méthode,New Canadians Dontation Rates by Method,AT,...
+300,ImmStat,Né.e au Canada,2018,fg1a_170,0.0531775953750789,14.515660978770534,0.0380484776371108,0.068306713113047,1417,Autre méthode,New Canadians Dontation Rates by Method,BC,
+301,ImmStat,Naturalisé.e,2018,fg1a_170,0.0569727434570321,21.963481704972928,0.032447325877044,0.0814981610370203,548,Autre méthode,New Canadians Dontation Rates by Method,BC,*
+302,ImmStat,Non canadien.ne,2018,fg1a_170,0.0307257921004994,96.41998365877824,-0.0273397162083233,0.0887913004093221,68,Autre méthode,New Canadians Dontation Rates by Method,BC,...
+303,ImmStat,Né.e au Canada,2018,fg1a_170,0.0582849420454146,9.054777882254491,0.0479410909192135,0.0686287931716157,2802,Autre méthode,New Canadians Dontation Rates by Method,ON,
+304,ImmStat,Naturalisé.e,2018,fg1a_170,0.062829363793233,12.898088518887237,0.0469462332173541,0.078712494369112,1147,Autre méthode,New Canadians Dontation Rates by Method,ON,
+305,ImmStat,Non canadien.ne,2018,fg1a_170,0.056971549561433,50.349211668149216,0.0007505195395877198,0.1131925795832783,120,Autre méthode,New Canadians Dontation Rates by Method,ON,...
+306,ImmStat,Né.e au Canada,2018,fg1a_170,0.0560019590058449,11.518189269606818,0.0433593845197442,0.0686445334919455,1687,Autre méthode,New Canadians Dontation Rates by Method,PR,
+307,ImmStat,Naturalisé.e,2018,fg1a_170,0.0362380235094429,31.789400122574182,0.0136595318338881,0.0588165151849976,227,Autre méthode,New Canadians Dontation Rates by Method,PR,*
+308,ImmStat,Non canadien.ne,2018,fg1a_170,0.0746038313822859,66.8211548851558,-0.023102610973623,0.1723102737381949,33,Autre méthode,New Canadians Dontation Rates by Method,PR,...
+309,ImmStat,Né.e au Canada,2018,fg1a_170,0.0371076806992592,14.884829664568269,0.0262819861010622,0.0479333752974561,1621,Autre méthode,New Canadians Dontation Rates by Method,QC,
+310,ImmStat,Naturalisé.e,2018,fg1a_170,0.085213799151536,26.17527646752159,0.0414969053423493,0.1289306929607226,212,Autre méthode,New Canadians Dontation Rates by Method,QC,*
+311,ImmStat,Non canadien.ne,2018,fg1a_170,0.0059920137513183,118.14437378981926,-0.0078830164498947,0.0198670439525313,45,Autre méthode,New Canadians Dontation Rates by Method,QC,...

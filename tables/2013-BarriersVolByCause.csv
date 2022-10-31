@@ -1,0 +1,1801 @@
+﻿Group,Attribute,Year,QuestionNo,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+
+Arts & culture,Do not support cause,2013,nv_020,0.417649687,2.028294268,0.401006141,0.434293234,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_020,0.512521041,6.352943081,0.448549118,0.576492964,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_020,0.384971861,3.759813319,0.356533929,0.413409792,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_020,0.556090267,10.40236077,0.442437517,0.669743017,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Do not support cause,2013,nv_020,0.530761051,3.467824194,0.494598516,0.566923585,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_020,0.661394105,10.48626611,0.525129226,0.797658985,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Do not support cause,2013,nv_020,0.403401572,2.395950764,0.384411867,0.422391277,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_020,0.491125095,3.248477599,0.459779628,0.522470562,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_020,0.381893406,4.124657466,0.350945392,0.41284142,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_020,0.430100651,6.680653312,0.373647033,0.486554268,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_020,0.498584013,4.114600742,0.458278097,0.538889928,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_020,0.672161845,4.615602743,0.611207451,0.73311624,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_020,0.43127,2.146939342,0.413078364,0.449461636,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_020,0.397351811,4.643632449,0.361099493,0.433604129,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_020,0.402771671,3.893466402,0.371961217,0.433582124,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_020,0.35900566,9.96770803,0.288698534,0.429312786,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_020,0.560823974,3.463858652,0.522656847,0.598991102,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_020,0.443754148,9.605466658,0.360008232,0.527500063,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_020,0.424489025,1.962023417,0.408125631,0.44085242,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_020,0.423534648,10.32001029,0.337658646,0.50941065,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_020,0.396097349,3.672183557,0.367519532,0.424675167,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_020,0.35389135,25.82319011,0.174342519,0.533440181,841,Gave enough time already,Barriers to volunteering by cause support,BC,*
+
+Universities & colleges,Do not support cause,2013,nv_020,0.543238629,3.252783521,0.508521121,0.577956137,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_020,0.486304427,18.27634621,0.311681871,0.660926983,678,Gave enough time already,Barriers to volunteering by cause support,AB,*
+
+Health,Do not support cause,2013,nv_020,0.430615548,2.049063788,0.413279587,0.447951509,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_020,0.382342105,5.531383292,0.340790421,0.423893788,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_020,0.39727633,3.877432767,0.367011398,0.427541263,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_020,0.371760609,10.45116887,0.295424332,0.448096887,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_020,0.539823297,3.466126094,0.503061332,0.576585263,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_020,0.538891703,9.446249961,0.438877041,0.638906365,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_020,0.422644493,1.995260237,0.40607621,0.439212776,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_020,0.462386292,8.061863861,0.389147166,0.535625418,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_020,0.392195203,3.781423205,0.363057165,0.421333241,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_020,0.431420097,13.02699944,0.321000156,0.541840037,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Hospitals,Do not support cause,2013,nv_020,0.536101977,3.410974081,0.500174347,0.572029607,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_020,0.606173104,12.07380233,0.46237821,0.749967999,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Social services,Do not support cause,2013,nv_020,0.426529406,2.18406504,0.408226616,0.444832195,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_020,0.418236955,4.163411803,0.384025266,0.452448644,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_020,0.378307924,4.297877247,0.346362976,0.410252872,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_020,0.436127226,6.925096758,0.376788013,0.49546644,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_020,0.547749116,3.712151341,0.507799731,0.587698501,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_020,0.517068381,6.705607782,0.448946149,0.585190613,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_020,0.426868774,1.987473156,0.410200202,0.443537347,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_020,0.387784026,8.184708918,0.325425492,0.45014256,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_020,0.397050843,3.705303709,0.368145863,0.425955823,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_020,0.359465171,14.98363035,0.253643014,0.465287328,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Environment,Do not support cause,2013,nv_020,0.53995128,3.404515256,0.503834202,0.576068357,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_020,0.533874975,15.54455152,0.370825088,0.696924862,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Development & housing,Do not support cause,2013,nv_020,0.417459358,2.10877704,0.400163281,0.434755435,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_020,0.489689678,5.421445642,0.437529532,0.541849824,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_020,0.383157272,3.925357594,0.353607166,0.412707378,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_020,0.502054023,10.02098864,0.403206962,0.600901085,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Development & housing,Do not support cause,2013,nv_020,0.529390259,3.494940087,0.493039087,0.565741431,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_020,0.689120602,8.160278147,0.578635699,0.799605505,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_020,0.42340183,1.995895765,0.406798571,0.440005088,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_020,0.448897657,8.645324712,0.372649142,0.525146172,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_020,0.391563367,3.659004305,0.363414059,0.419712674,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_020,0.465945985,16.32423323,0.316504523,0.615387447,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_020,0.541654056,3.24465449,0.507124325,0.576183788,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_020,0.498593666,18.08588774,0.321424015,0.675763317,678,Gave enough time already,Barriers to volunteering by cause support,AB,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_020,0.422125043,2.000095937,0.405537017,0.438713068,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_020,0.486700101,8.516026644,0.40526696,0.568133243,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_020,0.392382836,3.631860689,0.364383875,0.420381798,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_020,0.449604963,18.90562509,0.282601729,0.616608196,841,Gave enough time already,Barriers to volunteering by cause support,BC,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_020,0.534913015,3.348223214,0.499724551,0.570101479,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_020,0.645120565,11.85784529,0.494823878,0.795417253,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+International,Do not support cause,2013,nv_020,0.4251584,1.969567831,0.408706182,0.441610618,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_020,0.389009422,14.32134302,0.279551649,0.498467196,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+International,Do not support cause,2013,nv_020,0.397068215,3.57164472,0.369204686,0.424931743,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_020,0.152094805,85.74625569,-0.104136558,0.408326169,841,Gave enough time already,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_020,0.540657781,3.258807574,0.506041221,0.575274342,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_020,0.492922407,25.95810742,0.241528743,0.744316071,678,Gave enough time already,Barriers to volunteering by cause support,AB,*
+
+Religion,Do not support cause,2013,nv_020,0.42100438,2.199435211,0.402811539,0.439197221,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_020,0.438735637,4.109013069,0.403316076,0.474155199,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_020,0.376135213,4.390623289,0.343688335,0.408582091,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_020,0.456829951,6.699998906,0.396694297,0.516965606,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_020,0.546342738,3.370098736,0.510167571,0.582517905,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_020,0.482646403,11.07265683,0.377647768,0.587645039,678,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Business & professional,Do not support cause,2013,nv_020,0.423323762,1.986607692,0.406800815,0.439846708,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_020,0.468096219,10.93834439,0.367498191,0.568694247,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Business & professional,Do not support cause,2013,nv_020,0.391793005,3.647376344,0.363716697,0.419869313,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_020,0.467708574,15.9580217,0.321066996,0.614350152,841,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Business & professional,Do not support cause,2013,nv_020,0.538530589,3.313264071,0.503474039,0.573587138,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_020,0.609999919,18.58226663,0.387294284,0.832705554,678,Gave enough time already,Barriers to volunteering by cause support,AB,*
+
+Other,Do not support cause,2013,nv_020,0.423904896,1.955076256,0.407621879,0.440187913,4011,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_020,0.44769791,12.35700842,0.339005016,0.556390804,3372,Gave enough time already,Barriers to volunteering by cause support,CA,
+
+Other,Do not support cause,2013,nv_020,0.394180865,3.624761284,0.366108585,0.422253145,1055,Gave enough time already,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_020,0.396507617,24.94384915,0.202187507,0.590827727,841,Gave enough time already,Barriers to volunteering by cause support,BC,*
+
+Other,Do not support cause,2013,nv_020,0.54362107,3.282479802,0.508561944,0.578680196,541,Gave enough time already,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_020,0.396116741,27.46406182,0.182374328,0.609859153,678,Gave enough time already,Barriers to volunteering by cause support,AB,*
+
+Arts & culture,Do not support cause,2013,nv_030,0.083717695,5.681065347,0.07437333,0.09306206,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_030,0.079000287,22.28024804,0.044418181,0.113582392,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,*
+
+Arts & culture,Do not support cause,2013,nv_030,0.061523053,12.37659809,0.046562697,0.076483408,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_030,0.095478111,34.73916605,0.030311378,0.160644843,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Arts & culture,Do not support cause,2013,nv_030,0.06434702,12.43600443,0.048624866,0.080069174,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_030,0.14019158,42.94038004,0.021917234,0.258465926,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Sports & Recreation,Do not support cause,2013,nv_030,0.079740262,6.446681577,0.069640372,0.089840151,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_030,0.094878961,10.63340629,0.075057071,0.114700851,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_030,0.067048426,13.38181678,0.049420289,0.084676563,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_030,0.052557803,23.67465423,0.028110914,0.077004691,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Sports & Recreation,Do not support cause,2013,nv_030,0.066474624,15.55268161,0.046162099,0.086787149,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_030,0.079054624,21.63566875,0.045449899,0.112659349,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,*
+
+Education & research,Do not support cause,2013,nv_030,0.083529671,5.902125933,0.073843503,0.093215839,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_030,0.082787958,14.18742993,0.059711261,0.105864655,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_030,0.065226527,12.28975166,0.049476906,0.080976147,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_030,0.055519844,32.49151873,0.020077618,0.090962069,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Education & research,Do not support cause,2013,nv_030,0.069218972,12.68105923,0.051973169,0.086464775,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_030,0.070546865,39.10581574,0.016344054,0.124749676,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Universities & colleges,Do not support cause,2013,nv_030,0.082460571,5.673629392,0.073268571,0.091652572,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_030,0.099622349,24.6110755,0.051450855,0.147793842,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,*
+
+Universities & colleges,Do not support cause,2013,nv_030,0.063424083,12.10763517,0.048336618,0.078511547,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_030,0.061427281,53.53238522,-0.003179876,0.126034437,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Universities & colleges,Do not support cause,2013,nv_030,0.068717581,12.78723336,0.051453352,0.08598181,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_030,0.080661679,57.82514991,-0.010978677,0.172302035,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Health,Do not support cause,2013,nv_030,0.085380463,5.737732802,0.075755445,0.095005482,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_030,0.069771398,15.8658309,0.048022213,0.091520583,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_030,0.063594907,12.51451714,0.04795842,0.079231393,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_030,0.061430268,29.72028187,0.025559715,0.097300821,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Health,Do not support cause,2013,nv_030,0.074095513,12.96735391,0.055217946,0.092973079,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_030,0.036054732,46.82966557,0.002881631,0.069227832,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Hospitals,Do not support cause,2013,nv_030,0.084625862,5.632334095,0.075261154,0.09399057,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_030,0.056974071,24.20178355,0.029882925,0.084065216,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,*
+
+Hospitals,Do not support cause,2013,nv_030,0.06374309,12.17992698,0.048489202,0.078996977,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_030,0.055892914,38.62097682,0.0134815,0.098304328,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Hospitals,Do not support cause,2013,nv_030,0.070046928,13.09821151,0.052020743,0.088073114,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_030,0.058637101,57.14371313,-0.007195906,0.124470108,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Social services,Do not support cause,2013,nv_030,0.083871272,6.674647972,0.072872497,0.094870047,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_030,0.081920457,11.03807413,0.064154508,0.099686406,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_030,0.061138009,13.01405076,0.045505577,0.07677044,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_030,0.069121031,24.4078786,0.035974126,0.102267936,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Social services,Do not support cause,2013,nv_030,0.067557579,15.75126508,0.046650553,0.088464605,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_030,0.074804548,20.14460196,0.045197887,0.104411209,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,*
+
+Environment,Do not support cause,2013,nv_030,0.084257104,5.715276231,0.074795898,0.09371831,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_030,0.070095406,21.08281831,0.041060464,0.099130348,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,*
+
+Environment,Do not support cause,2013,nv_030,0.060708795,12.62976196,0.045644475,0.075773114,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_030,0.095719802,35.84107298,0.028315823,0.163123781,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Environment,Do not support cause,2013,nv_030,0.071027869,12.69074658,0.053317863,0.088737874,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_030,0.031578086,60.23104683,-0.005790697,0.068946868,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_030,0.082862844,5.986447631,0.073116724,0.092608965,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_030,0.088229146,15.56101636,0.061254685,0.115203607,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_030,0.058736802,12.98097543,0.043756507,0.073717097,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_030,0.10827995,27.13017939,0.050562989,0.165996911,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_030,0.070397779,13.07053161,0.052319589,0.088475969,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_030,0.055880409,54.35372055,-0.003794477,0.115555294,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+"Law, advocacy & politics",Do not support cause,2013,nv_030,0.083103461,5.61944819,0.073928261,0.092278661,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_030,0.089846348,25.95830363,0.044023774,0.135668922,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_030,0.061015765,12.02730582,0.046597495,0.075434035,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_030,0.12606239,42.19111203,0.021564084,0.230560697,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+"Law, advocacy & politics",Do not support cause,2013,nv_030,0.071686895,12.82734352,0.053620178,0.089753611,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_030,0.022395537,112.758441,-0.027219497,0.072010571,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_030,0.085197566,5.584910832,0.075848975,0.094546157,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_030,0.034341267,41.27343038,0.006493548,0.062188986,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_030,0.062614724,11.94863596,0.047915394,0.077314054,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_030,0.085089111,50.68381882,0.000357384,0.169820838,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_030,0.069101127,13.02297968,0.051420477,0.086781778,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_030,0.077307694,56.50831726,-0.008522054,0.163137442,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+International,Do not support cause,2013,nv_030,0.082796595,5.624358876,0.073647287,0.091945903,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_030,0.112144191,33.77682564,0.037722702,0.18656568,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,…
+
+International,Do not support cause,2013,nv_030,0.06384765,11.85435938,0.048977144,0.078718156,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_030,0.019642825,165.4128679,-0.044194691,0.08348034,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_030,0.069151705,12.66973354,0.051938049,0.086365361,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_030,0.084595757,68.3186341,-0.028955121,0.198146634,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_030,0.084872568,6.023083657,0.074828978,0.094916158,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_030,0.077148649,13.89837395,0.05608202,0.098215279,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_030,0.072624321,12.69840904,0.054505325,0.090743318,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_030,0.030974903,32.09634302,0.011441934,0.050507871,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,*
+
+Religion,Do not support cause,2013,nv_030,0.073461784,12.88473161,0.054864925,0.092058642,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_030,0.035065623,48.79197712,0.001450654,0.068680593,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Business & professional,Do not support cause,2013,nv_030,0.083932088,5.568230478,0.074749862,0.093114314,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_030,0.061702778,33.32420435,0.021304091,0.102101465,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,…
+
+Business & professional,Do not support cause,2013,nv_030,0.063053114,12.04339837,0.048133475,0.077972754,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_030,0.071902431,50.14840793,0.001058367,0.142746494,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Business & professional,Do not support cause,2013,nv_030,0.069494786,12.7309966,0.052112081,0.086877491,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_030,0.067313367,77.04816974,-0.034584802,0.169211536,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_030,0.083928463,5.566554926,0.074749397,0.09310753,6824,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_030,0.059429818,40.86657079,0.011712575,0.10714706,568,Dissatisfied with previous experience,Barriers to volunteering by cause support,CA,…
+
+Other,Do not support cause,2013,nv_030,0.064023705,11.82185694,0.049153079,0.078894331,1788,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_030,0.026190638,102.4405523,-0.026522726,0.078904001,112,Dissatisfied with previous experience,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_030,0.070392886,12.74178958,0.052770612,0.08801516,1133,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_030,0.035205134,98.00995054,-0.032586939,0.102997207,85,Dissatisfied with previous experience,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_040,0.310910013,2.536123311,0.295418001,0.326402024,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_040,0.248074916,11.65381657,0.191274205,0.304875627,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_040,0.346271804,4.686344397,0.314389179,0.378154429,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_040,0.314769302,17.77978075,0.204812648,0.424725955,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_040,0.266228455,6.185037041,0.233876575,0.298580335,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_040,0.15486561,29.97310238,0.063666747,0.246064474,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+Sports & Recreation,Do not support cause,2013,nv_040,0.308255933,2.942454322,0.290435267,0.326076598,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_040,0.30053165,5.145049757,0.270152016,0.330911284,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_040,0.356871482,5.148781214,0.320770499,0.392972464,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_040,0.3089782,9.430592105,0.251728984,0.366227416,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_040,0.271900572,7.111505584,0.233910124,0.309891021,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_040,0.21638367,12.70369909,0.162375754,0.270391586,290,No one asked,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_040,0.31030178,2.736248304,0.293619995,0.326983564,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_040,0.290974105,5.766970724,0.258005176,0.323943033,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_040,0.339182044,5.135863797,0.3049566,0.373407489,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_040,0.366852346,9.64958969,0.297301424,0.436403267,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_040,0.260629025,7.006499043,0.22475116,0.29650689,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_040,0.250026669,13.43505794,0.184028996,0.316024341,290,No one asked,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_040,0.305781171,2.548414496,0.290470876,0.321091465,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_040,0.31727197,11.62969033,0.244777881,0.389766059,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_040,0.342273111,4.517353306,0.311895083,0.37265114,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_040,0.394199375,24.4186778,0.205077912,0.583320837,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+Universities & colleges,Do not support cause,2013,nv_040,0.253421406,6.188841877,0.222606885,0.284235927,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_040,0.338549565,26.11899132,0.164816932,0.512282199,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+Health,Do not support cause,2013,nv_040,0.303770856,2.682749794,0.287759466,0.319782245,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_040,0.324286163,6.541598529,0.282607379,0.365964948,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_040,0.351795906,4.780019012,0.318757191,0.38483462,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_040,0.291495127,13.39296923,0.214792381,0.368197873,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_040,0.252546163,6.58535115,0.219870647,0.285221679,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_040,0.303201614,16.11101504,0.207226828,0.399176401,290,No one asked,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_040,0.310970506,2.552939227,0.29537274,0.326568273,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_040,0.209596745,12.57963979,0.157793677,0.261399813,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_040,0.342719209,4.645405113,0.31143935,0.373999068,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_040,0.378525427,15.5960717,0.262537437,0.494513417,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Hospitals,Do not support cause,2013,nv_040,0.26032404,6.382642592,0.227678975,0.292969106,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_040,0.229093891,26.59706891,0.109378489,0.348809293,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+Social services,Do not support cause,2013,nv_040,0.306289504,2.829471682,0.289262422,0.323316585,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_040,0.306721958,5.463250322,0.273799011,0.339644906,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_040,0.339845261,5.300639686,0.304452679,0.375237843,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_040,0.357025036,8.72542021,0.295819914,0.418230157,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_040,0.264092419,7.469395925,0.225335954,0.302848884,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_040,0.243612479,11.30776213,0.189489844,0.297735115,290,No one asked,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_040,0.305509613,2.580039262,0.29002309,0.320996137,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_040,0.319816084,9.415715325,0.260652243,0.378979925,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_040,0.343958714,4.555258262,0.313174926,0.374742502,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_040,0.35214415,16.75837022,0.236198355,0.468089944,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_040,0.263749214,6.343006116,0.230880021,0.296618407,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_040,0.137288044,40.30759953,0.028564802,0.246011286,290,No one asked,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_040,0.306343175,2.65411282,0.290368562,0.322317787,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_040,0.3069201,8.500781486,0.255659118,0.358181083,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_040,0.352832751,4.570967024,0.321145853,0.384519648,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_040,0.263861871,16.19353736,0.179911792,0.347811949,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Development & housing,Do not support cause,2013,nv_040,0.26165623,6.366461596,0.22892729,0.29438517,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_040,0.216201875,27.56921859,0.099093851,0.3333099,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_040,0.30810692,2.562181024,0.292596841,0.323616999,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_040,0.266535063,13.49696937,0.195855582,0.337214544,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_040,0.345597546,4.545362638,0.314734277,0.376460816,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_040,0.316525943,24.41158719,0.164713255,0.468338631,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_040,0.260248935,6.34457956,0.227807911,0.292689958,926,No one asked,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_040,0.226293009,36.00786075,0.06620043,0.386385587,290,No one asked,Barriers to volunteering by cause support,AB,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_040,0.304420195,2.5559784,0.289132804,0.319707587,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_040,0.3596422,10.79583428,0.283358878,0.435925522,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_040,0.347246969,4.529402922,0.316345284,0.378148654,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_040,0.263897399,26.95311793,0.124148993,0.403645805,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_040,0.250188351,6.354221634,0.218954022,0.281422681,926,No one asked,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_040,0.445489267,17.89679197,0.288844757,0.602133776,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+International,Do not support cause,2013,nv_040,0.30551891,2.517726253,0.290405956,0.320631863,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_040,0.349642173,15.82702988,0.240918034,0.458366311,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+International,Do not support cause,2013,nv_040,0.346848801,4.465984386,0.316414723,0.377282878,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_040,0.150380155,88.24896263,-0.110356974,0.411117284,575,No one asked,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_040,0.256707023,6.307337587,0.224895346,0.288518701,926,No one asked,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_040,0.35739224,37.96314716,0.090822979,0.623961502,290,No one asked,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_040,0.314075702,2.738331532,0.297178177,0.330973228,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_040,0.274435893,6.331619532,0.24029629,0.308575496,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_040,0.364553487,5.012993231,0.328647975,0.400458998,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_040,0.27519012,10.1726876,0.220189031,0.330191209,575,No one asked,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_040,0.261180079,6.7909375,0.226332507,0.296027651,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_040,0.237280138,19.41684469,0.146760505,0.327799771,290,No one asked,Barriers to volunteering by cause support,AB,*
+
+Business & professional,Do not support cause,2013,nv_040,0.307378997,2.52804569,0.292111711,0.322646283,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_040,0.26796569,15.92927237,0.184101246,0.351830134,2124,No one asked,Barriers to volunteering by cause support,CA,
+
+Business & professional,Do not support cause,2013,nv_040,0.344448869,4.560947269,0.313582712,0.375315026,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_040,0.348347292,20.59522921,0.207391862,0.489302722,575,No one asked,Barriers to volunteering by cause support,BC,*
+
+Business & professional,Do not support cause,2013,nv_040,0.259332697,6.329602895,0.227082194,0.291583199,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_040,0.221799851,37.27227874,0.05937595,0.384223752,290,No one asked,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_040,0.306372365,2.517723115,0.291217213,0.321527517,5257,No one asked,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_040,0.307529457,16.68175545,0.206736262,0.408322653,2124,No one asked,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_040,0.346198559,4.510674543,0.315517561,0.376879558,1323,No one asked,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_040,0.256824049,33.36869955,0.088449009,0.425199088,575,No one asked,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_040,0.259141528,6.353550742,0.22679287,0.291490185,926,No one asked,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_040,0.242975345,39.43217387,0.054733717,0.431216973,290,No one asked,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_050,0.161550272,4.272885226,0.147988025,0.175112519,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_050,0.117944313,23.33205603,0.063877253,0.172011374,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+Arts & culture,Do not support cause,2013,nv_050,0.16158761,8.149265378,0.135715654,0.187459566,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_050,0.154746726,32.25071827,0.056693113,0.25280034,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_050,0.131879701,10.4003466,0.104931579,0.158827824,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_050,0.069970452,41.10686493,0.01345961,0.126481293,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Sports & Recreation,Do not support cause,2013,nv_050,0.170414804,4.449545486,0.155516882,0.185312727,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_050,0.12056503,9.680233294,0.09763472,0.14349534,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_050,0.174984673,8.926070425,0.144297063,0.205672283,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_050,0.121195265,17.05984689,0.080573057,0.161817472,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Sports & Recreation,Do not support cause,2013,nv_050,0.139694196,11.0456654,0.10937812,0.170010272,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_050,0.089896358,19.97420665,0.054617512,0.125175205,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,*
+
+Education & research,Do not support cause,2013,nv_050,0.15295946,4.65614992,0.138966614,0.166952305,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_050,0.180136659,8.401870741,0.150400776,0.209872543,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_050,0.148859473,9.286051699,0.121700689,0.176018256,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_050,0.212270158,15.60654793,0.147182516,0.2773578,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_050,0.121828923,11.70334387,0.093815698,0.149842148,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_050,0.155024613,19.56723994,0.095426437,0.214622789,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,*
+
+Universities & colleges,Do not support cause,2013,nv_050,0.15382109,4.372862684,0.140605564,0.167036617,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_050,0.239981516,16.01918136,0.164451278,0.315511755,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_050,0.148871604,8.411886508,0.124267474,0.173475734,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_050,0.427531383,22.20131849,0.241043977,0.614018789,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Universities & colleges,Do not support cause,2013,nv_050,0.120077506,10.37021819,0.095612107,0.144542904,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_050,0.24480613,33.7751514,0.08235515,0.40725711,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Health,Do not support cause,2013,nv_050,0.158966518,4.344987182,0.145395985,0.172537051,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_050,0.15489682,11.60360502,0.11958353,0.19021011,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_050,0.164916756,8.284244137,0.138074413,0.191759098,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_050,0.134054846,25.47844855,0.066949327,0.201160364,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Health,Do not support cause,2013,nv_050,0.126005516,10.81637071,0.09922778,0.152783253,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_050,0.141028971,27.48729511,0.064866139,0.217191803,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,*
+
+Hospitals,Do not support cause,2013,nv_050,0.160830553,4.22039105,0.147494602,0.174166504,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_050,0.10787137,30.64304052,0.042927107,0.172815634,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+Hospitals,Do not support cause,2013,nv_050,0.159706831,8.173610217,0.13405962,0.185354043,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_050,0.188817947,27.7726654,0.085787976,0.291847917,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Hospitals,Do not support cause,2013,nv_050,0.126821318,10.42885168,0.100835793,0.152806843,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_050,0.146570361,39.23509345,0.033584632,0.25955609,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Social services,Do not support cause,2013,nv_050,0.160172258,4.688063738,0.145419149,0.174925367,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_050,0.153313981,9.093372443,0.125922881,0.180705082,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_050,0.159962684,9.091572036,0.131389384,0.188535985,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_050,0.164522205,15.05682233,0.11585229,0.21319212,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_050,0.13351735,11.25200626,0.104000473,0.163034227,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_050,0.111957444,19.1390663,0.06985799,0.154056898,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,*
+
+Environment,Do not support cause,2013,nv_050,0.15791986,4.284421413,0.144626595,0.171213126,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_050,0.166354351,14.49240116,0.118987201,0.213721501,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_050,0.152829389,8.435673173,0.127499729,0.17815905,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_050,0.264580952,21.8287122,0.151108763,0.378053141,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_050,0.130782517,10.20641612,0.104556901,0.157008134,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_050,0.057114594,51.10451447,-0.000232195,0.114461383,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_050,0.159017686,4.344453894,0.145444451,0.172590921,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_050,0.15304797,15.16347517,0.107451727,0.198644213,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_050,0.163117583,7.990616718,0.137509102,0.188726064,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_050,0.142670327,30.14644713,0.058167248,0.227173406,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_050,0.130116566,10.47979713,0.10332561,0.156907522,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_050,0.093726356,40.49705292,0.019152278,0.168300434,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+"Law, advocacy & politics",Do not support cause,2013,nv_050,0.159726896,4.149345959,0.146705413,0.172748379,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_050,0.128501648,25.32219322,0.064570463,0.192432834,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_050,0.163846867,7.827678607,0.138648414,0.189045319,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_050,0.09019168,67.47548896,-0.029376401,0.209759762,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,…
+
+"Law, advocacy & politics",Do not support cause,2013,nv_050,0.130336234,10.26086007,0.104060692,0.156611775,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_050,0.07535542,74.27585572,-0.034612219,0.185323058,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_050,0.157466188,4.232655828,0.144371263,0.170561112,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_050,0.184936711,18.55034332,0.117533929,0.252339493,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_050,0.16216178,8.124916885,0.136275469,0.188048092,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_050,0.132773045,39.89033192,0.028713887,0.236832203,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_050,0.125941494,10.5024351,0.099954168,0.151928819,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_050,0.169427571,37.68359235,0.043986682,0.29486846,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+International,Do not support cause,2013,nv_050,0.157392218,4.145286722,0.144573619,0.170210818,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_050,0.210214521,24.15820183,0.110437609,0.309991433,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+International,Do not support cause,2013,nv_050,0.156499546,7.888142137,0.132245145,0.180753947,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_050,0.563712848,35.54927205,0.169989302,0.957436393,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_050,0.123483271,10.21634982,0.098697261,0.148269281,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_050,0.342042901,36.89225035,0.094118958,0.589966845,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_050,0.160852246,4.573914058,0.146397254,0.175307239,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_050,0.14840753,9.617394246,0.12036507,0.176449989,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_050,0.176235678,8.561552525,0.146590839,0.205880518,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_050,0.109098514,18.94335098,0.06849362,0.149703408,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,*
+
+Religion,Do not support cause,2013,nv_050,0.131698791,10.70554666,0.103997923,0.159399659,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_050,0.094522276,30.39974901,0.038066691,0.15097786,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,*
+
+Business & professional,Do not support cause,2013,nv_050,0.158926537,4.165065285,0.145921219,0.171931856,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_050,0.139339863,26.70128755,0.06624105,0.212438676,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+Business & professional,Do not support cause,2013,nv_050,0.161922684,7.965196442,0.136582665,0.187262702,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_050,0.139807533,43.70436794,0.01975864,0.259856426,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,…
+
+Business & professional,Do not support cause,2013,nv_050,0.127720857,10.26688849,0.101957443,0.153484271,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_050,0.135074129,53.94412617,-0.008085011,0.278233268,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_050,0.159515525,4.184928866,0.146399756,0.172631295,6482,Unsure how to get more involved,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_050,0.11189324,31.37219501,0.042924626,0.180861854,905,Unsure how to get more involved,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_050,0.162697501,7.900742657,0.137442259,0.187952744,1679,Unsure how to get more involved,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_050,0.081419256,65.15123838,-0.022801099,0.185639611,220,Unsure how to get more involved,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_050,0.127360133,10.1935271,0.101853054,0.152867212,1078,Unsure how to get more involved,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_050,0.145479525,57.65444435,-0.019312962,0.310272012,138,Unsure how to get more involved,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_060,0.1706864,3.679220657,0.158348038,0.183024762,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_060,0.18611142,13.53180033,0.136631232,0.235591609,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_060,0.188622815,6.104921221,0.165998417,0.211247212,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_060,0.183294424,20.90696529,0.108003436,0.258585412,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_060,0.152227864,7.9383865,0.128485217,0.175970511,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_060,0.26857001,26.15622213,0.130552155,0.406587865,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+Sports & Recreation,Do not support cause,2013,nv_060,0.177014189,4.026944159,0.163009082,0.191019296,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_060,0.15528666,7.561775469,0.132215966,0.178357355,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_060,0.195365002,6.681968876,0.169716976,0.221013029,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_060,0.167930661,12.50634948,0.126667424,0.209193899,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_060,0.167507993,9.151877841,0.137388442,0.197627543,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_060,0.136147966,15.84476228,0.093764192,0.178531741,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_060,0.182037086,3.834145725,0.168324125,0.195750047,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_060,0.131175656,9.924058471,0.10559891,0.156752403,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_060,0.198590056,6.247834752,0.174212522,0.222967591,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_060,0.145966228,16.31908382,0.099165684,0.192766772,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_060,0.162211795,8.164692823,0.136190733,0.188232857,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_060,0.150345023,23.0620403,0.082222688,0.218467357,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+Universities & colleges,Do not support cause,2013,nv_060,0.175898605,3.575506806,0.163541898,0.188255312,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_060,0.099218223,25.25936319,0.049978389,0.148458057,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+Universities & colleges,Do not support cause,2013,nv_060,0.19211822,5.903944991,0.169833171,0.21440327,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_060,0.106731256,50.52775663,0.000775543,0.212686968,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,…
+
+Universities & colleges,Do not support cause,2013,nv_060,0.161857111,7.990318872,0.136447464,0.187266759,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_060,0.133041655,44.97804987,0.015473148,0.250610162,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,…
+
+Health,Do not support cause,2013,nv_060,0.167847851,3.807844776,0.155290508,0.180405194,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_060,0.198610998,8.911954012,0.16383505,0.233386945,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_060,0.193178035,6.270213804,0.169379905,0.216976165,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_060,0.152759334,15.73958647,0.105519995,0.199998674,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_060,0.166280417,8.122131888,0.139745735,0.192815099,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_060,0.115321134,24.97562398,0.058732658,0.171909609,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+Hospitals,Do not support cause,2013,nv_060,0.171529586,3.656727532,0.159206077,0.183853095,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_060,0.177311324,13.47964364,0.130352455,0.224270192,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_060,0.187179345,6.035664516,0.164982781,0.20937591,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_060,0.209452889,20.38649189,0.125558755,0.293347023,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,*
+
+Hospitals,Do not support cause,2013,nv_060,0.159158287,8.177511324,0.133586967,0.184729607,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_060,0.176825268,29.81521348,0.073243101,0.280407434,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+Social services,Do not support cause,2013,nv_060,0.171377335,4.140311468,0.157436489,0.185318181,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_060,0.173017063,6.623043413,0.150503238,0.195530888,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_060,0.174537884,6.708010854,0.151534793,0.197540976,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_060,0.224778752,10.66589974,0.177675001,0.271882503,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_060,0.167613964,9.076585502,0.137723308,0.197504619,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_060,0.138853804,15.10325449,0.097650593,0.180057016,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_060,0.170740857,3.627557411,0.158571868,0.182909846,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_060,0.187649816,13.49213939,0.137906847,0.237392785,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_060,0.190455818,6.045583635,0.167833598,0.213078038,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_060,0.16220779,24.20765841,0.085059335,0.239356244,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_060,0.163312066,8.001132506,0.137639311,0.188984821,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_060,0.081777708,42.58958938,0.013348561,0.150206855,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_060,0.169929049,3.719940144,0.157509486,0.182348612,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_060,0.189260727,10.59801802,0.149852409,0.228669045,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_060,0.189023695,6.180153541,0.166071816,0.211975575,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_060,0.181614554,17.88696663,0.117789662,0.245439446,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_060,0.157240255,8.387538737,0.13132825,0.18315226,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_060,0.200972919,27.00723143,0.094332867,0.307612971,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_060,0.170623688,3.639712715,0.158422302,0.182825075,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_060,0.199049931,16.58236923,0.134199726,0.263900136,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_060,0.185599616,6.063138107,0.1634902,0.207709032,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_060,0.262292977,24.5604114,0.13572465,0.388861305,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_060,0.160452541,8.118869797,0.134858143,0.186046938,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_060,0.151968364,33.18997684,0.052870823,0.251065906,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_060,0.1735132,3.609555132,0.161207993,0.185818408,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_060,0.125293105,20.04564854,0.075947324,0.174638886,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_060,0.186241019,5.966102671,0.164410261,0.208071776,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_060,0.251521621,33.63349714,0.085314322,0.417728919,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_060,0.157846622,8.092817101,0.1327487,0.182944544,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_060,0.208845579,37.47847243,0.055062019,0.362629139,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,…
+
+International,Do not support cause,2013,nv_060,0.172209335,3.593161925,0.160052061,0.18436661,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_060,0.15112164,25.52981187,0.075320277,0.226923003,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+International,Do not support cause,2013,nv_060,0.189257356,5.887543254,0.167365146,0.211149567,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_060,0.109709901,85.41074002,-0.074393177,0.29381298,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_060,0.160356941,7.953548427,0.135298651,0.185415232,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_060,0.145874966,47.86267899,0.008698215,0.283051717,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_060,0.166376305,4.046788127,0.153147985,0.179604624,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_060,0.194373077,6.745833963,0.168611378,0.220134776,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_060,0.183424797,7.127541374,0.157738557,0.209111037,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_060,0.205385113,10.12169155,0.164541439,0.246228787,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_060,0.148662628,8.89865454,0.122671274,0.174653981,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_060,0.258070073,16.47276679,0.174546909,0.341593237,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Business & professional,Do not support cause,2013,nv_060,0.17413012,3.575382768,0.161898072,0.186362168,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_060,0.079852954,28.70962604,0.034810581,0.124895328,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+Business & professional,Do not support cause,2013,nv_060,0.191143003,5.896447541,0.168999232,0.213286775,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_060,0.102953616,35.42585266,0.03129562,0.174611613,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,…
+
+Business & professional,Do not support cause,2013,nv_060,0.161273796,7.967749882,0.136027234,0.186520358,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_060,0.08834695,53.55356609,-0.004610178,0.181304079,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_060,0.1741111,3.563423327,0.161921299,0.186300902,5875,Health problems/physically unable,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_060,0.070820186,31.71985235,0.02668439,0.114955981,1515,Health problems/physically unable,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_060,0.188979161,5.901836754,0.167066059,0.210892263,1465,Health problems/physically unable,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_060,0.153610299,43.28048806,0.022988631,0.284231967,432,Health problems/physically unable,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_060,0.164434303,7.836414159,0.139117285,0.189751321,1014,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_060,0,,,,204,Health problems/physically unable,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Do not support cause,2013,nv_070,0.732207917,1.010312866,0.717673653,0.746742181,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_070,0.724888918,3.598933205,0.673632531,0.776145305,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_070,0.711029876,1.96589162,0.683566737,0.738493014,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_070,0.684649101,7.318204867,0.586208253,0.783089949,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Do not support cause,2013,nv_070,0.722939893,2.161458476,0.692238942,0.753640844,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_070,0.72903187,7.882197743,0.616131183,0.841932556,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Do not support cause,2013,nv_070,0.732442558,1.176377661,0.715513879,0.749371238,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_070,0.729289533,2.027975956,0.700231546,0.75834752,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_070,0.707658728,2.321171961,0.67538613,0.739931326,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_070,0.715260134,3.854750678,0.661089608,0.76943066,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_070,0.720297852,2.498425274,0.684940378,0.755655325,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_070,0.733153239,4.00251342,0.675499126,0.790807352,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_070,0.712320511,1.161268633,0.696068358,0.728572663,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_070,0.808448169,1.876897152,0.778635875,0.838260463,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_070,0.704259816,2.09142439,0.675321196,0.733198436,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_070,0.731686535,4.668500609,0.664573756,0.798799314,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_070,0.711736056,2.341436025,0.678994146,0.744477965,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_070,0.776413277,4.36660236,0.709803291,0.843023263,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_070,0.726612592,1.008125768,0.712220617,0.741004566,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_070,0.82117936,3.763808458,0.760454255,0.881904466,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_070,0.702671694,1.951484864,0.675730279,0.729613108,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_070,0.859145384,8.484206191,0.715932986,1.002357782,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Do not support cause,2013,nv_070,0.71984017,2.085474228,0.690345493,0.749334848,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_070,0.776349599,9.662297962,0.628968938,0.92373026,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Health,Do not support cause,2013,nv_070,0.732717794,1.073917609,0.71725776,0.748177828,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_070,0.724644459,2.734123526,0.685717915,0.763571003,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_070,0.704566865,2.021368643,0.676585398,0.732548332,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_070,0.746650841,5.177508116,0.670698514,0.822603169,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_070,0.713794832,2.282142928,0.681789747,0.745799916,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_070,0.792100742,4.852394697,0.716584689,0.867616795,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_070,0.731212156,1.000967613,0.716831914,0.745592397,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_070,0.74167603,4.027517566,0.682987338,0.800364722,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_070,0.715625482,1.948499047,0.688229382,0.743021581,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_070,0.599393955,10.21372599,0.479112325,0.719675584,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Hospitals,Do not support cause,2013,nv_070,0.727919972,2.094776508,0.697961196,0.757878749,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_070,0.639394611,10.39548657,0.508802622,0.769986599,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Social services,Do not support cause,2013,nv_070,0.733048776,1.143810922,0.716575125,0.749522427,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_070,0.727627241,2.040659797,0.69845416,0.756800322,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_070,0.70816669,2.115961388,0.678726136,0.737607243,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_070,0.713408771,4.018653428,0.657081107,0.769736435,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_070,0.722872895,2.427404794,0.688397687,0.757348102,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_070,0.724693057,4.083190365,0.666555541,0.782830573,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_070,0.728312006,1.029233057,0.713584339,0.743039672,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_070,0.782606631,3.056446187,0.735610401,0.829602861,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_070,0.70498238,2.009030829,0.677155302,0.732809458,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_070,0.766569698,5.684375772,0.6809572,0.852182196,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Environment,Do not support cause,2013,nv_070,0.720706134,2.12843829,0.690567607,0.750844661,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_070,0.787120935,9.113594821,0.646181047,0.928060823,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Development & housing,Do not support cause,2013,nv_070,0.73426835,1.025932273,0.719467855,0.749068845,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_070,0.707434721,3.275499055,0.661907977,0.752961465,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_070,0.713688294,1.949823098,0.686347789,0.741028798,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_070,0.669566238,6.957484951,0.578039378,0.761093099,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Development & housing,Do not support cause,2013,nv_070,0.730704447,2.141466607,0.699960771,0.761448124,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_070,0.617156667,9.972192373,0.496239263,0.73807407,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_070,0.732358083,1.006998147,0.717868533,0.746847633,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_070,0.715938642,5.202055071,0.642765199,0.789112085,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_070,0.709815518,1.944613615,0.682696026,0.73693501,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_070,0.703991624,9.150206128,0.57743027,0.830552978,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_070,0.723008939,2.127622624,0.6927857,0.753232178,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_070,0.730566315,10.38594609,0.581490068,0.879642562,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_070,0.728957607,1.005309904,0.714559514,0.7433557,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_070,0.805181898,3.810747969,0.744897217,0.86546658,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_070,0.70852421,1.923084148,0.681753756,0.735294663,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_070,0.74226646,8.76499665,0.614441892,0.870091028,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_070,0.718822321,2.122575786,0.688845367,0.748799276,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_070,0.82261931,6.421218655,0.718838012,0.926400609,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+International,Do not support cause,2013,nv_070,0.730371363,1.011812713,0.715852032,0.744890694,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_070,0.796323304,5.189533485,0.715129949,0.877516659,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+International,Do not support cause,2013,nv_070,0.71143684,1.891781846,0.684993875,0.737879805,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_070,0.553653119,35.6932251,0.165389871,0.941916367,1263,Did not have the time,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_070,0.721613405,2.115529764,0.691619952,0.751606859,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_070,0.808906709,10.85739052,0.636352071,0.981461348,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Religion,Do not support cause,2013,nv_070,0.737366357,1.079000993,0.721734596,0.752998118,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_070,0.707991881,2.252558632,0.67665851,0.739325252,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_070,0.719867735,2.170852181,0.689164389,0.750571081,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_070,0.673980507,4.096650855,0.619733094,0.72822792,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_070,0.731557944,2.088938108,0.701533356,0.761582531,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_070,0.652933233,7.728009132,0.553795464,0.752071002,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Business & professional,Do not support cause,2013,nv_070,0.730540021,1.009238559,0.716054284,0.745025758,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_070,0.776605529,4.455834033,0.708617535,0.844593523,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Business & professional,Do not support cause,2013,nv_070,0.706596883,1.963865148,0.679333099,0.733860666,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_070,0.801641323,7.52484538,0.683124386,0.92015826,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Business & professional,Do not support cause,2013,nv_070,0.724317079,2.088642545,0.694593878,0.754040281,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_070,0.665907157,16.93375344,0.444358227,0.887456086,864,Did not have the time,Barriers to volunteering by cause support,AB,*
+
+Other,Do not support cause,2013,nv_070,0.730339779,1.011157743,0.715830474,0.744849084,2237,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_070,0.790186312,5.475349379,0.705181389,0.875191236,5144,Did not have the time,Barriers to volunteering by cause support,CA,
+
+Other,Do not support cause,2013,nv_070,0.710130693,1.931899232,0.683176552,0.737084834,632,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_070,0.681395743,13.77639292,0.496963147,0.865828339,1263,Did not have the time,Barriers to volunteering by cause support,BC,
+
+Other,Do not support cause,2013,nv_070,0.717476424,2.11775031,0.687623619,0.747329228,353,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_070,0.938496954,3.962285705,0.865436663,1.011557244,864,Did not have the time,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Do not support cause,2013,nv_080,0.124071608,4.630976937,0.112782809,0.135360408,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_080,0.15829003,15.24757051,0.110870531,0.205709528,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_080,0.117607971,9.397557122,0.095893239,0.139322703,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_080,0.204825736,23.9533623,0.108430904,0.301220567,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_080,0.103913699,10.96814153,0.081520889,0.126306509,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_080,0.104966567,36.31583145,0.030072101,0.179861033,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Sports & Recreation,Do not support cause,2013,nv_080,0.132095706,4.905773885,0.119363637,0.144827775,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_080,0.108945052,9.451136409,0.088715127,0.129174978,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_080,0.120440715,10.2242128,0.096246811,0.144634618,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_080,0.127541545,15.86226887,0.087793138,0.167289951,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_080,0.105874098,12.01352867,0.080884283,0.130863914,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_080,0.097863143,21.56153238,0.056405794,0.139320492,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,*
+
+Education & research,Do not support cause,2013,nv_080,0.130538926,4.693446155,0.118501472,0.142576379,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_080,0.110643015,9.997867468,0.088909293,0.132376738,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_080,0.13073878,9.302729259,0.106843201,0.154634358,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_080,0.087269047,24.749047,0.044834316,0.129703779,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Education & research,Do not support cause,2013,nv_080,0.105464029,11.61876257,0.081388991,0.129539067,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_080,0.097286605,21.29517839,0.056582607,0.137990604,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,*
+
+Universities & colleges,Do not support cause,2013,nv_080,0.124506643,4.258728225,0.114088862,0.134924423,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_080,0.162076012,21.81073685,0.092622882,0.231529142,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+Universities & colleges,Do not support cause,2013,nv_080,0.118513086,9.131914249,0.097249776,0.139776396,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_080,0.203163669,35.62171022,0.060975469,0.345351868,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+Universities & colleges,Do not support cause,2013,nv_080,0.108632221,10.61145489,0.085983883,0.131280558,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_080,0.033872009,56.04884818,-0.003428125,0.071172142,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Health,Do not support cause,2013,nv_080,0.130967508,4.686643841,0.118908037,0.143026979,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_080,0.096393657,13.3649677,0.071082086,0.121705229,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_080,0.122891549,9.450655103,0.100073071,0.145710027,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_080,0.117637003,22.46693097,0.065710336,0.169563669,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Health,Do not support cause,2013,nv_080,0.105608058,10.92835843,0.08293267,0.128283446,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_080,0.092314369,30.48362593,0.037025377,0.147603361,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,*
+
+Hospitals,Do not support cause,2013,nv_080,0.12714736,4.416292474,0.116115013,0.138179707,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_080,0.11329373,18.83540497,0.071367716,0.155219745,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+Hospitals,Do not support cause,2013,nv_080,0.12331715,8.905708557,0.101739969,0.14489433,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_080,0.103000655,40.83618547,0.020361114,0.185640196,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+Hospitals,Do not support cause,2013,nv_080,0.106359008,10.65960095,0.084083995,0.128634021,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_080,0.060385249,56.0653871,-0.006131104,0.126901602,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Social services,Do not support cause,2013,nv_080,0.126004893,5.117639675,0.113335382,0.138674404,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_080,0.128072385,8.318407946,0.107140977,0.149003794,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_080,0.120558126,10.31921719,0.096115606,0.145000647,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_080,0.126754194,16.19617165,0.086419622,0.167088766,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_080,0.087332771,12.51054346,0.065866522,0.108799019,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_080,0.150693863,16.30914519,0.102406942,0.198980783,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_080,0.122078139,4.651555272,0.11092136,0.133234918,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_080,0.19356773,14.65884598,0.137818936,0.249316525,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_080,0.119689901,9.256353807,0.09792282,0.141456982,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_080,0.153927314,29.7895065,0.063836245,0.244018383,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_080,0.106254318,10.6851191,0.083947959,0.128560678,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_080,0.049297643,52.41898087,-0.001473562,0.100068847,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_080,0.124092304,4.536757958,0.113031335,0.135153274,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_080,0.149642169,14.21706531,0.107843092,0.191441247,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_080,0.118258643,9.326737572,0.09658832,0.139928966,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_080,0.161334294,24.84618136,0.082577309,0.24009128,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_080,0.101398187,11.20489873,0.079075788,0.123720586,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_080,0.141315178,31.58595423,0.053618013,0.229012343,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_080,0.126033985,4.386629341,0.115171696,0.136896274,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_080,0.137950108,20.11259478,0.083438011,0.192462205,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_080,0.125664597,8.867500976,0.103771009,0.147558184,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_080,0.030351984,82.49670244,-0.018843634,0.079547602,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+"Law, advocacy & politics",Do not support cause,2013,nv_080,0.103588902,10.78414152,0.081640568,0.125537235,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_080,0.112331021,50.37982908,0.001142709,0.223519333,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_080,0.126852204,4.442945445,0.11577904,0.137925369,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_080,0.117689024,22.87020779,0.064806909,0.170571138,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_080,0.118787556,8.780036131,0.098296234,0.139278879,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_080,0.226967063,39.39187727,0.051307314,0.402626812,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_080,0.105653846,10.78217195,0.083272082,0.128035609,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_080,0.067421569,47.7712425,0.004141327,0.130701811,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+International,Do not support cause,2013,nv_080,0.126296796,4.402706307,0.115371963,0.137221628,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_080,0.137788626,30.4396379,0.055383241,0.220194012,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+International,Do not support cause,2013,nv_080,0.123010803,8.810555224,0.101717194,0.144304412,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_080,0.058391386,104.061029,-0.060990832,0.177773604,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_080,0.103913719,10.68556468,0.08209782,0.125729618,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_080,0.10748199,59.02368302,-0.017160107,0.232124086,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_080,0.123567358,4.886408655,0.11170431,0.135430406,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_080,0.138853663,9.879641228,0.111901026,0.1658063,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_080,0.119607632,9.844431699,0.096473549,0.142741715,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_080,0.131508626,16.85237847,0.087965642,0.175051609,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,*
+
+Religion,Do not support cause,2013,nv_080,0.101388487,11.19106465,0.079095781,0.123681193,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_080,0.126246903,31.53435307,0.048028778,0.204465028,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,*
+
+Business & professional,Do not support cause,2013,nv_080,0.126660908,4.345004944,0.115848172,0.137473645,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_080,0.121158275,27.07452819,0.056709195,0.185607355,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+Business & professional,Do not support cause,2013,nv_080,0.12160374,9.081166088,0.09990716,0.143300321,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_080,0.142251885,41.77617785,0.025493125,0.259010645,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+Business & professional,Do not support cause,2013,nv_080,0.104431677,10.63242928,0.08261606,0.126247294,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_080,0.077429177,52.97700046,-0.003163346,0.158021699,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_080,0.127554476,4.366279224,0.116612142,0.138496809,6501,Financial cost of volunteering,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_080,0.0818005,29.03828546,0.035131374,0.128469627,879,Financial cost of volunteering,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_080,0.122197791,8.852158863,0.100945033,0.143450549,1658,Financial cost of volunteering,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_080,0.125699167,50.51458092,0.000945909,0.250452424,237,Financial cost of volunteering,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_080,0.102805045,10.83932405,0.080911334,0.124698755,1090,Financial cost of volunteering,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_080,0.147164687,47.6512995,0.009386298,0.284943076,127,Financial cost of volunteering,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_090,0.516725695,1.614883844,0.500330972,0.533120418,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_090,0.477359715,6.903413542,0.412613797,0.542105634,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_090,0.529512251,2.938003764,0.49894678,0.560077723,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_090,0.470958827,11.93433241,0.360529655,0.581387998,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Do not support cause,2013,nv_090,0.509175666,3.336410588,0.475798468,0.542552864,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_090,0.428277033,15.94516018,0.294106726,0.562447341,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Do not support cause,2013,nv_090,0.519314283,1.852280738,0.500415239,0.538213326,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_090,0.496894185,3.261799096,0.46505046,0.52873791,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_090,0.527473209,3.229228194,0.494007357,0.56093906,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_090,0.523154709,5.915526799,0.462351527,0.583957891,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_090,0.515142,3.614871227,0.47855536,0.551728641,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_090,0.467004869,7.406987396,0.399042931,0.534966807,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_090,0.515495524,1.771030909,0.49755836,0.533432688,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_090,0.507626561,3.553169926,0.472189063,0.54306406,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_090,0.535922652,3.174928531,0.502492465,0.56935284,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_090,0.486865134,7.46721517,0.415436872,0.558293396,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_090,0.509743599,3.616023867,0.473528822,0.545958376,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_090,0.476402898,8.341723299,0.398324136,0.55448166,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_090,0.509607692,1.648607811,0.493101151,0.526114233,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_090,0.589600397,6.679513588,0.512224562,0.666976231,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_090,0.52883886,2.902985192,0.498676111,0.559001609,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_090,0.47312187,19.79123221,0.289151196,0.657092545,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,*
+
+Universities & colleges,Do not support cause,2013,nv_090,0.503120501,3.393170447,0.469579159,0.536661842,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_090,0.512834867,16.87766383,0.342778609,0.682891125,629,Unable to make commitment,Barriers to volunteering by cause support,AB,*
+
+Health,Do not support cause,2013,nv_090,0.512576845,1.779034604,0.494660636,0.530493054,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_090,0.522954754,4.441002502,0.477325026,0.568584481,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_090,0.522077247,3.104207388,0.490236135,0.55391836,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_090,0.557984281,7.688370848,0.473697585,0.642270977,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_090,0.500908246,3.466695623,0.466790791,0.535025702,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_090,0.524003465,9.521077961,0.425981586,0.622025344,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_090,0.512511098,1.628395906,0.496114037,0.528908159,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_090,0.543455227,6.843514711,0.470384115,0.616526339,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_090,0.529549923,2.946037061,0.498898696,0.560201149,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_090,0.468188924,13.23661236,0.346430021,0.589947828,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Hospitals,Do not support cause,2013,nv_090,0.500591228,3.351292714,0.467630383,0.533552073,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_090,0.561348927,12.89002181,0.41918504,0.703512815,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Social services,Do not support cause,2013,nv_090,0.517196502,1.790536151,0.499001948,0.535391056,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_090,0.504093731,3.43263538,0.470096644,0.538090819,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_090,0.532127961,3.261863851,0.498025584,0.566230338,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_090,0.51116484,5.41585036,0.456773423,0.565556257,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_090,0.510334343,3.84483775,0.471783351,0.548885334,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_090,0.485134076,6.450451831,0.423651131,0.546617021,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_090,0.514557445,1.676004182,0.497613611,0.53150128,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_090,0.504089305,6.159477869,0.443085893,0.565092717,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_090,0.525501306,2.959360804,0.494946857,0.556055756,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_090,0.537018718,11.20379739,0.418807848,0.655229587,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Environment,Do not support cause,2013,nv_090,0.502503697,3.320512447,0.469720816,0.535286578,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_090,0.533166306,15.68547157,0.368856676,0.697475937,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Development & housing,Do not support cause,2013,nv_090,0.513494331,1.719346028,0.496148237,0.530840424,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_090,0.517825729,4.822346058,0.468763786,0.566887671,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_090,0.527353237,2.966663992,0.496615442,0.558091033,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_090,0.516733736,9.639349924,0.418871011,0.614596461,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Development & housing,Do not support cause,2013,nv_090,0.496885159,3.478843928,0.462923123,0.530847194,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_090,0.602602613,10.08130676,0.483244874,0.721960352,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_090,0.516357562,1.647592961,0.499642684,0.53307244,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_090,0.456858396,8.54735525,0.380137069,0.533579724,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_090,0.527899928,2.930573457,0.497504592,0.558295265,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_090,0.484996227,15.27776587,0.339416483,0.630575972,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_090,0.507851647,3.316303999,0.474761863,0.540941432,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_090,0.416523924,19.44786216,0.257371023,0.575676826,629,Unable to make commitment,Barriers to volunteering by cause support,AB,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_090,0.513009048,1.61489831,0.496732101,0.529285995,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_090,0.538083169,7.786057483,0.455769918,0.62039642,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_090,0.519600576,2.951154622,0.48947299,0.549728162,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_090,0.730158681,9.198114701,0.598205819,0.862111544,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_090,0.499270114,3.286144133,0.467035318,0.531504909,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_090,0.601460462,14.19075827,0.433767271,0.769153652,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+International,Do not support cause,2013,nv_090,0.513707309,1.62951997,0.497260632,0.530153987,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_090,0.523770986,11.69352022,0.403436682,0.644105289,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+International,Do not support cause,2013,nv_090,0.530662537,2.872771758,0.500710781,0.560614293,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_090,0.160460351,84.06212615,-0.104554889,0.425475591,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_090,0.499513482,3.271528677,0.467406411,0.531620552,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_090,0.711264813,14.59169246,0.507354245,0.915175381,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Religion,Do not support cause,2013,nv_090,0.518739287,1.831965269,0.500068221,0.537410354,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_090,0.493704978,3.447989328,0.460259596,0.527150359,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_090,0.532841627,3.391227286,0.497339221,0.568344033,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_090,0.503853064,5.799325863,0.446443512,0.561262616,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_090,0.497969665,3.46977314,0.46402225,0.53191708,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_090,0.553157221,9.113238656,0.454114156,0.652200286,629,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Business & professional,Do not support cause,2013,nv_090,0.514958508,1.631442521,0.498452322,0.531464695,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_090,0.472779818,10.28024852,0.377288193,0.568271443,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Business & professional,Do not support cause,2013,nv_090,0.528153197,2.915677334,0.497897851,0.558408542,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_090,0.472124537,16.6067301,0.318081014,0.626168059,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,*
+
+Business & professional,Do not support cause,2013,nv_090,0.50537945,3.282718234,0.47278423,0.537974671,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_090,0.405130208,27.03451297,0.189943264,0.620317153,629,Unable to make commitment,Barriers to volunteering by cause support,AB,*
+
+Other,Do not support cause,2013,nv_090,0.516962191,1.602302398,0.500687753,0.53323663,3527,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_090,0.377683906,14.2273015,0.272110689,0.483257124,3841,Unable to make commitment,Barriers to volunteering by cause support,CA,
+
+Other,Do not support cause,2013,nv_090,0.525668877,2.888274852,0.495838858,0.555498895,883,Unable to make commitment,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_090,0.563987347,17.20537242,0.373337624,0.754637071,1008,Unable to make commitment,Barriers to volunteering by cause support,BC,*
+
+Other,Do not support cause,2013,nv_090,0.508887637,3.237658121,0.476516673,0.541258601,589,Unable to make commitment,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_090,0.314354059,33.99651875,0.104384536,0.524323582,629,Unable to make commitment,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_100,0.291528439,2.564249187,0.276841074,0.306215804,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_100,0.178332918,11.52533021,0.137950936,0.2187149,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_100,0.261524316,4.891460382,0.236390793,0.286657838,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_100,0.170668818,26.58749935,0.081516135,0.2598215,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_100,0.369271881,4.935139038,0.333466494,0.405077269,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_100,0.224355783,22.72260087,0.124194922,0.324516645,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+Sports & Recreation,Do not support cause,2013,nv_100,0.288160817,2.882150804,0.271843289,0.304478346,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_100,0.268639035,4.918654809,0.242678227,0.294599843,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_100,0.255099995,5.526528855,0.227400897,0.282799094,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_100,0.261124886,9.764214512,0.211030586,0.311219187,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_100,0.377936308,5.313046259,0.338484677,0.417387938,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_100,0.300302755,10.35968308,0.239179211,0.361426299,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_100,0.295890673,2.772788851,0.279771201,0.312010145,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_100,0.234607306,6.332998272,0.205415992,0.26379862,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_100,0.277141783,5.063619879,0.249569937,0.30471363,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_100,0.172475869,14.7257378,0.122574996,0.222376743,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_100,0.361766702,5.199480637,0.324810163,0.398723242,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_100,0.348965573,10.86498488,0.274472747,0.423458399,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_100,0.290190288,2.498427186,0.275945621,0.304434955,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_100,0.165348833,16.42711452,0.111982771,0.218714896,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Do not support cause,2013,nv_100,0.260616983,4.824429123,0.235913887,0.285320079,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_100,0.17140058,44.58325717,0.021263895,0.321537264,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,…
+
+Universities & colleges,Do not support cause,2013,nv_100,0.368703314,4.713634527,0.33455764,0.402848988,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_100,0.220408028,31.47830842,0.084093691,0.356722366,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+Health,Do not support cause,2013,nv_100,0.276412887,2.702068262,0.261738588,0.291087185,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_100,0.331215861,5.925296279,0.292657023,0.369774699,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_100,0.259973086,5.175863507,0.233535978,0.286410194,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_100,0.23222793,13.48666764,0.170692981,0.29376288,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Health,Do not support cause,2013,nv_100,0.349372842,5.216620794,0.313564752,0.385180932,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_100,0.431849097,10.92344472,0.339167316,0.524530879,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_100,0.287247472,2.532674272,0.272953981,0.301540962,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_100,0.203721046,12.39524954,0.154108226,0.253333867,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_100,0.254537943,4.900816905,0.230029047,0.279046839,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_100,0.295833918,18.83533588,0.186356618,0.405311218,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Hospitals,Do not support cause,2013,nv_100,0.359552654,5.000951107,0.324224752,0.394880556,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_100,0.357378145,19.79745721,0.218370033,0.496386257,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+Social services,Do not support cause,2013,nv_100,0.291484974,2.771862847,0.275610817,0.30735913,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_100,0.259648147,5.597294012,0.231094204,0.28820209,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_100,0.265942574,5.789073911,0.235694362,0.296190786,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_100,0.232173105,10.13016449,0.185963617,0.278382592,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_100,0.37084059,5.308250173,0.332164604,0.409516575,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_100,0.32755565,9.40452543,0.267032054,0.388079245,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_100,0.286517402,2.58220376,0.271981424,0.30105338,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_100,0.23764578,9.868479279,0.191568898,0.283722662,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_100,0.25654101,5.061525251,0.231029219,0.282052801,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_100,0.257932182,20.67526631,0.153156768,0.362707596,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_100,0.358563754,4.942230597,0.323746691,0.393380817,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_100,0.380443158,20.02418481,0.230768813,0.530117502,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+Development & housing,Do not support cause,2013,nv_100,0.284200537,2.599083093,0.269687851,0.298713223,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_100,0.276566306,7.96426394,0.233290252,0.319842361,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_100,0.262094018,5.081079295,0.235929314,0.288258722,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_100,0.203166495,17.13616746,0.134764538,0.271568453,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_100,0.358537962,5.003644393,0.323290786,0.393785137,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_100,0.372388188,15.98545741,0.255431865,0.489344512,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_100,0.287241137,2.514944189,0.273048021,0.301434252,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_100,0.193318434,15.10966132,0.135929158,0.250707709,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Do not support cause,2013,nv_100,0.258337716,4.855480807,0.233693058,0.282982374,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_100,0.210561768,25.71631321,0.104174179,0.316949358,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_100,0.363245595,4.845711154,0.328662758,0.397828432,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_100,0.27395625,26.26077911,0.132607634,0.415304866,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_100,0.281257492,2.584388263,0.266976296,0.295538689,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_100,0.342832019,11.02887964,0.268544558,0.41711948,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Do not support cause,2013,nv_100,0.255539491,4.871015767,0.231083779,0.279995202,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_100,0.290573515,29.38524053,0.122813669,0.458333361,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_100,0.356624542,5.011170042,0.321512741,0.391736343,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_100,0.420800618,19.64877232,0.258352557,0.583248679,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+International,Do not support cause,2013,nv_100,0.28507381,2.493225832,0.271109429,0.299038191,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_100,0.204635683,21.95849486,0.116350733,0.292920632,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,*
+
+International,Do not support cause,2013,nv_100,0.258482545,4.818197657,0.234013412,0.282951677,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_100,0.100684078,84.10891185,-0.065697621,0.267065778,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,…
+
+International,Do not support cause,2013,nv_100,0.359930605,4.853472097,0.325608489,0.394252721,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_100,0.335407423,36.75011939,0.093229714,0.577585132,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_100,0.284073137,2.745743038,0.268748408,0.299397866,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_100,0.280909592,5.415421282,0.251021269,0.310797916,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_100,0.260963193,5.548850603,0.232513012,0.289413373,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_100,0.241699016,10.2322486,0.193108813,0.290289218,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_100,0.354497269,4.989793154,0.319743799,0.389250739,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_100,0.402712566,12.79510897,0.301474949,0.503950182,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Business & professional,Do not support cause,2013,nv_100,0.28337521,2.517125877,0.269360971,0.297389449,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_100,0.287021783,14.84111207,0.203329764,0.370713801,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Business & professional,Do not support cause,2013,nv_100,0.258542751,4.853315858,0.23388953,0.283195972,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_100,0.199227464,30.64607654,0.079270123,0.319184805,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Business & professional,Do not support cause,2013,nv_100,0.358522985,4.889839176,0.324078926,0.392967044,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_100,0.413652548,26.00951613,0.202269226,0.625035871,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,*
+
+Other,Do not support cause,2013,nv_100,0.284221771,2.54878665,0.269988866,0.298454677,5078,Preferred to give money instead,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_100,0.250600284,18.60712775,0.158985905,0.342214662,2252,Preferred to give money instead,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_100,0.256093486,4.882259737,0.231528182,0.280658791,1346,Preferred to give money instead,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_100,0.286272623,31.37903263,0.109781807,0.462763439,538,Preferred to give money instead,Barriers to volunteering by cause support,BC,*
+
+Other,Do not support cause,2013,nv_100,0.362702052,4.782443727,0.328621814,0.39678229,760,Preferred to give money instead,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_100,0.240631293,35.72347381,0.071739506,0.409523079,450,Preferred to give money instead,Barriers to volunteering by cause support,AB,…
+
+Arts & culture,Do not support cause,2013,nv_110,0.202960366,3.330306615,0.189680362,0.21624037,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Support cause,2013,nv_110,0.233052225,10.93539009,0.182980763,0.283123688,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Arts & culture,Do not support cause,2013,nv_110,0.189584022,7.016342443,0.163449459,0.215718586,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Arts & culture,Support cause,2013,nv_110,0.246330863,22.63717361,0.136772945,0.355888781,359,No interest,Barriers to volunteering by cause support,BC,*
+
+Arts & culture,Do not support cause,2013,nv_110,0.22536069,6.634650919,0.195984262,0.254737117,931,No interest,Barriers to volunteering by cause support,AB,
+
+Arts & culture,Support cause,2013,nv_110,0.298981655,19.2121179,0.186126208,0.411837103,282,No interest,Barriers to volunteering by cause support,AB,*
+
+Sports & Recreation,Do not support cause,2013,nv_110,0.195261305,3.715248132,0.18100829,0.209514321,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Support cause,2013,nv_110,0.235987538,6.063078062,0.207875976,0.264099099,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Sports & Recreation,Do not support cause,2013,nv_110,0.187790921,7.990118761,0.158310711,0.21727113,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Support cause,2013,nv_110,0.206714528,12.9228543,0.154229892,0.259199165,359,No interest,Barriers to volunteering by cause support,BC,
+
+Sports & Recreation,Do not support cause,2013,nv_110,0.214872595,7.705187048,0.182343876,0.247401314,931,No interest,Barriers to volunteering by cause support,AB,
+
+Sports & Recreation,Support cause,2013,nv_110,0.278998316,10.92222786,0.219127448,0.338869184,282,No interest,Barriers to volunteering by cause support,AB,
+
+Education & research,Do not support cause,2013,nv_110,0.206992015,3.462095032,0.192912253,0.221071777,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Education & research,Support cause,2013,nv_110,0.197560884,7.546090971,0.168270454,0.226851313,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Education & research,Do not support cause,2013,nv_110,0.190795827,7.329893245,0.16331883,0.218272823,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Education & research,Support cause,2013,nv_110,0.200285947,15.16301123,0.140618332,0.259953561,359,No interest,Barriers to volunteering by cause support,BC,
+
+Education & research,Do not support cause,2013,nv_110,0.228562145,7.011616723,0.197075585,0.260048705,931,No interest,Barriers to volunteering by cause support,AB,
+
+Education & research,Support cause,2013,nv_110,0.23743576,14.9314049,0.167781202,0.307090319,282,No interest,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Do not support cause,2013,nv_110,0.205423816,3.279267516,0.19218862,0.218659012,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Universities & colleges,Support cause,2013,nv_110,0.19926423,18.06031225,0.128558055,0.269970404,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+Universities & colleges,Do not support cause,2013,nv_110,0.192270898,6.808554345,0.166550884,0.217990913,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Universities & colleges,Support cause,2013,nv_110,0.200654092,34.5632304,0.064395126,0.336913058,359,No interest,Barriers to volunteering by cause support,BC,…
+
+Universities & colleges,Do not support cause,2013,nv_110,0.234397556,6.395934862,0.2049425,0.263852612,931,No interest,Barriers to volunteering by cause support,AB,
+
+Universities & colleges,Support cause,2013,nv_110,0.166732691,34.43612079,0.053925256,0.279540125,282,No interest,Barriers to volunteering by cause support,AB,…
+
+Health,Do not support cause,2013,nv_110,0.210849452,3.452154871,0.196548482,0.225150422,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Health,Support cause,2013,nv_110,0.166136538,9.698371054,0.134479761,0.197793315,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Health,Do not support cause,2013,nv_110,0.204295126,6.992184203,0.176229573,0.23236068,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Health,Support cause,2013,nv_110,0.10724098,20.75639344,0.063507362,0.150974599,359,No interest,Barriers to volunteering by cause support,BC,*
+
+Health,Do not support cause,2013,nv_110,0.221670708,7.070842097,0.190875568,0.252465849,931,No interest,Barriers to volunteering by cause support,AB,
+
+Health,Support cause,2013,nv_110,0.291574111,15.74705651,0.201364858,0.381783365,282,No interest,Barriers to volunteering by cause support,AB,
+
+Hospitals,Do not support cause,2013,nv_110,0.205414972,3.353242293,0.191881795,0.218948149,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Hospitals,Support cause,2013,nv_110,0.198280417,13.12236395,0.14715997,0.249400865,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Hospitals,Do not support cause,2013,nv_110,0.195556875,6.916591289,0.168982201,0.222131549,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Hospitals,Support cause,2013,nv_110,0.139551179,26.56389626,0.066718208,0.21238415,359,No interest,Barriers to volunteering by cause support,BC,*
+
+Hospitals,Do not support cause,2013,nv_110,0.231064406,6.573210617,0.201223408,0.260905404,931,No interest,Barriers to volunteering by cause support,AB,
+
+Hospitals,Support cause,2013,nv_110,0.213891811,26.82889267,0.101146199,0.326637423,282,No interest,Barriers to volunteering by cause support,AB,*
+
+Social services,Do not support cause,2013,nv_110,0.211782207,3.573246275,0.196914117,0.226650296,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Social services,Support cause,2013,nv_110,0.185057185,7.165687549,0.159003656,0.211110715,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Social services,Do not support cause,2013,nv_110,0.205753643,7.612166803,0.174981441,0.236525844,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Social services,Support cause,2013,nv_110,0.158094254,13.74444596,0.115402297,0.200786212,359,No interest,Barriers to volunteering by cause support,BC,
+
+Social services,Do not support cause,2013,nv_110,0.254521161,6.81335119,0.220449963,0.28859236,931,No interest,Barriers to volunteering by cause support,AB,
+
+Social services,Support cause,2013,nv_110,0.162258735,15.03314568,0.114333892,0.210183577,282,No interest,Barriers to volunteering by cause support,AB,
+
+Environment,Do not support cause,2013,nv_110,0.207093393,3.298741327,0.193671393,0.220515394,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Environment,Support cause,2013,nv_110,0.174970811,13.61630222,0.128162009,0.221779614,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Environment,Do not support cause,2013,nv_110,0.19812512,6.799213577,0.171658348,0.224591891,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Environment,Support cause,2013,nv_110,0.125236548,26.05085046,0.061136887,0.18933621,359,No interest,Barriers to volunteering by cause support,BC,*
+
+Environment,Do not support cause,2013,nv_110,0.233782944,6.504827986,0.203904954,0.263660934,931,No interest,Barriers to volunteering by cause support,AB,
+
+Environment,Support cause,2013,nv_110,0.143580618,49.71710092,0.003330138,0.283831098,282,No interest,Barriers to volunteering by cause support,AB,…
+
+Development & housing,Do not support cause,2013,nv_110,0.202763372,3.400843816,0.189215255,0.216311489,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Development & housing,Support cause,2013,nv_110,0.227020649,9.674824094,0.183867631,0.270173668,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Development & housing,Do not support cause,2013,nv_110,0.18922504,7.172675322,0.162558755,0.215891326,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Development & housing,Support cause,2013,nv_110,0.226164896,18.1497642,0.145515908,0.306813885,359,No interest,Barriers to volunteering by cause support,BC,*
+
+Development & housing,Do not support cause,2013,nv_110,0.227951846,6.545274248,0.198637939,0.257265752,931,No interest,Barriers to volunteering by cause support,AB,
+
+Development & housing,Support cause,2013,nv_110,0.264633087,22.7951638,0.146113644,0.38315253,282,No interest,Barriers to volunteering by cause support,AB,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_110,0.2061611,3.323735662,0.192698283,0.219623917,5845,No interest,Barriers to volunteering by cause support,CA,
+
+"Law, advocacy & politics",Support cause,2013,nv_110,0.179985494,18.09892924,0.115983555,0.243987432,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_110,0.190637494,6.928879394,0.1646853,0.216589687,1533,No interest,Barriers to volunteering by cause support,BC,
+
+"Law, advocacy & politics",Support cause,2013,nv_110,0.247367317,25.50459037,0.123412499,0.371322136,359,No interest,Barriers to volunteering by cause support,BC,*
+
+"Law, advocacy & politics",Do not support cause,2013,nv_110,0.229135589,6.565068694,0.199580344,0.258690834,931,No interest,Barriers to volunteering by cause support,AB,
+
+"Law, advocacy & politics",Support cause,2013,nv_110,0.251970627,30.876262,0.099116427,0.404824826,282,No interest,Barriers to volunteering by cause support,AB,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_110,0.206584668,3.262380379,0.193343222,0.219826114,5845,No interest,Barriers to volunteering by cause support,CA,
+
+"Grant-making, fundraising",Support cause,2013,nv_110,0.164977922,18.45346391,0.105163423,0.224792421,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+"Grant-making, fundraising",Do not support cause,2013,nv_110,0.192278208,6.77656007,0.166678082,0.217878334,1533,No interest,Barriers to volunteering by cause support,BC,
+
+"Grant-making, fundraising",Support cause,2013,nv_110,0.203624166,35.9724001,0.059710686,0.347537646,359,No interest,Barriers to volunteering by cause support,BC,…
+
+"Grant-making, fundraising",Do not support cause,2013,nv_110,0.232200361,6.469545119,0.202685593,0.261715129,931,No interest,Barriers to volunteering by cause support,AB,
+
+"Grant-making, fundraising",Support cause,2013,nv_110,0.185971608,31.56271462,0.070646536,0.301296681,282,No interest,Barriers to volunteering by cause support,AB,*
+
+International,Do not support cause,2013,nv_110,0.20585869,3.25040302,0.19271222,0.21900516,5845,No interest,Barriers to volunteering by cause support,CA,
+
+International,Support cause,2013,nv_110,0.167535095,25.69547391,0.082955584,0.252114606,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+International,Do not support cause,2013,nv_110,0.194905991,6.722582708,0.169162699,0.220649283,1533,No interest,Barriers to volunteering by cause support,BC,
+
+International,Support cause,2013,nv_110,0,,,,359,No interest,Barriers to volunteering by cause support,BC,
+
+International,Do not support cause,2013,nv_110,0.228902768,6.475788123,0.199779077,0.258026459,931,No interest,Barriers to volunteering by cause support,AB,
+
+International,Support cause,2013,nv_110,0.29246491,40.64701945,0.058901281,0.526028538,282,No interest,Barriers to volunteering by cause support,AB,…
+
+Religion,Do not support cause,2013,nv_110,0.207750884,3.684728737,0.192710769,0.222790998,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Religion,Support cause,2013,nv_110,0.194034094,7.031344547,0.167228887,0.220839302,1510,No interest,Barriers to volunteering by cause support,CA,
+
+Religion,Do not support cause,2013,nv_110,0.197892857,7.421425134,0.169037918,0.226747797,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Religion,Support cause,2013,nv_110,0.174346091,14.28399694,0.125417275,0.223274907,359,No interest,Barriers to volunteering by cause support,BC,
+
+Religion,Do not support cause,2013,nv_110,0.237663811,6.425657327,0.207659521,0.267668101,931,No interest,Barriers to volunteering by cause support,AB,
+
+Religion,Support cause,2013,nv_110,0.166244864,22.98351696,0.091174683,0.241315045,282,No interest,Barriers to volunteering by cause support,AB,*
+
+Business & professional,Do not support cause,2013,nv_110,0.205450335,3.255477958,0.192309458,0.218591213,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Business & professional,Support cause,2013,nv_110,0.191008951,17.47805073,0.125417165,0.256600737,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+Business & professional,Do not support cause,2013,nv_110,0.19351688,6.826367047,0.167562466,0.219471295,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Business & professional,Support cause,2013,nv_110,0.165776897,34.45583299,0.053551926,0.278001868,359,No interest,Barriers to volunteering by cause support,BC,…
+
+Business & professional,Do not support cause,2013,nv_110,0.229271015,6.455023397,0.200194007,0.258348023,931,No interest,Barriers to volunteering by cause support,AB,
+
+Business & professional,Support cause,2013,nv_110,0.286463452,38.12825179,0.071868819,0.501058085,282,No interest,Barriers to volunteering by cause support,AB,…
+
+Other,Do not support cause,2013,nv_110,0.204286318,3.235479414,0.19130016,0.217272475,5845,No interest,Barriers to volunteering by cause support,CA,
+
+Other,Support cause,2013,nv_110,0.240453937,20.52710823,0.143478352,0.337429521,1510,No interest,Barriers to volunteering by cause support,CA,*
+
+Other,Do not support cause,2013,nv_110,0.191865316,6.909037683,0.165820771,0.217909861,1533,No interest,Barriers to volunteering by cause support,BC,
+
+Other,Support cause,2013,nv_110,0.234525977,39.99624021,0.050231269,0.418820685,359,No interest,Barriers to volunteering by cause support,BC,…
+
+Other,Do not support cause,2013,nv_110,0.234747571,6.318337418,0.205606423,0.26388872,931,No interest,Barriers to volunteering by cause support,AB,
+
+Other,Support cause,2013,nv_110,0.063476817,63.46799405,-0.015677145,0.142630779,282,No interest,Barriers to volunteering by cause support,AB,…

@@ -1,0 +1,598 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Senior,15 à 64 ans,2018,gs1dax01,159.24824318431962,15.448302748250567,111.03087377844568,207.4656125901936,427,Arts et culture,Older Canadians Average Donation by Cause,CA,
+1,Senior,64 à 75 ans,2018,gs1dax01,268.83997730652965,27.04508040609088,126.33493938667604,411.3450152263832,177,Arts et culture,Older Canadians Average Donation by Cause,CA,*
+2,Senior,75 ans et plus,2018,gs1dax01,206.13053165909383,26.511416735391403,99.0221762730648,313.23888704512296,93,Arts et culture,Older Canadians Average Donation by Cause,CA,*
+3,Senior,15 à 64 ans,2018,gs1dax02,76.91941018936426,10.532777852062148,61.0402708009286,92.79854957779992,1781,Sport et loisir,Older Canadians Average Donation by Cause,CA,
+4,Senior,64 à 75 ans,2018,gs1dax02,55.92921838883975,12.645062274024562,42.06779549091649,69.790641286763,502,Sport et loisir,Older Canadians Average Donation by Cause,CA,
+5,Senior,75 ans et plus,2018,gs1dax02,101.80387634131304,46.03094934599499,9.95743420043192,193.6503184821941,251,Sport et loisir,Older Canadians Average Donation by Cause,CA,...
+6,Senior,15 à 64 ans,2018,gs1dax03,89.81861609985334,12.936894888319744,67.04434427836861,112.59288792133808,1672,Éducation et recherche,Older Canadians Average Donation by Cause,CA,
+7,Senior,64 à 75 ans,2018,gs1dax03,72.23324871482119,19.770294081200745,44.24354067888788,100.22295675075448,442,Éducation et recherche,Older Canadians Average Donation by Cause,CA,*
+8,Senior,75 ans et plus,2018,gs1dax03,70.34041870397292,26.422801212892367,33.91270643135913,106.76813097658668,189,Éducation et recherche,Older Canadians Average Donation by Cause,CA,*
+9,Senior,15 à 64 ans,2018,gs1dax04,325.98360165960094,25.882706929181317,160.6148151063991,491.35238821280274,243,Universités et collèges,Older Canadians Average Donation by Cause,CA,*
+10,Senior,64 à 75 ans,2018,gs1dax04,293.52959746294056,23.267644673263398,159.66910667893677,427.39008824694434,90,Universités et collèges,Older Canadians Average Donation by Cause,CA,*
+11,Senior,75 ans et plus,2018,gs1dax04,665.6472454469936,35.360610071767105,204.31694589997613,1126.977544994011,46,Universités et collèges,Older Canadians Average Donation by Cause,CA,...
+12,Senior,15 à 64 ans,2018,gs1dax05,125.82638009004091,4.882659231031315,113.78500156668652,137.8677586133953,4380,Santé,Older Canadians Average Donation by Cause,CA,
+13,Senior,64 à 75 ans,2018,gs1dax05,130.68934117883114,8.49279882442578,108.93534257168612,152.44333978597615,1502,Santé,Older Canadians Average Donation by Cause,CA,
+14,Senior,75 ans et plus,2018,gs1dax05,174.15828181229722,16.44280686175262,118.03175374157294,230.2848098830215,870,Santé,Older Canadians Average Donation by Cause,CA,
+15,Senior,15 à 64 ans,2018,gs1dax06,116.77836375039448,12.93936810232919,87.1625585526654,146.3941689481236,2069,Hôpitaux,Older Canadians Average Donation by Cause,CA,
+16,Senior,64 à 75 ans,2018,gs1dax06,150.12909300119432,15.860654796489287,103.45949448933824,196.7986915130504,664,Hôpitaux,Older Canadians Average Donation by Cause,CA,
+17,Senior,75 ans et plus,2018,gs1dax06,159.3562110988112,17.500580692843766,104.6962213750899,214.01620082253248,442,Hôpitaux,Older Canadians Average Donation by Cause,CA,*
+18,Senior,15 à 64 ans,2018,gs1dax07,114.73761291644462,6.361289556327169,100.43224388202744,129.0429819508618,4173,Services sociaux,Older Canadians Average Donation by Cause,CA,
+19,Senior,64 à 75 ans,2018,gs1dax07,135.7595879151054,6.833068176086851,117.57789342643254,153.9412824037783,1410,Services sociaux,Older Canadians Average Donation by Cause,CA,
+20,Senior,75 ans et plus,2018,gs1dax07,148.98392377082527,10.101694684818092,119.4866596267057,178.48118791494483,827,Services sociaux,Older Canadians Average Donation by Cause,CA,
+21,Senior,15 à 64 ans,2018,gs1dax08,144.0967012170076,9.652893616886075,116.83457967721054,171.35882275680464,1069,Environnement,Older Canadians Average Donation by Cause,CA,
+22,Senior,64 à 75 ans,2018,gs1dax08,159.52118466266887,14.679482000934488,113.62493619564336,205.4174331296944,355,Environnement,Older Canadians Average Donation by Cause,CA,
+23,Senior,75 ans et plus,2018,gs1dax08,105.80583787922735,18.29444312432964,67.86762090292726,143.74405485552748,180,Environnement,Older Canadians Average Donation by Cause,CA,*
+24,Senior,15 à 64 ans,2018,gs1dax09,192.06018421638288,22.470613876938938,107.473817822338,276.64655061042777,331,Aménagement et logement,Older Canadians Average Donation by Cause,CA,*
+25,Senior,64 à 75 ans,2018,gs1dax09,318.95110799413294,50.44445558549485,3.606328612306413,634.2958873759594,117,Aménagement et logement,Older Canadians Average Donation by Cause,CA,...
+26,Senior,75 ans et plus,2018,gs1dax09,277.4458780591936,54.44031681318259,-18.59181547981956,573.4835715982067,48,Aménagement et logement,Older Canadians Average Donation by Cause,CA,...
+27,Senior,15 à 64 ans,2018,gs1dax10,149.3823274596786,15.36563666377377,104.39420461459136,194.37045030476585,429,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA,
+28,Senior,64 à 75 ans,2018,gs1dax10,122.22344717198725,21.457511861542887,70.82121479537489,173.6256795485996,223,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA,*
+29,Senior,75 ans et plus,2018,gs1dax10,197.0914066668987,21.406171419952557,114.40106639360694,279.7817469401905,128,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA,*
+30,Senior,15 à 64 ans,2018,gs1dax11,185.4117810703296,8.603626809175175,154.14616569497542,216.6773964456837,1562,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA,
+31,Senior,64 à 75 ans,2018,gs1dax11,175.48331181549884,20.138865653739792,106.2175017283386,244.74912190265903,343,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA,*
+32,Senior,75 ans et plus,2018,gs1dax11,189.04270561395825,25.576879210036207,94.27604704382428,283.8093641840922,172,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA,*
+33,Senior,15 à 64 ans,2018,gs1dax12,325.23921270067035,7.291390881930148,278.759720681274,371.7187047200667,984,International,Older Canadians Average Donation by Cause,CA,
+34,Senior,64 à 75 ans,2018,gs1dax12,303.9556474924018,8.848356353503837,251.24226159145053,356.66903339335306,368,International,Older Canadians Average Donation by Cause,CA,
+35,Senior,75 ans et plus,2018,gs1dax12,270.728061849109,9.953298807109825,217.91414135206844,323.54198234614955,206,International,Older Canadians Average Donation by Cause,CA,
+36,Senior,15 à 64 ans,2018,gs1dax13,691.2146272733405,5.833596448082838,612.1836425002335,770.2456120464475,2780,Religion,Older Canadians Average Donation by Cause,CA,
+37,Senior,64 à 75 ans,2018,gs1dax13,767.6277882004844,9.144834025830413,630.041673576593,905.2139028243756,1090,Religion,Older Canadians Average Donation by Cause,CA,
+38,Senior,75 ans et plus,2018,gs1dax13,761.3776675085008,8.672343764520072,631.9626397853635,890.7926952316382,840,Religion,Older Canadians Average Donation by Cause,CA,
+39,Senior,15 à 64 ans,2018,gs1dax14,81.1484577382173,16.356765204684333,55.13334088993152,107.16357458650307,55,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA,
+40,Senior,64 à 75 ans,2018,gs1dax14,46.35971780940222,39.97273517083091,10.039140658036558,82.68029496076788,22,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA,...
+41,Senior,75 ans et plus,2018,gs1dax14,77.78373492355115,38.882804120958816,18.50560950798299,137.0618603391193,9,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA,...
+42,Senior,15 à 64 ans,2018,gs1dax15,68.81472257154458,18.987193973613508,43.20586282915505,94.4235823139341,316,Autre,Older Canadians Average Donation by Cause,CA,*
+43,Senior,64 à 75 ans,2018,gs1dax15,92.32668476510328,26.785355305811727,43.856715537965336,140.79665399224123,84,Autre,Older Canadians Average Donation by Cause,CA,*
+44,Senior,75 ans et plus,2018,gs1dax15,348.2868172939346,42.07416429398844,61.07611021884952,635.4975243690196,53,Autre,Older Canadians Average Donation by Cause,CA,...
+45,Senior2,15 à 64 ans,2018,gs1dax01,159.24824318431962,15.448302748250567,111.03087377844568,207.4656125901936,427,Arts et culture,Older Canadians Average Donation by Cause,CA,
+46,Senior2,65 ans et plus,2018,gs1dax01,242.53949496206093,19.703437756962337,148.8755239763688,336.20346594775305,270,Arts et culture,Older Canadians Average Donation by Cause,CA,*
+47,Senior2,15 à 64 ans,2018,gs1dax02,76.91941018936426,10.532777852062148,61.0402708009286,92.79854957779992,1781,Sport et loisir,Older Canadians Average Donation by Cause,CA,
+48,Senior2,65 ans et plus,2018,gs1dax02,72.71214286238083,24.32281922140557,38.04891942051309,107.37536630424856,753,Sport et loisir,Older Canadians Average Donation by Cause,CA,*
+49,Senior2,15 à 64 ans,2018,gs1dax03,89.81861609985334,12.936894888319744,67.04434427836861,112.59288792133808,1672,Éducation et recherche,Older Canadians Average Donation by Cause,CA,
+50,Senior2,65 ans et plus,2018,gs1dax03,71.57492077711092,15.395503513781993,49.97745153424446,93.17239001997736,631,Éducation et recherche,Older Canadians Average Donation by Cause,CA,
+51,Senior2,15 à 64 ans,2018,gs1dax04,325.98360165960094,25.882706929181317,160.6148151063991,491.35238821280274,243,Universités et collèges,Older Canadians Average Donation by Cause,CA,*
+52,Senior2,65 ans et plus,2018,gs1dax04,451.2578435180464,23.87790962533969,240.06988171482004,662.4458053212727,136,Universités et collèges,Older Canadians Average Donation by Cause,CA,*
+53,Senior2,15 à 64 ans,2018,gs1dax05,125.82638009004091,4.882659231031315,113.78500156668652,137.8677586133953,4380,Santé,Older Canadians Average Donation by Cause,CA,
+54,Senior2,65 ans et plus,2018,gs1dax05,147.47149035228352,8.859328766117924,121.86459192715624,173.07838877741082,2372,Santé,Older Canadians Average Donation by Cause,CA,
+55,Senior2,15 à 64 ans,2018,gs1dax06,116.77836375039448,12.93936810232919,87.1625585526654,146.3941689481236,2069,Hôpitaux,Older Canadians Average Donation by Cause,CA,
+56,Senior2,65 ans et plus,2018,gs1dax06,154.08297657244722,12.01067276375994,117.81109497150688,190.3548581733876,1106,Hôpitaux,Older Canadians Average Donation by Cause,CA,
+57,Senior2,15 à 64 ans,2018,gs1dax07,114.73761291644462,6.361289556327169,100.43224388202744,129.0429819508618,4173,Services sociaux,Older Canadians Average Donation by Cause,CA,
+58,Senior2,65 ans et plus,2018,gs1dax07,140.86714616069074,5.816156913854828,124.8090548861893,156.92523743519217,2237,Services sociaux,Older Canadians Average Donation by Cause,CA,
+59,Senior2,15 à 64 ans,2018,gs1dax08,144.0967012170076,9.652893616886075,116.83457967721054,171.35882275680464,1069,Environnement,Older Canadians Average Donation by Cause,CA,
+60,Senior2,65 ans et plus,2018,gs1dax08,137.17659595579406,11.556126542574336,106.1066568934293,168.24653501815882,535,Environnement,Older Canadians Average Donation by Cause,CA,
+61,Senior2,15 à 64 ans,2018,gs1dax09,192.06018421638288,22.470613876938938,107.473817822338,276.64655061042777,331,Aménagement et logement,Older Canadians Average Donation by Cause,CA,*
+62,Senior2,65 ans et plus,2018,gs1dax09,302.19103198276224,37.1492638294652,82.16205741018803,522.2200065553365,165,Aménagement et logement,Older Canadians Average Donation by Cause,CA,...
+63,Senior2,15 à 64 ans,2018,gs1dax10,149.3823274596786,15.36563666377377,104.39420461459136,194.37045030476585,429,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA,
+64,Senior2,65 ans et plus,2018,gs1dax10,151.98031653924923,15.050795743323352,107.14761622151408,196.8130168569844,351,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA,
+65,Senior2,15 à 64 ans,2018,gs1dax11,185.4117810703296,8.603626809175175,154.14616569497542,216.6773964456837,1562,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA,
+66,Senior2,65 ans et plus,2018,gs1dax11,180.3817901554477,15.343390532686696,126.1364892176308,234.6270910932646,515,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA,
+67,Senior2,15 à 64 ans,2018,gs1dax12,325.23921270067035,7.291390881930148,278.759720681274,371.7187047200667,984,International,Older Canadians Average Donation by Cause,CA,
+68,Senior2,65 ans et plus,2018,gs1dax12,290.22710549972857,6.652248372033174,252.3868101512352,328.0674008482219,574,International,Older Canadians Average Donation by Cause,CA,
+69,Senior2,15 à 64 ans,2018,gs1dax13,691.2146272733405,5.833596448082838,612.1836425002335,770.2456120464475,2780,Religion,Older Canadians Average Donation by Cause,CA,
+70,Senior2,65 ans et plus,2018,gs1dax13,764.7104851793472,6.391200694149048,668.9188490049401,860.5021213537543,1930,Religion,Older Canadians Average Donation by Cause,CA,
+71,Senior2,15 à 64 ans,2018,gs1dax14,81.1484577382173,16.356765204684333,55.13334088993152,107.16357458650307,55,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA,
+72,Senior2,65 ans et plus,2018,gs1dax14,57.09916717542303,26.60312917050612,27.32699046624573,86.87134388460032,31,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA,*
+73,Senior2,15 à 64 ans,2018,gs1dax15,68.81472257154458,18.987193973613508,43.20586282915505,94.4235823139341,316,Autre,Older Canadians Average Donation by Cause,CA,*
+74,Senior2,65 ans et plus,2018,gs1dax15,190.88028816693455,33.99751515962532,63.689297757848976,318.0712785760202,137,Autre,Older Canadians Average Donation by Cause,CA,...
+75,Senior,15 à 64 ans,2018,gs1dax01,172.17539838073805,16.53392868676716,116.38040278023506,227.97039398124105,386,Arts et culture,Older Canadians Average Donation by Cause,CA (without QC),*
+76,Senior,64 à 75 ans,2018,gs1dax01,274.698196467496,29.32277345173083,116.8248030221925,432.5715899127994,163,Arts et culture,Older Canadians Average Donation by Cause,CA (without QC),*
+77,Senior,75 ans et plus,2018,gs1dax01,164.7389354221594,18.982889967747283,103.44652844857208,226.0313423957468,87,Arts et culture,Older Canadians Average Donation by Cause,CA (without QC),*
+78,Senior,15 à 64 ans,2018,gs1dax02,85.80635515394212,11.350207951718213,66.71787441400635,104.8948358938779,1606,Sport et loisir,Older Canadians Average Donation by Cause,CA (without QC),
+79,Senior,64 à 75 ans,2018,gs1dax02,60.403433169223696,14.032773850034957,43.7902351846282,77.01663115381919,458,Sport et loisir,Older Canadians Average Donation by Cause,CA (without QC),
+80,Senior,75 ans et plus,2018,gs1dax02,68.53897524001879,23.100596024304476,37.50703836240535,99.57091211763222,224,Sport et loisir,Older Canadians Average Donation by Cause,CA (without QC),*
+81,Senior,15 à 64 ans,2018,gs1dax03,96.73390237261688,14.034708778413757,70.12480121361563,123.34300353161814,1503,Éducation et recherche,Older Canadians Average Donation by Cause,CA (without QC),
+82,Senior,64 à 75 ans,2018,gs1dax03,77.34812939264131,21.394007428211545,44.91491085781919,109.78134792746344,410,Éducation et recherche,Older Canadians Average Donation by Cause,CA (without QC),*
+83,Senior,75 ans et plus,2018,gs1dax03,80.02049408509977,28.257958248325703,35.70147916736762,124.33950900283192,172,Éducation et recherche,Older Canadians Average Donation by Cause,CA (without QC),*
+84,Senior,15 à 64 ans,2018,gs1dax04,431.971615224597,28.08473289920159,194.192558851902,669.750671597292,199,Universités et collèges,Older Canadians Average Donation by Cause,CA (without QC),*
+85,Senior,64 à 75 ans,2018,gs1dax04,302.30018534158154,27.53198347723473,139.17387820424332,465.4264924789197,76,Universités et collèges,Older Canadians Average Donation by Cause,CA (without QC),*
+86,Senior,75 ans et plus,2018,gs1dax04,761.6335453187371,37.541427855779176,201.22475158621228,1322.042339051262,37,Universités et collèges,Older Canadians Average Donation by Cause,CA (without QC),...
+87,Senior,15 à 64 ans,2018,gs1dax05,136.815409096207,5.219775563695637,122.81841000798292,150.81240818443106,3901,Santé,Older Canadians Average Donation by Cause,CA (without QC),
+88,Senior,64 à 75 ans,2018,gs1dax05,143.00888380701343,9.545511416223242,116.25355396468862,169.76421364933825,1335,Santé,Older Canadians Average Donation by Cause,CA (without QC),
+89,Senior,75 ans et plus,2018,gs1dax05,203.4835189718021,19.01251274858219,127.6577455416617,279.30929240194257,756,Santé,Older Canadians Average Donation by Cause,CA (without QC),*
+90,Senior,15 à 64 ans,2018,gs1dax06,148.04536308113973,14.761352592667384,105.21329398357986,190.8774321786996,1720,Hôpitaux,Older Canadians Average Donation by Cause,CA (without QC),
+91,Senior,64 à 75 ans,2018,gs1dax06,191.42002951807595,18.737858158963306,121.12001462795598,261.7200444081959,543,Hôpitaux,Older Canadians Average Donation by Cause,CA (without QC),*
+92,Senior,75 ans et plus,2018,gs1dax06,201.41628224537544,19.70287669706311,123.63550010407764,279.1970643866732,371,Hôpitaux,Older Canadians Average Donation by Cause,CA (without QC),*
+93,Senior,15 à 64 ans,2018,gs1dax07,125.5717890707707,6.832069021239487,108.75696150383092,142.3866166377105,3670,Services sociaux,Older Canadians Average Donation by Cause,CA (without QC),
+94,Senior,64 à 75 ans,2018,gs1dax07,147.560098249491,7.443144379887255,126.0335959380574,169.08660056092464,1237,Services sociaux,Older Canadians Average Donation by Cause,CA (without QC),
+95,Senior,75 ans et plus,2018,gs1dax07,171.15367404283646,11.281118212715768,133.3105947744864,208.99675331118647,717,Services sociaux,Older Canadians Average Donation by Cause,CA (without QC),
+96,Senior,15 à 64 ans,2018,gs1dax08,153.00562387118666,10.585736530908722,121.2605336532529,184.7507140891204,970,Environnement,Older Canadians Average Donation by Cause,CA (without QC),
+97,Senior,64 à 75 ans,2018,gs1dax08,167.32572958388596,15.708457411720492,115.8094659224654,218.84199324530653,330,Environnement,Older Canadians Average Donation by Cause,CA (without QC),
+98,Senior,75 ans et plus,2018,gs1dax08,115.0145642756662,20.41160908596532,69.00181621257039,161.02731233876202,167,Environnement,Older Canadians Average Donation by Cause,CA (without QC),*
+99,Senior,15 à 64 ans,2018,gs1dax09,228.0054264144198,23.41685433408874,123.35962012952751,332.65123269931206,301,Aménagement et logement,Older Canadians Average Donation by Cause,CA (without QC),*
+100,Senior,64 à 75 ans,2018,gs1dax09,404.9927449407974,49.96820477554305,8.359529231641545,801.6259606499533,103,Aménagement et logement,Older Canadians Average Donation by Cause,CA (without QC),...
+101,Senior,75 ans et plus,2018,gs1dax09,370.4281159465768,54.96892084917755,-28.66041277453678,769.5166446676903,40,Aménagement et logement,Older Canadians Average Donation by Cause,CA (without QC),...
+102,Senior,15 à 64 ans,2018,gs1dax10,164.2173049480169,16.15359358700212,112.22534808995238,216.20926180608143,396,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA (without QC),
+103,Senior,64 à 75 ans,2018,gs1dax10,132.93616504920132,24.262550159986844,69.72006737855827,196.1522627198444,206,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA (without QC),*
+104,Senior,75 ans et plus,2018,gs1dax10,202.11173862534017,21.253871446708068,117.91841027790689,286.3050669727735,124,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA (without QC),*
+105,Senior,15 à 64 ans,2018,gs1dax11,207.9650448265028,9.323539786627553,169.96192391011311,245.9681657428925,1368,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA (without QC),
+106,Senior,64 à 75 ans,2018,gs1dax11,216.87807473369816,22.53988610230536,121.06705610533764,312.6890933620588,291,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA (without QC),*
+107,Senior,75 ans et plus,2018,gs1dax11,160.82436084073743,28.64481973122237,70.53303743190993,251.1156842495649,142,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA (without QC),*
+108,Senior,15 à 64 ans,2018,gs1dax12,354.13392446978173,7.770918129092719,300.1967792134312,408.0710697261322,886,International,Older Canadians Average Donation by Cause,CA (without QC),
+109,Senior,64 à 75 ans,2018,gs1dax12,309.11316427344303,9.334428585075033,252.56046623194229,365.66586231494375,333,International,Older Canadians Average Donation by Cause,CA (without QC),
+110,Senior,75 ans et plus,2018,gs1dax12,290.0253134532358,10.563032931738874,229.98089683768524,350.0697300687864,177,International,Older Canadians Average Donation by Cause,CA (without QC),
+111,Senior,15 à 64 ans,2018,gs1dax13,843.2690377774901,5.967656705353765,744.6369836948161,941.901091860164,2455,Religion,Older Canadians Average Donation by Cause,CA (without QC),
+112,Senior,64 à 75 ans,2018,gs1dax13,903.5764793600569,7.558258520727176,769.7214323878177,1037.431526332296,947,Religion,Older Canadians Average Donation by Cause,CA (without QC),
+113,Senior,75 ans et plus,2018,gs1dax13,913.3039127401322,9.332507178749012,746.2480421756375,1080.359783304627,728,Religion,Older Canadians Average Donation by Cause,CA (without QC),
+114,Senior,15 à 64 ans,2018,gs1dax14,81.9219050462588,17.436873026774194,53.92456712786644,109.91924296465116,52,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA (without QC),*
+115,Senior,64 à 75 ans,2018,gs1dax14,47.35331773413639,40.788819583071,9.49688906681572,85.20974640145707,21,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA (without QC),...
+116,Senior,75 ans et plus,2018,gs1dax14,114.25045258191112,23.44961838229269,61.74047902694696,166.76042613687528,8,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA (without QC),...
+117,Senior,15 à 64 ans,2018,gs1dax15,78.55701568804102,20.630838677681,46.791935883425694,110.32209549265636,288,Autre,Older Canadians Average Donation by Cause,CA (without QC),*
+118,Senior,64 à 75 ans,2018,gs1dax15,86.33106555818397,28.9840833665037,37.28832144202834,135.37380967433958,77,Autre,Older Canadians Average Donation by Cause,CA (without QC),*
+119,Senior,75 ans et plus,2018,gs1dax15,323.24622856157833,46.60548933245796,27.97670063125878,618.515756491898,50,Autre,Older Canadians Average Donation by Cause,CA (without QC),...
+120,Senior2,15 à 64 ans,2018,gs1dax01,172.17539838073805,16.53392868676716,116.38040278023506,227.97039398124105,386,Arts et culture,Older Canadians Average Donation by Cause,CA (without QC),*
+121,Senior2,65 ans et plus,2018,gs1dax01,226.43637438989143,21.14563518491227,132.59053593820306,320.28221284157985,250,Arts et culture,Older Canadians Average Donation by Cause,CA (without QC),*
+122,Senior2,15 à 64 ans,2018,gs1dax02,85.80635515394212,11.350207951718213,66.71787441400635,104.8948358938779,1606,Sport et loisir,Older Canadians Average Donation by Cause,CA (without QC),
+123,Senior2,65 ans et plus,2018,gs1dax02,63.06744269410809,11.907645499975608,48.34841206096727,77.78647332724891,682,Sport et loisir,Older Canadians Average Donation by Cause,CA (without QC),
+124,Senior2,15 à 64 ans,2018,gs1dax03,96.73390237261688,14.034708778413757,70.12480121361563,123.34300353161814,1503,Éducation et recherche,Older Canadians Average Donation by Cause,CA (without QC),
+125,Senior2,65 ans et plus,2018,gs1dax03,78.21696733347524,16.736478883231957,52.55953701053355,103.87439765641692,582,Éducation et recherche,Older Canadians Average Donation by Cause,CA (without QC),*
+126,Senior2,15 à 64 ans,2018,gs1dax04,431.971615224597,28.08473289920159,194.192558851902,669.750671597292,199,Universités et collèges,Older Canadians Average Donation by Cause,CA (without QC),*
+127,Senior2,65 ans et plus,2018,gs1dax04,501.3225502770001,26.53944628901874,240.55281329777463,762.0922872562255,113,Universités et collèges,Older Canadians Average Donation by Cause,CA (without QC),*
+128,Senior2,15 à 64 ans,2018,gs1dax05,136.815409096207,5.219775563695637,122.81841000798292,150.81240818443106,3901,Santé,Older Canadians Average Donation by Cause,CA (without QC),
+129,Senior2,65 ans et plus,2018,gs1dax05,165.56147301535185,10.121837599047591,132.71666424410918,198.4062817865945,2091,Santé,Older Canadians Average Donation by Cause,CA (without QC),
+130,Senior2,15 à 64 ans,2018,gs1dax06,148.04536308113973,14.761352592667384,105.21329398357986,190.8774321786996,1720,Hôpitaux,Older Canadians Average Donation by Cause,CA (without QC),
+131,Senior2,65 ans et plus,2018,gs1dax06,195.8484590820799,13.96173075589138,142.25552817151768,249.4413899926421,914,Hôpitaux,Older Canadians Average Donation by Cause,CA (without QC),
+132,Senior2,15 à 64 ans,2018,gs1dax07,125.5717890707707,6.832069021239487,108.75696150383092,142.3866166377105,3670,Services sociaux,Older Canadians Average Donation by Cause,CA (without QC),
+133,Senior2,65 ans et plus,2018,gs1dax07,156.42189021455218,6.38585519302602,136.84405418587497,175.9997262432294,1954,Services sociaux,Older Canadians Average Donation by Cause,CA (without QC),
+134,Senior2,15 à 64 ans,2018,gs1dax08,153.00562387118666,10.585736530908722,121.2605336532529,184.7507140891204,970,Environnement,Older Canadians Average Donation by Cause,CA (without QC),
+135,Senior2,65 ans et plus,2018,gs1dax08,146.44643566355705,12.373463384058878,110.93091593714274,181.9619553899713,497,Environnement,Older Canadians Average Donation by Cause,CA (without QC),
+136,Senior2,15 à 64 ans,2018,gs1dax09,228.0054264144198,23.41685433408874,123.35962012952751,332.65123269931206,301,Aménagement et logement,Older Canadians Average Donation by Cause,CA (without QC),*
+137,Senior2,65 ans et plus,2018,gs1dax09,391.8300323141485,37.66259260778538,102.59158361673502,681.068481011562,143,Aménagement et logement,Older Canadians Average Donation by Cause,CA (without QC),...
+138,Senior2,15 à 64 ans,2018,gs1dax10,164.2173049480169,16.15359358700212,112.22534808995238,216.20926180608143,396,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA (without QC),
+139,Senior2,65 ans et plus,2018,gs1dax10,163.19429133583452,15.859717371343832,112.46620288431222,213.9223797873568,330,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,CA (without QC),
+140,Senior2,15 à 64 ans,2018,gs1dax11,207.9650448265028,9.323539786627553,169.96192391011311,245.9681657428925,1368,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA (without QC),
+141,Senior2,65 ans et plus,2018,gs1dax11,196.6952402743431,17.5865542133534,128.89633258884578,264.4941479598404,433,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,CA (without QC),*
+142,Senior2,15 à 64 ans,2018,gs1dax12,354.13392446978173,7.770918129092719,300.1967792134312,408.0710697261322,886,International,Older Canadians Average Donation by Cause,CA (without QC),
+143,Senior2,65 ans et plus,2018,gs1dax12,301.396635863171,7.192554843923389,258.9083046794642,343.8849670468778,510,International,Older Canadians Average Donation by Cause,CA (without QC),
+144,Senior2,15 à 64 ans,2018,gs1dax13,843.2690377774901,5.967656705353765,744.6369836948161,941.901091860164,2455,Religion,Older Canadians Average Donation by Cause,CA (without QC),
+145,Senior2,65 ans et plus,2018,gs1dax13,908.2113684660512,6.045781711011787,800.5927314684797,1015.8300054636226,1675,Religion,Older Canadians Average Donation by Cause,CA (without QC),
+146,Senior2,15 à 64 ans,2018,gs1dax14,81.9219050462588,17.436873026774194,53.92456712786644,109.91924296465116,52,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA (without QC),*
+147,Senior2,65 ans et plus,2018,gs1dax14,63.9637272328683,27.04285871751746,30.061014257978563,97.86644020775805,29,Entreprises et professionnels,Older Canadians Average Donation by Cause,CA (without QC),*
+148,Senior2,15 à 64 ans,2018,gs1dax15,78.55701568804102,20.630838677681,46.791935883425694,110.32209549265636,288,Autre,Older Canadians Average Donation by Cause,CA (without QC),*
+149,Senior2,65 ans et plus,2018,gs1dax15,184.5131255304876,37.90483750651731,47.4344196255276,321.59183143544755,127,Autre,Older Canadians Average Donation by Cause,CA (without QC),...
+150,Senior,15 à 64 ans,2018,gs1dax01,157.11678948492778,31.14057004693409,61.221506400943525,253.01207256891203,42,Arts et culture,Older Canadians Average Donation by Cause,AB,*
+151,Senior,64 à 75 ans,2018,gs1dax01,308.2632982949752,42.021470584555786,54.37589203800175,562.1507045519485,14,Arts et culture,Older Canadians Average Donation by Cause,AB,...
+152,Senior,75 ans et plus,2018,gs1dax01,293.6474529039031,49.92940789280751,6.284521688858263,581.010384118948,8,Arts et culture,Older Canadians Average Donation by Cause,AB,...
+153,Senior,15 à 64 ans,2018,gs1dax01,136.1178545054899,29.43448091331608,57.59075303401602,214.6449559769638,120,Arts et culture,Older Canadians Average Donation by Cause,AT,*
+154,Senior,64 à 75 ans,2018,gs1dax01,89.2519972742475,28.56476712069129,39.28345013786835,139.22054441062664,47,Arts et culture,Older Canadians Average Donation by Cause,AT,*
+155,Senior,75 ans et plus,2018,gs1dax01,176.29159379807518,53.4371056874566,-8.347058941127045,360.9302465372774,22,Arts et culture,Older Canadians Average Donation by Cause,AT,...
+156,Senior,15 à 64 ans,2018,gs1dax01,130.78248116823104,38.136684272664525,33.02711770189528,228.5378446345668,58,Arts et culture,Older Canadians Average Donation by Cause,BC,...
+157,Senior,64 à 75 ans,2018,gs1dax01,665.6031104813901,59.700208642797136,-113.22081173636252,1444.4270326991427,29,Arts et culture,Older Canadians Average Donation by Cause,BC,...
+158,Senior,75 ans et plus,2018,gs1dax01,157.47060761284692,50.780422812752754,0.7435764725780416,314.1976387531158,14,Arts et culture,Older Canadians Average Donation by Cause,BC,...
+159,Senior,15 à 64 ans,2018,gs1dax01,196.61412133994472,27.50912406394585,90.60589707111733,302.6223456087721,124,Arts et culture,Older Canadians Average Donation by Cause,ON,*
+160,Senior,64 à 75 ans,2018,gs1dax01,182.57816170106105,35.96287220460576,53.88623859530208,311.27008480682,49,Arts et culture,Older Canadians Average Donation by Cause,ON,...
+161,Senior,75 ans et plus,2018,gs1dax01,147.48241345696516,25.725897207725065,73.11907871839531,221.845748195535,31,Arts et culture,Older Canadians Average Donation by Cause,ON,*
+162,Senior,15 à 64 ans,2018,gs1dax01,219.6926327873316,29.465111999134876,92.81891076750102,346.56635480716216,42,Arts et culture,Older Canadians Average Donation by Cause,PR,*
+163,Senior,64 à 75 ans,2018,gs1dax01,74.73387031813864,17.68611869191673,48.82800517848,100.63973545779729,24,Arts et culture,Older Canadians Average Donation by Cause,PR,*
+164,Senior,75 ans et plus,2018,gs1dax01,127.11830284852466,37.086283142205644,34.71883145055203,219.5177742464973,12,Arts et culture,Older Canadians Average Donation by Cause,PR,...
+165,Senior,15 à 64 ans,2018,gs1dax01,88.21002367150903,35.77153641990269,26.365161848669278,150.0548854943488,41,Arts et culture,Older Canadians Average Donation by Cause,QC,...
+166,Senior,64 à 75 ans,2018,gs1dax01,226.8623483985058,56.03618859474406,-22.29809939780796,476.02279619481953,14,Arts et culture,Older Canadians Average Donation by Cause,QC,...
+167,Senior,75 ans et plus,2018,gs1dax01,997.0135783739976,130.86265165698663,-1560.187507431735,3554.21466417973,6,Arts et culture,Older Canadians Average Donation by Cause,QC,...
+168,Senior,15 à 64 ans,2018,gs1dax02,110.27369566600665,22.5739824766502,61.483989322226265,159.063402009787,166,Sport et loisir,Older Canadians Average Donation by Cause,AB,*
+169,Senior,64 à 75 ans,2018,gs1dax02,64.22519609556406,32.195907244164765,23.69728707695824,104.75310511416988,28,Sport et loisir,Older Canadians Average Donation by Cause,AB,*
+170,Senior,75 ans et plus,2018,gs1dax02,68.46386368263347,40.94687857444595,13.518595679555249,123.4091316857117,11,Sport et loisir,Older Canadians Average Donation by Cause,AB,...
+171,Senior,15 à 64 ans,2018,gs1dax02,42.06686111499751,12.340520390633818,31.892159716710992,52.24156251328402,633,Sport et loisir,Older Canadians Average Donation by Cause,AT,
+172,Senior,64 à 75 ans,2018,gs1dax02,37.526132494294735,13.512524855983225,27.58768827656491,47.46457671202456,193,Sport et loisir,Older Canadians Average Donation by Cause,AT,
+173,Senior,75 ans et plus,2018,gs1dax02,34.825080266488314,33.131961988761084,12.210560402594648,57.439600130381976,74,Sport et loisir,Older Canadians Average Donation by Cause,AT,*
+174,Senior,15 à 64 ans,2018,gs1dax02,137.89764982870403,38.85706169786056,32.87694889146452,242.9183507659436,179,Sport et loisir,Older Canadians Average Donation by Cause,BC,...
+175,Senior,64 à 75 ans,2018,gs1dax02,58.042752954898006,22.979651401296397,31.900709636113252,84.18479627368276,68,Sport et loisir,Older Canadians Average Donation by Cause,BC,*
+176,Senior,75 ans et plus,2018,gs1dax02,56.38068847350225,38.20379893911354,14.16391709562457,98.59745985137994,43,Sport et loisir,Older Canadians Average Donation by Cause,BC,...
+177,Senior,15 à 64 ans,2018,gs1dax02,72.79800801792553,12.50941143216664,54.94939541512469,90.64662062072637,369,Sport et loisir,Older Canadians Average Donation by Cause,ON,
+178,Senior,64 à 75 ans,2018,gs1dax02,71.69083685866455,23.472941674053946,38.70866421487133,104.67300950245776,105,Sport et loisir,Older Canadians Average Donation by Cause,ON,*
+179,Senior,75 ans et plus,2018,gs1dax02,92.56351208665608,41.22917732288296,17.765064463328514,167.3619597099837,50,Sport et loisir,Older Canadians Average Donation by Cause,ON,...
+180,Senior,15 à 64 ans,2018,gs1dax02,89.70708271031191,13.031655379839227,66.79448071706115,112.61968470356268,259,Sport et loisir,Older Canadians Average Donation by Cause,PR,
+181,Senior,64 à 75 ans,2018,gs1dax02,39.8636281885207,17.070255293064246,26.526419989672057,53.20083638736934,64,Sport et loisir,Older Canadians Average Donation by Cause,PR,*
+182,Senior,75 ans et plus,2018,gs1dax02,54.59463470986888,22.66540047761715,30.34185887978859,78.84741053994917,46,Sport et loisir,Older Canadians Average Donation by Cause,PR,*
+183,Senior,15 à 64 ans,2018,gs1dax02,49.27186558861155,22.29938883487233,27.737104510322887,70.8066266669002,175,Sport et loisir,Older Canadians Average Donation by Cause,QC,*
+184,Senior,64 à 75 ans,2018,gs1dax02,38.451097774702376,23.59838656566974,20.666700737605247,56.23549481179951,44,Sport et loisir,Older Canadians Average Donation by Cause,QC,*
+185,Senior,75 ans et plus,2018,gs1dax02,169.94366861648174,86.24866200753202,-117.3363675309674,457.22370476393087,27,Sport et loisir,Older Canadians Average Donation by Cause,QC,...
+186,Senior,15 à 64 ans,2018,gs1dax03,164.28509577940935,31.530941486150397,62.75771205867507,265.8124795001437,160,Éducation et recherche,Older Canadians Average Donation by Cause,AB,*
+187,Senior,64 à 75 ans,2018,gs1dax03,144.052010392979,65.65770397548806,-41.32381862700856,329.42783941296653,31,Éducation et recherche,Older Canadians Average Donation by Cause,AB,...
+188,Senior,75 ans et plus,2018,gs1dax03,34.832197401279686,53.67885967226316,-1.814280871753752,71.47867567431312,12,Éducation et recherche,Older Canadians Average Donation by Cause,AB,...
+189,Senior,15 à 64 ans,2018,gs1dax03,53.66814074255673,39.46395382782804,12.156945780045078,95.17933570506838,482,Éducation et recherche,Older Canadians Average Donation by Cause,AT,...
+190,Senior,64 à 75 ans,2018,gs1dax03,36.08428905754107,21.689646342924988,20.744523757906435,51.424054357175706,143,Éducation et recherche,Older Canadians Average Donation by Cause,AT,*
+191,Senior,75 ans et plus,2018,gs1dax03,67.91346918708274,52.0288618724092,-1.341084170035998,137.16802254420148,59,Éducation et recherche,Older Canadians Average Donation by Cause,AT,...
+192,Senior,15 à 64 ans,2018,gs1dax03,86.26944321186531,19.460620019428465,53.36445352866103,119.1744328950696,178,Éducation et recherche,Older Canadians Average Donation by Cause,BC,*
+193,Senior,64 à 75 ans,2018,gs1dax03,70.81302722479616,25.17715610305723,35.86940477871042,105.7566496708819,49,Éducation et recherche,Older Canadians Average Donation by Cause,BC,*
+194,Senior,75 ans et plus,2018,gs1dax03,245.66355276409396,66.5456483193421,-74.74823107354229,566.0753366017302,18,Éducation et recherche,Older Canadians Average Donation by Cause,BC,...
+195,Senior,15 à 64 ans,2018,gs1dax03,87.27402831546252,24.427110264967244,45.49049077845674,129.0575658524683,459,Éducation et recherche,Older Canadians Average Donation by Cause,ON,*
+196,Senior,64 à 75 ans,2018,gs1dax03,76.11282975355512,27.749947806373854,34.71590020591909,117.50975930119114,123,Éducation et recherche,Older Canadians Average Donation by Cause,ON,*
+197,Senior,75 ans et plus,2018,gs1dax03,59.45737893290035,21.345279614641072,34.58280219934612,84.33195566645458,56,Éducation et recherche,Older Canadians Average Donation by Cause,ON,*
+198,Senior,15 à 64 ans,2018,gs1dax03,99.64431736317135,21.76680612180012,57.13390318756935,142.15473153877338,224,Éducation et recherche,Older Canadians Average Donation by Cause,PR,*
+199,Senior,64 à 75 ans,2018,gs1dax03,58.24676317775733,20.83313932244451,34.463326737686174,82.03019961782849,64,Éducation et recherche,Older Canadians Average Donation by Cause,PR,*
+200,Senior,75 ans et plus,2018,gs1dax03,59.194882461604,34.3750783741616,19.31297232477639,99.0767925984316,27,Éducation et recherche,Older Canadians Average Donation by Cause,PR,...
+201,Senior,15 à 64 ans,2018,gs1dax03,61.17465694913399,34.710455670339755,19.556777425138392,102.7925364731296,169,Éducation et recherche,Older Canadians Average Donation by Cause,QC,...
+202,Senior,64 à 75 ans,2018,gs1dax03,40.41421681307369,20.29827095933287,24.33587328161055,56.49256034453684,32,Éducation et recherche,Older Canadians Average Donation by Cause,QC,*
+203,Senior,75 ans et plus,2018,gs1dax03,36.36448408438819,51.1945265324108,-0.1234313170780438,72.85239948585442,17,Éducation et recherche,Older Canadians Average Donation by Cause,QC,...
+204,Senior,15 à 64 ans,2018,gs1dax04,318.65564379251964,71.14828300869365,-125.70350862034452,763.0147962053838,16,Universités et collèges,Older Canadians Average Donation by Cause,AB,...
+205,Senior,64 à 75 ans,2018,gs1dax04,221.23171659983484,7.077794833415552,190.5419596072199,251.9214735924498,3,Universités et collèges,Older Canadians Average Donation by Cause,AB,...
+206,Senior,75 ans et plus,2018,gs1dax04,373.6864367431092,20.787953698141163,221.4329781326226,525.9398953535958,2,Universités et collèges,Older Canadians Average Donation by Cause,AB,...
+207,Senior,15 à 64 ans,2018,gs1dax04,740.6983327886398,39.87396065687955,161.8312766695766,1319.565388907703,69,Universités et collèges,Older Canadians Average Donation by Cause,AT,...
+208,Senior,64 à 75 ans,2018,gs1dax04,931.723475638638,50.06350182849396,17.491612617156193,1845.95533866012,21,Universités et collèges,Older Canadians Average Donation by Cause,AT,...
+209,Senior,75 ans et plus,2018,gs1dax04,1324.0663903290942,91.20208587633849,-1042.739404340498,3690.8721849986864,7,Universités et collèges,Older Canadians Average Donation by Cause,AT,...
+210,Senior,15 à 64 ans,2018,gs1dax04,284.59061943853965,31.8372843133404,107.00627035869029,462.17496851838905,29,Universités et collèges,Older Canadians Average Donation by Cause,BC,*
+211,Senior,64 à 75 ans,2018,gs1dax04,183.9113957413324,31.81606984892176,69.22728199434785,298.59550948831696,20,Universités et collèges,Older Canadians Average Donation by Cause,BC,*
+212,Senior,75 ans et plus,2018,gs1dax04,159.80782230916338,67.97892503887873,-53.11411900657399,372.7297636249008,6,Universités et collèges,Older Canadians Average Donation by Cause,BC,...
+213,Senior,15 à 64 ans,2018,gs1dax04,456.953815355892,47.61581013042243,30.5004199180799,883.407210793704,65,Universités et collèges,Older Canadians Average Donation by Cause,ON,...
+214,Senior,64 à 75 ans,2018,gs1dax04,256.82333420262376,47.16954644554983,19.38858945890365,494.2580789463439,23,Universités et collèges,Older Canadians Average Donation by Cause,ON,...
+215,Senior,75 ans et plus,2018,gs1dax04,992.9445346021462,49.826260344611526,23.257980526175288,1962.631088678117,17,Universités et collèges,Older Canadians Average Donation by Cause,ON,...
+216,Senior,15 à 64 ans,2018,gs1dax04,377.9676553185385,54.167431917747614,-23.30630087978,779.241611516857,20,Universités et collèges,Older Canadians Average Donation by Cause,PR,...
+217,Senior,64 à 75 ans,2018,gs1dax04,109.66388321307862,44.30528687052818,14.43531291276497,204.89245351339227,9,Universités et collèges,Older Canadians Average Donation by Cause,PR,...
+218,Senior,75 ans et plus,2018,gs1dax04,893.7438118664302,70.94115988625514,-348.9365172086739,2136.4241409415345,5,Universités et collèges,Older Canadians Average Donation by Cause,PR,...
+219,Senior,15 à 64 ans,2018,gs1dax04,88.62738944081765,16.75088886673076,59.53000812084905,117.72477076078626,44,Universités et collèges,Older Canadians Average Donation by Cause,QC,*
+220,Senior,64 à 75 ans,2018,gs1dax04,260.62460016030604,49.88574948256358,5.800793846817896,515.4484064737942,14,Universités et collèges,Older Canadians Average Donation by Cause,QC,...
+221,Senior,75 ans et plus,2018,gs1dax04,226.86404227155265,42.38183536374928,38.41518113288052,415.3129034102248,9,Universités et collèges,Older Canadians Average Donation by Cause,QC,...
+222,Senior,15 à 64 ans,2018,gs1dax05,125.3085609923777,9.990301835149769,100.77235306113536,149.84476892362005,409,Santé,Older Canadians Average Donation by Cause,AB,
+223,Senior,64 à 75 ans,2018,gs1dax05,146.3135841340295,14.636238316614872,104.34133786573908,188.2858304023199,92,Santé,Older Canadians Average Donation by Cause,AB,
+224,Senior,75 ans et plus,2018,gs1dax05,154.1245231358968,24.735584955878096,79.40363555305191,228.84541071874168,53,Santé,Older Canadians Average Donation by Cause,AB,*
+225,Senior,15 à 64 ans,2018,gs1dax05,70.43801506487306,7.844284281303654,59.60851210134754,81.26751802839857,1195,Santé,Older Canadians Average Donation by Cause,AT,
+226,Senior,64 à 75 ans,2018,gs1dax05,85.34013302453927,13.08281016848228,63.45735543488525,107.2229106141933,442,Santé,Older Canadians Average Donation by Cause,AT,
+227,Senior,75 ans et plus,2018,gs1dax05,102.34278289313384,14.488324762204677,73.28091759932019,131.40464818694747,234,Santé,Older Canadians Average Donation by Cause,AT,
+228,Senior,15 à 64 ans,2018,gs1dax05,150.163637856701,9.753123775232265,121.45870021386972,178.86857549953228,462,Santé,Older Canadians Average Donation by Cause,BC,
+229,Senior,64 à 75 ans,2018,gs1dax05,175.38747039679646,20.99976564648693,103.2001196776877,247.5748211159052,186,Santé,Older Canadians Average Donation by Cause,BC,*
+230,Senior,75 ans et plus,2018,gs1dax05,212.3623921143401,21.36013334912827,123.45668113517954,301.2681030935007,109,Santé,Older Canadians Average Donation by Cause,BC,*
+231,Senior,15 à 64 ans,2018,gs1dax05,149.5948079035664,8.59729866070483,124.38749076634602,174.80212504078676,1253,Santé,Older Canadians Average Donation by Cause,ON,
+232,Senior,64 à 75 ans,2018,gs1dax05,147.34555653115086,14.824090282949046,104.53477208075728,190.1563409815444,410,Santé,Older Canadians Average Donation by Cause,ON,
+233,Senior,75 ans et plus,2018,gs1dax05,233.72861643952788,31.761691910759826,88.22841048990861,379.2288223891471,242,Santé,Older Canadians Average Donation by Cause,ON,*
+234,Senior,15 à 64 ans,2018,gs1dax05,133.07394552927065,9.908626658636363,107.23025155480975,158.91763950373155,582,Santé,Older Canadians Average Donation by Cause,PR,
+235,Senior,64 à 75 ans,2018,gs1dax05,122.18343212712466,10.783185067667016,96.36038604811694,148.0064782061324,205,Santé,Older Canadians Average Donation by Cause,PR,
+236,Senior,75 ans et plus,2018,gs1dax05,211.13191748870491,28.85204133423639,91.73900991864298,330.5248250587669,118,Santé,Older Canadians Average Donation by Cause,PR,*
+237,Senior,15 à 64 ans,2018,gs1dax05,86.535944244565,11.931102436614331,66.29991947457306,106.77196901455694,479,Santé,Older Canadians Average Donation by Cause,QC,
+238,Senior,64 à 75 ans,2018,gs1dax05,88.10052905477183,15.201482733303337,61.85154143901049,114.34951667053316,167,Santé,Older Canadians Average Donation by Cause,QC,
+239,Senior,75 ans et plus,2018,gs1dax05,93.43784412168446,14.897837972039529,66.15471696600247,120.72097127736646,114,Santé,Older Canadians Average Donation by Cause,QC,
+240,Senior,15 à 64 ans,2018,gs1dax06,164.6135054697429,21.9528999766719,93.78542809662376,235.44158284286203,131,Hôpitaux,Older Canadians Average Donation by Cause,AB,*
+241,Senior,64 à 75 ans,2018,gs1dax06,90.40446323843685,23.105690301802507,49.46360797211869,131.345318504755,22,Hôpitaux,Older Canadians Average Donation by Cause,AB,*
+242,Senior,75 ans et plus,2018,gs1dax06,147.45880245128646,53.402843601068575,-6.882860984490378,301.8004658870633,21,Hôpitaux,Older Canadians Average Donation by Cause,AB,...
+243,Senior,15 à 64 ans,2018,gs1dax06,65.65126037603383,10.524210413535616,52.10932672583561,79.19319402623205,659,Hôpitaux,Older Canadians Average Donation by Cause,AT,
+244,Senior,64 à 75 ans,2018,gs1dax06,94.47491376135132,22.015767228702803,53.70888373817933,135.24094378452332,233,Hôpitaux,Older Canadians Average Donation by Cause,AT,*
+245,Senior,75 ans et plus,2018,gs1dax06,118.25645608254015,29.761567806338807,49.27557193550386,187.23734022957643,133,Hôpitaux,Older Canadians Average Donation by Cause,AT,*
+246,Senior,15 à 64 ans,2018,gs1dax06,145.62345483789673,36.74941164689268,40.73448700201215,250.5124226737813,185,Hôpitaux,Older Canadians Average Donation by Cause,BC,...
+247,Senior,64 à 75 ans,2018,gs1dax06,260.80327707632966,47.150713211935866,19.785319684918846,501.8212344677405,65,Hôpitaux,Older Canadians Average Donation by Cause,BC,...
+248,Senior,75 ans et plus,2018,gs1dax06,228.9267222654712,38.05124537925151,58.19530065034914,399.6581438805932,50,Hôpitaux,Older Canadians Average Donation by Cause,BC,...
+249,Senior,15 à 64 ans,2018,gs1dax06,155.9196392280369,21.63618840918267,89.80012306780793,222.0391553882659,567,Hôpitaux,Older Canadians Average Donation by Cause,ON,*
+250,Senior,64 à 75 ans,2018,gs1dax06,203.77109373921328,26.14216438321677,99.3634706791054,308.17871679932114,169,Hôpitaux,Older Canadians Average Donation by Cause,ON,*
+251,Senior,75 ans et plus,2018,gs1dax06,211.28496949285537,29.95162767577973,87.25200537068363,335.3179336150271,125,Hôpitaux,Older Canadians Average Donation by Cause,ON,*
+252,Senior,15 à 64 ans,2018,gs1dax06,212.4223488603951,34.72318353609434,67.855793303296,356.9889044174941,178,Hôpitaux,Older Canadians Average Donation by Cause,PR,...
+253,Senior,64 à 75 ans,2018,gs1dax06,303.2441167603498,49.77320701998052,7.418281587739671,599.06995193296,54,Hôpitaux,Older Canadians Average Donation by Cause,PR,...
+254,Senior,75 ans et plus,2018,gs1dax06,312.5619248388316,34.83225544602869,99.17600447694711,525.9478452007161,42,Hôpitaux,Older Canadians Average Donation by Cause,PR,...
+255,Senior,15 à 64 ans,2018,gs1dax06,48.23444042495581,10.882129900019224,37.94671791910624,58.522162930805386,349,Hôpitaux,Older Canadians Average Donation by Cause,QC,
+256,Senior,64 à 75 ans,2018,gs1dax06,70.78658181918372,16.00457506257131,48.581970263529,92.99119337483845,121,Hôpitaux,Older Canadians Average Donation by Cause,QC,
+257,Senior,75 ans et plus,2018,gs1dax06,62.29234922615948,12.575529999823162,46.93878895013735,77.64590950218161,71,Hôpitaux,Older Canadians Average Donation by Cause,QC,
+258,Senior,15 à 64 ans,2018,gs1dax07,133.06797471299694,15.30276506321082,93.15707219105536,172.97887723493852,391,Services sociaux,Older Canadians Average Donation by Cause,AB,
+259,Senior,64 à 75 ans,2018,gs1dax07,194.4279088058888,18.05214952616381,125.63627592777831,263.2195416839993,84,Services sociaux,Older Canadians Average Donation by Cause,AB,*
+260,Senior,75 ans et plus,2018,gs1dax07,228.91497167330863,30.354809496221264,92.72353529176452,365.1064080548528,46,Services sociaux,Older Canadians Average Donation by Cause,AB,*
+261,Senior,15 à 64 ans,2018,gs1dax07,93.37855504900212,10.45040530192379,74.25236906692243,112.5047410310818,1163,Services sociaux,Older Canadians Average Donation by Cause,AT,
+262,Senior,64 à 75 ans,2018,gs1dax07,116.00262577320264,16.161008822043694,79.25879957541949,152.74645197098582,413,Services sociaux,Older Canadians Average Donation by Cause,AT,
+263,Senior,75 ans et plus,2018,gs1dax07,144.49305086403805,23.86402514449404,76.9098510831418,212.0762506449343,227,Services sociaux,Older Canadians Average Donation by Cause,AT,*
+264,Senior,15 à 64 ans,2018,gs1dax07,123.3367395493309,9.816228665856531,99.60742347807304,147.06605562058877,537,Services sociaux,Older Canadians Average Donation by Cause,BC,
+265,Senior,64 à 75 ans,2018,gs1dax07,174.38130554781287,15.97989452213316,119.76504971476778,228.997561380858,183,Services sociaux,Older Canadians Average Donation by Cause,BC,
+266,Senior,75 ans et plus,2018,gs1dax07,147.9165435355731,20.33101414936274,88.97467717098858,206.85840990015765,113,Services sociaux,Older Canadians Average Donation by Cause,BC,*
+267,Senior,15 à 64 ans,2018,gs1dax07,129.6560376776612,11.79547186720011,99.68124724273667,159.63082811258573,1067,Services sociaux,Older Canadians Average Donation by Cause,ON,
+268,Senior,64 à 75 ans,2018,gs1dax07,124.68941772905848,11.973192442471,95.42851969221698,153.95031576589997,388,Services sociaux,Older Canadians Average Donation by Cause,ON,
+269,Senior,75 ans et plus,2018,gs1dax07,174.20692451200986,17.847893454981374,113.26720240919808,235.14664661482163,225,Services sociaux,Older Canadians Average Donation by Cause,ON,*
+270,Senior,15 à 64 ans,2018,gs1dax07,129.7879091023928,14.902110962272058,91.87997475148136,167.69584345330424,512,Services sociaux,Older Canadians Average Donation by Cause,PR,
+271,Senior,64 à 75 ans,2018,gs1dax07,220.444381103644,22.62801144918279,122.67710523467557,318.21165697261245,169,Services sociaux,Older Canadians Average Donation by Cause,PR,*
+272,Senior,75 ans et plus,2018,gs1dax07,189.8347843783912,25.299601179605485,95.70272514697534,283.9668436098071,106,Services sociaux,Older Canadians Average Donation by Cause,PR,*
+273,Senior,15 à 64 ans,2018,gs1dax07,77.75558010733073,18.43745813485706,49.65723747204143,105.85392274262004,503,Services sociaux,Older Canadians Average Donation by Cause,QC,*
+274,Senior,64 à 75 ans,2018,gs1dax07,96.8216946170953,17.535156005271585,63.54574909345046,130.09764014074014,173,Services sociaux,Older Canadians Average Donation by Cause,QC,*
+275,Senior,75 ans et plus,2018,gs1dax07,87.92710358125122,19.13579444817688,54.949631942300456,120.90457522020198,110,Services sociaux,Older Canadians Average Donation by Cause,QC,*
+276,Senior,15 à 64 ans,2018,gs1dax08,250.9132581961978,32.69409463585431,90.12992922828944,411.6965871641062,85,Environnement,Older Canadians Average Donation by Cause,AB,*
+277,Senior,64 à 75 ans,2018,gs1dax08,199.72517150566784,30.35475089066176,80.90024155983652,318.5501014514992,18,Environnement,Older Canadians Average Donation by Cause,AB,*
+278,Senior,75 ans et plus,2018,gs1dax08,177.03500169445647,80.46352904042125,-102.15914355358892,456.2291469425018,12,Environnement,Older Canadians Average Donation by Cause,AB,...
+279,Senior,15 à 64 ans,2018,gs1dax08,154.49285334982375,21.293160510818783,90.01707209582237,218.96863460382517,300,Environnement,Older Canadians Average Donation by Cause,AT,*
+280,Senior,64 à 75 ans,2018,gs1dax08,267.6120862243263,31.2552147534112,103.67534343502524,431.5488290136273,99,Environnement,Older Canadians Average Donation by Cause,AT,*
+281,Senior,75 ans et plus,2018,gs1dax08,258.34729739281886,43.89955081710637,36.06130794207456,480.6332868435632,56,Environnement,Older Canadians Average Donation by Cause,AT,...
+282,Senior,15 à 64 ans,2018,gs1dax08,150.11625875349196,23.856231087090936,79.92586863052628,220.30664887645764,156,Environnement,Older Canadians Average Donation by Cause,BC,*
+283,Senior,64 à 75 ans,2018,gs1dax08,193.9902942625883,32.00319254299876,72.30967893386686,315.67090959130974,76,Environnement,Older Canadians Average Donation by Cause,BC,*
+284,Senior,75 ans et plus,2018,gs1dax08,153.40243940072983,30.559483144032207,61.52130225125805,245.2835765502016,38,Environnement,Older Canadians Average Donation by Cause,BC,*
+285,Senior,15 à 64 ans,2018,gs1dax08,142.59701454776095,13.609997596336878,104.55911102130727,180.63491807421465,261,Environnement,Older Canadians Average Donation by Cause,ON,
+286,Senior,64 à 75 ans,2018,gs1dax08,117.38091092393014,30.57320217717982,47.043481114649055,187.7183407332112,81,Environnement,Older Canadians Average Donation by Cause,ON,*
+287,Senior,75 ans et plus,2018,gs1dax08,58.368372123707566,17.109013668912947,38.79567636385852,77.94106788355661,43,Environnement,Older Canadians Average Donation by Cause,ON,*
+288,Senior,15 à 64 ans,2018,gs1dax08,88.75311046967859,12.893021646501571,66.32532541325865,111.18089552609852,168,Environnement,Older Canadians Average Donation by Cause,PR,
+289,Senior,64 à 75 ans,2018,gs1dax08,199.84292002879116,37.50742746558843,52.93198058255487,346.7538594750274,56,Environnement,Older Canadians Average Donation by Cause,PR,...
+290,Senior,75 ans et plus,2018,gs1dax08,63.16748845539884,32.530487725653245,22.892792051964925,103.44218485883276,18,Environnement,Older Canadians Average Donation by Cause,PR,*
+291,Senior,15 à 64 ans,2018,gs1dax08,100.6656685341282,18.011760425120325,65.12826982261106,136.20306724564531,99,Environnement,Older Canadians Average Donation by Cause,QC,*
+292,Senior,64 à 75 ans,2018,gs1dax08,104.10651561120292,25.14457772480789,52.80025667355617,155.41277454884968,25,Environnement,Older Canadians Average Donation by Cause,QC,*
+293,Senior,75 ans et plus,2018,gs1dax08,64.56301819380259,25.01818955037437,32.9047033219674,96.22133306563778,13,Environnement,Older Canadians Average Donation by Cause,QC,...
+294,Senior,15 à 64 ans,2018,gs1dax09,577.2113054731554,59.83398005224157,-99.69851077869885,1254.1211217250095,25,Aménagement et logement,Older Canadians Average Donation by Cause,AB,...
+295,Senior,64 à 75 ans,2018,gs1dax09,4982.674031388993,55.08408083762993,-396.7610934105969,10362.109156188584,5,Aménagement et logement,Older Canadians Average Donation by Cause,AB,...
+296,Senior,75 ans et plus,2018,gs1dax09,320.86543625801454,53.869757007854936,-17.91322292562927,659.6440954416584,6,Aménagement et logement,Older Canadians Average Donation by Cause,AB,...
+297,Senior,15 à 64 ans,2018,gs1dax09,117.63115587359952,33.22866726943373,41.02152345420304,194.240788292996,102,Aménagement et logement,Older Canadians Average Donation by Cause,AT,*
+298,Senior,64 à 75 ans,2018,gs1dax09,152.33821293485315,73.2653673400962,-66.41562389807132,371.0920497677776,33,Aménagement et logement,Older Canadians Average Donation by Cause,AT,...
+299,Senior,75 ans et plus,2018,gs1dax09,40.0409856068389,67.24226506470961,-12.729997421640723,92.81196863531852,10,Aménagement et logement,Older Canadians Average Donation by Cause,AT,...
+300,Senior,15 à 64 ans,2018,gs1dax09,88.111392464076,28.034112936012534,39.69783743602807,136.52494749212394,34,Aménagement et logement,Older Canadians Average Donation by Cause,BC,*
+301,Senior,64 à 75 ans,2018,gs1dax09,90.2384608765183,33.81366462004463,30.434215996356137,150.04270575668048,11,Aménagement et logement,Older Canadians Average Donation by Cause,BC,...
+302,Senior,75 ans et plus,2018,gs1dax09,73.73318972120443,63.25590682565011,-17.680702163878806,165.14708160628766,6,Aménagement et logement,Older Canadians Average Donation by Cause,BC,...
+303,Senior,15 à 64 ans,2018,gs1dax09,186.91501002860105,32.34108972051647,68.43449903065365,305.3955210265484,74,Aménagement et logement,Older Canadians Average Donation by Cause,ON,*
+304,Senior,64 à 75 ans,2018,gs1dax09,168.06465544303876,36.05110068917183,49.312087602345485,286.817223283732,32,Aménagement et logement,Older Canadians Average Donation by Cause,ON,...
+305,Senior,75 ans et plus,2018,gs1dax09,739.0035891262071,78.09222977659542,-392.1002127144188,1870.107390966833,13,Aménagement et logement,Older Canadians Average Donation by Cause,ON,...
+306,Senior,15 à 64 ans,2018,gs1dax09,243.2926705988472,30.334477314595222,98.64427105304912,387.9410701446452,66,Aménagement et logement,Older Canadians Average Donation by Cause,PR,*
+307,Senior,64 à 75 ans,2018,gs1dax09,147.71326920405528,37.40464221450723,39.42208421226455,256.004454195846,22,Aménagement et logement,Older Canadians Average Donation by Cause,PR,...
+308,Senior,75 ans et plus,2018,gs1dax09,290.2968519146117,94.999274290066,-250.22182485269772,830.8155286819211,5,Aménagement et logement,Older Canadians Average Donation by Cause,PR,...
+309,Senior,15 à 64 ans,2018,gs1dax09,43.35439170132907,33.425337216767815,14.951864430105694,71.75691897255246,30,Aménagement et logement,Older Canadians Average Donation by Cause,QC,...
+310,Senior,64 à 75 ans,2018,gs1dax09,26.02747460030978,32.086773263374,9.659076927065051,42.39587227355451,14,Aménagement et logement,Older Canadians Average Donation by Cause,QC,...
+311,Senior,75 ans et plus,2018,gs1dax09,58.53439152683959,76.83984042985308,-29.620345349203028,146.6891284028822,8,Aménagement et logement,Older Canadians Average Donation by Cause,QC,...
+312,Senior,15 à 64 ans,2018,gs1dax10,181.95125867131912,26.292905170330265,88.18604873931788,275.7164686033204,44,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AB,*
+313,Senior,64 à 75 ans,2018,gs1dax10,68.4338020979195,34.95180693277347,21.553716789716177,115.31388740612282,12,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AB,...
+314,Senior,75 ans et plus,2018,gs1dax10,149.70732597730276,54.95906076007068,-11.55408163447902,310.96873358908454,7,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AB,...
+315,Senior,15 à 64 ans,2018,gs1dax10,73.72663841906568,15.732534389246483,50.99288142796418,96.46039541016718,166,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AT,
+316,Senior,64 à 75 ans,2018,gs1dax10,55.448660574644805,20.16864311125178,33.52990812017756,77.36741302911204,91,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AT,*
+317,Senior,75 ans et plus,2018,gs1dax10,51.42597144668098,19.135765764002084,32.138449127659314,70.71349376570265,47,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AT,*
+318,Senior,15 à 64 ans,2018,gs1dax10,181.178113135532,28.47459869579038,80.06407950947195,282.2921467615921,43,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,BC,*
+319,Senior,64 à 75 ans,2018,gs1dax10,222.8683895267664,43.46533057705438,33.005733132990315,412.7310459205425,27,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,BC,...
+320,Senior,75 ans et plus,2018,gs1dax10,355.502406109476,33.01046016597164,125.49479152166744,585.5100206972845,19,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,BC,*
+321,Senior,15 à 64 ans,2018,gs1dax10,196.54431972087383,28.516725726990167,86.69224932544887,306.39639011629885,89,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,ON,*
+322,Senior,64 à 75 ans,2018,gs1dax10,90.23934439835864,19.80713750713232,55.2072793127897,125.27140948392756,47,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,ON,*
+323,Senior,75 ans et plus,2018,gs1dax10,202.6629129799707,29.13121962821824,86.9502098282415,318.3756161316999,31,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,ON,*
+324,Senior,15 à 64 ans,2018,gs1dax10,82.0473439318114,17.95776113801376,53.16949713378948,110.92519072983332,54,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,PR,*
+325,Senior,64 à 75 ans,2018,gs1dax10,372.2824292672421,61.58348269141227,-77.06770503315107,821.6325635676351,29,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,PR,...
+326,Senior,75 ans et plus,2018,gs1dax10,108.95509046313964,46.50087261942316,9.65338224472272,208.2567986815565,20,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,PR,...
+327,Senior,15 à 64 ans,2018,gs1dax10,86.0620057208308,37.77843758063254,22.337929707904664,149.78608173375693,33,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,QC,...
+328,Senior,64 à 75 ans,2018,gs1dax10,75.87388171781706,28.72024944499824,33.163977074557145,118.58378636107696,17,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,QC,*
+329,Senior,75 ans et plus,2018,gs1dax10,84.28267529217423,143.09967431551155,-152.10511928791328,320.6704698722617,4,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,QC,...
+330,Senior,15 à 64 ans,2018,gs1dax11,297.43419621579795,25.80181810311838,147.0198368089556,447.84855562264033,144,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AB,*
+331,Senior,64 à 75 ans,2018,gs1dax11,813.9552166660732,53.92246142579788,-46.282163930589945,1674.1925972627364,17,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AB,...
+332,Senior,75 ans et plus,2018,gs1dax11,46.00119513657184,7.314305579436148,39.40656707097289,52.595823202170784,2,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AB,...
+333,Senior,15 à 64 ans,2018,gs1dax11,121.3159042634156,15.135833731893616,85.32670540862047,157.30510311821075,405,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AT,
+334,Senior,64 à 75 ans,2018,gs1dax11,79.65389684736067,19.42331891363126,49.330450450919415,109.97734324380193,106,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AT,*
+335,Senior,75 ans et plus,2018,gs1dax11,65.90621940648246,21.990322741841236,37.50048028351035,94.3119585294546,42,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AT,*
+336,Senior,15 à 64 ans,2018,gs1dax11,278.13908837957786,33.59477500514618,94.99965982412392,461.2785169350318,140,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,BC,...
+337,Senior,64 à 75 ans,2018,gs1dax11,224.15633810409489,35.30697206811963,69.03926972967133,379.2734064785184,22,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,BC,...
+338,Senior,75 ans et plus,2018,gs1dax11,89.03734793766986,24.40711721588204,46.44448884679525,131.63020702854448,14,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,BC,...
+339,Senior,15 à 64 ans,2018,gs1dax11,189.13319148181992,11.201452679862063,147.61005119961925,230.6563317640206,465,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,ON,
+340,Senior,64 à 75 ans,2018,gs1dax11,152.50263842129476,18.274843662377588,97.87918940354716,207.12608743904235,101,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,ON,*
+341,Senior,75 ans et plus,2018,gs1dax11,151.88183543312988,32.054392851275175,56.46138044765455,247.3022904186052,60,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,ON,*
+342,Senior,15 à 64 ans,2018,gs1dax11,163.3662193611233,23.42851277760222,88.3500176952417,238.3824210270049,214,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,PR,*
+343,Senior,64 à 75 ans,2018,gs1dax11,113.07800512553337,28.11001673776172,50.77810743348068,175.37790281758606,45,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,PR,*
+344,Senior,75 ans et plus,2018,gs1dax11,508.16472164279344,79.41633811303868,-282.8097382304187,1299.1391815160057,24,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,PR,...
+345,Senior,15 à 64 ans,2018,gs1dax11,98.14132711364964,17.872435075536938,63.7630786911514,132.51957553614787,194,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,QC,*
+346,Senior,64 à 75 ans,2018,gs1dax11,79.42052297151804,23.717341624489503,42.5017853383537,116.33926060468238,52,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,QC,*
+347,Senior,75 ans et plus,2018,gs1dax11,253.4137456005358,46.2680986011697,23.60851390377925,483.2189772972923,30,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,QC,...
+348,Senior,15 à 64 ans,2018,gs1dax12,462.4839907847266,13.81218585817334,337.28316061352814,587.6848209559251,127,International,Older Canadians Average Donation by Cause,AB,
+349,Senior,64 à 75 ans,2018,gs1dax12,266.3592328604328,31.55986785918928,101.59952144827996,431.1189442725856,22,International,Older Canadians Average Donation by Cause,AB,*
+350,Senior,75 ans et plus,2018,gs1dax12,409.3283925703153,44.24388634595211,54.37344904112604,764.2833360995046,10,International,Older Canadians Average Donation by Cause,AB,...
+351,Senior,15 à 64 ans,2018,gs1dax12,242.18418604755655,13.127530940087526,179.87143532744545,304.4969367676677,170,International,Older Canadians Average Donation by Cause,AT,
+352,Senior,64 à 75 ans,2018,gs1dax12,209.4922265663249,17.715334517362358,136.7535556818059,282.2308974508438,78,International,Older Canadians Average Donation by Cause,AT,*
+353,Senior,75 ans et plus,2018,gs1dax12,154.4282710433618,23.737342745183096,82.58154200180206,226.27500008492157,38,International,Older Canadians Average Donation by Cause,AT,*
+354,Senior,15 à 64 ans,2018,gs1dax12,295.84363818567203,14.85151580511742,209.72818182665264,381.9590945446914,174,International,Older Canadians Average Donation by Cause,BC,
+355,Senior,64 à 75 ans,2018,gs1dax12,558.3670550661675,15.04797730058398,393.68510369869455,723.0490064336404,72,International,Older Canadians Average Donation by Cause,BC,
+356,Senior,75 ans et plus,2018,gs1dax12,270.15328891909354,24.92960308921031,138.1533548798719,402.1532229583152,32,International,Older Canadians Average Donation by Cause,BC,*
+357,Senior,15 à 64 ans,2018,gs1dax12,352.38915417286626,13.422683012811667,259.6827026001139,445.0956057456186,285,International,Older Canadians Average Donation by Cause,ON,
+358,Senior,64 à 75 ans,2018,gs1dax12,242.5955435657969,12.168499748012316,184.7369400600636,300.4541470715302,110,International,Older Canadians Average Donation by Cause,ON,
+359,Senior,75 ans et plus,2018,gs1dax12,279.71239250126126,14.417031008663294,200.67444903922512,358.7503359632974,67,International,Older Canadians Average Donation by Cause,ON,
+360,Senior,15 à 64 ans,2018,gs1dax12,330.36047580655395,11.058226556714288,258.7590521813772,401.9618994317306,130,International,Older Canadians Average Donation by Cause,PR,
+361,Senior,64 à 75 ans,2018,gs1dax12,291.40472125058443,29.82487960975215,121.06208110545148,461.74736139571735,51,International,Older Canadians Average Donation by Cause,PR,*
+362,Senior,75 ans et plus,2018,gs1dax12,455.6258525379251,28.381729236951543,202.1740980892717,709.0776069865785,30,International,Older Canadians Average Donation by Cause,PR,*
+363,Senior,15 à 64 ans,2018,gs1dax12,164.38735117781698,22.9830021546665,90.33766089539031,238.4370414602436,98,International,Older Canadians Average Donation by Cause,QC,*
+364,Senior,64 à 75 ans,2018,gs1dax12,281.1036459650578,31.50821300407384,107.50819423637526,454.6990976937403,35,International,Older Canadians Average Donation by Cause,QC,*
+365,Senior,75 ans et plus,2018,gs1dax12,199.70153198281747,26.036568617278945,97.792368869266,301.61069509636894,29,International,Older Canadians Average Donation by Cause,QC,*
+366,Senior,15 à 64 ans,2018,gs1dax13,1387.972216730322,16.18244564201669,947.7489210679196,1828.1955123927248,270,Religion,Older Canadians Average Donation by Cause,AB,
+367,Senior,64 à 75 ans,2018,gs1dax13,1916.014766656249,19.195109675144067,1195.176986193836,2636.852547118662,53,Religion,Older Canadians Average Donation by Cause,AB,*
+368,Senior,75 ans et plus,2018,gs1dax13,692.2648991516762,24.2819530074258,362.803895688302,1021.7259026150504,47,Religion,Older Canadians Average Donation by Cause,AB,*
+369,Senior,15 à 64 ans,2018,gs1dax13,559.3297336550073,11.4819991741038,433.4564652667356,685.2030020432791,783,Religion,Older Canadians Average Donation by Cause,AT,
+370,Senior,64 à 75 ans,2018,gs1dax13,645.7362693888598,12.24480011572095,490.7636507951173,800.7088879826023,393,Religion,Older Canadians Average Donation by Cause,AT,
+371,Senior,75 ans et plus,2018,gs1dax13,712.5828582486889,12.177274418412631,542.5105700135995,882.6551464837784,263,Religion,Older Canadians Average Donation by Cause,AT,
+372,Senior,15 à 64 ans,2018,gs1dax13,1043.687726237673,13.935716438813028,758.620054930336,1328.7553975450094,269,Religion,Older Canadians Average Donation by Cause,BC,
+373,Senior,64 à 75 ans,2018,gs1dax13,863.0242845954107,15.026572779882006,608.8503296110434,1117.198239579778,103,Religion,Older Canadians Average Donation by Cause,BC,
+374,Senior,75 ans et plus,2018,gs1dax13,1130.86973839485,23.309232867750204,614.2289928876222,1647.5104839020778,79,Religion,Older Canadians Average Donation by Cause,BC,*
+375,Senior,15 à 64 ans,2018,gs1dax13,647.1490661521381,8.76540766890465,535.969611545708,758.3285207585682,750,Religion,Older Canadians Average Donation by Cause,ON,
+376,Senior,64 à 75 ans,2018,gs1dax13,766.4957278536498,12.714284354969706,575.4885227606658,957.5029329466338,264,Religion,Older Canadians Average Donation by Cause,ON,
+377,Senior,75 ans et plus,2018,gs1dax13,829.5489055198608,15.558122825109349,576.591568030055,1082.5062430096666,224,Religion,Older Canadians Average Donation by Cause,ON,
+378,Senior,15 à 64 ans,2018,gs1dax13,925.1884815385152,11.504685683443997,716.5698625353849,1133.8071005416457,383,Religion,Older Canadians Average Donation by Cause,PR,
+379,Senior,64 à 75 ans,2018,gs1dax13,920.9752778653224,17.814246992898497,599.4141576797172,1242.5363980509276,134,Religion,Older Canadians Average Donation by Cause,PR,*
+380,Senior,75 ans et plus,2018,gs1dax13,1741.9183284653388,17.225182681879488,1153.8338509294867,2330.002806001191,115,Religion,Older Canadians Average Donation by Cause,PR,*
+381,Senior,15 à 64 ans,2018,gs1dax13,140.30505296305117,17.199217786759746,93.00843368060956,187.60167224549275,325,Religion,Older Canadians Average Donation by Cause,QC,*
+382,Senior,64 à 75 ans,2018,gs1dax13,414.88573339509935,40.80772927363338,83.05315512619114,746.7183116640076,143,Religion,Older Canadians Average Donation by Cause,QC,...
+383,Senior,75 ans et plus,2018,gs1dax13,304.3516607276837,17.35826871240799,200.80641239529928,407.8969090600681,112,Religion,Older Canadians Average Donation by Cause,QC,*
+384,Senior,15 à 64 ans,2018,gs1dax14,134.52929971431124,44.2574398145304,17.83456529306099,251.22403413556148,4,Entreprises et professionnels,Older Canadians Average Donation by Cause,AB,...
+385,Senior,15 à 64 ans,2018,gs1dax14,52.51577798202526,40.30065255633144,11.03470582575747,93.99685013829306,13,Entreprises et professionnels,Older Canadians Average Donation by Cause,AT,...
+386,Senior,64 à 75 ans,2018,gs1dax14,57.682929882735536,46.69399518750719,4.892349513085989,110.47351025238508,6,Entreprises et professionnels,Older Canadians Average Donation by Cause,AT,...
+387,Senior,75 ans et plus,2018,gs1dax14,50.0,4.361329064132828e-15,49.99999999999999,50.00000000000001,1,Entreprises et professionnels,Older Canadians Average Donation by Cause,AT,...
+388,Senior,15 à 64 ans,2018,gs1dax14,85.93389095379644,32.120057335946974,31.834935564139386,140.03284634345349,10,Entreprises et professionnels,Older Canadians Average Donation by Cause,BC,...
+389,Senior,64 à 75 ans,2018,gs1dax14,70.57582886529175,79.15973096543449,-38.92272609861756,180.07438382920105,5,Entreprises et professionnels,Older Canadians Average Donation by Cause,BC,...
+390,Senior,75 ans et plus,2018,gs1dax14,200.0,3.305611484786434e-15,200.0,200.0,1,Entreprises et professionnels,Older Canadians Average Donation by Cause,BC,...
+391,Senior,15 à 64 ans,2018,gs1dax14,66.41284424839013,25.950891448138066,32.6334037326417,100.19228476413856,20,Entreprises et professionnels,Older Canadians Average Donation by Cause,ON,*
+392,Senior,64 à 75 ans,2018,gs1dax14,22.292950591569603,36.24306480490464,6.457130465364843,38.128770717774366,8,Entreprises et professionnels,Older Canadians Average Donation by Cause,ON,...
+393,Senior,75 ans et plus,2018,gs1dax14,76.95379826509216,27.380950117832526,35.65602214654894,118.2515743836354,4,Entreprises et professionnels,Older Canadians Average Donation by Cause,ON,...
+394,Senior,15 à 64 ans,2018,gs1dax14,223.28889504799184,68.11513381782713,-74.80894537166546,521.3867354676491,5,Entreprises et professionnels,Older Canadians Average Donation by Cause,PR,...
+395,Senior,64 à 75 ans,2018,gs1dax14,206.8016763013761,101.31080688011254,-203.83517394042843,617.4385265431806,2,Entreprises et professionnels,Older Canadians Average Donation by Cause,PR,...
+396,Senior,75 ans et plus,2018,gs1dax14,200.0,7.140936960859958e-15,200.0,200.00000000000003,2,Entreprises et professionnels,Older Canadians Average Donation by Cause,PR,...
+397,Senior,15 à 64 ans,2018,gs1dax14,70.17779330869519,9.521038259236358,57.08199103275601,83.27359558463436,3,Entreprises et professionnels,Older Canadians Average Donation by Cause,QC,...
+398,Senior,64 à 75 ans,2018,gs1dax14,20.0,2.6374017027043413e-15,20.0,20.0,1,Entreprises et professionnels,Older Canadians Average Donation by Cause,QC,...
+399,Senior,75 ans et plus,2018,gs1dax14,20.000000000000004,2.8671579313852818e-15,20.000000000000004,20.000000000000004,1,Entreprises et professionnels,Older Canadians Average Donation by Cause,QC,...
+400,Senior,15 à 64 ans,2018,gs1dax15,145.2257263152673,63.45764107005538,-35.39832210165355,325.84977473218817,27,Autre,Older Canadians Average Donation by Cause,AB,...
+401,Senior,64 à 75 ans,2018,gs1dax15,60.54776909009794,79.90874461112958,-34.28109422835386,155.37663240854974,3,Autre,Older Canadians Average Donation by Cause,AB,...
+402,Senior,75 ans et plus,2018,gs1dax15,168.34650082152132,41.18210294863832,32.464884337643866,304.2281173053988,2,Autre,Older Canadians Average Donation by Cause,AB,...
+403,Senior,15 à 64 ans,2018,gs1dax15,71.96438806759518,19.034850255266026,45.116186947317445,98.81258918787292,103,Autre,Older Canadians Average Donation by Cause,AT,*
+404,Senior,64 à 75 ans,2018,gs1dax15,27.66156624003327,19.0188505367841,17.350368313118608,37.97276416694793,30,Autre,Older Canadians Average Donation by Cause,AT,*
+405,Senior,75 ans et plus,2018,gs1dax15,28.268068383439,26.00115094546176,13.862287763603756,42.67384900327425,20,Autre,Older Canadians Average Donation by Cause,AT,*
+406,Senior,15 à 64 ans,2018,gs1dax15,81.00311310121207,54.591972214349774,-5.668840366103851,167.675066568528,34,Autre,Older Canadians Average Donation by Cause,BC,...
+407,Senior,64 à 75 ans,2018,gs1dax15,430.9756526312778,74.22579031501627,-196.0071912926248,1057.9584965551803,5,Autre,Older Canadians Average Donation by Cause,BC,...
+408,Senior,75 ans et plus,2018,gs1dax15,397.5217700785679,112.49063460531552,-478.9246579538094,1273.9681981109452,5,Autre,Older Canadians Average Donation by Cause,BC,...
+409,Senior,15 à 64 ans,2018,gs1dax15,57.14683822787725,16.360808224970718,38.82179312723818,75.47188332851631,78,Autre,Older Canadians Average Donation by Cause,ON,
+410,Senior,64 à 75 ans,2018,gs1dax15,73.30046827468514,35.98411355471834,21.60343170671756,124.99750484265272,29,Autre,Older Canadians Average Donation by Cause,ON,...
+411,Senior,75 ans et plus,2018,gs1dax15,403.65590346410943,64.83868558199165,-109.31602726035204,916.6278341885708,15,Autre,Older Canadians Average Donation by Cause,ON,...
+412,Senior,15 à 64 ans,2018,gs1dax15,67.48546467088177,35.278454012441216,20.82297802754121,114.14795131422233,46,Autre,Older Canadians Average Donation by Cause,PR,...
+413,Senior,64 à 75 ans,2018,gs1dax15,70.2420805679952,47.48428747526344,4.869536953492784,135.6146241824976,10,Autre,Older Canadians Average Donation by Cause,PR,...
+414,Senior,75 ans et plus,2018,gs1dax15,163.8848887838097,56.20446338519687,-16.64861353808101,344.41839110570044,8,Autre,Older Canadians Average Donation by Cause,PR,...
+415,Senior,15 à 64 ans,2018,gs1dax15,28.58476277362995,23.81137202040999,15.244416467974132,41.92510907928577,28,Autre,Older Canadians Average Donation by Cause,QC,*
+416,Senior,64 à 75 ans,2018,gs1dax15,115.95786603597648,84.03783066409538,-75.03763551035615,306.9533675823091,7,Autre,Older Canadians Average Donation by Cause,QC,...
+417,Senior,75 ans et plus,2018,gs1dax15,577.6649823934223,133.93950114064867,-938.8014792040918,2094.1314439909365,3,Autre,Older Canadians Average Donation by Cause,QC,...
+418,Senior2,15 à 64 ans,2018,gs1dax01,157.11678948492778,31.14057004693409,61.221506400943525,253.01207256891203,42,Arts et culture,Older Canadians Average Donation by Cause,AB,*
+419,Senior2,65 ans et plus,2018,gs1dax01,303.2288824554277,31.774377249424077,114.38813799260836,492.0696269182471,22,Arts et culture,Older Canadians Average Donation by Cause,AB,*
+420,Senior2,15 à 64 ans,2018,gs1dax01,136.1178545054899,29.43448091331608,57.59075303401602,214.6449559769638,120,Arts et culture,Older Canadians Average Donation by Cause,AT,*
+421,Senior2,65 ans et plus,2018,gs1dax01,115.51898870015124,30.17328334794385,47.20273535930055,183.8352420410019,69,Arts et culture,Older Canadians Average Donation by Cause,AT,*
+422,Senior2,15 à 64 ans,2018,gs1dax01,130.78248116823104,38.136684272664525,33.02711770189528,228.5378446345668,58,Arts et culture,Older Canadians Average Donation by Cause,BC,...
+423,Senior2,65 ans et plus,2018,gs1dax01,457.11679399277074,51.495714034054686,-4.2500199188392,918.4836079043808,43,Arts et culture,Older Canadians Average Donation by Cause,BC,...
+424,Senior2,15 à 64 ans,2018,gs1dax01,196.61412133994472,27.50912406394585,90.60589707111733,302.6223456087721,124,Arts et culture,Older Canadians Average Donation by Cause,ON,*
+425,Senior2,65 ans et plus,2018,gs1dax01,164.0465868133891,22.682992693648515,91.11500338289578,236.9781702438824,80,Arts et culture,Older Canadians Average Donation by Cause,ON,*
+426,Senior2,15 à 64 ans,2018,gs1dax01,219.6926327873316,29.465111999134876,92.81891076750102,346.56635480716216,42,Arts et culture,Older Canadians Average Donation by Cause,PR,*
+427,Senior2,65 ans et plus,2018,gs1dax01,89.58824182997785,18.872031661802595,56.45089287545496,122.72559078450074,36,Arts et culture,Older Canadians Average Donation by Cause,PR,*
+428,Senior2,15 à 64 ans,2018,gs1dax01,88.21002367150903,35.77153641990269,26.365161848669278,150.0548854943488,41,Arts et culture,Older Canadians Average Donation by Cause,QC,...
+429,Senior2,65 ans et plus,2018,gs1dax01,401.5443310403705,69.23620007961716,-143.35316759327884,946.4418296740198,20,Arts et culture,Older Canadians Average Donation by Cause,QC,...
+430,Senior2,15 à 64 ans,2018,gs1dax02,110.27369566600665,22.5739824766502,61.483989322226265,159.063402009787,166,Sport et loisir,Older Canadians Average Donation by Cause,AB,*
+431,Senior2,65 ans et plus,2018,gs1dax02,65.60629768651997,24.24665020056832,34.42850475750445,96.78409061553548,39,Sport et loisir,Older Canadians Average Donation by Cause,AB,*
+432,Senior2,15 à 64 ans,2018,gs1dax02,42.06686111499751,12.340520390633818,31.892159716710992,52.24156251328402,633,Sport et loisir,Older Canadians Average Donation by Cause,AT,
+433,Senior2,65 ans et plus,2018,gs1dax02,36.74041862140788,13.314938746804652,27.152344907620098,46.328492335195655,267,Sport et loisir,Older Canadians Average Donation by Cause,AT,
+434,Senior2,15 à 64 ans,2018,gs1dax02,137.89764982870403,38.85706169786056,32.87694889146452,242.9183507659436,179,Sport et loisir,Older Canadians Average Donation by Cause,BC,...
+435,Senior2,65 ans et plus,2018,gs1dax02,57.38932599873649,19.57131119147865,35.375317098215575,79.4033348992574,111,Sport et loisir,Older Canadians Average Donation by Cause,BC,*
+436,Senior2,15 à 64 ans,2018,gs1dax02,72.79800801792553,12.50941143216664,54.94939541512469,90.64662062072637,369,Sport et loisir,Older Canadians Average Donation by Cause,ON,
+437,Senior2,65 ans et plus,2018,gs1dax02,77.64347211311559,20.487444627930973,46.46600483842025,108.82093938781094,155,Sport et loisir,Older Canadians Average Donation by Cause,ON,*
+438,Senior2,15 à 64 ans,2018,gs1dax02,89.70708271031191,13.031655379839227,66.79448071706115,112.61968470356268,259,Sport et loisir,Older Canadians Average Donation by Cause,PR,
+439,Senior2,65 ans et plus,2018,gs1dax02,46.10625524996877,14.169163557803996,33.30206392948894,58.9104465704486,110,Sport et loisir,Older Canadians Average Donation by Cause,PR,
+440,Senior2,15 à 64 ans,2018,gs1dax02,49.27186558861155,22.29938883487233,27.737104510322887,70.8066266669002,175,Sport et loisir,Older Canadians Average Donation by Cause,QC,*
+441,Senior2,65 ans et plus,2018,gs1dax02,101.76043111457092,67.8989772558823,-33.66189269954559,237.18275492868744,71,Sport et loisir,Older Canadians Average Donation by Cause,QC,...
+442,Senior2,15 à 64 ans,2018,gs1dax03,164.28509577940935,31.530941486150397,62.75771205867507,265.8124795001437,160,Éducation et recherche,Older Canadians Average Donation by Cause,AB,*
+443,Senior2,65 ans et plus,2018,gs1dax03,103.77711524278712,58.07997539523574,-14.35721104919294,221.9114415347672,43,Éducation et recherche,Older Canadians Average Donation by Cause,AB,...
+444,Senior2,15 à 64 ans,2018,gs1dax03,53.66814074255673,39.46395382782804,12.156945780045078,95.17933570506838,482,Éducation et recherche,Older Canadians Average Donation by Cause,AT,...
+445,Senior2,65 ans et plus,2018,gs1dax03,46.30473736148184,26.17106138765107,22.553028981799475,70.0564457411642,202,Éducation et recherche,Older Canadians Average Donation by Cause,AT,*
+446,Senior2,15 à 64 ans,2018,gs1dax03,86.26944321186531,19.460620019428465,53.36445352866103,119.1744328950696,178,Éducation et recherche,Older Canadians Average Donation by Cause,BC,*
+447,Senior2,65 ans et plus,2018,gs1dax03,126.65147499311507,42.33640252102262,21.55883675677039,231.7441132294597,67,Éducation et recherche,Older Canadians Average Donation by Cause,BC,...
+448,Senior2,15 à 64 ans,2018,gs1dax03,87.27402831546252,24.427110264967244,45.49049077845674,129.0575658524683,459,Éducation et recherche,Older Canadians Average Donation by Cause,ON,*
+449,Senior2,65 ans et plus,2018,gs1dax03,70.80769716505013,20.731876374037075,42.03588795397206,99.5795063761282,179,Éducation et recherche,Older Canadians Average Donation by Cause,ON,*
+450,Senior2,15 à 64 ans,2018,gs1dax03,99.64431736317135,21.76680612180012,57.13390318756935,142.15473153877338,224,Éducation et recherche,Older Canadians Average Donation by Cause,PR,*
+451,Senior2,65 ans et plus,2018,gs1dax03,58.543081372118976,17.8026776303473,38.115874072705566,78.97028867153239,91,Éducation et recherche,Older Canadians Average Donation by Cause,PR,*
+452,Senior2,15 à 64 ans,2018,gs1dax03,61.17465694913399,34.710455670339755,19.556777425138392,102.7925364731296,169,Éducation et recherche,Older Canadians Average Donation by Cause,QC,...
+453,Senior2,65 ans et plus,2018,gs1dax03,38.54899800063392,24.682808113701004,19.89998928259057,57.19800671867727,49,Éducation et recherche,Older Canadians Average Donation by Cause,QC,*
+454,Senior2,15 à 64 ans,2018,gs1dax04,318.65564379251964,71.14828300869365,-125.70350862034452,763.0147962053838,16,Universités et collèges,Older Canadians Average Donation by Cause,AB,...
+455,Senior2,65 ans et plus,2018,gs1dax04,318.2624210321821,19.67565695866337,195.5290408346533,440.9958012297109,5,Universités et collèges,Older Canadians Average Donation by Cause,AB,...
+456,Senior2,15 à 64 ans,2018,gs1dax04,740.6983327886398,39.87396065687955,161.8312766695766,1319.565388907703,69,Universités et collèges,Older Canadians Average Donation by Cause,AT,...
+457,Senior2,65 ans et plus,2018,gs1dax04,1020.6938599563124,40.52991377711068,209.8835299778001,1831.5041899348248,28,Universités et collèges,Older Canadians Average Donation by Cause,AT,...
+458,Senior2,15 à 64 ans,2018,gs1dax04,284.59061943853965,31.8372843133404,107.00627035869029,462.17496851838905,29,Universités et collèges,Older Canadians Average Donation by Cause,BC,*
+459,Senior2,65 ans et plus,2018,gs1dax04,175.18483473280455,28.893128726289834,75.97855328076102,274.3911161848481,26,Universités et collèges,Older Canadians Average Donation by Cause,BC,*
+460,Senior2,15 à 64 ans,2018,gs1dax04,456.953815355892,47.61581013042243,30.5004199180799,883.407210793704,65,Universités et collèges,Older Canadians Average Donation by Cause,ON,...
+461,Senior2,65 ans et plus,2018,gs1dax04,600.8839854454071,39.52803225375264,135.35801322556756,1066.4099576652466,40,Universités et collèges,Older Canadians Average Donation by Cause,ON,...
+462,Senior2,15 à 64 ans,2018,gs1dax04,377.9676553185385,54.167431917747614,-23.30630087978,779.241611516857,20,Universités et collèges,Older Canadians Average Donation by Cause,PR,...
+463,Senior2,65 ans et plus,2018,gs1dax04,431.7747983764917,67.84988818225627,-142.4137376598576,1005.963334412841,14,Universités et collèges,Older Canadians Average Donation by Cause,PR,...
+464,Senior2,15 à 64 ans,2018,gs1dax04,88.62738944081765,16.75088886673076,59.53000812084905,117.72477076078626,44,Universités et collèges,Older Canadians Average Donation by Cause,QC,*
+465,Senior2,65 ans et plus,2018,gs1dax04,247.6080766841216,36.07711306707314,72.52479619407458,422.6913571741685,23,Universités et collèges,Older Canadians Average Donation by Cause,QC,...
+466,Senior2,15 à 64 ans,2018,gs1dax05,125.3085609923777,9.990301835149769,100.77235306113536,149.84476892362005,409,Santé,Older Canadians Average Donation by Cause,AB,
+467,Senior2,65 ans et plus,2018,gs1dax05,149.5246013918514,13.26638743897094,110.64575045603748,188.4034523276653,145,Santé,Older Canadians Average Donation by Cause,AB,
+468,Senior2,15 à 64 ans,2018,gs1dax05,70.43801506487306,7.844284281303654,59.60851210134754,81.26751802839857,1195,Santé,Older Canadians Average Donation by Cause,AT,
+469,Senior2,65 ans et plus,2018,gs1dax05,91.81767256916618,9.67409507302827,74.40823575869283,109.22710937963951,676,Santé,Older Canadians Average Donation by Cause,AT,
+470,Senior2,15 à 64 ans,2018,gs1dax05,150.163637856701,9.753123775232265,121.45870021386972,178.86857549953228,462,Santé,Older Canadians Average Donation by Cause,BC,
+471,Senior2,65 ans et plus,2018,gs1dax05,189.76617786665133,15.27463642212668,132.9544781204062,246.5778776128965,295,Santé,Older Canadians Average Donation by Cause,BC,
+472,Senior2,15 à 64 ans,2018,gs1dax05,149.5948079035664,8.59729866070483,124.38749076634602,174.80212504078676,1253,Santé,Older Canadians Average Donation by Cause,ON,
+473,Senior2,65 ans et plus,2018,gs1dax05,178.38724361761186,17.079781090143527,118.67076556492002,238.10372167030368,652,Santé,Older Canadians Average Donation by Cause,ON,*
+474,Senior2,15 à 64 ans,2018,gs1dax05,133.07394552927065,9.908626658636363,107.23025155480975,158.91763950373155,582,Santé,Older Canadians Average Donation by Cause,PR,
+475,Senior2,65 ans et plus,2018,gs1dax05,154.4808760643296,15.224373467767249,108.38498190647454,200.57677022218468,323,Santé,Older Canadians Average Donation by Cause,PR,
+476,Senior2,15 à 64 ans,2018,gs1dax05,86.535944244565,11.931102436614331,66.29991947457306,106.77196901455694,479,Santé,Older Canadians Average Donation by Cause,QC,
+477,Senior2,65 ans et plus,2018,gs1dax05,90.38254102065493,10.901727959567436,71.07050875006874,109.69457329124108,281,Santé,Older Canadians Average Donation by Cause,QC,
+478,Senior2,15 à 64 ans,2018,gs1dax06,164.6135054697429,21.9528999766719,93.78542809662376,235.44158284286203,131,Hôpitaux,Older Canadians Average Donation by Cause,AB,*
+479,Senior2,65 ans et plus,2018,gs1dax06,121.84417496696912,33.67066565051381,41.43519278323636,202.2531571507019,43,Hôpitaux,Older Canadians Average Donation by Cause,AB,...
+480,Senior2,15 à 64 ans,2018,gs1dax06,65.65126037603383,10.524210413535616,52.10932672583561,79.19319402623205,659,Hôpitaux,Older Canadians Average Donation by Cause,AT,
+481,Senior2,65 ans et plus,2018,gs1dax06,103.33484392310724,17.651757158565406,67.58428606946927,139.0854017767452,366,Hôpitaux,Older Canadians Average Donation by Cause,AT,*
+482,Senior2,15 à 64 ans,2018,gs1dax06,145.62345483789673,36.74941164689268,40.73448700201215,250.5124226737813,185,Hôpitaux,Older Canadians Average Donation by Cause,BC,...
+483,Senior2,65 ans et plus,2018,gs1dax06,245.5972880326101,32.60762532159032,88.63662305060663,402.55795301461353,115,Hôpitaux,Older Canadians Average Donation by Cause,BC,*
+484,Senior2,15 à 64 ans,2018,gs1dax06,155.9196392280369,21.63618840918267,89.80012306780793,222.0391553882659,567,Hôpitaux,Older Canadians Average Donation by Cause,ON,*
+485,Senior2,65 ans et plus,2018,gs1dax06,207.0410107740254,20.565816890656222,123.58638097848504,290.4956405695658,294,Hôpitaux,Older Canadians Average Donation by Cause,ON,*
+486,Senior2,15 à 64 ans,2018,gs1dax06,212.4223488603951,34.72318353609434,67.855793303296,356.9889044174941,178,Hôpitaux,Older Canadians Average Donation by Cause,PR,...
+487,Senior2,65 ans et plus,2018,gs1dax06,307.43754691600816,31.14681265085765,119.757282005899,495.1178118261173,96,Hôpitaux,Older Canadians Average Donation by Cause,PR,*
+488,Senior2,15 à 64 ans,2018,gs1dax06,48.23444042495581,10.882129900019224,37.94671791910624,58.522162930805386,349,Hôpitaux,Older Canadians Average Donation by Cause,QC,
+489,Senior2,65 ans et plus,2018,gs1dax06,67.40240243613381,11.28794486016961,52.49031825223122,82.3144866200364,192,Hôpitaux,Older Canadians Average Donation by Cause,QC,
+490,Senior2,15 à 64 ans,2018,gs1dax07,133.06797471299694,15.30276506321082,93.15707219105536,172.97887723493852,391,Services sociaux,Older Canadians Average Donation by Cause,AB,
+491,Senior2,65 ans et plus,2018,gs1dax07,205.6630530014137,16.13116473950641,140.63958990436782,270.6865160984595,130,Services sociaux,Older Canadians Average Donation by Cause,AB,
+492,Senior2,15 à 64 ans,2018,gs1dax07,93.37855504900212,10.45040530192379,74.25236906692243,112.5047410310818,1163,Services sociaux,Older Canadians Average Donation by Cause,AT,
+493,Senior2,65 ans et plus,2018,gs1dax07,127.71305668018968,13.921486002204247,92.865768613961,162.56034474641837,640,Services sociaux,Older Canadians Average Donation by Cause,AT,
+494,Senior2,15 à 64 ans,2018,gs1dax07,123.3367395493309,9.816228665856531,99.60742347807304,147.06605562058877,537,Services sociaux,Older Canadians Average Donation by Cause,BC,
+495,Senior2,65 ans et plus,2018,gs1dax07,163.56426804884703,12.782683000871405,122.58553335728578,204.54300274040827,296,Services sociaux,Older Canadians Average Donation by Cause,BC,
+496,Senior2,15 à 64 ans,2018,gs1dax07,129.6560376776612,11.79547186720011,99.68124724273667,159.63082811258573,1067,Services sociaux,Older Canadians Average Donation by Cause,ON,
+497,Senior2,65 ans et plus,2018,gs1dax07,142.74547659305205,10.235542050189627,114.1088871751781,171.382066010926,613,Services sociaux,Older Canadians Average Donation by Cause,ON,
+498,Senior2,15 à 64 ans,2018,gs1dax07,129.7879091023928,14.902110962272058,91.87997475148136,167.69584345330424,512,Services sociaux,Older Canadians Average Donation by Cause,PR,
+499,Senior2,65 ans et plus,2018,gs1dax07,208.76876735447,17.27411561826922,138.08666801311088,279.45086669582906,275,Services sociaux,Older Canadians Average Donation by Cause,PR,*
+500,Senior2,15 à 64 ans,2018,gs1dax07,77.75558010733073,18.43745813485706,49.65723747204143,105.85392274262004,503,Services sociaux,Older Canadians Average Donation by Cause,QC,*
+501,Senior2,65 ans et plus,2018,gs1dax07,93.09622400172984,13.041701637921108,69.29965100724436,116.89279699621532,283,Services sociaux,Older Canadians Average Donation by Cause,QC,
+502,Senior2,15 à 64 ans,2018,gs1dax08,250.9132581961978,32.69409463585431,90.12992922828944,411.6965871641062,85,Environnement,Older Canadians Average Donation by Cause,AB,*
+503,Senior2,65 ans et plus,2018,gs1dax08,190.11113770794924,35.13788192344325,59.18353047904256,321.0387449368559,30,Environnement,Older Canadians Average Donation by Cause,AB,...
+504,Senior2,15 à 64 ans,2018,gs1dax08,154.49285334982375,21.293160510818783,90.01707209582237,218.96863460382517,300,Environnement,Older Canadians Average Donation by Cause,AT,*
+505,Senior2,65 ans et plus,2018,gs1dax08,264.65779357363334,25.309186182232,133.37404789377413,395.9415392534926,155,Environnement,Older Canadians Average Donation by Cause,AT,*
+506,Senior2,15 à 64 ans,2018,gs1dax08,150.11625875349196,23.856231087090936,79.92586863052628,220.30664887645764,156,Environnement,Older Canadians Average Donation by Cause,BC,*
+507,Senior2,65 ans et plus,2018,gs1dax08,175.08308774096486,21.43469468955318,101.52852973984108,248.63764574208864,114,Environnement,Older Canadians Average Donation by Cause,BC,*
+508,Senior2,15 à 64 ans,2018,gs1dax08,142.59701454776095,13.609997596336878,104.55911102130727,180.63491807421465,261,Environnement,Older Canadians Average Donation by Cause,ON,
+509,Senior2,65 ans et plus,2018,gs1dax08,93.8762163308982,24.07886576156499,49.57254733595942,138.17988532583698,124,Environnement,Older Canadians Average Donation by Cause,ON,*
+510,Senior2,15 à 64 ans,2018,gs1dax08,88.75311046967859,12.893021646501571,66.32532541325865,111.18089552609852,168,Environnement,Older Canadians Average Donation by Cause,PR,
+511,Senior2,65 ans et plus,2018,gs1dax08,164.3243269883701,33.97822230719621,54.89074704036455,273.75790693637566,74,Environnement,Older Canadians Average Donation by Cause,PR,...
+512,Senior2,15 à 64 ans,2018,gs1dax08,100.6656685341282,18.011760425120325,65.12826982261106,136.20306724564531,99,Environnement,Older Canadians Average Donation by Cause,QC,*
+513,Senior2,65 ans et plus,2018,gs1dax08,83.82330503622798,18.555113910270254,53.338986126696994,114.30762394575896,38,Environnement,Older Canadians Average Donation by Cause,QC,*
+514,Senior2,15 à 64 ans,2018,gs1dax09,577.2113054731554,59.83398005224157,-99.69851077869885,1254.1211217250095,25,Aménagement et logement,Older Canadians Average Donation by Cause,AB,...
+515,Senior2,65 ans et plus,2018,gs1dax09,1381.4980764399586,85.35492294378997,-929.645627457688,3692.641780337605,11,Aménagement et logement,Older Canadians Average Donation by Cause,AB,...
+516,Senior2,15 à 64 ans,2018,gs1dax09,117.63115587359952,33.22866726943373,41.02152345420304,194.240788292996,102,Aménagement et logement,Older Canadians Average Donation by Cause,AT,*
+517,Senior2,65 ans et plus,2018,gs1dax09,125.27058870701268,68.81895392391945,-43.69772749957608,294.23890491360146,43,Aménagement et logement,Older Canadians Average Donation by Cause,AT,...
+518,Senior2,15 à 64 ans,2018,gs1dax09,88.111392464076,28.034112936012534,39.69783743602807,136.52494749212394,34,Aménagement et logement,Older Canadians Average Donation by Cause,BC,*
+519,Senior2,65 ans et plus,2018,gs1dax09,81.81014042066577,29.408005750764847,34.6558945396696,128.96438630166196,17,Aménagement et logement,Older Canadians Average Donation by Cause,BC,*
+520,Senior2,15 à 64 ans,2018,gs1dax09,186.91501002860105,32.34108972051647,68.43449903065365,305.3955210265484,74,Aménagement et logement,Older Canadians Average Donation by Cause,ON,*
+521,Senior2,65 ans et plus,2018,gs1dax09,314.3557063452012,52.92160501622046,-11.707989153376786,640.4194018437793,45,Aménagement et logement,Older Canadians Average Donation by Cause,ON,...
+522,Senior2,15 à 64 ans,2018,gs1dax09,243.2926705988472,30.334477314595222,98.64427105304912,387.9410701446452,66,Aménagement et logement,Older Canadians Average Donation by Cause,PR,*
+523,Senior2,65 ans et plus,2018,gs1dax09,190.4148379176968,43.8300005385242,26.83854773552449,353.991128099869,27,Aménagement et logement,Older Canadians Average Donation by Cause,PR,...
+524,Senior2,15 à 64 ans,2018,gs1dax09,43.35439170132907,33.425337216767815,14.951864430105694,71.75691897255246,30,Aménagement et logement,Older Canadians Average Donation by Cause,QC,...
+525,Senior2,65 ans et plus,2018,gs1dax09,41.32899556310598,31.65157489352809,15.690161843886433,66.96782928232552,22,Aménagement et logement,Older Canadians Average Donation by Cause,QC,*
+526,Senior2,15 à 64 ans,2018,gs1dax10,181.95125867131912,26.292905170330265,88.18604873931788,275.7164686033204,44,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AB,*
+527,Senior2,65 ans et plus,2018,gs1dax10,97.4660411695948,32.06608133709105,36.210228306743765,158.7218540324458,19,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AB,*
+528,Senior2,15 à 64 ans,2018,gs1dax10,73.72663841906568,15.732534389246483,50.99288142796418,96.46039541016718,166,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AT,
+529,Senior2,65 ans et plus,2018,gs1dax10,53.99598895523197,15.214045915031734,37.89493469954697,70.09704321091698,138,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,AT,
+530,Senior2,15 à 64 ans,2018,gs1dax10,181.178113135532,28.47459869579038,80.06407950947195,282.2921467615921,43,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,BC,*
+531,Senior2,65 ans et plus,2018,gs1dax10,294.3649397275647,25.88277677140105,145.03563606279255,443.6942433923369,46,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,BC,*
+532,Senior2,15 à 64 ans,2018,gs1dax10,196.54431972087383,28.516725726990167,86.69224932544887,306.39639011629885,89,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,ON,*
+533,Senior2,65 ans et plus,2018,gs1dax10,141.37990925619562,22.399424399091977,79.31120946095874,203.4486090514325,78,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,ON,*
+534,Senior2,15 à 64 ans,2018,gs1dax10,82.0473439318114,17.95776113801376,53.16949713378948,110.92519072983332,54,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,PR,*
+535,Senior2,65 ans et plus,2018,gs1dax10,270.2721909368633,51.1442277175932,-0.6509352841893588,541.195317157916,49,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,PR,...
+536,Senior2,15 à 64 ans,2018,gs1dax10,86.0620057208308,37.77843758063254,22.337929707904664,149.78608173375693,33,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,QC,...
+537,Senior2,65 ans et plus,2018,gs1dax10,76.96879834987371,26.29898944537426,37.29517571303696,116.64242098671043,21,"Droit, plaidoyer et politique",Older Canadians Average Donation by Cause,QC,*
+538,Senior2,15 à 64 ans,2018,gs1dax11,297.43419621579795,25.80181810311838,147.0198368089556,447.84855562264033,144,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AB,*
+539,Senior2,65 ans et plus,2018,gs1dax11,745.3278762503156,52.765805119481215,-25.483338831938,1516.1390913325693,19,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AB,...
+540,Senior2,15 à 64 ans,2018,gs1dax11,121.3159042634156,15.135833731893616,85.32670540862047,157.30510311821075,405,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AT,
+541,Senior2,65 ans et plus,2018,gs1dax11,75.65955516503858,15.40573036247264,52.81439711603523,98.50471321404194,148,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,AT,
+542,Senior2,15 à 64 ans,2018,gs1dax11,278.13908837957786,33.59477500514618,94.99965982412392,461.2785169350318,140,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,BC,...
+543,Senior2,65 ans et plus,2018,gs1dax11,165.90723348126136,27.892753107967188,75.20775389066179,256.6067130718609,36,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,BC,*
+544,Senior2,15 à 64 ans,2018,gs1dax11,189.13319148181992,11.201452679862063,147.61005119961925,230.6563317640206,465,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,ON,
+545,Senior2,65 ans et plus,2018,gs1dax11,152.2488351281817,17.037025810720223,101.40996958030632,203.08770067605707,161,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,ON,*
+546,Senior2,15 à 64 ans,2018,gs1dax11,163.3662193611233,23.42851277760222,88.3500176952417,238.3824210270049,214,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,PR,*
+547,Senior2,65 ans et plus,2018,gs1dax11,228.93187930073552,55.68374646135788,-20.920110114488267,478.7838687159593,69,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,PR,...
+548,Senior2,15 à 64 ans,2018,gs1dax11,98.14132711364964,17.872435075536938,63.7630786911514,132.51957553614787,194,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,QC,*
+549,Senior2,65 ans et plus,2018,gs1dax11,142.75838433134186,32.71252003528659,51.22833069863641,234.2884379640473,82,"Subventions, collecte de fonds",Older Canadians Average Donation by Cause,QC,*
+550,Senior2,15 à 64 ans,2018,gs1dax12,462.4839907847266,13.81218585817334,337.28316061352814,587.6848209559251,127,International,Older Canadians Average Donation by Cause,AB,
+551,Senior2,65 ans et plus,2018,gs1dax12,310.49553234188045,26.15391191670202,151.33327009292006,469.6577945908408,32,International,Older Canadians Average Donation by Cause,AB,*
+552,Senior2,15 à 64 ans,2018,gs1dax12,242.18418604755655,13.127530940087526,179.87143532744545,304.4969367676677,170,International,Older Canadians Average Donation by Cause,AT,
+553,Senior2,65 ans et plus,2018,gs1dax12,187.66485316884263,14.274766688188944,135.15992688356698,240.16977945411836,116,International,Older Canadians Average Donation by Cause,AT,
+554,Senior2,15 à 64 ans,2018,gs1dax12,295.84363818567203,14.85151580511742,209.72818182665264,381.9590945446914,174,International,Older Canadians Average Donation by Cause,BC,
+555,Senior2,65 ans et plus,2018,gs1dax12,442.9788135679093,13.378466945859726,326.8239506453186,559.1336764905,104,International,Older Canadians Average Donation by Cause,BC,
+556,Senior2,15 à 64 ans,2018,gs1dax12,352.38915417286626,13.422683012811667,259.6827026001139,445.0956057456186,285,International,Older Canadians Average Donation by Cause,ON,
+557,Senior2,65 ans et plus,2018,gs1dax12,258.7866930870255,9.398424760833151,211.11669867442413,306.4566874996269,177,International,Older Canadians Average Donation by Cause,ON,
+558,Senior2,15 à 64 ans,2018,gs1dax12,330.36047580655395,11.058226556714288,258.7590521813772,401.9618994317306,130,International,Older Canadians Average Donation by Cause,PR,
+559,Senior2,65 ans et plus,2018,gs1dax12,345.09472420869514,21.05207237275929,202.7041421709557,487.48530624643456,81,International,Older Canadians Average Donation by Cause,PR,*
+560,Senior2,15 à 64 ans,2018,gs1dax12,164.38735117781698,22.9830021546665,90.33766089539031,238.4370414602436,98,International,Older Canadians Average Donation by Cause,QC,*
+561,Senior2,65 ans et plus,2018,gs1dax12,244.5042552229698,21.637570729408207,140.81278953884225,348.1957209070973,64,International,Older Canadians Average Donation by Cause,QC,*
+562,Senior2,15 à 64 ans,2018,gs1dax13,1387.972216730322,16.18244564201669,947.7489210679196,1828.1955123927248,270,Religion,Older Canadians Average Donation by Cause,AB,
+563,Senior2,65 ans et plus,2018,gs1dax13,1354.4595431118746,16.619262151634643,913.2693331075996,1795.6497531161497,100,Religion,Older Canadians Average Donation by Cause,AB,*
+564,Senior2,15 à 64 ans,2018,gs1dax13,559.3297336550073,11.4819991741038,433.4564652667356,685.2030020432791,783,Religion,Older Canadians Average Donation by Cause,AT,
+565,Senior2,65 ans et plus,2018,gs1dax13,675.0884989833032,8.744777012344462,559.3820567661369,790.7949412004696,656,Religion,Older Canadians Average Donation by Cause,AT,
+566,Senior2,15 à 64 ans,2018,gs1dax13,1043.687726237673,13.935716438813028,758.620054930336,1328.7553975450094,269,Religion,Older Canadians Average Donation by Cause,BC,
+567,Senior2,65 ans et plus,2018,gs1dax13,977.8859875694964,13.792024306518853,713.5451097169864,1242.2268654220063,182,Religion,Older Canadians Average Donation by Cause,BC,
+568,Senior2,15 à 64 ans,2018,gs1dax13,647.1490661521381,8.76540766890465,535.969611545708,758.3285207585682,750,Religion,Older Canadians Average Donation by Cause,ON,
+569,Senior2,65 ans et plus,2018,gs1dax13,798.1234339288483,10.29427951962844,637.0907208845395,959.1561469731572,488,Religion,Older Canadians Average Donation by Cause,ON,
+570,Senior2,15 à 64 ans,2018,gs1dax13,925.1884815385152,11.504685683443997,716.5698625353849,1133.8071005416457,383,Religion,Older Canadians Average Donation by Cause,PR,
+571,Senior2,65 ans et plus,2018,gs1dax13,1308.1136478212386,13.032295507148174,973.9844047766464,1642.2428908658308,249,Religion,Older Canadians Average Donation by Cause,PR,
+572,Senior2,15 à 64 ans,2018,gs1dax13,140.30505296305117,17.199217786759746,93.00843368060956,187.60167224549275,325,Religion,Older Canadians Average Donation by Cause,QC,*
+573,Senior2,65 ans et plus,2018,gs1dax13,366.2749480026346,26.36974498679536,176.97031789548438,555.5795781097847,255,Religion,Older Canadians Average Donation by Cause,QC,*
+574,Senior2,15 à 64 ans,2018,gs1dax14,134.52929971431124,44.2574398145304,17.83456529306099,251.22403413556148,4,Entreprises et professionnels,Older Canadians Average Donation by Cause,AB,...
+575,Senior2,15 à 64 ans,2018,gs1dax14,52.51577798202526,40.30065255633144,11.03470582575747,93.99685013829306,13,Entreprises et professionnels,Older Canadians Average Donation by Cause,AT,...
+576,Senior2,65 ans et plus,2018,gs1dax14,56.78117907533918,38.44909097097536,13.991544853101068,99.5708132975773,7,Entreprises et professionnels,Older Canadians Average Donation by Cause,AT,...
+577,Senior2,15 à 64 ans,2018,gs1dax14,85.93389095379644,32.120057335946974,31.834935564139386,140.03284634345349,10,Entreprises et professionnels,Older Canadians Average Donation by Cause,BC,...
+578,Senior2,65 ans et plus,2018,gs1dax14,97.47073271941224,54.54894518433433,-6.739095226644835,201.68056066546933,6,Entreprises et professionnels,Older Canadians Average Donation by Cause,BC,...
+579,Senior2,15 à 64 ans,2018,gs1dax14,66.41284424839013,25.950891448138066,32.6334037326417,100.19228476413856,20,Entreprises et professionnels,Older Canadians Average Donation by Cause,ON,*
+580,Senior2,65 ans et plus,2018,gs1dax14,37.09416415827476,31.86582133769768,13.926684122298957,60.261644194250565,12,Entreprises et professionnels,Older Canadians Average Donation by Cause,ON,...
+581,Senior2,15 à 64 ans,2018,gs1dax14,223.28889504799184,68.11513381782713,-74.80894537166546,521.3867354676491,5,Entreprises et professionnels,Older Canadians Average Donation by Cause,PR,...
+582,Senior2,65 ans et plus,2018,gs1dax14,203.78546552549983,57.34429317170622,-25.25462192465568,432.8255529756554,4,Entreprises et professionnels,Older Canadians Average Donation by Cause,PR,...
+583,Senior2,15 à 64 ans,2018,gs1dax14,70.17779330869519,9.521038259236358,57.08199103275601,83.27359558463436,3,Entreprises et professionnels,Older Canadians Average Donation by Cause,QC,...
+584,Senior2,65 ans et plus,2018,gs1dax14,20.0,6.1596433226553975e-15,20.0,20.000000000000004,2,Entreprises et professionnels,Older Canadians Average Donation by Cause,QC,...
+585,Senior2,15 à 64 ans,2018,gs1dax15,145.2257263152673,63.45764107005538,-35.39832210165355,325.84977473218817,27,Autre,Older Canadians Average Donation by Cause,AB,...
+586,Senior2,65 ans et plus,2018,gs1dax15,113.13606915803564,42.8823165573993,18.04769652008784,208.22444179598347,5,Autre,Older Canadians Average Donation by Cause,AB,...
+587,Senior2,15 à 64 ans,2018,gs1dax15,71.96438806759518,19.034850255266026,45.116186947317445,98.81258918787292,103,Autre,Older Canadians Average Donation by Cause,AT,*
+588,Senior2,65 ans et plus,2018,gs1dax15,27.877807061311888,15.16497065687689,19.59174325164443,36.16387087097935,50,Autre,Older Canadians Average Donation by Cause,AT,
+589,Senior2,15 à 64 ans,2018,gs1dax15,81.00311310121207,54.591972214349774,-5.668840366103851,167.675066568528,34,Autre,Older Canadians Average Donation by Cause,BC,...
+590,Senior2,65 ans et plus,2018,gs1dax15,406.1854694595783,69.19593485761331,-144.68952027995493,957.0604591991116,10,Autre,Older Canadians Average Donation by Cause,BC,...
+591,Senior2,15 à 64 ans,2018,gs1dax15,57.14683822787725,16.360808224970718,38.82179312723818,75.47188332851631,78,Autre,Older Canadians Average Donation by Cause,ON,
+592,Senior2,65 ans et plus,2018,gs1dax15,183.96532503694803,57.81445766373393,-24.493612131272076,392.4242622051681,44,Autre,Older Canadians Average Donation by Cause,ON,...
+593,Senior2,15 à 64 ans,2018,gs1dax15,67.48546467088177,35.278454012441216,20.82297802754121,114.14795131422233,46,Autre,Older Canadians Average Donation by Cause,PR,...
+594,Senior2,65 ans et plus,2018,gs1dax15,123.06346794668288,39.36737046429837,28.10938417006048,218.0175517233053,18,Autre,Older Canadians Average Donation by Cause,PR,...
+595,Senior2,15 à 64 ans,2018,gs1dax15,28.58476277362995,23.81137202040999,15.244416467974132,41.92510907928577,28,Autre,Older Canadians Average Donation by Cause,QC,*
+596,Senior2,65 ans et plus,2018,gs1dax15,223.73245354055047,79.3092535432143,-124.04461197721162,571.5095190583125,10,Autre,Older Canadians Average Donation by Cause,QC,...

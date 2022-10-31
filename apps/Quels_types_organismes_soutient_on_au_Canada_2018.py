@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+
+from utils.home_button import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
@@ -37,7 +39,7 @@ navbar = dbc.NavbarSimple(
         dark=True,
         sticky='top'
     )
-
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([
@@ -56,10 +58,11 @@ layout = html.Div([
                     ), className='col-md-10 col-lg-8 mx-auto position-relative'
                 )
             )
-        )], className="bg-secondary text-white text-center py-4",
+        )], className="bg-secondary text-white text-center pt-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
+        home_button,
         dbc.Row(
            dbc.Col(
                html.Div([

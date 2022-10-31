@@ -1,0 +1,401 @@
+,Group,Attribute,Year,QuestionNo.,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
+0,Younger,15 à 24 ans,2018,ng_020,0.4133197607489123,8.4331089187212,0.3450038331043363,0.4816356883934882,360,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA,
+1,Younger,25 à 34 ans,2018,ng_020,0.5608013286491818,3.974105314197304,0.5171199339280946,0.6044827233702689,1074,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA,
+2,Younger,>=35,2018,ng_020,0.7405817736726256,1.0263316790669026,0.7256844297287551,0.755479117616496,8037,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA,
+3,Younger,15 à 24 ans,2018,ng_030,0.753565508220917,4.115784744685771,0.6927769621572437,0.8143540542845902,361,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA,
+4,Younger,25 à 34 ans,2018,ng_030,0.7068373104720315,2.7666214158372058,0.6685092104557773,0.7451654104882857,1072,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA,
+5,Younger,>=35,2018,ng_030,0.6630501820804523,1.2090083488296677,0.6473384599581038,0.6787619042028008,8049,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA,
+6,Younger,15 à 24 ans,2018,ng_040,0.313487203370468,11.211055639397484,0.2446038285490854,0.3823705781918506,361,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA,
+7,Younger,25 à 34 ans,2018,ng_040,0.2858391417917129,7.384346389327853,0.244469491384199,0.3272087921992267,1067,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA,
+8,Younger,>=35,2018,ng_040,0.2323377727410766,2.9907421853986382,0.2187187203862715,0.2459568250958818,7876,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA,
+9,Younger,15 à 24 ans,2018,ng_050,0.204357237968567,14.077613896604383,0.1479717731390333,0.2607427027981007,359,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA,
+10,Younger,25 à 34 ans,2018,ng_050,0.1080785002544822,12.510493063726846,0.0815775268007112,0.1345794737082533,1065,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA,
+11,Younger,>=35,2018,ng_050,0.0976645119265039,5.46739215638143,0.0871988885836323,0.1081301352693755,7844,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA,
+12,Younger,15 à 24 ans,2018,ng_060,0.1469299982486817,16.42788278847415,0.099621391300345,0.1942386051970183,360,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA,
+13,Younger,25 à 34 ans,2018,ng_060,0.1375772005433046,13.597413113749852,0.1009122712782817,0.1742421298083275,1067,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA,
+14,Younger,>=35,2018,ng_060,0.1060335475863968,5.303381455461266,0.0950119576558609,0.1170551375169327,7848,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA,
+15,Younger,15 à 24 ans,2018,ng_070,0.3431976386719371,9.710916889714088,0.2778766695626987,0.4085186077811755,359,Don de temps,Younger Canadians Barriers to Giving More,CA,
+16,Younger,25 à 34 ans,2018,ng_070,0.2843464615519341,7.301574948816336,0.2436541400877676,0.3250387830161007,1065,Don de temps,Younger Canadians Barriers to Giving More,CA,
+17,Younger,>=35,2018,ng_070,0.2521981159748165,2.852690344664102,0.2380972897300457,0.2662989422195872,7813,Don de temps,Younger Canadians Barriers to Giving More,CA,
+18,Younger,15 à 24 ans,2018,ng_080,0.1910379967911374,14.701694787608618,0.1359907948104531,0.2460851987718216,360,Don direct,Younger Canadians Barriers to Giving More,CA,
+19,Younger,25 à 34 ans,2018,ng_080,0.2296738965432504,8.147487862319345,0.192997770914246,0.2663500221722548,1064,Don direct,Younger Canadians Barriers to Giving More,CA,
+20,Younger,>=35,2018,ng_080,0.4421122718460977,1.8773683274342128,0.4258444222810005,0.458380121411195,7853,Don direct,Younger Canadians Barriers to Giving More,CA,
+21,Younger,15 à 24 ans,2018,ng_090,0.0722910833968075,23.271642108987088,0.0393179777750582,0.1052641890185567,357,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA,*
+22,Younger,25 à 34 ans,2018,ng_090,0.1399171233958099,13.675877803613073,0.1024134186968426,0.1774208280947771,1063,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA,
+23,Younger,>=35,2018,ng_090,0.1930388848297843,3.632122456182631,0.1792967763261614,0.2067809933334072,7841,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA,
+24,Younger,15 à 24 ans,2018,ng_110,0.1401499052595434,16.94878813604334,0.0935934881503543,0.1867063223687325,359,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA,*
+25,Younger,25 à 34 ans,2018,ng_110,0.2322826286471233,8.269357500329058,0.1946350897331722,0.2699301675610743,1066,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA,
+26,Younger,>=35,2018,ng_110,0.2499571081754238,3.027531831225233,0.2351250199352687,0.2647891964155789,7846,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA,
+27,Younger,15 à 24 ans,2018,ng_130,0.101384518703069,20.46017661544188,0.0607281006767861,0.142040936729352,360,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA,*
+28,Younger,25 à 34 ans,2018,ng_130,0.2158184636501051,9.36177298351288,0.1762184994601919,0.2554184278400183,1066,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA,
+29,Younger,>=35,2018,ng_130,0.2389793304121009,2.9657634117259484,0.2250879650497083,0.2528706957744936,7837,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA,
+30,Younger2,15 à 34 ans,2018,ng_020,0.5045112843598251,3.815764780949602,0.4667800884392878,0.5422424802803623,1434,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA,
+31,Younger2,>=35,2018,ng_020,0.7405817736726256,1.0263316790669026,0.7256844297287551,0.755479117616496,8037,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA,
+32,Younger2,15 à 34 ans,2018,ng_030,0.7246913653709312,2.4000283965910176,0.6906021066097418,0.7587806241321206,1433,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA,
+33,Younger2,>=35,2018,ng_030,0.6630501820804523,1.2090083488296677,0.6473384599581038,0.6787619042028008,8049,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA,
+34,Younger2,15 à 34 ans,2018,ng_040,0.2964376567953573,6.3334938218549865,0.2596396060501802,0.3332357075405344,1428,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA,
+35,Younger2,>=35,2018,ng_040,0.2323377727410766,2.9907421853986382,0.2187187203862715,0.2459568250958818,7876,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA,
+36,Younger2,15 à 34 ans,2018,ng_050,0.1449478977439441,9.50636110983588,0.117941023672628,0.1719547718152602,1424,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA,
+37,Younger2,>=35,2018,ng_050,0.0976645119265039,5.46739215638143,0.0871988885836323,0.1081301352693755,7844,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA,
+38,Younger2,15 à 34 ans,2018,ng_060,0.14115372436982,10.606062438755846,0.1118113933550124,0.1704960553846275,1427,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA,
+39,Younger2,>=35,2018,ng_060,0.1060335475863968,5.303381455461266,0.0950119576558609,0.1170551375169327,7848,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA,
+40,Younger2,15 à 34 ans,2018,ng_070,0.3067870292239712,6.080518016964988,0.2702253895171024,0.34334866893084,1424,Don de temps,Younger Canadians Barriers to Giving More,CA,
+41,Younger2,>=35,2018,ng_070,0.2521981159748165,2.852690344664102,0.2380972897300457,0.2662989422195872,7813,Don de temps,Younger Canadians Barriers to Giving More,CA,
+42,Younger2,15 à 34 ans,2018,ng_080,0.2148860252901551,7.436638432482525,0.1835652192120793,0.2462068313682309,1424,Don direct,Younger Canadians Barriers to Giving More,CA,
+43,Younger2,>=35,2018,ng_080,0.4421122718460977,1.8773683274342128,0.4258444222810005,0.458380121411195,7853,Don direct,Younger Canadians Barriers to Giving More,CA,
+44,Younger2,15 à 34 ans,2018,ng_090,0.1141072203463393,12.206583296581334,0.0868076799089995,0.1414067607836791,1420,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA,
+45,Younger2,>=35,2018,ng_090,0.1930388848297843,3.632122456182631,0.1792967763261614,0.2067809933334072,7841,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA,
+46,Younger2,15 à 34 ans,2018,ng_110,0.1970842812308123,7.308436320689868,0.1688533927735321,0.2253151696880926,1425,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA,
+47,Younger2,>=35,2018,ng_110,0.2499571081754238,3.027531831225233,0.2351250199352687,0.2647891964155789,7846,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA,
+48,Younger2,15 à 34 ans,2018,ng_130,0.1719471613781562,8.366851631056528,0.1437500143192769,0.2001443084370355,1426,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA,
+49,Younger2,>=35,2018,ng_130,0.2389793304121009,2.9657634117259484,0.2250879650497083,0.2528706957744936,7837,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA,
+50,Younger,15 à 24 ans,2018,ng_020,0.4108662163520617,9.019725193500635,0.3382319039384586,0.4835005287656648,320,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+51,Younger,25 à 34 ans,2018,ng_020,0.5469812577193875,4.400197937657409,0.4998083388265498,0.5941541766122252,932,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+52,Younger,>=35,2018,ng_020,0.7253923276075692,1.1590784729762098,0.7089132124454577,0.7418714427696808,6920,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+53,Younger,15 à 24 ans,2018,ng_030,0.740105547463442,4.542824065700779,0.6742082402375356,0.8060028546893485,321,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA (without QC),
+54,Younger,25 à 34 ans,2018,ng_030,0.7470165276944281,2.687362188891929,0.707670172874551,0.7863628825143051,931,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA (without QC),
+55,Younger,>=35,2018,ng_030,0.6852684074133882,1.2691149338913583,0.6682229069905974,0.7023139078361791,6933,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA (without QC),
+56,Younger,15 à 24 ans,2018,ng_040,0.2917782016326778,11.83103552634066,0.2241194948213092,0.3594369084440464,321,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+57,Younger,25 à 34 ans,2018,ng_040,0.3098508244406844,7.683064544917382,0.2631918457100392,0.3565098031713297,927,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+58,Younger,>=35,2018,ng_040,0.252090025100938,3.161246380000457,0.2364707060008883,0.2677093442009877,6790,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+59,Younger,15 à 24 ans,2018,ng_050,0.1751344475157221,15.320131866424012,0.1225469903665783,0.227721904664866,319,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA (without QC),
+60,Younger,25 à 34 ans,2018,ng_050,0.1072621185272613,13.763701276269025,0.0783267045817408,0.1361975324727818,925,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA (without QC),
+61,Younger,>=35,2018,ng_050,0.0952138757852488,5.935922138597436,0.0841365091359645,0.1062912424345332,6762,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA (without QC),
+62,Younger,15 à 24 ans,2018,ng_060,0.1498474086397287,17.812444302476827,0.0975330569886742,0.2021617602907833,320,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA (without QC),*
+63,Younger,25 à 34 ans,2018,ng_060,0.153678457337069,14.187410421266858,0.1109453753778034,0.1964115392963347,927,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA (without QC),
+64,Younger,>=35,2018,ng_060,0.1064192097020987,6.028330915871617,0.0938454485991154,0.118992970805082,6767,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA (without QC),
+65,Younger,15 à 24 ans,2018,ng_070,0.3743546463878545,9.510377358890706,0.3045749511469202,0.4441343416287887,319,Don de temps,Younger Canadians Barriers to Giving More,CA (without QC),
+66,Younger,25 à 34 ans,2018,ng_070,0.2894938805295515,8.07378342056714,0.2436834288205073,0.3353043322385958,925,Don de temps,Younger Canadians Barriers to Giving More,CA (without QC),
+67,Younger,>=35,2018,ng_070,0.255330095821284,3.081368955037724,0.2399097610599706,0.2707504305825974,6731,Don de temps,Younger Canadians Barriers to Giving More,CA (without QC),
+68,Younger,15 à 24 ans,2018,ng_080,0.1719467911110913,16.770121441409653,0.1154298857010576,0.2284636965211251,320,Don direct,Younger Canadians Barriers to Giving More,CA (without QC),*
+69,Younger,25 à 34 ans,2018,ng_080,0.2398357796464412,8.873463822182288,0.1981243334845683,0.2815472258083142,923,Don direct,Younger Canadians Barriers to Giving More,CA (without QC),
+70,Younger,>=35,2018,ng_080,0.4265813049038217,2.1152158550631595,0.4088963236991933,0.44426628610845,6770,Don direct,Younger Canadians Barriers to Giving More,CA (without QC),
+71,Younger,15 à 24 ans,2018,ng_090,0.0890330705282561,23.920601569560706,0.0472912352685969,0.1307749057879152,318,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA (without QC),*
+72,Younger,25 à 34 ans,2018,ng_090,0.139425396853458,15.203030528817326,0.0978802643978744,0.1809705293090415,924,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+73,Younger,>=35,2018,ng_090,0.1907878175043559,3.8253174368378895,0.1764835306391148,0.2050921043695969,6760,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+74,Younger,15 à 24 ans,2018,ng_110,0.1518088764700269,17.155753279578615,0.1007636600998438,0.2028540928402101,319,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA (without QC),*
+75,Younger,25 à 34 ans,2018,ng_110,0.2341691869429042,9.36320287834678,0.1911955339463758,0.2771428399394326,926,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA (without QC),
+76,Younger,>=35,2018,ng_110,0.2589471349134404,3.3025127094401605,0.2421859893082385,0.2757082805186422,6763,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA (without QC),
+77,Younger,15 à 24 ans,2018,ng_130,0.1071315353969762,22.000067243025693,0.0609371249870971,0.1533259458068553,320,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),*
+78,Younger,25 à 34 ans,2018,ng_130,0.2520969709554129,9.855885899062072,0.20339894177735,0.3007950001334759,926,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+79,Younger,>=35,2018,ng_130,0.271764125093296,2.953432190867564,0.2560327306253522,0.2874955195612398,6758,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+80,Younger2,15 à 34 ans,2018,ng_020,0.4953167811091049,4.174021577483818,0.4547952522474202,0.5358383099707897,1252,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+81,Younger2,>=35,2018,ng_020,0.7253923276075692,1.1590784729762098,0.7089132124454577,0.7418714427696808,6920,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+82,Younger2,15 à 34 ans,2018,ng_030,0.7443912351550407,2.420377568033308,0.7090784102391754,0.779704060070906,1252,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA (without QC),
+83,Younger2,>=35,2018,ng_030,0.6852684074133882,1.2691149338913583,0.6682229069905974,0.7023139078361791,6933,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,CA (without QC),
+84,Younger2,15 à 34 ans,2018,ng_040,0.302962520841879,6.605987566203567,0.2637364553874217,0.3421885862963363,1248,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+85,Younger2,>=35,2018,ng_040,0.252090025100938,3.161246380000457,0.2364707060008883,0.2677093442009877,6790,Aucune sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+86,Younger2,15 à 34 ans,2018,ng_050,0.1330962223149332,10.586489896886308,0.1054799022487447,0.1607125423811218,1244,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA (without QC),
+87,Younger2,>=35,2018,ng_050,0.0952138757852488,5.935922138597436,0.0841365091359645,0.1062912424345332,6762,Ne savent pas où donner,Younger Canadians Barriers to Giving More,CA (without QC),
+88,Younger2,15 à 34 ans,2018,ng_060,0.1522229452317027,11.2007188133436,0.1188054337306077,0.1856404567327977,1247,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA (without QC),
+89,Younger2,>=35,2018,ng_060,0.1064192097020987,6.028330915871617,0.0938454485991154,0.118992970805082,6767,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,CA (without QC),
+90,Younger2,15 à 34 ans,2018,ng_070,0.3216131345456856,6.326816874393919,0.2817320342129898,0.3614942348783813,1244,Don de temps,Younger Canadians Barriers to Giving More,CA (without QC),
+91,Younger2,>=35,2018,ng_070,0.255330095821284,3.081368955037724,0.2399097610599706,0.2707504305825974,6731,Don de temps,Younger Canadians Barriers to Giving More,CA (without QC),
+92,Younger2,15 à 34 ans,2018,ng_080,0.2139972099928865,8.110541076790577,0.1799794251146214,0.2480149948711515,1243,Don direct,Younger Canadians Barriers to Giving More,CA (without QC),
+93,Younger2,>=35,2018,ng_080,0.4265813049038217,2.1152158550631595,0.4088963236991933,0.44426628610845,6770,Don direct,Younger Canadians Barriers to Giving More,CA (without QC),
+94,Younger2,15 à 34 ans,2018,ng_090,0.1202407262205816,13.375163698004291,0.0887198132666002,0.1517616391745631,1242,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+95,Younger2,>=35,2018,ng_090,0.1907878175043559,3.8253174368378895,0.1764835306391148,0.2050921043695969,6760,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,CA (without QC),
+96,Younger2,15 à 34 ans,2018,ng_110,0.2029175479091275,8.127676639638128,0.1705928769007495,0.2352422189175055,1245,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA (without QC),
+97,Younger2,>=35,2018,ng_110,0.2589471349134404,3.3025127094401605,0.2421859893082385,0.2757082805186422,6763,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,CA (without QC),
+98,Younger2,15 à 34 ans,2018,ng_130,0.1968377302982635,9.037681973859469,0.161970817582656,0.231704643013871,1246,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+99,Younger2,>=35,2018,ng_130,0.271764125093296,2.953432190867564,0.2560327306253522,0.2874955195612398,6758,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,CA (without QC),
+100,Younger,15 à 24 ans,2018,ng_020,0.2813271509263288,31.76030469286592,0.1062036626974488,0.4564506391552088,39,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AB,*
+101,Younger,25 à 34 ans,2018,ng_020,0.6579407839000737,9.11574666801542,0.5403895624027103,0.7754920053974371,98,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AB,
+102,Younger,>=35,2018,ng_020,0.662074873639151,3.938637961965292,0.6109654174774798,0.7131843298008221,602,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AB,
+103,Younger,15 à 24 ans,2018,ng_020,0.4789628275273483,14.541238133240949,0.3424569702725072,0.6154686847821895,96,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AT,
+104,Younger,25 à 34 ans,2018,ng_020,0.6648923590566872,5.863201723844552,0.5884851617771388,0.7412995563362356,220,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AT,
+105,Younger,>=35,2018,ng_020,0.7830359187435548,1.3479398534907625,0.7623487865782999,0.8037230509088098,2234,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AT,
+106,Younger,15 à 24 ans,2018,ng_020,0.3962576317215733,23.16479060544711,0.2163481263947436,0.576167137048403,43,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,BC,*
+107,Younger,25 à 34 ans,2018,ng_020,0.3591143935340888,15.487467495223232,0.2501056556922851,0.4681231313758926,129,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,BC,
+108,Younger,>=35,2018,ng_020,0.6870653206629779,2.853322525005242,0.6486418151871681,0.7254888261387876,992,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,BC,
+109,Younger,15 à 24 ans,2018,ng_020,0.4297077665606991,14.28299244062835,0.3094147264974278,0.5500008066239704,90,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,ON,
+110,Younger,25 à 34 ans,2018,ng_020,0.55816810847708,6.5061787929626576,0.4869912027919375,0.6293450141622224,316,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,ON,
+111,Younger,>=35,2018,ng_020,0.7476935108298939,1.750213448455778,0.7220449666722111,0.7733420549875767,2106,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,ON,
+112,Younger,15 à 24 ans,2018,ng_020,0.5602476504795347,15.459042597027434,0.3904972807842355,0.729998020174834,52,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,PR,
+113,Younger,25 à 34 ans,2018,ng_020,0.5296189224031964,7.690610440568887,0.4497877701888328,0.60945007461756,169,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,PR,
+114,Younger,>=35,2018,ng_020,0.6937848959283005,2.81640315256908,0.6554876314877464,0.7320821603688547,986,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,PR,
+115,Younger,15 à 24 ans,2018,ng_020,0.4212038123674703,21.76077406738894,0.2415589818979173,0.6008486428370233,40,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,QC,*
+116,Younger,25 à 34 ans,2018,ng_020,0.6069422934564971,8.168398766875045,0.5097722440556539,0.7041123428573403,142,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,QC,
+117,Younger,>=35,2018,ng_020,0.7844593014690306,2.0614904265696103,0.7527636392307313,0.81615496370733,1117,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,QC,
+118,Younger,15 à 24 ans,2018,ng_030,0.7359612488673191,10.750361242838345,0.5808918523495687,0.8910306453850694,39,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AB,
+119,Younger,25 à 34 ans,2018,ng_030,0.7329218620832896,7.589706182970489,0.6238956983710052,0.8419480257955739,98,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AB,
+120,Younger,>=35,2018,ng_030,0.650817197473599,3.230864912668516,0.6096049867931342,0.6920294081540638,605,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AB,
+121,Younger,15 à 24 ans,2018,ng_030,0.6274428211050086,10.274227220710053,0.5010939366421636,0.7537917055678536,97,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AT,
+122,Younger,25 à 34 ans,2018,ng_030,0.6603391161983256,6.4242173674740375,0.577194268465895,0.7434839639307562,219,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AT,
+123,Younger,>=35,2018,ng_030,0.7143312969393752,1.6662550069401103,0.6910026668535751,0.7376599270251754,2247,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AT,
+124,Younger,15 à 24 ans,2018,ng_030,0.7817564428388645,9.487670681495343,0.6363849795399712,0.9271279061377578,43,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,BC,
+125,Younger,25 à 34 ans,2018,ng_030,0.7204512970977962,7.248647798154279,0.6180961428479831,0.8228064513476093,130,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,BC,
+126,Younger,>=35,2018,ng_030,0.6888426939453499,2.9389080328247936,0.6491642946575079,0.7285210932331919,985,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,BC,
+127,Younger,15 à 24 ans,2018,ng_030,0.7495172640190982,7.059610498988654,0.6458096907587585,0.853224837279438,90,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,ON,
+128,Younger,25 à 34 ans,2018,ng_030,0.77164689499916,3.876275690991583,0.7130220966815395,0.8302716933167804,316,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,ON,
+129,Younger,>=35,2018,ng_030,0.6900218884694624,1.9321293054536304,0.663891422994241,0.7161523539446839,2112,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,ON,
+130,Younger,15 à 24 ans,2018,ng_030,0.7491522530363968,9.094605604873427,0.6156151189820411,0.8826893870907524,52,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,PR,
+131,Younger,25 à 34 ans,2018,ng_030,0.7276804831472926,5.649369751256412,0.6471076159624303,0.808253350332155,168,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,PR,
+132,Younger,>=35,2018,ng_030,0.6682672055380291,2.801107955599833,0.6315788634236917,0.7049555476523665,984,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,PR,
+133,Younger,15 à 24 ans,2018,ng_030,0.7968516636820783,9.113299497628867,0.6545201009261586,0.939183226437998,40,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,QC,
+134,Younger,25 à 34 ans,2018,ng_030,0.5723340723816479,8.38329254947469,0.4782941387090217,0.6663740060542741,141,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,QC,
+135,Younger,>=35,2018,ng_030,0.5993830655699239,3.0658349318500018,0.5633665804097729,0.6353995507300749,1116,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,QC,
+136,Younger,15 à 24 ans,2018,ng_040,0.1672700832068424,39.497886880535205,0.0377788921115586,0.2967612743021263,39,Aucune sollicitation,Younger Canadians Barriers to Giving More,AB,...
+137,Younger,25 à 34 ans,2018,ng_040,0.3287596441817796,18.12542384902516,0.2119671955629766,0.4455520928005827,98,Aucune sollicitation,Younger Canadians Barriers to Giving More,AB,*
+138,Younger,>=35,2018,ng_040,0.2426954627810635,9.826091900905542,0.1959552624030931,0.2894356631590339,590,Aucune sollicitation,Younger Canadians Barriers to Giving More,AB,
+139,Younger,15 à 24 ans,2018,ng_040,0.4014955461879353,18.09326778917816,0.2591165803894415,0.5438745119864291,97,Aucune sollicitation,Younger Canadians Barriers to Giving More,AT,*
+140,Younger,25 à 34 ans,2018,ng_040,0.3331631169141652,12.3669704542407,0.2524083197327048,0.4139179140956256,220,Aucune sollicitation,Younger Canadians Barriers to Giving More,AT,
+141,Younger,>=35,2018,ng_040,0.2388080025142628,4.627576479135304,0.2171483955308374,0.2604676094976882,2206,Aucune sollicitation,Younger Canadians Barriers to Giving More,AT,
+142,Younger,15 à 24 ans,2018,ng_040,0.273076294004556,30.6410060712358,0.109079592840717,0.437072995168395,43,Aucune sollicitation,Younger Canadians Barriers to Giving More,BC,*
+143,Younger,25 à 34 ans,2018,ng_040,0.3059089353499699,17.37602605769474,0.2017274097594424,0.4100904609404974,126,Aucune sollicitation,Younger Canadians Barriers to Giving More,BC,*
+144,Younger,>=35,2018,ng_040,0.2800690508823138,7.05387024033493,0.2413485758253545,0.318789525939273,969,Aucune sollicitation,Younger Canadians Barriers to Giving More,BC,
+145,Younger,15 à 24 ans,2018,ng_040,0.3028374004168265,18.50132134158217,0.1930227339606945,0.4126520668729586,90,Aucune sollicitation,Younger Canadians Barriers to Giving More,ON,*
+146,Younger,25 à 34 ans,2018,ng_040,0.3069150370704753,11.232009574661832,0.2393497349758983,0.3744803391650523,316,Aucune sollicitation,Younger Canadians Barriers to Giving More,ON,
+147,Younger,>=35,2018,ng_040,0.2428175606976109,4.900535939119196,0.2194952400747814,0.2661398813204404,2056,Aucune sollicitation,Younger Canadians Barriers to Giving More,ON,
+148,Younger,15 à 24 ans,2018,ng_040,0.4347592431805441,18.1969309878919,0.2797009271535567,0.5898175592075315,52,Aucune sollicitation,Younger Canadians Barriers to Giving More,PR,*
+149,Younger,25 à 34 ans,2018,ng_040,0.2866993521089253,13.17354692281523,0.2126745039500222,0.3607242002678283,167,Aucune sollicitation,Younger Canadians Barriers to Giving More,PR,
+150,Younger,>=35,2018,ng_040,0.2855761205092411,6.611151680082511,0.2485722543180966,0.3225799867003856,969,Aucune sollicitation,Younger Canadians Barriers to Giving More,PR,
+151,Younger,15 à 24 ans,2018,ng_040,0.383347825422958,25.30740102733806,0.1932011913178239,0.5734944595280921,40,Aucune sollicitation,Younger Canadians Barriers to Giving More,QC,*
+152,Younger,25 à 34 ans,2018,ng_040,0.2054363054931539,21.715411555849,0.1179996873140344,0.2928729236722734,140,Aucune sollicitation,Younger Canadians Barriers to Giving More,QC,*
+153,Younger,>=35,2018,ng_040,0.1755931928400665,8.511854259824302,0.1462991072728058,0.2048872784073272,1086,Aucune sollicitation,Younger Canadians Barriers to Giving More,QC,
+154,Younger,15 à 24 ans,2018,ng_050,0.1803340098486335,39.9205867438989,0.0392354287482802,0.3214325909489869,39,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AB,...
+155,Younger,25 à 34 ans,2018,ng_050,0.1033251075910237,30.71606766712696,0.0411209270974515,0.1655292880845958,98,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AB,*
+156,Younger,>=35,2018,ng_050,0.1079653703698323,18.618670835317765,0.0685667291688432,0.1473640115708215,590,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AB,*
+157,Younger,15 à 24 ans,2018,ng_050,0.1984171005558546,21.78405712051108,0.1137009999996666,0.2831332011120426,96,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AT,*
+158,Younger,25 à 34 ans,2018,ng_050,0.1719207212618447,20.53490241870206,0.1027266381393721,0.2411148043843173,219,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AT,*
+159,Younger,>=35,2018,ng_050,0.0991850151936194,7.815126917553719,0.0839924821167801,0.1143775482704586,2200,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AT,
+160,Younger,15 à 24 ans,2018,ng_050,0.191973822199846,35.865900189084755,0.0570241486369715,0.3269234957627206,43,Ne savent pas où donner,Younger Canadians Barriers to Giving More,BC,...
+161,Younger,25 à 34 ans,2018,ng_050,0.1122791805059693,35.44757320174182,0.0342721343177563,0.1902862266941823,126,Ne savent pas où donner,Younger Canadians Barriers to Giving More,BC,...
+162,Younger,>=35,2018,ng_050,0.1024472311381006,14.600372380835818,0.0731307224552903,0.1317637398209109,964,Ne savent pas où donner,Younger Canadians Barriers to Giving More,BC,
+163,Younger,15 à 24 ans,2018,ng_050,0.161424195283599,25.744202613564088,0.079973243065257,0.242875147501941,89,Ne savent pas où donner,Younger Canadians Barriers to Giving More,ON,*
+164,Younger,25 à 34 ans,2018,ng_050,0.0915486336710959,22.804082702322567,0.0506308063345934,0.1324664610075984,315,Ne savent pas où donner,Younger Canadians Barriers to Giving More,ON,*
+165,Younger,>=35,2018,ng_050,0.0881034297161415,9.170028123829782,0.0722686664942419,0.1039381929380412,2043,Ne savent pas où donner,Younger Canadians Barriers to Giving More,ON,
+166,Younger,15 à 24 ans,2018,ng_050,0.1900338876700686,31.52922994907119,0.0726002515880165,0.3074675237521208,52,Ne savent pas où donner,Younger Canadians Barriers to Giving More,PR,*
+167,Younger,25 à 34 ans,2018,ng_050,0.1528825199315631,21.14851459318357,0.0895122156023927,0.2162528242607335,167,Ne savent pas où donner,Younger Canadians Barriers to Giving More,PR,*
+168,Younger,>=35,2018,ng_050,0.0992521161254272,11.92066228117862,0.0760627834850248,0.1224414487658295,965,Ne savent pas où donner,Younger Canadians Barriers to Giving More,PR,
+169,Younger,15 à 24 ans,2018,ng_050,0.2980035418794665,28.963917369382763,0.128832191229362,0.467174892529571,40,Ne savent pas où donner,Younger Canadians Barriers to Giving More,QC,*
+170,Younger,25 à 34 ans,2018,ng_050,0.1108066745389021,29.36609899533257,0.0470302348999624,0.1745831141778417,140,Ne savent pas où donner,Younger Canadians Barriers to Giving More,QC,*
+171,Younger,>=35,2018,ng_050,0.1047002486889273,10.715769022873816,0.0827105566029799,0.1266899407748747,1082,Ne savent pas où donner,Younger Canadians Barriers to Giving More,QC,
+172,Younger,15 à 24 ans,2018,ng_060,0.1886419044642401,45.70118149890253,0.0196703142952258,0.3576134946332543,39,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AB,...
+173,Younger,25 à 34 ans,2018,ng_060,0.1519940261405413,33.82251999008975,0.0512357862756163,0.2527522660054662,98,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AB,...
+174,Younger,>=35,2018,ng_060,0.1024226044934318,19.286186115408256,0.0637066242330976,0.1411385847537659,590,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AB,*
+175,Younger,15 à 24 ans,2018,ng_060,0.0836609429837477,33.52510844620477,0.0286890062742052,0.1386328796932901,97,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AT,...
+176,Younger,25 à 34 ans,2018,ng_060,0.1570108188813988,26.78527531684429,0.0745830045150187,0.2394386332477788,219,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AT,*
+177,Younger,>=35,2018,ng_060,0.0861605633120476,9.208259742051688,0.0706104276633129,0.1017106989607823,2200,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AT,
+178,Younger,15 à 24 ans,2018,ng_060,0.1701280833125917,36.8359827610164,0.047300371518372,0.2929557951068113,43,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,BC,...
+179,Younger,25 à 34 ans,2018,ng_060,0.2034776742980586,24.782718858528465,0.1046419825365868,0.3023133660595305,127,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,BC,*
+180,Younger,>=35,2018,ng_060,0.1111186902065019,13.662190852491792,0.0813639918096635,0.1408733886033404,970,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,BC,
+181,Younger,15 à 24 ans,2018,ng_060,0.1382962491313504,28.04596703948141,0.0622760659672175,0.2143164322954833,89,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,ON,*
+182,Younger,25 à 34 ans,2018,ng_060,0.1347581555021836,25.28117186924652,0.0679852383280986,0.2015310726762686,316,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,ON,*
+183,Younger,>=35,2018,ng_060,0.1084603036083162,9.105249226371358,0.0891045206096827,0.1278160866069497,2041,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,ON,
+184,Younger,15 à 24 ans,2018,ng_060,0.1693204746608872,39.87041369848143,0.0370057095223081,0.3016352397994662,52,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,PR,...
+185,Younger,25 à 34 ans,2018,ng_060,0.1909298421301404,17.891293950471102,0.1239778265941833,0.2578818576660976,167,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,PR,*
+186,Younger,>=35,2018,ng_060,0.116252152545448,12.372888238073958,0.0880605227215258,0.1444437823693702,966,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,PR,
+187,Younger,15 à 24 ans,2018,ng_060,0.1375784505887695,43.01987627961068,0.0215758669104753,0.2535810342670638,40,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,QC,...
+188,Younger,25 à 34 ans,2018,ng_060,0.0835950040993739,37.89929180288173,0.0214995926470427,0.1456904155517052,140,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,QC,...
+189,Younger,>=35,2018,ng_060,0.1049234952944134,11.23665023593622,0.0818157429967446,0.1280312475920823,1081,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,QC,
+190,Younger,15 à 24 ans,2018,ng_070,0.3467205120097915,26.19611567663652,0.1687022626516128,0.5247387613679702,39,Don de temps,Younger Canadians Barriers to Giving More,AB,*
+191,Younger,25 à 34 ans,2018,ng_070,0.200966924659536,23.41248998223822,0.1087479514730361,0.293185897846036,98,Don de temps,Younger Canadians Barriers to Giving More,AB,*
+192,Younger,>=35,2018,ng_070,0.2805763247746195,8.578435188785912,0.2334018376081185,0.3277508119411205,585,Don de temps,Younger Canadians Barriers to Giving More,AB,
+193,Younger,15 à 24 ans,2018,ng_070,0.4993917338642178,15.605983761385875,0.3466419546594285,0.6521415130690071,97,Don de temps,Younger Canadians Barriers to Giving More,AT,
+194,Younger,25 à 34 ans,2018,ng_070,0.3071989419468261,14.361667106557602,0.2207275076902702,0.3936703762033819,219,Don de temps,Younger Canadians Barriers to Giving More,AT,
+195,Younger,>=35,2018,ng_070,0.2579814594732426,4.535634826406632,0.2350477309274107,0.2809151880190745,2185,Don de temps,Younger Canadians Barriers to Giving More,AT,
+196,Younger,15 à 24 ans,2018,ng_070,0.2105594532920272,33.2526059831994,0.0733296244560616,0.3477892821279927,43,Don de temps,Younger Canadians Barriers to Giving More,BC,*
+197,Younger,25 à 34 ans,2018,ng_070,0.2015680051901543,23.048172831420292,0.1105125036573249,0.2926235067229836,126,Don de temps,Younger Canadians Barriers to Giving More,BC,*
+198,Younger,>=35,2018,ng_070,0.2550795701828549,7.089535012357177,0.2196356688273596,0.2905234715383502,957,Don de temps,Younger Canadians Barriers to Giving More,BC,
+199,Younger,15 à 24 ans,2018,ng_070,0.4033600167172702,14.558769232722527,0.2882625938368492,0.5184574395976912,88,Don de temps,Younger Canadians Barriers to Giving More,ON,
+200,Younger,25 à 34 ans,2018,ng_070,0.3137849288675204,11.266915253848778,0.2444925934047298,0.3830772643303111,316,Don de temps,Younger Canadians Barriers to Giving More,ON,
+201,Younger,>=35,2018,ng_070,0.2403638307309093,5.047744757156733,0.2165836804836917,0.2641439809781269,2042,Don de temps,Younger Canadians Barriers to Giving More,ON,
+202,Younger,15 à 24 ans,2018,ng_070,0.4158308027926422,20.205969350900084,0.2511494455616213,0.5805121600236631,52,Don de temps,Younger Canadians Barriers to Giving More,PR,*
+203,Younger,25 à 34 ans,2018,ng_070,0.4057965362871978,10.66196890256266,0.3209969295355344,0.4905961430388612,166,Don de temps,Younger Canadians Barriers to Giving More,PR,
+204,Younger,>=35,2018,ng_070,0.3048087373477126,6.275888531763159,0.2673156913854965,0.3423017833099286,962,Don de temps,Younger Canadians Barriers to Giving More,PR,
+205,Younger,15 à 24 ans,2018,ng_070,0.2440379711512037,34.041326519824246,0.0812163884107788,0.4068595538916285,40,Don de temps,Younger Canadians Barriers to Giving More,QC,...
+206,Younger,25 à 34 ans,2018,ng_070,0.2671073503906419,15.696736045539025,0.1849316743475779,0.3492830264337058,140,Don de temps,Younger Canadians Barriers to Giving More,QC,
+207,Younger,>=35,2018,ng_070,0.2432055366189388,6.426435668802158,0.2125723827072629,0.2738386905306148,1082,Don de temps,Younger Canadians Barriers to Giving More,QC,
+208,Younger,15 à 24 ans,2018,ng_080,0.1433650474014502,47.9934687857546,0.0085080412984962,0.2782220535044042,39,Don direct,Younger Canadians Barriers to Giving More,AB,...
+209,Younger,25 à 34 ans,2018,ng_080,0.3072218143489178,21.76767492978845,0.176149132997147,0.4382944957006885,98,Don direct,Younger Canadians Barriers to Giving More,AB,*
+210,Younger,>=35,2018,ng_080,0.4217297935496077,6.160529324389376,0.3708083855610546,0.4726512015381607,588,Don direct,Younger Canadians Barriers to Giving More,AB,
+211,Younger,15 à 24 ans,2018,ng_080,0.2437706479751583,23.97791567055506,0.1292085571330877,0.3583327388172289,97,Don direct,Younger Canadians Barriers to Giving More,AT,*
+212,Younger,25 à 34 ans,2018,ng_080,0.3230735507097257,12.6295136322675,0.2431018887016791,0.4030452127177722,218,Don direct,Younger Canadians Barriers to Giving More,AT,
+213,Younger,>=35,2018,ng_080,0.4703255222422325,2.8925856730406667,0.4436610576178869,0.4969899868665781,2199,Don direct,Younger Canadians Barriers to Giving More,AT,
+214,Younger,15 à 24 ans,2018,ng_080,0.1600466412260646,35.69027624095435,0.0480913652671497,0.2720019171849795,43,Don direct,Younger Canadians Barriers to Giving More,BC,...
+215,Younger,25 à 34 ans,2018,ng_080,0.194880986417735,24.162623953227957,0.1025894969139363,0.2871724759215338,128,Don direct,Younger Canadians Barriers to Giving More,BC,*
+216,Younger,>=35,2018,ng_080,0.4175567806165958,5.675609911887813,0.3711078018474316,0.4640057593857601,968,Don direct,Younger Canadians Barriers to Giving More,BC,
+217,Younger,15 à 24 ans,2018,ng_080,0.1520176165979078,28.94212475613885,0.0657848298104503,0.2382504033853653,89,Don direct,Younger Canadians Barriers to Giving More,ON,*
+218,Younger,25 à 34 ans,2018,ng_080,0.2130454897356967,14.412818847142114,0.1528631090460647,0.2732278704253288,315,Don direct,Younger Canadians Barriers to Giving More,ON,
+219,Younger,>=35,2018,ng_080,0.419468922752208,3.307349376666212,0.3922777489137602,0.4466600965906557,2049,Don direct,Younger Canadians Barriers to Giving More,ON,
+220,Younger,15 à 24 ans,2018,ng_080,0.3067675515839618,25.552210896186036,0.1531340268739777,0.4604010762939458,52,Don direct,Younger Canadians Barriers to Giving More,PR,*
+221,Younger,25 à 34 ans,2018,ng_080,0.3166684025745133,12.840905405524644,0.236970210627796,0.3963665945212305,164,Don direct,Younger Canadians Barriers to Giving More,PR,
+222,Younger,>=35,2018,ng_080,0.4419859393770389,4.717087862066554,0.4011229146656503,0.4828489640884275,966,Don direct,Younger Canadians Barriers to Giving More,PR,
+223,Younger,15 à 24 ans,2018,ng_080,0.2522334735571115,29.755441101304303,0.1051319386143674,0.3993350084998557,40,Don direct,Younger Canadians Barriers to Giving More,QC,*
+224,Younger,25 à 34 ans,2018,ng_080,0.1958096711811499,19.473423653845867,0.121074584705493,0.2705447576568068,141,Don direct,Younger Canadians Barriers to Giving More,QC,*
+225,Younger,>=35,2018,ng_080,0.4867691933215584,4.025395397831192,0.448364904998525,0.5251734816445919,1083,Don direct,Younger Canadians Barriers to Giving More,QC,
+226,Younger,15 à 24 ans,2018,ng_090,0.1467056885260777,50.247456244307486,0.0022252252031808,0.2911861518489746,38,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AB,...
+227,Younger,25 à 34 ans,2018,ng_090,0.0935500375634184,42.39654805275816,0.0158139722153711,0.1712861029114658,98,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AB,...
+228,Younger,>=35,2018,ng_090,0.2053441453033694,10.807223169824043,0.1618486244622166,0.2488396661445222,592,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AB,
+229,Younger,15 à 24 ans,2018,ng_090,0.046683135431831,43.95164843115959,0.0064685795764952,0.0868976912871668,96,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AT,...
+230,Younger,25 à 34 ans,2018,ng_090,0.1166533889337189,22.5177874571029,0.0651695211033149,0.1681372567641229,218,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AT,*
+231,Younger,>=35,2018,ng_090,0.1974955631017603,5.880812487153097,0.1747318676742271,0.2202592585292935,2203,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AT,
+232,Younger,15 à 24 ans,2018,ng_090,0.0281433240706449,109.71653307233407,-0.0323762075931057,0.0886628557343957,43,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,BC,...
+233,Younger,25 à 34 ans,2018,ng_090,0.1154710155292114,31.33776947925265,0.0445476790887927,0.1863943519696301,126,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,BC,*
+234,Younger,>=35,2018,ng_090,0.1933495779086197,9.102896575524865,0.1588534040673353,0.227845751749904,961,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,BC,
+235,Younger,15 à 24 ans,2018,ng_090,0.0761743391717277,38.53624448967594,0.0186401264158557,0.1337085519275998,89,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,ON,...
+236,Younger,25 à 34 ans,2018,ng_090,0.1560753158864357,21.83841388045573,0.0892711714917458,0.2228794602811257,315,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,ON,*
+237,Younger,>=35,2018,ng_090,0.1799342397541109,6.220565176629238,0.1579965066209182,0.2018719728873036,2036,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,ON,
+238,Younger,15 à 24 ans,2018,ng_090,0.1952229558119195,36.51493378513099,0.0555058784189078,0.3349400332049313,52,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,PR,...
+239,Younger,25 à 34 ans,2018,ng_090,0.1621228321575525,20.49281853938108,0.0970058946208405,0.2272397696942645,167,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,PR,*
+240,Younger,>=35,2018,ng_090,0.2207356361253184,8.394649304968544,0.1844175377052911,0.2570537345453457,968,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,PR,
+241,Younger,15 à 24 ans,2018,ng_090,0.0167179289476372,111.99853323354002,-0.0199801137132488,0.0534159716085232,39,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,QC,...
+242,Younger,25 à 34 ans,2018,ng_090,0.1415781954520525,29.05567231591406,0.0609521437808838,0.2222042471232211,139,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,QC,*
+243,Younger,>=35,2018,ng_090,0.199513280473394,8.426166734090517,0.1665636954689662,0.2324628654778217,1081,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,QC,
+244,Younger,15 à 24 ans,2018,ng_110,0.1063178175636272,54.715982569624586,-0.0076988508268151,0.2203344859540695,38,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AB,...
+245,Younger,25 à 34 ans,2018,ng_110,0.2760251406388624,22.536078758731307,0.1541051045362884,0.3979451767414365,98,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AB,*
+246,Younger,>=35,2018,ng_110,0.2607977265268627,9.058909994998729,0.214492732030098,0.3071027210236274,583,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AB,
+247,Younger,15 à 24 ans,2018,ng_110,0.1246153514957059,43.67325409122807,0.0179470965589615,0.2312836064324502,97,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AT,...
+248,Younger,25 à 34 ans,2018,ng_110,0.2233218948616415,18.496451248804195,0.1423623967332155,0.3042813929900675,219,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AT,*
+249,Younger,>=35,2018,ng_110,0.2148652648153074,5.32295049882813,0.1924488202271283,0.2372817094034864,2198,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AT,
+250,Younger,15 à 24 ans,2018,ng_110,0.0405028201080698,62.16619860884494,-0.008847237693883,0.0898528779100227,43,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,BC,...
+251,Younger,25 à 34 ans,2018,ng_110,0.3256990039580222,16.252878327372215,0.2219474033126127,0.4294506046034317,128,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,BC,
+252,Younger,>=35,2018,ng_110,0.2890475126021571,7.116952451739883,0.2487283603813832,0.329366664822931,968,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,BC,
+253,Younger,15 à 24 ans,2018,ng_110,0.1936969420966515,22.225248447738583,0.1093212243801144,0.2780726598131885,89,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,ON,*
+254,Younger,25 à 34 ans,2018,ng_110,0.1918706604874038,16.260796856493904,0.1307203754339124,0.2530209455408952,315,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,ON,
+255,Younger,>=35,2018,ng_110,0.2614977759713015,5.153448349385099,0.2350850017949789,0.2879105501476241,2050,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,ON,
+256,Younger,15 à 24 ans,2018,ng_110,0.2388748863103351,31.51259982978577,0.0913372508458358,0.3864125217748345,52,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,PR,*
+257,Younger,25 à 34 ans,2018,ng_110,0.2936785726317141,13.996728676918805,0.2131134827940715,0.3742436624693567,166,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,PR,
+258,Younger,>=35,2018,ng_110,0.2348794609601507,6.926656435502851,0.2029922320416213,0.2667666898786802,964,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,PR,
+259,Younger,15 à 24 ans,2018,ng_110,0.1028717547773184,50.63120204405661,0.0007866268751308969,0.204956882679506,40,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,QC,...
+260,Younger,25 à 34 ans,2018,ng_110,0.2259607660102056,20.05740456943612,0.1371315428845663,0.3147899891358449,140,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,QC,*
+261,Younger,>=35,2018,ng_110,0.2240910948490928,7.014223501775388,0.1932838904781347,0.254898299220051,1083,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,QC,
+262,Younger,15 à 24 ans,2018,ng_130,0.2171185803110037,39.96110230526189,0.0470662682360104,0.387170892385997,39,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AB,...
+263,Younger,25 à 34 ans,2018,ng_130,0.3529096041601909,18.66262905830659,0.2238220439603023,0.4819971643600795,97,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AB,*
+264,Younger,>=35,2018,ng_130,0.320256917947195,7.743695451819284,0.2716503591576728,0.3688634767367172,587,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AB,
+265,Younger,15 à 24 ans,2018,ng_130,0.0846322057449479,36.85780198941695,0.0234939304027603,0.1457704810871355,97,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AT,...
+266,Younger,25 à 34 ans,2018,ng_130,0.2078058331555345,18.266568152848343,0.1334075717538255,0.2822040945572436,220,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AT,*
+267,Younger,>=35,2018,ng_130,0.2337989515912747,4.630225729774021,0.2125815198171854,0.2550163833653641,2200,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AT,
+268,Younger,15 à 24 ans,2018,ng_130,0.1932084611378369,39.20312009109753,0.0447534487934385,0.3416634734822354,43,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,BC,...
+269,Younger,25 à 34 ans,2018,ng_130,0.2744816328046718,21.078193204662863,0.1610864095139896,0.387876856095354,126,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,BC,*
+270,Younger,>=35,2018,ng_130,0.3448307425592333,6.139625678346627,0.303335724092626,0.3863257610258405,965,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,BC,
+271,Younger,15 à 24 ans,2018,ng_130,0.0538183172903612,44.53966293077222,0.0068370062512048,0.1007996283295176,89,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,ON,...
+272,Younger,25 à 34 ans,2018,ng_130,0.2330063037410295,15.4317831165863,0.1625318249649827,0.3034807825170763,316,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,ON,
+273,Younger,>=35,2018,ng_130,0.244048456825599,4.917757849973647,0.2205255332719523,0.2675713803792456,2045,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,ON,
+274,Younger,15 à 24 ans,2018,ng_130,0.0381022340404987,54.13567313529957,-0.0023257487919049,0.0785302168729023,52,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,PR,...
+275,Younger,25 à 34 ans,2018,ng_130,0.2208870441341743,15.592342178209396,0.153383015611816,0.2883910726565326,167,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,PR,
+276,Younger,>=35,2018,ng_130,0.2666584870058157,6.905239915341649,0.2305688699397356,0.3027481040718958,961,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,PR,
+277,Younger,15 à 24 ans,2018,ng_130,0.0829628730270578,58.86311755640842,-0.0127510537918158,0.1786767998459316,40,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,QC,...
+278,Younger,25 à 34 ans,2018,ng_130,0.0948389583656282,25.554851268445923,0.0473373599151218,0.1423405568161346,140,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,QC,*
+279,Younger,>=35,2018,ng_130,0.1446025587929982,9.706041789207031,0.1170941020986,0.1721110154873965,1079,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,QC,
+280,Younger2,15 à 34 ans,2018,ng_020,0.4821698223728572,11.806500218285017,0.3705942056219987,0.5937454391237157,137,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AB,
+281,Younger2,>=35,2018,ng_020,0.662074873639151,3.938637961965292,0.6109654174774798,0.7131843298008221,602,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AB,
+282,Younger2,15 à 34 ans,2018,ng_020,0.5826971399752415,6.574859188431898,0.5076079475432793,0.6577863324072037,316,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AT,
+283,Younger2,>=35,2018,ng_020,0.7830359187435548,1.3479398534907625,0.7623487865782999,0.8037230509088098,2234,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,AT,
+284,Younger2,15 à 34 ans,2018,ng_020,0.37288969909282,12.929059522843744,0.2783976183843663,0.4673817798012738,172,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,BC,
+285,Younger2,>=35,2018,ng_020,0.6870653206629779,2.853322525005242,0.6486418151871681,0.7254888261387876,992,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,BC,
+286,Younger2,15 à 34 ans,2018,ng_020,0.5129480358257773,6.346497964978218,0.4491429044376294,0.5767531672139252,406,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,ON,
+287,Younger2,>=35,2018,ng_020,0.7476935108298939,1.750213448455778,0.7220449666722111,0.7733420549875767,2106,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,ON,
+288,Younger2,15 à 34 ans,2018,ng_020,0.5402706670617319,7.465397794516813,0.4612187449380783,0.6193225891853854,221,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,PR,
+289,Younger2,>=35,2018,ng_020,0.6937848959283005,2.81640315256908,0.6554876314877464,0.7320821603688547,986,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,PR,
+290,Younger2,15 à 34 ans,2018,ng_020,0.5347609689870243,8.947264350262211,0.4409835962268257,0.6285383417472228,182,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,QC,
+291,Younger2,>=35,2018,ng_020,0.7844593014690306,2.0614904265696103,0.7527636392307313,0.81615496370733,1117,Montant déjà donné suffisant,Younger Canadians Barriers to Giving More,QC,
+292,Younger2,15 à 34 ans,2018,ng_030,0.7343403873057135,6.52669658131062,0.6404029023119711,0.8282778722994559,137,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AB,
+293,Younger2,>=35,2018,ng_030,0.650817197473599,3.230864912668516,0.6096049867931342,0.6920294081540638,605,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AB,
+294,Younger2,15 à 34 ans,2018,ng_030,0.6456721701654006,5.713311430344848,0.5733705454239286,0.7179737949068725,316,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AT,
+295,Younger2,>=35,2018,ng_030,0.7143312969393752,1.6662550069401103,0.6910026668535751,0.7376599270251754,2247,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,AT,
+296,Younger2,15 à 34 ans,2018,ng_030,0.7431325517652498,5.890809697054438,0.657332140531055,0.8289329629994446,173,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,BC,
+297,Younger2,>=35,2018,ng_030,0.6888426939453499,2.9389080328247936,0.6491642946575079,0.7285210932331919,985,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,BC,
+298,Younger2,15 à 34 ans,2018,ng_030,0.7638599580284311,3.550071843554907,0.710710483183901,0.8170094328729612,406,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,ON,
+299,Younger2,>=35,2018,ng_030,0.6900218884694624,1.9321293054536304,0.663891422994241,0.7161523539446839,2112,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,ON,
+300,Younger2,15 à 34 ans,2018,ng_030,0.7352003153581129,4.856071179628581,0.6652259739484624,0.8051746567677635,220,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,PR,
+301,Younger2,>=35,2018,ng_030,0.6682672055380291,2.801107955599833,0.6315788634236917,0.7049555476523665,984,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,PR,
+302,Younger2,15 à 34 ans,2018,ng_030,0.659754349466969,6.317740830926271,0.578059973604511,0.741448725329427,181,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,QC,
+303,Younger2,>=35,2018,ng_030,0.5993830655699239,3.0658349318500018,0.5633665804097729,0.6353995507300749,1116,Pas les moyens de donner plus,Younger Canadians Barriers to Giving More,QC,
+304,Younger2,15 à 34 ans,2018,ng_040,0.2533901595854756,18.09601699435761,0.1635188993937065,0.3432614197772446,137,Aucune sollicitation,Younger Canadians Barriers to Giving More,AB,*
+305,Younger2,>=35,2018,ng_040,0.2426954627810635,9.826091900905542,0.1959552624030931,0.2894356631590339,590,Aucune sollicitation,Younger Canadians Barriers to Giving More,AB,
+306,Younger2,15 à 34 ans,2018,ng_040,0.3636248152600406,10.632246915633049,0.2878496907895949,0.4393999397304863,317,Aucune sollicitation,Younger Canadians Barriers to Giving More,AT,
+307,Younger2,>=35,2018,ng_040,0.2388080025142628,4.627576479135304,0.2171483955308374,0.2604676094976882,2206,Aucune sollicitation,Younger Canadians Barriers to Giving More,AT,
+308,Younger2,15 à 34 ans,2018,ng_040,0.2935413389496112,16.084925668732062,0.2009998633451792,0.3860828145540432,169,Aucune sollicitation,Younger Canadians Barriers to Giving More,BC,
+309,Younger2,>=35,2018,ng_040,0.2800690508823138,7.05387024033493,0.2413485758253545,0.318789525939273,969,Aucune sollicitation,Younger Canadians Barriers to Giving More,BC,
+310,Younger2,15 à 34 ans,2018,ng_040,0.3054789600314354,9.966812482410186,0.2458048869423633,0.3651530331205075,406,Aucune sollicitation,Younger Canadians Barriers to Giving More,ON,
+311,Younger2,>=35,2018,ng_040,0.2428175606976109,4.900535939119196,0.2194952400747814,0.2661398813204404,2056,Aucune sollicitation,Younger Canadians Barriers to Giving More,ON,
+312,Younger2,15 à 34 ans,2018,ng_040,0.3387483431430293,10.811508088543494,0.2669670053095113,0.4105296809765473,219,Aucune sollicitation,Younger Canadians Barriers to Giving More,PR,
+313,Younger2,>=35,2018,ng_040,0.2855761205092411,6.611151680082511,0.2485722543180966,0.3225799867003856,969,Aucune sollicitation,Younger Canadians Barriers to Giving More,PR,
+314,Younger2,15 à 34 ans,2018,ng_040,0.2749216334031647,17.108775519748537,0.1827333061926586,0.3671099606136708,180,Aucune sollicitation,Younger Canadians Barriers to Giving More,QC,*
+315,Younger2,>=35,2018,ng_040,0.1755931928400665,8.511854259824302,0.1462991072728058,0.2048872784073272,1086,Aucune sollicitation,Younger Canadians Barriers to Giving More,QC,
+316,Younger2,15 à 34 ans,2018,ng_050,0.139266262161281,27.8850386277314,0.0631521368437165,0.2153803874788454,137,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AB,*
+317,Younger2,>=35,2018,ng_050,0.1079653703698323,18.618670835317765,0.0685667291688432,0.1473640115708215,590,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AB,*
+318,Younger2,15 à 34 ans,2018,ng_050,0.1837207626909834,14.59620927345959,0.1311618451688764,0.2362796802130905,315,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AT,
+319,Younger2,>=35,2018,ng_050,0.0991850151936194,7.815126917553719,0.0839924821167801,0.1143775482704586,2200,Ne savent pas où donner,Younger Canadians Barriers to Giving More,AT,
+320,Younger2,15 à 34 ans,2018,ng_050,0.1422990364588238,25.575847903005496,0.0709677443531245,0.2136303285645231,169,Ne savent pas où donner,Younger Canadians Barriers to Giving More,BC,*
+321,Younger2,>=35,2018,ng_050,0.1024472311381006,14.600372380835818,0.0731307224552903,0.1317637398209109,964,Ne savent pas où donner,Younger Canadians Barriers to Giving More,BC,
+322,Younger2,15 à 34 ans,2018,ng_050,0.116085588527928,17.139112451204202,0.077090067560354,0.1550811094955021,404,Ne savent pas où donner,Younger Canadians Barriers to Giving More,ON,*
+323,Younger2,>=35,2018,ng_050,0.0881034297161415,9.170028123829782,0.0722686664942419,0.1039381929380412,2043,Ne savent pas où donner,Younger Canadians Barriers to Giving More,ON,
+324,Younger2,15 à 34 ans,2018,ng_050,0.1659427159936473,18.13684905672317,0.1069541112990455,0.224931320688249,219,Ne savent pas où donner,Younger Canadians Barriers to Giving More,PR,*
+325,Younger2,>=35,2018,ng_050,0.0992521161254272,11.92066228117862,0.0760627834850248,0.1224414487658295,965,Ne savent pas où donner,Younger Canadians Barriers to Giving More,PR,
+326,Younger2,15 à 34 ans,2018,ng_050,0.1839184984164006,20.861964951462152,0.1087166154434254,0.2591203813893759,180,Ne savent pas où donner,Younger Canadians Barriers to Giving More,QC,*
+327,Younger2,>=35,2018,ng_050,0.1047002486889273,10.715769022873816,0.0827105566029799,0.1266899407748747,1082,Ne savent pas où donner,Younger Canadians Barriers to Giving More,QC,
+328,Younger2,15 à 34 ans,2018,ng_060,0.1690981143808574,28.52941645785067,0.0745441495268654,0.2636520792348494,137,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AB,*
+329,Younger2,>=35,2018,ng_060,0.1024226044934318,19.286186115408256,0.0637066242330976,0.1411385847537659,590,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AB,*
+330,Younger2,15 à 34 ans,2018,ng_060,0.1242926900889028,22.14361617347437,0.070348804737723,0.1782365754400827,316,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AT,*
+331,Younger2,>=35,2018,ng_060,0.0861605633120476,9.208259742051688,0.0706104276633129,0.1017106989607823,2200,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,AT,
+332,Younger2,15 à 34 ans,2018,ng_060,0.1909858206168053,20.429651746446726,0.1145124593058575,0.2674591819277531,170,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,BC,*
+333,Younger2,>=35,2018,ng_060,0.1111186902065019,13.662190852491792,0.0813639918096635,0.1408733886033404,970,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,BC,
+334,Younger2,15 à 34 ans,2018,ng_060,0.1359977935616697,19.38958876269619,0.0843146939882251,0.1876808931351143,405,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,ON,*
+335,Younger2,>=35,2018,ng_060,0.1084603036083162,9.105249226371358,0.0891045206096827,0.1278160866069497,2041,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,ON,
+336,Younger2,15 à 34 ans,2018,ng_060,0.1833332826195315,17.516884487958713,0.1203904517149584,0.2462761135241047,219,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,PR,*
+337,Younger2,>=35,2018,ng_060,0.116252152545448,12.372888238073958,0.0880605227215258,0.1444437823693702,966,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,PR,
+338,Younger2,15 à 34 ans,2018,ng_060,0.1046788410679309,28.26017803310105,0.0466983498690232,0.1626593322668387,180,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,QC,*
+339,Younger2,>=35,2018,ng_060,0.1049234952944134,11.23665023593622,0.0818157429967446,0.1280312475920823,1081,Difficulté à trouver une cause,Younger Canadians Barriers to Giving More,QC,
+340,Younger2,15 à 34 ans,2018,ng_070,0.2689922056147306,18.43033252698958,0.1718247215085645,0.3661596897208967,137,Don de temps,Younger Canadians Barriers to Giving More,AB,*
+341,Younger2,>=35,2018,ng_070,0.2805763247746195,8.578435188785912,0.2334018376081185,0.3277508119411205,585,Don de temps,Younger Canadians Barriers to Giving More,AB,
+342,Younger2,15 à 34 ans,2018,ng_070,0.3929276284918017,11.390854204035849,0.305203926418835,0.4806513305647683,316,Don de temps,Younger Canadians Barriers to Giving More,AT,
+343,Younger2,>=35,2018,ng_070,0.2579814594732426,4.535634826406632,0.2350477309274107,0.2809151880190745,2185,Don de temps,Younger Canadians Barriers to Giving More,AT,
+344,Younger2,15 à 34 ans,2018,ng_070,0.2049475427861012,19.49729279968528,0.1266289058304566,0.2832661797417459,169,Don de temps,Younger Canadians Barriers to Giving More,BC,*
+345,Younger2,>=35,2018,ng_070,0.2550795701828549,7.089535012357177,0.2196356688273596,0.2905234715383502,957,Don de temps,Younger Canadians Barriers to Giving More,BC,
+346,Younger2,15 à 34 ans,2018,ng_070,0.3448726551823008,9.141434259346145,0.2830822287949247,0.406663081569677,404,Don de temps,Younger Canadians Barriers to Giving More,ON,
+347,Younger2,>=35,2018,ng_070,0.2403638307309093,5.047744757156733,0.2165836804836917,0.2641439809781269,2042,Don de temps,Younger Canadians Barriers to Giving More,ON,
+348,Younger2,15 à 34 ans,2018,ng_070,0.4093309200825059,10.198707852680643,0.3275093528084201,0.4911524873565916,218,Don de temps,Younger Canadians Barriers to Giving More,PR,
+349,Younger2,>=35,2018,ng_070,0.3048087373477126,6.275888531763159,0.2673156913854965,0.3423017833099286,962,Don de temps,Younger Canadians Barriers to Giving More,PR,
+350,Younger2,15 à 34 ans,2018,ng_070,0.2580973470936927,16.128870939090138,0.1765075978525145,0.339687096334871,180,Don de temps,Younger Canadians Barriers to Giving More,QC,
+351,Younger2,>=35,2018,ng_070,0.2432055366189388,6.426435668802158,0.2125723827072629,0.2738386905306148,1082,Don de temps,Younger Canadians Barriers to Giving More,QC,
+352,Younger2,15 à 34 ans,2018,ng_080,0.2307475209153998,20.330102212341465,0.1388032450091835,0.3226917968216161,137,Don direct,Younger Canadians Barriers to Giving More,AB,*
+353,Younger2,>=35,2018,ng_080,0.4217297935496077,6.160529324389376,0.3708083855610546,0.4726512015381607,588,Don direct,Younger Canadians Barriers to Giving More,AB,
+354,Younger2,15 à 34 ans,2018,ng_080,0.2876432433525525,12.166334165632586,0.2190530528819329,0.3562334338231721,315,Don direct,Younger Canadians Barriers to Giving More,AT,
+355,Younger2,>=35,2018,ng_080,0.4703255222422325,2.8925856730406667,0.4436610576178869,0.4969899868665781,2199,Don direct,Younger Canadians Barriers to Giving More,AT,
+356,Younger2,15 à 34 ans,2018,ng_080,0.1818846227296635,20.326908176517545,0.1094217745870207,0.2543474708723064,171,Don direct,Younger Canadians Barriers to Giving More,BC,*
+357,Younger2,>=35,2018,ng_080,0.4175567806165958,5.675609911887813,0.3711078018474316,0.4640057593857601,968,Don direct,Younger Canadians Barriers to Giving More,BC,
+358,Younger2,15 à 34 ans,2018,ng_080,0.191594973257872,13.563597354663584,0.140661054577811,0.242528891937933,404,Don direct,Younger Canadians Barriers to Giving More,ON,
+359,Younger2,>=35,2018,ng_080,0.419468922752208,3.307349376666212,0.3922777489137602,0.4466600965906557,2049,Don direct,Younger Canadians Barriers to Giving More,ON,
+360,Younger2,15 à 34 ans,2018,ng_080,0.3131654458352473,11.86677207308264,0.2403280301133608,0.3860028615571338,216,Don direct,Younger Canadians Barriers to Giving More,PR,
+361,Younger2,>=35,2018,ng_080,0.4419859393770389,4.717087862066554,0.4011229146656503,0.4828489640884275,966,Don direct,Younger Canadians Barriers to Giving More,PR,
+362,Younger2,15 à 34 ans,2018,ng_080,0.2178039627892277,16.97991393229167,0.1453187609177434,0.2902891646607122,181,Don direct,Younger Canadians Barriers to Giving More,QC,*
+363,Younger2,>=35,2018,ng_080,0.4867691933215584,4.025395397831192,0.448364904998525,0.5251734816445919,1083,Don direct,Younger Canadians Barriers to Giving More,QC,
+364,Younger2,15 à 34 ans,2018,ng_090,0.1181852518807758,34.2034207869655,0.0389568456906067,0.1974136580709449,136,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AB,...
+365,Younger2,>=35,2018,ng_090,0.2053441453033694,10.807223169824043,0.1618486244622166,0.2488396661445222,592,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AB,
+366,Younger2,15 à 34 ans,2018,ng_090,0.0854202045919629,20.856551230438107,0.0505020571184463,0.1203383520654795,314,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AT,*
+367,Younger2,>=35,2018,ng_090,0.1974955631017603,5.880812487153097,0.1747318676742271,0.2202592585292935,2203,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,AT,
+368,Younger2,15 à 34 ans,2018,ng_090,0.0821506991069143,31.55839042988497,0.0313377736280228,0.1329636245858058,169,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,BC,*
+369,Younger2,>=35,2018,ng_090,0.1933495779086197,9.102896575524865,0.1588534040673353,0.227845751749904,961,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,BC,
+370,Younger2,15 à 34 ans,2018,ng_090,0.1280345289407121,19.703774580478505,0.0785892729889841,0.17747978489244,404,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,ON,*
+371,Younger2,>=35,2018,ng_090,0.1799342397541109,6.220565176629238,0.1579965066209182,0.2018719728873036,2036,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,ON,
+372,Younger2,15 à 34 ans,2018,ng_090,0.1737588534111445,19.0745605553133,0.108798321178414,0.238719385643875,219,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,PR,*
+373,Younger2,>=35,2018,ng_090,0.2207356361253184,8.394649304968544,0.1844175377052911,0.2570537345453457,968,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,PR,
+374,Younger2,15 à 34 ans,2018,ng_090,0.0935264355280084,27.67894545853323,0.0427885909498898,0.144264280106127,178,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,QC,*
+375,Younger2,>=35,2018,ng_090,0.199513280473394,8.426166734090517,0.1665636954689662,0.2324628654778217,1081,Crédit d'impôt insuffisant,Younger Canadians Barriers to Giving More,QC,
+376,Younger2,15 à 34 ans,2018,ng_110,0.1973735542229545,21.34425843128564,0.1148043453622357,0.2799427630836734,136,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AB,*
+377,Younger2,>=35,2018,ng_110,0.2607977265268627,9.058909994998729,0.214492732030098,0.3071027210236274,583,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AB,
+378,Younger2,15 à 34 ans,2018,ng_110,0.179293280511768,18.91084669926736,0.1128389819049891,0.2457475791185467,316,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AT,*
+379,Younger2,>=35,2018,ng_110,0.2148652648153074,5.32295049882813,0.1924488202271283,0.2372817094034864,2198,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,AT,
+380,Younger2,15 à 34 ans,2018,ng_110,0.219441513540661,16.518192095627445,0.1483971883621669,0.290485838719155,171,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,BC,*
+381,Younger2,>=35,2018,ng_110,0.2890475126021571,7.116952451739883,0.2487283603813832,0.329366664822931,968,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,BC,
+382,Younger2,15 à 34 ans,2018,ng_110,0.1925113653767504,13.004504791800864,0.1434433735482286,0.2415793572052721,404,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,ON,
+383,Younger2,>=35,2018,ng_110,0.2614977759713015,5.153448349385099,0.2350850017949789,0.2879105501476241,2050,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,ON,
+384,Younger2,15 à 34 ans,2018,ng_110,0.27431937918902,13.30552222572562,0.2027814268436006,0.3458573315344395,218,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,PR,
+385,Younger2,>=35,2018,ng_110,0.2348794609601507,6.926656435502851,0.2029922320416213,0.2667666898786802,964,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,PR,
+386,Younger2,15 à 34 ans,2018,ng_110,0.1778869801698578,19.530496788838292,0.1097934979648871,0.2459804623748284,180,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,QC,*
+387,Younger2,>=35,2018,ng_110,0.2240910948490928,7.014223501775388,0.1932838904781347,0.254898299220051,1083,Utilisation non efficiente de l'argent,Younger Canadians Barriers to Giving More,QC,
+388,Younger2,15 à 34 ans,2018,ng_130,0.2888078749645358,18.427153618083288,0.1845004129434075,0.3931153369856641,136,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AB,*
+389,Younger2,>=35,2018,ng_130,0.320256917947195,7.743695451819284,0.2716503591576728,0.3688634767367172,587,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AB,
+390,Younger2,15 à 34 ans,2018,ng_130,0.1530908858143354,16.71044396606085,0.1029507604531798,0.203231011175491,317,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AT,*
+391,Younger2,>=35,2018,ng_130,0.2337989515912747,4.630225729774021,0.2125815198171854,0.2550163833653641,2200,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,AT,
+392,Younger2,15 à 34 ans,2018,ng_130,0.2436453644095061,18.795209484493757,0.1538914466746639,0.3333992821443483,169,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,BC,*
+393,Younger2,>=35,2018,ng_130,0.3448307425592333,6.139625678346627,0.303335724092626,0.3863257610258405,965,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,BC,
+394,Younger2,15 à 34 ans,2018,ng_130,0.1702244016523512,14.927931434607697,0.1204197921918313,0.2200290111128711,405,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,ON,
+395,Younger2,>=35,2018,ng_130,0.244048456825599,4.917757849973647,0.2205255332719523,0.2675713803792456,2045,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,ON,
+396,Younger2,15 à 34 ans,2018,ng_130,0.1566308510971676,15.34092049007815,0.1095356324124561,0.203726069781879,219,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,PR,
+397,Younger2,>=35,2018,ng_130,0.2666584870058157,6.905239915341649,0.2305688699397356,0.3027481040718958,961,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,PR,
+398,Younger2,15 à 34 ans,2018,ng_130,0.0902006208124252,26.31707847545905,0.0436746661509378,0.1367265754739126,180,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,QC,*
+399,Younger2,>=35,2018,ng_130,0.1446025587929982,9.706041789207031,0.1170941020986,0.1721110154873965,1079,N'aimaient pas les méthodes de sollicitation,Younger Canadians Barriers to Giving More,QC,

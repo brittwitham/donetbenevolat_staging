@@ -342,7 +342,7 @@ layout = html.Div([
                             # html.H6("Percentage of donors & total donation value by immigration status"),
                             dcc.Graph(id='PercDon-other_13', style={'marginTop': marginTop}),
                             html.Br(),
-                            html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
+                            #html.P("The degree to which Canadians focus on the primary cause they support does not seem to vary significantly according to their marital or labour force status. Married, widowed, and to a certain extent divorced Canadians tend to support a somewhat wider range of causes, as do those who are not in the labour force. Turning to immigration status, New Canadians and those residing in Canada who have not yet obtained landed immigrant status tend to focus more of their support on the primary cause and to support fewer causes than do native-born Canadians."),
                         ]),
                         # Focus on primary cause & average number of causes supported by marital status
                         # html.Div([

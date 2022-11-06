@@ -654,7 +654,7 @@ def update_graph(region):
 def update_graph(region):
     dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
     # dff1 = dff1.replace('$120,000 and more', '120 000 $ et plus')
-    dff1 = dff1[dff1['Group'] == "Catégorie de revenu personnel"]
+    dff1 = dff1[dff1['Group'] == "Catégorie de revenu familial"]
     # dff1 = dff1.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff1 = dff1.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')
     # dff1 = dff1.replace('$50,000 to $74,999', '50,000 $ a 74,999 $')
@@ -668,7 +668,7 @@ def update_graph(region):
 
     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
     # dff2 = dff2.replace('$120 000 and more', '120 000 $ et plus')
-    dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
+    dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
     # dff2 = dff2.replace('Less than $25,000', 'Moins de 25,000 $')
     # dff2 = dff2.replace('$25,000 to $49,999', '25,000 $ à 49,999 $')

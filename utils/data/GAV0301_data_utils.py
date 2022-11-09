@@ -7,7 +7,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
     SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
     SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
@@ -63,7 +63,7 @@ def process_data(data):
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donors", "Non-health donors", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donor", "Non-health donor", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(35)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         # Round rates and dollar amounts to zero decimal places

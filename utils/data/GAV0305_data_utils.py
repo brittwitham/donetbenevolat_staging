@@ -6,7 +6,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
     SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
     SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
@@ -44,7 +44,7 @@ def get_data():
 
     return SubSecAvgDon_2018, SubSecDonRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, ArtRecDonorsBarriers_2018, ArtRecDonorsDonMeth_2018, ArtRecDonorsDonRates_2018, ArtRecDonorsMotivations_2018, ArtRecVolsActivities_2018, ArtRecVolsBarriers_2018, ArtRecVolsMotivations_2018, ArtRecVolsVolRates_2018
 
-        
+
 def process_data(data):
     for i in range(len(data)):
         # Suppress Estimate and CI Upper where necessary (for visualizations and error bars)
@@ -63,7 +63,7 @@ def process_data(data):
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-arts and<br>recreation<br>donors", "Non-arts and recreation donors", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-arts and<br>recreation<br>donor", "Non-arts and recreation donor", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(25)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(35)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
         # Round rates and dollar amounts to zero decimal places

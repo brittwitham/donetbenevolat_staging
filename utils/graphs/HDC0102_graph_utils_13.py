@@ -138,7 +138,7 @@ def don_rate_avg_don_by_meth(dff1, dff2, name1, name2, title):
                      autorange = False,
                      )
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=12),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])
@@ -298,7 +298,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                      autorange = False,
                      )
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=12))
 
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])

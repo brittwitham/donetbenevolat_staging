@@ -40,7 +40,7 @@ navbar = dbc.NavbarSimple(
             dbc.NavItem(
                 dbc.NavLink("EN", href="http://app.donetbenevolat.ca/who_donates_and_how_much_do_they_give_2013",external_link=True)
             ),
-            
+
         ],
         brand="Canadian Knowledge Hub for Giving and Volunteering",
         brand_href="/",
@@ -106,7 +106,7 @@ layout = html.Div([
             # Forms of Giving
             html.Div(
                 [
-                    
+
                     dcc.Graph(id='FormsGiving_13', style={'marginTop': 20}),
                     dcc.Markdown("""
                     La probabilité de faire un don financier et le montant habituel des dons variaient légèrement selon les lieux de résidence. Dans l’ensemble, la probabilité de donner ne variait pas de manière statistiquement significative, les personnes vivant en Colombie-Britannique étant les seules relativement moins enclines à faire des dons. Quant au montant moyen des dons, les personnes du Québec et du Canada atlantique avaient tendance à donner moins que celles des Prairies et de l’Ouest canadien.
@@ -169,13 +169,13 @@ layout = html.Div([
                         La probabilité de donner était la plus faible chez les personnes de 15 à 24 ans, puis augmentait à un niveau relativement constant chez celles âgées de 35 ans et plus. La légère baisse apparente après l’âge de 65 ans n’était pas assez importante pour être statistiquement significative. Les montants moyens des contributions augmentaient jusqu’à l’âge d’environ 45 ans en étant plus ou moins uniformes chez les personnes plus âgées. Là encore, les différences entre ces groupes n’étaient pas statistiquement significatives, du moins au niveau national.
                         """),
                         # Donation rate & average donation amount by age
+                            dcc.Graph(id='DonRateAvgDonAmt-Age_13', style={'marginTop': marginTop})
+                        ]),
                         html.Div([
                             # html.H6("Donation rate & average donation amount by age"),
                              html.P("""
                         Étant donné leur plus forte tendance à donner et les montants habituellement supérieurs de leurs dons, les personnes âgées de 45 ans et plus représentaient une proportion de la valeur totale des dons supérieure à celle que leur représentation au sein de la population laissait présager. Au contraire, les personnes âgées de moins de 45 ans (et surtout celles de moins de 25 ans) représentaient des proportions de la valeur totale des dons très inférieures à leur représentation au sein de la population.
                         """),
-                            dcc.Graph(id='DonRateAvgDonAmt-Age_13', style={'marginTop': marginTop})
-                        ]),
                         # Percentage of donors & total donation value by age
                         html.Div([
                             # html.H6("Percentage of donors & total donation value by age"),
@@ -416,7 +416,7 @@ app.clientside_callback(
 #     # Corresponding name assigned
 #     dff1 = FormsGiving_2018[FormsGiving_2018['Region'] == region]
 #     dff1 = dff1[dff1['Group'] == "All"]
-    
+
 #     # dff1['QuestionText'] = dff1['QuestionText'].replace('Financial donation', 'Don financier')
 #     # dff1['QuestionText'] = dff1['QuestionText'].replace('Food bank', 'Banque alimentaire')
 #     # dff1['QuestionText'] = dff1['QuestionText'].replace('In-kind', 'En nature')
@@ -447,7 +447,7 @@ def update_graph(region):
     # Corresponding name assigned
     dff1 = FormsGiving_2018[FormsGiving_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "All"]
-    
+
     dff1['QuestionText'] = dff1['QuestionText'].replace('Financial donation', 'Don financier')
     dff1['QuestionText'] = dff1['QuestionText'].replace('Food bank', 'Banque alimentaire')
     dff1['QuestionText'] = dff1['QuestionText'].replace('In-kind', 'En nature')
@@ -470,9 +470,9 @@ def update_graph(region):
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Dons annuels moyens"
-    
+
     # title = 'Region selected: {}'.format(region)
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le groupe d'âge", region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon le groupe d'âge", region)
 
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
@@ -506,9 +506,9 @@ def update_graph(region):
     dff2 = dff2.replace('Male', 'Hommes')
     dff2 = dff2.replace('Female', 'Femmes')
     name2 = "Dons annuels moyens"
-    
+
     # Format title according to dropdown input
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le genre", region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon le genre", region)
 
     # Uses external function with dataframes, names, and title set up above
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
@@ -541,10 +541,10 @@ def update_graph(region):
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Pourcentage de la valeur des dons"
-   
+
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon le genre", region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon le genre", region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -576,11 +576,11 @@ def update_graph(region):
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Concentration moyenne sur la 1ère cause"
-    
-    
+
+
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon le genre", region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues<br>selon le genre", region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)
@@ -613,11 +613,11 @@ def update_graph(region):
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Pourcentage de la valeur des dons"
-    
-    
+
+
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon l’âge", region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon l’âge", region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -650,9 +650,9 @@ def update_graph(region):
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Concentration moyenne sur la 1ère cause"
 
-   
+
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon l’âge", region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues<br>selon l’âge", region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)
@@ -677,16 +677,18 @@ def update_graph(region):
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Éducation"]
+    dff1 = dff1[dff1['Attribute'] != "Non indiqué"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Éducation"]
+    dff2 = dff2[dff2['Attribute'] != "Non indiqué"]
     name2 = "Dons annuels moyens"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon l’éducation", region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon l’éducation", region)
 
     # Uses external function with dataframes, names, and title set up above
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
@@ -722,7 +724,7 @@ def update_graph(region):
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon l’éducation", region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon l’éducation", region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -748,7 +750,7 @@ def update_graph(region):
     # Corresponding name assigned
     AvgNumCauses_2018.Attribute = AvgNumCauses_2018.Attribute.replace("Less than High School", "Sans diplôme d'études secondaires")
     TopCauseFocus_2018.Attribute = TopCauseFocus_2018.Attribute.replace("Less than High School", "Sans diplôme d'études secondaires")
-    
+
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Nombre moyen de causes"
@@ -758,11 +760,11 @@ def update_graph(region):
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Concentration moyenne sur la 1ère cause"
-    
-    
+
+
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon l’éducation ", region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues<br>selon l’éducation ", region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)
@@ -794,10 +796,10 @@ def update_graph(region):
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     name2 = "Dons annuels moyens"
-    
-  
+
+
     # Format title according to dropdown input
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le revenu", region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon le revenu", region)
 
     # Uses external function with dataframes, names, and title set up above
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
@@ -832,7 +834,7 @@ def update_graph(region):
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon le revenu", region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon le revenu", region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -867,7 +869,7 @@ def update_graph(region):
     name2 = "Concentration moyenne sur la 1ère cause"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon le revenu", region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues<br>selon le revenu", region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)
@@ -892,16 +894,18 @@ def update_graph(region):
     # Corresponding name assigned
     dff1 = DonRates_2018[DonRates_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
+    dff1 = dff1[dff1['Attribute'] != "Non indiqué"]
     name1 = "Taux de donateur.trice.s"
 
     # Average annual donation data, filtered for selected region and demographic group (age group)
     # Corresponding name assigned
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
+    dff2 = dff2[dff2['Attribute'] != "Non indiqué"]
     name2 = "Dons annuels moyens"
 
        # Format title according to dropdown input
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon la pratique religieuse", region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon la pratique religieuse", region)
 
     # Uses external function with dataframes, names, and title set up above
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
@@ -935,7 +939,7 @@ def update_graph(region):
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon la pratique religieuse", region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon la pratique religieuse", region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -970,7 +974,7 @@ def update_graph(region):
     name2 = "Concentration moyenne sur la 1ère cause"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon la pratique religieuse ", region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues<br>selon la pratique religieuse ", region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)
@@ -1005,7 +1009,7 @@ def update_graph(region, status):
     name2 = "Dons annuels moyens"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon " + str(status).lower(), region)
+    title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons<br>selon " + str(status).lower(), region)
 
     # Uses external function with dataframes, names, and title set up above
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
@@ -1041,7 +1045,7 @@ def update_graph(region, status):
     name2 = "Pourcentage de la valeur des dons"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon "  + str(status).lower(), region)
+    title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons<br>selon "  + str(status).lower(), region)
 
     # Uses external function with dataframes, names, and title set up above
     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
@@ -1079,7 +1083,7 @@ def update_graph(region, status):
     name2 = "Concentration moyenne sur la 1ère cause"
 
     # Format title according to dropdown input
-    title = '{}, {}'.format("Concentration sur la cause principale et nombre <br> moyen de causes soutenues selon " + str(status).lower(), region)
+    title = '{}, {}'.format("Concentration sur la cause principale et nombre <br> moyen de causes soutenues<br>selon " + str(status).lower(), region)
 
     # Uses external function with dataframes, names, and title set up above
     return prim_cause_num_cause(dff2, dff1, name2, name1, title)

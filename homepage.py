@@ -370,28 +370,28 @@ content = dbc.Container(
                className="col-md-10 col-lg-8"
            )
        ),
-       html.Br(),
-       dbc.Row(
-           html.Div(
-               html.Div(
-                   html.Div(
-                       html.Div(
-                           [
-                               dcc.Link(html.H4("Dons et bénévolat pour les organismes de services sociaux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018'),
-                               # html.H6("David Lasby",className="text-muted card-subtitle"),
-                               html.P("""
-                               Cette analyse des tendances des dons et du bénévolat au bénéfice des organismes sociaux précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
-                               """),
-                               # className='card-text')
-                           ]
-                       ),
-                       className='card-body'
-                   ),
-                   className="card"
-               ),
-               className="col-md-10 col-lg-8"
-           )
-       ),
+#       html.Br(),
+ #      dbc.Row(
+  #         html.Div(
+   #            html.Div(
+    #               html.Div(
+     #                  html.Div(
+      #                     [
+       #                        dcc.Link(html.H4("Dons et bénévolat pour les organismes de services sociaux",className='card-title'), href='/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018'),
+        #                       # html.H6("David Lasby",className="text-muted card-subtitle"),
+         #                      html.P("""
+          #                     Cette analyse des tendances des dons et du bénévolat au bénéfice des organismes sociaux précise qui soutient ces organismes, le montant de leurs contributions, leurs méthodes de dons et les types d’activités bénévoles auxquelles ces personnes participent, ainsi que les motivations de leurs dons et de leur bénévolat pour ces organismes et les freins qui peuvent les empêcher de contribuer encore plus.
+           #                    """),
+            #                   # className='card-text')
+             #              ]
+              #         ),
+               #        className='card-body'
+                #   ),
+#                   className="card"
+ #              ),
+  #             className="col-md-10 col-lg-8"
+   #        )
+    #   ),
        html.Br(),
        dbc.Row(
            html.Div(

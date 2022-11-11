@@ -10,6 +10,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
 from utils.graphs.GAV0302_graph_utils import vertical_percentage_graph
+from utils.graphs.GAV0301_graph_utils import single_vertical_percentage_graph
 from utils.graphs.HOA0204_graph_utils import rate_avg_cause
 
 from utils.data.GAV0302_data_utils import get_data, process_data, get_region_names, get_region_values
@@ -18,13 +19,13 @@ from app import app
 from homepage import footer
 
 ####################### Data processing ######################
-SubSecAvgDon_2018,SubSecDonRates_2018 ,SubSecAvgHrs_2018 ,SubSecVolRates_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018 = get_data()
+SubSecAvgDon_2018, SubSecDonRates_2018, SubSecDonRatesFoc_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, SubSecVolRatesFoc_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018 = get_data()
 
 # SubSecAvgDon_2018, SubSecDonRates_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018 = get_data()
 
 # data = [SubSecAvgDon_2018, SubSecDonRates_2018, HealthDonorsBarriers_2018, HealthDonorsDonMeth_2018, HealthDonorsDonRates_2018, HealthDonorsMotivations_2018, HealthVolsActivities_2018, HealthVolsBarriers_2018, HealthVolsMotivations_2018, HealthVolsVolRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018]
 
-data = [SubSecAvgDon_2018,SubSecDonRates_2018,SubSecAvgHrs_2018,SubSecVolRates_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018]
+data = [SubSecAvgDon_2018,SubSecDonRates_2018, SubSecDonRatesFoc_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, SubSecVolRatesFoc_2018, ReligionDonorsBarriers_2018, ReligionDonorsDonMeth_2018, ReligionDonorsDonRates_2018, ReligionDonorsMotivations_2018, ReligionVolsActivities_2018, ReligionVolsBarriers_2018, ReligionVolsMotivations_2018, ReligionVolsVolRates_2018]
 
 process_data(data)
 # cause_names = BarriersByCause_2018["Group"].unique()
@@ -34,6 +35,7 @@ process_data(data)
 
 region_values = get_region_values()
 region_names = get_region_names()
+demo_names = ["Groupe d'âge", 'Genre', 'Éducation', 'État civil', "Situation d'activité", 'Catégorie de revenu personnel', 'Catégorie de revenu familial', 'Fréquence de la fréquentation religieuse', "Statut d'immigration"]
 
 ###################### App layout ######################
 
@@ -96,7 +98,7 @@ layout = html.Div([
                     À l’échelle nationale, une personne sur quatre au Canada a fait au moins un don à un organisme religieux pendant la période d’une année qui a précédé l’Enquête, ce qui place la religion au troisième rang des causes les plus soutenues au Canada. Le classement des organismes religieux sur le plan des montants donnés était largement supérieur, en représentant près de la moitié de la valeur totale (46 %) des dons, plus que toutes les autres causes. Quant au montant moyen des dons, les donateur.trice.s aux organismes religieux donnaient des montants très supérieurs aux montants des dons au bénéfice des autres causes, ce qui en fait, et de loin, les partisan.e.s les plus engagé.e.s. 
                     """),
                 # Donation rate and average donation amount by cause
-                dcc.Graph(id='DonRateAvgDon2', style={'marginTop': marginTop}), 
+                dcc.Graph(id='DonRateAvgDon2', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(
@@ -106,12 +108,25 @@ layout = html.Div([
                     Certaines personnes sont plus enclines que d’autres à donner aux organismes religieux. À l’échelle nationale, la probabilité de donner à ces organismes augmente de manière significative avec l’assiduité aux offices religieux et avec l’âge. Les autres groupes plus enclins à donner aux organismes religieux sont les femmes, les veuves et les veufs, les personnes non membres de la population active, celles titulaires d’un diplôme universitaire et celles qui sont nouvellement arrivées au Canada. 
                     """
                     ),
+                html.Div([
+                     html.Div(['Sélectionnez un catégorie démographique:',
+                               dcc.Dropdown(
+                                   id='demo-selection-don',
+                                   options=[{'label': demo_names[i], 'value': demo_names[i]}
+                                            for i in range(len(demo_names))],
+                                   value='Groupe d\'âge',
+                                   style={'verticalAlign': 'middle'}
+                               ), ],
+                              style={'width': '33%', 'display': 'inline-block'})
+                 ]),
+                 # Donation rate by key demographic characteristics
+                 dcc.Graph(id="ReligionDonRateDemo_fr", style={'marginTop': marginTop})
                 ],
             className='col-md-10 col-lg-8 mx-auto'),
             # html.Div([
             #     html.H4('Support for Other Organization Types'),
             #     # Rates of donating to other causes
-            #     dcc.Graph(id='HealthDonsCauses-2', style={'marginTop': marginTop}), 
+            #     dcc.Graph(id='HealthDonsCauses-2', style={'marginTop': marginTop}),
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
@@ -120,7 +135,7 @@ layout = html.Div([
                     On a demandé aux répondant.e.s à l’Enquête si l’un ou plusieurs de 13 types de sollicitations différents les conduisaient à donner. Bien que l’Enquête ne lie pas directement ces méthodes aux causes soutenues, la comparaison entre les donateur.trice.s au bénéfice des organismes religieux et les autres (c.-à-d. les personnes qui ne soutenaient que d’autres causes) permet de comprendre comment les personnes ont tendance à soutenir financièrement cette catégorie d’organismes. À l’échelle nationale, comme on pouvait s’y attendre, ces personnes sont largement plus susceptibles de donner dans un lieu de culte, mais aussi plus susceptibles de donner en mémoire de quelqu’un, de leur propre initiative et en réponse à une sollicitation par courrier. Elles sont également moins susceptibles que les autres donateur.trice.s de donner en réponse à une sollicitation en ligne, dans un lieu public ou de toute autre façon non mentionnée expressément dans le questionnaire de l’Enquête.
                     """),
                 # Donation rate by method
-                dcc.Graph(id='ReligionDonsMeth', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionDonsMeth', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -130,7 +145,7 @@ layout = html.Div([
                     """),
                 # Barriers to donating more
                 # dcc.Graph(id='ReligionMotivations', style={'marginTop': marginTop}),
-                dcc.Graph(id='ReligionMotivations', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionMotivations', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -140,7 +155,7 @@ layout = html.Div([
                     """
                     ),
                 # Barriers to donating more
-                dcc.Graph(id='ReligionBarriers', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionBarriers', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
@@ -151,7 +166,7 @@ layout = html.Div([
                         À l’échelle nationale, environ une personne sur 12 (8 %) au Canada a fait du bénévolat pour un organisme religieux pendant l’année qui a précédé l’Enquête. Par comparaison avec les autres organismes, les organismes religieux disposent de la cinquième base de bénévoles par ordre d’importance, derrière le secteur des arts et loisirs (12 %), des services sociaux, de l’éducation et de la recherche (9 %), et de la santé (9 %). Comme les bénévoles des organismes religieux ont tendance à faire don d’un nombre d’heures de leur temps relativement élevé, les organismes religieux représentent la troisième proportion des heures de bénévolat par ordre d’importance (16 %), après les organismes des secteurs des arts et loisirs (23 %) et des services sociaux (18 %), et avant ceux des secteurs de l’éducation et de la recherche, et de la santé (9 % chacun).
                         """),
                 # Volunteer rate and average hours volunteered by cause
-                dcc.Graph(id='VolRateAvgHrs2', style={'marginTop': marginTop}), 
+                dcc.Graph(id='VolRateAvgHrs2', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -159,12 +174,25 @@ layout = html.Div([
                         html.P("""
                         À l’échelle nationale, la probabilité de faire du bénévolat pour un organisme religieux augmente avec l’assiduité aux offices religieux et avec l’âge (chez les personnes âgées de 25 ans ou plus). Dans un sens très large, les associations entre le profil démographique et le bénévolat sont très semblables à ces associations avec les dons, bien qu’elles ne soient pas aussi nettes. 
                         """),
+                html.Div([
+                     html.Div(['Sélectionnez un catégorie démographique:',
+                               dcc.Dropdown(
+                                   id='demo-selection-vol',
+                                   options=[{'label': demo_names[i], 'value': demo_names[i]}
+                                            for i in range(len(demo_names))],
+                                   value='Groupe d\'âge',
+                                   style={'verticalAlign': 'middle'}
+                               ), ],
+                              style={'width': '33%', 'display': 'inline-block'})
+                 ]),
+                 # Volunteer rate by key demographic characteristics
+                 dcc.Graph(id="ReligionVolRateDemo_fr", style={'marginTop': marginTop})
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # html.Div([
             #     html.H4('Support for other organization types'),
             #     # Rates of volunteering for other causes
-            #     dcc.Graph(id='HealthHrsCauses-2', style={'marginTop': marginTop}), 
+            #     dcc.Graph(id='HealthHrsCauses-2', style={'marginTop': marginTop}),
             #     ], className='col-md-10 col-lg-8 mx-auto'
             # ),
             html.Div([
@@ -173,7 +201,7 @@ layout = html.Div([
                         On a demandé aux personnes si, parmi 14 types d’activité différents, elles participaient à 1 ou plusieurs d’entre elles pour un organisme. Bien que l’Enquête ne lie pas précisément les activités aux types d’organismes soutenus, la comparaison des bénévoles des organismes religieux et des bénévoles des autres organismes permet de comprendre les activités des bénévoles pour cette catégorie d’organismes. À l’échelle nationale, les bénévoles des organismes religieux sont relativement susceptibles de participer à de nombreuses activités, plus particulièrement collecter et livrer des marchandises ou collecter de la nourriture et servir des repas, enseigner ou mentorer, réparer, entretenir ou construire des installations et conduire. Ces bénévoles sont relativement moins susceptibles d’entraîner, d’enseigner ou d’arbitrer dans le cadre sportif et de participer à des activités de protection de l’environnement.
                         """),
                 # Volunteer rate by activity
-                dcc.Graph(id='ReligionVolActivity', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionVolActivity', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -182,7 +210,7 @@ layout = html.Div([
                         On a demandé aux répondant.e.s si douze facteurs potentiels jouaient un rôle important dans leur décision de faire don de leur temps. Contrairement à de nombreux autres domaines de l’Enquête, ces motivations sont liées précisément au bénévolat au bénéfice de causes particulières. À l’échelle nationale, les différences les plus importantes qui distinguent les bénévoles des organismes religieux sont liées au rôle beaucoup plus important de leurs motivations religieuses ou spirituelles. De plus, ces personnes sont légèrement plus enclines à faire du bénévolat parce qu’un membre de leur famille ou des amis sont des bénévoles et parce qu’elles sont touchées personnellement par la cause. Elles ont légèrement moins tendance à chercher à améliorer leurs possibilités d’emploi en faisant du bénévolat ou à soutenir une cause politique ou sociale. 
                         """),
                 # Motivations for volunteering
-                dcc.Graph(id='ReligionVolMotivations', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionVolMotivations', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div([
@@ -191,7 +219,7 @@ layout = html.Div([
                         On a demandé aux bénévoles si douze freins potentiels les avaient empêchés de faire don de plus de temps pendant l’année précédente. Bien que les freins ne soient pas liés directement aux causes soutenues, la comparaison des bénévoles des organismes religieux et des personnes qui font don de leur temps aux autres organismes apporte une information importante sur les facteurs qui peuvent importer particulièrement aux bénévoles de cette catégorie d’organismes. À l’échelle nationale, les bénévoles des organismes religieux ont légèrement plus tendance à limiter leur bénévolat en raison de problèmes de santé ou de limitations physiques. Ces personnes sont moins susceptibles de penser que les activités bénévoles qu’on demande d’elles ne sont pas suffisamment importantes ou de ne pas avoir été sollicitées pour en faire plus. La majorité des autres différences ne sont pas individuellement significatives, bien qu’il importe de signaler que les bénévoles des organismes religieux signalent plutôt moins souvent la plupart des freins potentiels. 
                         """),
                 # Barriers to volunteering more
-                dcc.Graph(id='ReligionVolBarriers', style={'marginTop': marginTop}), 
+                dcc.Graph(id='ReligionVolBarriers', style={'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
@@ -588,7 +616,7 @@ def update_graph(region):
     dff = ReligionVolsActivities_2018[ReligionVolsActivities_2018['Region'] == region]
     dff = dff.replace("Religion volunteer", "Bénévoles de la religion")
     dff = dff.replace("Non-religion volunteer", "Autres bénévoles")
-    
+
     # name1 = "Religion volunteer"
     # name2 = "Non-religion volunteer"
     name1 = "Bénévoles de la religion"
@@ -606,7 +634,7 @@ def update_graph(region):
     dff = ReligionVolsMotivations_2018[ReligionVolsMotivations_2018['Region'] == region]
     dff = dff.replace("Religion volunteer", "Bénévoles de la religion")
     dff = dff.replace("Non-religion volunteer", "Autres bénévoles")
-    
+
     # name1 = "Religion volunteer"
     # name2 = "Non-religion volunteer"
     name1 = "Bénévoles de la religion"
@@ -624,7 +652,7 @@ def update_graph(region):
     dff = ReligionVolsBarriers_2018[ReligionVolsBarriers_2018['Region'] == region]
     dff = dff.replace("Religion volunteer", "Bénévoles de la religion")
     dff = dff.replace("Non-religion volunteer", "Autres bénévoles")
-    
+
     # name1 = "Religion volunteer"
     # name2 = "Non-religion volunteer"
     name1 = "Bénévoles de la religion"
@@ -632,3 +660,32 @@ def update_graph(region):
 
     title = '{}, {}'.format("Freins à faire plus de bénévolat", region)
     return vertical_percentage_graph(dff, title, name1, name2)
+
+@app.callback(
+    dash.dependencies.Output('ReligionDonRateDemo_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('demo-selection-don', 'value'),
+    ])
+def update_graph(region, demo):
+    dff = SubSecDonRatesFoc_2018[SubSecDonRatesFoc_2018['Region'] == region]
+    dff = dff[dff['Group'] == demo]
+
+    title = 'Taux de donateur.trice.s par {}, {}'.format(demo.lower(), region)
+
+    return single_vertical_percentage_graph(dff, title)
+
+
+@app.callback(
+    dash.dependencies.Output('ReligionVolRateDemo_fr', 'figure'),
+    [
+        dash.dependencies.Input('region-selection', 'value'),
+        dash.dependencies.Input('demo-selection-vol', 'value'),
+    ])
+def update_graph(region, demo):
+    dff = SubSecVolRatesFoc_2018[SubSecVolRatesFoc_2018['Region'] == region]
+    dff = dff[dff['Group'] == demo]
+
+    title = 'Taux de bénévoles par {}, {}'.format(demo.lower(), region)
+
+    return single_vertical_percentage_graph(dff, title)

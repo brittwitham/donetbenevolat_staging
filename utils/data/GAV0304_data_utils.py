@@ -9,8 +9,10 @@ def get_data():
 
     SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon_FR.csv")))
     SubSecDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates_FR.csv")))
+    SubSecDonRatesFoc_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecDonRates-Focussed_FR.csv")))
     SubSecAvgHrs_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgHrs_FR.csv")))
     SubSecVolRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates_FR.csv")))
+    SubSecVolRatesFoc_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecVolRates-Focussed_FR.csv")))
     SocSerDonorsBarriers_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsBarriers_FR.csv")))
     SocSerDonorsDonMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonMeth_FR.csv")))
     SocSerDonorsDonRates_2018 = pd.read_csv(op.abspath(filepath.format("2018-SocSerDonorsDonRates_FR.csv")))
@@ -22,8 +24,18 @@ def get_data():
 
     SubSecDonRates_2018['Estimate'] = SubSecDonRates_2018['Estimate']*100
     SubSecDonRates_2018['CI Upper'] = SubSecDonRates_2018['CI Upper']*100
+
+    SubSecDonRatesFoc_2018['Estimate'] = SubSecDonRatesFoc_2018['Estimate'] * 100
+    SubSecDonRatesFoc_2018['CI Upper'] = SubSecDonRatesFoc_2018['CI Upper'] * 100
+    SubSecDonRatesFoc_2018 = SubSecDonRatesFoc_2018[SubSecDonRatesFoc_2018['QuestionText'] == "Social services"]
+
     SubSecVolRates_2018['Estimate'] = SubSecVolRates_2018['Estimate']*100
     SubSecVolRates_2018['CI Upper'] = SubSecVolRates_2018['CI Upper']*100
+
+    SubSecVolRatesFoc_2018['Estimate'] = SubSecVolRatesFoc_2018['Estimate'] * 100
+    SubSecVolRatesFoc_2018['CI Upper'] = SubSecVolRatesFoc_2018['CI Upper'] * 100
+    SubSecVolRatesFoc_2018 = SubSecVolRatesFoc_2018[SubSecVolRatesFoc_2018['QuestionText'] == "Social services"]
+
     SocSerDonorsBarriers_2018['Estimate'] = SocSerDonorsBarriers_2018['Estimate']*100
     SocSerDonorsBarriers_2018['CI Upper'] = SocSerDonorsBarriers_2018['CI Upper']*100
     SocSerDonorsDonMeth_2018['Estimate'] = SocSerDonorsDonMeth_2018['Estimate']*100
@@ -41,7 +53,7 @@ def get_data():
     SocSerVolsVolRates_2018['Estimate'] = SocSerVolsVolRates_2018['Estimate']*100
     SocSerVolsVolRates_2018['CI Upper'] = SocSerVolsVolRates_2018['CI Upper']*100
 
-    return SubSecAvgDon_2018, SubSecDonRates_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, SocSerDonorsBarriers_2018, SocSerDonorsDonMeth_2018, SocSerDonorsDonRates_2018, SocSerDonorsMotivations_2018, SocSerVolsActivities_2018, SocSerVolsBarriers_2018, SocSerVolsMotivations_2018, SocSerVolsVolRates_2018
+    return SubSecAvgDon_2018, SubSecDonRates_2018, SubSecDonRatesFoc_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, SubSecVolRatesFoc_2018, SocSerDonorsBarriers_2018, SocSerDonorsDonMeth_2018, SocSerDonorsDonRates_2018, SocSerDonorsMotivations_2018, SocSerVolsActivities_2018, SocSerVolsBarriers_2018, SocSerVolsMotivations_2018, SocSerVolsVolRates_2018
 
 def process_data(data):
     for i in range(len(data)):

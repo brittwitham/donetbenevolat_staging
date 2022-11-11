@@ -7,7 +7,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     BarriersVol_2018 = pd.read_csv(op.abspath(filepath.format("2013-BarriersToVolunteering_FR.csv")))
     # BarriersVolMore_2018 = pd.read_csv(op.abspath(filepath.format("2013-BarriersToVolunteeringMore_FR.csv")))
     BarriersVolMore_20188 = pd.read_csv('tables/2013-BarriersToVolunteeringMore-updated_fr.csv', encoding = 'unicode_escape', engine ='python')
@@ -19,6 +19,8 @@ def get_data():
     BarriersVol_2018['CI Upper'] = BarriersVol_2018['CI Upper'] * 100
     BarriersVolMore_2018['Estimate'] = BarriersVolMore_2018['Estimate'] * 100
     BarriersVolMore_2018['CI Upper'] = BarriersVolMore_2018['CI Upper'] * 100
+    BarriersVolMore_20188['Estimate'] = BarriersVolMore_20188['Estimate'] * 100
+    BarriersVolMore_20188['CI Upper'] = BarriersVolMore_20188['CI Upper'] * 100
     BarriersVolByCause_2018['Estimate'] = BarriersVolByCause_2018['Estimate'] * 100
     BarriersVolByCause_2018['CI Upper'] = BarriersVolByCause_2018['CI Upper'] * 100
 

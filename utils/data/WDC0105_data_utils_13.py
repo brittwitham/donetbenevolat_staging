@@ -7,9 +7,9 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-        
+
     Reasons_2013 = pd.read_csv(op.abspath(filepath.format("2013-ReasonsForGiving_FR.csv")))
-    AvgAmtReasons_2013 = pd.read_csv(op.abspath(filepath.format("2013-AvgAmtMotivations.csv_FR")))
+    AvgAmtReasons_2013 = pd.read_csv(op.abspath(filepath.format("2013-AvgAmtMotivations_FR.csv")))
     MotivationsByCause_2013 = pd.read_csv(op.abspath(filepath.format("2013-MotivationsByCause_FR.csv")))
 
     # Reasons_2018 = pd.read_csv("../Tables/2018-ReasonsForGiving.csv")

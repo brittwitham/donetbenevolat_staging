@@ -401,8 +401,8 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = SocSerVolsVolRates_2018[SocSerVolsVolRates_2018['Region'] == region]
-    name1 = "Social services volunteer"
-    name2 = "Non-social services volunteer"
+    name1 = "Donateur.trice.s des services sociaux"
+    name2 = "Autres donateur.trice.s"
 
     title = '{}, {}'.format("Rates of volunteering for other causes", region)
     return vertical_percentage_graph(dff, title, name1, name2)
@@ -414,8 +414,10 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = SocSerVolsActivities_2018[SocSerVolsActivities_2018['Region'] == region]
-    name1 = "Social services volunteer"
-    name2 = "Non-social services volunteer"
+    dff = dff.replace("Social services volunteer", "Bénévoles des services sociaux")
+    dff = dff.replace("Non-social services volunteer", "Autres bénévoles")
+    name1 = "Bénévoles des services sociaux"
+    name2 = "Autres bénévoles"
 
     title = '{}, {}'.format("Taux de bénévolat par activité", region)
     return vertical_percentage_graph(dff, title, name1, name2)
@@ -427,8 +429,10 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = SocSerVolsMotivations_2018[SocSerVolsMotivations_2018['Region'] == region]
-    name1 = "Social services volunteer"
-    name2 = "Non-social services volunteer"
+    dff = dff.replace("Social services volunteer", "Bénévoles des services sociaux")
+    dff = dff.replace("Non-social services volunteer", "Autres bénévoles")
+    name1 = "Bénévoles des services sociaux"
+    name2 = "Autres bénévoles"
 
     title = '{}, {}'.format("Motivations des bénévoles", region)
     return vertical_percentage_graph(dff, title, name1, name2)
@@ -440,8 +444,10 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = SocSerVolsBarriers_2018[SocSerVolsBarriers_2018['Region'] == region]
-    name1 = "Social services volunteer"
-    name2 = "Non-social services volunteer"
+    dff = dff.replace("Social services volunteer", "Bénévoles des services sociaux")
+    dff = dff.replace("Non-social services volunteer", "Autres bénévoles")
+    name1 = "Bénévoles des services sociaux"
+    name2 = "Autres bénévoles"
 
     title = '{}, {}'.format("Freins à faire plus de bénévolat", region)
     return vertical_percentage_graph(dff, title, name1, name2)

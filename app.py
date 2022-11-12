@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 
 app = dash.Dash(
     __name__, 
-    title='Centre Canadien de Connaissances sur les Dons et le Bénévolat',
+    title='Centre canadien de connaissances sur les dons et le bénévolat',
     suppress_callback_exceptions=True, 
     external_stylesheets=[dbc.themes.BOOTSTRAP]
 )

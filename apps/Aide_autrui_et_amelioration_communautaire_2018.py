@@ -26,7 +26,7 @@ region_names = get_region_names()
 #             'Marital status', 'Labour force status', 'Catégorie de revenu personnel',
 #             'Frequency of religious attendance', 'Immigration status']
 demo_names = ["Groupe d'âge", 'Genre', 'Éducation',
-            'État civil', "Situation d'activité", 'Catégorie de revenu personnel',
+            'État civil', "Situation d'activité", 'Catégorie de revenu familial',
             'Fréquence de la fréquentation religieuse', "Statut d'immigration"]
 
 

@@ -24,6 +24,7 @@ def don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
                                     fig1df1["Marker"] == "...",
                                     pd.isnull(fig1df1["Marker"])],
                                 ["Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                 "Estimate Suppressed",
                                 "Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%"])
 
@@ -33,6 +34,7 @@ def don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
                                     fig1df2["Marker"] == "...",
                                     pd.isnull(fig1df2["Marker"])],
                                     ["Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
+
                                     "Estimate Suppressed",
                                     "Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)])
 
@@ -205,6 +207,7 @@ def don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
                                     dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     elif markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
@@ -238,6 +241,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                                   dff1["Marker"] == "...",
                                   pd.isnull(dff1["Marker"])],
                                  ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                   "Estimate Suppressed",
                                   "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
@@ -246,6 +250,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],
                                   ["Estimate: $"+dff2.Estimate.map(str)+" ± $"+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
+
                                    "Estimate Suppressed",
                                    "Estimate: $"+dff2.Estimate.map(str)+" ± $"+(dff2["CI Upper"] - dff2["Estimate"]).map(str)])
 
@@ -409,6 +414,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                                    dff1["Marker"] == "...",
                                    pd.isnull(dff1["Marker"])],
                                   ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                    "Estimate Suppressed",
                                    "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
@@ -417,6 +423,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],
                                   ["Estimate: "+dff2.Estimate.map(str)+"% ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                    "Estimate Suppressed",
                                    "Estimate: "+dff2.Estimate.map(str)+"% ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"%"])
     dff1 = dff1[(dff1.Attribute != "Not in labour force")]
@@ -544,6 +551,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                                        dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 70},
+
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.2, align="left", showarrow=False)])
 
 
@@ -573,6 +581,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
                                    dff1["Marker"] == "...",
                                    pd.isnull(dff1["Marker"])],
                                   ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                    "Estimate Suppressed",
                                    "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
@@ -581,6 +590,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],
                                   ["Estimate: "+dff2.Estimate.map(str)+" ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
+
                                    "Estimate Suppressed",
                                    "Estimate: "+dff2.Estimate.map(str)+" ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)])
 
@@ -706,6 +716,7 @@ def prim_cause_num_cause(dff1, dff2, name1, name2, title):
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
                                        dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
@@ -724,6 +735,7 @@ def forms_of_giving(dff, title):
                                   dff["Marker"] == "...",
                                       pd.isnull(dff["Marker"])],
                                      ["Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                       "Estimate Suppressed",
                                       "Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%"])
 
@@ -804,6 +816,7 @@ def forms_of_giving(dff, title):
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
                                        dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.4, align="right", showarrow=False, font=dict(size=13))])
+
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.23, x=1.4, align="left", showarrow=False)])
@@ -827,6 +840,7 @@ def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
                                     fig1df1["Marker"] == "...",
                                     pd.isnull(fig1df1["Marker"])],
                                 ["Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
+
                                 "Estimate Suppressed",
                                 "Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%"])
 
@@ -836,6 +850,7 @@ def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
                                     fig1df2["Marker"] == "...",
                                     pd.isnull(fig1df2["Marker"])],
                                     ["Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
+
                                     "Estimate Suppressed",
                                     "Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)])
 
@@ -954,6 +969,7 @@ def fr_don_rate_avg_don_amt_prv(DonRates_2018, AvgTotDon_2018):
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
                                     dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     elif markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                         annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),

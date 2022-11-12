@@ -116,15 +116,15 @@ layout = html.Div([
     ])
 def update_graph(region):
 
-    dff1 = SubSecDonRates_2018[SubSecDonRates_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "All"]
-    dff1 = dff1.replace('Donation rate', 'Taux de donateur.trice.s')
+    dff2 = SubSecDonRates_2018[SubSecDonRates_2018['Region'] == region]
+    dff2 = dff2[dff2['Group'] == "All"]
+    dff2 = dff2.replace('Donation rate', 'Taux de donateur.trice.s')
     # name1 = "Donation rate"
     name1 = "Taux de donateur.trice.s"
 
-    dff2 = SubSecAvgDon_2018[SubSecAvgDon_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "All"]
-    dff2 = dff2.replace('Average donation', 'Dons annuels moyens')
+    dff1 = SubSecAvgDon_2018[SubSecAvgDon_2018['Region'] == region]
+    dff1 = dff1[dff1['Group'] == "All"]
+    dff1 = dff1.replace('Average donation', 'Dons annuels moyens')
     # name2 = "Average donation"
     name2 = 'Dons annuels moyens'
 

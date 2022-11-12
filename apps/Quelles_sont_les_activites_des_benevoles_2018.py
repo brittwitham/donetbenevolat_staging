@@ -185,9 +185,9 @@ layout = html.Div([
                         Dans l’ensemble, la probabilité d’exercer des activités bénévoles particulières ne varie guère en fonction de la situation d’emploi. Étant donné leur participation supérieure aux activités bénévoles, les personnes nées au Canada pratiquent la majorité des activités bénévoles légèrement plus souvent que les personnes naturalisées.
                         """),
                         # Volunteer rate per activity by labour force status
-                        dcc.Graph(id='ActivityVolRate-Labour', style={'marginTop': marginTop}),
+                        # dcc.Graph(id='ActivityVolRate-Labour', style={'marginTop': marginTop}),
                         # Volunteer rate per activity by immigration status
-                        dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
+                        # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                     ]),
                     
                     html.Div([

@@ -11,7 +11,9 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
+
                                  ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>À utiliser avec précaution</b>",
+
                                   "Estimate Suppressed",
                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
 
@@ -103,6 +105,7 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>dans</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.32, x=1.2, align="left", showarrow=False)])
@@ -116,6 +119,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
                                  ["Estimate: $" + dff.Estimate.map(str) + " ± $" + (dff["CI Upper"] - dff["Estimate"]).map(str) + "<br><b>À utiliser avec précaution</b>",
+
                                   "Estimate Suppressed",
                                   "Estimate: $" + dff.Estimate.map(str) + " ± $" + (dff["CI Upper"] - dff["Estimate"]).map(str)])
 
@@ -242,6 +246,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>dans</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])
@@ -255,6 +260,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
                                  ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>À utiliser avec précaution</b>",
+
                                   "Estimate Suppressed",
                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
 
@@ -381,6 +387,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False),
                                        dict(text="<i>dans</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.08, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
                           annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.31, x=1.2, align="left", showarrow=False)])

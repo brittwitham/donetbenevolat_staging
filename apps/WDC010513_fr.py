@@ -10,7 +10,7 @@ import dash_bootstrap_components as dbc
 import os
 import os.path as op
 
-from utils.graphs.WDC0105_graph_utils import single_vertical_percentage_graph, vertical_dollar_graph, vertical_percentage_graph
+from utils.graphs.WDC0105_graph_utils_13 import single_vertical_percentage_graph, vertical_dollar_graph, vertical_percentage_graph
 from utils.data.WDC0105_data_utils_13 import get_data, process_data, get_region_names, get_region_values
 
 from app import app

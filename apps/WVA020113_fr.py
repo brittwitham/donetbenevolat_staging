@@ -119,7 +119,7 @@ layout = html.Div([
                         html.Li('la probabilité de faire du bénévolat et le nombre moyen d’heures de bénévolat par personne; '),
                         html.Li('les pourcentages de la population canadienne et le nombre total d’heures de bénévolat pour chaque sous-groupe. '),
                     ]),
-                    
+
                     html.P("""
                         À elles toutes, ces mesures brossent un tableau détaillé du bassin de bénévoles et fournissent un aperçu de la concentration générale du soutien bénévole des organismes de bienfaisance et à but non lucratif. Dans le texte, nous décrivons les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.
                     """),
@@ -174,7 +174,7 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by formal education
                         html.Div([
                             dcc.Graph(id='PercVolHours-Educ_13', style={'marginTop': marginTop}),
-                        ]),             
+                        ]),
                     ]),
                     # Marital status
                     html.Div([
@@ -192,7 +192,7 @@ layout = html.Div([
                         # Percentage of  Canadians & total hours volunteered by marital status
                         html.Div([
                             dcc.Graph(id='PercVolHours-MarStat_13', style={'marginTop': marginTop}),
-                        ]),             
+                        ]),
                     ]),
                     # household income
                     html.Div([
@@ -210,7 +210,7 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by household income
                         html.Div([
                             dcc.Graph(id='PercVolHours-Inc_fr', style={'marginTop': marginTop}),
-                        ]),       
+                        ]),
                     ]),
                     # Religious attendance
                     html.Div([
@@ -228,7 +228,7 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by religious attendance
                         html.Div([
                             dcc.Graph(id='PercVolHours-Relig_13', style={'marginTop': marginTop}),
-                        ]),       
+                        ]),
                     ]),
                     # Other personal & economic characteristics
                     html.Div([
@@ -237,7 +237,7 @@ layout = html.Div([
                     Étant donné leur taux de bénévolat supérieur et le nombre d’heures de bénévolat significativement plus important dont elles avaient tendance à faire don, les personnes présentes chaque semaine aux offices religieux représentaient une proportion des heures de bénévolat très supérieure à leur représentation au sein de la population. Les personnes qui n’assistaient pas aux services religieux représentaient une proportion des heures de bénévolat significativement inférieure à celle que leur nombre permettait de présager.
                     """),
                         # Volunteer rate & average hours volunteered by employment status
-                        
+
                         html.Div([
                             html.Div(['Select status:',
                                       dcc.Dropdown(
@@ -249,7 +249,7 @@ layout = html.Div([
                                      style={'width': '33%', 'display': 'inline-block'})
                         ]),
                         dcc.Graph(id='status-hours_13', style={'marginTop': marginTop}),
-                        
+
                         # html.Div([
                         #     dcc.Graph(id='VolRateAvgHours-Labour', style={'marginTop': marginTop}),
                         # ]),
@@ -329,7 +329,7 @@ def update_graph(region):
     dff2 = dff2.replace("Male", "Hommes")
     dff2 = dff2.replace("Female", "Femmes")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -437,7 +437,7 @@ def update_graph(region):
     # dff2 = dff2.replace('75 years and over', '75 ans et plus')
     # dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -456,6 +456,7 @@ def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Éducation"]
+    dff1 = dff1[dff1['Attribute'] != "Non indiqué"]
     # dff1 = dff1.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff1 = dff1.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff1 = dff1.replace('Post-secondary diploma', 'Diplôme post-secondaire')
@@ -468,13 +469,14 @@ def update_graph(region):
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Éducation"]
+    dff2 = dff2[dff2['Attribute'] != "Non indiqué"]
     # dff2 = dff2.replace('Less than High School', "Sans diplôme d'études secondaires")
     # dff2 = dff2.replace('Graduated from High school', "Diplôme d'études secondaires")
     # dff2 = dff2.replace('Post-secondary diploma', 'Diplôme post-secondaire')
     # dff2 = dff2.replace('University Diploma', "Diplôme universtaire")
     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -554,9 +556,9 @@ def update_graph(region):
     # dff2 = dff2.replace('Divorced', 'divorcé.e')
     # dff2 = dff2.replace('Widowed', 'Veuf.ve')
     # dff2 = dff2.replace('Single, never married', 'Célibataire, jamais marié.e')
-    
+
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -637,7 +639,7 @@ def update_graph(region):
     # dff2 = dff2.replace('$125,000 and more', '125,000 $ et plus')
     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -675,7 +677,7 @@ def update_graph(region):
     # dff2 = dff2.replace('$50,000 to $74,999', '50,000 $ a 74,999 $')
     # dff2 = dff2.replace('$75,000 to $99,999', '75,000 $ à 99,999 $')
     # dff2 = dff2.replace('$100,000 to $124,999', '100,000 $ à 124,999 $')
-    
+
     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
     # dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
     name2 = "% heures de bénévolat"
@@ -695,6 +697,7 @@ def update_graph(region):
 
     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
+    dff1 = dff1[dff1['Attribute'] != "Non indiqué"]
     # dff1 = dff1.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff1 = dff1.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff1 = dff1.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -708,13 +711,14 @@ def update_graph(region):
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
+    dff2 = dff2[dff2['Attribute'] != "Non indiqué"]
     # dff2 = dff2.replace('At least once a week', 'Au moins 1 fois par semaine')
     # dff2 = dff2.replace('At least once a month', 'Au moins 1 fois par mois')
     # dff2 = dff2.replace('At least 3 times a year', 'Au moins 3 fois par mois')
     # dff2 = dff2.replace('Once or twice a year', '1 ou 2 fois par an')
     # dff2 = dff2.replace('Not at all', 'Pas du tout')
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -782,7 +786,7 @@ def update_graph(region):
 #     # dff2 = dff2.replace('Unemployed', 'Au chômage')
 #     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
 #     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
 #     # name2 = "Average hours"
 #     name2 = "Nombre d'heures moyen"
 
@@ -850,7 +854,7 @@ def update_graph(region):
 #     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
 #     dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
 #     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
 #     # name2 = "Average hours"
 #     name2 = "Nombre d'heures moyen"
 
@@ -909,9 +913,9 @@ def update_graph(region, status):
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == status]
-    
+
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 

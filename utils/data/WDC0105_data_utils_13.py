@@ -33,7 +33,7 @@ def process_data(data):
         data[i]["Group"] = np.where(data[i]["Attribute"] == "Not stated", "", data[i]["Group"])
 
 
-        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(25)
         data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not support<br>cause", "Do not support cause", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>motivation", "Do not report motivation", data[i]["Attribute"])

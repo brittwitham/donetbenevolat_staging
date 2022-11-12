@@ -5,7 +5,7 @@ import os
 import os.path as op
 
 def static_graph(VolRate_2018, AvgTotHours_2018):
-    
+
     fig1df1 = VolRate_2018[VolRate_2018['Group'] == "All"]
     fig1df1 = fig1df1[fig1df1.Province.notnull()]
 
@@ -17,14 +17,14 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
     fig1df1['HoverText'] = np.select([fig1df1["Marker"] == "*",
                                     fig1df1["Marker"] == "...",
                                     pd.isnull(fig1df1["Marker"])],
-                                    ["Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                    ["Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
                                     "Estimate Suppressed",
                                     "Estimate: "+fig1df1.Estimate.map(str)+"% ± "+(fig1df1["CI Upper"] - fig1df1["Estimate"]).map(str)+"%"])
 
     fig1df2['Text'] = np.select([fig1df2["Marker"] == "*", fig1df2["Marker"] == "...", pd.isnull(fig1df2["Marker"])],
                                 ["$"+fig1df2.Estimate.map(str)+"*", "...", "$"+fig1df2.Estimate.map(str)])
-    
-    
+
+
     fig1df2text_list = []
     for i in list(fig1df2['Text']):
         x = i[1:]
@@ -33,7 +33,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
     fig1df2['HoverText'] = np.select([fig1df2["Marker"] == "*",
                                     fig1df2["Marker"] == "...",
                                     pd.isnull(fig1df2["Marker"])],
-                                    ["Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)+"<br><b>Use with caution</b>",
+                                    ["Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
                                     "Estimate Suppressed",
                                     "Estimate: $"+fig1df2.Estimate.map(str)+" ± $"+(fig1df2["CI Upper"] - fig1df2["Estimate"]).map(str)])
 
@@ -120,7 +120,7 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
                                     args=[{"error_y": [None, None, None, None],
                                             "text": [None, None, fig1df2['Text'], fig1df1['Text']],
                                             }],
-                                    label="Réinitialiser",
+                                    label="Sans intervalles de confiance",
                                     method="restyle"
                                 ),
                                 dict(
@@ -143,19 +143,19 @@ def static_graph(VolRate_2018, AvgTotHours_2018):
     markers = pd.concat([fig1df1["Marker"], fig1df2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                        annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                        dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                        annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                        dict(text="*<i>À utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                        annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                        dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                        annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                        dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig1.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                        annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                        dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                        annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                        dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig1.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                        annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.4, align="left", showarrow=False)])
+                        annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.4, align="left", showarrow=False)])
 
     return fig1
 
@@ -165,7 +165,7 @@ def forms_of_giving(dff, title):
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
-                                 ["Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                 ["Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
                                   "Estimate Suppressed",
                                   "Estimate: "+dff.Estimate.map(str)+"% ± "+(dff["CI Upper"] - dff["Estimate"]).map(str)+"%"])
 
@@ -214,7 +214,7 @@ def forms_of_giving(dff, title):
                                   dict(
                                       args=[{"error_y": [None, None],
                                              "text": [None, dff['Text']]}],
-                                      label="Réinitialiser",
+                                      label="Sans intervalles de confiance",
                                       method="restyle"
                                   ),
                                   dict(
@@ -236,19 +236,19 @@ def forms_of_giving(dff, title):
     markers = dff["Marker"]
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.4, align="left", showarrow=False),
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.23, x=1.4, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.23, x=1.4, align="left", showarrow=False)])
 
     return fig
 
@@ -259,7 +259,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
     dff1['HoverText'] = np.select([dff1["Marker"] == "*",
                                    dff1["Marker"] == "...",
                                    pd.isnull(dff1["Marker"])],
-                                  ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                  ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
                                    "Estimate Suppressed",
                                    "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
@@ -267,7 +267,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
     dff2['HoverText'] = np.select([dff2["Marker"] == "*",
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],
-                                  ["Estimate: $"+dff2.Estimate.map(str)+" ± $"+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"<br><b>Use with caution</b>",
+                                  ["Estimate: $"+dff2.Estimate.map(str)+" ± $"+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"<br><b>À utiliser avec précaution</b>",
                                    "Estimate Suppressed",
                                    "Estimate: $"+dff2.Estimate.map(str)+" ± $"+(dff2["CI Upper"] - dff2["Estimate"]).map(str)])
     dff1 = dff1[(dff1.Attribute != "Unknown") & (dff1.Attribute != "Unable to determine")]
@@ -370,7 +370,7 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Réinitialiser",
+                                      label="Sans intervalles de confiance",
                                       method="restyle"
                                   ),
                                   dict(
@@ -388,25 +388,25 @@ def don_rate_avg_don(dff1, dff2, name1, name2, title):
                      autorange = False,
                      )
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=12))
 
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.22, x=1.2, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.22, x=1.2, align="left", showarrow=False)])
 
     return fig
 
@@ -416,7 +416,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
     dff1['HoverText'] = np.select([dff1["Marker"] == "*",
                                    dff1["Marker"] == "...",
                                    pd.isnull(dff1["Marker"])],
-                                  ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                  ["Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
                                    "Estimate Suppressed",
                                    "Estimate: "+dff1.Estimate.map(str)+"% ± "+(dff1["CI Upper"] - dff1["Estimate"]).map(str)+"%"])
     dff2['Text'] = np.select([dff2["Marker"] == "*", dff2["Marker"] == "...", pd.isnull(dff2["Marker"])],
@@ -424,7 +424,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
     dff2['HoverText'] = np.select([dff2["Marker"] == "*",
                                    dff2["Marker"] == "...",
                                    pd.isnull(dff2["Marker"])],
-                                  ["Estimate: "+dff2.Estimate.map(str)+"% ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"%<br><b>Use with caution</b>",
+                                  ["Estimate: "+dff2.Estimate.map(str)+"% ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"%<br><b>À utiliser avec précaution</b>",
                                    "Estimate Suppressed",
                                    "Estimate: "+dff2.Estimate.map(str)+"% ± "+(dff2["CI Upper"] - dff2["Estimate"]).map(str)+"%"])
     dff1 = dff1[(dff1.Attribute != "Not in labour force")]
@@ -515,7 +515,7 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                                   dict(
                                       args=[{"error_x": [None, None, None, None],
                                              "text": [None, None, dff1['Text'], dff2['Text']]}],
-                                      label="Réinitialiser",
+                                      label="Sans intervalles de confiance",
                                       method="restyle"
                                   ),
                                   dict(
@@ -535,25 +535,25 @@ def perc_don_perc_amt(dff1, dff2, name1, name2, title):
                      autorange = False,
                      range = [0, 1.25*max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=12))
 
     markers = pd.concat([dff1["Marker"], dff2["Marker"]])
     if markers.isin(["*"]).any() and markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution<br>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution<br>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["*"]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="*<i>Use with caution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="*<i>À utiliser avec précaution</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     elif markers.isin(["..."]).any():
         fig.update_layout(margin={'l': 30, 'b': 75, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
-                                       dict(text="<i>Some results too unreliable to be shown</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.19, x=1.2, align="left", showarrow=False),
+                                       dict(text="<i>Certains résultats sont pas assez fiables pour être affichés</i>", xref="paper", yref="paper", xanchor='right', yanchor="top", y=-0.11, x=1.2, align="right", showarrow=False, font=dict(size=13))])
     else:
         fig.update_layout(margin={'l': 30, 'b': 30, 'r': 10, 't': 40},
-                          annotations=[dict(text="<a href='/popup'>Ce quoi ça?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.2, align="left", showarrow=False)])
+                          annotations=[dict(text="<a href='/popup'>De quoi s'agit-il?</a>", xref="paper", yref="paper", xanchor='right', y=0.21, x=1.2, align="left", showarrow=False)])
 
 
     return fig

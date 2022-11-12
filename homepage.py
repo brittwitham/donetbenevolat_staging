@@ -572,26 +572,26 @@ content = dbc.Container(
                 className="col-md-10 col-lg-8"
             )
         ),
-#        html.Br(),
- #       dbc.Row(
-  #          html.Div(
-   #             html.Div(
-    #                html.Div(
-     #                   html.Div(
-      #                      [
-       #                         dcc.Link(html.H4("Qui sont les bénévoles et combien d’heures donnent-ils? (2013)",className='card-title'), href='/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013'),
-        #                        html.P(
-         #                           """En 2013, un peu plus de deux cinquièmes des personnes au Canada ont fait du bénévolat pour les organismes de bienfaisance et à but non lucratif en leur faisant don de 2 milliards d’heures de leur temps. Cette analyse porte sur les variations générales des tendances (probabilité de faire du bénévolat, nombre habituel d’heures de bénévolat, etc.) selon les caractéristiques personnelles et économiques des bénévoles."""
-          #                      )
-           #                 ]
-            #            ),
-             #           className='card-body'
-              #      ),
-               #     className="card"
-  #              ),
-   #             className="col-md-10 col-lg-8"
-    #        )
-     #   ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qui sont les bénévoles et combien d’heures donnent-ils? (2013)",className='card-title'), href='/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013'),
+                                html.P(
+                                    """En 2013, un peu plus de deux cinquièmes des personnes au Canada ont fait du bénévolat pour les organismes de bienfaisance et à but non lucratif en leur faisant don de 2 milliards d’heures de leur temps. Cette analyse porte sur les variations générales des tendances (probabilité de faire du bénévolat, nombre habituel d’heures de bénévolat, etc.) selon les caractéristiques personnelles et économiques des bénévoles."""
+                                )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
         html.Br(),
         dbc.Row(
             html.Div(
@@ -632,26 +632,26 @@ content = dbc.Container(
                 className="col-md-10 col-lg-8"
             )
         ),
-#        html.Br(),
- #       dbc.Row(
-  #          html.Div(
-   #             html.Div(
-    #                html.Div(
-     #                   html.Div(
-      #                      [
-       #                         dcc.Link(html.H4("Qu’est-ce qui empêche de faire du bénévolat? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
-        #                        html.P(
-         #                           """Cette analyse des freins rencontrés par les bénévoles au Canada en 2013 porte sur les facteurs qui ont limité leur nombre d’heures de bénévolat, sur l’incidence de ces freins sur le nombre habituel d’heures de bénévolat, sur les variations des heures de bénévolat selon les caractéristiques personnelles et économiques des bénévoles et les causes soutenues par les bénévoles."""
-          #                      )
-           #                 ]
-            #            ),
-             #           className='card-body'
-              #      ),
-       #             className="card"
-        #        ),
-         #       className="col-md-10 col-lg-8"
-     #       )
-      #  ),
+        html.Br(),
+        dbc.Row(
+            html.Div(
+                html.Div(
+                    html.Div(
+                        html.Div(
+                            [
+                                dcc.Link(html.H4("Qu’est-ce qui empêche de faire du bénévolat? (2013)",className='card-title'), href='/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013'),
+                                html.P(
+                                    """Cette analyse des freins rencontrés par les bénévoles au Canada en 2013 porte sur les facteurs qui ont limité leur nombre d’heures de bénévolat, sur l’incidence de ces freins sur le nombre habituel d’heures de bénévolat, sur les variations des heures de bénévolat selon les caractéristiques personnelles et économiques des bénévoles et les causes soutenues par les bénévoles."""
+                                )
+                            ]
+                        ),
+                        className='card-body'
+                    ),
+                    className="card"
+                ),
+                className="col-md-10 col-lg-8"
+            )
+        ),
     ]
 )
 

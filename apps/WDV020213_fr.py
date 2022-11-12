@@ -187,7 +187,7 @@ layout = html.Div([
                         # Volunteer rate per activity by immigration status
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                     ]),
-                    
+
                     html.Div([
                             html.Div(['Sélectionner le statut:',
                                       dcc.Dropdown(
@@ -205,7 +205,7 @@ layout = html.Div([
         ]),
    ),
    footer
-]) 
+])
 
 # ###################### CALLBACKS ######################
 @app.callback(
@@ -226,7 +226,7 @@ def update_graph(region):
     dff2 = dff2[dff2['Group'] == "All"]
     dff2 = dff2.replace("Health care or support", "Soins de santé ou soutien")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -273,6 +273,7 @@ def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
     dff = dff[dff['Group'] == "Éducation"]
+    dff = dff[dff['Attribute'] != "Non indiqué"]
 
     title = '{}, {}'.format(str(activity) + " l’éducation formelle", region)
     return single_vertical_percentage_graph(dff, title)
@@ -316,6 +317,7 @@ def update_graph(region, activity):
     dff = ActivityVolRate_2018[ActivityVolRate_2018['Region'] == region]
     dff = dff[dff['QuestionText'] == activity]
     dff = dff[dff['Group'] == "Fréquence de la fréquentation religieuse"]
+    dff = dff[dff['Attribute'] != "Non indiqué"]
 
     title = '{}, {}'.format(str(activity) + " selon la pratique religieuse", region)
     return single_vertical_percentage_graph(dff, title)

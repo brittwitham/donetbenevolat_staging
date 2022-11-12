@@ -858,7 +858,7 @@
 856,856,Éducation,Diplôme post-secondaire,2013,nv_030,0.080735731,27.62944345,0.037015141,0.12445632,162,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,*
 857,857,Éducation,Diplôme universtaire,2013,nv_030,0.098329945,31.51975109,0.037584088,0.159075802,167,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,*
 858,858,Éducation,Non indiqué,2013,nv_030,0.038468555,98.59910798,-0.035872197,0.112809308,18,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,...
-859,859,Éducation,Sans diplôme d'études secondaires,2013,nv_030,0.040268939,50.91664021,8.26e-05,0.080455239,205,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,...
+859,859,Éducation,Sans diplôme d'études secondaires,2013,nv_030,0.040268939,50.91664021,8.26E-05,0.080455239,205,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,...
 860,860,Éducation,Diplôme d'études secondaires,2013,nv_030,0.053502903,25.75570447,0.026494502,0.080511305,424,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
 861,861,Éducation,Diplôme post-secondaire,2013,nv_030,0.069121418,18.78742495,0.043669062,0.094573773,633,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
 862,862,Éducation,Diplôme universtaire,2013,nv_030,0.074895699,18.08733698,0.048344778,0.101446621,585,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
@@ -892,7 +892,7 @@
 890,890,État civil,Marié.e,2013,nv_030,0.070389546,14.28008801,0.050688597,0.090090495,1074,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,
 891,891,État civil,Union de fait,2013,nv_030,0.063176774,56.43061518,-0.006697985,0.133051533,105,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,...
 892,892,État civil,Veuf.ve,2013,nv_030,0.075713995,32.17657457,0.027965019,0.123462971,178,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
-893,893,État civil,Séparé.e,2013,nv_030,0.0,,0.0,0.0,48,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,
+893,893,État civil,Séparé.e,2013,nv_030,0,,0,0,48,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,
 894,894,État civil,divorcé.e,2013,nv_030,0.120738117,28.41711671,0.053491181,0.187985053,137,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
 895,895,État civil,"Célibataire, jamais marié.e",2013,nv_030,0.044005541,26.86845318,0.020831695,0.067179388,357,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AT,*
 896,896,État civil,Marié.e,2013,nv_030,0.089462868,15.65588264,0.062011217,0.116914518,535,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,BC,
@@ -910,13 +910,13 @@
 908,908,État civil,Marié.e,2013,nv_030,0.086495837,14.23055365,0.062370961,0.110620714,602,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,
 909,909,État civil,Union de fait,2013,nv_030,0.104191815,40.19732448,0.022103972,0.186279658,50,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,...
 910,910,État civil,Veuf.ve,2013,nv_030,0.122213363,35.09756755,0.038142829,0.206283897,94,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,...
-911,911,État civil,Séparé.e,2013,nv_030,0.0,,0.0,0.0,32,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,
+911,911,État civil,Séparé.e,2013,nv_030,0,,0,0,32,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,
 912,912,État civil,divorcé.e,2013,nv_030,0.128995816,29.50186,0.054407103,0.203584528,86,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,*
 913,913,État civil,"Célibataire, jamais marié.e",2013,nv_030,0.120003045,23.46358819,0.064816299,0.17518979,229,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,*
 914,914,État civil,Marié.e,2013,nv_030,0.07532397,17.43078597,0.049590505,0.101057434,429,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,*
 915,915,État civil,Union de fait,2013,nv_030,0.0695381,23.67559684,0.037270115,0.101806086,259,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,*
 916,916,État civil,Veuf.ve,2013,nv_030,0.071499049,49.73355947,0.001804646,0.141193451,62,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,...
-917,917,État civil,Séparé.e,2013,nv_030,0.0,,0.0,0.0,33,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,
+917,917,État civil,Séparé.e,2013,nv_030,0,,0,0,33,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,
 918,918,État civil,divorcé.e,2013,nv_030,0.051613134,40.49092139,0.010652565,0.092573703,109,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,...
 919,919,État civil,"Célibataire, jamais marié.e",2013,nv_030,0.067855207,29.10176148,0.02915168,0.106558734,326,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,*
 920,920,Situation d'activité,Employé.e,2013,nv_030,0.094234364,20.65854321,0.05607887,0.132389859,367,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,*
@@ -1043,7 +1043,7 @@
 1041,1041,Immigration status (new),Unknown,2013,nv_030,0.204630411,43.6266554,0.029657754,0.379603067,23,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,PR,...
 1042,1042,Immigration status (new),Né.e au Canada,2013,nv_030,0.066678112,14.55012035,0.04766304,0.085693184,1052,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,
 1043,1043,Immigration status (new),Naturalisé.e,2013,nv_030,0.095720632,34.17285077,0.031609291,0.159831973,106,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,...
-1044,1044,Immigration status (new),Non canadien.ne,2013,nv_030,0.0,,0.0,0.0,16,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,
+1044,1044,Immigration status (new),Non canadien.ne,2013,nv_030,0,,0,0,16,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,
 1045,1045,Immigration status (new),Unknown,2013,nv_030,0.107241911,45.22742887,0.01217825,0.202305572,44,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,QC,...
 1046,1046,Immigration status (original; dcit2),Né.e au Canada,2013,nv_030,0.085325207,20.69038239,0.050723784,0.11992663,420,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,*
 1047,1047,Immigration status (original; dcit2),Naturalisé.e,2013,nv_030,0.188097631,34.74786298,0.059994567,0.316200694,65,Expérience bénévole passée insatisfaisante,Barriers to volunteering more,AB,...
@@ -1523,7 +1523,7 @@
 1521,1521,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,nv_050,0.079016745,23.40409684,0.042770826,0.115262664,267,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,*
 1522,1522,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,nv_050,0.105308308,25.99955499,0.051645099,0.158971517,163,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,*
 1523,1523,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,nv_050,0.025974347,61.92541697,-0.00555113,0.057499824,74,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,...
-1524,1524,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_050,0.0,,0.0,0.0,32,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,
+1524,1524,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_050,0,,0,0,32,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,
 1525,1525,Catégorie de revenu personnel,120 000 $ et plus,2013,nv_050,0.100765884,48.52315898,0.004933856,0.196597912,48,Ne savaient pas comment s'engager plus,Barriers to volunteering more,QC,...
 1526,1526,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,nv_050,0.192116203,24.00542753,0.101725965,0.282506441,127,Ne savaient pas comment s'engager plus,Barriers to volunteering more,AB,*
 1527,1527,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,nv_050,0.151838958,36.96434375,0.041833482,0.261844435,55,Ne savaient pas comment s'engager plus,Barriers to volunteering more,AB,...
@@ -2305,7 +2305,7 @@
 2303,2303,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,nv_080,0.113564692,19.34603218,0.07050377,0.156625614,400,Coût financier du bénévolat,Barriers to volunteering more,AT,*
 2304,2304,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,nv_080,0.076170055,26.70579227,0.036300827,0.116039283,238,Coût financier du bénévolat,Barriers to volunteering more,AT,*
 2305,2305,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,nv_080,0.132191843,33.64558458,0.045019077,0.219364609,114,Coût financier du bénévolat,Barriers to volunteering more,AT,...
-2306,2306,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_080,0.0,,0.0,0.0,53,Coût financier du bénévolat,Barriers to volunteering more,AT,
+2306,2306,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_080,0,,0,0,53,Coût financier du bénévolat,Barriers to volunteering more,AT,
 2307,2307,Catégorie de revenu personnel,120 000 $ et plus,2013,nv_080,0.043454082,54.38589564,-0.002865535,0.0897737,66,Coût financier du bénévolat,Barriers to volunteering more,AT,...
 2308,2308,Catégorie de revenu personnel,Moins de 20 000 $,2013,nv_080,0.144466977,20.97786803,0.085068129,0.203865826,258,Coût financier du bénévolat,Barriers to volunteering more,BC,*
 2309,2309,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,nv_080,0.127473596,20.05741021,0.077361429,0.177585763,258,Coût financier du bénévolat,Barriers to volunteering more,BC,*
@@ -2333,7 +2333,7 @@
 2331,2331,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,nv_080,0.082537321,23.85550647,0.043946226,0.121128416,267,Coût financier du bénévolat,Barriers to volunteering more,QC,*
 2332,2332,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,nv_080,0.084872097,28.51131033,0.0374446,0.132299593,163,Coût financier du bénévolat,Barriers to volunteering more,QC,*
 2333,2333,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,nv_080,0.054054555,74.56455892,-0.024942853,0.133051964,74,Coût financier du bénévolat,Barriers to volunteering more,QC,...
-2334,2334,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_080,0.0,,0.0,0.0,32,Coût financier du bénévolat,Barriers to volunteering more,QC,
+2334,2334,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,nv_080,0,,0,0,32,Coût financier du bénévolat,Barriers to volunteering more,QC,
 2335,2335,Catégorie de revenu personnel,120 000 $ et plus,2013,nv_080,0.041958015,57.75358198,-0.005536335,0.089452365,48,Coût financier du bénévolat,Barriers to volunteering more,QC,...
 2336,2336,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,nv_080,0.129419542,29.04119375,0.055754335,0.20308475,128,Coût financier du bénévolat,Barriers to volunteering more,AB,*
 2337,2337,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,nv_080,0.158729234,30.84793987,0.062760188,0.25469828,55,Coût financier du bénévolat,Barriers to volunteering more,AB,*
@@ -2390,7 +2390,7 @@
 2388,2388,Immigration status (new),Né.e au Canada,2013,nv_080,0.119095245,10.80468709,0.093874686,0.144315804,961,Coût financier du bénévolat,Barriers to volunteering more,PR,
 2389,2389,Immigration status (new),Naturalisé.e,2013,nv_080,0.080467544,39.13978914,0.018738817,0.14219627,88,Coût financier du bénévolat,Barriers to volunteering more,PR,...
 2390,2390,Immigration status (new),Non canadien.ne,2013,nv_080,0.045857452,85.62916665,-0.031105148,0.122820052,20,Coût financier du bénévolat,Barriers to volunteering more,PR,...
-2391,2391,Immigration status (new),Unknown,2013,nv_080,0.0,,0.0,0.0,20,Coût financier du bénévolat,Barriers to volunteering more,PR,
+2391,2391,Immigration status (new),Unknown,2013,nv_080,0,,0,0,20,Coût financier du bénévolat,Barriers to volunteering more,PR,
 2392,2392,Immigration status (new),Né.e au Canada,2013,nv_080,0.089898116,11.93773499,0.068864176,0.110932055,1051,Coût financier du bénévolat,Barriers to volunteering more,QC,
 2393,2393,Immigration status (new),Naturalisé.e,2013,nv_080,0.161896179,28.65584518,0.070968122,0.252824236,106,Coût financier du bénévolat,Barriers to volunteering more,QC,*
 2394,2394,Immigration status (new),Non canadien.ne,2013,nv_080,0.337379019,41.6054167,0.062262899,0.612495139,16,Coût financier du bénévolat,Barriers to volunteering more,QC,...
@@ -2414,7 +2414,7 @@
 2412,2412,Immigration status (original; dcit2),Né.e au Canada,2013,nv_080,0.118660253,10.81462343,0.093508703,0.143811804,962,Coût financier du bénévolat,Barriers to volunteering more,PR,
 2413,2413,Immigration status (original; dcit2),Naturalisé.e,2013,nv_080,0.097758416,43.37889952,0.014643154,0.180873679,72,Coût financier du bénévolat,Barriers to volunteering more,PR,...
 2414,2414,Immigration status (original; dcit2),Non canadien.ne,2013,nv_080,0.045619374,59.34800654,-0.007445061,0.098683809,35,Coût financier du bénévolat,Barriers to volunteering more,PR,...
-2415,2415,Immigration status (original; dcit2),Unknown,2013,nv_080,0.0,,0.0,0.0,20,Coût financier du bénévolat,Barriers to volunteering more,PR,
+2415,2415,Immigration status (original; dcit2),Unknown,2013,nv_080,0,,0,0,20,Coût financier du bénévolat,Barriers to volunteering more,PR,
 2416,2416,Immigration status (original; dcit2),Né.e au Canada,2013,nv_080,0.093170261,11.68548941,0.071831347,0.114509174,1048,Coût financier du bénévolat,Barriers to volunteering more,QC,
 2417,2417,Immigration status (original; dcit2),Naturalisé.e,2013,nv_080,0.112291011,37.44841587,0.029872164,0.194709857,93,Coût financier du bénévolat,Barriers to volunteering more,QC,...
 2418,2418,Immigration status (original; dcit2),Non canadien.ne,2013,nv_080,0.306516443,32.76924716,0.109651524,0.503381362,30,Coût financier du bénévolat,Barriers to volunteering more,QC,*
@@ -3090,7 +3090,7 @@
 3088,3088,Situation d'activité,Employé.e,2013,nv_110,0.215612299,10.87710831,0.169646472,0.261578125,562,Aucun intérêt pour en faire plus,Barriers to volunteering more,BC,
 3089,3089,Situation d'activité,Au chômage,2013,nv_110,0.163851007,48.54399132,0.007955827,0.319746187,31,Aucun intérêt pour en faire plus,Barriers to volunteering more,BC,...
 3090,3090,Situation d'activité,Pas dans la population active,2013,nv_110,0.174824332,16.43391783,0.118513612,0.231135052,356,Aucun intérêt pour en faire plus,Barriers to volunteering more,BC,
-3091,3091,Situation d'activité,Unable to determine,2013,nv_110,0.0,,0.0,0.0,30,Aucun intérêt pour en faire plus,Barriers to volunteering more,BC,
+3091,3091,Situation d'activité,Unable to determine,2013,nv_110,0,,0,0,30,Aucun intérêt pour en faire plus,Barriers to volunteering more,BC,
 3092,3092,Situation d'activité,Employé.e,2013,nv_110,0.189080502,7.725828776,0.160449278,0.217711726,1017,Aucun intérêt pour en faire plus,Barriers to volunteering more,ON,
 3093,3093,Situation d'activité,Au chômage,2013,nv_110,0.195160518,32.98650712,0.068984626,0.32133641,55,Aucun intérêt pour en faire plus,Barriers to volunteering more,ON,*
 3094,3094,Situation d'activité,Pas dans la population active,2013,nv_110,0.240176244,9.502028909,0.195446699,0.28490579,551,Aucun intérêt pour en faire plus,Barriers to volunteering more,ON,

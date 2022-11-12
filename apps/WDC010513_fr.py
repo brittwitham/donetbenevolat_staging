@@ -10,8 +10,8 @@ import dash_bootstrap_components as dbc
 import os
 import os.path as op
 
-from utils.graphs.WDC0105_graph_utils import single_vertical_percentage_graph, vertical_dollar_graph, vertical_percentage_graph
-from utils.data.WDC0105_data_utils import get_data, process_data, get_region_names, get_region_values
+from utils.graphs.WDC0105_graph_utils_13 import single_vertical_percentage_graph, vertical_dollar_graph, vertical_percentage_graph
+from utils.data.WDC0105_data_utils_13 import get_data, process_data, get_region_names, get_region_values
 
 from app import app
 from homepage import footer #navbar, footer
@@ -99,7 +99,7 @@ layout = html.Div([
                 ],className="m-2 p-2")
            ]),
             ]),
-    ],className='sticky-top bg-light mb-2', fluid=True), 
+    ],className='sticky-top bg-light mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             html.Div(
@@ -191,7 +191,7 @@ layout = html.Div([
                            dcc.Graph(id='Motivations-Relig_13', style={'marginTop': marginTop}),
                         ]),
                     ]),
-                           
+
 #
                     # Other personal & economic characteristics
                     html.Div([
@@ -407,7 +407,7 @@ def update_graph(region, motivation):
 
 @app.callback(
     dash.dependencies.Output('status-sel13', 'figure'),
-    [ 
+    [
         dash.dependencies.Input('region-selection', 'value'),
         dash.dependencies.Input('motivation_selection', 'value'),
         dash.dependencies.Input('status-selection', 'value')

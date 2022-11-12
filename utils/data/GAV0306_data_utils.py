@@ -6,7 +6,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     NewCanadiansAvgDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-NewCanadiansAvgDonAmt.csv")))
     NewCanadiansAvgDonByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-NewCanadiansAvgDonByCause.csv")))
     NewCanadiansAvgDonByMeth_2018 = pd.read_csv(op.abspath(filepath.format("2018-NewCanadiansAvgDonByMeth.csv")))
@@ -32,7 +32,7 @@ def get_data():
 
     return NewCanadiansAvgDonAmt_2018 ,NewCanadiansAvgDonByCause_2018 ,NewCanadiansAvgDonByMeth_2018,NewCanadiansAvgHrs_2018 ,NewCanadiansAvgHrsByActivity_2018,NewCanadiansAvgHrsByCause_2018 ,NewCanadiansAvgHrsCommInvolve_2018 ,NewCanadiansAvgHrsHelpDirectly_2018,NewCanadiansBarriers_2018 ,NewCanadiansBarriersVol_2018 ,NewCanadiansCommInvolveRate_2018 ,NewCanadiansDonRateByCause_2018,NewCanadiansDonRateByMeth_2018,NewCanadiansDonRates_2018 ,NewCanadiansEfficiencyConcerns_2018,NewCanadiansHelpDirectlyRate_2018 ,NewCanadiansReasonsGiving_2018 ,NewCanadiansReasonsVol_2018 ,NewCanadiansSolicitationConcerns_2018,NewCanadiansVolRateByActivity_2018 ,NewCanadiansVolRateByCause_2018,NewCanadiansVolRate_2018
 
-        
+
 def process_data(data):
     for i in range(len(data)):
         data[i]["Estimate"] = np.where(data[i]["Marker"] == "...", 0, data[i]["Estimate"])

@@ -126,7 +126,7 @@ layout = html.Div([
                     Bien que de nombreux facteurs différents restreignaient potentiellement le bénévolat, leur incidence avait tendance à varier selon des tendances assez générales liées aux caractéristiques personnelles et économiques des bénévoles. Nous analysons ci-dessous comment les freins au bénévolat avaient tendance à varier selon certains des facteurs démographiques les plus importants. Là encore, nous présentons dans le texte les résultats au niveau national, mais vous pourrez utiliser le menu déroulant pour passer en revue les résultats au niveau régional.
                     """
                     ),
-                
+
                     # Gender
                     html.Div([
                         html.H5("Genre"),
@@ -260,7 +260,7 @@ layout = html.Div([
                                             options=[{'label': barriers_names[i], 'value': barriers_names[i]} for i in range(len(barriers_names))],
                                             value='Assez de temps déjà donné',
                                             style={'verticalAlign': 'middle'}
-                                      ),],                                     
+                                      ),],
                                      style={'width': '66%', 'display': 'inline-block'}),
                         ]),
                                         dcc.Graph(id='status-sel-volbarrier_13', style={'marginTop': marginTop})
@@ -326,7 +326,7 @@ def update_graph(region):
     dff["Group"] = dff["Group"].replace({'\n': '<br>'}, regex=True)
     dff = dff.replace("Report barrier", "Signalent un frein")
     dff = dff.replace("Do not report barrier", "Ne signalent aucun frein")
-    
+
     # name1 = "Report barrier"
     name1 = "Signalent un frein"
     # name2 = "Do not report barrier"
@@ -417,7 +417,7 @@ def update_graph(region, barrier):
 
     ])
 def update_graph(region, barrier):
-    df = BarriersVol_2018.append(BarriersVolMore_20188, ignore_index=True)
+    df = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
     df["Attribute"] = df["Attribute"].str.wrap(20)
     df["Attribute"] = df["Attribute"].replace({'\n': '<br>'}, regex=True)
 
@@ -479,9 +479,10 @@ def update_graph(region, barrier):
     df = df.replace("Ã\x89ducation", "Éducation")
     df = df.replace('Ã\x89tat civil (original)', "État civil (original)")
     df = df.replace('Ã\x89tat civil (Original)', "État civil (original)")
-    df = df.replace('Ã\x89tat civil', "État civil") 
+    df = df.replace('Ã\x89tat civil', "État civil")
     df = df.replace("Situation d'activitÃ©", "Situation d'activité")
     df = df.replace('CatÃ©gorie de revenu personnel', "Catégorie de revenu personnel")
+    df = df.replace("CatÃ©gorie de revenu familial", "Catégorie de revenu familial")
     df = df.replace("CatÃ©gorie de revenu familial", "Catégorie de revenu familial")
     df = df.replace('FrÃ©quence de la frÃ©quentation religieuse', "Fréquence de la fréquentation religieuse")
     df = df.replace('Immigration status', "Statut d'immigration")
@@ -564,7 +565,7 @@ def update_graph(region, barrier):
 
 @app.callback(
     dash.dependencies.Output('status-sel-volbarrier_13', 'figure'),
-    [ 
+    [
         dash.dependencies.Input('region-selection', 'value'),
         dash.dependencies.Input('barrier-selection-other', 'value'),
         dash.dependencies.Input('status-selection-volbarrier', 'value')
@@ -595,7 +596,7 @@ def update_graph(region, cause):
     dff["QuestionText"] = dff["QuestionText"].replace({'\n': '<br>'}, regex=True)
     dff = dff.replace("Support cause", "Soutiennent la cause")
     dff = dff.replace("Do not support cause", "Ne soutiennent pas la cause")
-    
+
     # name1 = "Support cause"
     name1 = "Soutiennent la cause"
     name2 = "Ne soutiennent pas la cause"

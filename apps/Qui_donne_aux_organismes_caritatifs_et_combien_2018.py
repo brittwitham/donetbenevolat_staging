@@ -106,7 +106,7 @@ layout = html.Div([
             # Forms of Giving
             html.Div(
                 [
-                    
+
                     dcc.Graph(id='FormsGiving_fr', style={'marginTop': 20}),
                     html.P("La probabilité de faire un don financier et le montant habituel des dons variaient selon le lieu de résidence. En général, la proportion de donateur.trice.s avait tendance à être plus élevée dans l’Est, tandis que le montant habituel des dons avait tendance à être supérieur dans l’Ouest. Plus précisément, les personnes habitant à Terre-Neuve-et-Labrador et à l’Île-du-Prince-Édouard étaient les plus enclines à donner, alors que celles de la Colombie-Britannique étaient les moins enclines à le faire. Les personnes habitant dans l’Ouest du Canada, en Alberta plus particulièrement, avaient tendance à faire des dons supérieurs à la moyenne, tandis que celles habitant au Québec avaient tendance à faire des dons nettement inférieurs."),
                 ], className='col-md-10 col-lg-8 mx-auto'
@@ -385,7 +385,7 @@ def update_graph(region):
     # Corresponding name assigned
     dff1 = FormsGiving_2018[FormsGiving_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "All"]
-    
+
     dff1['QuestionText'] = dff1['QuestionText'].replace('Financial donation', 'Don financier')
     dff1['QuestionText'] = dff1['QuestionText'].replace('Food bank', 'Banque alimentaire')
     dff1['QuestionText'] = dff1['QuestionText'].replace('In-kind', 'En nature')
@@ -401,7 +401,7 @@ def update_graph(region):
 #     dash.dependencies.Output('DonRateAvgDonAmt-prv_fr', 'figure'),
 # #     )
 # def update_graph():
-    
+
 #     name1 = "Taux de donateur.trice.s"
 
 #     name2 = "Montant moyen des dons"
@@ -422,7 +422,7 @@ def update_graph(region):
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Dons annuels moyens"
-    
+
     # title = 'Region selected: {}'.format(region)
     title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le groupe d'âge", region)
 
@@ -454,7 +454,7 @@ def update_graph(region):
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Dons annuels moyens"
-    
+
     # Format title according to dropdown input
     title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le genre", region)
 
@@ -489,7 +489,7 @@ def update_graph(region):
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Pourcentage de la valeur des dons"
-   
+
 
     # Format title according to dropdown input
     title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon le genre", region)
@@ -524,8 +524,8 @@ def update_graph(region):
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Genre"]
     name2 = "Concentration moyenne sur la 1ère cause"
-    
-    
+
+
 
     # Format title according to dropdown input
     title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon le genre", region)
@@ -561,8 +561,8 @@ def update_graph(region):
     dff2 = PropTotDonAmt_2018[PropTotDonAmt_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Pourcentage de la valeur des dons"
-    
-    
+
+
 
     # Format title according to dropdown input
     title = '{}, {}'.format("Pourcentage de la population et de la valeur totale des dons selon l’âge", region)
@@ -598,7 +598,7 @@ def update_graph(region):
     dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
     name2 = "Concentration moyenne sur la 1ère cause"
 
-   
+
     # Format title according to dropdown input
     title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon l’âge", region)
 
@@ -696,7 +696,7 @@ def update_graph(region):
     # Corresponding name assigned
     AvgNumCauses_2018.Attribute = AvgNumCauses_2018.Attribute.replace("Less than High School", "Sans diplôme d'études secondaires")
     TopCauseFocus_2018.Attribute = TopCauseFocus_2018.Attribute.replace("Less than High School", "Sans diplôme d'études secondaires")
-    
+
     dff1 = AvgNumCauses_2018[AvgNumCauses_2018['Region'] == region]
     dff1 = dff1[dff1['Group'] == "Éducation"]
     name1 = "Nombre moyen de causes"
@@ -706,8 +706,8 @@ def update_graph(region):
     dff2 = TopCauseFocus_2018[TopCauseFocus_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Éducation"]
     name2 = "Concentration moyenne sur la 1ère cause"
-    
-    
+
+
 
     # Format title according to dropdown input
     title = '{}, {}'.format("Concentration sur la cause principale et nombre moyen de causes soutenues selon l’éducation ", region)
@@ -742,8 +742,8 @@ def update_graph(region):
     dff2 = AvgTotDon_2018[AvgTotDon_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == "Catégorie de revenu familial"]
     name2 = "Dons annuels moyens"
-    
-  
+
+
     # Format title according to dropdown input
     title = '{}, {}'.format("Taux de donateur.trice.s et montant moyen des dons selon le revenu", region)
 

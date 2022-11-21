@@ -9,15 +9,18 @@ pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 
 from utils.graphs.WDC0205_graph_utils import single_vertical_percentage_graph, vertical_hours_graph, vertical_percentage_graph
-from utils.data.WDC0205_data_utils_13 import get_data, process_data, get_region_names, get_region_values, translate
+from utils.data.WDC0205_data_utils_13 import get_data, process_data, get_region_names, get_region_values, translate, process_data2
 
 from app import app
 from homepage import footer #navbar, footer
 
 ####################### Data processing ######################
 ReasonsVol_2018, AvgHrsReasons_2018, MotivationsVolByCause_2018 = get_data()
-data = [ReasonsVol_2018, AvgHrsReasons_2018, MotivationsVolByCause_2018]
+# data = [ReasonsVol_2018, AvgHrsReasons_2018, MotivationsVolByCause_2018]
+data = [MotivationsVolByCause_2018]
+data2 = [ReasonsVol_2018, AvgHrsReasons_2018]
 process_data(data)
+process_data2(data2)
 
 # ReasonsVol_2018 = translate(ReasonsVol_2018)
 # AvgHrsReasons_2018 = translate(AvgHrsReasons_2018)
@@ -328,7 +331,7 @@ def update_graph(region):
     # name1 = "Report motivation"
     name2 = "Ne signalent aucune motivation"
     # name2 = "Do not report motivation"
-    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat pour les bénévoles faisant état ou non de motivations précises", region)
+    title = '{}, {}'.format("Nombre moyen d’heures de bénévolat pour les bénévoles faisant <br> état ou non de motivations précises", region)
     return vertical_hours_graph(df, name1, name2, title)
 
 
@@ -410,7 +413,7 @@ def update_graph(region, motivation, status):
     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
     dff = dff[dff["Group"] == status]
     dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + ' selon ' + str(status).lower(), region)
+    title = '{}, {}'.format("La motivation des bénévoles: " + str(motivation) + '<br>' + ' selon ' + str(status).lower(), region)
     return single_vertical_percentage_graph(dff, title)
 
 
@@ -434,7 +437,7 @@ def update_graph(region, cause):
     # name2 = "Do not support cause"
     name2 = "Ne soutiennent pas la cause"
     
-    title = '{}, {}'.format("Pourcentages de partisan.e.s et de non-partisan.e.s d’une cause faisant état de chaque motivation, selon la cause", region)
+    title = '{}, {}'.format("Pourcentages de partisan.e.s et de non-partisan.e.s d’une cause faisant <br> état de chaque motivation, selon la cause", region)
     return vertical_percentage_graph(dff, title, name1, name2)
 
 

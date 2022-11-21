@@ -38,6 +38,27 @@ def process_data(data):
         data[i]["CI Upper"] = data[i]["CI Upper"].round(0).astype(int)
         data[i]['cv'] = data[i]['cv'].round(2)
 
+def process_data2(data):
+    for i in range(len(data)):
+        data[i]["Estimate"] = np.where(data[i]["Marker"] == "...", 0, data[i]["Estimate"])
+        data[i]["CI Upper"] = np.where(data[i]["Marker"] == "...", 0, data[i]["CI Upper"])
+
+        data[i]["Group"] = np.where(data[i]["Attribute"] == "Unable to determine", "", data[i]["Group"])
+        data[i]["Group"] = np.where(data[i]["Attribute"] == "Unknown", "", data[i]["Group"])
+
+        # data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not support<br>cause", "Do not support cause", data[i]["Attribute"])
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>motivation", "Do not report motivation", data[i]["Attribute"])
+        data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>motivation", "Report motivation", data[i]["Attribute"])
+
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(30)
+        data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
+
+        data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
+        data[i]["CI Upper"] = data[i]["CI Upper"].round(0).astype(int)
+        data[i]['cv'] = data[i]['cv'].round(2)
+
 
 def translate(df):
     df = df.replace('Age group', "Groupe d'âge")

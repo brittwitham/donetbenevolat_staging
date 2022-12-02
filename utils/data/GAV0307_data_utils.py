@@ -6,7 +6,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
     SeniorsAvgDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-SeniorsAvgDonAmt.csv")))
     SeniorsAvgDonByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-SeniorsAvgDonByCause.csv")))
@@ -31,9 +31,9 @@ def get_data():
     SeniorsVolRateByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-SeniorsVolRateByCause.csv")))
     SeniorsVolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-SeniorsVolRates.csv")))
 
-    return SeniorsAvgDonAmt_2018 ,SeniorsAvgDonByCause_2018 ,SeniorsAvgDonByMeth_2018 ,SeniorsAvgHrs_2018 ,SeniorsAvgHrsByActivity_2018 ,SeniorsAvgHrsByCause_2018 ,SeniorsAvgHrsCommInvolve_2018 ,SeniorsAvgHrsHelpDirectly_2018 ,SeniorsBarriers_2018 ,SeniorsBarriersVol_2018 ,SeniorsCommInvolveRate_2018 ,SeniorsDonRateByCause_2018 ,SeniorsDonRateByMeth_2018 ,SeniorsDonRates_2018 ,SeniorsEfficiencyConcerns_2018 ,SeniorsHelpDirectlyRate_2018 ,SeniorsReasonsGiving_2018 ,SeniorsReasonsVol_2018 ,SeniorsSolicitationConcerns_2018 ,SeniorsVolRateByActivity_2018 ,SeniorsVolRateByCause_2018 ,SeniorsVolRate_2018 
+    return SeniorsAvgDonAmt_2018 ,SeniorsAvgDonByCause_2018 ,SeniorsAvgDonByMeth_2018 ,SeniorsAvgHrs_2018 ,SeniorsAvgHrsByActivity_2018 ,SeniorsAvgHrsByCause_2018 ,SeniorsAvgHrsCommInvolve_2018 ,SeniorsAvgHrsHelpDirectly_2018 ,SeniorsBarriers_2018 ,SeniorsBarriersVol_2018 ,SeniorsCommInvolveRate_2018 ,SeniorsDonRateByCause_2018 ,SeniorsDonRateByMeth_2018 ,SeniorsDonRates_2018 ,SeniorsEfficiencyConcerns_2018 ,SeniorsHelpDirectlyRate_2018 ,SeniorsReasonsGiving_2018 ,SeniorsReasonsVol_2018 ,SeniorsSolicitationConcerns_2018 ,SeniorsVolRateByActivity_2018 ,SeniorsVolRateByCause_2018 ,SeniorsVolRate_2018
 
-        
+
 def process_data(data):
     for i in range(len(data)):
         data[i]["Estimate"] = np.where(data[i]["Marker"] == "...", 0, data[i]["Estimate"])
@@ -46,13 +46,13 @@ def process_data(data):
         data[i]['cv'] = data[i]['cv'].round(2)
 
         # if not data[i]["Attribute"].isna().all():
-        #     data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        #     data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
         #     data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not support<br>cause", "Do not support cause", data[i]["Attribute"])
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>barrier", "Do not report barrier", data[i]["Attribute"])
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>barrier", "Report barrier", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20, break_long_words=False)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
 

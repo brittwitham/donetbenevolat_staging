@@ -22,7 +22,7 @@ def get_data():
     return DonMethAvgDon_2018, DonMethDonRates_2018
 
 def process_data(data):
-    
+
     for i in range(len(data)):
         data[i]["Estimate"] = np.where(data[i]["Marker"]=="...", 0, data[i]["Estimate"])
         data[i]["CI Upper"] = np.where(data[i]["Marker"]=="...", 0, data[i]["CI Upper"])
@@ -31,7 +31,7 @@ def process_data(data):
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
-        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
         data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
 
         data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
@@ -49,8 +49,8 @@ def get_region_names():
                          'Ontario',
                          'Quebec',
                          'Atlantic Provinces (NB, NS, PE, NL)'], dtype=str)
-    
-    
+
+
 # def translate_data(df):
 #     df.QuestionText = df.QuestionText.replace('Public place', 'Lieu public')
 #     df.QuestionText = df.QuestionText.replace('Place of worship', 'Lieu de culture')

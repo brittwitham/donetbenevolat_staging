@@ -314,7 +314,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     df = AvgHrsReasons_2018[AvgHrsReasons_2018['Region'] == region]
-    df["Group"] = df["Group"].str.wrap(30)
+    df["Group"] = df["Group"].str.wrap(30, break_long_words=False)
     df["Group"] = df["Group"].replace({'\n': '<br>'}, regex=True)
     df = df.replace("Report motivation", "Signalent une motivation")
     df = df.replace("Do not report motivation", "Ne signalent aucune motivation")

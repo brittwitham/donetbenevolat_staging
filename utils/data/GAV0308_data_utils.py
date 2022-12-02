@@ -6,7 +6,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # SubSecAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-SubSecAvgDon.csv")))
     YouthAvgDonAmt_2018 = pd.read_csv(op.abspath(filepath.format("2018-YouthAvgDonAmt.csv")))
     YouthAvgDonByCause_2018 = pd.read_csv(op.abspath(filepath.format("2018-YouthAvgDonByCause.csv")))
@@ -33,8 +33,8 @@ def get_data():
 
     return YouthAvgDonAmt_2018 ,YouthAvgDonByCause_2018 ,YouthAvgDonByMeth_2018,YouthAvgHrs_2018 ,YouthAvgHrsByActivity_2018 ,YouthAvgHrsByCause_2018 ,YouthAvgHrsCommInvolve_2018 ,YouthAvgHrsHelpDirectly_2018 ,YouthBarriers_2018,YouthBarriersVol_2018 ,YouthCommInvolveRate_2018 ,YouthDonRateByCause_2018 ,YouthDonRateByMeth_2018 ,YouthDonRates_2018 ,YouthEfficiencyConcerns_2018 ,YouthHelpDirectlyRate_2018 ,YouthReasonsGiving_2018 ,YouthReasonsVol_2018,YouthSolicitationConcerns_2018 ,YouthVolRateByActivity_2018 ,YouthVolRateByCause_2018 , YouthVolRate_2018
 
-    
-        
+
+
 def process_data(data):
     for i in range(len(data)):
         data[i]["Estimate"] = np.where(data[i]["Marker"] == "...", 0, data[i]["Estimate"])
@@ -47,13 +47,13 @@ def process_data(data):
         data[i]['cv'] = data[i]['cv'].round(2)
 
         # if not data[i]["Attribute"].isna().all():
-        #     data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        #     data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
         #     data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not support<br>cause", "Do not support cause", data[i]["Attribute"])
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>barrier", "Do not report barrier", data[i]["Attribute"])
         #     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>barrier", "Report barrier", data[i]["Attribute"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20, break_long_words=False)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
 def process_rates(rates):

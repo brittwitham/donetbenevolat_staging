@@ -58,7 +58,7 @@ for i in range(len(data)):
     data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
     data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
-    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
     data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
 
     # Round rates and dollar amounts to zero decimal places
@@ -82,7 +82,7 @@ for i in range(len(data_num)):
     data_num[i]["Group"] = np.where(data_num[i]["Attribute"]=="Unable to determine", "", data_num[i]["Group"])
     data_num[i]["Group"] = np.where(data_num[i]["Attribute"]=="Unknown", "", data_num[i]["Group"])
 
-    data_num[i]["Attribute"] = data_num[i]["Attribute"].str.wrap(15)
+    data_num[i]["Attribute"] = data_num[i]["Attribute"].str.wrap(15, break_long_words=False)
     data_num[i]["Attribute"] = data_num[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
 
     # Round number amounts to two decimal places

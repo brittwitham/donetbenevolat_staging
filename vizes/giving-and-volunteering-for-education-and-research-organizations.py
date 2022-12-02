@@ -60,7 +60,7 @@ for i in range(len(data)):
     data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
     data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
-    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
     data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Education and<br>research<br>volunteer", "Education and research volunteer", data[i]["Attribute"])
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Education and<br>research donors", "Education and research donors", data[i]["Attribute"])
@@ -69,7 +69,7 @@ for i in range(len(data)):
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-education<br>and research<br>donors", "Non-education and research donors", data[i]["Attribute"])
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-education<br>and research<br>donor", "Non-education and research donor", data[i]["Attribute"])
 
-    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15)
+    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15, break_long_words=False)
     data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
     # Round rates and dollar amounts to zero decimal places

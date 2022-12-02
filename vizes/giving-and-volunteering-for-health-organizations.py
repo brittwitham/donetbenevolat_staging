@@ -61,7 +61,7 @@ for i in range(len(data)):
     data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
 
-    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+    data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
     data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Health<br>volunteer", "Health volunteer", data[i]["Attribute"])
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Health<br>donors", "Health donors", data[i]["Attribute"])
@@ -69,7 +69,7 @@ for i in range(len(data)):
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donors", "Non-health donors", data[i]["Attribute"])
     data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-health<br>donor", "Non-health donor", data[i]["Attribute"])
 
-    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15)
+    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(15, break_long_words=False)
     data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
     # Round rates and dollar amounts to zero decimal places

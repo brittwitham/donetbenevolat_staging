@@ -34,7 +34,7 @@ footer = html.Footer(
 
 content = dbc.Container(
     [
-        dcc.Location(id='url', refresh=False),
+        # dcc.Location(id='url', refresh=False),
         dbc.Row(
             html.Div(
                 html.Div(
@@ -54,7 +54,7 @@ content = dbc.Container(
             )
         ),
         html.Br(),
-                dcc.Location(id='url', refresh=False),
+                # dcc.Location(id='url', refresh=False),
         dbc.Row(
             html.Div(
                 html.Div(
@@ -74,7 +74,7 @@ content = dbc.Container(
             )
         ),
         html.Br(),
-                dcc.Location(id='url', refresh=False),
+                # dcc.Location(id='url', refresh=False),
         dbc.Row(
             html.Div(
                 html.Div(
@@ -673,7 +673,7 @@ layout = html.Div([
                     ),
                 ]
             )
-        ), 
+        ),
     ],
         className='masthead',
         style={'backgroundImage':"url('./assets/portal_image.png')"}

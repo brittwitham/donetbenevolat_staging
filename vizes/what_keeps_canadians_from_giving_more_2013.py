@@ -51,13 +51,13 @@ for i in range(len(data)):
     data[i]["Group"] = np.where(data[i]["Attribute"] == "Not stated", "", data[i]["Group"])
 
     if not data[i]["Attribute"].isna().all():
-        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
         data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not support<br>cause", "Do not support cause", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Do not report<br>barrier", "Do not report barrier", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Report<br>barrier", "Report barrier", data[i]["Attribute"])
 
-    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20)
+    data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20, break_long_words=False)
     data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
     data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
@@ -534,7 +534,7 @@ def update_graph(region):
     ])
 def update_graph(region):
     dff = AvgAmtBarriers_2013[AvgAmtBarriers_2013['Region'] == region]
-    dff["Group"] = dff["Group"].str.wrap(20)
+    dff["Group"] = dff["Group"].str.wrap(20, break_long_words=False)
     dff["Group"] = dff["Group"].replace({'\n': '<br>'}, regex=True)
     name1 = "Report barrier"
     name2 = "Do not report barrier"

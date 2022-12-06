@@ -66,10 +66,10 @@ def process_data(data):
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
 
-        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(35)
+        data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(35, break_long_words=False)
         data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
-        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15)
+        data[i]["Attribute"] = data[i]["Attribute"].str.wrap(15, break_long_words=False)
         data[i]["Attribute"] = data[i]["Attribute"].replace({'\n': '<br>'}, regex=True)
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Religion<br>volunteer", "Religion volunteer", data[i]["Attribute"])
         data[i]["Attribute"] = np.where(data[i]["Attribute"] == "Non-religion<br>volunteer", "Non-religion volunteer", data[i]["Attribute"])

@@ -338,7 +338,7 @@ def update_graph(region):
     ])
 def update_graph(region, barrier):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "Genre"]
@@ -356,7 +356,7 @@ def update_graph(region, barrier):
     ])
 def update_graph(region, barrier):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "Groupe d'âge"]
@@ -374,7 +374,7 @@ def update_graph(region, barrier):
     ])
 def update_graph(region, barrier):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "Éducation"]
@@ -392,7 +392,7 @@ def update_graph(region, barrier):
     ])
 def update_graph(region, barrier):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "Catégorie de revenu familial"]
@@ -409,7 +409,7 @@ def update_graph(region, barrier):
     ])
 def update_graph(region, barrier):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == "Situation d'activité"]
@@ -427,7 +427,7 @@ def update_graph(region, barrier):
 #     ])
 # def update_graph(region, barrier):
 #     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-#     dff["Attribute"] = dff["Attribute"].str.wrap(20)
+#     dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
 #     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
 #     dff = dff[dff['Region'] == region]
 #     dff = dff[dff["Group"] == "Marital status"]
@@ -444,7 +444,7 @@ def update_graph(region, barrier):
 #     ])
 # def update_graph(region, barrier):
 #     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-#     dff["Attribute"] = dff["Attribute"].str.wrap(20)
+#     dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
 #     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
 #     dff = dff[dff['Region'] == region]
 #     dff = dff[dff["Group"] == "Labour force status"]
@@ -461,7 +461,7 @@ def update_graph(region, barrier):
 #     ])
 # def update_graph(region, barrier, status):
 #     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-#     dff["Attribute"] = dff["Attribute"].str.wrap(20)
+#     dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
 #     dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
 #     dff = dff[dff['Region'] == region]
 #     dff = dff[dff["Group"] == status]
@@ -479,7 +479,7 @@ def update_graph(region, barrier):
 
 def update_graph(region, barrier, status):
     dff = BarriersVol_2018.append(BarriersVolMore_2018, ignore_index=True)
-    # dff["Attribute"] = dff["Attribute"].str.wrap(20)
+    # dff["Attribute"] = dff["Attribute"].str.wrap(20, break_long_words=False)
     # dff["Attribute"] = dff["Attribute"].replace({'\n': '<br>'}, regex=True)
     dff = dff[dff['Region'] == region]
     dff = dff[dff["Group"] == status]

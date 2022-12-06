@@ -122,7 +122,7 @@ def vertical_percentage_graph_volunteers(dff, title, by="Attribute"):
                      autorange=False,
                      range=[0, 1.25 * max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=11),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])
@@ -261,7 +261,7 @@ def vertical_hours_graph(dff, name1, name2, title):
                      autorange=False,
                      range=[0, 1.25 * max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=11),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["Group"])
@@ -401,7 +401,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
                      autorange=False,
                      range=[0, 1.25 * max(np.concatenate([dff1["CI Upper"], dff2["CI Upper"]]))])
     fig.update_yaxes(autorange="reversed",
-                     ticklabelposition="outside top",
+                     ticklabelposition="outside",
                      tickfont=dict(size=11),
                      categoryorder='array',
                      categoryarray=dff1.sort_values(by="Estimate", ascending=False)["QuestionText"])

@@ -75,7 +75,7 @@ app.index_string = """<!DOCTYPE html>
               Input('url', 'pathname'))
 def display_page(pathname):
     if pathname == '/':
-        return homepage.layout
+        return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
     elif pathname == '/Qui_donne_aux_organismes_caritatifs_et_combien_2018': #WDA0101_fr':
         return Qui_donne_aux_organismes_caritatifs_et_combien_2018.layout
     elif pathname == '/Comment_donne_t_on_au_Canada_2018': #HDC0102_fr':
@@ -144,7 +144,7 @@ def display_page(pathname):
     elif pathname == '/popup':
         return definition.layout
     else:
-        return '404'
+        return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
 
 if __name__ == '__main__':
     # app.run_server(debug=True)

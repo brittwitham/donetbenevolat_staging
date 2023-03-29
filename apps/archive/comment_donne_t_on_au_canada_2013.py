@@ -14,6 +14,7 @@ from utils.data.WTO0207_data_utils import get_data, process_data, get_region_nam
 
 from app import app
 from homepage import footer #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 BarriersVol_2018, SubSecAvgHrs_2018, SubSecVolRates_2018, AllocationVol_2018 = get_data()
@@ -25,22 +26,7 @@ region_values = get_region_values()
 # region_names = get_region_names()
 region_names = ['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT']
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/how_do_canadians_donate_2013",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("how_do_canadians_donate_2013")
 
 marginTop = 20
 
@@ -60,7 +46,7 @@ layout = html.Div([
                     )
                 )
             ),
-        ], className="bg-secondary text-white text-center pt-4",
+        ], className="sub-header bg-secondary text-white text-center pt-5",
     ),
     dbc.Container([
         dbc.Row([
@@ -85,7 +71,7 @@ layout = html.Div([
             # )
             ],
             id='sticky-dropdown'),
-    ], className='sticky-top bg-light mb-2', fluid=True),
+    ], className='sticky-top select-region mb-2', fluid=True),
 
    dbc.Container([
        dbc.Row([

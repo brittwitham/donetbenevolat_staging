@@ -12,6 +12,7 @@ from utils.data.general import get_dataframe
 
 from app import app
 from homepage import footer #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 SeniorsAvgDonAmt_2018 = get_dataframe("2018-SeniorsAvgDonAmt.csv")
@@ -110,22 +111,7 @@ region_names = np.array(['Canada',
                          'Atlantic Provinces (NB, NS, PE, NL)'], dtype=str)
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/giving_and_volunteering_by_seniors",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("giving_and_volunteering_by_seniors")
 
 marginTop = 20
 
@@ -152,7 +138,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center py-4",
+        className="sub-header bg-secondary text-white text-center py-4",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
@@ -168,7 +154,7 @@ layout = html.Div([
                     html.Br(),
                 ],className="m-2 p-2"),
             ),id='sticky-dropdown'),
-    ],className='sticky-top bg-light mb-2', fluid=True),
+    ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container([
        dbc.Row([
             html.Div([

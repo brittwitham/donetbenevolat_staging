@@ -71,7 +71,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     # Note: filters put in separate container to make floating element later
     dbc.Container([
@@ -88,7 +88,7 @@ layout = html.Div([
                     html.Br(),
                 ],className="m-2 p-2"),
             ),id='sticky-dropdown'),
-    ],className='sticky-top bg-light mb-2', fluid=True),
+    ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container([
        dbc.Row([
             html.Div([

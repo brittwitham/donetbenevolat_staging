@@ -13,6 +13,7 @@ from utils.data.UTV0203_data_utils import get_data, process_data, get_region_nam
 
 from app import app
 from homepage import footer #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 TopVolsMotivations_2018, TopVolsBarriers_2018, TopVolsPercTotHours_2018, TopVolsPercTotVols_2018, TopVolsVolRates_2018, TopVolsDemoLikelihoods = get_data()
@@ -29,22 +30,8 @@ demo_names.remove('État civil (original)')
 # demo_names.remove('')
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Understanding_top_volunteers_2018",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("Understanding_top_volunteers_2018")
+
 home_button = gen_home_button()
 marginTop = 20
 
@@ -67,29 +54,32 @@ layout = html.Div([
                     className='col-md-10 col-lg-8 mx-auto position-relative'
                 )
             )
-        ),
-        home_button
+        )
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     # Note: filters put in separate container to make floating element later
-   dbc.Container(
-       [
-        html.Div(["Sélectionnez une région:",
-            dcc.Dropdown(
-                      id='region-selection',
-                      options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                      value='CA',
-                      style={'verticalAlgin': 'middle'}
-                  ),
-            ],
-            className='col-md-10 col-lg-8 mx-auto mt-4'
-        ),
-        ], style={'backgroundColor':'F4F5F6'},
-    className='sticky-top bg-light mb-2', fluid=True), 
-   dbc.Container(
-       dbc.Row([
+    dbc.Container([
+        home_button,
+        dbc.Row(
+        dbc.Col(
+            html.Div([
+                "Sélectionnez une région:",
+                dcc.Dropdown(
+                    id='region-selection',
+                    options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                    value='CA',
+                ),
+                html.Br()
+                ],
+                className="m-2 p-2"),
+            ), id='sticky-dropdown'),
+        ],
+        className='sticky-top select-region mb-2', fluid=True
+    ), 
+    dbc.Container(
+        dbc.Row([
             html.Div(
                 [
                     dcc.Markdown('''

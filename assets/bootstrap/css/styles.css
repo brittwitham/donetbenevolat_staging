@@ -1,3 +1,17 @@
+html * {
+  color: black !important;
+  font-family: 'Open Sans' !important;
+}
+
+:root {
+  --red: #ba0020;
+  --gray: #f6f6f6;
+}
+
+.section-title {
+  color: var(--red) !important;
+}
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -15,14 +29,133 @@
   max-width: 600px;
   margin: auto;
 }
+
 .navbar-brand {
   font-size: 25px;
 }
 
-.data-catalyst {
-  font-size: 30px;
-  font-style: italic;
-  color: #fff;
-  padding: 100px 0 100px;
-  text-align: center;
+.jumbotron h1 {
+  font-size: 64px;
+  color: white !important;
+  padding: 120px 0 120px;
+  text-align: left;
+  font-weight: 700;
+}
+
+/* Header */
+header.masthead .overlay {
+  background-color: var(--red);
+}
+
+.header {
+  padding-top: 1.8vw;
+  padding-bottom: 1.8vw;
+  border-bottom: 1px solid black;
+}
+
+.header img {
+  width: auto;
+  max-width: 100%;
+  max-height: 50px;
+}
+
+.header-link {
+  padding: 0.1em 0 !important;
+  color: black !important;
+}
+
+.nav-item:not(:first-child) .header-link {
+  margin-left: 1.2vw;
+}
+
+@media screen and (max-width: 767px) {
+  .header-link {
+    font-size: calc((1.2 - 1) * calc(0.012 * min(100vh, 900px)) + 1rem);
+  }
+}
+
+@media screen and (min-width: 768px), screen and (max-width: calc(1208.6px)) {
+  .header-link {
+    font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+  }
+}
+
+@media screen and (min-width: 1209.6px) {
+  .header-link {
+    font-size: calc(1.2 * 1rem);
+  }
+}
+
+.header-link__underline {
+  background-image: linear-gradient(black, black);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 100%;
+  background-position: 0 calc(100% - 0.1em);
+}
+
+/* Footer */
+
+footer {
+  padding: 0;
+}
+
+.footer {
+  background-color: var(--red);
+  padding: 0;
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  color: white !important;
+  word-wrap: break-word;
+  font-size: 12.6px;
+  line-height: 1.3;
+}
+
+/* Card */
+.card {
+  background-color: var(--gray);
+  border: none;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.sub-header.bg-secondary {
+  background-color: var(--gray) !important;
+}
+
+.select-region {
+  background-color: var(--gray) !important;
+}
+
+.main-button-container {
+  /* padding: 1.7em 1.4em; */
+  background-color: var(--gray) !important;
+}
+
+.main-button {
+  background-color: var(--red);
+  border: none;
+  opacity: 1;
+  transition: 0.1s opacity linear;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  padding: 1.7em 1.4em;
+}
+
+.main-button:hover,
+.main-button:active,
+.main-button:focus {
+  /* transition: 1s opacity linear; */
+  background-color: var(--red);
+  border: none;
+  opacity: 0.8;
 }

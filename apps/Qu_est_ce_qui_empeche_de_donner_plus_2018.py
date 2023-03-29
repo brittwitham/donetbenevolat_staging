@@ -17,6 +17,7 @@ from utils.data.WKC0106_data_utils import get_data, process_data, get_region_nam
 
 from app import app
 from homepage import footer #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 Barriers_2018, AvgAmtBarriers_2018, GivingConcerns_2018, SolicitationConcerns_2018, BarriersByCause_2018 = get_data()
@@ -33,22 +34,7 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/What_keeps_Canadians_from_giving_more_2018",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("What_keeps_Canadians_from_giving_more_2018")
 home_button = gen_home_button()
 marginTop = 20
 
@@ -74,7 +60,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     # Note: filters put in separate container to make floating element later
 #    dbc.Container(
@@ -90,7 +76,7 @@ layout = html.Div([
 #             className='col-md-10 col-lg-8 mx-auto mt-4'
 #         ),
 #         ], style={'backgroundColor':'F4F5F6'},
-#     className='sticky-top bg-light mb-2', fluid=True),
+#     className='sticky-top select-region mb-2', fluid=True),
     dbc.Container([
         home_button,
         dbc.Row([
@@ -106,7 +92,7 @@ layout = html.Div([
                 ], className='m-2 p-2')
             )
         ])
-    ],className='sticky-top bg-light mb-2', fluid=True), 
+    ],className='sticky-top select-region mb-2', fluid=True), 
    dbc.Container(
        dbc.Row([
             html.Div(
@@ -170,7 +156,7 @@ layout = html.Div([
                     #     ),
                     #   ],
                     #  className='col-md-10 col-lg-8 mx-auto mt-4'),
-                    #  className='sticky-top bg-light mb-2', fluid=True),
+                    #  className='sticky-top select-region mb-2', fluid=True),
                     dbc.Container([
                         html.Div([
                             "Sélectionnez une barrière:",
@@ -183,7 +169,7 @@ layout = html.Div([
                         ],
                             className='col-md-10 col-lg-8 mx-auto mt-4'),
                     ], style={'backgroundColor':'F4F5F6'},),
-                    # className='sticky-top bg-light mb-2', fluid=True),
+                    # className='sticky-top select-region mb-2', fluid=True),
                         html.Div([
                             dcc.Graph(id='Barriers-Gndr', style={'marginTop': marginTop}),
                         ]),

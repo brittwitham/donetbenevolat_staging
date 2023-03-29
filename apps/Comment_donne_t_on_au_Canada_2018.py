@@ -9,6 +9,7 @@ from utils.data.HDC0102_data_utils import get_data, process_data, get_region_nam
 from app import app
 from homepage import footer
 from utils.home_button import gen_home_button #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 DonMethAvgDon_2018, DonMethDonRates_2018 = get_data()
@@ -25,22 +26,7 @@ method_names = DonMethAvgDon_2018["QuestionText"].unique()
 status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/How_do_Canadians_donate_2018",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("How_do_Canadians_donate_2018")
 home_button = gen_home_button()
 marginTop = 20
 
@@ -66,7 +52,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     dbc.Container([
         home_button,
@@ -94,7 +80,7 @@ layout = html.Div([
                     html.Br(),
                 ],className="m-2 p-2"),
             )]),
-    ],className='sticky-top bg-light mb-2', fluid=True),
+    ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             html.Br(),

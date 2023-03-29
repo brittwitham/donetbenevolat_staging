@@ -16,6 +16,7 @@ from utils.data.WVA0201_data_utils import get_data, process_data, get_region_val
 
 from app import app
 from homepage import footer #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 VolRate_2018, AvgTotHours_2018, FormsVolunteering_2018, PercTotVols_2018, PercTotHours_2018 = get_data()
@@ -33,22 +34,7 @@ region_names = get_region_names()
 status_names = ["Situation d'activité", "Statut d'immigration"]
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/Who_volunteers_and_how_much_time_do_they_contribute_2018",external_link=True)
-            ),
-        ],
-        brand="Centre Canadien de Connaissances sur les Dons et le Bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+navbar = gen_navbar("Who_volunteers_and_how_much_time_do_they_contribute_2018")
 home_button = gen_home_button()
 marginTop = 20
 
@@ -74,7 +60,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     dbc.Container([
         home_button,
@@ -87,10 +73,10 @@ layout = html.Div([
                        options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                        value='CA',
                        ),
-                    html.Br(),
+                    html.Br()
                 ],className="m-2 p-2"),
             ), id='sticky-dropdown'),
-    ], className='sticky-top bg-light mb-2', fluid=True),
+    ], className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             html.Div(

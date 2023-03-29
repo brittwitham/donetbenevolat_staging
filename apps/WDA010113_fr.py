@@ -14,6 +14,7 @@ from utils.data.WDA0101_data_utils_13 import get_data, get_region_values, proces
 from app import app
 from homepage import footer
 from utils.home_button import gen_home_button #navbar, footer
+from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
 
@@ -31,24 +32,8 @@ region_values = get_region_values()
 region_names = get_region_names()
 
 ###################### App layout ######################
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.donetbenevolat.ca/who_donates_and_how_much_do_they_give_2013",external_link=True)
-            ),
-
-        ],
-        brand="Canadian Knowledge Hub for Giving and Volunteering",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
-home_button = gen_home_button()
+navbar = gen_navbar("who_donates_and_how_much_do_they_give_2013")
+home_button = gen_home_button(True, True)
 marginTop = 20
 
 layout = html.Div([
@@ -74,7 +59,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     dbc.Container([
         home_button,
@@ -91,7 +76,7 @@ layout = html.Div([
                     html.Br(),
                 ],className="m-2 p-2"),
             ),id='sticky-dropdown'),
-    ],className='sticky-top bg-light mb-2', fluid=True),
+    ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             # Starting text

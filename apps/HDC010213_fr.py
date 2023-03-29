@@ -33,7 +33,7 @@ status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 ###################### App layout ######################
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(True, True)
 navbar = gen_navbar("how_do_canadians_donate_2013")
 
 layout = html.Div([
@@ -58,7 +58,7 @@ layout = html.Div([
         ),
     ],
         # className='masthead'
-        className="bg-secondary text-white text-center pt-4",
+        className="sub-header bg-secondary text-white text-center pt-5",
     ),
     dbc.Container([
         home_button,
@@ -86,7 +86,7 @@ layout = html.Div([
                     html.Br(),
                 ], className="m-2 p-2"),
             )]),
-    ], className='sticky-top bg-light mb-2', fluid=True),
+    ], className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             html.Br(),

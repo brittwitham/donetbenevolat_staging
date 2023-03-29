@@ -2,22 +2,10 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
-navbar = dbc.NavbarSimple(
-        children=[
-            dbc.NavItem(
-                # dcc.Link("Home", href="/")
-                dbc.NavLink("À propos", href="https://www.donetbenevolat.ca/",external_link=True)
-            ),
-            dbc.NavItem(
-                dbc.NavLink("EN", href="http://app.givingandvolunteering.ca/",external_link=True)
-            ),
-        ],
-        brand="Centre canadien de connaissances sur les dons et le bénévolat",
-        brand_href="/",
-        color="#4B161D",
-        dark=True,
-        sticky='top'
-    )
+from utils.gen_navbar import gen_navbar
+
+
+navbar = gen_navbar()
 
 footer = html.Footer(
        dbc.Container(

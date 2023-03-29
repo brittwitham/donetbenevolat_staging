@@ -19,11 +19,11 @@ layout = dbc.Container(
         dbc.Row(
             html.Div([
                 dbc.Button(
-                        "Fermer", id="input", className="m-2", n_clicks=0,
+                        "Fermer", id="input", color="secondary", className="main-button text-white m-2", n_clicks=0,
                     ),
                 html.Div(id='output-clientside'),
 
-            ], className='d-flex justify-content-center p-3')
+            ], className='d-flex main-button-container justify-content-center p-3')
         ),
     ]
 )

@@ -21,12 +21,15 @@ from utils.gen_navbar import gen_navbar
 ####################### Data processing ######################
 VolRate_2018, AvgTotHours_2018, FormsVolunteering_2018, PercTotVols_2018, PercTotHours_2018 = get_data()
 
+PercTotVols_2018 = translate(PercTotVols_2018)
+PercTotHours_2018 = translate(PercTotHours_2018)
+
+VolRate_2018 = translate(VolRate_2018)
+AvgTotHours_2018 = translate(AvgTotHours_2018)
+
 data = [VolRate_2018, AvgTotHours_2018, PercTotVols_2018, PercTotHours_2018, FormsVolunteering_2018]
 
 process_data(data)
-
-PercTotVols_2018 = translate(PercTotVols_2018)
-PercTotHours_2018 = translate(PercTotHours_2018)
 
 region_values = get_region_values()
 region_names = get_region_names()
@@ -101,7 +104,7 @@ layout = html.Div([
                      html.Ul([
                         html.Li('la probabilité de faire du bénévolat et le nombre moyen d’heures de bénévolat par personne;'),
                         html.Li('les pourcentages de la population canadienne et le nombre total d’heures de bénévolat pour chaque sous-groupe.'),
-               
+
                     ]),
                       html.Div([
                     html.P("À elles toutes, ces mesures brossent un tableau détaillé du bassin de bénévoles et fournissent un aperçu de la concentration générale du soutien bénévole des organismes de bienfaisance et à but non lucratif. Nous décrivons dans le texte les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales sont très similaires."),
@@ -145,7 +148,7 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by formal education
                         html.Div([
                             dcc.Graph(id='PercVolHours-Educ', style={'marginTop': marginTop}),
-                        ]),             
+                        ]),
                     ]),
                     # Marital status
                     html.Div([
@@ -159,7 +162,7 @@ layout = html.Div([
                         # Percentage of  Canadians & total hours volunteered by marital status
                         html.Div([
                             dcc.Graph(id='PercVolHours-MarStat', style={'marginTop': marginTop}),
-                        ]),             
+                        ]),
                     ]),
                     # household income
                     html.Div([
@@ -173,7 +176,7 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by household income
                         html.Div([
                             dcc.Graph(id='PercVolHours-Inc', style={'marginTop': marginTop}),
-                        ]),       
+                        ]),
                     ]),
                     # Religious attendance
                     html.Div([
@@ -187,14 +190,14 @@ layout = html.Div([
                         # Percentage of Canadians & total hours volunteered by religious attendance
                         html.Div([
                             dcc.Graph(id='PercVolHours-Relig', style={'marginTop': marginTop}),
-                        ]),       
+                        ]),
                     ]),
                     # Other personal & economic characteristics
                     html.Div([
                         html.H5("Autres facteurs"),
                         html.P("La situation d’emploi et le statut d’immigration sont également des prédicteurs significatifs des tendances du bénévolat. En général, la probabilité de faire du bénévolat varie peu selon le statut d’emploi, mais les bénévoles qui ne font pas partie de la population active ont tendance à faire don de beaucoup plus d’heures. Quant au statut d’immigration, les personnes naturalisées (qui ont tendance à être plus âgées) sont légèrement moins susceptibles de faire du bénévolat que les personnes nées au Canada."),
                         # Volunteer rate & average hours volunteered by employment status
-                        
+
                         html.Div([
                             html.Div(['Select status:',
                                       dcc.Dropdown(
@@ -206,7 +209,7 @@ layout = html.Div([
                                      style={'width': '33%', 'display': 'inline-block'})
                         ]),
                         dcc.Graph(id='status-hours', style={'marginTop': marginTop}),
-                        
+
                         # html.Div([
                         #     dcc.Graph(id='VolRateAvgHours-Labour', style={'marginTop': marginTop}),
                         # ]),
@@ -286,7 +289,7 @@ def update_graph(region):
     # dff2 = dff2.replace("Male gender", "Hommes")
     # dff2 = dff2.replace("Female gender", "Femmes")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -394,7 +397,7 @@ def update_graph(region):
     # dff2 = dff2.replace('75 years and over', '75 ans et plus')
     # dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -431,7 +434,7 @@ def update_graph(region):
     # dff2 = dff2.replace('University Diploma', "Diplôme universtaire")
     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -511,9 +514,9 @@ def update_graph(region):
     # dff2 = dff2.replace('Divorced', 'divorcé.e')
     # dff2 = dff2.replace('Widowed', 'Veuf.ve')
     # dff2 = dff2.replace('Single, never married', 'Célibataire, jamais marié.e')
-    
+
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -594,7 +597,7 @@ def update_graph(region):
     # dff2 = dff2.replace('$125,000 and more', '125,000 $ et plus')
     # dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -669,7 +672,7 @@ def update_graph(region):
     # dff2 = dff2.replace('Once or twice a year', '1 ou 2 fois par an')
     # dff2 = dff2.replace('Not at all', 'Pas du tout')
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 
@@ -737,7 +740,7 @@ def update_graph(region):
 #     # dff2 = dff2.replace('Unemployed', 'Au chômage')
 #     # dff2 = dff2.replace('Not in labour force', 'Pas dans la population active')
 #     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
 #     # name2 = "Average hours"
 #     name2 = "Nombre d'heures moyen"
 
@@ -805,7 +808,7 @@ def update_graph(region):
 #     # dff2 = dff2.replace('Non-Canadian', 'Non canadien.ne')
 #     dff2 = dff2.replace("Volunteer rate", "Taux de bénévolat")
 #     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
 #     # name2 = "Average hours"
 #     name2 = "Nombre d'heures moyen"
 
@@ -864,9 +867,9 @@ def update_graph(region, status):
 
     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     dff2 = dff2[dff2['Group'] == status]
-    
+
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 

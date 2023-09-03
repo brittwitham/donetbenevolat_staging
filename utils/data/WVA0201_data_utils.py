@@ -6,10 +6,10 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
-    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate_FR.csv")))
-    AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotHours_FR.csv")))
+    VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2018-VolRate-FR-updated.csv")))
+    AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2018-AvgTotHours-FR-updated.csv")))
     FormsVolunteering_2018 = pd.read_csv(op.abspath(filepath.format("2018-FormsVolunteering_FR.csv")))
     PercTotVols_2018 = pd.read_csv(op.abspath(filepath.format("2018-PercTotVolunteers-updated_FR.csv")))
     # PercTotVols_2018 = pd.read_csv('tables/2018-PercTotVolunteers-updated.csv', encoding = 'unicode_escape', engine ='python')
@@ -57,13 +57,13 @@ def translate(df):
     df = df.replace('Education', "Éducation")
     df = df.replace('Marital status (original)', "État civil (original)")
     df = df.replace('Marital status (Original)', "État civil (original)")
-    df = df.replace('Marital status', "État civil") 
+    df = df.replace('Marital status', "État civil")
     df = df.replace('Labour force status', "Situation d'activité")
     df = df.replace('Personal income category', "Catégorie de revenu personnel")
     df = df.replace('Family income category', "Catégorie de revenu familial")
     df = df.replace('Frequency of religious attendance', "Fréquence de la fréquentation religieuse")
     df = df.replace('Immigration status', "Statut d'immigration")
-    
+
     #GENDER
     df = df.replace('Male gender', "Hommes")
     df = df.replace('Female gender', "Femmes")
@@ -118,7 +118,7 @@ def translate(df):
     df = df.replace('Native-born', 'Né.e au Canada')
     df = df.replace('Naturalized', 'Naturalisé.e')
     df = df.replace('Non-Canadian', 'Non canadien.ne')
-    
+
     return df
 
 

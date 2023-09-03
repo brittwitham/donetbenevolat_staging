@@ -1,302 +1,732 @@
-,Unnamed: 0,Group,Attribute,Year,QuestionNo,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Region,Marker
-0,0,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.156142531,8.672790444,0.129536334,0.182748729,648,Percentage of donations,Percentage of total donations,CA,
-1,1,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.181065653,21.12001867,0.10593224,0.256199065,151,Percentage of donations,Percentage of total donations,AT,*
-2,2,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.145314161,16.13910192,0.09923654,0.191391782,118,Percentage of donations,Percentage of total donations,QC,
-3,3,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.171289628,15.63156609,0.118683505,0.223895751,174,Percentage of donations,Percentage of total donations,ON,
-4,4,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.17530026,14.5092491,0.125327856,0.225272663,93,Percentage of donations,Percentage of total donations,PR,
-5,5,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.111605284,26.31986438,0.053892617,0.169317951,45,Percentage of donations,Percentage of total donations,AB,*
-6,6,Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.138657046,18.55718954,0.088102887,0.189211205,67,Percentage of donations,Percentage of total donations,BC,*
-7,7,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.131515809,12.0557412,0.10036462,0.162666997,944,Percentage of donations,Percentage of total donations,CA,
-8,8,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.079019007,15.94531107,0.054263758,0.103774256,209,Percentage of donations,Percentage of total donations,AT,
-9,9,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.11015896,16.60698708,0.074216035,0.146101884,178,Percentage of donations,Percentage of total donations,QC,*
-10,10,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.145048629,21.67741125,0.08327206,0.206825198,206,Percentage of donations,Percentage of total donations,ON,*
-11,11,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.155791244,17.55570958,0.102055387,0.2095271,154,Percentage of donations,Percentage of total donations,PR,*
-12,12,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.130889578,33.39443764,0.045011574,0.216767583,79,Percentage of donations,Percentage of total donations,AB,...
-13,13,Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.129304732,16.29522812,0.087906899,0.170702565,118,Percentage of donations,Percentage of total donations,BC,
-14,14,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.139678345,6.322712592,0.122326916,0.157029775,1392,Percentage of donations,Percentage of total donations,CA,
-15,15,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.128698386,10.82626934,0.101323352,0.15607342,312,Percentage of donations,Percentage of total donations,AT,
-16,16,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.138085787,14.55744629,0.09859126,0.177580314,268,Percentage of donations,Percentage of total donations,QC,
-17,17,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.129729356,12.12505049,0.098824654,0.160634058,312,Percentage of donations,Percentage of total donations,ON,
-18,18,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.151018271,15.5136886,0.1049876,0.197048942,190,Percentage of donations,Percentage of total donations,PR,
-19,19,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.165149671,15.92514878,0.113476638,0.216822704,126,Percentage of donations,Percentage of total donations,AB,
-20,20,Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.146999136,11.64606285,0.113363732,0.180634541,184,Percentage of donations,Percentage of total donations,BC,
-21,21,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.184756385,7.055322447,0.159145825,0.210366944,1431,Percentage of donations,Percentage of total donations,CA,
-22,22,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.19495138,11.72352611,0.150047144,0.239855615,379,Percentage of donations,Percentage of total donations,AT,
-23,23,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.210965337,17.45218203,0.138627823,0.283302851,222,Percentage of donations,Percentage of total donations,QC,*
-24,24,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.170080036,12.69155481,0.127669778,0.212490293,329,Percentage of donations,Percentage of total donations,ON,
-25,25,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.157477339,14.71585594,0.111946428,0.20300825,190,Percentage of donations,Percentage of total donations,PR,
-26,26,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.238216976,18.52462994,0.1515158,0.324918153,120,Percentage of donations,Percentage of total donations,AB,*
-27,27,Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.162288499,13.87817018,0.11803754,0.206539459,191,Percentage of donations,Percentage of total donations,BC,
-28,28,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.194714571,7.305226418,0.166767591,0.22266155,1553,Percentage of donations,Percentage of total donations,CA,
-29,29,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.208587857,13.24262471,0.154317105,0.262858608,431,Percentage of donations,Percentage of total donations,AT,
-30,30,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.179874406,14.59448277,0.128296843,0.23145197,239,Percentage of donations,Percentage of total donations,QC,
-31,31,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.191711893,12.53141991,0.144510797,0.238912989,342,Percentage of donations,Percentage of total donations,ON,
-32,32,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.168994115,19.7031386,0.103574236,0.234413994,224,Percentage of donations,Percentage of total donations,PR,*
-33,33,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.226269744,24.80418484,0.116000553,0.336538934,91,Percentage of donations,Percentage of total donations,AB,*
-34,34,Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.19422804,12.9036606,0.144986957,0.243469124,226,Percentage of donations,Percentage of total donations,BC,
-35,35,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.134459624,6.623026808,0.116963126,0.151956123,1149,Percentage of donations,Percentage of total donations,CA,
-36,36,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.144839116,11.3302561,0.112596644,0.177081589,350,Percentage of donations,Percentage of total donations,AT,
-37,37,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.147299606,14.7902307,0.104496107,0.190103105,163,Percentage of donations,Percentage of total donations,QC,
-38,38,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.139981653,12.26243021,0.106256773,0.173706533,251,Percentage of donations,Percentage of total donations,ON,
-39,39,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.11878255,17.00796925,0.079090105,0.158474994,162,Percentage of donations,Percentage of total donations,PR,*
-40,40,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.080066983,24.71769909,0.041183582,0.118950384,59,Percentage of donations,Percentage of total donations,AB,*
-41,41,Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.159123679,12.18078218,0.121042294,0.197205063,164,Percentage of donations,Percentage of total donations,BC,
-42,42,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.058732735,8.482540109,0.048944399,0.068521071,602,Percentage of donations,Percentage of total donations,CA,
-43,43,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.062838601,18.5635061,0.039919939,0.085757263,162,Percentage of donations,Percentage of total donations,AT,*
-44,44,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.068301744,20.02078796,0.041434959,0.095168528,76,Percentage of donations,Percentage of total donations,QC,*
-45,45,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.052158805,15.33164586,0.03644725,0.067870359,130,Percentage of donations,Percentage of total donations,ON,
-46,46,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.072636222,14.92012921,0.051343628,0.093928816,112,Percentage of donations,Percentage of total donations,PR,
-47,47,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.047801764,33.05404768,0.016758219,0.078845309,34,Percentage of donations,Percentage of total donations,AB,*
-48,48,Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.069398867,21.40460076,0.040213695,0.098584039,88,Percentage of donations,Percentage of total donations,BC,*
-49,49,Genre,Hommes,2013,sex_1 / vd1dhrs,0.511609341,3.483436879,0.476594742,0.546623939,3239,Percentage of donations,Percentage of total donations,CA,
-50,50,Genre,Hommes,2013,sex_1 / vd1dhrs,0.516000012,6.491354332,0.450190636,0.581809387,796,Percentage of donations,Percentage of total donations,AT,
-51,51,Genre,Hommes,2013,sex_1 / vd1dhrs,0.563415881,5.830323057,0.498876552,0.627955209,557,Percentage of donations,Percentage of total donations,QC,
-52,52,Genre,Hommes,2013,sex_1 / vd1dhrs,0.490666379,6.90420576,0.424107995,0.557224763,746,Percentage of donations,Percentage of total donations,ON,
-53,53,Genre,Hommes,2013,sex_1 / vd1dhrs,0.467791818,7.581142001,0.39811473,0.537468907,469,Percentage of donations,Percentage of total donations,PR,
-54,54,Genre,Hommes,2013,sex_1 / vd1dhrs,0.565402252,8.459090541,0.471433394,0.65937111,238,Percentage of donations,Percentage of total donations,AB,
-55,55,Genre,Hommes,2013,sex_1 / vd1dhrs,0.495232015,6.306647647,0.43386853,0.556595501,433,Percentage of donations,Percentage of total donations,BC,
-56,56,Genre,Femmes,2013,sex_2 / vd1dhrs,0.488390659,3.649043791,0.45337606,0.523405259,4480,Percentage of donations,Percentage of total donations,CA,
-57,57,Genre,Femmes,2013,sex_2 / vd1dhrs,0.483999988,6.920534833,0.418190615,0.549809361,1198,Percentage of donations,Percentage of total donations,AT,
-58,58,Genre,Femmes,2013,sex_2 / vd1dhrs,0.436584119,7.524086102,0.372044792,0.501123447,707,Percentage of donations,Percentage of total donations,QC,
-59,59,Genre,Femmes,2013,sex_2 / vd1dhrs,0.509333621,6.651164386,0.442775237,0.575892004,998,Percentage of donations,Percentage of total donations,ON,
-60,60,Genre,Femmes,2013,sex_2 / vd1dhrs,0.532208182,6.663550603,0.462531094,0.601885269,656,Percentage of donations,Percentage of total donations,PR,
-61,61,Genre,Femmes,2013,sex_2 / vd1dhrs,0.434597748,11.00509368,0.340628888,0.528566608,316,Percentage of donations,Percentage of total donations,AB,
-62,62,Genre,Femmes,2013,sex_2 / vd1dhrs,0.504767985,6.187503928,0.443404497,0.566131472,605,Percentage of donations,Percentage of total donations,BC,
-63,63,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.117885887,14.13629345,0.085144271,0.150627503,685,Percentage of donations,Percentage of total donations,CA,
-64,64,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.169527745,25.25462099,0.085410627,0.253644862,208,Percentage of donations,Percentage of total donations,AT,*
-65,65,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.100060057,18.67205397,0.063352492,0.136767622,109,Percentage of donations,Percentage of total donations,QC,*
-66,66,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.135983642,26.19282601,0.066003991,0.205963292,139,Percentage of donations,Percentage of total donations,ON,*
-67,67,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.127792356,18.25275537,0.081963813,0.173620899,115,Percentage of donations,Percentage of total donations,PR,*
-68,68,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.085543058,28.31568347,0.037953183,0.133132933,46,Percentage of donations,Percentage of total donations,AB,*
-69,69,Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.073552163,22.04604671,0.0416934,0.105410927,68,Percentage of donations,Percentage of total donations,BC,*
-70,70,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.238807974,5.806067966,0.211566307,0.266049641,1680,Percentage of donations,Percentage of total donations,CA,
-71,71,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.228016221,12.23615531,0.173199448,0.282832994,429,Percentage of donations,Percentage of total donations,AT,
-72,72,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.216419912,12.56546785,0.162990718,0.269849106,220,Percentage of donations,Percentage of total donations,QC,
-73,73,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.236641655,11.17423385,0.184688528,0.288594782,363,Percentage of donations,Percentage of total donations,ON,
-74,74,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.270673504,12.42240702,0.20461112,0.336735888,289,Percentage of donations,Percentage of total donations,PR,
-75,75,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.249847686,15.58129134,0.173361761,0.326333611,136,Percentage of donations,Percentage of total donations,AB,
-76,76,Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.245560597,12.21972862,0.186605279,0.304515915,243,Percentage of donations,Percentage of total donations,BC,
-77,77,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.289569551,5.458530559,0.258514562,0.32062454,2382,Percentage of donations,Percentage of total donations,CA,
-78,78,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.301223908,9.846541974,0.242949762,0.359498054,642,Percentage of donations,Percentage of total donations,AT,
-79,79,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.322489238,9.788457668,0.26046917,0.384509305,423,Percentage of donations,Percentage of total donations,QC,
-80,80,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.263505767,10.46081835,0.209348277,0.317663257,485,Percentage of donations,Percentage of total donations,ON,
-81,81,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.289959754,10.83597303,0.228228034,0.351691474,363,Percentage of donations,Percentage of total donations,PR,
-82,82,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.359613314,16.18893382,0.24523156,0.473995069,164,Percentage of donations,Percentage of total donations,AB,
-83,83,Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.265257379,11.23806008,0.206689221,0.323825537,305,Percentage of donations,Percentage of total donations,BC,
-84,84,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.353736589,4.704080029,0.321043389,0.386429788,2498,Percentage of donations,Percentage of total donations,CA,
-85,85,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.301232126,9.663910033,0.244037279,0.358426974,596,Percentage of donations,Percentage of total donations,AT,
-86,86,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.361030793,9.980760574,0.290234483,0.431827104,430,Percentage of donations,Percentage of total donations,QC,
-87,87,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.363868937,8.206229827,0.305202272,0.422535602,657,Percentage of donations,Percentage of total donations,ON,
-88,88,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.311574386,12.40474441,0.235637583,0.387511189,306,Percentage of donations,Percentage of total donations,PR,
-89,89,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.304995941,14.76372106,0.216526633,0.39346525,167,Percentage of donations,Percentage of total donations,AB,
-90,90,Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.415629861,8.160872498,0.34898816,0.482271562,342,Percentage of donations,Percentage of total donations,BC,
-91,91,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.634386972,2.613724319,0.601809545,0.666964399,4631,Percentage of donations,Percentage of total donations,CA,
-92,92,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.645782274,5.739576305,0.572959252,0.718605295,1239,Percentage of donations,Percentage of total donations,AT,
-93,93,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.637045886,4.739699549,0.577722727,0.696369045,705,Percentage of donations,Percentage of total donations,QC,
-94,94,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.60491246,5.124044062,0.544013745,0.665811175,1033,Percentage of donations,Percentage of total donations,ON,
-95,95,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.571342934,6.853304262,0.494412246,0.648273622,673,Percentage of donations,Percentage of total donations,PR,
-96,96,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.756790081,4.680448653,0.687197065,0.826383097,354,Percentage of donations,Percentage of total donations,AB,
-97,97,État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.63234012,4.843163028,0.572169766,0.692510474,627,Percentage of donations,Percentage of total donations,BC,
-98,98,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.060807135,8.758710893,0.050343141,0.071271129,821,Percentage of donations,Percentage of total donations,CA,
-99,99,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.069111069,17.10375589,0.045886811,0.092335327,194,Percentage of donations,Percentage of total donations,AT,*
-100,100,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.08071199,17.42841651,0.053074492,0.108349488,152,Percentage of donations,Percentage of total donations,QC,*
-101,101,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.059350384,15.884656,0.040827692,0.077873075,193,Percentage of donations,Percentage of total donations,ON,
-102,102,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.052008325,19.45270009,0.032131112,0.071885538,121,Percentage of donations,Percentage of total donations,PR,*
-103,103,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.056107713,30.75856041,0.022200561,0.090014865,52,Percentage of donations,Percentage of total donations,AB,*
-104,104,État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.05057772,18.30486159,0.032387898,0.068767541,109,Percentage of donations,Percentage of total donations,BC,*
-105,105,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.041818942,9.716397387,0.033835668,0.049802216,571,Percentage of donations,Percentage of total donations,CA,
-106,106,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.032687501,16.21515132,0.022273791,0.04310121,184,Percentage of donations,Percentage of total donations,AT,
-107,107,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.046728475,25.67674488,0.023154962,0.070301989,65,Percentage of donations,Percentage of total donations,QC,*
-108,108,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.040938395,15.87295928,0.028171319,0.053705471,117,Percentage of donations,Percentage of total donations,ON,
-109,109,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.04880473,18.48951914,0.031075484,0.066533977,98,Percentage of donations,Percentage of total donations,PR,*
-110,110,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.033295786,33.31939445,0.011499168,0.055092404,30,Percentage of donations,Percentage of total donations,AB,...
-111,111,État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.049138665,22.19753901,0.027708233,0.070569097,77,Percentage of donations,Percentage of total donations,BC,*
-112,112,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.262986951,6.032769514,0.23181574,0.294158162,1693,Percentage of donations,Percentage of total donations,CA,
-113,113,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.252419157,15.1052599,0.177506835,0.327331478,376,Percentage of donations,Percentage of total donations,AT,
-114,114,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.235513648,11.26305915,0.183397155,0.287630142,342,Percentage of donations,Percentage of total donations,QC,
-115,115,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.294798761,10.37214504,0.234723319,0.354874204,400,Percentage of donations,Percentage of total donations,ON,
-116,116,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.32784401,12.54366187,0.247047178,0.408640843,233,Percentage of donations,Percentage of total donations,PR,
-117,117,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.153806421,18.732023,0.097200496,0.210412346,118,Percentage of donations,Percentage of total donations,AB,*
-118,118,État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.267943495,11.25576252,0.208689057,0.327197933,224,Percentage of donations,Percentage of total donations,BC,
-119,119,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.578213989,3.113663576,0.542841711,0.613586266,4497,Percentage of donations,Percentage of total donations,CA,
-120,120,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.584555751,5.747256717,0.51854886,0.650562641,1095,Percentage of donations,Percentage of total donations,AT,
-121,121,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.557220919,6.872327409,0.481983482,0.632458357,742,Percentage of donations,Percentage of total donations,QC,
-122,122,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.565933082,6.03947964,0.498779784,0.63308638,1028,Percentage of donations,Percentage of total donations,ON,
-123,123,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.614241352,6.254582586,0.538759921,0.689722783,696,Percentage of donations,Percentage of total donations,PR,
-124,124,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.644663031,7.743675966,0.546582529,0.742743533,368,Percentage of donations,Percentage of total donations,AB,
-125,125,Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.551750145,5.988511646,0.4868323,0.61666799,568,Percentage of donations,Percentage of total donations,BC,
-126,126,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.049824753,20.46924379,0.029786969,0.069862538,250,Percentage of donations,Percentage of total donations,CA,*
-127,127,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.042828042,37.89791349,0.010938648,0.074717436,78,Percentage of donations,Percentage of total donations,AT,...
-128,128,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.058407058,28.93737759,0.025200241,0.091613874,43,Percentage of donations,Percentage of total donations,QC,*
-129,129,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.06232846,33.19846467,0.021674099,0.102982821,56,Percentage of donations,Percentage of total donations,ON,*
-130,130,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.01981589,36.70000505,0.005527528,0.034104253,28,Percentage of donations,Percentage of total donations,PR,...
-131,131,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.055157595,46.37066626,0.004905821,0.10540937,14,Percentage of donations,Percentage of total donations,AB,...
-132,132,Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.019815079,35.35809773,0.006049723,0.033580435,31,Percentage of donations,Percentage of total donations,BC,...
-133,133,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.371961258,4.808068359,0.33682374,0.407098776,2515,Percentage of donations,Percentage of total donations,CA,
-134,134,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.372616207,8.786647194,0.30829004,0.436942373,707,Percentage of donations,Percentage of total donations,AT,
-135,135,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.384372023,9.30790042,0.314079968,0.454664078,399,Percentage of donations,Percentage of total donations,QC,
-136,136,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.371738458,9.209794245,0.304473301,0.439003615,563,Percentage of donations,Percentage of total donations,ON,
-137,137,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.365942757,10.48873618,0.290531,0.441354514,351,Percentage of donations,Percentage of total donations,PR,
-138,138,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.300179373,15.42364413,0.209215157,0.39114359,133,Percentage of donations,Percentage of total donations,AB,
-139,139,Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.428434776,7.785871291,0.36289655,0.493973001,362,Percentage of donations,Percentage of total donations,BC,
-140,140,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.36535853,4.777215246,0.331066215,0.399650844,1991,Percentage of donations,Percentage of total donations,CA,
-141,141,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.410337217,8.653597682,0.340571775,0.48010266,539,Percentage of donations,Percentage of total donations,AT,
-142,142,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.362546446,9.348444101,0.29595695,0.429135942,321,Percentage of donations,Percentage of total donations,QC,
-143,143,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.381917245,8.539246896,0.317841807,0.445992683,467,Percentage of donations,Percentage of total donations,ON,
-144,144,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.3445014,9.634769707,0.279288266,0.409714534,261,Percentage of donations,Percentage of total donations,PR,
-145,145,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.231331722,19.01320345,0.144915907,0.317747536,129,Percentage of donations,Percentage of total donations,AB,*
-146,146,Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.429503404,7.354277289,0.367443749,0.491563058,274,Percentage of donations,Percentage of total donations,BC,
-147,147,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.258105239,6.757976088,0.223835072,0.292375405,1945,Percentage of donations,Percentage of total donations,CA,
-148,148,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.230570673,9.179199328,0.188988076,0.27215327,548,Percentage of donations,Percentage of total donations,AT,
-149,149,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.27185906,10.84290434,0.213943911,0.329774209,339,Percentage of donations,Percentage of total donations,QC,
-150,150,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.247083739,14.05431911,0.17885667,0.315310808,360,Percentage of donations,Percentage of total donations,ON,
-151,151,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.290851064,11.29149301,0.226326546,0.355375582,315,Percentage of donations,Percentage of total donations,PR,
-152,152,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.301788992,16.66751512,0.202961677,0.400616306,114,Percentage of donations,Percentage of total donations,AB,*
-153,153,Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.234982124,9.59343333,0.190691518,0.279272731,269,Percentage of donations,Percentage of total donations,BC,
-154,154,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.156083359,5.703503244,0.138592907,0.173573811,1557,Percentage of donations,Percentage of total donations,CA,
-155,155,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.172771887,11.21225453,0.134711888,0.210831885,423,Percentage of donations,Percentage of total donations,AT,
-156,156,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.173444198,13.47269841,0.12753316,0.219355235,278,Percentage of donations,Percentage of total donations,QC,
-157,157,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.146803108,10.5693859,0.116317999,0.177288216,326,Percentage of donations,Percentage of total donations,ON,
-158,158,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.141206911,14.28746631,0.101568712,0.180845109,234,Percentage of donations,Percentage of total donations,PR,
-159,159,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.164615069,20.95008512,0.096857452,0.232372685,98,Percentage of donations,Percentage of total donations,AB,*
-160,160,Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.157537134,11.97040533,0.120486594,0.194587674,198,Percentage of donations,Percentage of total donations,BC,
-161,161,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.082375479,8.143552894,0.069195503,0.095555455,943,Percentage of donations,Percentage of total donations,CA,
-162,162,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.098711802,15.70198423,0.068259063,0.12916454,244,Percentage of donations,Percentage of total donations,AT,
-163,163,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.069607175,18.48093261,0.044332788,0.094881563,165,Percentage of donations,Percentage of total donations,QC,*
-164,164,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.097352511,14.0340957,0.070509308,0.124195714,217,Percentage of donations,Percentage of total donations,ON,
-165,165,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.098838337,20.69071105,0.058658924,0.139017749,141,Percentage of donations,Percentage of total donations,PR,*
-166,166,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.045358762,27.44354341,0.020901709,0.069815815,67,Percentage of donations,Percentage of total donations,AB,*
-167,167,Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.06657985,16.49008219,0.045008944,0.088150755,109,Percentage of donations,Percentage of total donations,BC,
-168,168,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.052845284,9.604211079,0.04287355,0.062817017,576,Percentage of donations,Percentage of total donations,CA,
-169,169,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.042157903,21.17380238,0.024619881,0.059695924,116,Percentage of donations,Percentage of total donations,AT,*
-170,170,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.051539455,24.60701976,0.026622121,0.07645679,77,Percentage of donations,Percentage of total donations,QC,*
-171,171,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.055733922,16.09079313,0.03811417,0.073353675,163,Percentage of donations,Percentage of total donations,ON,
-172,172,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.04617404,23.32879228,0.025010278,0.067337802,82,Percentage of donations,Percentage of total donations,PR,*
-173,173,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.068957775,24.1466343,0.036243102,0.101672449,55,Percentage of donations,Percentage of total donations,AB,*
-174,174,Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.040245597,26.69267059,0.019139246,0.061351947,83,Percentage of donations,Percentage of total donations,BC,*
-175,175,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.03621392,22.72754884,0.020043143,0.052384696,277,Percentage of donations,Percentage of total donations,CA,*
-176,176,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.022600156,23.6608119,0.012094001,0.033106312,54,Percentage of donations,Percentage of total donations,AT,*
-177,177,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.013942856,37.36712629,0.003706528,0.024179183,32,Percentage of donations,Percentage of total donations,QC,...
-178,178,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.026913607,24.7335897,0.013834991,0.039992224,71,Percentage of donations,Percentage of total donations,ON,*
-179,179,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.035257597,26.04579716,0.017215247,0.053299947,45,Percentage of donations,Percentage of total donations,PR,*
-180,180,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.110072354,48.08289022,0.006087147,0.21405756,32,Percentage of donations,Percentage of total donations,AB,...
-181,181,Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.024333217,23.78891204,0.012960169,0.035706264,43,Percentage of donations,Percentage of total donations,BC,*
-182,182,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.04901819,12.20924907,0.03725977,0.06077661,430,Percentage of donations,Percentage of total donations,CA,
-183,183,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.022850362,24.95167803,0.011648362,0.034052363,70,Percentage of donations,Percentage of total donations,AT,*
-184,184,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.05706081,50.30121077,0.0006686,0.113453019,52,Percentage of donations,Percentage of total donations,QC,...
-185,185,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.044195867,15.15561386,0.031035805,0.057355929,140,Percentage of donations,Percentage of total donations,ON,
-186,186,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.043170652,28.09353245,0.019342097,0.066999206,47,Percentage of donations,Percentage of total donations,PR,*
-187,187,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.077875327,24.06402891,0.041056414,0.11469424,59,Percentage of donations,Percentage of total donations,AB,*
-188,188,Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.046818675,24.39175998,0.024381664,0.069255686,62,Percentage of donations,Percentage of total donations,BC,*
-189,189,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.04258119,11.46040575,0.032993355,0.052169024,483,Percentage of donations,Percentage of total donations,CA,
-190,190,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.053482138,20.54293152,0.031896051,0.075068224,149,Percentage of donations,Percentage of total donations,AT,*
-191,191,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.069374891,24.25568128,0.036313697,0.102436084,82,Percentage of donations,Percentage of total donations,QC,*
-192,192,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.037767587,20.87668615,0.022276441,0.053258733,94,Percentage of donations,Percentage of total donations,ON,*
-193,193,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.038245578,23.19849511,0.020813716,0.055677441,69,Percentage of donations,Percentage of total donations,PR,*
-194,194,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.012901417,43.09172168,0.001978616,0.023824217,19,Percentage of donations,Percentage of total donations,AB,...
-195,195,Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.055092115,24.40207579,0.02867904,0.08150519,70,Percentage of donations,Percentage of total donations,BC,*
-196,196,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.108495571,7.411493735,0.092696902,0.124294239,1060,Percentage of donations,Percentage of total donations,CA,
-197,197,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.130803142,15.89487799,0.089954454,0.171651831,311,Percentage of donations,Percentage of total donations,AT,
-198,198,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.117944858,16.26257499,0.080259637,0.155630079,184,Percentage of donations,Percentage of total donations,QC,
-199,199,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.102930464,13.33347948,0.075966101,0.129894827,211,Percentage of donations,Percentage of total donations,ON,
-200,200,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.124239872,16.89626963,0.082996462,0.165483282,151,Percentage of donations,Percentage of total donations,PR,*
-201,201,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.068426443,25.22003533,0.034520768,0.102332118,53,Percentage of donations,Percentage of total donations,AB,*
-202,202,Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.132053293,14.86318435,0.093490912,0.170615674,150,Percentage of donations,Percentage of total donations,BC,
-203,203,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.13561419,7.38934414,0.115925638,0.155302741,1204,Percentage of donations,Percentage of total donations,CA,
-204,204,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.233374649,17.14503561,0.154761569,0.311987729,351,Percentage of donations,Percentage of total donations,AT,*
-205,205,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.189663954,12.39473687,0.143476412,0.235851497,231,Percentage of donations,Percentage of total donations,QC,
-206,206,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.111563192,14.43303069,0.079927218,0.143199166,231,Percentage of donations,Percentage of total donations,ON,
-207,207,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.099155063,16.67973276,0.066660798,0.131649329,172,Percentage of donations,Percentage of total donations,PR,*
-208,208,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.084001301,28.04726576,0.037712143,0.130290459,61,Percentage of donations,Percentage of total donations,AB,*
-209,209,Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.167202254,16.77334762,0.112100602,0.222303906,158,Percentage of donations,Percentage of total donations,BC,*
-210,210,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.148593688,11.80560577,0.114127649,0.183059728,1087,Percentage of donations,Percentage of total donations,CA,
-211,211,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.149265214,15.89417346,0.102653046,0.195877381,298,Percentage of donations,Percentage of total donations,AT,
-212,212,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.127317947,14.47241869,0.09111587,0.163520023,187,Percentage of donations,Percentage of total donations,QC,
-213,213,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.166671953,19.4985497,0.102820972,0.230522934,213,Percentage of donations,Percentage of total donations,ON,*
-214,214,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.142658558,19.1977583,0.088850033,0.196467083,174,Percentage of donations,Percentage of total donations,PR,*
-215,215,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.143920334,38.74631953,0.034359493,0.253481174,66,Percentage of donations,Percentage of total donations,AB,...
-216,216,Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.122603463,13.76001882,0.089457968,0.155748958,149,Percentage of donations,Percentage of total donations,BC,
-217,217,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.127065761,8.739486875,0.105247646,0.148883875,995,Percentage of donations,Percentage of total donations,CA,
-218,218,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.129263402,14.67816016,0.09198563,0.166541173,258,Percentage of donations,Percentage of total donations,AT,
-219,219,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.120184036,16.45101994,0.081338389,0.159029683,172,Percentage of donations,Percentage of total donations,QC,
-220,220,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.130241205,16.50268906,0.088012685,0.172469725,203,Percentage of donations,Percentage of total donations,ON,*
-221,221,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.144173785,15.43950836,0.100439452,0.187908118,164,Percentage of donations,Percentage of total donations,PR,
-222,222,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.107649101,21.65332448,0.061852027,0.153446176,59,Percentage of donations,Percentage of total donations,AB,*
-223,223,Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.131841639,14.75970941,0.0936091,0.170074179,139,Percentage of donations,Percentage of total donations,BC,
-224,224,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.128182283,12.44204775,0.096847795,0.159516772,791,Percentage of donations,Percentage of total donations,CA,
-225,225,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.096001296,14.40241721,0.068835951,0.123166641,197,Percentage of donations,Percentage of total donations,AT,
-226,226,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.117323373,24.08863905,0.061796969,0.172849776,119,Percentage of donations,Percentage of total donations,QC,*
-227,227,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.144637077,21.73552798,0.082870637,0.206403518,204,Percentage of donations,Percentage of total donations,ON,*
-228,228,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.11587269,19.22570236,0.072103748,0.159641632,121,Percentage of donations,Percentage of total donations,PR,*
-229,229,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.134945959,25.53861701,0.067234838,0.202657079,55,Percentage of donations,Percentage of total donations,AB,*
-230,230,Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.108608515,18.37691809,0.069394682,0.147822348,95,Percentage of donations,Percentage of total donations,BC,*
-231,231,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.074363227,9.368999041,0.06067478,0.088051673,605,Percentage of donations,Percentage of total donations,CA,
-232,232,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.062169734,15.69063139,0.043004145,0.081335323,145,Percentage of donations,Percentage of total donations,AT,
-233,233,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071173595,21.24805484,0.041460983,0.100886206,97,Percentage of donations,Percentage of total donations,QC,*
-234,234,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.067000548,17.38855817,0.044110607,0.089890488,140,Percentage of donations,Percentage of total donations,ON,*
-235,235,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.06242476,21.56449229,0.035976393,0.088873127,72,Percentage of donations,Percentage of total donations,PR,*
-236,236,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.118457768,21.95959371,0.067349567,0.169565968,63,Percentage of donations,Percentage of total donations,AB,*
-237,237,Catégorie de revenu familial,$120 000 à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071453228,19.08854222,0.044655538,0.098250918,88,Percentage of donations,Percentage of total donations,BC,*
-238,238,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.235104091,5.990540723,0.20743283,0.262775352,1494,Percentage of donations,Percentage of total donations,CA,
-239,239,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.145640427,12.87418177,0.108801724,0.182479129,285,Percentage of donations,Percentage of total donations,AT,
-240,240,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.187017347,17.29074645,0.123484492,0.250550203,192,Percentage of donations,Percentage of total donations,QC,*
-241,241,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.239187974,9.290246325,0.195529424,0.282846525,448,Percentage of donations,Percentage of total donations,ON,
-242,242,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.273229693,14.92147943,0.193127848,0.353331539,202,Percentage of donations,Percentage of total donations,PR,
-243,243,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.329697678,16.44822108,0.223151576,0.43624378,178,Percentage of donations,Percentage of total donations,AB,
-244,244,Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.211145493,14.82218327,0.149656591,0.272634394,189,Percentage of donations,Percentage of total donations,BC,
-245,245,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.321679669,5.508104852,0.286867703,0.356491636,1803,Percentage of donations,Percentage of total donations,CA,
-246,246,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.37734309,8.389055887,0.315148554,0.439537625,590,Percentage of donations,Percentage of total donations,AT,
-247,247,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.191411718,17.13386257,0.126976019,0.255847416,150,Percentage of donations,Percentage of total donations,QC,*
-248,248,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.339069031,8.975724952,0.279274646,0.398863416,425,Percentage of donations,Percentage of total donations,ON,
-249,249,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.325879417,10.64112357,0.257748041,0.394010793,308,Percentage of donations,Percentage of total donations,PR,
-250,250,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.402577895,14.671155,0.286535423,0.518620367,133,Percentage of donations,Percentage of total donations,AB,
-251,251,Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.282492253,11.41812639,0.219119273,0.345865233,197,Percentage of donations,Percentage of total donations,BC,
-252,252,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.100289437,7.571398394,0.085370632,0.115208242,851,Percentage of donations,Percentage of total donations,CA,
-253,253,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.116464646,20.54027447,0.069464079,0.163465212,263,Percentage of donations,Percentage of total donations,AT,*
-254,254,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.126326441,18.67268663,0.079981342,0.17267154,115,Percentage of donations,Percentage of total donations,QC,*
-255,255,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.098620767,13.05720042,0.073320728,0.123920806,215,Percentage of donations,Percentage of total donations,ON,
-256,256,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.139749775,17.22744029,0.092448308,0.187051242,142,Percentage of donations,Percentage of total donations,PR,*
-257,257,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.095168854,25.95591739,0.046636209,0.1437015,55,Percentage of donations,Percentage of total donations,AB,*
-258,258,Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.053781204,24.07105344,0.028346402,0.079216007,61,Percentage of donations,Percentage of total donations,BC,*
-259,259,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.100583476,9.536797104,0.081736923,0.119430028,831,Percentage of donations,Percentage of total donations,CA,
-260,260,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.111803658,16.70120981,0.075117124,0.148490192,231,Percentage of donations,Percentage of total donations,AT,*
-261,261,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.076891881,17.17296701,0.050948381,0.102835381,143,Percentage of donations,Percentage of total donations,QC,*
-262,262,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.10292397,16.96446479,0.068618811,0.137229128,188,Percentage of donations,Percentage of total donations,ON,*
-263,263,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.11712366,18.55124041,0.074434232,0.159813087,136,Percentage of donations,Percentage of total donations,PR,*
-264,264,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.09893612,26.75502632,0.046928977,0.150943263,52,Percentage of donations,Percentage of total donations,AB,*
-265,265,Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.101284261,18.52918413,0.064411895,0.138156627,81,Percentage of donations,Percentage of total donations,BC,*
-266,266,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.139103796,11.46022597,0.107782848,0.170424745,1041,Percentage of donations,Percentage of total donations,CA,
-267,267,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.09068296,11.43304521,0.070312992,0.111052928,251,Percentage of donations,Percentage of total donations,AT,
-268,268,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.205496411,13.32239295,0.151707937,0.259284884,232,Percentage of donations,Percentage of total donations,QC,
-269,269,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.133872855,24.9943177,0.068131817,0.199613892,217,Percentage of donations,Percentage of total donations,ON,*
-270,270,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.10698698,19.31795047,0.066380559,0.147593402,147,Percentage of donations,Percentage of total donations,PR,*
-271,271,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.138407429,21.8335669,0.079034724,0.197780134,78,Percentage of donations,Percentage of total donations,AB,*
-272,272,Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.140145619,18.15619737,0.090152854,0.190138385,116,Percentage of donations,Percentage of total donations,BC,*
-273,273,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.338343622,5.036390092,0.304864035,0.371823209,2683,Percentage of donations,Percentage of total donations,CA,
-274,274,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.303705647,13.40846743,0.223697401,0.383713893,539,Percentage of donations,Percentage of total donations,AT,
-275,275,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.39987355,7.832816731,0.338335549,0.461411551,526,Percentage of donations,Percentage of total donations,QC,
-276,276,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.325513378,9.585752303,0.264208111,0.386818644,586,Percentage of donations,Percentage of total donations,ON,
-277,277,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.310260168,13.53397401,0.227760138,0.392760197,338,Percentage of donations,Percentage of total donations,PR,
-278,278,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.264909702,17.5168158,0.173738901,0.356080503,193,Percentage of donations,Percentage of total donations,AB,*
-279,279,Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.422296662,8.241238706,0.353919215,0.490674109,501,Percentage of donations,Percentage of total donations,BC,
-280,280,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.805665602,1.97945085,0.77433258,0.836998624,6191,Percentage of donations,Percentage of total donations,CA,
-281,281,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.933608306,2.031691409,0.896341241,0.970875372,1752,Percentage of donations,Percentage of total donations,AT,
-282,282,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.871981709,2.641901872,0.826720432,0.917242985,1058,Percentage of donations,Percentage of total donations,QC,
-283,283,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.757113105,4.026704792,0.697214971,0.81701124,1261,Percentage of donations,Percentage of total donations,ON,
-284,284,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.905964807,2.160952151,0.867500384,0.94442923,971,Percentage of donations,Percentage of total donations,PR,
-285,285,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.833634986,4.247592863,0.764065057,0.903204914,428,Percentage of donations,Percentage of total donations,AB,
-286,286,Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.726977818,4.700564685,0.659838963,0.794116674,721,Percentage of donations,Percentage of total donations,BC,
-287,287,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.164938662,9.431853407,0.134373813,0.195503511,787,Percentage of donations,Percentage of total donations,CA,
-288,288,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.03867419,30.11617829,0.015790617,0.061557762,76,Percentage of donations,Percentage of total donations,AT,*
-289,289,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.094738282,21.43215728,0.054845517,0.134631046,93,Percentage of donations,Percentage of total donations,QC,*
-290,290,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.215758811,13.88398203,0.156903545,0.274614077,302,Percentage of donations,Percentage of total donations,ON,
-291,291,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.051461119,24.2122187,0.026980829,0.075941409,72,Percentage of donations,Percentage of total donations,PR,*
-292,292,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.144365523,24.35110422,0.075296249,0.213434797,65,Percentage of donations,Percentage of total donations,AB,*
-293,293,Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.240384784,14.12572568,0.173670246,0.307099322,179,Percentage of donations,Percentage of total donations,BC,
-294,294,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.029395736,14.88008749,0.020801791,0.037989681,225,Percentage of donations,Percentage of total donations,CA,
-295,295,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.027717504,58.32231277,-0.004043308,0.059478316,32,Percentage of donations,Percentage of total donations,AT,...
-296,296,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.03328001,32.567224,0.011985535,0.054574484,31,Percentage of donations,Percentage of total donations,QC,*
-297,297,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.027128084,29.17060394,0.011580343,0.042675824,67,Percentage of donations,Percentage of total donations,ON,*
-298,298,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.042574074,36.46241093,0.012074531,0.073073617,36,Percentage of donations,Percentage of total donations,PR,...
-299,299,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.021999491,41.62875332,0.004006276,0.039992707,18,Percentage of donations,Percentage of total donations,AB,...
-300,300,Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.032637398,23.84294233,0.017348432,0.047926364,41,Percentage of donations,Percentage of total donations,BC,*
+Group,Attribute,Year,QuestionNo,Estimate,cv,CI Lower,CI Upper,Unweightedn,QuestionText,QuestionGroup,Province,Region,Marker
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.030231,37.9701,0.007678,0.052784,18,Percentage of donations,Percentage of total donations,NL,10,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.101029,29.25581,0.042958,0.159099,43,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.021696,38.82623,0.005146,0.038247,22,Percentage of donations,Percentage of total donations,NL,10,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.080092,34.68495,0.025512,0.134672,25,Percentage of donations,Percentage of total donations,NL,10,...
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.167604,20.49928,0.100101,0.235107,84,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.239047,16.97537,0.15932,0.318774,116,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.073823,30.79175,0.029162,0.118484,63,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.128957,21.26173,0.075087,0.182827,76,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.289824,23.75157,0.154576,0.425072,59,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.142097,28.88052,0.061468,0.222726,41,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.123067,23.36297,0.066577,0.179557,62,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.018571,37.74635,0.004799,0.032344,25,Percentage of donations,Percentage of total donations,NL,10,...
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.126412,30.07464,0.051717,0.201108,57,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.12309,27.37967,0.056876,0.189305,38,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.058625,25.33413,0.029445,0.087806,51,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.102147,21.45914,0.05908,0.145214,70,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.266463,24.16377,0.139959,0.392967,87,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.220142,21.67994,0.126372,0.313913,90,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.159834,22.50339,0.089167,0.230502,69,Percentage of donations,Percentage of total donations,NL,10,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.069697,42.70324,0.011221,0.128173,20,Percentage of donations,Percentage of total donations,NL,10,...
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.213357,32.36588,0.077683,0.349032,58,Percentage of donations,Percentage of total donations,NL,10,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.131296,33.20638,0.045637,0.216956,58,Percentage of donations,Percentage of total donations,NL,10,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.380954,15.7069,0.263392,0.498516,108,Percentage of donations,Percentage of total donations,NL,10,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.493176,12.03289,0.376582,0.60977,224,Percentage of donations,Percentage of total donations,NL,10,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.569317,10.19838,0.455243,0.683392,259,Percentage of donations,Percentage of total donations,NL,10,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.214779,22.0759,0.121622,0.307935,80,Percentage of donations,Percentage of total donations,NL,10,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.419401,14.44792,0.300349,0.538453,127,Percentage of donations,Percentage of total donations,NL,10,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.038149,36.94757,0.010456,0.065843,32,Percentage of donations,Percentage of total donations,NL,10,...
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.147414,31.0371,0.057522,0.237307,58,Percentage of donations,Percentage of total donations,NL,10,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.430683,13.48119,0.316608,0.544757,166,Percentage of donations,Percentage of total donations,NL,10,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.718566,6.463196,0.627319,0.809812,275,Percentage of donations,Percentage of total donations,NL,10,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.987282,0.632961,0.975004,0.999559,368,Percentage of donations,Percentage of total donations,NL,10,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.010051,59.60313,-0.00172,0.021821,9,Percentage of donations,Percentage of total donations,NL,10,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.002668,55.00316,-0.00022,0.00555,6,Percentage of donations,Percentage of total donations,NL,10,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.175138,22.45587,0.097868,0.252409,99,Percentage of donations,Percentage of total donations,NL,10,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.483857,12.51075,0.364924,0.60279,148,Percentage of donations,Percentage of total donations,NL,10,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.099254,22.44422,0.055486,0.143022,65,Percentage of donations,Percentage of total donations,NL,10,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.380579,16.96382,0.253735,0.507423,140,Percentage of donations,Percentage of total donations,NL,10,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.06134,34.71241,0.019506,0.103174,37,Percentage of donations,Percentage of total donations,NL,10,...
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.175485,22.14873,0.09912,0.251849,80,Percentage of donations,Percentage of total donations,NL,10,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.022967,38.42861,0.005627,0.040308,17,Percentage of donations,Percentage of total donations,NL,10,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.257228,19.78905,0.157218,0.357239,111,Percentage of donations,Percentage of total donations,NL,10,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.044609,36.58619,0.012543,0.076675,33,Percentage of donations,Percentage of total donations,NL,10,...
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.004284,55.447,-0.00038,0.008951,4,Percentage of donations,Percentage of total donations,PE,11,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.097934,38.06182,0.024698,0.17117,37,Percentage of donations,Percentage of total donations,PE,11,...
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.018494,43.29064,0.002764,0.034224,15,Percentage of donations,Percentage of total donations,PE,11,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.051331,42.14872,0.008823,0.093838,28,Percentage of donations,Percentage of total donations,PE,11,...
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.130148,26.02094,0.063611,0.196684,48,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.281955,16.92366,0.188204,0.375707,122,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.162228,28.38065,0.071769,0.252688,75,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.269089,18.90075,0.169163,0.369015,97,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.095092,24.92301,0.048529,0.141656,74,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.051435,27.11572,0.024033,0.078837,52,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.24349,20.39493,0.145922,0.341058,73,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.028912,32.72076,0.010325,0.047499,25,Percentage of donations,Percentage of total donations,PE,11,...
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.18732,26.64625,0.089253,0.285387,61,Percentage of donations,Percentage of total donations,PE,11,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.131272,24.47452,0.068149,0.194395,26,Percentage of donations,Percentage of total donations,PE,11,...
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.066486,35.1782,0.020534,0.112438,37,Percentage of donations,Percentage of total donations,PE,11,...
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.185516,23.57297,0.099595,0.271437,57,Percentage of donations,Percentage of total donations,PE,11,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.177421,21.61619,0.10207,0.252771,78,Percentage of donations,Percentage of total donations,PE,11,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.1638,24.46103,0.085079,0.242521,97,Percentage of donations,Percentage of total donations,PE,11,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.252752,18.10977,0.162821,0.342684,88,Percentage of donations,Percentage of total donations,PE,11,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.022753,28.06951,0.010205,0.035302,45,Percentage of donations,Percentage of total donations,PE,11,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.070849,39.96158,0.015223,0.126475,42,Percentage of donations,Percentage of total donations,PE,11,...
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.10717,24.61436,0.055342,0.158997,64,Percentage of donations,Percentage of total donations,PE,11,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.475189,11.90163,0.364073,0.586304,162,Percentage of donations,Percentage of total donations,PE,11,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.535826,11.37753,0.416049,0.655603,237,Percentage of donations,Percentage of total donations,PE,11,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.531961,9.51842,0.432479,0.631444,250,Percentage of donations,Percentage of total donations,PE,11,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.274793,19.15132,0.171396,0.378189,99,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.345831,15.22878,0.242357,0.449305,113,Percentage of donations,Percentage of total donations,PE,11,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.032457,33.21224,0.011278,0.053636,32,Percentage of donations,Percentage of total donations,PE,11,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.091583,35.54019,0.027633,0.155532,36,Percentage of donations,Percentage of total donations,PE,11,...
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.468039,10.81841,0.368556,0.567521,178,Percentage of donations,Percentage of total donations,PE,11,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.700518,6.527,0.610685,0.790351,258,Percentage of donations,Percentage of total donations,PE,11,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.877283,5.132516,0.788818,0.965748,378,Percentage of donations,Percentage of total donations,PE,11,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.071614,55.5353,-0.00653,0.149753,19,Percentage of donations,Percentage of total donations,PE,11,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.051103,47.16343,0.003749,0.098457,10,Percentage of donations,Percentage of total donations,PE,11,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.1923,25.70217,0.095193,0.289407,90,Percentage of donations,Percentage of total donations,PE,11,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.413784,15.09024,0.291104,0.536464,150,Percentage of donations,Percentage of total donations,PE,11,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.154494,27.40813,0.071299,0.237688,49,Percentage of donations,Percentage of total donations,PE,11,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.368775,14.92273,0.260653,0.476896,148,Percentage of donations,Percentage of total donations,PE,11,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.072123,35.26517,0.022151,0.122094,47,Percentage of donations,Percentage of total donations,PE,11,...
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.191688,20.25069,0.115421,0.267955,72,Percentage of donations,Percentage of total donations,PE,11,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.05039,46.59172,0.004263,0.096517,20,Percentage of donations,Percentage of total donations,PE,11,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.26485,18.16525,0.170326,0.359374,123,Percentage of donations,Percentage of total donations,PE,11,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.035671,29.53376,0.014973,0.05637,50,Percentage of donations,Percentage of total donations,PE,11,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.026439,39.03149,0.006164,0.046714,20,Percentage of donations,Percentage of total donations,NS,12,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.095075,22.76244,0.052555,0.137594,69,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.022969,48.37357,0.001139,0.0448,17,Percentage of donations,Percentage of total donations,NS,12,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.054654,26.67348,0.026012,0.083296,49,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.163665,22.41458,0.091589,0.235741,82,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.210315,16.01746,0.144129,0.276501,147,Percentage of donations,Percentage of total donations,NS,12,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.14129,23.26363,0.076711,0.205868,100,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.158565,19.50386,0.097803,0.219327,125,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.222843,34.85366,0.070245,0.375442,104,Percentage of donations,Percentage of total donations,NS,12,...
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.091029,27.36853,0.042081,0.139977,71,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.157482,28.04033,0.070723,0.244241,78,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.058573,32.12788,0.0216,0.095546,38,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.117341,26.01898,0.057356,0.177326,65,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.253413,29.4502,0.106784,0.400043,46,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.091971,24.43025,0.047826,0.136117,62,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.138659,16.73407,0.093071,0.184248,101,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.189342,19.81387,0.115633,0.263051,115,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.16464,20.46796,0.098432,0.230848,129,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.11707,19.26514,0.072758,0.161381,93,Percentage of donations,Percentage of total donations,NS,12,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.044904,23.52779,0.024147,0.065661,46,Percentage of donations,Percentage of total donations,NS,12,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.076787,26.00173,0.037559,0.116014,59,Percentage of donations,Percentage of total donations,NS,12,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.124417,35.46364,0.037728,0.211106,72,Percentage of donations,Percentage of total donations,NS,12,...
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.348102,15.1505,0.244484,0.45172,152,Percentage of donations,Percentage of total donations,NS,12,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.637829,8.681227,0.529039,0.746619,334,Percentage of donations,Percentage of total donations,NS,12,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.478961,11.88368,0.367132,0.59079,356,Percentage of donations,Percentage of total donations,NS,12,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.210104,23.07325,0.114858,0.30535,123,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.432109,14.808,0.306393,0.557826,174,Percentage of donations,Percentage of total donations,NS,12,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.04765,36.37954,0.013592,0.081709,45,Percentage of donations,Percentage of total donations,NS,12,...
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.21256,38.58735,0.05141,0.37371,62,Percentage of donations,Percentage of total donations,NS,12,...
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.521039,10.92398,0.40921,0.632868,236,Percentage of donations,Percentage of total donations,NS,12,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.58557,11.30353,0.455524,0.715615,371,Percentage of donations,Percentage of total donations,NS,12,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.94372,2.352832,0.900094,0.987345,519,Percentage of donations,Percentage of total donations,NS,12,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.046178,47.47074,0.003109,0.089247,26,Percentage of donations,Percentage of total donations,NS,12,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.010103,46.32388,0.000908,0.019297,10,Percentage of donations,Percentage of total donations,NS,12,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.37466,19.17107,0.233541,0.51578,214,Percentage of donations,Percentage of total donations,NS,12,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.321974,15.83822,0.221783,0.422165,205,Percentage of donations,Percentage of total donations,NS,12,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.076034,21.45093,0.04399,0.108079,66,Percentage of donations,Percentage of total donations,NS,12,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.261712,16.45713,0.177091,0.346334,188,Percentage of donations,Percentage of total donations,NS,12,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.063884,29.18098,0.027257,0.10051,56,Percentage of donations,Percentage of total donations,NS,12,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.329422,21.78926,0.188397,0.470448,126,Percentage of donations,Percentage of total donations,NS,12,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.040197,38.26336,0.009978,0.070415,25,Percentage of donations,Percentage of total donations,NS,12,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.315624,15.8776,0.217164,0.414083,189,Percentage of donations,Percentage of total donations,NS,12,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.021124,28.00854,0.0095,0.032749,39,Percentage of donations,Percentage of total donations,NS,12,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.015818,41.8144,0.002823,0.028812,12,Percentage of donations,Percentage of total donations,NB,13,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.093715,27.16768,0.043693,0.143738,48,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.024458,35.16571,0.00756,0.041356,16,Percentage of donations,Percentage of total donations,NB,13,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.064975,25.22786,0.03277,0.097181,43,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.106105,20.63773,0.063082,0.149127,71,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.245103,16.49657,0.165662,0.324544,163,Percentage of donations,Percentage of total donations,NB,13,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.144023,34.22335,0.047182,0.240863,73,Percentage of donations,Percentage of total donations,NB,13,...
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.201309,20.36323,0.120769,0.28185,125,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.246047,20.67352,0.146108,0.345986,114,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.09373,28.49363,0.041258,0.146203,80,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.130904,28.15484,0.058492,0.203316,85,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.034603,30.62332,0.013783,0.055422,28,Percentage of donations,Percentage of total donations,NB,13,...
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.136342,26.02135,0.066637,0.206047,75,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.115492,22.83829,0.06367,0.167315,41,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.074726,29.26892,0.031754,0.117697,59,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.1167,22.83004,0.064354,0.169046,84,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.161077,21.55085,0.092874,0.229279,99,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.281863,22.43464,0.157623,0.406102,115,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.153612,20.59047,0.091469,0.215756,100,Percentage of donations,Percentage of total donations,NB,13,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.09653,32.32921,0.035216,0.157844,51,Percentage of donations,Percentage of total donations,NB,13,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.113549,25.8683,0.055839,0.171259,72,Percentage of donations,Percentage of total donations,NB,13,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.096861,30.11031,0.039559,0.154163,69,Percentage of donations,Percentage of total donations,NB,13,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.397857,13.66323,0.291054,0.504659,168,Percentage of donations,Percentage of total donations,NB,13,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.569195,10.04252,0.456888,0.681502,300,Percentage of donations,Percentage of total donations,NB,13,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.424527,11.70893,0.326865,0.52219,333,Percentage of donations,Percentage of total donations,NB,13,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.25339,16.99491,0.168782,0.337998,127,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.384979,15.58033,0.267133,0.502826,125,Percentage of donations,Percentage of total donations,NB,13,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.077888,31.77353,0.029266,0.126511,40,Percentage of donations,Percentage of total donations,NB,13,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.134063,24.9351,0.068385,0.199742,52,Percentage of donations,Percentage of total donations,NB,13,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.575473,8.637707,0.47781,0.673135,216,Percentage of donations,Percentage of total donations,NB,13,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.681063,6.700766,0.5914,0.770726,335,Percentage of donations,Percentage of total donations,NB,13,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.897809,5.687659,0.797481,0.998137,487,Percentage of donations,Percentage of total donations,NB,13,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.036654,40.60931,0.007409,0.065899,22,Percentage of donations,Percentage of total donations,NB,13,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.065537,78.10357,-0.03503,0.166105,6,Percentage of donations,Percentage of total donations,NB,13,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.298543,18.90112,0.187677,0.409409,136,Percentage of donations,Percentage of total donations,NB,13,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.373269,14.10913,0.269796,0.476741,204,Percentage of donations,Percentage of total donations,NB,13,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.09319,20.51242,0.055633,0.130747,71,Percentage of donations,Percentage of total donations,NB,13,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.297785,19.00934,0.186567,0.409002,166,Percentage of donations,Percentage of total donations,NB,13,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.081852,31.74881,0.030794,0.132909,54,Percentage of donations,Percentage of total donations,NB,13,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.194477,18.47532,0.123884,0.265071,98,Percentage of donations,Percentage of total donations,NB,13,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.057536,80.28712,-0.03322,0.148296,16,Percentage of donations,Percentage of total donations,NB,13,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.314762,17.43833,0.20692,0.422605,173,Percentage of donations,Percentage of total donations,NB,13,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.042608,23.88416,0.022614,0.062602,62,Percentage of donations,Percentage of total donations,NB,13,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.013943,37.36713,0.003707,0.024179,32,Percentage of donations,Percentage of total donations,QC,24,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.117323,24.08864,0.061797,0.17285,119,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.057061,50.30121,0.000669,0.113453,52,Percentage of donations,Percentage of total donations,QC,24,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071174,21.24805,0.041461,0.100886,97,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.187017,17.29075,0.123484,0.25055,192,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.271859,10.8429,0.213944,0.329774,339,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.117945,16.26257,0.08026,0.15563,184,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.173444,13.4727,0.127533,0.219355,278,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.189664,12.39474,0.143476,0.235851,231,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.069607,18.48093,0.044333,0.094882,165,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.127318,14.47242,0.091116,0.16352,187,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.051539,24.60702,0.026622,0.076457,77,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.120184,16.45102,0.081338,0.15903,172,Percentage of donations,Percentage of total donations,QC,24,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.145314,16.1391,0.099237,0.191392,118,Percentage of donations,Percentage of total donations,QC,24,
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.110159,16.60699,0.074216,0.146102,178,Percentage of donations,Percentage of total donations,QC,24,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.138086,14.55745,0.098591,0.17758,268,Percentage of donations,Percentage of total donations,QC,24,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.210965,17.45218,0.138628,0.283303,222,Percentage of donations,Percentage of total donations,QC,24,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.179874,14.59448,0.128297,0.231452,239,Percentage of donations,Percentage of total donations,QC,24,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.1473,14.79023,0.104496,0.190103,163,Percentage of donations,Percentage of total donations,QC,24,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.068302,20.02079,0.041435,0.095169,76,Percentage of donations,Percentage of total donations,QC,24,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.076892,17.17297,0.050948,0.102835,143,Percentage of donations,Percentage of total donations,QC,24,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.126326,18.67269,0.079981,0.172672,115,Percentage of donations,Percentage of total donations,QC,24,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.191412,17.13386,0.126976,0.255847,150,Percentage of donations,Percentage of total donations,QC,24,*
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.557221,6.872327,0.481983,0.632458,742,Percentage of donations,Percentage of total donations,QC,24,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.436584,7.524086,0.372045,0.501123,707,Percentage of donations,Percentage of total donations,QC,24,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.21642,12.56547,0.162991,0.269849,220,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.362546,9.348444,0.295957,0.429136,321,Percentage of donations,Percentage of total donations,QC,24,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.069375,24.25568,0.036314,0.102436,82,Percentage of donations,Percentage of total donations,QC,24,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.10006,18.67205,0.063352,0.136768,109,Percentage of donations,Percentage of total donations,QC,24,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.563416,5.830323,0.498877,0.627955,557,Percentage of donations,Percentage of total donations,QC,24,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.637046,4.7397,0.577723,0.696369,705,Percentage of donations,Percentage of total donations,QC,24,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.871982,2.641902,0.82672,0.917243,1058,Percentage of donations,Percentage of total donations,QC,24,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.094738,21.43216,0.054846,0.134631,93,Percentage of donations,Percentage of total donations,QC,24,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.03328,32.56722,0.011986,0.054574,31,Percentage of donations,Percentage of total donations,QC,24,*
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.399874,7.832817,0.338336,0.461412,526,Percentage of donations,Percentage of total donations,QC,24,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.384372,9.3079,0.31408,0.454664,399,Percentage of donations,Percentage of total donations,QC,24,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.205496,13.32239,0.151708,0.259285,232,Percentage of donations,Percentage of total donations,QC,24,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.322489,9.788458,0.260469,0.384509,423,Percentage of donations,Percentage of total donations,QC,24,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.080712,17.42842,0.053074,0.108349,152,Percentage of donations,Percentage of total donations,QC,24,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.235514,11.26306,0.183397,0.28763,342,Percentage of donations,Percentage of total donations,QC,24,
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.058407,28.93738,0.0252,0.091614,43,Percentage of donations,Percentage of total donations,QC,24,*
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.361031,9.980761,0.290234,0.431827,430,Percentage of donations,Percentage of total donations,QC,24,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.046728,25.67674,0.023155,0.070302,65,Percentage of donations,Percentage of total donations,QC,24,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.026914,24.73359,0.013835,0.039992,71,Percentage of donations,Percentage of total donations,ON,35,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.144637,21.73553,0.082871,0.206404,204,Percentage of donations,Percentage of total donations,ON,35,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.044196,15.15561,0.031036,0.057356,140,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.067001,17.38856,0.044111,0.08989,140,Percentage of donations,Percentage of total donations,ON,35,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.239188,9.290246,0.195529,0.282847,448,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.247084,14.05432,0.178857,0.315311,360,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.10293,13.33348,0.075966,0.129895,211,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.146803,10.56939,0.116318,0.177288,326,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.111563,14.43303,0.079927,0.143199,231,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.097353,14.0341,0.070509,0.124196,217,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.166672,19.49855,0.102821,0.230523,213,Percentage of donations,Percentage of total donations,ON,35,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.055734,16.09079,0.038114,0.073354,163,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.130241,16.50269,0.088013,0.17247,203,Percentage of donations,Percentage of total donations,ON,35,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.17129,15.63157,0.118684,0.223896,174,Percentage of donations,Percentage of total donations,ON,35,
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.145049,21.67741,0.083272,0.206825,206,Percentage of donations,Percentage of total donations,ON,35,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.129729,12.12505,0.098825,0.160634,312,Percentage of donations,Percentage of total donations,ON,35,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.17008,12.69155,0.12767,0.21249,329,Percentage of donations,Percentage of total donations,ON,35,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.191712,12.53142,0.144511,0.238913,342,Percentage of donations,Percentage of total donations,ON,35,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.139982,12.26243,0.106257,0.173707,251,Percentage of donations,Percentage of total donations,ON,35,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.052159,15.33165,0.036447,0.06787,130,Percentage of donations,Percentage of total donations,ON,35,
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.102924,16.96446,0.068619,0.137229,188,Percentage of donations,Percentage of total donations,ON,35,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.098621,13.0572,0.073321,0.123921,215,Percentage of donations,Percentage of total donations,ON,35,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.339069,8.975725,0.279275,0.398863,425,Percentage of donations,Percentage of total donations,ON,35,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.565933,6.03948,0.49878,0.633086,1028,Percentage of donations,Percentage of total donations,ON,35,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.509334,6.651164,0.442775,0.575892,998,Percentage of donations,Percentage of total donations,ON,35,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.236642,11.17423,0.184689,0.288595,363,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.381917,8.539247,0.317842,0.445993,467,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.037768,20.87669,0.022276,0.053259,94,Percentage of donations,Percentage of total donations,ON,35,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.135984,26.19283,0.066004,0.205963,139,Percentage of donations,Percentage of total donations,ON,35,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.490666,6.904206,0.424108,0.557225,746,Percentage of donations,Percentage of total donations,ON,35,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.604912,5.124044,0.544014,0.665811,1033,Percentage of donations,Percentage of total donations,ON,35,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.757113,4.026705,0.697215,0.817011,1261,Percentage of donations,Percentage of total donations,ON,35,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.215759,13.88398,0.156904,0.274614,302,Percentage of donations,Percentage of total donations,ON,35,
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.027128,29.1706,0.01158,0.042676,67,Percentage of donations,Percentage of total donations,ON,35,*
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.325513,9.585752,0.264208,0.386819,586,Percentage of donations,Percentage of total donations,ON,35,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.371738,9.209794,0.304473,0.439004,563,Percentage of donations,Percentage of total donations,ON,35,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.133873,24.99432,0.068132,0.199614,217,Percentage of donations,Percentage of total donations,ON,35,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.263506,10.46082,0.209348,0.317663,485,Percentage of donations,Percentage of total donations,ON,35,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.05935,15.88466,0.040828,0.077873,193,Percentage of donations,Percentage of total donations,ON,35,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.294799,10.37215,0.234723,0.354874,400,Percentage of donations,Percentage of total donations,ON,35,
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.062328,33.19846,0.021674,0.102983,56,Percentage of donations,Percentage of total donations,ON,35,*
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.363869,8.20623,0.305202,0.422536,657,Percentage of donations,Percentage of total donations,ON,35,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.040938,15.87296,0.028171,0.053705,117,Percentage of donations,Percentage of total donations,ON,35,
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.041457,36.24384,0.011936,0.070979,21,Percentage of donations,Percentage of total donations,MB,46,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.102514,31.15552,0.039763,0.165266,66,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.03581,39.53838,0.007992,0.063628,20,Percentage of donations,Percentage of total donations,MB,46,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.073684,31.80176,0.027645,0.119724,37,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.251561,23.7953,0.133953,0.369168,96,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.315911,17.16706,0.209359,0.422463,187,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.132902,19.94216,0.08083,0.184974,99,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.131482,23.02923,0.071991,0.190973,132,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.114145,22.45101,0.063795,0.164494,98,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.090735,33.2656,0.031432,0.150037,72,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.166169,26.78373,0.078726,0.253612,97,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.038357,34.71619,0.012195,0.06452,40,Percentage of donations,Percentage of total donations,MB,46,...
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.119856,24.90669,0.061205,0.178508,84,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.130273,21.74557,0.074615,0.185931,58,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.178609,24.40374,0.092972,0.264246,78,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.136319,25.98461,0.066725,0.205914,107,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.145702,22.85051,0.080289,0.211115,98,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.201645,27.93506,0.090972,0.312317,127,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.134739,22.69663,0.074655,0.194823,84,Percentage of donations,Percentage of total donations,MB,46,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.072713,20.37557,0.043604,0.101822,63,Percentage of donations,Percentage of total donations,MB,46,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.0951,32.33197,0.034689,0.155512,59,Percentage of donations,Percentage of total donations,MB,46,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.149343,25.42988,0.074727,0.22396,76,Percentage of donations,Percentage of total donations,MB,46,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.325519,15.24893,0.227993,0.423044,181,Percentage of donations,Percentage of total donations,MB,46,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.565606,10.08559,0.453528,0.677683,374,Percentage of donations,Percentage of total donations,MB,46,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.496927,10.58087,0.393623,0.600231,355,Percentage of donations,Percentage of total donations,MB,46,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.256524,17.44382,0.168607,0.344441,157,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.346248,14.17346,0.249828,0.442668,143,Percentage of donations,Percentage of total donations,MB,46,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.039169,32.85422,0.013885,0.064452,38,Percentage of donations,Percentage of total donations,MB,46,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.099557,22.62707,0.055298,0.143816,62,Percentage of donations,Percentage of total donations,MB,46,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.503073,10.4516,0.399769,0.606377,260,Percentage of donations,Percentage of total donations,MB,46,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.538952,10.67392,0.425927,0.651978,342,Percentage of donations,Percentage of total donations,MB,46,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.888829,3.410157,0.829277,0.948381,508,Percentage of donations,Percentage of total donations,MB,46,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.053258,27.92069,0.024043,0.082474,56,Percentage of donations,Percentage of total donations,MB,46,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.057913,45.4498,0.006199,0.109627,27,Percentage of donations,Percentage of total donations,MB,46,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.359589,18.38561,0.229696,0.489483,197,Percentage of donations,Percentage of total donations,MB,46,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.408054,14.05688,0.295358,0.52075,199,Percentage of donations,Percentage of total donations,MB,46,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.070448,25.99593,0.034467,0.10643,73,Percentage of donations,Percentage of total donations,MB,46,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.317157,15.56809,0.220148,0.414167,196,Percentage of donations,Percentage of total donations,MB,46,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.051552,23.6016,0.027647,0.075457,81,Percentage of donations,Percentage of total donations,MB,46,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.34816,18.00123,0.225025,0.471296,135,Percentage of donations,Percentage of total donations,MB,46,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.026341,48.22243,0.001384,0.051297,16,Percentage of donations,Percentage of total donations,MB,46,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.326762,18.57827,0.20749,0.446034,172,Percentage of donations,Percentage of total donations,MB,46,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.061336,22.41063,0.034329,0.088342,57,Percentage of donations,Percentage of total donations,MB,46,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.027776,33.67251,0.0094,0.046151,24,Percentage of donations,Percentage of total donations,SK,46,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.131994,21.94462,0.075085,0.188904,55,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.052054,37.98249,0.013209,0.090899,27,Percentage of donations,Percentage of total donations,SK,46,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.048836,23.83683,0.025965,0.071708,35,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.299381,16.87315,0.200133,0.398629,106,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.260608,13.7332,0.19029,0.330925,128,Percentage of donations,Percentage of total donations,SK,46,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.113786,29.82436,0.047111,0.180461,52,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.152943,16.57775,0.103128,0.202758,102,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.081065,25.17502,0.040969,0.121162,74,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.108618,22.73664,0.060097,0.15714,69,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.114285,19.3734,0.070784,0.157785,77,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.055608,31.61395,0.021068,0.090147,42,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.173521,19.13716,0.108278,0.238764,80,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.229641,19.02581,0.1438,0.315482,35,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.128254,21.43575,0.074239,0.182269,76,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.168757,16.22979,0.114946,0.222569,83,Percentage of donations,Percentage of total donations,SK,46,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.171689,17.21701,0.113612,0.229766,92,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.12959,18.25719,0.083105,0.176074,97,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.099526,22.84247,0.054859,0.144192,78,Percentage of donations,Percentage of total donations,SK,46,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.072543,22.41936,0.040589,0.104497,49,Percentage of donations,Percentage of total donations,SK,46,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.143655,21.68332,0.082455,0.204854,77,Percentage of donations,Percentage of total donations,SK,46,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.128193,21.85937,0.073137,0.183248,66,Percentage of donations,Percentage of total donations,SK,46,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.326314,14.61927,0.232587,0.42004,127,Percentage of donations,Percentage of total donations,SK,46,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.672099,6.757284,0.58287,0.761328,322,Percentage of donations,Percentage of total donations,SK,46,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.574787,6.980521,0.495956,0.653618,301,Percentage of donations,Percentage of total donations,SK,46,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.287516,16.70881,0.193129,0.381902,132,Percentage of donations,Percentage of total donations,SK,46,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.342393,12.94819,0.25529,0.429497,118,Percentage of donations,Percentage of total donations,SK,46,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.037132,35.90573,0.010937,0.063326,31,Percentage of donations,Percentage of total donations,SK,46,...
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.161401,24.53035,0.083613,0.239189,53,Percentage of donations,Percentage of total donations,SK,46,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.425213,9.43602,0.346382,0.504044,209,Percentage of donations,Percentage of total donations,SK,46,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.610433,7.26846,0.52326,0.697607,331,Percentage of donations,Percentage of total donations,SK,46,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.926231,2.78777,0.8755,0.976963,463,Percentage of donations,Percentage of total donations,SK,46,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.049336,42.66892,0.007976,0.090695,16,Percentage of donations,Percentage of total donations,SK,46,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.024433,64.14459,-0.00636,0.055225,9,Percentage of donations,Percentage of total donations,SK,46,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.250835,16.9238,0.16743,0.334239,141,Percentage of donations,Percentage of total donations,SK,46,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.315847,14.42339,0.226342,0.405352,152,Percentage of donations,Percentage of total donations,SK,46,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.151005,24.17254,0.079289,0.22272,74,Percentage of donations,Percentage of total donations,SK,46,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.257586,14.10482,0.186204,0.328969,167,Percentage of donations,Percentage of total donations,SK,46,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.052559,32.44552,0.019055,0.086064,40,Percentage of donations,Percentage of total donations,SK,46,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.303325,14.88362,0.214626,0.392025,98,Percentage of donations,Percentage of total donations,SK,46,
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.012054,39.65114,0.002663,0.021444,12,Percentage of donations,Percentage of total donations,SK,46,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.293497,14.44267,0.210214,0.376779,134,Percentage of donations,Percentage of total donations,SK,46,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.033682,35.14555,0.010424,0.05694,41,Percentage of donations,Percentage of total donations,SK,46,...
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.110072,48.08289,0.006087,0.214058,32,Percentage of donations,Percentage of total donations,AB,48,...
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.134946,25.53862,0.067235,0.202657,55,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.077875,24.06403,0.041056,0.114694,59,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.118458,21.95959,0.06735,0.169566,63,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.329698,16.44822,0.223152,0.436244,178,Percentage of donations,Percentage of total donations,AB,48,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.301789,16.66752,0.202962,0.400616,114,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.068426,25.22004,0.034521,0.102332,53,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.164615,20.95009,0.096857,0.232373,98,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.084001,28.04727,0.037712,0.13029,61,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.045359,27.44354,0.020902,0.069816,67,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.14392,38.74632,0.034359,0.253481,66,Percentage of donations,Percentage of total donations,AB,48,...
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.068958,24.14663,0.036243,0.101672,55,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.107649,21.65332,0.061852,0.153446,59,Percentage of donations,Percentage of total donations,AB,48,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.111605,26.31986,0.053893,0.169318,45,Percentage of donations,Percentage of total donations,AB,48,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.13089,33.39444,0.045012,0.216768,79,Percentage of donations,Percentage of total donations,AB,48,...
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.16515,15.92515,0.113477,0.216823,126,Percentage of donations,Percentage of total donations,AB,48,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.238217,18.52463,0.151516,0.324918,120,Percentage of donations,Percentage of total donations,AB,48,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.22627,24.80418,0.116001,0.336539,91,Percentage of donations,Percentage of total donations,AB,48,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.080067,24.7177,0.041184,0.11895,59,Percentage of donations,Percentage of total donations,AB,48,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.047802,33.05405,0.016758,0.078845,34,Percentage of donations,Percentage of total donations,AB,48,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.098936,26.75503,0.046929,0.150943,52,Percentage of donations,Percentage of total donations,AB,48,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.095169,25.95592,0.046636,0.143701,55,Percentage of donations,Percentage of total donations,AB,48,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.402578,14.67116,0.286535,0.51862,133,Percentage of donations,Percentage of total donations,AB,48,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.644663,7.743676,0.546583,0.742744,368,Percentage of donations,Percentage of total donations,AB,48,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.434598,11.00509,0.340629,0.528567,316,Percentage of donations,Percentage of total donations,AB,48,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.249848,15.58129,0.173362,0.326334,136,Percentage of donations,Percentage of total donations,AB,48,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.231332,19.0132,0.144916,0.317748,129,Percentage of donations,Percentage of total donations,AB,48,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.012901,43.09172,0.001979,0.023824,19,Percentage of donations,Percentage of total donations,AB,48,...
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.085543,28.31568,0.037953,0.133133,46,Percentage of donations,Percentage of total donations,AB,48,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.565402,8.459091,0.471433,0.659371,238,Percentage of donations,Percentage of total donations,AB,48,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.75679,4.680449,0.687197,0.826383,354,Percentage of donations,Percentage of total donations,AB,48,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.833635,4.247593,0.764065,0.903205,428,Percentage of donations,Percentage of total donations,AB,48,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.144366,24.3511,0.075296,0.213435,65,Percentage of donations,Percentage of total donations,AB,48,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.021999,41.62875,0.004006,0.039993,18,Percentage of donations,Percentage of total donations,AB,48,...
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.26491,17.51682,0.173739,0.356081,193,Percentage of donations,Percentage of total donations,AB,48,*
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.300179,15.42364,0.209215,0.391144,133,Percentage of donations,Percentage of total donations,AB,48,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.138407,21.83357,0.079035,0.19778,78,Percentage of donations,Percentage of total donations,AB,48,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.359613,16.18893,0.245232,0.473995,164,Percentage of donations,Percentage of total donations,AB,48,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.056108,30.75856,0.022201,0.090015,52,Percentage of donations,Percentage of total donations,AB,48,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.153806,18.73202,0.0972,0.210412,118,Percentage of donations,Percentage of total donations,AB,48,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.055158,46.37067,0.004906,0.105409,14,Percentage of donations,Percentage of total donations,AB,48,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.304996,14.76372,0.216527,0.393465,167,Percentage of donations,Percentage of total donations,AB,48,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.033296,33.31939,0.011499,0.055092,30,Percentage of donations,Percentage of total donations,AB,48,...
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.024333,23.78891,0.01296,0.035706,43,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.108609,18.37692,0.069395,0.147822,95,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.046819,24.39176,0.024382,0.069256,62,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071453,19.08854,0.044656,0.098251,88,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.211145,14.82218,0.149657,0.272634,189,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.234982,9.593433,0.190692,0.279273,269,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.132053,14.86318,0.093491,0.170616,150,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.157537,11.97041,0.120487,0.194588,198,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.167202,16.77335,0.112101,0.222304,158,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.06658,16.49008,0.045009,0.088151,109,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.122603,13.76002,0.089458,0.155749,149,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.040246,26.69267,0.019139,0.061352,83,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.131842,14.75971,0.093609,0.170074,139,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.138657,18.55719,0.088103,0.189211,67,Percentage of donations,Percentage of total donations,BC,59,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.129305,16.29523,0.087907,0.170703,118,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.146999,11.64606,0.113364,0.180635,184,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.162288,13.87817,0.118038,0.206539,191,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.194228,12.90366,0.144987,0.243469,226,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.159124,12.18078,0.121042,0.197205,164,Percentage of donations,Percentage of total donations,BC,59,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.069399,21.4046,0.040214,0.098584,88,Percentage of donations,Percentage of total donations,BC,59,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.101284,18.52918,0.064412,0.138157,81,Percentage of donations,Percentage of total donations,BC,59,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.053781,24.07105,0.028346,0.079216,61,Percentage of donations,Percentage of total donations,BC,59,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.282492,11.41813,0.219119,0.345865,197,Percentage of donations,Percentage of total donations,BC,59,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.55175,5.988512,0.486832,0.616668,568,Percentage of donations,Percentage of total donations,BC,59,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.504768,6.187504,0.443404,0.566131,605,Percentage of donations,Percentage of total donations,BC,59,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.245561,12.21973,0.186605,0.304516,243,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.429503,7.354277,0.367444,0.491563,274,Percentage of donations,Percentage of total donations,BC,59,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.055092,24.40208,0.028679,0.081505,70,Percentage of donations,Percentage of total donations,BC,59,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.073552,22.04605,0.041693,0.105411,68,Percentage of donations,Percentage of total donations,BC,59,*
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.495232,6.306648,0.433869,0.556596,433,Percentage of donations,Percentage of total donations,BC,59,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.63234,4.843163,0.57217,0.69251,627,Percentage of donations,Percentage of total donations,BC,59,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.726978,4.700565,0.659839,0.794117,721,Percentage of donations,Percentage of total donations,BC,59,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.240385,14.12573,0.17367,0.307099,179,Percentage of donations,Percentage of total donations,BC,59,
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.032637,23.84294,0.017348,0.047926,41,Percentage of donations,Percentage of total donations,BC,59,*
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.422297,8.241239,0.353919,0.490674,501,Percentage of donations,Percentage of total donations,BC,59,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.428435,7.785871,0.362897,0.493973,362,Percentage of donations,Percentage of total donations,BC,59,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.140146,18.1562,0.090153,0.190138,116,Percentage of donations,Percentage of total donations,BC,59,*
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.265257,11.23806,0.206689,0.323826,305,Percentage of donations,Percentage of total donations,BC,59,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.050578,18.30486,0.032388,0.068768,109,Percentage of donations,Percentage of total donations,BC,59,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.267943,11.25576,0.208689,0.327198,224,Percentage of donations,Percentage of total donations,BC,59,
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.019815,35.3581,0.00605,0.03358,31,Percentage of donations,Percentage of total donations,BC,59,...
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.41563,8.160872,0.348988,0.482272,342,Percentage of donations,Percentage of total donations,BC,59,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.049139,22.19754,0.027708,0.070569,77,Percentage of donations,Percentage of total donations,BC,59,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.110072354,48.08289022,0.006087147,0.21405756,32,Percentage of donations,Percentage of total donations,,AB,...
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.130889578,33.39443764,0.045011574,0.216767583,79,Percentage of donations,Percentage of total donations,,AB,...
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.143920334,38.74631953,0.034359493,0.253481174,66,Percentage of donations,Percentage of total donations,,AB,...
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.055157595,46.37066626,0.004905821,0.10540937,14,Percentage of donations,Percentage of total donations,,AB,...
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.012901417,43.09172168,0.001978616,0.023824217,19,Percentage of donations,Percentage of total donations,,AB,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.021999491,41.62875332,0.004006276,0.039992707,18,Percentage of donations,Percentage of total donations,,AB,...
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.033295786,33.31939445,0.011499168,0.055092404,30,Percentage of donations,Percentage of total donations,,AB,...
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.042828042,37.89791349,0.010938648,0.074717436,78,Percentage of donations,Percentage of total donations,,AT,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.027717504,58.32231277,-0.004043308,0.059478316,32,Percentage of donations,Percentage of total donations,,AT,...
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.019815079,35.35809773,0.006049723,0.033580435,31,Percentage of donations,Percentage of total donations,,BC,...
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.01981589,36.70000505,0.005527528,0.034104253,28,Percentage of donations,Percentage of total donations,,PR,...
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.042574074,36.46241093,0.012074531,0.073073617,36,Percentage of donations,Percentage of total donations,,PR,...
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.013942856,37.36712629,0.003706528,0.024179183,32,Percentage of donations,Percentage of total donations,,QC,...
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.05706081,50.30121077,0.0006686,0.113453019,52,Percentage of donations,Percentage of total donations,,QC,...
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.118457768,21.95959371,0.067349567,0.169565968,63,Percentage of donations,Percentage of total donations,,AB,*
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.138407429,21.8335669,0.079034724,0.197780134,78,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.134945959,25.53861701,0.067234838,0.202657079,55,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.077875327,24.06402891,0.041056414,0.11469424,59,Percentage of donations,Percentage of total donations,,AB,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.111605284,26.31986438,0.053892617,0.169317951,45,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.301788992,16.66751512,0.202961677,0.400616306,114,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.068426443,25.22003533,0.034520768,0.102332118,53,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.164615069,20.95008512,0.096857452,0.232372685,98,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.084001301,28.04726576,0.037712143,0.130290459,61,Percentage of donations,Percentage of total donations,,AB,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.238216976,18.52462994,0.1515158,0.324918153,120,Percentage of donations,Percentage of total donations,,AB,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.226269744,24.80418484,0.116000553,0.336538934,91,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.045358762,27.44354341,0.020901709,0.069815815,67,Percentage of donations,Percentage of total donations,,AB,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.080066983,24.71769909,0.041183582,0.118950384,59,Percentage of donations,Percentage of total donations,,AB,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.047801764,33.05404768,0.016758219,0.078845309,34,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.068957775,24.1466343,0.036243102,0.101672449,55,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.107649101,21.65332448,0.061852027,0.153446176,59,Percentage of donations,Percentage of total donations,,AB,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.095168854,25.95591739,0.046636209,0.1437015,55,Percentage of donations,Percentage of total donations,,AB,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.09893612,26.75502632,0.046928977,0.150943263,52,Percentage of donations,Percentage of total donations,,AB,*
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.153806421,18.732023,0.097200496,0.210412346,118,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.231331722,19.01320345,0.144915907,0.317747536,129,Percentage of donations,Percentage of total donations,,AB,*
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.144365523,24.35110422,0.075296249,0.213434797,65,Percentage of donations,Percentage of total donations,,AB,*
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.264909702,17.5168158,0.173738901,0.356080503,193,Percentage of donations,Percentage of total donations,,AB,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.085543058,28.31568347,0.037953183,0.133132933,46,Percentage of donations,Percentage of total donations,,AB,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.056107713,30.75856041,0.022200561,0.090014865,52,Percentage of donations,Percentage of total donations,,AB,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.022600156,23.6608119,0.012094001,0.033106312,54,Percentage of donations,Percentage of total donations,,AT,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.022850362,24.95167803,0.011648362,0.034052363,70,Percentage of donations,Percentage of total donations,,AT,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.181065653,21.12001867,0.10593224,0.256199065,151,Percentage of donations,Percentage of total donations,,AT,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.233374649,17.14503561,0.154761569,0.311987729,351,Percentage of donations,Percentage of total donations,,AT,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.062838601,18.5635061,0.039919939,0.085757263,162,Percentage of donations,Percentage of total donations,,AT,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.042157903,21.17380238,0.024619881,0.059695924,116,Percentage of donations,Percentage of total donations,,AT,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.116464646,20.54027447,0.069464079,0.163465212,263,Percentage of donations,Percentage of total donations,,AT,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.111803658,16.70120981,0.075117124,0.148490192,231,Percentage of donations,Percentage of total donations,,AT,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.053482138,20.54293152,0.031896051,0.075068224,149,Percentage of donations,Percentage of total donations,,AT,*
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.03867419,30.11617829,0.015790617,0.061557762,76,Percentage of donations,Percentage of total donations,,AT,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.169527745,25.25462099,0.085410627,0.253644862,208,Percentage of donations,Percentage of total donations,,AT,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.069111069,17.10375589,0.045886811,0.092335327,194,Percentage of donations,Percentage of total donations,,AT,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071453228,19.08854222,0.044655538,0.098250918,88,Percentage of donations,Percentage of total donations,,BC,*
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.140145619,18.15619737,0.090152854,0.190138385,116,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.024333217,23.78891204,0.012960169,0.035706264,43,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.108608515,18.37691809,0.069394682,0.147822348,95,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.046818675,24.39175998,0.024381664,0.069255686,62,Percentage of donations,Percentage of total donations,,BC,*
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.138657046,18.55718954,0.088102887,0.189211205,67,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.167202254,16.77334762,0.112100602,0.222303906,158,Percentage of donations,Percentage of total donations,,BC,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.069398867,21.40460076,0.040213695,0.098584039,88,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.040245597,26.69267059,0.019139246,0.061351947,83,Percentage of donations,Percentage of total donations,,BC,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.053781204,24.07105344,0.028346402,0.079216007,61,Percentage of donations,Percentage of total donations,,BC,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.101284261,18.52918413,0.064411895,0.138156627,81,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.055092115,24.40207579,0.02867904,0.08150519,70,Percentage of donations,Percentage of total donations,,BC,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.032637398,23.84294233,0.017348432,0.047926364,41,Percentage of donations,Percentage of total donations,,BC,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.073552163,22.04604671,0.0416934,0.105410927,68,Percentage of donations,Percentage of total donations,,BC,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.05057772,18.30486159,0.032387898,0.068767541,109,Percentage of donations,Percentage of total donations,,BC,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.049138665,22.19753901,0.027708233,0.070569097,77,Percentage of donations,Percentage of total donations,,BC,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.03621392,22.72754884,0.020043143,0.052384696,277,Percentage of donations,Percentage of total donations,,CA,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.049824753,20.46924379,0.029786969,0.069862538,250,Percentage of donations,Percentage of total donations,,CA,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.067000548,17.38855817,0.044110607,0.089890488,140,Percentage of donations,Percentage of total donations,,ON,*
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.133872855,24.9943177,0.068131817,0.199613892,217,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.026913607,24.7335897,0.013834991,0.039992224,71,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.144637077,21.73552798,0.082870637,0.206403518,204,Percentage of donations,Percentage of total donations,,ON,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.145048629,21.67741125,0.08327206,0.206825198,206,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.166671953,19.4985497,0.102820972,0.230522934,213,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.130241205,16.50268906,0.088012685,0.172469725,203,Percentage of donations,Percentage of total donations,,ON,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.06232846,33.19846467,0.021674099,0.102982821,56,Percentage of donations,Percentage of total donations,,ON,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.10292397,16.96446479,0.068618811,0.137229128,188,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.037767587,20.87668615,0.022276441,0.053258733,94,Percentage of donations,Percentage of total donations,,ON,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.027128084,29.17060394,0.011580343,0.042675824,67,Percentage of donations,Percentage of total donations,,ON,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.135983642,26.19282601,0.066003991,0.205963292,139,Percentage of donations,Percentage of total donations,,ON,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.06242476,21.56449229,0.035976393,0.088873127,72,Percentage of donations,Percentage of total donations,,PR,*
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.10698698,19.31795047,0.066380559,0.147593402,147,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu personnel,100 000 $ à 119 999 $,2013,incg1_6 / vd1dhrs,0.035257597,26.04579716,0.017215247,0.053299947,45,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.11587269,19.22570236,0.072103748,0.159641632,121,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.043170652,28.09353245,0.019342097,0.066999206,47,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.124239872,16.89626963,0.082996462,0.165483282,151,Percentage of donations,Percentage of total donations,,PR,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.155791244,17.55570958,0.102055387,0.2095271,154,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.099155063,16.67973276,0.066660798,0.131649329,172,Percentage of donations,Percentage of total donations,,PR,*
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.168994115,19.7031386,0.103574236,0.234413994,224,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.098838337,20.69071105,0.058658924,0.139017749,141,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.142658558,19.1977583,0.088850033,0.196467083,174,Percentage of donations,Percentage of total donations,,PR,*
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.11878255,17.00796925,0.079090105,0.158474994,162,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.04617404,23.32879228,0.025010278,0.067337802,82,Percentage of donations,Percentage of total donations,,PR,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.139749775,17.22744029,0.092448308,0.187051242,142,Percentage of donations,Percentage of total donations,,PR,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.11712366,18.55124041,0.074434232,0.159813087,136,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.038245578,23.19849511,0.020813716,0.055677441,69,Percentage of donations,Percentage of total donations,,PR,*
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.051461119,24.2122187,0.026980829,0.075941409,72,Percentage of donations,Percentage of total donations,,PR,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.127792356,18.25275537,0.081963813,0.173620899,115,Percentage of donations,Percentage of total donations,,PR,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.052008325,19.45270009,0.032131112,0.071885538,121,Percentage of donations,Percentage of total donations,,PR,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.04880473,18.48951914,0.031075484,0.066533977,98,Percentage of donations,Percentage of total donations,,PR,*
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.071173595,21.24805484,0.041460983,0.100886206,97,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.117323373,24.08863905,0.061796969,0.172849776,119,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.187017347,17.29074645,0.123484492,0.250550203,192,Percentage of donations,Percentage of total donations,,QC,*
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.11015896,16.60698708,0.074216035,0.146101884,178,Percentage of donations,Percentage of total donations,,QC,*
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.210965337,17.45218203,0.138627823,0.283302851,222,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.069607175,18.48093261,0.044332788,0.094881563,165,Percentage of donations,Percentage of total donations,,QC,*
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.068301744,20.02078796,0.041434959,0.095168528,76,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.051539455,24.60701976,0.026622121,0.07645679,77,Percentage of donations,Percentage of total donations,,QC,*
+Situation d'activité,Au chômage,2013,dlfs_2 / vd1dhrs,0.058407058,28.93737759,0.025200241,0.091613874,43,Percentage of donations,Percentage of total donations,,QC,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.126326441,18.67268663,0.079981342,0.17267154,115,Percentage of donations,Percentage of total donations,,QC,*
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.191411718,17.13386257,0.126976019,0.255847416,150,Percentage of donations,Percentage of total donations,,QC,*
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.076891881,17.17296701,0.050948381,0.102835381,143,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.069374891,24.25568128,0.036313697,0.102436084,82,Percentage of donations,Percentage of total donations,,QC,*
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.094738282,21.43215728,0.054845517,0.134631046,93,Percentage of donations,Percentage of total donations,,QC,*
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.03328001,32.567224,0.011985535,0.054574484,31,Percentage of donations,Percentage of total donations,,QC,*
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.100060057,18.67205397,0.063352492,0.136767622,109,Percentage of donations,Percentage of total donations,,QC,*
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.08071199,17.42841651,0.053074492,0.108349488,152,Percentage of donations,Percentage of total donations,,QC,*
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.046728475,25.67674488,0.023154962,0.070301989,65,Percentage of donations,Percentage of total donations,,QC,*
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.329697678,16.44822108,0.223151576,0.43624378,178,Percentage of donations,Percentage of total donations,,AB,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.165149671,15.92514878,0.113476638,0.216822704,126,Percentage of donations,Percentage of total donations,,AB,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.402577895,14.671155,0.286535423,0.518620367,133,Percentage of donations,Percentage of total donations,,AB,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.249847686,15.58129134,0.173361761,0.326333611,136,Percentage of donations,Percentage of total donations,,AB,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.359613314,16.18893382,0.24523156,0.473995069,164,Percentage of donations,Percentage of total donations,,AB,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.304995941,14.76372106,0.216526633,0.39346525,167,Percentage of donations,Percentage of total donations,,AB,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.644663031,7.743675966,0.546582529,0.742743533,368,Percentage of donations,Percentage of total donations,,AB,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.434597748,11.00509368,0.340628888,0.528566608,316,Percentage of donations,Percentage of total donations,,AB,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.565402252,8.459090541,0.471433394,0.65937111,238,Percentage of donations,Percentage of total donations,,AB,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.756790081,4.680448653,0.687197065,0.826383097,354,Percentage of donations,Percentage of total donations,,AB,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.833634986,4.247592863,0.764065057,0.903204914,428,Percentage of donations,Percentage of total donations,,AB,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.300179373,15.42364413,0.209215157,0.39114359,133,Percentage of donations,Percentage of total donations,,AB,
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.062169734,15.69063139,0.043004145,0.081335323,145,Percentage of donations,Percentage of total donations,,AT,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.09068296,11.43304521,0.070312992,0.111052928,251,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.096001296,14.40241721,0.068835951,0.123166641,197,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.145640427,12.87418177,0.108801724,0.182479129,285,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.230570673,9.179199328,0.188988076,0.27215327,548,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.130803142,15.89487799,0.089954454,0.171651831,311,Percentage of donations,Percentage of total donations,,AT,
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.079019007,15.94531107,0.054263758,0.103774256,209,Percentage of donations,Percentage of total donations,,AT,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.128698386,10.82626934,0.101323352,0.15607342,312,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.172771887,11.21225453,0.134711888,0.210831885,423,Percentage of donations,Percentage of total donations,,AT,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.19495138,11.72352611,0.150047144,0.239855615,379,Percentage of donations,Percentage of total donations,,AT,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.208587857,13.24262471,0.154317105,0.262858608,431,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.098711802,15.70198423,0.068259063,0.12916454,244,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.149265214,15.89417346,0.102653046,0.195877381,298,Percentage of donations,Percentage of total donations,,AT,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.144839116,11.3302561,0.112596644,0.177081589,350,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.129263402,14.67816016,0.09198563,0.166541173,258,Percentage of donations,Percentage of total donations,,AT,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.37734309,8.389055887,0.315148554,0.439537625,590,Percentage of donations,Percentage of total donations,,AT,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.252419157,15.1052599,0.177506835,0.327331478,376,Percentage of donations,Percentage of total donations,,AT,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.228016221,12.23615531,0.173199448,0.282832994,429,Percentage of donations,Percentage of total donations,,AT,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.301223908,9.846541974,0.242949762,0.359498054,642,Percentage of donations,Percentage of total donations,,AT,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.301232126,9.663910033,0.244037279,0.358426974,596,Percentage of donations,Percentage of total donations,,AT,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.584555751,5.747256717,0.51854886,0.650562641,1095,Percentage of donations,Percentage of total donations,,AT,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.483999988,6.920534833,0.418190615,0.549809361,1198,Percentage of donations,Percentage of total donations,,AT,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.516000012,6.491354332,0.450190636,0.581809387,796,Percentage of donations,Percentage of total donations,,AT,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.645782274,5.739576305,0.572959252,0.718605295,1239,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.410337217,8.653597682,0.340571775,0.48010266,539,Percentage of donations,Percentage of total donations,,AT,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.933608306,2.031691409,0.896341241,0.970875372,1752,Percentage of donations,Percentage of total donations,,AT,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.372616207,8.786647194,0.30829004,0.436942373,707,Percentage of donations,Percentage of total donations,,AT,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.303705647,13.40846743,0.223697401,0.383713893,539,Percentage of donations,Percentage of total donations,,AT,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.032687501,16.21515132,0.022273791,0.04310121,184,Percentage of donations,Percentage of total donations,,AT,
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.211145493,14.82218327,0.149656591,0.272634394,189,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.234982124,9.59343333,0.190691518,0.279272731,269,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.132053293,14.86318435,0.093490912,0.170615674,150,Percentage of donations,Percentage of total donations,,BC,
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.129304732,16.29522812,0.087906899,0.170702565,118,Percentage of donations,Percentage of total donations,,BC,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.146999136,11.64606285,0.113363732,0.180634541,184,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.157537134,11.97040533,0.120486594,0.194587674,198,Percentage of donations,Percentage of total donations,,BC,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.162288499,13.87817018,0.11803754,0.206539459,191,Percentage of donations,Percentage of total donations,,BC,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.19422804,12.9036606,0.144986957,0.243469124,226,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.06657985,16.49008219,0.045008944,0.088150755,109,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.122603463,13.76001882,0.089457968,0.155748958,149,Percentage of donations,Percentage of total donations,,BC,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.159123679,12.18078218,0.121042294,0.197205063,164,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.131841639,14.75970941,0.0936091,0.170074179,139,Percentage of donations,Percentage of total donations,,BC,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.282492253,11.41812639,0.219119273,0.345865233,197,Percentage of donations,Percentage of total donations,,BC,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.267943495,11.25576252,0.208689057,0.327197933,224,Percentage of donations,Percentage of total donations,,BC,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.245560597,12.21972862,0.186605279,0.304515915,243,Percentage of donations,Percentage of total donations,,BC,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.265257379,11.23806008,0.206689221,0.323825537,305,Percentage of donations,Percentage of total donations,,BC,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.415629861,8.160872498,0.34898816,0.482271562,342,Percentage of donations,Percentage of total donations,,BC,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.551750145,5.988511646,0.4868323,0.61666799,568,Percentage of donations,Percentage of total donations,,BC,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.504767985,6.187503928,0.443404497,0.566131472,605,Percentage of donations,Percentage of total donations,,BC,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.495232015,6.306647647,0.43386853,0.556595501,433,Percentage of donations,Percentage of total donations,,BC,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.63234012,4.843163028,0.572169766,0.692510474,627,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.429503404,7.354277289,0.367443749,0.491563058,274,Percentage of donations,Percentage of total donations,,BC,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.240384784,14.12572568,0.173670246,0.307099322,179,Percentage of donations,Percentage of total donations,,BC,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.726977818,4.700564685,0.659838963,0.794116674,721,Percentage of donations,Percentage of total donations,,BC,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.428434776,7.785871291,0.36289655,0.493973001,362,Percentage of donations,Percentage of total donations,,BC,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.422296662,8.241238706,0.353919215,0.490674109,501,Percentage of donations,Percentage of total donations,,BC,
+Catégorie de revenu familial,120 000 $ à 139 999 $,2013,hhincg1_7 / vd1dhrs,0.074363227,9.368999041,0.06067478,0.088051673,605,Percentage of donations,Percentage of total donations,,CA,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.139103796,11.46022597,0.107782848,0.170424745,1041,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,100 000 $ à 119 999 $,2013,hhincg1_6 / vd1dhrs,0.128182283,12.44204775,0.096847795,0.159516772,791,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.04901819,12.20924907,0.03725977,0.06077661,430,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.235104091,5.990540723,0.20743283,0.262775352,1494,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.156142531,8.672790444,0.129536334,0.182748729,648,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.258105239,6.757976088,0.223835072,0.292375405,1945,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.108495571,7.411493735,0.092696902,0.124294239,1060,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,25 à 34 ans,2013,agegr10_2 / vd1dhrs,0.131515809,12.0557412,0.10036462,0.162666997,944,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.139678345,6.322712592,0.122326916,0.157029775,1392,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.156083359,5.703503244,0.138592907,0.173573811,1557,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.13561419,7.38934414,0.115925638,0.155302741,1204,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.184756385,7.055322447,0.159145825,0.210366944,1431,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.194714571,7.305226418,0.166767591,0.22266155,1553,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.082375479,8.143552894,0.069195503,0.095555455,943,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.148593688,11.80560577,0.114127649,0.183059728,1087,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.134459624,6.623026808,0.116963126,0.151956123,1149,Percentage of donations,Percentage of total donations,,CA,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.058732735,8.482540109,0.048944399,0.068521071,602,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.052845284,9.604211079,0.04287355,0.062817017,576,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.127065761,8.739486875,0.105247646,0.148883875,995,Percentage of donations,Percentage of total donations,,CA,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.100289437,7.571398394,0.085370632,0.115208242,851,Percentage of donations,Percentage of total donations,,CA,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.321679669,5.508104852,0.286867703,0.356491636,1803,Percentage of donations,Percentage of total donations,,CA,
+Fréquence de la fréquentation religieuse,Au moins 3 fois par mois,2013,ree_02_3 / vd1dhrs,0.100583476,9.536797104,0.081736923,0.119430028,831,Percentage of donations,Percentage of total donations,,CA,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.262986951,6.032769514,0.23181574,0.294158162,1693,Percentage of donations,Percentage of total donations,,CA,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.238807974,5.806067966,0.211566307,0.266049641,1680,Percentage of donations,Percentage of total donations,,CA,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.289569551,5.458530559,0.258514562,0.32062454,2382,Percentage of donations,Percentage of total donations,,CA,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.353736589,4.704080029,0.321043389,0.386429788,2498,Percentage of donations,Percentage of total donations,,CA,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.578213989,3.113663576,0.542841711,0.613586266,4497,Percentage of donations,Percentage of total donations,,CA,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.488390659,3.649043791,0.45337606,0.523405259,4480,Percentage of donations,Percentage of total donations,,CA,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.511609341,3.483436879,0.476594742,0.546623939,3239,Percentage of donations,Percentage of total donations,,CA,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.634386972,2.613724319,0.601809545,0.666964399,4631,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.36535853,4.777215246,0.331066215,0.399650844,1991,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu familial,Moins de 20 000 $,2013,hhincg1_1 / vd1dhrs,0.04258119,11.46040575,0.032993355,0.052169024,483,Percentage of donations,Percentage of total donations,,CA,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.164938662,9.431853407,0.134373813,0.195503511,787,Percentage of donations,Percentage of total donations,,CA,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.805665602,1.97945085,0.77433258,0.836998624,6191,Percentage of donations,Percentage of total donations,,CA,
+Statut d'immigration,Non canadien.ne,2013,dcit2_3 / vd1dhrs,0.029395736,14.88008749,0.020801791,0.037989681,225,Percentage of donations,Percentage of total donations,,CA,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.371961258,4.808068359,0.33682374,0.407098776,2515,Percentage of donations,Percentage of total donations,,CA,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.338343622,5.036390092,0.304864035,0.371823209,2683,Percentage of donations,Percentage of total donations,,CA,
+Éducation,Sans diplôme d'études secondaires,2013,dh1ged_1 / vd1dhrs,0.117885887,14.13629345,0.085144271,0.150627503,685,Percentage of donations,Percentage of total donations,,CA,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.060807135,8.758710893,0.050343141,0.071271129,821,Percentage of donations,Percentage of total donations,,CA,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.041818942,9.716397387,0.033835668,0.049802216,571,Percentage of donations,Percentage of total donations,,CA,
+Catégorie de revenu personnel,120 000 $ et plus,2013,incg1_7 / vd1dhrs,0.044195867,15.15561386,0.031035805,0.057355929,140,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.239187974,9.290246325,0.195529424,0.282846525,448,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.171289628,15.63156609,0.118683505,0.223895751,174,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.247083739,14.05431911,0.17885667,0.315310808,360,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.102930464,13.33347948,0.075966101,0.129894827,211,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.129729356,12.12505049,0.098824654,0.160634058,312,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.146803108,10.5693859,0.116317999,0.177288216,326,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.111563192,14.43303069,0.079927218,0.143199166,231,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.170080036,12.69155481,0.127669778,0.212490293,329,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.191711893,12.53141991,0.144510797,0.238912989,342,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu personnel,60 000 $ à 79 999 $,2013,incg1_4 / vd1dhrs,0.097352511,14.0340957,0.070509308,0.124195714,217,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.139981653,12.26243021,0.106256773,0.173706533,251,Percentage of donations,Percentage of total donations,,ON,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.052158805,15.33164586,0.03644725,0.067870359,130,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu personnel,80 000 $ à 99 999 $,2013,incg1_5 / vd1dhrs,0.055733922,16.09079313,0.03811417,0.073353675,163,Percentage of donations,Percentage of total donations,,ON,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par mois,2013,ree_02_2 / vd1dhrs,0.098620767,13.05720042,0.073320728,0.123920806,215,Percentage of donations,Percentage of total donations,,ON,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.339069031,8.975724952,0.279274646,0.398863416,425,Percentage of donations,Percentage of total donations,,ON,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.294798761,10.37214504,0.234723319,0.354874204,400,Percentage of donations,Percentage of total donations,,ON,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.236641655,11.17423385,0.184688528,0.288594782,363,Percentage of donations,Percentage of total donations,,ON,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.263505767,10.46081835,0.209348277,0.317663257,485,Percentage of donations,Percentage of total donations,,ON,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.363868937,8.206229827,0.305202272,0.422535602,657,Percentage of donations,Percentage of total donations,,ON,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.565933082,6.03947964,0.498779784,0.63308638,1028,Percentage of donations,Percentage of total donations,,ON,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.509333621,6.651164386,0.442775237,0.575892004,998,Percentage of donations,Percentage of total donations,,ON,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.490666379,6.90420576,0.424107995,0.557224763,746,Percentage of donations,Percentage of total donations,,ON,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.60491246,5.124044062,0.544013745,0.665811175,1033,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.381917245,8.539246896,0.317841807,0.445992683,467,Percentage of donations,Percentage of total donations,,ON,
+Statut d'immigration,Naturalisé.e,2013,dcit2_2 / vd1dhrs,0.215758811,13.88398203,0.156903545,0.274614077,302,Percentage of donations,Percentage of total donations,,ON,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.757113105,4.026704792,0.697214971,0.81701124,1261,Percentage of donations,Percentage of total donations,,ON,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.371738458,9.209794245,0.304473301,0.439003615,563,Percentage of donations,Percentage of total donations,,ON,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.325513378,9.585752303,0.264208111,0.386818644,586,Percentage of donations,Percentage of total donations,,ON,
+État civil,Séparé.e/divorcé.e,2013,marstat2_2 / vd1dhrs,0.059350384,15.884656,0.040827692,0.077873075,193,Percentage of donations,Percentage of total donations,,ON,
+État civil,Veuf.ve,2013,marstat2_3 / vd1dhrs,0.040938395,15.87295928,0.028171319,0.053705471,117,Percentage of donations,Percentage of total donations,,ON,
+Catégorie de revenu familial,140 000 $ et plus,2013,hhincg1_8 / vd1dhrs,0.273229693,14.92147943,0.193127848,0.353331539,202,Percentage of donations,Percentage of total donations,,PR,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.17530026,14.5092491,0.125327856,0.225272663,93,Percentage of donations,Percentage of total donations,,PR,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.290851064,11.29149301,0.226326546,0.355375582,315,Percentage of donations,Percentage of total donations,,PR,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.151018271,15.5136886,0.1049876,0.197048942,190,Percentage of donations,Percentage of total donations,,PR,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.141206911,14.28746631,0.101568712,0.180845109,234,Percentage of donations,Percentage of total donations,,PR,
+Groupe d'âge,45 à 54 ans,2013,agegr10_4 / vd1dhrs,0.157477339,14.71585594,0.111946428,0.20300825,190,Percentage of donations,Percentage of total donations,,PR,
+Groupe d'âge,75 ans et plus,2013,agegr10_7 / vd1dhrs,0.072636222,14.92012921,0.051343628,0.093928816,112,Percentage of donations,Percentage of total donations,,PR,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.144173785,15.43950836,0.100439452,0.187908118,164,Percentage of donations,Percentage of total donations,,PR,
+Fréquence de la fréquentation religieuse,Au moins 1 fois par semaine,2013,ree_02_1 / vd1dhrs,0.325879417,10.64112357,0.257748041,0.394010793,308,Percentage of donations,Percentage of total donations,,PR,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.32784401,12.54366187,0.247047178,0.408640843,233,Percentage of donations,Percentage of total donations,,PR,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.270673504,12.42240702,0.20461112,0.336735888,289,Percentage of donations,Percentage of total donations,,PR,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.289959754,10.83597303,0.228228034,0.351691474,363,Percentage of donations,Percentage of total donations,,PR,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.311574386,12.40474441,0.235637583,0.387511189,306,Percentage of donations,Percentage of total donations,,PR,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.614241352,6.254582586,0.538759921,0.689722783,696,Percentage of donations,Percentage of total donations,,PR,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.532208182,6.663550603,0.462531094,0.601885269,656,Percentage of donations,Percentage of total donations,,PR,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.467791818,7.581142001,0.39811473,0.537468907,469,Percentage of donations,Percentage of total donations,,PR,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.571342934,6.853304262,0.494412246,0.648273622,673,Percentage of donations,Percentage of total donations,,PR,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.3445014,9.634769707,0.279288266,0.409714534,261,Percentage of donations,Percentage of total donations,,PR,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.905964807,2.160952151,0.867500384,0.94442923,971,Percentage of donations,Percentage of total donations,,PR,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.365942757,10.48873618,0.290531,0.441354514,351,Percentage of donations,Percentage of total donations,,PR,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.310260168,13.53397401,0.227760138,0.392760197,338,Percentage of donations,Percentage of total donations,,PR,
+Fréquence de la fréquentation religieuse,1 ou 2 fois par an,2013,ree_02_4 / vd1dhrs,0.205496411,13.32239295,0.151707937,0.259284884,232,Percentage of donations,Percentage of total donations,,QC,
+Groupe d'âge,15 à 24 ans,2013,agegr10_1 / vd1dhrs,0.145314161,16.13910192,0.09923654,0.191391782,118,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu personnel,20 000 $ à 39 999 $,2013,incg1_2 / vd1dhrs,0.27185906,10.84290434,0.213943911,0.329774209,339,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu familial,20 000 $ à 39 999 $,2013,hhincg1_2 / vd1dhrs,0.117944858,16.26257499,0.080259637,0.155630079,184,Percentage of donations,Percentage of total donations,,QC,
+Groupe d'âge,35 à 44 ans,2013,agegr10_3 / vd1dhrs,0.138085787,14.55744629,0.09859126,0.177580314,268,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu personnel,40 000 $ à 59 999 $,2013,incg1_3 / vd1dhrs,0.173444198,13.47269841,0.12753316,0.219355235,278,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu familial,40 000 $ à 59 999 $,2013,hhincg1_3 / vd1dhrs,0.189663954,12.39473687,0.143476412,0.235851497,231,Percentage of donations,Percentage of total donations,,QC,
+Groupe d'âge,55 à 64 ans,2013,agegr10_5 / vd1dhrs,0.179874406,14.59448277,0.128296843,0.23145197,239,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu familial,60 000 $ à 79 999 $,2013,hhincg1_4 / vd1dhrs,0.127317947,14.47241869,0.09111587,0.163520023,187,Percentage of donations,Percentage of total donations,,QC,
+Groupe d'âge,65 à 74 ans,2013,agegr10_6 / vd1dhrs,0.147299606,14.7902307,0.104496107,0.190103105,163,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu familial,80 000 $ à 99 999 $,2013,hhincg1_5 / vd1dhrs,0.120184036,16.45101994,0.081338389,0.159029683,172,Percentage of donations,Percentage of total donations,,QC,
+État civil,"Célibataire, jamais marié.e",2013,marstat2_4 / vd1dhrs,0.235513648,11.26305915,0.183397155,0.287630142,342,Percentage of donations,Percentage of total donations,,QC,
+Éducation,Diplôme d'études secondaires,2013,dh1ged_2 / vd1dhrs,0.216419912,12.56546785,0.162990718,0.269849106,220,Percentage of donations,Percentage of total donations,,QC,
+Éducation,Diplôme post-secondaire,2013,dh1ged_3 / vd1dhrs,0.322489238,9.788457668,0.26046917,0.384509305,423,Percentage of donations,Percentage of total donations,,QC,
+Éducation,Diplôme universtaire,2013,dh1ged_4 / vd1dhrs,0.361030793,9.980760574,0.290234483,0.431827104,430,Percentage of donations,Percentage of total donations,,QC,
+Situation d'activité,Employé.e,2013,dlfs_1 / vd1dhrs,0.557220919,6.872327409,0.481983482,0.632458357,742,Percentage of donations,Percentage of total donations,,QC,
+Genre,Femmes,2013,sex_2 / vd1dhrs,0.436584119,7.524086102,0.372044792,0.501123447,707,Percentage of donations,Percentage of total donations,,QC,
+Genre,Hommes,2013,sex_1 / vd1dhrs,0.563415881,5.830323057,0.498876552,0.627955209,557,Percentage of donations,Percentage of total donations,,QC,
+État civil,Marié.e/union de fait,2013,marstat2_1 / vd1dhrs,0.637045886,4.739699549,0.577722727,0.696369045,705,Percentage of donations,Percentage of total donations,,QC,
+Catégorie de revenu personnel,Moins de 20 000 $,2013,incg1_1 / vd1dhrs,0.362546446,9.348444101,0.29595695,0.429135942,321,Percentage of donations,Percentage of total donations,,QC,
+Statut d'immigration,Né.e au Canada,2013,dcit2_1 / vd1dhrs,0.871981709,2.641901872,0.826720432,0.917242985,1058,Percentage of donations,Percentage of total donations,,QC,
+Situation d'activité,Pas dans la population active,2013,dlfs_3 / vd1dhrs,0.384372023,9.30790042,0.314079968,0.454664078,399,Percentage of donations,Percentage of total donations,,QC,
+Fréquence de la fréquentation religieuse,Pas du tout,2013,ree_02_5 / vd1dhrs,0.39987355,7.832816731,0.338335549,0.461411551,526,Percentage of donations,Percentage of total donations,,QC,

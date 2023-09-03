@@ -6,7 +6,7 @@ import os.path as op
 
 def get_data():
     filepath = op.join(os.getcwd(), "tables","{}")
-    
+
     # DonMethAvgDon_2018 = pd.read_csv(op.abspath(filepath.format("2018-DonMethAvgDon.csv")))
     VolRate_2018 = pd.read_csv(op.abspath(filepath.format("2013-VolRate_FR.csv")))
     AvgTotHours_2018 = pd.read_csv(op.abspath(filepath.format("2013-AvgTotHours_FR.csv")))
@@ -33,13 +33,13 @@ def process_data(data):
         data[i]["Estimate"] = np.where(data[i]["Marker"]=="...", 0, data[i]["Estimate"])
         data[i]["CI Upper"] = np.where(data[i]["Marker"]=="...", 0, data[i]["CI Upper"])
 
-        # data[i]["Region"] = np.select([data[i]["Province"] == "SK",
-        #                             data[i]["Province"] == "MB",
-        #                             data[i]["Province"] == "NB",
-        #                             data[i]["Province"] == "NS",
-        #                             data[i]["Province"] == "PE",
-        #                             data[i]["Province"] == "NL"],
-        #                             ["SK", "MB", "NB", "NS", "PE", "NL"], default=data[i]["Region"])
+        data[i]["Region"] = np.select([data[i]["Province"] == "SK",
+                                    data[i]["Province"] == "MB",
+                                    data[i]["Province"] == "NB",
+                                    data[i]["Province"] == "NS",
+                                    data[i]["Province"] == "PE",
+                                    data[i]["Province"] == "NL"],
+                                    ["SK", "MB", "NB", "NS", "PE", "NL"], default=data[i]["Region"])
 
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unable to determine", "", data[i]["Group"])
         data[i]["Group"] = np.where(data[i]["Attribute"]=="Unknown", "", data[i]["Group"])
@@ -58,13 +58,13 @@ def translate(df):
     df = df.replace('Education', "Éducation")
     df = df.replace('Marital status (original)', "État civil (original)")
     df = df.replace('Marital status (Original)', "État civil (original)")
-    df = df.replace('Marital status', "État civil") 
+    df = df.replace('Marital status', "État civil")
     df = df.replace('Labour force status', "Situation d'activité")
     df = df.replace('Personal income category', "Catégorie de revenu personnel")
     df = df.replace('Family income category', "Catégorie de revenu familial")
     df = df.replace('Frequency of religious attendance', "Fréquence de la fréquentation religieuse")
     df = df.replace('Immigration status', "Statut d'immigration")
-    
+
     #GENDER
     df = df.replace('Male gender', "Hommes")
     df = df.replace('Female gender', "Femmes")
@@ -119,12 +119,12 @@ def translate(df):
     df = df.replace('Native-born', 'Né.e au Canada')
     df = df.replace('Naturalized', 'Naturalisé.e')
     df = df.replace('Non-Canadian', 'Non canadien.ne')
-    
+
     return df
 
 
 def get_region_values():
-    return np.array(['CA', 'BC', 'AB', 'PR', 'ON', 'QC', 'AT'], dtype=object)
+    return np.array(['CA', 'BC', 'AB', 'PR', 'SK', 'MB', 'ON', 'QC', 'AT', 'NB', 'NS', 'PE', 'NL'], dtype=object)
 
 def get_region_names():
     return np.array(['Canada',

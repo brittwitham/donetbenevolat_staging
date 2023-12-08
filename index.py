@@ -150,7 +150,7 @@ def display_page(pathname):
     elif pathname == '/popup':
         return definition.layout
     
-    elif pathname == '/nonprofit_paid_staff_2021':
+    elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif_2021':
         return NSPS_2021_FR_layout
     elif pathname == '/nonprofit_sector_revenue_2021':
         return NSR_2021_FR_layout

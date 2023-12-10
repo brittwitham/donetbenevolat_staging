@@ -97,7 +97,7 @@ layout = html.Div([
             ),
             html.Div(
                 [
-                    html.H3('PTendances relatives au personnel rémunéré par type d’organisme à but non lucratif et par sous-secteur'),
+                    html.H3('Tendances relatives au personnel rémunéré par type d’organisme à but non lucratif et par sous-secteur'),
                     dcc.Markdown('''
                     De 2007 à 2009, l’emploi dans les organismes communautaires, les institutions communautaires à but non lucratif et les institutions gouvernementales à but non lucratif a augmenté à peu près au même rythme. Depuis 2009, l’emploi dans le sous-secteur de base (surtout dans les institutions communautaires à but non lucratif) a augmenté plus rapidement que dans les institutions gouvernementales à but non lucratif. En 2021, l’emploi dans les institutions communautaires à but non lucratif avait augmenté d’environ un tiers. Dans les organismes communautaires, il avait augmenté d’environ un quart depuis 2007, alors que l’emploi dans les institutions gouvernementales à but non lucratif avait augmenté d’un peu moins d’un cinquième.
                     ''', className='mt-4'),

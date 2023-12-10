@@ -43,7 +43,7 @@ layout = html.Div([
                 html.Div(
                     html.Div([
                         html.H1(
-                            'The economic role of the nonprofit sector'),
+                            'Rôle économique du secteur sans but lucratif'),
                     ],
                         className='post-heading'
                     ),
@@ -76,11 +76,13 @@ layout = html.Div([
         dbc.Row([
             html.Div(
                 [
+                    html.H3('Introduction'),
                     html.Span('''
-The nonprofit and charitable sector plays a significant role in the Canadian economy, accounting for over eight percent of national Gross Domestic Product (GDP) in 2021.'''),
+Le secteur sans but lucratif et de bienfaisance joue un rôle de premier plan dans l’économie canadienne. En 2021, il représentait plus de huit pour cent du produit intérieur brut (PIB).
+'''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Span('''
-                               Broadly speaking, nonprofits tend to play a larger economic role in Quebec and the Atlantic provinces than in Central and Western Canada, with Manitoba marking the major exception. The economic size of the nonprofit sector in the territories is quite variable, ranging from about three percent of the total economy in Nunavut economy to about a tenth in the Northwest Territories.
+                               De façon générale, les organismes à but non lucratif ont tendance à jouer un rôle économique plus important au Québec et dans les provinces de l’Atlantique que dans le centre et l’ouest du Canada (à l’exception du Manitoba). Dans les territoires, le poids économique du secteur sans but lucratif varie considérablement. Il représente environ trois pour cent de l’économie totale du Nunavut et environ un dixième de l’économie des Territoires du Nord-Ouest. 
                            '''),
                     # Nonprofit GDP as % of total GDP
                     dcc.Graph(
@@ -90,12 +92,13 @@ The nonprofit and charitable sector plays a significant role in the Canadian eco
             ),
             html.Div(
                 [
-                    html.H2('GDP by nonprofit type and sub-sector'),
+                    html.H2('PIB par type d’organisme à but non lucratif et par sous-secteur'),
                     html.Span('''
-Nationally, government nonprofits (hospitals, residential care facilities, universities and colleges) produce about three quarters of total nonprofit GDP. The remaining quarter comes from core sub-sector organizations divided about 3:2 between community and business nonprofits.'''),
+À l’échelle nationale, les institutions gouvernementales à but non lucratif (hôpitaux, certains établissements de soins pour bénéficiaires internes, universités et collèges) produisent environ trois quarts du PIB total du secteur sans but lucratif. Le quart restant revient aux organismes du sous-secteur de base. Le ratio est d’environ 3:2 entre les organismes communautaires et les institutions communautaires à but non lucratif. 
+                              '''),
                     html.Sup(html.A('2', href='#footnote2', id="ref2")),
                     html.Span('''
-                                  Government nonprofits play the dominant economic role in virtually every province and territory, with Nunavut being the only exception. Similarly, community nonprofits account for a higher proportion of GDP than business nonprofits everywhere except for New Brunswick and Newfoundland and Labrador.
+Ces dernières jouent un rôle économique dominant dans presque toutes les provinces et les territoires (la seule exception étant le Nunavut). De même, les organismes communautaires représentent une proportion plus élevée du PIB que les institutions communautaires à but non lucratif dans tout le pays, sauf au Nouveau-Brunswick et à Terre-Neuve-et-Labrador. 
                     ''', className='mt-4'),
                     # % and $ nonprofit GP by subsec
                     dcc.Graph(
@@ -105,12 +108,13 @@ Nationally, government nonprofits (hospitals, residential care facilities, unive
             ),
             html.Div(
                 [
-                    html.H3('GDP trends by nonprofit type and sub-sector'),
+                    html.H3('Tendances relatives au PIB par type d’organisme à but non lucratif et par sous-secteur'),
                     html.Span('''
-Since 2007, the nonprofit sector has grown more than the economy as a whole. Most of this difference is due to the 2008-09 economic downturn and a period of slower economic growth between 2014 and 2016. During these periods, nonprofit GDP continued to increase at pace while the rest of the economy contracted or slowed significantly. Business nonprofits have tended to grow somewhat faster than community and government nonprofits, though this growth has been somewhat more volatile. Nationally, business nonprofit GDP has almost doubled in nominal terms'''),
+Depuis 2007, le secteur sans but lucratif a enregistré une croissance supérieure à celle de l’économie dans son ensemble. Cette différence est en grande partie attribuable au ralentissement économique de 2008-2009, ainsi qu’à une période de croissance économique plus lente entre 2014 et 2016. Pendant ces périodes, le PIB du secteur sans but lucratif a continué d’augmenter au même rythme, alors que le reste de l’économie s’est contracté ou a considérablement ralenti. La croissance des institutions communautaires à but non lucratif était un peu plus rapide que celle des organismes communautaires et des institutions gouvernementales à but non lucratif, mais elle était également un peu plus volatile. À l’échelle nationale, le PIB des institutions communautaires à but non lucratif a presque doublé en termes nominaux'''),
                     html.Sup(html.A('3', href='#footnote3', id="ref3")),
                     html.Span('''
-                                 since 2007 while government nonprofit GDP has increased by about 85% and community nonprofit GDP by about 75%. Both business and community nonprofit GDP contracted with the onset of the pandemic while government nonprofit GDP continued to grow, likely driven by the central role of hospitals in pandemic response.
+depuis 2007, alors que celui des institutions gouvernementales à but non lucratif a augmenté d’environ 85 % et celui des organismes communautaires à but non lucratif a augmenté d’environ 75 %. Le PIB des institutions et des organismes communautaires à but non lucratif s’est contracté avec la pandémie, alors que celui des institutions gouvernementales à but non lucratif a continué de croître, probablement en raison du rôle majeur qu’ont joué les hôpitaux en réaction à cette crise.
+
                     ''', className='mt-4'),
                     # TODO: Add footnote
                     # Relative growth nominal GDP subsec
@@ -122,15 +126,16 @@ Since 2007, the nonprofit sector has grown more than the economy as a whole. Mos
             ),
             html.Div(
                 [
-                    html.H2('GDP by activity area'),
+                    html.H2('PIB par secteur d’activités'),
                     dcc.Markdown('''
-Organizations working in the areas of health, education and research and social services account for the bulk of GDP produced by the nonprofit sector. Nationally, about three fifths of government sub-sector GDP is produced by health organizations, just over a third by education and research organizations and the balance by social services organizations. Most health and education and research related GDP is produced by government nonprofits while most social services GDP is produced by community nonprofits.
+Les organismes des domaines de la santé, de l’éducation, de la recherche et des services sociaux représentent les plus grandes proportions du PIB du secteur sans but lucratif. À l’échelle nationale, environ trois cinquièmes du PIB du sous-secteur gouvernemental reviennent aux organismes de santé, un peu plus d’un tiers appartient aux organismes d’éducation et de recherche, et le reste revient aux organismes de services sociaux. La majeure partie du PIB des organismes de santé, d’éducation et de recherche revient aux institutions communautaires à but non lucratif, alors que la majorité du PIB des organismes de services sociaux appartient aux organismes communautaires à but non lucratif.
                     ''', className='mt-4'),
                     dcc.Markdown('''
-Within the community nonprofit sub-sector, nearly two thirds of GDP is produced by organizations working in four activity areas (business and professional associations and unions, social services, culture, sports and recreation and education and research). Quite small percentages of GDP are produced by organizations working in the areas of international development and relief, the environment and law, advocacy and politics.
+En ce qui a trait aux revenus du sous-secteur communautaire sans but lucratif, près de deux tiers du PIB revient aux organismes de quatre secteurs d’activités particuliers (associations commerciales, associations professionnelles et syndicats; services sociaux; culture, sports et loisirs; et éducation et recherche). Des pourcentages plutôt faibles du PIB se rapportent aux organismes des secteurs du développement international et de l’aide internationale, de l’environnement, du droit, de la défense des intérêts et de la politique.
                     '''),
                     dcc.Markdown('''
-Broadly speaking, provincial and territorial data are quite consistent with the national pattern.                    '''),
+De façon générale, les données provinciales et territoriales concordent avec les tendances nationales.                 
+                    '''),
                     # TODO: Add footnote
                     # % nonrpfot GDP subsec and activity
                     dcc.Graph(
@@ -146,7 +151,7 @@ Broadly speaking, provincial and territorial data are quite consistent with the 
                     html.Ol([
                         html.Li([
                             html.P([
-                                "Gross Domestic Product is a measure of the total value of goods and services produced in country within a given period",
+                                "Le PIB est une mesure de la valeur totale des biens et services produits au pays pendant une période donnée.",
                                 html.A(
                                     "↩︎",
                                     href="#fnref1",
@@ -157,23 +162,23 @@ Broadly speaking, provincial and territorial data are quite consistent with the 
                         html.Li(
                             [
                                 html.P(
-                                    "Statistics Canada’s Satellite Account of Non-profit Organizations and Volunteering (the data source used in this story) divides the nonprofit sector into three parts:"),
-                                html.P([html.B("Community nonprofits."), " These organizations are independent from government and produce goods and services for free or for prices that are not considered to be economically significant (i.e., the prices charged do not significantly influence the amounts of the good or service produced or the amounts purchased by consumers). The goods and services produced by community nonprofits may be consumed by households (including individuals) or collectively by society at large. Examples include human services organizations such as foodbanks, shelters, youth groups, places of worship, advocacy organizations and service clubs."]),
-                                html.P([html.B("Business nonprofits."), " As with community nonprofits, these organizations are independent from government. They differ in that they produce goods and services for household or collective consumption at prices that are economically significant (i.e., they engage in market production) or produce goods and services for businesses or other nonprofit organizations. Examples include business associations, chambers of commerce and condominium associations."]),
-                                html.P([html.B("Government nonprofits."), " These organizations are similar to community nonprofits in that they produce goods and services for prices that are not economically significant. The key difference is that they are heavily influenced by government, even though they are institutionally separate from it. Examples include hospitals, some residential care facilities, universities and colleges."]),
+                                    "Le Compte satellite des institutions sans but lucratif et du bénévolat de Statistique Canada (source de données utilisée pour cette histoire) divise le secteur sans but lucratif en trois catégories :"),
+                                html.P([html.B("Organismes communautaires à but non lucratif."), "  Ces organismes sont indépendants du gouvernement et produisent des biens et des services sans frais, ou à des prix économiquement non significatifs (c’est-à-dire que les prix demandés influencent peu les quantités de biens ou de services produites ou achetées par les consommateurs). Les biens et les services qu’ils produisent peuvent être consommés par des foyers (y compris des particuliers) ou par la société dans son ensemble. Ils comprennent, par exemple, les organismes de services à la personne, tels que les banques alimentaires, les refuges, les groupes jeunesse, les lieux de culte, les organismes de défense et les clubs de service"]),
+                                html.P([html.B("Institutions communautaires à but non lucratif."), " À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
+                                html.P([html.B("Institutions gouvernementales à but non lucratif."), " Ces institutions sont semblables aux organismes communautaires à but non lucratif en ce sens qu’elles produisent des biens et des services à des prix économiquement non significatifs. La principale différence réside dans le fait qu’elles sont grandement influencées par le gouvernement, même si elles sont distinctes de celui-ci. Elles comprennent, par exemple, les hôpitaux, certains établissements de soins pour bénéficiaires internes, les universités et les collèges."]),
                                 html.P(
                                     [
-                                        "Community and business nonprofits are grouped together to form the ",
-                                        html.Em("core nonprofit sub-sector"),
-                                        " which is contrasted with the ",
-                                        html.Em("government nonprofit sub-sector"), " made up of government nonprofits.", html.A(
+                                        "Les organismes communautaires et les institutions communautaires à but non lucratif  sont regroupés dans le ",
+                                        html.Em("sous-secteur sans but lucratif de base"),
+                                        " qui contraste avec le ",
+                                        html.Em("sous-secteur des institutions gouvernementales à but non lucratif"), " composé d’institutions gouvernementales à but non lucratif.", html.A(
                                             "↩︎", href="#fnref2", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
                             ], id="fn2"),
                         html.Li([
                             html.P([
-                                "i.e., not accounting for the effects of inflation.", html.A("↩︎", href="#fnref3", className="footnote-back", role="doc-backlink")])
+                                "C’est-à-dire, sans tenir compte des effets de l’inflation.", html.A("↩︎", href="#fnref3", className="footnote-back", role="doc-backlink")])
                         ], id="fn3"),
                     ])
                 ],

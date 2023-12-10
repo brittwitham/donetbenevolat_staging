@@ -86,7 +86,7 @@ layout = html.Div([
                 [
                     html.H3('Introduction'),
                     html.Span('''
-Collectively, the nonprofit sector employs just over 2.5 million Canadians, equivalent to roughly 13% of the labour force. Two thirds of these workers are employed in government nonprofits and the remaining third in core nonprofits, divided about 3:1 between community and business nonprofits.
+Le secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui correspond à environ 13 % de la population active du Canada. Deux tiers des employés de ce secteur travaillent pour des institutions gouvernementales à but non lucratif (hôpitaux, établissements de soins pour bénéficiaires internes, universités et collèges) qui dépendent grandement de la population active rémunérée pour assurer la prestation de leurs services. Le tiers restant travaille dans les institutions du sous-secteur de base[^1], dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions communautaires à but non lucratif. Comparativement aux institutions gouvernementales à but non lucratif, les organismes du sous-secteur de base ont tendance à dépendre davantage des bénévoles pour réaliser leur mission.
                               '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Span('''
@@ -171,16 +171,16 @@ Among government nonprofits, average wages for those who have been immigrants to
                         html.Li(
                             [
                                 html.P(
-                                    "Statistics Canada’s Satellite Account of Non-profit Organizations and Volunteering (the data source used in this story) divides the nonprofit sector into three parts:"),
-                                html.P([html.B("Community nonprofits."), " These organizations are independent from government and produce goods and services for free or for prices that are not considered to be economically significant (i.e., the prices charged do not significantly influence the amounts of the good or service produced or the amounts purchased by consumers). The goods and services produced by community nonprofits may be consumed by households (including individuals) or collectively by society at large. Examples include human services organizations such as foodbanks, shelters, youth groups, places of worship, advocacy organizations and service clubs."]),
-                                html.P([html.B("Business nonprofits."), " As with community nonprofits, these organizations are independent from government. They differ in that they produce goods and services for household or collective consumption at prices that are economically significant (i.e., they engage in market production) or produce goods and services for businesses or other nonprofit organizations. Examples include business associations, chambers of commerce and condominium associations."]),
-                                html.P([html.B("Government nonprofits."), " These organizations are similar to community nonprofits in that they produce goods and services for prices that are not economically significant. The key difference is that they are heavily influenced by government, even though they are institutionally separate from it. Examples include hospitals, some residential care facilities, universities and colleges."]),
+                                    "Le Compte satellite des institutions sans but lucratif et du bénévolat de Statistique Canada (source de données utilisée pour cette histoire) divise le secteur sans but lucratif en trois catégories :"),
+                                html.P([html.B("Organismes communautaires à but non lucratif."), " Ces organismes sont indépendants du gouvernement et produisent des biens et des services sans frais, ou à des prix économiquement non significatifs (c’est-à-dire que les prix demandés influencent peu les quantités de biens ou de services produites ou achetées par les consommateurs). Les biens et les services qu’ils produisent peuvent être consommés par des foyers (y compris des particuliers) ou par la société dans son ensemble. Ils comprennent, par exemple, les organismes de services à la personne, tels que les banques alimentaires, les refuges, les groupes jeunesse, les lieux de culte, les organismes de défense et les clubs de service."]),
+                                html.P([html.B("Institutions communautaires à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
+                                html.P([html.B("Institutions gouvernementales à but non lucratif."), " Ces institutions sont semblables aux organismes communautaires à but non lucratif en ce sens qu’elles produisent des biens et des services à des prix économiquement non significatifs. La principale différence réside dans le fait qu’elles sont grandement influencées par le gouvernement, même si elles sont distinctes de celui-ci. Elles comprennent, par exemple, les hôpitaux, certains établissements de soins pour bénéficiaires internes, les universités et les collèges."]),
                                 html.P(
                                     [
-                                        "Community and business nonprofits are grouped together to form the ",
-                                        html.Em("core nonprofit sub-sector"),
-                                        " which is contrasted with the ",
-                                        html.Em("government nonprofit sub-sector"), " made up of government nonprofits.", html.A(
+                                        "Les organismes et les institutions communautaires à but non lucratif sont regroupés dans le",
+                                        html.Em("sous-secteur sans but lucratif de base"),
+                                        "  qui contraste avec le ",
+                                        html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
                                             "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )

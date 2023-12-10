@@ -44,7 +44,7 @@ layout = html.Div([
                 html.Div(
                     html.Div([
                         html.H1(
-                            'Nonprofit sector revenue'),
+                            'Revenus du secteur sans but lucratif'),
                     ],
                         className='post-heading'
                     ),
@@ -79,12 +79,12 @@ layout = html.Div([
                 [
                     html.H3('Introduction'),
                     html.Span('''
-Overall, the Canadian nonprofit sector received just over $325 billion in revenue during 2021, the last complete year for which figures are available. Nationally, just over three fifths of total revenue went to government nonprofits (hospitals, residential care facilities, universities and colleges) and two fifths to core sub-sector organizations, divided about 3:2 between community and business nonprofits.
+Globalement, le secteur à but non lucratif canadien a accumulé un peu plus de 325 milliards de dollars en 2021, soit la dernière année pour laquelle des données sont disponibles. À l’échelle nationale, un peu plus des trois cinquièmes du total des revenus ont été attribuées aux institutions gouvernementales à but non lucratif (hôpitaux, certains établissements de soins pour bénéficiaires internes, universités et collèges) et deux cinquièmes reviennent aux organismes du sous-secteur de base. Le ratio est d’environ 3:2 entre les organismes communautaires et les institutions communautaires à but non lucratif.
                            '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Br(),
                     html.Span('''
-While the relative distributions of revenue by nonprofit type and sub-sector are fairly consistent across the provinces and territories, there are some variations. For example, government nonprofits account for larger percentages of total revenues in Prince Edward Island and Newfoundland and Labrador, but play a markedly smaller role in Nunavut, the only place where they accounted for a minority of nonprofit revenue. Similarly, community nonprofits consistently account for more revenue than business nonprofits, except in New Brunswick and Newfoundland and Labrador.
+Bien que la distribution relative des revenus par type d’organisme à but non lucratif et par sous-secteur soit plutôt constante entre les provinces et les territoires, il existe certaines variations. Par exemple, les institutions gouvernementales à but non lucratif représentent un pourcentage supérieur des revenus totaux à l’Île-du-Prince-Édouard et à Terre-Neuve-et-Labrador, mais leur rôle est nettement moins important au Nunavut, seule région où elles représentent une minorité des revenus du secteur sans but lucratif. De même, les organismes communautaires à but non lucratif enregistrent constamment des revenus plus élevés que les institutions communautaires à but non lucratif, sauf au Nouveau-Brunswick et à Terre-Neuve-et-Labrador.
                     ''', className='mt-4'),
                     # TODO: Add footnote
                     # Nonprofit revenue by sub sector
@@ -95,9 +95,9 @@ While the relative distributions of revenue by nonprofit type and sub-sector are
             ),
             html.Div(
                 [
-                    html.H3('Revenue trends by nonprofit type and sub-sector'),
+                    html.H3('Tendances des revenus par type d’organisme à but non lucratif et par sous-secteur'),
                     dcc.Markdown('''
-Since 2007, nonprofit revenue has grown by approximately 80% in nominal terms (i.e., not adjusting for the effects of inflation). Business nonprofit revenue has increased the most (nearly 95%), followed by community and government nonprofit revenue (each has increased by about 80%). While business nonprofit revenue increased the most, it was also the most volatile, increasing more rapidly than in other sub-sectors between 2007 and 2009 and decreasing significantly in 2014 and more modestly in 2020 with the onset of the pandemic. Community nonprofit revenues lagged government nonprofit revenues between 2010 and 2017 but outpaced them from 2017 to 2020.
+Depuis 2007, les revenus du secteur sans but lucratif ont augmenté d’environ 80 % en termes nominaux (c’est-à-dire non ajustés selon les effets de l’inflation). Les revenus des institutions communautaires à but non lucratif sont ceux qui ont le plus augmenté (près de 95 %), suivis des revenus des organismes communautaires et des institutions gouvernementales à but non lucratif (environ 80 % dans les deux cas). Bien que les revenus des institutions communautaires à but non lucratif soient ceux qui ont le plus augmenté, ils étaient également les plus volatiles. Ils ont effectivement augmenté plus rapidement que ceux des autres sous-secteurs entre 2007 et 2009, mais ont considérablement diminué en 2014, et encore plus modestement en 2020 en raison de la pandémie. Quant aux revenus des organismes communautaires à but non lucratif, ils étaient inférieurs à ceux des institutions gouvernementales à but non lucratif entre 2010 et 2017, mais ont dépassé ceux-ci de 2017 à 2020.
                     ''', className='mt-4'),
                     # Relative growth of revenues by sub secotr
                     dcc.Graph(
@@ -107,18 +107,19 @@ Since 2007, nonprofit revenue has grown by approximately 80% in nominal terms (i
             ),
             html.Div(
                 [
-                    html.H3('Revenue by activity area'),
+                    html.H3('Revenus par secteur d’activités'),
                     html.Span('''
-Organizations working in the areas of health, education and research and social services account for the largest portions of nonprofit revenue'''),
+Les organismes des domaines de la santé, de l’éducation, de la recherche et des services sociaux représentent les plus grandes proportions des revenus du secteur sans but lucratif.'''),
                     html.Sup(html.A('2', href='#footnote2', id="ref2")),
                     html.Span('''
-                                 About two thirds of government sub-sector revenue goes to health organizations, a quarter to education and research organizations and the remainder to social services. The bulk of the revenue for health and education and research organizations goes to government sub-sector organizations while the bulk of social services organization revenue goes to organizations in the core nonprofit sector (mainly community nonprofits).
+                                 Environ deux tiers des revenus du sous-secteur gouvernemental reviennent aux organismes de santé, un quart appartient aux organismes d’éducation et de recherche, et le reste revient aux services sociaux. La majeure partie des revenus des organismes de santé, d’éducation et de recherche revient aux organismes du sous-secteur gouvernemental, alors que la majorité des revenus des organismes de services sociaux appartiennent aux organismes du secteur sans but lucratif de base (surtout les organismes communautaires à but non lucratif).
+
                     ''', className='mt-4'),
                     dcc.Markdown('''
-Focusing on core sub-sector revenues, four fifths of revenues go to organizations working in four specific activity areas (business and professional associations and unions, social services, culture, sport and recreation, and education and research) and to organizations working in areas that do not clearly fall into one of the other 11 specific activity areas. Quite small percentages of core sub-sector revenues go to organizations working in the areas of law, advocacy and politics, the environment and international development and relief.
+En ce qui a trait aux revenus du sous-secteur de base, quatre cinquièmes des revenus reviennent aux organismes de quatre secteurs d’activités particuliers (associations commerciales, associations professionnelles et syndicats; services sociaux; culture, sports et loisirs; et éducation et recherche), ainsi qu’aux organismes des secteurs qui ne font pas partie d’un des onze autres secteurs d’activités. Des pourcentages plutôt faibles des revenus du sous-secteur de base se rapportent aux organismes des secteurs du droit, de la défense des intérêts, de la politique, de l’environnement, du développement international et de l’aide internationale.
                     '''),
                     dcc.Markdown('''
-Broadly speaking, provincial and territorial data are quite consistent with the national pattern.
+De façon générale, les données provinciales et territoriales concordent avec les tendances nationales.
                     '''),
                     # TODO: Add footnote
                     # NPercentage of nonprofit ervenues by sub sector and
@@ -131,12 +132,12 @@ Broadly speaking, provincial and territorial data are quite consistent with the 
             ),
             html.Div(
                 [
-                    html.H3('Revenue trends by activity area'),
+                    html.H3('Tendances relatives aux revenus par secteur d’activités'),
                     dcc.Markdown('''
-Looking at revenue growth by activity area, the largest growth since 2007 has been among core sub-sector organizations providing social services or working in areas that do not clearly fall into another defined activity area. Revenues for these organizations have more than doubled in nominal terms. Core sub-sector revenue has grown least among environmental organizations, philanthropic intermediaries, religious, and sports and recreation organizations. These organizations have seen their revenues increase by fifty percent or slightly less.
+En ce qui a trait à la croissance des revenus par secteur d’activités, le taux de croissance le plus élevé depuis 2007 a été enregistré pour les organismes du sous-secteur de base qui offrent des services sociaux ou travaillent dans des secteurs qui n’appartiennent pas à un autre secteur d’activités défini. Les revenus de ces organismes ont plus que doublé en termes nominaux. Le taux de croissance des revenus le moins élevé dans le sous-secteur de base revient aux organismes environnementaux, aux intermédiaires philanthropiques, aux organismes religieux, et aux organismes de sports et loisirs. Les revenus de ces organismes ont augmenté de cinquante pour cent ou d’un peu moins. 
                     ''', className='mt-4'),
                     dcc.Markdown('''
-Focusing on the government sub-sector, health and social services revenues have nearly doubled, much more than with education and research organizations where revenues have increased by just over fifty percent. Overall, the pace of growth among these organizations has been fairly consistent except since 2020, presumably due to increased pandemic-related funding for health organizations. In the core sub-sector, pandemic-related shifts are most clearly seen with organizations focusing on development and housing and sports, recreation and culture.
+Quant au sous-secteur gouvernemental, les revenus associés aux services de santé et sociaux ont presque doublé, beaucoup plus que dans le cas des organismes d’éducation et de recherche dont les revenus ont seulement augmenté d’un peu plus de cinquante pour cent. En général, le rythme de croissance de ces organismes s’est montré relativement constant, sauf depuis 2020 en raison du financement accru accordé aux organismes de santé en réaction à la pandémie. Dans le sous-secteur de base, les changements liés à la pandémie sont clairs dans le cas des organismes axés sur le développement, le logement, les loisirs et la culture.
                     '''),
                     # TODO: Add footnote
                     # Relative growth of revenues by core acitivty area
@@ -147,9 +148,9 @@ Focusing on the government sub-sector, health and social services revenues have 
             ),
             html.Div(
                 [
-                    html.H3('Revenue sources'),
+                    html.H3('Sources de revenus'),
                     dcc.Markdown('''
-Each sub-sector depends on a different mix of revenue sources. As one would expect given how the sub-sectors are defined, business nonprofits are heavily dependent on earned income, with sale of goods and services accounting for about three fifths of total revenue at the national level and membership fees and dues accounting for a third. Government nonprofits, on the other hand, receive about three quarters of revenue from government funding and about a fifth from the sale of goods and services. Community nonprofits have the most diverse range of revenue sources. The largest portion comes from earned income, chiefly the sale of goods and services, followed by membership fees and dues and investments. Just over a third comes from government funding and just under a third from personal and corporate donations.
+Chaque sous-secteur dépend d’une combinaison de sources de revenus. Comme on peut s’y attendre étant donné la façon dont les sous-secteurs sont définis, les institutions communautaires à but non lucratif dépendent grandement des revenus gagnés. En effet, la vente de biens et de services représente environ trois cinquièmes des revenus totaux au niveau national. Quant aux frais d’adhésion et aux cotisations, ils représentent un tiers des revenus totaux. En ce qui a trait aux organismes gouvernementaux à but non lucratif, environ trois quarts de leurs revenus proviennent du financement gouvernemental, et environ un cinquième est associé à la vente de biens et de services. Enfin, les organismes communautaires à but non lucratif ont les sources de revenus les plus variées. La majorité provient des revenus gagnés, surtout de la vente de biens et de services. S’ensuivent les frais d’adhésion, les cotisations et les investissements. Un peu plus du tiers provient du financement gouvernemental et un peu moins du tiers provient de dons de particuliers ou d’entreprises.
                     ''', className='mt-4'),
                     # TODO: Add footnote
                     # Revenues by source and subsector
@@ -162,9 +163,10 @@ Each sub-sector depends on a different mix of revenue sources. As one would expe
             ),
             html.Div(
                 [
-                    html.H3('Revenue trends by source and sub-sector'),
+                    html.H3('Tendances relatives aux revenus par source et par sous-secteur'),
                     dcc.Markdown('''
-The drivers of revenue growth vary significantly from sub-sector to sub-sector. Unsurprisingly, government funding has been the largest driver in growth for government nonprofits (increasing by 83% in nominal terms since 2007), but it has also been a key driver for community nonprofits, more than doubling over the period. While both sub-sectors have also seen large increases in some other revenue sources - investment income for community nonprofits and sale of goods and services for government nonprofits - these sources do not account for such large portions of the funding pie, though that may change if growth continues at this pace.                    ''', className='mt-4'),
+Les moteurs de croissance associés aux revenus varient grandement entre les différents sous-secteurs. Comme on pouvait s’y attendre, le financement gouvernemental est le moteur de croissance le plus important dans le cas des institutions gouvernementales à but non lucratif (augmentation de 83 % en termes nominaux depuis 2007). Toutefois, il s’agit également d’un important moteur de croissance pour les organismes communautaires à but non lucratif (il a plus que doublé pendant la période donnée). Bien que ces deux sous-secteurs aient également enregistré des augmentations majeures en ce qui a trait à d’autres sources de revenus (revenus de placement des organismes communautaires à but non lucratif, et vente de biens et de services dans le cas des institutions gouvernementales à but non lucratif), ces sources ne représentent pas une importante proportion du financement, mais cela pourrait changer si la croissance se poursuit à ce rythme. 
+                                 ''', className='mt-4'),
                     # TODO: Add footnote
                     # Relative grwoth of revenue sources by sub-sector
                     # dcc.Graph(
@@ -183,16 +185,16 @@ The drivers of revenue growth vary significantly from sub-sector to sub-sector. 
                         html.Li(
                             [
                                 html.P(
-                                    "Statistics Canada’s Satellite Account of Non-profit Organizations and Volunteering (the data source used in this story) divides the nonprofit sector into three parts:"),
-                                html.P([html.B("Community nonprofits."), " These organizations are independent from government and produce goods and services for free or for prices that are not considered to be economically significant (i.e., the prices charged do not significantly influence the amounts of the good or service produced or the amounts purchased by consumers). The goods and services produced by community nonprofits may be consumed by households (including individuals) or collectively by society at large. Examples include human services organizations such as foodbanks, shelters, youth groups, places of worship, advocacy organizations and service clubs."]),
-                                html.P([html.B("Business nonprofits."), " As with community nonprofits, these organizations are independent from government. They differ in that they produce goods and services for household or collective consumption at prices that are economically significant (i.e., they engage in market production) or produce goods and services for businesses or other nonprofit organizations. Examples include business associations, chambers of commerce and condominium associations."]),
-                                html.P([html.B("Government nonprofits."), " These organizations are similar to community nonprofits in that they produce goods and services for prices that are not economically significant. The key difference is that they are heavily influenced by government, even though they are institutionally separate from it. Examples include hospitals, some residential care facilities, universities and colleges."]),
+                                    "Le Compte satellite des institutions sans but lucratif et du bénévolat de Statistique Canada (source de données utilisée pour cette histoire) divise le secteur sans but lucratif en trois catégories :"),
+                                html.P([html.B("Organismes communautaires à but non lucratif."), " Ces organismes sont indépendants du gouvernement et produisent des biens et des services sans frais, ou à des prix économiquement non significatifs (c’est-à-dire que les prix demandés influencent peu les quantités de biens ou de services produites ou achetées par les consommateurs). Les biens et les services qu’ils produisent peuvent être consommés par des foyers (y compris des particuliers) ou par la société dans son ensemble. Ils comprennent, par exemple, les organismes de services à la personne, tels que les banques alimentaires, les refuges, les groupes jeunesse, les lieux de culte, les organismes de défense et les clubs de service."]),
+                                html.P([html.B("Institutions communautaires à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
+                                html.P([html.B("Institutions gouvernementales à but non lucratif."), " Ces institutions sont semblables aux organismes communautaires à but non lucratif en ce sens qu’elles produisent des biens et des services à des prix économiquement non significatifs. La principale différence réside dans le fait qu’elles sont grandement influencées par le gouvernement, même si elles sont distinctes de celui-ci. Elles comprennent, par exemple, les hôpitaux, certains établissements de soins pour bénéficiaires internes, les universités et les collèges."]),
                                 html.P(
                                     [
-                                        "Community and business nonprofits are grouped together to form the ",
-                                        html.Em("core nonprofit sub-sector"),
-                                        " which is contrasted with the ",
-                                        html.Em("government nonprofit sub-sector"), " made up of government nonprofits.", html.A(
+                                        "Les organismes et les institutions communautaires à but non lucratif sont regroupés dans le",
+                                        html.Em("sous-secteur sans but lucratif de base"),
+                                        "  qui contraste avec le ",
+                                        html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
                                             "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )

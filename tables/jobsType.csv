@@ -1,0 +1,43 @@
+refDate,geo,subSector,coreStatus,valNorm_FT,valNorm_PT,valNormP_FT,valNormP_PT,valNorm_Tot
+2021-01-01,CA,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,459628,164155,0.7368395740185288,0.2631604259814711,623783
+2021-01-01,CA,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,161630,43372,0.788431332377245,0.2115686676227549,205002
+2021-01-01,CA,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,1352915,361690,0.7890534554605871,0.21094654453941286,1714605
+2021-01-01,NL,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,4808,1461,0.7669484766310416,0.23305152336895837,6269
+2021-01-01,NL,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,1526,393,0.795205836373111,0.20479416362688901,1919
+2021-01-01,NL,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,29375,4810,0.8592950124323534,0.14070498756764663,34185
+2021-01-01,PE,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,1858,702,0.72578125,0.27421875,2560
+2021-01-01,PE,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,513,169,0.7521994134897361,0.24780058651026393,682
+2021-01-01,PE,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,8325,1605,0.8383685800604229,0.16163141993957703,9930
+2021-01-01,NS,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,12893,4279,0.7508152806894945,0.24918471931050548,17172
+2021-01-01,NS,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,3487,941,0.7874887082204155,0.21251129177958447,4428
+2021-01-01,NS,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,48640,12830,0.7912802993330079,0.20871970066699203,61470
+2021-01-01,NB,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,8347,2847,0.7456673217795248,0.25433267822047523,11194
+2021-01-01,NB,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,2684,706,0.791740412979351,0.20825958702064898,3390
+2021-01-01,NB,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,34385,6610,0.8387608244907916,0.16123917550920844,40995
+2021-01-01,QC,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,110093,39254,0.737162447186753,0.262837552813247,149347
+2021-01-01,QC,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,39179,9468,0.8053734043209242,0.19462659567907578,48647
+2021-01-01,QC,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,356485,92475,0.7940239665003563,0.2059760334996436,448960
+2021-01-01,ON,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,176448,57700,0.7535746621794762,0.24642533782052378,234148
+2021-01-01,ON,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,65336,14233,0.8211238044967261,0.17887619550327388,79569
+2021-01-01,ON,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,421255,105925,0.7990724230813006,0.2009275769186995,527180
+2021-01-01,MB,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,21754,7607,0.7409148189775553,0.25908518102244477,29361
+2021-01-01,MB,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,4851,1473,0.7670777988614801,0.2329222011385199,6324
+2021-01-01,MB,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,60385,19185,0.7588915420384567,0.2411084579615433,79570
+2021-01-01,SK,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,15783,6300,0.7147126749083005,0.2852873250916995,22083
+2021-01-01,SK,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,3390,1363,0.7132337471070903,0.28676625289290975,4753
+2021-01-01,SK,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,55300,16855,0.766405654493798,0.23359434550620192,72155
+2021-01-01,AB,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,44047,16036,0.7331025414842801,0.26689745851571994,60083
+2021-01-01,AB,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,16163,5608,0.7424096274861054,0.2575903725138946,21771
+2021-01-01,AB,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,161335,47245,0.7734921852526608,0.22650781474733914,208580
+2021-01-01,BC,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,61325,26816,0.695760202402968,0.304239797597032,88141
+2021-01-01,BC,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,24194,8930,0.7304069556816809,0.26959304431831904,33124
+2021-01-01,BC,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,173730,53090,0.765937747994004,0.23406225200599595,226820
+2021-01-01,YT,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,668,413,0.6179463459759482,0.3820536540240518,1081
+2021-01-01,YT,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,80,29,0.7339449541284404,0.26605504587155965,109
+2021-01-01,YT,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,790,245,0.7632850241545893,0.23671497584541062,1035
+2021-01-01,NT,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,NA,NA,NA,NA,NA
+2021-01-01,NT,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,NA,NA,NA,NA,NA
+2021-01-01,NT,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,2600,755,0.7749627421758569,0.22503725782414308,3355
+2021-01-01,NU,Organismes communautaires à but non lucratif,Organismes à but non lucratif de base,NA,NA,NA,NA,NA
+2021-01-01,NU,Institutions communautaires à but non lucratif,Organismes à but non lucratif de base,NA,NA,NA,NA,NA
+2021-01-01,NU,Institutions gouvernementales à but non lucratif,Institutions gouvernementales à but non lucratif,310,60,0.8378378378378378,0.16216216216216217,370

@@ -38,6 +38,12 @@ from apps import (
 
 )
 
+from apps.NSPS_2021_FR.app_layout import layout as NSPS_2021_FR_layout
+from apps.NSR_2021_FR.app_layout import layout as NSR_2021_FR_layout
+from apps.NLFC_2021_FR.app_layout import layout as NLFC_2021_FR_layout
+from apps.ERNS_2021_FR.app_layout import layout as ERNS_2021_FR_layout
+
+
 import homepage
 
 app.layout = html.Div([
@@ -143,6 +149,20 @@ def display_page(pathname):
     #     return WDC0105_13.layout
     elif pathname == '/popup':
         return definition.layout
+    
+    elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif_2021':
+        return NSPS_2021_FR_layout
+    elif pathname == '/revenus_du_secteur_sans_but_lucratif':
+    # elif pathname == '/nonprofit_sector_revenue_2021':
+        return NSR_2021_FR_layout
+    # elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif':
+    # elif pathname == '/nonprofit_labour_force_composition_2021':
+        # return NLFC_2021_FR_layout
+    elif pathname == '/Role_economique_du_secteur_sans_but_lucratif':
+    # elif pathname == '/economic_role_of_the_nonprofit_sector_2021':
+        return ERNS_2021_FR_layout
+    
+
     else:
         return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
 

@@ -12,18 +12,18 @@ _, _, _, _, revSource, revGrowthSource = get_data()
 
 def SubSec(df, title):
 
-    df = df.loc[df['subSector'].map({"Community nonprofits": 0,
-                                     "Business nonprofits": 1,
-                                     "Government nonprofits": 2}).sort_values().index]
+    df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
+                                     "Institutions communautaires à but non lucratif": 1,
+                                     "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()
 
-    # Core sub-sector (red)
+    # Sous-secteur de base (red)
     fig_SubSec.add_trace(
         go.Bar(
             x=df['subSector'],
             y=np.where(
-                df["coreStatus"] == "Core sub-sector",
+                df["coreStatus"] == "Sous-secteur de base",
                 df['valNormP'],
                 np.nan),
             text=[
@@ -33,7 +33,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Core sub-sector" else '' for i in df.index],
+                "%" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -41,15 +41,15 @@ def SubSec(df, title):
             marker=dict(
                 color='#c8102e'),
             showlegend=True,
-            name="Core sub-sector",
+            name="Sous-secteur de base",
             hoverinfo='skip'))
 
-    # Government sub-sector (blue)
+    # Gouvernement sub-sector (blue)
     fig_SubSec.add_trace(
         go.Bar(
             x=df['subSector'],
             y=np.where(
-                df["coreStatus"] == "Government sub-sector",
+                df["coreStatus"] == "Gouvernement sub-sector",
                 df['valNormP'],
                 np.nan),
             text=[
@@ -59,7 +59,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Government sub-sector" else '' for i in df.index],
+                "%" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -67,7 +67,7 @@ def SubSec(df, title):
             marker=dict(
                 color='#7bafd4'),
             showlegend=True,
-            name="Government sub-sector",
+            name="Gouvernement sub-sector",
             hoverinfo='skip'))
 
     # Mid-bar text
@@ -141,16 +141,16 @@ def SubSecActivity(df, title, vars):
     limitRight = max(pd.concat([df[var_2], df[var_1]])) * 1.15 * 100
     limitLeft = max(max(df[var_2]) * 100 * 0.7, max(df[var_1]) * 100 * 1.15)
 
-    # Sort data in correct order, anchoring "Other" at the bottom
-    df = pd.concat([df[df['activity'] == "Other"],
-                   df[df['activity'] != "Other"].sort_values(var_1)], axis=0)
+    # Sort data in correct order, anchoring "Autre" at the bottom
+    df = pd.concat([df[df['activity'] == "Autre"],
+                   df[df['activity'] != "Autre"].sort_values(var_1)], axis=0)
 
     fig_SubSecActivity = make_subplots(rows=1, cols=2)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 28),
         y=df['activity'],
         x=df[var_1] * 100,
-        name="Core nonprofits",
+        name="Organismes à but non lucratif de base",
         orientation='h',
         marker=dict(color="#c8102e"),
         text=round(df[var_1] * 100, 0).astype(int).map(str) + "%",
@@ -161,7 +161,7 @@ def SubSecActivity(df, title, vars):
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 25),
         y=df['activity'],
         x=df[var_2] * 100,
-        name="Government nonprofits",
+        name="Institutions gouvernementales à but non lucratif",
         orientation='h',
         marker=dict(color="#7BAFD4"),
         text=np.where(
@@ -220,7 +220,7 @@ def Source(df, title):
         go.Bar(
             x=df['subSector'],
             y=df['perTot_Government'],
-            name="Government",
+            name="Gouvernement",
             text=[
                 str(
                     int(
@@ -237,10 +237,10 @@ def Source(df, title):
             marker=dict(
                 color="#50a684"),
             hovertext=df['label_Government'],
-            hovertemplate="Government: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Gouvernement: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.add_trace(go.Bar(x=df['subSector'],
                                    y=df['perTot_CorpDons'],
-                                   name="Corporate donations",
+                                   name="Dons d'entreprises",
                                    text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                        df['perTot_CorpDons'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
@@ -249,13 +249,13 @@ def Source(df, title):
                                    # TODO: What is this color?
                                    marker=dict(color="#a8cae3"),
                                    hovertext=df['label_CorpDons'],
-                                   hovertemplate="Corporate donations: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+                                   hovertemplate="Dons d'entreprises: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(
         go.Bar(
             x=df['subSector'],
             y=df['perTot_Households'],
-            name="Household donations",
+            name="Dons de ménages",
             text=[
                 str(
                     int(
@@ -272,10 +272,10 @@ def Source(df, title):
             marker=dict(
                 color="#7BAFD4"),
             hovertext=df['label_Households'],
-            hovertemplate="Household donations & memberships: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Dons de ménages & memberships: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.add_trace(go.Bar(x=df['subSector'],
                                    y=df['perTot_Investments'],
-                                   name="Investments",
+                                   name="Investissements",
                                    text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                        df['perTot_Investments'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
@@ -284,11 +284,11 @@ def Source(df, title):
                                    # TODO: What is this color?
                                    marker=dict(color="#eca7ad"),
                                    hovertext=df['label_Investments'],
-                                   hovertemplate="Investments: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+                                   hovertemplate="Investissements: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(go.Bar(x=df['subSector'],
                                    y=df['perTot_Membership'],
-                                   name="Business membership fees",
+                                   name="Frais d'adhésion commerciaux",
                                    text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                        df['perTot_Membership'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
@@ -297,13 +297,13 @@ def Source(df, title):
                                    # TODO: What is this color?
                                    marker=dict(color="#e06d78"),
                                    hovertext=df['label_Membership'],
-                                   hovertemplate="Business membership fees: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+                                   hovertemplate="Frais d'adhésion commerciaux: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(
         go.Bar(
             x=df['subSector'],
             y=df['perTot_Goods'],
-            name="Goods & services",
+            name="Biens et services",
             text=[
                 str(
                     int(
@@ -320,7 +320,7 @@ def Source(df, title):
             marker=dict(
                 color="#c8102e"),
             hovertext=df['label_Goods'],
-            hovertemplate="Goods & services: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Biens et services: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.update_layout(barmode='stack',
                                 title=dict(text=title,
                                            xanchor='left',
@@ -345,9 +345,9 @@ def GrowthSource(df, title):
     fig_revGrowthSource = make_subplots(rows=3, cols=1)
 
     filters = [
-        'Community nonprofits',
-        "Business nonprofits",
-        "Government nonprofits"]
+        'Organismes communautaires à but non lucratif',
+        "Institutions communautaires à but non lucratif",
+        "Institutions gouvernementales à but non lucratif"]
     text_y = [1.015, 0.575, 0.25]
 
     for i in range(len(filters)):
@@ -360,7 +360,7 @@ def GrowthSource(df, title):
             go.Scatter(
                 x=this_df['refDate'].dt.year,
                 y=this_df['valNormP_Government'],
-                name="Government",
+                name="Gouvernement",
                 mode='lines',
                 line=dict(
                     color="#50a684",
@@ -375,7 +375,7 @@ def GrowthSource(df, title):
 
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_CorpDons'],
-                                                 name="Corporate donations",
+                                                 name="Dons d'entreprises",
                                                  mode='lines',
                                                  line=dict(color="#a8cae3",  # TODO: What is this color?
                                                            dash="dot"),
@@ -389,7 +389,7 @@ def GrowthSource(df, title):
                 go.Scatter(
                     x=this_df['refDate'].dt.year,
                     y=this_df['valNormP_Households'],
-                    name="Household donations & fees",
+                    name="Dons de ménages & fees",
                     mode='lines',
                     line=dict(
                         color="#7BAFD4",
@@ -404,7 +404,7 @@ def GrowthSource(df, title):
                 go.Scatter(
                     x=this_df['refDate'].dt.year,
                     y=this_df['valNormP_HouseDons'],
-                    name="Household donations",
+                    name="Dons de ménages",
                     mode='lines',
                     line=dict(
                         color="#7BAFD4",
@@ -418,7 +418,7 @@ def GrowthSource(df, title):
                 col=1)
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_Investments'],
-                                                 name="Investments",
+                                                 name="Investissements",
                                                  mode='lines',
                                                  line=dict(color="#eca7ad",  # TODO: What is this color?
                                                            dash="dot"),
@@ -430,7 +430,7 @@ def GrowthSource(df, title):
 
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_Membership'],
-                                                 name="Membership fees",
+                                                 name="Frais d'adhésion",
                                                  mode='lines',
                                                  line=dict(color="#e06d78",  # TODO: What is this color?
                                                            dash="dash"),
@@ -444,7 +444,7 @@ def GrowthSource(df, title):
             go.Scatter(
                 x=this_df['refDate'].dt.year,
                 y=this_df['valNormP_Goods'],
-                name="Goods & services",
+                name="Biens et services",
                 mode='lines',
                 line=dict(
                     color="#c8102e",
@@ -498,7 +498,7 @@ def build_fig_revsouce_CA(df):
         go.Bar(
             x=df['subSector'],
             y=df['perTot_Government'],
-            name="Government",
+            name="Gouvernement",
             text=[
                 str(
                     int(
@@ -515,10 +515,10 @@ def build_fig_revsouce_CA(df):
             marker=dict(
                 color="#50a684"),
             hovertext=df['label_Government'],
-            hovertemplate="Government: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Gouvernement: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_CorpDons'],
-                                      name="Corporate donations",
+                                      name="Dons d'entreprises",
                                       text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                           df['perTot_CorpDons'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
@@ -527,13 +527,13 @@ def build_fig_revsouce_CA(df):
                                       marker=dict(
         color="#a8cae3"),  # TODO: What is this color?
         hovertext=df['label_CorpDons'],
-        hovertemplate="Corporate donations: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+        hovertemplate="Dons d'entreprises: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(
         go.Bar(
             x=df['subSector'],
             y=df['perTot_HouseDons'],
-            name="Household donations",
+            name="Dons de ménages",
             text=[
                 str(
                     int(
@@ -550,10 +550,10 @@ def build_fig_revsouce_CA(df):
             marker=dict(
                 color="#7BAFD4"),
             hovertext=df['label_HouseDons'],
-            hovertemplate="Household donations: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Dons de ménages: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_Investments'],
-                                      name="Investments",
+                                      name="Investissements",
                                       text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                           df['perTot_Investments'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
@@ -562,11 +562,11 @@ def build_fig_revsouce_CA(df):
                                       marker=dict(
         color="#eca7ad"),  # TODO: What is this color?
         hovertext=df['label_Investments'],
-        hovertemplate="Investments: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+        hovertemplate="Investissements: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_Membership'],
-                                      name="Membership fees",
+                                      name="Frais d'adhésion",
                                       text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + "%" if not np.isnan(
                                           df['perTot_Membership'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
@@ -575,13 +575,13 @@ def build_fig_revsouce_CA(df):
                                       marker=dict(
         color="#e06d78"),  # TODO: What is this color?
         hovertext=df['label_Membership'],
-        hovertemplate="Membership fees: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"
+        hovertemplate="Frais d'adhésion: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(
         go.Bar(
             x=df['subSector'],
             y=df['perTot_Goods'],
-            name="Goods & services",
+            name="Biens et services",
             text=[
                 str(
                     int(
@@ -598,13 +598,13 @@ def build_fig_revsouce_CA(df):
             marker=dict(
                 color="#c8102e"),
             hovertext=df['label_Goods'],
-            hovertemplate="Goods & services: %{y:.0%}<br>Value: %{hovertext}<extra></extra>"))
+            hovertemplate="Biens et services: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.update_layout(
         barmode='stack',
         title=dict(
             text="Revenues by source and sub-sector, 2021 - CA<br>" +
             '<sup>' +
-            "Note: Hover over bar for absolute values" +
+            " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." +
             '</sup>',
             xanchor='left',
             x=0.02),
@@ -640,9 +640,9 @@ def build_fig_revGrowthSource(df):
     fig_revGrowthSource = make_subplots(rows=3, cols=1)
 
     filters = [
-        'Community nonprofits',
-        "Business nonprofits",
-        "Government nonprofits"]
+        'Organismes communautaires à but non lucratif',
+        "Institutions communautaires à but non lucratif",
+        "Institutions gouvernementales à but non lucratif"]
     text_y = [1.015, 0.575, 0.25]
 
     for i in range(len(filters)):
@@ -657,7 +657,7 @@ def build_fig_revGrowthSource(df):
             go.Scatter(
                 x=this_df['refDate'].dt.year,
                 y=this_df['valNormP_Government'],
-                name="Government",
+                name="Gouvernement",
                 mode='lines',
                 line=dict(
                     color="#50a684",
@@ -672,7 +672,7 @@ def build_fig_revGrowthSource(df):
 
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_CorpDons'],
-                                                 name="Corporate donations",
+                                                 name="Dons d'entreprises",
                                                  mode='lines',
                                                  line=dict(color="#a8cae3",  # TODO: What is this color?
                                                            dash="dot"),
@@ -687,7 +687,7 @@ def build_fig_revGrowthSource(df):
                 go.Scatter(
                     x=this_df['refDate'].dt.year,
                     y=this_df['valNormP_HouseDons'],
-                    name="Household donations",
+                    name="Dons de ménages",
                     mode='lines',
                     line=dict(
                         color="#7BAFD4",
@@ -706,7 +706,7 @@ def build_fig_revGrowthSource(df):
                 go.Scatter(
                     x=this_df['refDate'].dt.year,
                     y=this_df['valNormP_Households'],
-                    name="Household donations & fees",
+                    name="Dons de ménages & fees",
                     mode='lines',
                     line=dict(
                         color="#7BAFD4",
@@ -719,7 +719,7 @@ def build_fig_revGrowthSource(df):
 
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_Investments'],
-                                                 name="Investments",
+                                                 name="Investissements",
                                                  mode='lines',
                                                  line=dict(color="#eca7ad",  # TODO: What is this color?
                                                            dash="dot"),
@@ -731,7 +731,7 @@ def build_fig_revGrowthSource(df):
 
         fig_revGrowthSource.add_trace(go.Scatter(x=this_df['refDate'].dt.year,
                                                  y=this_df['valNormP_Membership'],
-                                                 name="Membership fees",
+                                                 name="Frais d'adhésion",
                                                  mode='lines',
                                                  line=dict(color="#e06d78",  # TODO: What is this color?
                                                            dash="dash"),
@@ -745,7 +745,7 @@ def build_fig_revGrowthSource(df):
             go.Scatter(
                 x=this_df['refDate'].dt.year,
                 y=this_df['valNormP_Goods'],
-                name="Goods & services",
+                name="Biens et services",
                 mode='lines',
                 line=dict(
                     color="#c8102e",
@@ -786,7 +786,7 @@ def build_fig_revGrowthSource(df):
                                                  " = 1.0)" +
                                                  '<br>' +
                                                  '<sup>' +
-                                                 "Note: Hover over line for absolute values" +
+                                                 " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." +
                                                  '</sup>', xanchor='left', x=0.02), margin=dict(t=50), legend=dict(orientation='h', xanchor='center', x=0.5, y=-
                                                                                                                    0.05, font=dict(size=15), traceorder='reversed'), hoverlabel=dict(align='right'), hovermode='x')
 

@@ -13,7 +13,7 @@ def register_callbacks(app):
     def update_graph(geo):
         df = revSubSec[revSubSec['geo'] == geo]
         # TODO: Does the year need to update dynamically?
-        title = "Nonprofit revenue by sub-sector, 2021" + " - " + geo
+        title = "Revenus des organismes à but non lucratif par sous-secteur, 2021" + " - " + geo
         return SubSec(df, title)
 
     @app.callback(
@@ -26,16 +26,16 @@ def register_callbacks(app):
         revGrowth['refDate'] = pd.to_datetime(revGrowth['refDate'])
 
         title = "Relative growth of revenues by sub-sector, " + str(min(revGrowth['refDate'].dt.year)) + " to " + str(max(revGrowth['refDate'].dt.year)) + " - " + geo + " (" + str(
-            min(revGrowth['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + "Note: Hover over line for absolute values" + '</sup>'
+            min(revGrowth['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {
             'valNormP_TotNPOs': {
-                'name': "All nonprofits", 'line_dict': dict(
+                'name': "Tous les organismes à but non lucratif", 'line_dict': dict(
                     color="#7A4A89", dash="solid")}, 'valNormP_CommNPOs': {
-                'name': "Community nonprofits", 'line_dict': dict(
+                'name': "Organismes communautaires à but non lucratif", 'line_dict': dict(
                     color="#c8102e", dash="dash")}, 'valNormP_BusNPOs': {
-                        'name': "Business nonprofits", 'line_dict': dict(
+                        'name': "Institutions communautaires à but non lucratif", 'line_dict': dict(
                             color="#c8102e", dash="dot")}, 'valNormP_GovNPOs': {
-                                'name': "Government nonprofits", 'line_dict': dict(
+                                'name': "Institutions gouvernementales à but non lucratif", 'line_dict': dict(
                                     color="#7BAFD4", dash="dash")}}
         return Growth(df, title, trace_settings)
 
@@ -46,7 +46,7 @@ def register_callbacks(app):
         df = revSubSecActivity[revSubSecActivity['geo'] == geo]
         # TODO: Does the year need to update dynamically?
         title = "Percentage of nonprofit revenues by sub-sector and activity area, 2021" + \
-            " - " + geo + '<br>' + '<sup>' + "Note: Hover over bar for absolute values" + '</sup>'
+            " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         vars = ('perCoreRev', 'perGovtRev')
         return SubSecActivity(df, title, vars)
 
@@ -61,20 +61,20 @@ def register_callbacks(app):
 
         # TODO: Does the year need to update dynamically?
         title = "Relative growth of revenues by core activity area, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(
-            min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + "Note: Hover over line for absolute values" + '</sup>'
+            min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {'valNormP_coreRev_Sports': {'name': "Sports & rec.",
                                                       'line_dict': dict(color="#7A4A89", dash="solid")},
-                          'valNormP_coreRev_Education': {'name': "Education",
+                          'valNormP_coreRev_Education': {'name': "Éducation",
                                                          'line_dict': dict(color="#7A4A89", dash="dash")},
-                          'valNormP_coreRev_Health': {'name': "Health",
+                          'valNormP_coreRev_Health': {'name': "Santé",
                                                       'line_dict': dict(color="#7A4A89", dash="dot")},
-                          'valNormP_coreRev_SocServ': {'name': "Social services",
+                          'valNormP_coreRev_SocServ': {'name': "Services sociaux",
                                                        'line_dict': dict(color="#c8102e", dash="solid")},
-                          'valNormP_coreRev_Environment': {'name': "Environment",
+                          'valNormP_coreRev_Environment': {'name': "Environnement",
                                                            'line_dict': dict(color="#c8102e", dash="dash")},
                           'valNormP_coreRev_DevtHousing': {'name': "Devt. & housing",
                                                            'line_dict': dict(color="#c8102e", dash="dot")},
-                          'valNormP_coreRev_Advocacy': {'name': "Advocacy",
+                          'valNormP_coreRev_Advocacy': {'name': "Défense des intérêts",
                                                         'line_dict': dict(color="#7BAFD4", dash="solid")},
                           'valNormP_coreRev_Religion': {'name': "Religion",
                                                         'line_dict': dict(color="#7BAFD4", dash="dash")},
@@ -84,7 +84,7 @@ def register_callbacks(app):
                                                              'line_dict': dict(color="#50a684", dash="solid")},
                           'valNormP_coreRev_ProfAssoc': {'name': "Professional<br>associations",
                                                          'line_dict': dict(color="#50a684", dash="dash")},
-                          'valNormP_coreRev_Other': {'name': "Other",
+                          'valNormP_coreRev_Other': {'name': "Autre",
                                                      'line_dict': dict(color="#50a684", dash="dot")}}
         return Growth(df, title, trace_settings)
 
@@ -99,12 +99,12 @@ def register_callbacks(app):
 
         # TODO: Does the year need to update dynamically?
         title = "Relative growth of revenues by government activity area, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(
-            revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + "Note: Hover over line for absolute values" + '</sup>'
+            revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {
             'valNormP_govtRev_Health': {
-                'name': "Health & social services", 'line_dict': dict(
+                'name': "Santé & social services", 'line_dict': dict(
                     color="#c8102e", dash="solid")}, 'valNormP_govtRev_Education': {
-                'name': "Education", 'line_dict': dict(
+                'name': "Éducation", 'line_dict': dict(
                     color="#7BAFD4", dash="dash")}}
         return Growth(df, title, trace_settings)
 
@@ -114,7 +114,7 @@ def register_callbacks(app):
     def update_graph(geo):
         df = revSource[revSource['geo'] == geo]
         title = "Revenues by source and sub-sector, 2021 - " + geo + '<br>' + \
-            '<sup>' + "Note: Hover over line for absolute values" + '</sup>'
+            '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         return Source(df, title)
 
     @app.callback(
@@ -126,5 +126,5 @@ def register_callbacks(app):
         df['refDate'] = pd.to_datetime(df['refDate'])
 
         title = "Relative growth of revenue sources by sub-sector, " + str(min(df['refDate'].dt.year)) + " to " + str(max(df['refDate'].dt.year)) + " - " + geo + " (" + str(
-            min(df['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + "Note: Hover over line for absolute values" + '</sup>'
+            min(df['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         return GrowthSource(df, title)

@@ -38,7 +38,7 @@ def register_callbacks(app):
                        (jobsDemog['class'] == demo)]
         jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
         title = "Distribution of nonprofit employees by demographic characteristic and sub-sector, " + \
-            str(max(jobsDemog['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + "Note: Hover over bar for absolute values" + '</sup>'
+            str(max(jobsDemog['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         return EmpDemog(df, title)
 
     @app.callback(dash.dependencies.Output('wagesDemog',

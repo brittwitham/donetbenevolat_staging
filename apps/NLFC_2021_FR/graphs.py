@@ -11,7 +11,7 @@ def jobsType_fig(df, title):
 
     fig_jobsType.add_trace(go.Bar(x=df['subSector'],
                                   y=df['valNorm_FT'],
-                                  name="Full-time jobs",
+                                  name="Emplois à plein temps",
                                   marker=dict(color="#c8102e"),
                                   text=df['valNormP_FT'].astype(str),
                                   texttemplate='%{text:.0%}',
@@ -22,7 +22,7 @@ def jobsType_fig(df, title):
 
     fig_jobsType.add_trace(go.Bar(x=df['subSector'],
                                   y=df['valNorm_PT'],
-                                  name="Part-time jobs",
+                                  name="Emplois à temps partiel",
                                   marker=dict(color="#7bafd4"),
                                   text=df['valNormP_PT'].astype(str),
                                   texttemplate='%{text:.0%}',
@@ -66,7 +66,7 @@ def wagesType_fig(df, title):
 
     fig_wagesType.add_trace(go.Bar(x=df['subSector'],
                                    y=df['FT'],
-                                   name="Full-time jobs",
+                                   name="Emplois à plein temps",
                                    marker=dict(color="#c8102e"),
                                    text=df['FT'],
                                    texttemplate='%{text:$,}',
@@ -75,7 +75,7 @@ def wagesType_fig(df, title):
 
     fig_wagesType.add_trace(go.Bar(x=df['subSector'],
                                    y=df['PT'],
-                                   name="Part-time jobs",
+                                   name="Emplois à temps partiel",
                                    marker=dict(color="#7bafd4"),
                                    text=df['PT'],
                                    texttemplate='%{text:$,}',
@@ -84,7 +84,7 @@ def wagesType_fig(df, title):
 
     fig_wagesType.add_trace(go.Bar(x=df['subSector'],
                                    y=df['Tot'],
-                                   name="All jobs",
+                                   name="Tous les emplois",
                                    marker=dict(color="#7A4A89"),
                                    text=df['Tot'],
                                    texttemplate='%{text:$,}',
@@ -128,7 +128,7 @@ def EmpDemog(df, title, jobs=True):
 
     fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
                                    y=df[var1],
-                                   name="Community nonprofits",
+                                   name="Organismes communautaires à but non lucratif",
                                    marker=dict(color='#7bafd4'),
                                    text=df[var1],
                                    texttemplate=template,
@@ -139,7 +139,7 @@ def EmpDemog(df, title, jobs=True):
 
     fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
                                    y=df[var2],
-                                   name="Business nonprofits",
+                                   name="Institutions communautaires à but non lucratif",
                                    marker=dict(color='#9ac1dd'),
                                    text=df[var2],
                                    texttemplate=template,
@@ -150,7 +150,7 @@ def EmpDemog(df, title, jobs=True):
 
     fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
                                    y=df[var3],
-                                   name="Government nonprofits",
+                                   name="Institutions gouvernementales à but non lucratif",
                                    marker=dict(color='#c8102e'),
                                    text=df[var3],
                                    texttemplate=template,

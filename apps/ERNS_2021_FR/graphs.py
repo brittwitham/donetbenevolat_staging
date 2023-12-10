@@ -55,7 +55,7 @@ def build_fig_perNatGDP(perNatGDP):
 
     fig_perNatGDP.update_layout(
         title=dict(
-            text="Nonprofit GDP as a percentage of total GDP, by province - 2021",
+            text="PIB des organismes à but non lucratif sous forme de pourcentage du PIB total, par province - 2021",
             xanchor='left',
             x=0.02),
         yaxis=dict(
@@ -63,7 +63,7 @@ def build_fig_perNatGDP(perNatGDP):
             showgrid=False,
             showticklabels=False),
         xaxis=dict(
-            title="Geographic area"))
+            title="Zone géographique"))
 
     return fig_perNatGDP
 
@@ -73,18 +73,18 @@ fig_perNatGDP = build_fig_perNatGDP(perNatGDP)
 
 def SubSec(df, title):
 
-    df = df.loc[df['subSector'].map({"Community nonprofits": 0,
-                                     "Business nonprofits": 1,
-                                     "Government nonprofits": 2}).sort_values().index]
+    df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
+                                     "Institutions communautaires à but non lucratif": 1,
+                                     "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()
 
-    # Core sub-sector (red)
+    # Sous-secteur de base (red)
     fig_SubSec.add_trace(
         go.Bar(
             x=df['subSector'],
             y=np.where(
-                df["coreStatus"] == "Core sub-sector",
+                df["coreStatus"] == "Sous-secteur de base",
                 df['valNormP'],
                 np.nan),
             text=[
@@ -94,7 +94,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Core sub-sector" else '' for i in df.index],
+                "%" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -102,15 +102,15 @@ def SubSec(df, title):
             marker=dict(
                 color='#c8102e'),
             showlegend=True,
-            name="Core sub-sector",
+            name="Sous-secteur de base",
             hoverinfo='skip'))
 
-    # Government sub-sector (blue)
+    # Gouvernement sub-sector (blue)
     fig_SubSec.add_trace(
         go.Bar(
             x=df['subSector'],
             y=np.where(
-                df["coreStatus"] == "Government sub-sector",
+                df["coreStatus"] == "Gouvernement sub-sector",
                 df['valNormP'],
                 np.nan),
             text=[
@@ -120,7 +120,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Government sub-sector" else '' for i in df.index],
+                "%" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -128,7 +128,7 @@ def SubSec(df, title):
             marker=dict(
                 color='#7bafd4'),
             showlegend=True,
-            name="Government sub-sector",
+            name="Gouvernement sub-sector",
             hoverinfo='skip'))
 
     # Mid-bar text
@@ -202,16 +202,16 @@ def SubSecActivity(df, title, vars):
     limitRight = max(pd.concat([df[var_2], df[var_1]])) * 1.15 * 100
     limitLeft = max(max(df[var_2]) * 100 * 0.7, max(df[var_1]) * 100 * 1.15)
 
-    # Sort data in correct order, anchoring "Other" at the bottom
-    df = pd.concat([df[df['activity'] == "Other"],
-                   df[df['activity'] != "Other"].sort_values(var_1)], axis=0)
+    # Sort data in correct order, anchoring "Autre" at the bottom
+    df = pd.concat([df[df['activity'] == "Autre"],
+                   df[df['activity'] != "Autre"].sort_values(var_1)], axis=0)
 
     fig_SubSecActivity = make_subplots(rows=1, cols=2)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 28),
         y=df['activity'],
         x=df[var_1] * 100,
-        name="Core nonprofits",
+        name="Organismes à but non lucratif de base",
         orientation='h',
         marker=dict(color="#c8102e"),
         text=round(df[var_1] * 100, 0).astype(int).map(str) + "%",
@@ -222,7 +222,7 @@ def SubSecActivity(df, title, vars):
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 25),
         y=df['activity'],
         x=df[var_2] * 100,
-        name="Government nonprofits",
+        name="Institutions gouvernementales à but non lucratif",
         orientation='h',
         marker=dict(color="#7BAFD4"),
         text=np.where(

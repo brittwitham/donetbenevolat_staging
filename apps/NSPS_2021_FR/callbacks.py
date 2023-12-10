@@ -23,13 +23,13 @@ def register_callbacks(app):
         df = empGrowth[empGrowth['geo'] == geo]
         trace_settings = {
             'valNormP_TotNPOs': {
-                'name': "All nonprofits", 'line_dict': dict(
+                'name': "Tous les organismes à but non lucratif", 'line_dict': dict(
                     color="#7A4A89", dash="solid")}, 'valNormP_CommNPOs': {
-                'name': "Community nonprofits", 'line_dict': dict(
+                'name': "Organismes communautaires à but non lucratif", 'line_dict': dict(
                     color="#c8102e", dash="dash")}, 'valNormP_BusNPOs': {
-                        'name': "Business nonprofits", 'line_dict': dict(
+                        'name': "Institutions communautaires à but non lucratif", 'line_dict': dict(
                             color="#c8102e", dash="dot")}, 'valNormP_GovNPOs': {
-                                'name': "Government nonprofits", "line_dict": dict(
+                                'name': "Institutions gouvernementales à but non lucratif", "line_dict": dict(
                                     color="#7BAFD4", dash="dash")}}
         return Growth(df, title, trace_settings)
 
@@ -50,17 +50,17 @@ def register_callbacks(app):
         df = empGrowthActivity[empGrowthActivity['geo'] == geo]
         trace_settings = {'valNormP_coreEmp_Sports': {'name': "Sports & rec.",
                                                       'line_dict': dict(color="#7A4A89", dash="solid")},
-                          'valNormP_coreEmp_Education': {'name': "Education",
+                          'valNormP_coreEmp_Education': {'name': "Éducation",
                                                          'line_dict': dict(color="#7A4A89", dash="dash")},
-                          'valNormP_coreEmp_Health': {'name': "Health",
+                          'valNormP_coreEmp_Health': {'name': "Santé",
                                                       'line_dict': dict(color="#7A4A89", dash="dot")},
-                          'valNormP_coreEmp_SocServ': {'name': "Social services",
+                          'valNormP_coreEmp_SocServ': {'name': "Services sociaux",
                                                        'line_dict': dict(color="#c8102e", dash="solid")},
-                          'valNormP_coreEmp_Environment': {'name': "Environment",
+                          'valNormP_coreEmp_Environment': {'name': "Environnement",
                                                            'line_dict': dict(color="#c8102e", dash="dash")},
                           'valNormP_coreEmp_DevtHousing': {'name': "Devt. & housing",
                                                            'line_dict': dict(color="#c8102e", dash="dot")},
-                          'valNormP_coreEmp_Advocacy': {'name': "Advocacy",
+                          'valNormP_coreEmp_Advocacy': {'name': "Défense des intérêts",
                                                         'line_dict': dict(color="#7BAFD4", dash="solid")},
                           'valNormP_coreEmp_Religion': {'name': "Religion",
                                                         'line_dict': dict(color="#7BAFD4", dash="dash")},
@@ -70,7 +70,7 @@ def register_callbacks(app):
                                                              'line_dict': dict(color="#50a684", dash="solid")},
                           'valNormP_coreEmp_ProfAssoc': {'name': "Professional<br>associations",
                                                          'line_dict': dict(color="#50a684", dash="dash")},
-                          'valNormP_coreEmp_Other': {'name': "Other",
+                          'valNormP_coreEmp_Other': {'name': "Autre",
                                                      'line_dict': dict(color="#50a684", dash="dot")}
                           }
         return Growth(df, title, trace_settings)
@@ -83,8 +83,8 @@ def register_callbacks(app):
         df = empGrowthActivity[empGrowthActivity['geo'] == geo]
         trace_settings = {
             'valNormP_govtEmp_Health': {
-                'name': "Health & social services", 'line_dict': dict(
+                'name': "Santé & social services", 'line_dict': dict(
                     color="#c8102e", dash="solid")}, 'valNormP_govtEmp_Education': {
-                'name': "Education", 'line_dict': dict(
+                'name': "Éducation", 'line_dict': dict(
                     color="#7BAFD4", dash="dash")}}
         return Growth(df, title, trace_settings)

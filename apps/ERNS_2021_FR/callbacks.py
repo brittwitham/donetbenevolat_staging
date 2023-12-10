@@ -30,7 +30,7 @@ def register_callbacks(app):
                                        'line_dict': dict(color="#c8102e", dash="dash")},
                           'BusNPOs': {'name': "Business<br>nonprofits",
                                       "line_dict": dict(color="#c8102e", dash="dot")},
-                          'GovNPOs': {'name': "Government<br>nonprofits",
+                          'GovNPOs': {'name': "Gouvernement<br>nonprofits",
                                       'line_dict': dict(color="#7BAFD4", dash="dash")}
                           }
         return Growth(df, title, trace_settings)

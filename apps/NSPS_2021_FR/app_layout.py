@@ -60,7 +60,7 @@ layout = html.Div([
         dbc.Row(
             dbc.Col(
                 html.Div([
-                    "Select a region:",
+                    "Sélectionnez une région:",
                     dcc.Dropdown(
                         id='geo-selection',
                         options=[{'label': provOrder[i], 'value': provOrder[i]}

@@ -30,7 +30,7 @@ provOrder = [
 
 # TODO!
 navbar = gen_navbar(
-    "Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018")
+    "nonprofit_sector_revenue_2021")
 
 marginTop = 20
 home_button = gen_home_button()

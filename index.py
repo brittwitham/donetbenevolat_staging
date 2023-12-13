@@ -155,9 +155,9 @@ def display_page(pathname):
     elif pathname == '/revenus_du_secteur_sans_but_lucratif':
     # elif pathname == '/nonprofit_sector_revenue_2021':
         return NSR_2021_FR_layout
-    # elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif':
+    elif pathname == '/Composition_de_la_population_active_du_secteur_sans_but_lucratif':
     # elif pathname == '/nonprofit_labour_force_composition_2021':
-        # return NLFC_2021_FR_layout
+        return NLFC_2021_FR_layout
     elif pathname == '/Role_economique_du_secteur_sans_but_lucratif':
     # elif pathname == '/economic_role_of_the_nonprofit_sector_2021':
         return ERNS_2021_FR_layout

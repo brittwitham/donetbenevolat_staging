@@ -126,38 +126,53 @@ def EmpDemog(df, title, jobs=True):
 
     fig_jobsDemog = go.Figure()
 
-    fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
-                                   y=df[var1],
-                                   name="Organismes communautaires à but non lucratif",
-                                   marker=dict(color='#7bafd4'),
-                                   text=df[var1],
-                                   texttemplate=template,
-                                   textposition='outside',
-                                   textfont=dict(size=15, color="black"),
-                                   hovertext=df[var1],
-                                   hovertemplate=hovertemplate))
+    fig_jobsDemog.add_trace(
+        go.Bar(
+            x=df['characteristics'],
+            y=df[var1],
+            name="Organismes communautaires à but non lucratif",
+            marker=dict(
+                color='#7bafd4'),
+            text=df[var1],
+            texttemplate=template,
+            textposition='outside',
+            textfont=dict(
+                size=15,
+                color="black"),
+            hovertext=df[var1],
+            hovertemplate=hovertemplate))
 
-    fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
-                                   y=df[var2],
-                                   name="Institutions communautaires à but non lucratif",
-                                   marker=dict(color='#9ac1dd'),
-                                   text=df[var2],
-                                   texttemplate=template,
-                                   textposition='outside',
-                                   textfont=dict(size=15, color="black"),
-                                   hovertext=df[var2],
-                                   hovertemplate=hovertemplate))
+    fig_jobsDemog.add_trace(
+        go.Bar(
+            x=df['characteristics'],
+            y=df[var2],
+            name="Institutions communautaires à but non lucratif",
+            marker=dict(
+                color='#9ac1dd'),
+            text=df[var2],
+            texttemplate=template,
+            textposition='outside',
+            textfont=dict(
+                size=15,
+                color="black"),
+            hovertext=df[var2],
+            hovertemplate=hovertemplate))
 
-    fig_jobsDemog.add_trace(go.Bar(x=df['characteristics'],
-                                   y=df[var3],
-                                   name="Institutions gouvernementales à but non lucratif",
-                                   marker=dict(color='#c8102e'),
-                                   text=df[var3],
-                                   texttemplate=template,
-                                   textposition='outside',
-                                   textfont=dict(size=15, color="black"),
-                                   hovertext=df[var3],
-                                   hovertemplate=hovertemplate))
+    fig_jobsDemog.add_trace(
+        go.Bar(
+            x=df['characteristics'],
+            y=df[var3],
+            name="Institutions gouvernementales à but non lucratif",
+            marker=dict(
+                color='#c8102e'),
+            text=df[var3],
+            texttemplate=template,
+            textposition='outside',
+            textfont=dict(
+                size=15,
+                color="black"),
+            hovertext=df[var3],
+            hovertemplate=hovertemplate))
 
     fig_jobsDemog.update_layout(title=dict(text=title,
                                            xanchor='left',

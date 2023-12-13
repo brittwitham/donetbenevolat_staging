@@ -71,7 +71,7 @@ layout = html.Div([
                       style = {'width': '96%','padding-left':'3%', 'padding-right':'1%'}
               ),
                 ],className="m-2 p-2"),
-            # html.Div(["Select a region:",
+            # html.Div(["Sélectionnez une région:",
             #       dcc.Dropdown(
             #           id='region-selection',
             #           options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],

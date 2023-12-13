@@ -51,7 +51,7 @@ layout = html.Div([
                 html.Div(
                     html.Div([
                         html.H1(
-                            'Nonprofit labour force composition'),
+                            'Composition de la population active du secteur sans but lucratif'),
                     ],
                         className='post-heading'
                     ),
@@ -68,7 +68,7 @@ layout = html.Div([
         dbc.Row(
             dbc.Col(
                 html.Div([
-                    "Select a region:",
+                    "Sélectionnez une région:",
                     dcc.Dropdown(
                         id='geo-selection',
                         options=[{'label': provOrder[i], 'value': provOrder[i]}
@@ -86,18 +86,19 @@ layout = html.Div([
                 [
                     html.H3('Introduction'),
                     html.Span('''
-Le secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui correspond à environ 13 % de la population active du Canada. Deux tiers des employés de ce secteur travaillent pour des institutions gouvernementales à but non lucratif (hôpitaux, établissements de soins pour bénéficiaires internes, universités et collèges) qui dépendent grandement de la population active rémunérée pour assurer la prestation de leurs services. Le tiers restant travaille dans les institutions du sous-secteur de base[^1], dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions communautaires à but non lucratif. Comparativement aux institutions gouvernementales à but non lucratif, les organismes du sous-secteur de base ont tendance à dépendre davantage des bénévoles pour réaliser leur mission.
+Le secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui correspond à environ 13 % de la population active du Canada. Deux tiers des employés de ce secteur travaillent pour des institutions gouvernementales à but non lucratif. Le tiers restant travaille dans les institutions du sous-secteur de base, dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions communautaires à but non lucratif.
                               '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Span('''
-                              For more details on how paid staff are distributed by nonprofit type and activity area, please refer to Nonprofit Sector Paid Staff elsewhere on this website.
+                               Pour obtenir plus de détails sur la répartition du personnel rémunéré par type d’organisme à but non lucratif et par secteur d’activités, consulter la section Personnel rémunéré du secteur sans but lucratif ailleurs sur ce site Web.
                            '''),
-                    html.H3('Job type'),
+                    html.Br(),
+                    html.H3('Type d’emploi'),
                     html.Span('''
-Overall, nearly four fifths of nonprofit employees are employed on a full-time basis and one fifth on a part-time basis. Part-time employees make up a larger fraction of the community nonprofit workforce they do the business and government nonprofit labour forces.
+De façon générale, près de quatre cinquièmes des employés du secteur sans but lucratif travaillent à temps plein et un cinquième travaille à temps partiel. Les employés à temps partiel représentent une plus grande partie de la main-d’œuvre des organismes communautaires à but non lucratif que celle des institutions communautaires et gouvernementales à but non lucratif.
                     ''', className='mt-4'),
                     html.Span('''
-These patterns are reasonably consistent across provinces, though there are some fluctuations. The situation is less clear in the Territories due to rounding of the data as released by Statistics Canada.
+Ces tendances sont raisonnablement les mêmes entre les provinces, bien qu’il existe certaines fluctuations. La situation dans les territoires est plus difficile à évaluer en raison de l’arrondissement des données publiées par Statistique Canada.
                     ''', className='mt-4'),
                     html.Sup(html.A('2', href='#footnote2', id="ref2")),
                     # TODO: Add footnote
@@ -109,9 +110,9 @@ These patterns are reasonably consistent across provinces, though there are some
             ),
             html.Div(
                 [
-                    html.H4('Average wages by organization type'),
+                    html.H4('Salaires moyens par type d’organisme'),
                     dcc.Markdown('''
-Looking at average wages by organization type, compensation in community nonprofits tends to trail compensation in other types of nonprofits. Nationally, average compensation for full-time community nonprofit positions trails business and government full-time positions by roughly a fifth. While part-time community nonprofit compensation is roughly equivalent to part-time business nonprofit compensation, both are nearly a third less than part-time government compensation. The combination of lower wages and a higher fraction of part-time employment means that the typical community nonprofit wage is about 26% less than the typical government nonprofit wage and 22% less than the typical business nonprofit wage.
+En ce qui a trait aux salaires moyens par type d’organisme, la rémunération au sein des organismes communautaires à but non lucratif est souvent inférieure à celle des autres types d’organismes à but non lucratif. À l’échelle nationale, la rémunération moyenne des postes à temps plein au sein des organismes communautaires à but non lucratif est inférieure d’environ un cinquième à celle des postes à temps plein au sein des institutions communautaires et gouvernementales à but non lucratif. Bien que la rémunération des postes à temps partiel au sein des organismes communautaires à but non lucratif soit à peu près équivalente à celle des postes à temps partiel au sein des institutions communautaires à but non lucratif, les deux demeurent inférieures de près d’un tiers à celle des postes à temps partiel au sein des institutions gouvernementales à but non lucratif. La combinaison de salaires inférieurs et d’un nombre plus élevé d’emplois à temps partiel signifie que le salaire typique au sein des organismes communautaires à but non lucratif est environ 26 % moins élevé que le salaire typique au sein des institutions gouvernementales à but non lucratif, et 22 % moins élevé que le salaire typique au sein des institutions communautaires à but non lucratif.
                     ''', className='mt-4'),
                     # Average wages and salaries by employment type
                     dcc.Graph(
@@ -121,15 +122,13 @@ Looking at average wages by organization type, compensation in community nonprof
             ),
             html.Div(
                 [
-                    html.H3('Characteristics of the nonprofit labour force'),
+                    html.H3(
+                        'Caractéristiques de la population active du secteur sans but lucratif'),
                     dcc.Markdown('''
-Nationally, seven in ten of those working in the nonprofit sector are women. The fraction of female employees is highest among government and community nonprofits, but lags somewhat among business nonprofits. As is typical of other workforces, the bulk of nonprofit employees are aged between 25 and 64. Within the nonprofit sector, a significantly higher fraction of government nonprofit employees fall into this age range, compared to community and business nonprofits. Community nonprofit employees are disproportionately likely to be 65 years of age while business nonprofit employees are disproportionately likely to be under the age of 25. Nonprofit employees also tend to be highly educated, with just under half having a university degree. Compared to other employees, government nonprofit employees are modestly more likely to have a university degree while community and particularly business nonprofit employees are markedly more likely to have a high school degree or less. These trends tend to hold constant at the provincial level with the age and education patterns frequently being even more pronounced than at the national level.
+À l’échelle nationale, sept employés du secteur sans but lucratif sur dix sont des femmes. Le nombre de femmes est plus élevé dans les organismes et les institutions communautaires à but non lucratif, et moins élevé dans les institutions communautaires à but non lucratif. Comme c’est généralement le cas avec les autres effectifs, la majorité des employés du secteur sans but lucratif est âgée de 25 à 64 ans. Dans ce secteur, comparativement aux organismes et institutions communautaires à but non lucratif, une proportion considérablement plus élevée des employés des institutions gouvernementales à but non lucratif font partie de ce groupe d’âge. Les employés des organismes communautaires à but non lucratif sont disproportionnellement susceptibles d’avoir 65 ans, alors que les employés des institutions communautaires à but non lucratif sont disproportionnellement susceptibles d’avoir moins de 25 ans. Par ailleurs, les employés du secteur sans but lucratif sont plutôt instruits. En fait, un peu moins de la moitié d’entre eux ont un diplôme universitaire. Comparativement aux autres employés, ceux des institutions gouvernementales à but non lucratif sont un peu plus susceptibles d’avoir un diplôme universitaire, alors que ceux des organismes communautaires à but non lucratif et surtout des institutions communautaires à but non lucratif sont beaucoup plus susceptibles d’avoir un diplôme d’études secondaires ou moins. Au niveau provincial, ces tendances relatives à l’âge et à l’instruction sont plutôt semblables, mais elles sont souvent plus prononcées qu’au niveau national.
                     ''', className='mt-4'),
                     dcc.Markdown('''
-Looking at other individual characteristics, over a quarter of nonprofit employees immigrated to Canada at some point in their life and/or are members of visible minorities. There is comparatively little variation in these figures by nonprofit type. Roughly one in every 25 employees identifies as Indigenous. While the difference between community and other nonprofits is just two percentage points, the comparatively small base means that community nonprofit employees are much more likely to be Indigenous than are employees in other types of nonprofits. Provincially, the fractions of nonprofit employees who have immigrated to Canada at some point or are members of a visible minority tend to be highest in Ontario and British Columbia and lowest in Atlantic Canada. Nonprofit employees in Saskatchewan and Manitoba are markedly more likely to be Indigenous.
-                    '''),
-                    dcc.Markdown('''
-Broadly speaking, provincial and territorial data are quite consistent with the national pattern.
+En ce qui a trait aux autres caractéristiques, plus d’un quart des employés du secteur sans but lucratif ont immigré au Canada à un certain moment de leur vie ou sont membres d’une minorité visible. Ces données varient peu selon le type d’organisme à but non lucratif. Environ un employé sur 25 s’auto-identifie comme étant Autochtone. Même si la différence entre les organismes communautaires à but non lucratif et les autres types d’organismes à but non lucratif n’est que de deux points de pourcentage, ce groupe relativement modeste signifie que les employés des organismes communautaires à but non lucratif sont beaucoup plus susceptibles d’être des Autochtones que les employés des autres types d’organismes à but non lucratif. À l’échelle provinciale, la proportion d’employés du secteur sans but lucratif qui ont immigré au Canada à un certain moment de leur vie ou qui sont membres d’une minorité visible a tendance à être plus élevée en Ontario et en Colombie-Britannique. Elle est plus faible dans les provinces de l’Atlantique. Enfin, les employés des organismes du secteur sans but lucratif en Saskatchewan et au Manitoba sont beaucoup plus susceptibles d’être des Autochtones.
                     '''),
                     # TODO: Add footnote
                     # Dist of nonprofit employees
@@ -148,12 +147,12 @@ Broadly speaking, provincial and territorial data are quite consistent with the 
             ),
             html.Div(
                 [
-                    html.H4('Average wages by worker characteristic'),
+                    html.H4('Salaires moyens par caractéristique de travailleur'),
                     dcc.Markdown('''
-While most nonprofit employees are female, they tend to be paid significantly less than male employees. This pay gap is largest among business nonprofits and smallest among government nonprofits. Looking at pay by age, average wages tend to increase until the age of 45 to 54 before declining. Nationally, within the core age ranges of 25 to 64, community nonprofit wages tend to be about a quarter less than government nonprofit wages, with larger gaps among younger and older workers. Business nonprofit wages are about a quarter lower than government nonprofit wages for workers under 25, but this gap disappears and even reverses with age before re-emerging among workers 65 years of age and older. Average wages also tend to increase with levels of formal education. Community nonprofit wages are consistently lower than government nonprofit wages, with the size of the difference tending to increase with level of education. Average business nonprofit wages are 10% - 15% higher than government nonprofit wages for those with less than a trade certificate or less but slightly lower among those with a college diploma or more.
+Bien que la plupart des employés du secteur sans but lucratif soient des femmes, celles-ci gagnent considérablement moins que les hommes employés dans ce même secteur. Cet écart salarial est plus important dans les institutions communautaires à but non lucratif et moins élevé dans les institutions gouvernementales à but non lucratif. En ce qui a trait au salaire selon le groupe d’âge, le salaire moyen a tendance à augmenter jusqu’à la tranche d’âge de 45 ans à 54 ans, puis il diminue. À l’échelle nationale, dans le cas des employés de 25 à 64 ans, les salaires offerts au sein des organismes communautaires à but non lucratif ont tendance à être un quart moins élevés que les salaires offerts au sein des institutions gouvernementales à but non lucratif. De plus, les écarts sont plus importants entre les jeunes employés et les employés plus âgés. Quant aux salaires offerts au sein des institutions communautaires à but non lucratif, ils sont environ un quart moins élevés que les salaires offerts au sein des institutions gouvernementales à but non lucratif dans le cas des employés de moins de 25 ans. Toutefois, cet écart disparaît et se renverse même avec l’âge avant de refaire surface chez les employés de 65 ans et plus. Par ailleurs, les salaires moyens ont tendance à augmenter avec les niveaux d’éducation formelle. Les salaires offerts au sein des organismes communautaires à but non lucratif sont toujours inférieurs à ceux qui sont offerts dans les institutions gouvernementales à but non lucratif. De plus, l’écart a tendance à augmenter avec le niveau d’éducation. Quant aux salaires moyens offerts au sein des institutions communautaires à but non lucratif, dans le cas des employés dont le niveau d’éducation formelle est moins élevé qu’un certificat de compétence ou inférieur, ils sont de 10 % à 15 % plus élevés que ceux qui sont offerts dans les institutions gouvernementales à but non lucratif, mais légèrement inférieurs dans le cas des employés qui détiennent un diplôme collégial ou plus.
                     ''', className='mt-4'),
                     dcc.Markdown('''
-Among government nonprofits, average wages for those who have been immigrants to Canada at some point in their lives are somewhat higher than non-immigrant wages, but the reverse is true for community and business nonprofits. The gaps between core sub-sector wages and government wages are somewhat larger among immigrant workers than they are among those born in Canada, particularly with business nonprofits. Visible minority employees tend to receive lower wages across all nonprofit types, with the largest gap among business nonprofits and the lowest among government nonprofits. The situation is very similar with Indigenous employees, though the gap in pay between average wages for Indigenous and non-Indigenous employees is lowest among community nonprofits, though wages for both groups trail government nonprofit wages by over a quarter.
+Au sein des institutions gouvernementales à but non lucratif, le salaire moyen des employés qui ont immigré au Canada à un certain moment de leur vie est légèrement supérieur à celui des non-immigrants, mais le contraire est tout aussi vrai au sein des organismes et des institutions communautaires à but non lucratif. Les écarts entre les salaires du sous-secteur de base et les salaires gouvernementaux sont légèrement plus élevés chez les employés immigrants que chez les employés nés au Canada, surtout au sein des institutions communautaires à but non lucratif. Quant aux employés des minorités visibles, ils ont tendance à toucher un salaire inférieur dans tous les types d’organismes à but non lucratif. Le plus grand écart revient aux institutions communautaires à but non lucratif et le plus faible appartient aux institutions gouvernementales à but non lucratif. La situation est très semblable dans le cas des employés autochtones. Toutefois, l’écart le plus faible entre les salaires moyens des employés autochtones et non autochtones revient aux organismes communautaires à but non lucratif, quoique les salaires des deux groupes sont inférieurs de plus d’un quart à ceux des institutions gouvernementales à but non lucratif.
                     '''),
                     # TODO: Add footnote
                     # Av nonprofit wages by dmeo
@@ -178,7 +177,8 @@ Among government nonprofits, average wages for those who have been immigrants to
                                 html.P(
                                     [
                                         "Les organismes et les institutions communautaires à but non lucratif sont regroupés dans le",
-                                        html.Em("sous-secteur sans but lucratif de base"),
+                                        html.Em(
+                                            "sous-secteur sans but lucratif de base"),
                                         "  qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
                                             "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
@@ -187,7 +187,7 @@ Among government nonprofits, average wages for those who have been immigrants to
                             ], id="fn1"),
                         html.Li([
                             html.P([
-                                "When employment within a given sub-sector and activity area rounds to less than one thousand employees, Statistics Canada reports zero employees.",
+                                "Lorsque l’emploi dans un sous-secteur et un secteur d’activités est arrondi à moins de mille employés, Statistique Canada déclare que le nombre d’employés est de zéro.",
                                 html.A(
                                     "↩︎",
                                     href="#fnref2",

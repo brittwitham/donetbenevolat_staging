@@ -200,7 +200,7 @@ def update_graph(region):
 #     #     dbc.Row(
 #     #        dbc.Col(
 #     #            html.Div([
-#     #                "Select a region:",
+#     #                "Sélectionnez une région:",
 #     #                dcc.Dropdown(
 #     #                    id='region-selection',
 #     #                    options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
@@ -225,7 +225,7 @@ def update_graph(region):
 #                     '''),
 #                     # Levels of support by cause
 #                     html.Div([
-#                    "Select a region:",
+#                    "Sélectionnez une région:",
 #                    dcc.Dropdown(
 #                        id='region-selection1',
 #                        options=[{'label': region_names[i], 'value': region_names[i]} for i in range(len(region_names))],
@@ -239,7 +239,7 @@ def update_graph(region):
 #                     '''),
 #                     # Allocation of support by cause
 #                     html.Div([
-#                    "Select a region:",
+#                    "Sélectionnez une région:",
 #                    dcc.Dropdown(
 #                        id='region-selection2',
 #                        options=[{'label': region_names[i], 'value': region_names[i]} for i in range(len(region_names))],

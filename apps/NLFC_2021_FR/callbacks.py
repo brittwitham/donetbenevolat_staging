@@ -34,9 +34,9 @@ def register_callbacks(app):
                    dash.dependencies.Input('demo-selection',
                                            'value')])
     def update_graph(geo, demo):
+        jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
         df = jobsDemog[(jobsDemog['geo'] == geo) &
                        (jobsDemog['class'] == demo)]
-        jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
         title = "Distribution of nonprofit employees by demographic characteristic and sub-sector, " + \
             str(max(jobsDemog['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         return EmpDemog(df, title)

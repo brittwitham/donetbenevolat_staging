@@ -65,7 +65,7 @@ layout = html.Div([
     # Note: filters put in separate container to make floating element later
 #    dbc.Container(
 #        [
-#         html.Div(["Select a region:",
+#         html.Div(["Sélectionnez une région:",
 #             dcc.Dropdown(
 #                       id='region-selection',
 #                       options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],

@@ -21,11 +21,11 @@ def gen_home_button(is_french = False, is_2013 = False):
     return home_button
 
 
-def gen_navbar(alt_lang_suffix="", is_french=False, is_2013=False):
+def gen_navbar(alt_lang_suffix="", is_french=True, is_2013=False):
     other_lang_base = "http://app.givingandvolunteering.ca" if is_french else "http://app.donetbenevolat.ca"
 
     # TODO: Add 2013 suffix for home link too?  
-    home_link = "https://www.givingandvolunteering.ca" 
+    home_link = "https://www.donetbenevolat.ca"
 
     other_lang_link = "{}/{}".format(other_lang_base, alt_lang_suffix)
 
@@ -35,7 +35,7 @@ def gen_navbar(alt_lang_suffix="", is_french=False, is_2013=False):
         dbc.Container(
             [           
                 html.A(
-                    html.Img(src="/assets/canadian-knowledge-hub.png", alt="Canadian Knowledge Hub logo"),
+                    html.Img(src="/assets/centre+logo.jpg", alt="Don et Benevolat logo"),
                     href=home_link
                 ),
                 html.Div(
@@ -60,7 +60,7 @@ footer = html.Footer(
     dbc.Container(
         dbc.Row(
             html.Div(
-                html.P('This website developed with funding from the Government of Canada, through the Social Development Partnerships Program of Employment and Social Development Canada.', className="text-center"),
+                html.P("Ce site Web a été développé grâce au financement du gouvernement du Canada, par le biais du Programme de partenariats pour le développement social d'Emploi et Développement social Canada.",className="text-center"),
                 className='col-12 mx-auto'
             ),
         )

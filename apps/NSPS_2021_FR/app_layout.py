@@ -235,7 +235,7 @@ layout = html.Div([
                                     "- organismes qui tentent de contrôler et de faire avancer les intérêts d’industries particulières ou de groupes particuliers de travailleurs."]),
                             html.P(
                                 [
-                                    "Autre",
+                                    html.Em("Autre"),
                                     " -  organismes qui ne font pas partie de ces secteurs d’activités.",
                                     html.A(
                                         "↩︎",

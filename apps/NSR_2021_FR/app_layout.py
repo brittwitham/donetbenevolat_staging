@@ -246,7 +246,7 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                     " - organizations working to regulate and advance the interests of particular industries or groups of workers."]),
                             html.P(
                                 [
-                                    "Autre",
+                                    html.Em("Autre"),
                                     " - organizations not elsewhere assigned to an activity area.",
                                     html.A(
                                         "↩︎",

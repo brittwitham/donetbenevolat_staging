@@ -73,6 +73,7 @@ def replace_phrases_in_csv(file_path):
 for root, dirs, files in os.walk(repo_path):
     for file in files:
         if file in ('callbacks.py', 'graphs.py'):
+        # if file in ('app_layout.py'):
         # if file == 'graphs.py':
             replace_phrases_in_file(Path(root) / file)
 

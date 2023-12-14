@@ -27,12 +27,12 @@ provOrder = [
     "NT",
     "NU"]
 demos = [
-    'Gender',
+    'Genre',
     'Immigration',
-    'Indigenous',
-    'Visible minority',
-    'Formal education',
-    'Age group']
+    'Autochtones',
+    'Minorités visibles',
+    'Éducation formelle',
+    "Groupe d'âge"]
 
 
 # TODO!
@@ -136,7 +136,7 @@ En ce qui a trait aux autres caractéristiques, plus d’un quart des employés 
                         id='demo-selection',
                         options=[{'label': demos[i], 'value': demos[i]}
                                  for i in range(len(demos))],
-                        value='Formal education',
+                        value='Éducation formelle',
                         style={'verticalAlign': 'middle'}
                     ),
                     dcc.Graph(
@@ -164,7 +164,7 @@ Au sein des institutions gouvernementales à but non lucratif, le salaire moyen 
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        " Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li(

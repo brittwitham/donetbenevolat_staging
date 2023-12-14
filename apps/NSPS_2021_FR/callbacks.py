@@ -11,7 +11,7 @@ def register_callbacks(app):
         dash.dependencies.Output('empSubSec', 'figure'),
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
-        title = f"Nonprofit employment by sub-sector, 2021 - {geo}"
+        title = f"Emploi dans les organismes à but non lucratif par sous-secteur, 2021 - {geo}"
         df = empSubSec[empSubSec['geo'] == geo]
         return SubSec(df, title)
 
@@ -19,7 +19,7 @@ def register_callbacks(app):
         dash.dependencies.Output('empGrowth', 'figure'),
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
-        title = f"Relative growth of employment by sub-sector, {geo} - 2007 - 2021 (2007 = 1.0)"
+        title = f"Croissance relative de l'emploi par sous-secteur, {geo} - 2007 - 2021 (2007 = 1.0)"
         df = empGrowth[empGrowth['geo'] == geo]
         trace_settings = {
             'valNormP_TotNPOs': {
@@ -38,7 +38,7 @@ def register_callbacks(app):
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
         # + str(min(empSubSecActivity['refDate'].dt.year))
-        title = f"Percentage of nonprofit employment by sub-sector and activity area ({geo}) - 2021"
+        title = f"Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités ({geo}) - 2021"
         df = empSubSecActivity[empSubSecActivity['geo'] == geo]
         return SubSecActivity(df, title, ('percoreEmp', 'pergovtEmp'))
 

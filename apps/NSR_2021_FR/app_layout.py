@@ -179,7 +179,7 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        " Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li(
@@ -207,20 +207,20 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                     " - includes museums, visual, material and performing arts groups and facilities, media, historic and humanistic societies and sports and recreation groups."]),
                             html.P(
                                 [
-                                    html.Em("Education & research"),
+                                    html.Em("Éducation & research"),
                                     " - organizations dedicated to the provision and support of educational services and research. Universities and colleges are assigned to the government sub-sector."]),
                             html.P(
                                 [
-                                    html.Em("Health"),
+                                    html.Em("Santé"),
                                     " - organizations providing and supporting in-patient and out-patient healthcare services. Hospitals and nursing homes are assigned to the government sub-sector."]),
-                            html.P([html.Em("Social services"), " - organizations providing a diverse range of non-health related human services. A minority of organizations in this activity area are assigned to the government sub-sector, depending on the degree of influence government exerts on them."]),
+                            html.P([html.Em("Services sociaux"), " - organizations providing a diverse range of non-health related human services. A minority of organizations in this activity area are assigned to the government sub-sector, depending on the degree of influence government exerts on them."]),
                             html.P(
                                 [
-                                    html.Em("Environment"),
+                                    html.Em("Environnement"),
                                     " - organizations engaged in environmental protection and conservation, including animal welfare."]),
                             html.P(
                                 [
-                                    html.Em("Development & housing"),
+                                    html.Em("Développement et logement"),
                                     " - organizations engaged in social, community and economic development and the provision of housing."]),
                             html.P(
                                 [
@@ -229,7 +229,7 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                             html.P(
                                 [
                                     html.Em(
-                                        "Philanthropic intermediaries & voluntarism"),
+                                        "Intermédiaires philanthropiques & voluntarism"),
                                     " - public and private foundations and organizations promoting voluntarism."]),
                             html.P(
                                 [
@@ -246,7 +246,7 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                     " - organizations working to regulate and advance the interests of particular industries or groups of workers."]),
                             html.P(
                                 [
-                                    "Other",
+                                    "Autre",
                                     " - organizations not elsewhere assigned to an activity area.",
                                     html.A(
                                         "↩︎",

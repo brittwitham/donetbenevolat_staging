@@ -78,12 +78,14 @@ layout = html.Div([
                 [
                     html.H3('Introduction'),
                     html.Span('''
-                    CLe secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui correspond à environ 13 % de la population active du Canada. Deux tiers des employés de ce secteur travaillent pour des institutions gouvernementales à but non lucratif (hôpitaux, établissements de soins pour bénéficiaires internes, universités et collèges) qui dépendent grandement de la population active rémunérée pour assurer la prestation de leurs services. Le tiers restant travaille dans les institutions du sous-secteur de base
+                    Le secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui correspond à environ 13 % de la population active du Canada. Deux tiers des employés de ce secteur travaillent pour des institutions gouvernementales à but non lucratif (hôpitaux, établissements de soins pour bénéficiaires internes, universités et collèges) qui dépendent grandement de la population active rémunérée pour assurer la prestation de leurs services. Le tiers restant travaille dans les institutions du sous-secteur de base
                            '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Span('''
                     dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions communautaires à but non lucratif. Comparativement aux institutions gouvernementales à but non lucratif, les organismes du sous-secteur de base ont tendance à dépendre davantage des bénévoles pour réaliser leur mission.
                     ''', className='mt-4'),
+                    html.Br(),
+                    html.Br(),
                     html.Span('''
                     Bien que la distribution relative au personnel rémunéré par type d’organisme à but non lucratif et par sous-secteur soit plutôt constante entre les provinces, il existe certaines variations. De façon générale, le pourcentage du nombre total d’employés des organismes à but non lucratif de base est supérieur en Ontario et en Colombie-Britannique, mais il est moins élevé dans les provinces de l’Atlantique, en Saskatchewan et en Alberta. La situation dans les territoires est plus difficile à évaluer en raison de l’arrondissement des données publiées par Statistique Canada.
                     '''),
@@ -152,7 +154,7 @@ layout = html.Div([
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        " Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li(

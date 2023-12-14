@@ -146,7 +146,7 @@ De façon générale, les données provinciales et territoriales concordent avec
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        " Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li([

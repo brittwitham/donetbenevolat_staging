@@ -61,3 +61,10 @@ Business membership fees,Frais d'adhésion commerciaux,,Source,Trace label,
 Value,Valeur,,,Hovertext,"Context: ""Corporate donations: 10% / Value: $1B"""
 Note: Hover over bar for absolute values, Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.
 Note: Hover over line for absolute values, Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues.
+Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
+Nonprofit employment by sub-sector,Emploi dans les organismes à but non lucratif par sous-secteur
+Percentage of nonprofit employment by sub-sector and activity area,Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités
+Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
+"Business & professional associations, unions","Associations d'affaires et professionnelles, syndicats"
+"Culture, sport & recreation","Cultur, sports et loisirs"
+"Law, advocacy & politics","Loi, défense des intérêts & politique"

@@ -26,13 +26,12 @@ provOrder = [
     "YT",
     "NT",
     "NU"]
-demos = [
-    'Gender',
-    'Immigration',
-    'Indigenous',
-    'Visible minority',
-    'Formal education',
-    'Age group']
+demos = ['Genre',
+        'Immigration',
+        'Autochtones',
+        'Minorités visibles',
+        'Éducation formelle',
+        'Groupe d\'âge']
 
 
 # TODO!
@@ -136,7 +135,7 @@ En ce qui a trait aux autres caractéristiques, plus d’un quart des employés 
                         id='demo-selection',
                         options=[{'label': demos[i], 'value': demos[i]}
                                  for i in range(len(demos))],
-                        value='Formal education',
+                        value='Éducation formelle',
                         style={'verticalAlign': 'middle'}
                     ),
                     dcc.Graph(

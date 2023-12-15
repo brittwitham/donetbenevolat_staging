@@ -61,3 +61,24 @@ Business membership fees,Frais d'adhésion commerciaux,,Source,Trace label,
 Value,Valeur,,,Hovertext,"Context: ""Corporate donations: 10% / Value: $1B"""
 Note: Hover over bar for absolute values, Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.
 Note: Hover over line for absolute values, Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues.
+Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
+Nonprofit employment by sub-sector,Emploi dans les organismes à but non lucratif par sous-secteur
+Percentage of nonprofit employment by sub-sector and activity area,Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités
+Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
+"Business & professional associations, unions","Associations d'affaires et professionnelles, syndicats"
+"Culture, sport & recreation","Cultur, sports et loisirs"
+"Law, advocacy & politics","Loi, défense des intérêts & politique"
+"Relative growth of revenues by sub-sector","Croissance relative des revenus par sous-secteur",Revenues,revGrowth,Title,
+"Percentage of nonprofit revenues by sub-sector and activity area","Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités",Revenues,revGrowthActivity_core,Title,
+"Percentage of nonprofit revenues by sub-sector and activity area","Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités",Revenues,revGrowthActivity_core,Title,
+"Relative growth of revenues by core activity area","Croissance relative de par secteur d'activités de base",Paid Staff,empGrowthActivity_core,Title,
+"Relative growth of revenues by government activity area","Croissance relative des revenus par secteur d'activités gouvernemental",Revenues,revGrowthActivity_gov,Title,
+"Relative growth of revenue sources by sub-sector","Croissance relative des sources de revenu par sous-secteur",Revenues,revGrowthLevel_CA,Title,
+"Number and percentage of full-time and part-time employees by sub-sector","Nombre et pourcentage d'employés à temps plein et partiel par sous-secteur",Human Resources,jobsType,Title,
+"Average wages & salaries by employment type and sub-sector","Salaires moyens par type d'emploi et par sous-secteur",Human Resources,wagesType,Title,
+"Distribution of nonprofit employees by demographic characteristic and sub-sector","Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur.",Human Resources,jobsDemog,Title,
+"Average nonprofit wages and salaries by demographic characteristic and sub-sector","Salaires moyens par caractéristique démographique et par sous-secteur",Human Resources,wagesDemog,Title,
+"Note: Hover over bar for absolute employee numbers","Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.",Human Resources,jobsType,Title,
+Percentage and amount of nonprofit GDP by sub-sector,Pourcentage et montant du PIB des organismes à but non lucratif par sous-secteur,GDP,gdpSubSec,Title,
+"Relative growth of nominal GDP by sub-sector","Croissance relative du PIB nominal par sous-secteur",GDP,gdpGrowth,Trace label,
+Percentage of nonprofit GDP by sub-sector and activity area,Pourcentage du PIB des organismes à but non lucratif par sous-secteur et par secteur d'activités,GDP,gdpSubSecActivity,Title,

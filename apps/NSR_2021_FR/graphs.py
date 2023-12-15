@@ -803,7 +803,7 @@ def build_fig_revGrowthSource(df):
                                          row=i + 1, col=1)
 
     revGrowthSource['refDate'] = pd.to_datetime(revGrowthSource['refDate'])
-    fig_revGrowthSource.update_layout(title=dict(text="Relative growth of revenue sources by sub-sector, " +
+    fig_revGrowthSource.update_layout(title=dict(text="Croissance relative des sources de revenu par sous-secteur, " +
                                                  str(min(revGrowthSource['refDate'].dt.year)) +
                                                  " to " +
                                                  str(max(revGrowthSource['refDate'].dt.year)) +

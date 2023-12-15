@@ -12,8 +12,8 @@ def register_callbacks(app):
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
         jobsType['refDate'] = pd.to_datetime(jobsType['refDate'])
-        title = "Number and percentage of full-time and part-time employees by sub-sector, " + \
-            str(max(jobsType['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + "Note: Hover over bar for absolute employee numbers" + '</sup>'
+        title = "Nombre et pourcentage d'employés à temps plein et partiel par sous-secteur, " + \
+            str(max(jobsType['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + "Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         df = jobsType[jobsType['geo'] == geo]
         return jobsType_fig(df, title)
 
@@ -22,7 +22,7 @@ def register_callbacks(app):
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
         wagesType['refDate'] = pd.to_datetime(wagesType['refDate'])
-        title = "Average wages & salaries by employment type and sub-sector, " + \
+        title = "Salaires moyens par type d'emploi et par sous-secteur, " + \
             str(max((wagesType['refDate']).dt.year)) + " - " + geo
         df = wagesType[wagesType['geo'] == geo]
         return wagesType_fig(df, title)
@@ -37,7 +37,7 @@ def register_callbacks(app):
         jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
         df = jobsDemog[(jobsDemog['geo'] == geo) &
                        (jobsDemog['class'] == demo)]
-        title = "Distribution of nonprofit employees by demographic characteristic and sub-sector, " + \
+        title = "Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur., " + \
             str(max(jobsDemog['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         return EmpDemog(df, title)
 
@@ -51,6 +51,6 @@ def register_callbacks(app):
         df = wagesDemog[(wagesDemog['geo'] == geo) &
                         (wagesDemog['class'] == demo)]
         wagesDemog['refDate'] = pd.to_datetime(wagesDemog['refDate'])
-        title = "Average nonprofit wages and salaries by demographic characteristic and sub-sector, " + \
+        title = "Salaires moyens par caractéristique démographique et par sous-secteur, " + \
             str(max(wagesDemog['refDate'].dt.year)) + " - " + geo
         return EmpDemog(df, title, jobs=False)

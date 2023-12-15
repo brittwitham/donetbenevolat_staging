@@ -5,6 +5,7 @@ import numpy as np
 import os
 import os.path as op
 import re
+import textwrap
 
 
 def SubSec(df, title):
@@ -18,7 +19,7 @@ def SubSec(df, title):
     # Sous-secteur de base (red)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Sous-secteur de base",
                 df['valNormP'],
@@ -30,7 +31,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -44,7 +45,7 @@ def SubSec(df, title):
     # Gouvernement sub-sector (blue)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Gouvernement sub-sector",
                 df['valNormP'],
@@ -56,7 +57,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -69,7 +70,7 @@ def SubSec(df, title):
 
     # Mid-bar text
     for i in df.index:
-        fig_SubSec.add_annotation(x=df.loc[i]['subSector'],
+        fig_SubSec.add_annotation(x="<br>".join(textwrap.wrap(df.loc[i]['subSector'], width=16)),
                                   y=df.loc[i]['valNormP'] / 2,
                                   #  text = df.loc[i]['label'],
                                   font=dict(size=15, color="white"),
@@ -87,7 +88,7 @@ def SubSec(df, title):
                              legend=dict(orientation='h',
                                          xanchor='center',
                                          x=0.5,
-                                         y=-0.1,
+                                         y=-0.4,
                                          font=dict(size=15)),
                              paper_bgcolor='rgba(0,0,0,0)',
                              plot_bgcolor='rgba(0,0,0,0)')
@@ -105,12 +106,14 @@ def Growth(df, title, trace_settings):
     df['refDate'] = pd.to_datetime(df['refDate'])
 
     for var in trace_settings.keys():
+        text_var = "valNorm" + var[8:]
         fig_Growth.add_trace(go.Scatter(x=df['refDate'].dt.year,
                                         y=df[var],
                                         name=trace_settings[var]['name'],
                                         mode='lines',
                                         line=trace_settings[var]['line_dict'],
-                                        hovertemplate='%{y:0.2f}'))
+                                        text=df[text_var],
+                                        hovertemplate='%{y:0.2f}'+" / %{text:,}"))
 
     fig_Growth.update_layout(title=dict(text=title,
                                         xanchor='left',
@@ -160,10 +163,11 @@ def SubSecActivity(df, title, vars):
         name="Organismes à but non lucratif de base",
         orientation='h',
         marker=dict(color="#c8102e"),
-        text=round(df[var_1] * 100, 0).astype(int).map(str) + "%",
+        text=round(df[var_1] * 100, 0).astype(int).map(str) + " %",
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hoverinfo='skip'), row=1, col=1)
+        hovertext=df['coreEmp'],
+        hovertemplate='%{hovertext:,}' + '<extra>' + '</extra>'), row=1, col=1)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 25),
         y=df['activity'],
@@ -177,11 +181,12 @@ def SubSecActivity(df, title, vars):
                 df[var_2] *
                 100,
                 0).astype(int).map(str) +
-            "%",
+            " %",
             ""),
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hoverinfo='skip'), row=1, col=2)
+        hovertext = df['govtEmp'],
+        hovertemplate = '%{hovertext:,}'+'<extra>'+'</extra>'), row=1, col=2)
 
     # X-axes
     fig_SubSecActivity.update_xaxes(title="",

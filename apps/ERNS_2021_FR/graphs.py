@@ -6,6 +6,7 @@ import os.path as op
 import re
 from .data_processing import get_data
 from plotly.subplots import make_subplots
+import textwrap
 
 
 _, _, _, perNatGDP = get_data()
@@ -49,7 +50,7 @@ def build_fig_perNatGDP(perNatGDP):
                     round(
                         val,
                         1)) +
-                "%" for val in perNatGDP['perGDP']],
+                " %" for val in perNatGDP['perGDP']],
             textposition='outside',
             hoverinfo="skip"))
 
@@ -87,7 +88,7 @@ def SubSec(df, title):
     # Sous-secteur de base (red)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Sous-secteur de base",
                 df['valNormP'],
@@ -99,7 +100,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -113,7 +114,7 @@ def SubSec(df, title):
     # Gouvernement sub-sector (blue)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Gouvernement sub-sector",
                 df['valNormP'],
@@ -125,7 +126,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -138,7 +139,7 @@ def SubSec(df, title):
 
     # Mid-bar text
     for i in df.index:
-        fig_SubSec.add_annotation(x=df.loc[i]['subSector'],
+        fig_SubSec.add_annotation(x="<br>".join(textwrap.wrap(df.loc[i]['subSector'], width=16)),
                                   y=df.loc[i]['valNormP'] / 2,
                                   text=df.loc[i]['label'],
                                   font=dict(size=15, color="white"),
@@ -156,7 +157,7 @@ def SubSec(df, title):
                              legend=dict(orientation='h',
                                          xanchor='center',
                                          x=0.5,
-                                         y=-0.1,
+                                         y=-0.4,
                                          font=dict(size=15)),
                             paper_bgcolor='rgba(0,0,0,0)',
                             plot_bgcolor='rgba(0,0,0,0)')
@@ -229,7 +230,7 @@ def SubSecActivity(df, title, vars):
         name="Organismes à but non lucratif de base",
         orientation='h',
         marker=dict(color="#c8102e"),
-        text=round(df[var_1] * 100, 0).astype(int).map(str) + "%",
+        text=round(df[var_1] * 100, 0).astype(int).map(str) + " %",
         textposition='outside',
         textfont=dict(size=12, color="black"),
         hoverinfo='skip'), row=1, col=1)
@@ -246,7 +247,7 @@ def SubSecActivity(df, title, vars):
                 df[var_2] *
                 100,
                 0).astype(int).map(str) +
-            "%",
+            " %",
             ""),
         textposition='outside',
         textfont=dict(size=12, color="black"),

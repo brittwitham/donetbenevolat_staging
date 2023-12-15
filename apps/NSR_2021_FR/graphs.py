@@ -6,6 +6,7 @@ import os.path as op
 import re
 from plotly.subplots import make_subplots
 from .data_processing import get_data
+import textwrap
 
 _, _, _, _, revSource, revGrowthSource = get_data()
 
@@ -21,7 +22,7 @@ def SubSec(df, title):
     # Sous-secteur de base (red)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Sous-secteur de base",
                 df['valNormP'],
@@ -33,7 +34,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Sous-secteur de base" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -47,7 +48,7 @@ def SubSec(df, title):
     # Gouvernement sub-sector (blue)
     fig_SubSec.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=np.where(
                 df["coreStatus"] == "Gouvernement sub-sector",
                 df['valNormP'],
@@ -59,7 +60,7 @@ def SubSec(df, title):
                             df['valNormP'].loc[i] *
                             100,
                             0))) +
-                "%" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
+                " %" if df.loc[i]["coreStatus"] == "Gouvernement sub-sector" else '' for i in df.index],
             textposition='outside',
             textfont=dict(
                 size=15,
@@ -72,7 +73,7 @@ def SubSec(df, title):
 
     # Mid-bar text
     for i in df.index:
-        fig_SubSec.add_annotation(x=df.loc[i]['subSector'],
+        fig_SubSec.add_annotation(x="<br>".join(textwrap.wrap(df.loc[i]['subSector'], width=16)),
                                   y=df.loc[i]['valNormP'] / 2,
                                   text=df.loc[i]['label'],
                                   font=dict(size=15, color="white"),
@@ -90,7 +91,7 @@ def SubSec(df, title):
                              legend=dict(orientation='h',
                                          xanchor='center',
                                          x=0.5,
-                                         y=-0.1,
+                                         y=-0.4,
                                          font=dict(size=15)),
                              paper_bgcolor='rgba(0,0,0,0)',
                              plot_bgcolor='rgba(0,0,0,0)')
@@ -108,12 +109,14 @@ def Growth(df, title, trace_settings):
     df['refDate'] = pd.to_datetime(df['refDate'])
 
     for var in trace_settings.keys():
+        text_var = "label" + var[8:]
         fig_Growth.add_trace(go.Scatter(x=df['refDate'].dt.year,
                                         y=df[var],
                                         name=trace_settings[var]['name'],
                                         mode='lines',
                                         line=trace_settings[var]['line_dict'],
-                                        hovertemplate='%{y:0.2f}'))
+                                        hovertext = df[text_var],
+                                        hovertemplate='%{y:0.2f}'+" / "+'%{hovertext}'))
 
     fig_Growth.update_layout(title=dict(text=title,
                                         xanchor='left',
@@ -162,10 +165,11 @@ def SubSecActivity(df, title, vars):
         name="Organismes à but non lucratif de base",
         orientation='h',
         marker=dict(color="#c8102e"),
-        text=round(df[var_1] * 100, 0).astype(int).map(str) + "%",
+        text=round(df[var_1] * 100, 0).astype(int).map(str) + " %",
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hoverinfo='skip'), row=1, col=1)
+        hovertext=df['labelCoreRev'],
+        hovertemplate='%{hovertext}'+'<extra>'+'</extra>'), row=1, col=1)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 25),
         y=df['activity'],
@@ -179,11 +183,12 @@ def SubSecActivity(df, title, vars):
                 df[var_2] *
                 100,
                 0).astype(int).map(str) +
-            "%",
+            " %",
             ""),
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hoverinfo='skip'), row=1, col=2)
+        hovertext=df['labelGovtRev'],
+        hovertemplate='%{hovertext}' + '<extra>' + '</extra>'), row=1, col=2)
 
     # X-axes
     fig_SubSecActivity.update_xaxes(title="",
@@ -230,7 +235,7 @@ def Source(df, title):
 
     fig_revSource.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=df['perTot_Government'],
             name="Gouvernement",
             text=[
@@ -240,7 +245,7 @@ def Source(df, title):
                             df['perTot_Government'].loc[i] *
                             100,
                             0))) +
-                "%" for i in df.index],
+                " %" for i in df.index],
             textposition='inside',
             insidetextanchor='middle',
             textfont=dict(
@@ -250,10 +255,10 @@ def Source(df, title):
                 color="#50a684"),
             hovertext=df['label_Government'],
             hovertemplate="Gouvernement: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
-    fig_revSource.add_trace(go.Bar(x=df['subSector'],
+    fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
                                    y=df['perTot_CorpDons'],
                                    name="Dons d'entreprises",
-                                   text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                   text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                        df['perTot_CorpDons'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
                                    insidetextanchor='middle',
@@ -265,30 +270,30 @@ def Source(df, title):
                                    ))
     fig_revSource.add_trace(
         go.Bar(
-            x=df['subSector'],
-            y=df['perTot_Households'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
+            y=df['perTot_HouseDons'],
             name="Dons de ménages",
             text=[
                 str(
                     int(
                         round(
-                            df['perTot_Households'].loc[i] *
+                            df['perTot_HouseDons'].loc[i] *
                             100,
                             0))) +
-                "%" if not np.isnan(
-                    df['perTot_Households'].loc[i]) else '' for i in df.index],
+                " %" if not np.isnan(
+                    df['perTot_HouseDons'].loc[i]) else '' for i in df.index],
             textposition='inside',
             insidetextanchor='middle',
             textfont=dict(
                 color="white"),
             marker=dict(
                 color="#7BAFD4"),
-            hovertext=df['label_Households'],
+            hovertext=df['label_HouseDons'],
             hovertemplate="Dons de ménages & memberships: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
-    fig_revSource.add_trace(go.Bar(x=df['subSector'],
+    fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
                                    y=df['perTot_Investments'],
                                    name="Investissements",
-                                   text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                   text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                        df['perTot_Investments'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
                                    insidetextanchor='middle',
@@ -298,10 +303,10 @@ def Source(df, title):
                                    hovertext=df['label_Investments'],
                                    hovertemplate="Investissements: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
-    fig_revSource.add_trace(go.Bar(x=df['subSector'],
+    fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
                                    y=df['perTot_Membership'],
                                    name="Frais d'adhésion commerciaux",
-                                   text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                   text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                        df['perTot_Membership'].loc[i]) else '' for i in df.index],
                                    textposition='inside',
                                    insidetextanchor='middle',
@@ -313,7 +318,7 @@ def Source(df, title):
                                    ))
     fig_revSource.add_trace(
         go.Bar(
-            x=df['subSector'],
+            x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
             y=df['perTot_Goods'],
             name="Biens et services",
             text=[
@@ -323,7 +328,7 @@ def Source(df, title):
                             df['perTot_Goods'].loc[i] *
                             100,
                             0))) +
-                "%" if not np.isnan(
+                " %" if not np.isnan(
                     df['perTot_Goods'].loc[i]) else '' for i in df.index],
             textposition='inside',
             insidetextanchor='middle',
@@ -346,7 +351,7 @@ def Source(df, title):
                                 legend=dict(orientation='h',
                                             xanchor='center',
                                             x=0.5,
-                                            y=-0.1,
+                                            y=-0.4,
                                             font=dict(size=15)),
                                 hoverlabel=dict(align='right'),
                                  paper_bgcolor='rgba(0,0,0,0)',
@@ -525,7 +530,7 @@ def build_fig_revsouce_CA(df):
                             df['perTot_Government'].loc[i] *
                             100,
                             0))) +
-                "%" for i in df.index],
+                " %" for i in df.index],
             textposition='inside',
             insidetextanchor='middle',
             textfont=dict(
@@ -538,7 +543,7 @@ def build_fig_revsouce_CA(df):
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_CorpDons'],
                                       name="Dons d'entreprises",
-                                      text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                      text=[str(int(round(df['perTot_CorpDons'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                           df['perTot_CorpDons'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
                                       insidetextanchor='middle',
@@ -560,7 +565,7 @@ def build_fig_revsouce_CA(df):
                             df['perTot_HouseDons'].loc[i] *
                             100,
                             0))) +
-                "%" if not np.isnan(
+                " %" if not np.isnan(
                     df['perTot_HouseDons'].loc[i]) else '' for i in df.index],
             textposition='inside',
             insidetextanchor='middle',
@@ -573,7 +578,7 @@ def build_fig_revsouce_CA(df):
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_Investments'],
                                       name="Investissements",
-                                      text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                      text=[str(int(round(df['perTot_Investments'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                           df['perTot_Investments'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
                                       insidetextanchor='middle',
@@ -586,7 +591,7 @@ def build_fig_revsouce_CA(df):
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_Membership'],
                                       name="Frais d'adhésion",
-                                      text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + "%" if not np.isnan(
+                                      text=[str(int(round(df['perTot_Membership'].loc[i] * 100, 0))) + " %" if not np.isnan(
                                           df['perTot_Membership'].loc[i]) else '' for i in df.index],
                                       textposition='inside',
                                       insidetextanchor='middle',
@@ -608,7 +613,7 @@ def build_fig_revsouce_CA(df):
                             df['perTot_Goods'].loc[i] *
                             100,
                             0))) +
-                "%" if not np.isnan(
+                " %" if not np.isnan(
                     df['perTot_Goods'].loc[i]) else '' for i in df.index],
             textposition='inside',
             insidetextanchor='middle',

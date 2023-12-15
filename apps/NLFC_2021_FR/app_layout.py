@@ -132,7 +132,7 @@ En ce qui a trait aux autres caractéristiques, plus d’un quart des employés 
                     # TODO: Add footnote
                     # Dist of nonprofit employees
                     dcc.Dropdown(
-                        id='demo-selection',
+                        id='demo-selection-jobs',
                         options=[{'label': demos[i], 'value': demos[i]}
                                  for i in range(len(demos))],
                         value='Éducation formelle',
@@ -154,6 +154,13 @@ Bien que la plupart des employés du secteur sans but lucratif soient des femmes
 Au sein des institutions gouvernementales à but non lucratif, le salaire moyen des employés qui ont immigré au Canada à un certain moment de leur vie est légèrement supérieur à celui des non-immigrants, mais le contraire est tout aussi vrai au sein des organismes et des institutions communautaires à but non lucratif. Les écarts entre les salaires du sous-secteur de base et les salaires gouvernementaux sont légèrement plus élevés chez les employés immigrants que chez les employés nés au Canada, surtout au sein des institutions communautaires à but non lucratif. Quant aux employés des minorités visibles, ils ont tendance à toucher un salaire inférieur dans tous les types d’organismes à but non lucratif. Le plus grand écart revient aux institutions communautaires à but non lucratif et le plus faible appartient aux institutions gouvernementales à but non lucratif. La situation est très semblable dans le cas des employés autochtones. Toutefois, l’écart le plus faible entre les salaires moyens des employés autochtones et non autochtones revient aux organismes communautaires à but non lucratif, quoique les salaires des deux groupes sont inférieurs de plus d’un quart à ceux des institutions gouvernementales à but non lucratif.
                     '''),
                     # TODO: Add footnote
+                    dcc.Dropdown(
+                        id='demo-selection-wages',
+                        options=[{'label': demos[i], 'value': demos[i]}
+                                 for i in range(len(demos))],
+                        value='Éducation formelle',
+                        style={'verticalAlign': 'middle'}
+                    ),
                     # Av nonprofit wages by dmeo
                     dcc.Graph(
                         id='wagesDemog', style={

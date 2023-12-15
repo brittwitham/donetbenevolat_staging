@@ -31,7 +31,7 @@ def register_callbacks(app):
                                            'figure'),
                   [dash.dependencies.Input('geo-selection',
                                            'value'),
-                   dash.dependencies.Input('demo-selection',
+                   dash.dependencies.Input('demo-selection-jobs',
                                            'value')])
     def update_graph(geo, demo):
         jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
@@ -45,7 +45,7 @@ def register_callbacks(app):
                                            'figure'),
                   [dash.dependencies.Input('geo-selection',
                                            'value'),
-                   dash.dependencies.Input('demo-selection',
+                   dash.dependencies.Input('demo-selection-wages',
                                            'value')])
     def update_graph(geo, demo):
         df = wagesDemog[(wagesDemog['geo'] == geo) &

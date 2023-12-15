@@ -77,9 +77,9 @@ for root, dirs, files in os.walk(repo_path):
         # if file == 'graphs.py':
             replace_phrases_in_file(Path(root) / file)
 
-# # Process each CSV file
-# for csv_file in csv_files_to_process:
-#     replace_phrases_in_csv(csv_file)
+# Process each CSV file
+for csv_file in csv_files_to_process:
+    replace_phrases_in_csv(csv_file)
 
 print("Phrase replacement complete.")
 

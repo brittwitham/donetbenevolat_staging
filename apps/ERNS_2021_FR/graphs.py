@@ -56,7 +56,7 @@ def build_fig_perNatGDP(perNatGDP):
 
     fig_perNatGDP.update_layout(
         title=dict(
-            text="PIB des organismes à but non lucratif sous forme de pourcentage du PIB total, par province - 2021",
+            text="PIB des organismes à but non lucratif sous forme de pourcentage du PIB total,<br>par province - 2021",
             xanchor='left',
             x=0.02),
         yaxis=dict(

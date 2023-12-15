@@ -80,7 +80,7 @@ fig_perNatGDP = build_fig_perNatGDP(perNatGDP)
 def SubSec(df, title):
 
     df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
-                                     "institutions commerciales à but non lucratif": 1,
+                                     "Institutions communautaires à but non lucratif": 1,
                                      "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()

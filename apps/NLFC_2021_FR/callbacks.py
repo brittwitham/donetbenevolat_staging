@@ -37,7 +37,7 @@ def register_callbacks(app):
         jobsDemog['refDate'] = pd.to_datetime(jobsDemog['refDate'])
         df = jobsDemog[(jobsDemog['geo'] == geo) &
                        (jobsDemog['class'] == demo)]
-        title = "<br>".join(textwrap.wrap("Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur., " + \
+        title = "<br>".join(textwrap.wrap("Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur, " + \
             str(max(jobsDemog['refDate'].dt.year)) + " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         return EmpDemog(df, title)
 

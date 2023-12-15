@@ -14,6 +14,8 @@ def SubSec(df, title):
                                      "institutions commerciales à but non lucratif": 1,
                                      "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
+    df['subSector'] = np.where(df['subSector'] == "institutions commerciales à but non lucratif", "Institutions commerciales à but non lucratif", df['subSector'])
+
     fig_SubSec = go.Figure()
 
     # Sous-secteur de base (red)

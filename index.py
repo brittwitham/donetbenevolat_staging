@@ -124,22 +124,22 @@ def display_page(pathname):
         return les_dons_et_le_benevolat_des_jeunes_2018.layout
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_agees_2018': #GAV0308
         return GAV0307_fr.layout
-    elif pathname == '/comment_donne_t_on_au_canada_2013': 
+    elif pathname == '/comment_donne_t_on_au_canada_2013':
         return HDC010213_fr.layout
-    elif pathname == '/pourquoi_donne_t_on_au_canada_2013': 
+    elif pathname == '/pourquoi_donne_t_on_au_canada_2013':
         return WDC010513_fr.layout
-    elif pathname == '/pourquoi_fait_on_du_benevolat_2013': 
+    elif pathname == '/pourquoi_fait_on_du_benevolat_2013':
         return WDC020513_fr.layout
-    elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013': 
+    elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013':
         return WKC010613_fr.layout
         # return qu_est_ce_qui_empeche_de_donner_plus_2013.layout
-    elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013': 
+    elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013':
         return WKC020613_fr.layout
-    elif pathname == '/quelles_sont_les_activites_des_benevoles_2013': 
+    elif pathname == '/quelles_sont_les_activites_des_benevoles_2013':
         return WDV020213_fr.layout
-    elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013': 
+    elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013':
         return WDA010113_fr.layout
-    elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013': 
+    elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013':
         return WVA020113_fr.layout
     # WDC010513_fr,
     # WKC010613_fr
@@ -149,7 +149,7 @@ def display_page(pathname):
     #     return WDC0105_13.layout
     elif pathname == '/popup':
         return definition.layout
-    
+
     elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif_2021':
         return NSPS_2021_FR_layout
     elif pathname == '/revenus_du_secteur_sans_but_lucratif':
@@ -161,10 +161,10 @@ def display_page(pathname):
     elif pathname == '/Role_economique_du_secteur_sans_but_lucratif':
     # elif pathname == '/economic_role_of_the_nonprofit_sector_2021':
         return ERNS_2021_FR_layout
-    
 
-    else:
-        return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
+
+    # else:
+    #     return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
 
 if __name__ == '__main__':
     # app.run_server(debug=True)

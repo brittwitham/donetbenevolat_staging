@@ -109,7 +109,7 @@ def Growth(df, title, trace_settings):
     df['refDate'] = pd.to_datetime(df['refDate'])
 
     for var in trace_settings.keys():
-        text_var = "label" + var[8:]
+        text_var = "label" + var[8:] + "_FR"
         fig_Growth.add_trace(go.Scatter(x=df['refDate'].dt.year,
                                         y=df[var],
                                         name=trace_settings[var]['name'],
@@ -168,7 +168,7 @@ def SubSecActivity(df, title, vars):
         text=round(df[var_1] * 100, 0).astype(int).map(str) + " %",
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hovertext=df['labelCoreRev'],
+        hovertext=df['labelCoreRev_FR'],
         hovertemplate='%{hovertext}'+'<extra>'+'</extra>'), row=1, col=1)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 25),
@@ -187,7 +187,7 @@ def SubSecActivity(df, title, vars):
             ""),
         textposition='outside',
         textfont=dict(size=12, color="black"),
-        hovertext=df['labelGovtRev'],
+        hovertext=df['labelGovtRev_FR'],
         hovertemplate='%{hovertext}' + '<extra>' + '</extra>'), row=1, col=2)
 
     # X-axes
@@ -253,7 +253,7 @@ def Source(df, title):
                 color="white"),
             marker=dict(
                 color="#50a684"),
-            hovertext=df['label_Government'],
+            hovertext=df['label_Government_FR'],
             hovertemplate="Gouvernement: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
                                    y=df['perTot_CorpDons'],
@@ -265,7 +265,7 @@ def Source(df, title):
                                    textfont=dict(color="black"),
                                    # TODO: What is this color?
                                    marker=dict(color="#a8cae3"),
-                                   hovertext=df['label_CorpDons'],
+                                   hovertext=df['label_CorpDons_FR'],
                                    hovertemplate="Dons d'entreprises: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(
@@ -288,7 +288,7 @@ def Source(df, title):
                 color="white"),
             marker=dict(
                 color="#7BAFD4"),
-            hovertext=df['label_HouseDons'],
+            hovertext=df['label_HouseDons_FR'],
             hovertemplate="Dons de ménages & memberships: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
                                    y=df['perTot_Investments'],
@@ -300,7 +300,7 @@ def Source(df, title):
                                    textfont=dict(color="black"),
                                    # TODO: What is this color?
                                    marker=dict(color="#eca7ad"),
-                                   hovertext=df['label_Investments'],
+                                   hovertext=df['label_Investments_FR'],
                                    hovertemplate="Investissements: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(label, width=16)) for label in df['subSector']],
@@ -313,7 +313,7 @@ def Source(df, title):
                                    textfont=dict(color="white"),
                                    # TODO: What is this color?
                                    marker=dict(color="#e06d78"),
-                                   hovertext=df['label_Membership'],
+                                   hovertext=df['label_Membership_FR'],
                                    hovertemplate="Frais d'adhésion commerciaux: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
                                    ))
     fig_revSource.add_trace(
@@ -336,7 +336,7 @@ def Source(df, title):
                 color="white"),
             marker=dict(
                 color="#c8102e"),
-            hovertext=df['label_Goods'],
+            hovertext=df['label_Goods_FR'],
             hovertemplate="Biens et services: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource.update_layout(barmode='stack',
                                 title=dict(text=title,
@@ -387,7 +387,7 @@ def GrowthSource(df, title):
                 line=dict(
                     color="#50a684",
                     dash="solid"),
-                text=this_df['label_Government'],
+                text=this_df['label_Government_FR'],
                 hovertemplate='%{y:0.2f}' +
                 " / %{text}",
                 showlegend=legend_status),
@@ -401,7 +401,7 @@ def GrowthSource(df, title):
                                                  mode='lines',
                                                  line=dict(color="#a8cae3",  # TODO: What is this color?
                                                            dash="dot"),
-                                                 text=this_df['label_CorpDons'],
+                                                 text=this_df['label_CorpDons_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -416,7 +416,7 @@ def GrowthSource(df, title):
                     line=dict(
                         color="#7BAFD4",
                         dash="solid"),
-                    text=this_df['label_Households'],
+                    text=this_df['label_Households_FR'],
                     hovertemplate='%{y:0.2f}' + " / %{text}",
                     showlegend=legend_status),
                 row=i + 1,
@@ -431,7 +431,7 @@ def GrowthSource(df, title):
                     line=dict(
                         color="#7BAFD4",
                         dash="solid"),
-                    text=this_df['label_HouseDons'],
+                    text=this_df['label_HouseDons_FR'],
                     hovertemplate='%{y:0.2f}' +
                     " / %{text}",
                     showlegend=legend_status),
@@ -444,7 +444,7 @@ def GrowthSource(df, title):
                                                  mode='lines',
                                                  line=dict(color="#eca7ad",  # TODO: What is this color?
                                                            dash="dot"),
-                                                 text=this_df['label_Investments'],
+                                                 text=this_df['label_Investments_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -456,7 +456,7 @@ def GrowthSource(df, title):
                                                  mode='lines',
                                                  line=dict(color="#e06d78",  # TODO: What is this color?
                                                            dash="dash"),
-                                                 text=this_df['label_Membership'],
+                                                 text=this_df['label_Membership_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -471,7 +471,7 @@ def GrowthSource(df, title):
                 line=dict(
                     color="#c8102e",
                     dash="solid"),
-                text=this_df['label_Goods'],
+                text=this_df['label_Goods_FR'],
                 hovertemplate='%{y:0.2f}' +
                 " / %{text}",
                 showlegend=legend_status),
@@ -538,7 +538,7 @@ def build_fig_revsouce_CA(df):
                 color="white"),
             marker=dict(
                 color="#50a684"),
-            hovertext=df['label_Government'],
+            hovertext=df['label_Government_FR'],
             hovertemplate="Gouvernement: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_CorpDons'],
@@ -550,7 +550,7 @@ def build_fig_revsouce_CA(df):
                                       textfont=dict(color="black"),
                                       marker=dict(
         color="#a8cae3"),  # TODO: What is this color?
-        hovertext=df['label_CorpDons'],
+        hovertext=df['label_CorpDons_FR'],
         hovertemplate="Dons d'entreprises: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(
@@ -573,7 +573,7 @@ def build_fig_revsouce_CA(df):
                 color="white"),
             marker=dict(
                 color="#7BAFD4"),
-            hovertext=df['label_HouseDons'],
+            hovertext=df['label_HouseDons_FR'],
             hovertemplate="Dons de ménages: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
                                       y=df['perTot_Investments'],
@@ -585,7 +585,7 @@ def build_fig_revsouce_CA(df):
                                       textfont=dict(color="black"),
                                       marker=dict(
         color="#eca7ad"),  # TODO: What is this color?
-        hovertext=df['label_Investments'],
+        hovertext=df['label_Investments_FR'],
         hovertemplate="Investissements: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(go.Bar(x=df['subSector'],
@@ -598,7 +598,7 @@ def build_fig_revsouce_CA(df):
                                       textfont=dict(color="white"),
                                       marker=dict(
         color="#e06d78"),  # TODO: What is this color?
-        hovertext=df['label_Membership'],
+        hovertext=df['label_Membership_FR'],
         hovertemplate="Frais d'adhésion: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"
     ))
     fig_revSource_CA.add_trace(
@@ -621,7 +621,7 @@ def build_fig_revsouce_CA(df):
                 color="white"),
             marker=dict(
                 color="#c8102e"),
-            hovertext=df['label_Goods'],
+            hovertext=df['label_Goods_FR'],
             hovertemplate="Biens et services: %{y:.0%}<br>Valeur: %{hovertext}<extra></extra>"))
     fig_revSource_CA.update_layout(
         barmode='stack',
@@ -688,7 +688,7 @@ def build_fig_revGrowthSource(df):
                 line=dict(
                     color="#50a684",
                     dash="solid"),
-                text=this_df['label_Government'],
+                text=this_df['label_Government_FR'],
                 hovertemplate='%{y:0.2f}' +
                 " / %{text}",
                 showlegend=legend_status),
@@ -702,7 +702,7 @@ def build_fig_revGrowthSource(df):
                                                  mode='lines',
                                                  line=dict(color="#a8cae3",  # TODO: What is this color?
                                                            dash="dot"),
-                                                 text=this_df['label_CorpDons'],
+                                                 text=this_df['label_CorpDons_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -718,7 +718,7 @@ def build_fig_revGrowthSource(df):
                     line=dict(
                         color="#7BAFD4",
                         dash="solid"),
-                    text=this_df['label_HouseDons'],
+                    text=this_df['label_HouseDons_FR'],
                     hovertemplate='%{y:0.2f}' +
                     " / %{text}",
                     showlegend=legend_status),
@@ -737,7 +737,7 @@ def build_fig_revGrowthSource(df):
                     line=dict(
                         color="#7BAFD4",
                         dash="solid"),
-                    text=this_df['label_Households'],
+                    text=this_df['label_Households_FR'],
                     hovertemplate='%{y:0.2f}' + " / %{text}",
                     showlegend=legend_status),
                 row=i + 1,
@@ -749,7 +749,7 @@ def build_fig_revGrowthSource(df):
                                                  mode='lines',
                                                  line=dict(color="#eca7ad",  # TODO: What is this color?
                                                            dash="dot"),
-                                                 text=this_df['label_Investments'],
+                                                 text=this_df['label_Investments_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -761,7 +761,7 @@ def build_fig_revGrowthSource(df):
                                                  mode='lines',
                                                  line=dict(color="#e06d78",  # TODO: What is this color?
                                                            dash="dash"),
-                                                 text=this_df['label_Membership'],
+                                                 text=this_df['label_Membership_FR'],
                                                  hovertemplate='%{y:0.2f}' + \
                                                  " / %{text}",
                                                  showlegend=legend_status),
@@ -776,7 +776,7 @@ def build_fig_revGrowthSource(df):
                 line=dict(
                     color="#c8102e",
                     dash="solid"),
-                text=this_df['label_Goods'],
+                text=this_df['label_Goods_FR'],
                 hovertemplate='%{y:0.2f}' +
                 " / %{text}",
                 showlegend=legend_status),

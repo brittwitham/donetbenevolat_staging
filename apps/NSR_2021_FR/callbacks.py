@@ -2,6 +2,7 @@ import dash
 from app import app
 from .data_processing import get_data
 from .graphs import *
+import textwrap
 
 revGrowth, revSubSec, revSubSecActivity, revGrowthActivity, revSource, revGrowthSource = get_data()
 
@@ -45,8 +46,8 @@ def register_callbacks(app):
     def update_graph(geo):
         df = revSubSecActivity[revSubSecActivity['geo'] == geo]
         # TODO: Does the year need to update dynamically?
-        title = "Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021" + \
-            " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
+        title = "<br>".join(textwrap.wrap("Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021" + \
+            " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         vars = ('perCoreRev', 'perGovtRev')
         return SubSecActivity(df, title, vars)
 
@@ -113,7 +114,7 @@ def register_callbacks(app):
         [dash.dependencies.Input('geo-selection', 'value')])
     def update_graph(geo):
         df = revSource[revSource['geo'] == geo]
-        title = "Revenues by source and sub-sector, 2021 - " + geo + '<br>' + \
+        title = "Revenus par source et par sous-secteur, 2021 - " + geo + '<br>' + \
             '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         return Source(df, title)
 

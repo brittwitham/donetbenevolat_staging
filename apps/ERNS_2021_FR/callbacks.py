@@ -20,7 +20,7 @@ def register_callbacks(app):
         dash.dependencies.Output('gdpGrowth', 'figure'),
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
-        title = f"Croissance relative du PIB nominal par sous-secteur, {geo} - 2009 - 2021 (2009 = 1.0)"
+        title = f"Croissance relative du PIB nominal par sous-secteur, {geo} - 2007 - 2021 (2007 = 1.0)"
         df = gdpGrowth[gdpGrowth['geo'] == geo]
         trace_settings = {'TotEcon': {'name': "Ensemble de l'économie",
                                       'line_dict': dict(color="#7A4A89", dash="solid")},
@@ -42,7 +42,7 @@ def register_callbacks(app):
         gdpSubSecActivity['refDate'] = pd.to_datetime(
             gdpSubSecActivity['refDate'])
 
-        title = f"Pourcentage du PIB des organismes à but non lucratif par sous-secteur et par secteur d'activités ({geo}) - " + str(
-            min(gdpSubSecActivity['refDate'].dt.year))
+        title = "<br>".join(textwrap.wrap(f"Pourcentage du PIB des organismes à but non lucratif par sous-secteur et par secteur d'activités ({geo}) - " + str(
+            min(gdpSubSecActivity['refDate'].dt.year)), width=80))
         df = gdpSubSecActivity[gdpSubSecActivity['geo'] == geo]
         return SubSecActivity(df, title, ('perCoreGDP', 'perGovtGDP'))

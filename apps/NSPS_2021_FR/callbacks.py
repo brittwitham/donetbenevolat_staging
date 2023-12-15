@@ -2,6 +2,7 @@ import dash
 from app import app
 from .data_processing import get_data
 from .graphs import *
+import textwrap
 
 empGrowth, empSubSec, empSubSecActivity, empGrowthActivity = get_data()
 
@@ -38,7 +39,7 @@ def register_callbacks(app):
         [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
         # + str(min(empSubSecActivity['refDate'].dt.year))
-        title = f"Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités ({geo}) - 2021"
+        title = "<br>".join(textwrap.wrap(f"Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités ({geo}) - 2021", width=80))
         df = empSubSecActivity[empSubSecActivity['geo'] == geo]
         return SubSecActivity(df, title, ('percoreEmp', 'pergovtEmp'))
 

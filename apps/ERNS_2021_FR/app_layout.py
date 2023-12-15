@@ -154,11 +154,11 @@ De façon générale, les données provinciales et territoriales concordent avec
                                 "Le PIB est une mesure de la valeur totale des biens et services produits au pays pendant une période donnée.",
                                 html.A(
                                     "↩︎",
-                                    href="#fnref1",
+                                    href="#ref1",
                                     className="footnote-back",
                                     role="doc-backlink")
                             ], id="fn1")
-                        ], id="fn1"),
+                        ], id="footnote1"),
                         html.Li(
                             [
                                 html.P(
@@ -172,14 +172,14 @@ De façon générale, les données provinciales et territoriales concordent avec
                                         html.Em("sous-secteur sans but lucratif de base"),
                                         " qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif"), " composé d’institutions gouvernementales à but non lucratif.", html.A(
-                                            "↩︎", href="#fnref2", className="footnote-back", role="doc-backlink")
+                                            "↩︎", href="#ref2", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
-                            ], id="fn2"),
+                            ], id="footnote2"),
                         html.Li([
                             html.P([
-                                "C’est-à-dire, sans tenir compte des effets de l’inflation.", html.A("↩︎", href="#fnref3", className="footnote-back", role="doc-backlink")])
-                        ], id="fn3"),
+                                "C’est-à-dire, sans tenir compte des effets de l’inflation.", html.A("↩︎", href="#ref3", className="footnote-back", role="doc-backlink")])
+                        ], id="footnote3"),
                     ])
                 ],
             )

@@ -26,12 +26,13 @@ provOrder = [
     "YT",
     "NT",
     "NU"]
-demos = ['Genre',
-        'Immigration',
-        'Autochtones',
-        'Minorités visibles',
-        'Éducation formelle',
-        'Groupe d\'âge']
+demos = [
+    'Genre',
+    'Immigration',
+    'Autochtones',
+    'Minorités visibles',
+    'Éducation formelle',
+    "Groupe d'âge"]
 
 
 # TODO!
@@ -92,10 +93,13 @@ Le secteur sans but lucratif emploie quelque 2,5 millions de Canadiens, ce qui c
                                Pour obtenir plus de détails sur la répartition du personnel rémunéré par type d’organisme à but non lucratif et par secteur d’activités, consulter la section Personnel rémunéré du secteur sans but lucratif ailleurs sur ce site Web.
                            '''),
                     html.Br(),
+                    html.Br(),
                     html.H3('Type d’emploi'),
                     html.Span('''
 De façon générale, près de quatre cinquièmes des employés du secteur sans but lucratif travaillent à temps plein et un cinquième travaille à temps partiel. Les employés à temps partiel représentent une plus grande partie de la main-d’œuvre des organismes communautaires à but non lucratif que celle des institutions communautaires et gouvernementales à but non lucratif.
                     ''', className='mt-4'),
+                    html.Br(),
+                    html.Br(),
                     html.Span('''
 Ces tendances sont raisonnablement les mêmes entre les provinces, bien qu’il existe certaines fluctuations. La situation dans les territoires est plus difficile à évaluer en raison de l’arrondissement des données publiées par Statistique Canada.
                     ''', className='mt-4'),
@@ -163,7 +167,7 @@ Au sein des institutions gouvernementales à but non lucratif, le salaire moyen 
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        " Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li(

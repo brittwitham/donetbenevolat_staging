@@ -91,7 +91,12 @@ def SubSec(df, title):
                                          xanchor='center',
                                          x=0.5,
                                          y=-0.1,
-                                         font=dict(size=15)))
+                                         font=dict(size=15)),
+                             paper_bgcolor='rgba(0,0,0,0)',
+                             plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_SubSec.update_xaxes(showline=True, linewidth=1, linecolor='black')
+    fig_SubSec.update_yaxes(range=[0, max(df['valNormP']) * 1.1])
 
     return fig_SubSec
 
@@ -129,7 +134,11 @@ def Growth(df, title, trace_settings):
                                          y=-0.1,
                                          font=dict(size=15)),
                              hoverlabel=dict(align='right'),
-                             hovermode='x unified')
+                             hovermode='x unified',
+                             paper_bgcolor='rgba(0,0,0,0)',
+                             plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_Growth.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#cccccc')
 
     return fig_Growth
 
@@ -145,7 +154,7 @@ def SubSecActivity(df, title, vars):
     df = pd.concat([df[df['activity'] == "Autre"],
                    df[df['activity'] != "Autre"].sort_values(var_1)], axis=0)
 
-    fig_SubSecActivity = make_subplots(rows=1, cols=2)
+    fig_SubSecActivity = make_subplots(rows=1, cols=2, horizontal_spacing=0.01)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 28),
         y=df['activity'],
@@ -208,7 +217,10 @@ def SubSecActivity(df, title, vars):
                                                  xanchor='center',
                                                  x=0.5,
                                                  y=-0.05,
-                                                 font=dict(size=15)))
+                                                 font=dict(size=15)),
+                                     paper_bgcolor='rgba(0,0,0,0)',
+                                     plot_bgcolor='rgba(0,0,0,0)')
+
     return fig_SubSecActivity
 
 
@@ -336,7 +348,12 @@ def Source(df, title):
                                             x=0.5,
                                             y=-0.1,
                                             font=dict(size=15)),
-                                hoverlabel=dict(align='right'))
+                                hoverlabel=dict(align='right'),
+                                 paper_bgcolor='rgba(0,0,0,0)',
+                                 plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_revSource.update_xaxes(showline=True, linewidth=1, linecolor='black')
+
     return fig_revSource
 
 
@@ -471,7 +488,7 @@ def GrowthSource(df, title):
 
         fig_revGrowthSource.update_yaxes(title="",
                                          tickformat='.2f',
-                                         nticks=4,
+                                         nticks=4, showgrid=True, gridwidth=1, gridcolor='#cccccc',
                                          # griddash = 'dot',
                                          row=i + 1, col=1)
 
@@ -486,7 +503,9 @@ def GrowthSource(df, title):
                                                   font=dict(size=15),
                                                   traceorder='reversed'),
                                       hoverlabel=dict(align='right'),
-                                      hovermode='x'
+                                      hovermode='x',
+                                     paper_bgcolor='rgba(0,0,0,0)',
+                                     plot_bgcolor='rgba(0,0,0,0)'
                                       )
     return fig_revGrowthSource
 
@@ -627,7 +646,9 @@ def build_fig_revsouce_CA(df):
             font=dict(
                 size=15)),
         hoverlabel=dict(
-            align='right'))
+            align='right'),
+             paper_bgcolor='rgba(0,0,0,0)',
+             plot_bgcolor='rgba(0,0,0,0)')
 
     return fig_revSource_CA
 
@@ -772,7 +793,7 @@ def build_fig_revGrowthSource(df):
 
         fig_revGrowthSource.update_yaxes(title="",
                                          tickformat='.2f',
-                                         nticks=4,
+                                         nticks=4, showgrid=True, gridwidth=1, gridcolor='#cccccc',
                                          # griddash = 'dot',
                                          row=i + 1, col=1)
 
@@ -788,7 +809,9 @@ def build_fig_revGrowthSource(df):
                                                  '<sup>' +
                                                  " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." +
                                                  '</sup>', xanchor='left', x=0.02), margin=dict(t=50), legend=dict(orientation='h', xanchor='center', x=0.5, y=-
-                                                                                                                   0.05, font=dict(size=15), traceorder='reversed'), hoverlabel=dict(align='right'), hovermode='x')
+                                                                                                                   0.05, font=dict(size=15), traceorder='reversed'), hoverlabel=dict(align='right'), hovermode='x',
+                                        paper_bgcolor='rgba(0,0,0,0)',
+                                        plot_bgcolor='rgba(0,0,0,0)')
 
     return fig_revGrowthSource
 

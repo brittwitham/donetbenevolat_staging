@@ -63,7 +63,12 @@ def build_fig_perNatGDP(perNatGDP):
             showgrid=False,
             showticklabels=False),
         xaxis=dict(
-            title="Zone géographique"))
+            title="Zone géographique"),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_perNatGDP.update_xaxes(showline=True, linewidth=1, linecolor='black')
+    fig_perNatGDP.update_yaxes(range=[0, max(perNatGDP['perGDP']) * 1.1])
 
     return fig_perNatGDP
 
@@ -152,7 +157,12 @@ def SubSec(df, title):
                                          xanchor='center',
                                          x=0.5,
                                          y=-0.1,
-                                         font=dict(size=15)))
+                                         font=dict(size=15)),
+                            paper_bgcolor='rgba(0,0,0,0)',
+                            plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_SubSec.update_xaxes(showline=True, linewidth=1, linecolor='black')
+    fig_SubSec.update_yaxes(range=[0, max(df['valNormP']) * 1.1])
 
     return fig_SubSec
 
@@ -190,7 +200,12 @@ def Growth(df, title, trace_settings):
                                          y=-0.1,
                                          font=dict(size=15)),
                              hoverlabel=dict(align='right'),
-                             hovermode='x unified')
+                             hovermode='x unified',
+                             paper_bgcolor='rgba(0,0,0,0)',
+                             plot_bgcolor='rgba(0,0,0,0)')
+
+    fig_Growth.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#cccccc')
+
 
     return fig_Growth
 
@@ -206,7 +221,7 @@ def SubSecActivity(df, title, vars):
     df = pd.concat([df[df['activity'] == "Autre"],
                    df[df['activity'] != "Autre"].sort_values(var_1)], axis=0)
 
-    fig_SubSecActivity = make_subplots(rows=1, cols=2)
+    fig_SubSecActivity = make_subplots(rows=1, cols=2, horizontal_spacing=0.01)
 
     fig_SubSecActivity.add_trace(go.Bar(  # y = ~str_wrap_factor(fct_rev(activity), 28),
         y=df['activity'],
@@ -269,5 +284,7 @@ def SubSecActivity(df, title, vars):
                                                  xanchor='center',
                                                  x=0.5,
                                                  y=-0.05,
-                                                 font=dict(size=15)))
+                                                 font=dict(size=15)),
+                                     paper_bgcolor='rgba(0,0,0,0)',
+                                     plot_bgcolor='rgba(0,0,0,0)')
     return fig_SubSecActivity

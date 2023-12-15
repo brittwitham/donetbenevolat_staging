@@ -75,7 +75,7 @@ def SubSec(df, title):
     for i in df.index:
         fig_SubSec.add_annotation(x="<br>".join(textwrap.wrap(df.loc[i]['subSector'], width=16)),
                                   y=df.loc[i]['valNormP'] / 2,
-                                  text=df.loc[i]['label'],
+                                  text=df.loc[i]['label_FR'],
                                   font=dict(size=15, color="white"),
                                   showarrow=False)
 

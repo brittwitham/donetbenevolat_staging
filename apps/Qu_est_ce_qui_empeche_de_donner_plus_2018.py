@@ -317,13 +317,13 @@ layout = html.Div([
 # def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
 
 #     dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
-#                             [dff.Estimate.map(str) + "%" + "*", "...", dff.Estimate.map(str) + "%"])
+#                             [dff.Estimate.map(str) + " %" + "*", "...", dff.Estimate.map(str) + " %"])
 #     dff['HoverText'] = np.select([dff["Marker"] == "*",
 #                                   dff["Marker"] == "...",
 #                                   pd.isnull(dff["Marker"])],
 #                                  ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
 #                                   "Estimate Suppressed",
-#                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
+#                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + " %"])
 
 #     fig = go.Figure()
 
@@ -560,13 +560,13 @@ layout = html.Div([
 
 # def vertical_percentage_graph(dff, title, name1, name2):
 #     dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
-#                             [dff.Estimate.map(str) + "%" + "*", "...", dff.Estimate.map(str) + "%"])
+#                             [dff.Estimate.map(str) + " %" + "*", "...", dff.Estimate.map(str) + " %"])
 #     dff['HoverText'] = np.select([dff["Marker"] == "*",
 #                                   dff["Marker"] == "...",
 #                                   pd.isnull(dff["Marker"])],
 #                                  ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
 #                                   "Estimate Suppressed",
-#                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
+#                                   "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + " %"])
 
 #     dff1 = dff[dff['Attribute'] == name1]
 

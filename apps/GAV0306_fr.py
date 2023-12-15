@@ -784,13 +784,13 @@ def update_graph(region):
 
 # def triple_horizontal_rate_avg(dff_1, dff_2, name1, name2, name3, title, giving=True):
 #     dff_1['Text'] = np.select([dff_1["Marker"] == "*", dff_1["Marker"] == "...", pd.isnull(dff_1["Marker"])],
-#                               [dff_1.Estimate.map(str) + "%*", "...", dff_1.Estimate.map(str) + "%"])
+#                               [dff_1.Estimate.map(str) + "%*", "...", dff_1.Estimate.map(str) + " %"])
 #     dff_1['HoverText'] = np.select([dff_1["Marker"] == "*",
 #                                     dff_1["Marker"] == "...",
 #                                     pd.isnull(dff_1["Marker"])],
 #                                    ["Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
 #                                     "Estimate Suppressed",
-#                                     "Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str) + "%"])
+#                                     "Estimate: " + dff_1.Estimate.map(str) + "% ± " + (dff_1["CI Upper"] - dff_1["Estimate"]).map(str) + " %"])
 #
 #     if giving:
 #         dff_2['Text'] = np.select([dff_2["Marker"] == "*", dff_2["Marker"] == "...", pd.isnull(dff_2["Marker"])],
@@ -1110,13 +1110,13 @@ def update_graph(region):
 # def triple_vertical_graphs_pops(dff, title, name1, name2, name3, type):
 #     if type == "percent":
 #         dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
-#                                 [dff.Estimate.map(str) + "%" + "*", "...", dff.Estimate.map(str) + "%"])
+#                                 [dff.Estimate.map(str) + " %" + "*", "...", dff.Estimate.map(str) + " %"])
 #         dff['HoverText'] = np.select([dff["Marker"] == "*",
 #                                       dff["Marker"] == "...",
 #                                       pd.isnull(dff["Marker"])],
 #                                      ["Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%<br><b>Use with caution</b>",
 #                                       "Estimate Suppressed",
-#                                       "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + "%"])
+#                                       "Estimate: " + dff.Estimate.map(str) + "% ± " + (dff["CI Upper"] - dff["Estimate"]).map(str) + " %"])
 #     elif type == "hours":
 #         dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
 #                                 [dff.Estimate.map(str) + "*", "...", dff.Estimate.map(str)])

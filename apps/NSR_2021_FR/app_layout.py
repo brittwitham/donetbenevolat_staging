@@ -196,10 +196,10 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                         html.Em("sous-secteur sans but lucratif de base"),
                                         "  qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
-                                            "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
+                                            "↩︎", href="#ref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
-                            ], id="fn1"),
+                            ], id="footnote1"),
                         html.Li([
                             html.P("Outre le fait de diviser les organismes par type et par sous-secteur, le Compte satellite classe les organismes dans l’un des douze groupes suivants selon leur activité principale :"),
                             html.P(
@@ -251,10 +251,10 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                     " -  organismes qui ne font pas partie de ces secteurs d’activités.",
                                     html.A(
                                         "↩︎",
-                                        href="#fnref2",
+                                        href="#ref2",
                                         className="footnote-back",
                                         role="doc-backlink")])
-                        ], id="fn2")
+                        ], id="footnote2")
                     ])
                 ],
             )

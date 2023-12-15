@@ -14,7 +14,7 @@ _, _, _, _, revSource, revGrowthSource = get_data()
 def SubSec(df, title):
 
     df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
-                                     "Institutions communautaires à but non lucratif": 1,
+                                     "institutions commerciales à but non lucratif": 1,
                                      "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()
@@ -368,7 +368,7 @@ def GrowthSource(df, title):
 
     filters = [
         'Organismes communautaires à but non lucratif',
-        "Institutions communautaires à but non lucratif",
+        "institutions commerciales à but non lucratif",
         "Institutions gouvernementales à but non lucratif"]
     text_y = [1.015, 0.575, 0.25]
 
@@ -667,7 +667,7 @@ def build_fig_revGrowthSource(df):
 
     filters = [
         'Organismes communautaires à but non lucratif',
-        "Institutions communautaires à but non lucratif",
+        "institutions commerciales à but non lucratif",
         "Institutions gouvernementales à but non lucratif"]
     text_y = [1.015, 0.575, 0.25]
 

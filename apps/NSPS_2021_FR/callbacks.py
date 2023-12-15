@@ -27,7 +27,7 @@ def register_callbacks(app):
                     color="#7A4A89", dash="solid")}, 'valNormP_CommNPOs': {
                 'name': "Organismes communautaires à but non lucratif", 'line_dict': dict(
                     color="#c8102e", dash="dash")}, 'valNormP_BusNPOs': {
-                        'name': "Institutions communautaires à but non lucratif", 'line_dict': dict(
+                        'name': "institutions commerciales à but non lucratif", 'line_dict': dict(
                             color="#c8102e", dash="dot")}, 'valNormP_GovNPOs': {
                                 'name': "Institutions gouvernementales à but non lucratif", "line_dict": dict(
                                     color="#7BAFD4", dash="dash")}}

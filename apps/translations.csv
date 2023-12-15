@@ -4,7 +4,7 @@ EN,FR,INTERNAL - Story,INTERNAL - Viz,INTERNAL - Feature,INTERNAL - Notes
 "Relative growth of revenues by sub-sector, 2007 to 2021 - CA - (2007 = 1.0) / Note: Hover over line for absolute values","Croissance relative des revenus par sous-secteur, de 2007 à 2021 - CA (2007 = 1,0) / Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues.",Revenues,revGrowth,Title,
 All nonprofits,Tous les organismes à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 Community nonprofits,Organismes communautaires à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
-Business nonprofits,Institutions communautaires à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
+Business nonprofits,institutions commerciales à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 Government nonprofits,Institutions gouvernementales à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 "Percentage of nonprofit revenues by sub-sector and activity area, 2021  - CA / Note: Hover over bar for absolute values","Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021 - CA / Remarque : placer le curseur sur la barre pour connaître les valeurs absolues.",Revenues,revGrowthActivity_core,Title,
 Sports & recreation,Sports et loisirs,Revenues,"revGrowthActivity_core, empGrowthActivity_core",Trace label,Rec. = Recreation

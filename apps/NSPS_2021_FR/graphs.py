@@ -11,7 +11,7 @@ import textwrap
 def SubSec(df, title):
 
     df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
-                                     "Institutions communautaires à but non lucratif": 1,
+                                     "institutions commerciales à but non lucratif": 1,
                                      "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()

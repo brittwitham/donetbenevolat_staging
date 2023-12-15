@@ -1,253 +1,253 @@
 refDate,geo,class,characteristics,indicators,Comm,Bus,Govt
-2021-01-01,CA,Genre,Male,Average annual wages and salaries,48651,62741,64904
-2021-01-01,CA,Genre,Female,Average annual wages and salaries,40515,48919,55603
+2021-01-01,CA,Genre,Homme,Average annual wages and salaries,48651,62741,64904
+2021-01-01,CA,Genre, Femme,Average annual wages and salaries,40515,48919,55603
 2021-01-01,CA,Immigration,Immigrant,Average annual wages and salaries,41452,53776,59058
 2021-01-01,CA,Immigration,Non-immigrant,Average annual wages and salaries,43540,55212,57848
 2021-01-01,CA,Autochtones,Autochtones,Average annual wages and salaries,38973,42574,49035
 2021-01-01,CA,Autochtones,Non-Autochtones,Average annual wages and salaries,43265,55362,58575
 2021-01-01,CA,Minorités visibles,Minorités visibles,Average annual wages and salaries,39184,48348,54054
-2021-01-01,CA,Minorités visibles,Non-visible minority,Average annual wages and salaries,44458,57303,59857
-2021-01-01,CA,Éducation formelle,High school,Average annual wages and salaries,28594,37558,33843
-2021-01-01,CA,Éducation formelle,Trade certificate,Average annual wages and salaries,36081,51073,44182
-2021-01-01,CA,Éducation formelle,College diploma,Average annual wages and salaries,39781,51658,53605
-2021-01-01,CA,Éducation formelle,University,Average annual wages and salaries,53456,68317,70766
-2021-01-01,CA,Groupe d'âge,15 to 24,Average annual wages and salaries,15962,16285,22119
-2021-01-01,CA,Groupe d'âge,25 to 34,Average annual wages and salaries,37181,46094,48927
-2021-01-01,CA,Groupe d'âge,35 to 44,Average annual wages and salaries,49065,63998,64612
-2021-01-01,CA,Groupe d'âge,45 to 54,Average annual wages and salaries,55996,74815,72477
-2021-01-01,CA,Groupe d'âge,55 to 64,Average annual wages and salaries,50119,67039,66678
+2021-01-01,CA,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,44458,57303,59857
+2021-01-01,CA,Éducation formelle,Secondaire,Average annual wages and salaries,28594,37558,33843
+2021-01-01,CA,Éducation formelle,Certificat de métier,Average annual wages and salaries,36081,51073,44182
+2021-01-01,CA,Éducation formelle,Diplôme collégial,Average annual wages and salaries,39781,51658,53605
+2021-01-01,CA,Éducation formelle,Université,Average annual wages and salaries,53456,68317,70766
+2021-01-01,CA,Groupe d'âge,15 à 24,Average annual wages and salaries,15962,16285,22119
+2021-01-01,CA,Groupe d'âge,25 à 34,Average annual wages and salaries,37181,46094,48927
+2021-01-01,CA,Groupe d'âge,35 à 44,Average annual wages and salaries,49065,63998,64612
+2021-01-01,CA,Groupe d'âge,45 à 54,Average annual wages and salaries,55996,74815,72477
+2021-01-01,CA,Groupe d'âge,55 à 64,Average annual wages and salaries,50119,67039,66678
 2021-01-01,CA,Groupe d'âge,65 plus,Average annual wages and salaries,29626,39923,44875
-2021-01-01,NL,Genre,Male,Average annual wages and salaries,43466,57359,61790
-2021-01-01,NL,Genre,Female,Average annual wages and salaries,37033,43069,55444
+2021-01-01,NL,Genre,Homme,Average annual wages and salaries,43466,57359,61790
+2021-01-01,NL,Genre, Femme,Average annual wages and salaries,37033,43069,55444
 2021-01-01,NL,Immigration,Immigrant,Average annual wages and salaries,35516,44344,70022
 2021-01-01,NL,Immigration,Non-immigrant,Average annual wages and salaries,39380,49546,56218
 2021-01-01,NL,Autochtones,Autochtones,Average annual wages and salaries,NA,NA,54578
 2021-01-01,NL,Autochtones,Non-Autochtones,Average annual wages and salaries,NA,NA,57368
 2021-01-01,NL,Minorités visibles,Minorités visibles,Average annual wages and salaries,35684,38172,58729
-2021-01-01,NL,Minorités visibles,Non-visible minority,Average annual wages and salaries,39669,50697,56900
-2021-01-01,NL,Éducation formelle,High school,Average annual wages and salaries,25843,31488,32354
-2021-01-01,NL,Éducation formelle,Trade certificate,Average annual wages and salaries,33099,48290,43098
-2021-01-01,NL,Éducation formelle,College diploma,Average annual wages and salaries,40507,54131,51944
-2021-01-01,NL,Éducation formelle,University,Average annual wages and salaries,53054,66103,76402
-2021-01-01,NL,Groupe d'âge,15 to 24,Average annual wages and salaries,12574,13797,23180
-2021-01-01,NL,Groupe d'âge,25 to 34,Average annual wages and salaries,38044,45208,50964
-2021-01-01,NL,Groupe d'âge,35 to 44,Average annual wages and salaries,47345,61222,65572
-2021-01-01,NL,Groupe d'âge,45 to 54,Average annual wages and salaries,51279,70110,68329
-2021-01-01,NL,Groupe d'âge,55 to 64,Average annual wages and salaries,40682,52977,56779
+2021-01-01,NL,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,39669,50697,56900
+2021-01-01,NL,Éducation formelle,Secondaire,Average annual wages and salaries,25843,31488,32354
+2021-01-01,NL,Éducation formelle,Certificat de métier,Average annual wages and salaries,33099,48290,43098
+2021-01-01,NL,Éducation formelle,Diplôme collégial,Average annual wages and salaries,40507,54131,51944
+2021-01-01,NL,Éducation formelle,Université,Average annual wages and salaries,53054,66103,76402
+2021-01-01,NL,Groupe d'âge,15 à 24,Average annual wages and salaries,12574,13797,23180
+2021-01-01,NL,Groupe d'âge,25 à 34,Average annual wages and salaries,38044,45208,50964
+2021-01-01,NL,Groupe d'âge,35 à 44,Average annual wages and salaries,47345,61222,65572
+2021-01-01,NL,Groupe d'âge,45 à 54,Average annual wages and salaries,51279,70110,68329
+2021-01-01,NL,Groupe d'âge,55 à 64,Average annual wages and salaries,40682,52977,56779
 2021-01-01,NL,Groupe d'âge,65 plus,Average annual wages and salaries,29353,34743,39214
-2021-01-01,PE,Genre,Male,Average annual wages and salaries,36592,41595,63050
-2021-01-01,PE,Genre,Female,Average annual wages and salaries,31680,35879,51915
+2021-01-01,PE,Genre,Homme,Average annual wages and salaries,36592,41595,63050
+2021-01-01,PE,Genre, Femme,Average annual wages and salaries,31680,35879,51915
 2021-01-01,PE,Immigration,Immigrant,Average annual wages and salaries,26283,27965,55605
 2021-01-01,PE,Immigration,Non-immigrant,Average annual wages and salaries,33753,39204,54178
 2021-01-01,PE,Autochtones,Autochtones,Average annual wages and salaries,NA,NA,46608
 2021-01-01,PE,Autochtones,Non-Autochtones,Average annual wages and salaries,NA,NA,54467
 2021-01-01,PE,Minorités visibles,Minorités visibles,Average annual wages and salaries,27565,27529,48312
-2021-01-01,PE,Minorités visibles,Non-visible minority,Average annual wages and salaries,33635,39070,54920
-2021-01-01,PE,Éducation formelle,High school,Average annual wages and salaries,20551,24257,31528
-2021-01-01,PE,Éducation formelle,Trade certificate,Average annual wages and salaries,29174,38828,43838
-2021-01-01,PE,Éducation formelle,College diploma,Average annual wages and salaries,34216,40760,48279
-2021-01-01,PE,Éducation formelle,University,Average annual wages and salaries,43575,51724,73890
-2021-01-01,PE,Groupe d'âge,15 to 24,Average annual wages and salaries,16041,14991,21874
-2021-01-01,PE,Groupe d'âge,25 to 34,Average annual wages and salaries,28798,34565,47523
-2021-01-01,PE,Groupe d'âge,35 to 44,Average annual wages and salaries,41531,44975,59281
-2021-01-01,PE,Groupe d'âge,45 to 54,Average annual wages and salaries,45461,56947,71159
-2021-01-01,PE,Groupe d'âge,55 to 64,Average annual wages and salaries,37948,42051,59683
+2021-01-01,PE,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,33635,39070,54920
+2021-01-01,PE,Éducation formelle,Secondaire,Average annual wages and salaries,20551,24257,31528
+2021-01-01,PE,Éducation formelle,Certificat de métier,Average annual wages and salaries,29174,38828,43838
+2021-01-01,PE,Éducation formelle,Diplôme collégial,Average annual wages and salaries,34216,40760,48279
+2021-01-01,PE,Éducation formelle,Université,Average annual wages and salaries,43575,51724,73890
+2021-01-01,PE,Groupe d'âge,15 à 24,Average annual wages and salaries,16041,14991,21874
+2021-01-01,PE,Groupe d'âge,25 à 34,Average annual wages and salaries,28798,34565,47523
+2021-01-01,PE,Groupe d'âge,35 à 44,Average annual wages and salaries,41531,44975,59281
+2021-01-01,PE,Groupe d'âge,45 à 54,Average annual wages and salaries,45461,56947,71159
+2021-01-01,PE,Groupe d'âge,55 à 64,Average annual wages and salaries,37948,42051,59683
 2021-01-01,PE,Groupe d'âge,65 plus,Average annual wages and salaries,21183,28544,46030
-2021-01-01,NS,Genre,Male,Average annual wages and salaries,39601,48748,57597
-2021-01-01,NS,Genre,Female,Average annual wages and salaries,35517,41518,53069
+2021-01-01,NS,Genre,Homme,Average annual wages and salaries,39601,48748,57597
+2021-01-01,NS,Genre, Femme,Average annual wages and salaries,35517,41518,53069
 2021-01-01,NS,Immigration,Immigrant,Average annual wages and salaries,35584,43096,57520
 2021-01-01,NS,Immigration,Non-immigrant,Average annual wages and salaries,36874,44704,53831
 2021-01-01,NS,Autochtones,Autochtones,Average annual wages and salaries,33737,39068,46942
 2021-01-01,NS,Autochtones,Non-Autochtones,Average annual wages and salaries,36947,44890,54597
 2021-01-01,NS,Minorités visibles,Minorités visibles,Average annual wages and salaries,32209,37229,49162
-2021-01-01,NS,Minorités visibles,Non-visible minority,Average annual wages and salaries,37425,45578,55121
-2021-01-01,NS,Éducation formelle,High school,Average annual wages and salaries,22335,29265,30254
-2021-01-01,NS,Éducation formelle,Trade certificate,Average annual wages and salaries,32862,45747,42621
-2021-01-01,NS,Éducation formelle,College diploma,Average annual wages and salaries,35162,43460,48717
-2021-01-01,NS,Éducation formelle,University,Average annual wages and salaries,46260,56607,67488
-2021-01-01,NS,Groupe d'âge,15 to 24,Average annual wages and salaries,14173,12869,21001
-2021-01-01,NS,Groupe d'âge,25 to 34,Average annual wages and salaries,33161,39002,50060
-2021-01-01,NS,Groupe d'âge,35 to 44,Average annual wages and salaries,43326,55928,59648
-2021-01-01,NS,Groupe d'âge,45 to 54,Average annual wages and salaries,48044,61461,68097
-2021-01-01,NS,Groupe d'âge,55 to 64,Average annual wages and salaries,41099,52484,59291
+2021-01-01,NS,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,37425,45578,55121
+2021-01-01,NS,Éducation formelle,Secondaire,Average annual wages and salaries,22335,29265,30254
+2021-01-01,NS,Éducation formelle,Certificat de métier,Average annual wages and salaries,32862,45747,42621
+2021-01-01,NS,Éducation formelle,Diplôme collégial,Average annual wages and salaries,35162,43460,48717
+2021-01-01,NS,Éducation formelle,Université,Average annual wages and salaries,46260,56607,67488
+2021-01-01,NS,Groupe d'âge,15 à 24,Average annual wages and salaries,14173,12869,21001
+2021-01-01,NS,Groupe d'âge,25 à 34,Average annual wages and salaries,33161,39002,50060
+2021-01-01,NS,Groupe d'âge,35 à 44,Average annual wages and salaries,43326,55928,59648
+2021-01-01,NS,Groupe d'âge,45 à 54,Average annual wages and salaries,48044,61461,68097
+2021-01-01,NS,Groupe d'âge,55 à 64,Average annual wages and salaries,41099,52484,59291
 2021-01-01,NS,Groupe d'âge,65 plus,Average annual wages and salaries,22801,28737,39585
-2021-01-01,NB,Genre,Male,Average annual wages and salaries,39511,45830,61771
-2021-01-01,NB,Genre,Female,Average annual wages and salaries,30827,37549,53964
+2021-01-01,NB,Genre,Homme,Average annual wages and salaries,39511,45830,61771
+2021-01-01,NB,Genre, Femme,Average annual wages and salaries,30827,37549,53964
 2021-01-01,NB,Immigration,Immigrant,Average annual wages and salaries,33471,37304,68668
 2021-01-01,NB,Immigration,Non-immigrant,Average annual wages and salaries,33792,41541,54900
 2021-01-01,NB,Autochtones,Autochtones,Average annual wages and salaries,31343,31678,49618
 2021-01-01,NB,Autochtones,Non-Autochtones,Average annual wages and salaries,33873,41620,56137
 2021-01-01,NB,Minorités visibles,Minorités visibles,Average annual wages and salaries,30450,32557,56932
-2021-01-01,NB,Minorités visibles,Non-visible minority,Average annual wages and salaries,34046,42024,55851
-2021-01-01,NB,Éducation formelle,High school,Average annual wages and salaries,22684,28593,32851
-2021-01-01,NB,Éducation formelle,Trade certificate,Average annual wages and salaries,32689,41258,42337
-2021-01-01,NB,Éducation formelle,College diploma,Average annual wages and salaries,32591,44447,49310
-2021-01-01,NB,Éducation formelle,University,Average annual wages and salaries,45464,54091,75394
-2021-01-01,NB,Groupe d'âge,15 to 24,Average annual wages and salaries,14156,13409,23982
-2021-01-01,NB,Groupe d'âge,25 to 34,Average annual wages and salaries,32861,37467,50302
-2021-01-01,NB,Groupe d'âge,35 to 44,Average annual wages and salaries,42203,51976,62380
-2021-01-01,NB,Groupe d'âge,45 to 54,Average annual wages and salaries,44845,57303,65666
-2021-01-01,NB,Groupe d'âge,55 to 64,Average annual wages and salaries,37104,46317,62268
+2021-01-01,NB,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,34046,42024,55851
+2021-01-01,NB,Éducation formelle,Secondaire,Average annual wages and salaries,22684,28593,32851
+2021-01-01,NB,Éducation formelle,Certificat de métier,Average annual wages and salaries,32689,41258,42337
+2021-01-01,NB,Éducation formelle,Diplôme collégial,Average annual wages and salaries,32591,44447,49310
+2021-01-01,NB,Éducation formelle,Université,Average annual wages and salaries,45464,54091,75394
+2021-01-01,NB,Groupe d'âge,15 à 24,Average annual wages and salaries,14156,13409,23982
+2021-01-01,NB,Groupe d'âge,25 à 34,Average annual wages and salaries,32861,37467,50302
+2021-01-01,NB,Groupe d'âge,35 à 44,Average annual wages and salaries,42203,51976,62380
+2021-01-01,NB,Groupe d'âge,45 à 54,Average annual wages and salaries,44845,57303,65666
+2021-01-01,NB,Groupe d'âge,55 à 64,Average annual wages and salaries,37104,46317,62268
 2021-01-01,NB,Groupe d'âge,65 plus,Average annual wages and salaries,23910,28788,40394
-2021-01-01,QC,Genre,Male,Average annual wages and salaries,42970,56691,61372
-2021-01-01,QC,Genre,Female,Average annual wages and salaries,37777,44939,54012
+2021-01-01,QC,Genre,Homme,Average annual wages and salaries,42970,56691,61372
+2021-01-01,QC,Genre, Femme,Average annual wages and salaries,37777,44939,54012
 2021-01-01,QC,Immigration,Immigrant,Average annual wages and salaries,34574,46172,55418
 2021-01-01,QC,Immigration,Non-immigrant,Average annual wages and salaries,40345,50665,56238
 2021-01-01,QC,Autochtones,Autochtones,Average annual wages and salaries,37376,41674,48720
 2021-01-01,QC,Autochtones,Non-Autochtones,Average annual wages and salaries,39337,50057,56232
 2021-01-01,QC,Minorités visibles,Minorités visibles,Average annual wages and salaries,32757,40882,50451
-2021-01-01,QC,Minorités visibles,Non-visible minority,Average annual wages and salaries,40557,51506,57364
-2021-01-01,QC,Éducation formelle,High school,Average annual wages and salaries,25993,34167,33219
-2021-01-01,QC,Éducation formelle,Trade certificate,Average annual wages and salaries,32016,43560,43197
-2021-01-01,QC,Éducation formelle,College diploma,Average annual wages and salaries,36078,45135,52092
-2021-01-01,QC,Éducation formelle,University,Average annual wages and salaries,50227,62684,71749
-2021-01-01,QC,Groupe d'âge,15 to 24,Average annual wages and salaries,16027,15362,24382
-2021-01-01,QC,Groupe d'âge,25 to 34,Average annual wages and salaries,33736,42362,46960
-2021-01-01,QC,Groupe d'âge,35 to 44,Average annual wages and salaries,45392,58526,64422
-2021-01-01,QC,Groupe d'âge,45 to 54,Average annual wages and salaries,51866,68280,70593
-2021-01-01,QC,Groupe d'âge,55 to 64,Average annual wages and salaries,43984,59285,59983
+2021-01-01,QC,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,40557,51506,57364
+2021-01-01,QC,Éducation formelle,Secondaire,Average annual wages and salaries,25993,34167,33219
+2021-01-01,QC,Éducation formelle,Certificat de métier,Average annual wages and salaries,32016,43560,43197
+2021-01-01,QC,Éducation formelle,Diplôme collégial,Average annual wages and salaries,36078,45135,52092
+2021-01-01,QC,Éducation formelle,Université,Average annual wages and salaries,50227,62684,71749
+2021-01-01,QC,Groupe d'âge,15 à 24,Average annual wages and salaries,16027,15362,24382
+2021-01-01,QC,Groupe d'âge,25 à 34,Average annual wages and salaries,33736,42362,46960
+2021-01-01,QC,Groupe d'âge,35 à 44,Average annual wages and salaries,45392,58526,64422
+2021-01-01,QC,Groupe d'âge,45 à 54,Average annual wages and salaries,51866,68280,70593
+2021-01-01,QC,Groupe d'âge,55 à 64,Average annual wages and salaries,43984,59285,59983
 2021-01-01,QC,Groupe d'âge,65 plus,Average annual wages and salaries,22825,33675,36374
-2021-01-01,ON,Genre,Male,Average annual wages and salaries,53178,70067,67473
-2021-01-01,ON,Genre,Female,Average annual wages and salaries,44694,55947,59616
+2021-01-01,ON,Genre,Homme,Average annual wages and salaries,53178,70067,67473
+2021-01-01,ON,Genre, Femme,Average annual wages and salaries,44694,55947,59616
 2021-01-01,ON,Immigration,Immigrant,Average annual wages and salaries,45142,59590,63582
 2021-01-01,ON,Immigration,Non-immigrant,Average annual wages and salaries,48228,63265,61127
 2021-01-01,ON,Autochtones,Autochtones,Average annual wages and salaries,43842,49644,54238
 2021-01-01,ON,Autochtones,Non-Autochtones,Average annual wages and salaries,47420,62392,62164
 2021-01-01,ON,Minorités visibles,Minorités visibles,Average annual wages and salaries,42563,53705,58156
-2021-01-01,ON,Minorités visibles,Non-visible minority,Average annual wages and salaries,49478,66291,63896
-2021-01-01,ON,Éducation formelle,High school,Average annual wages and salaries,30329,41040,34542
-2021-01-01,ON,Éducation formelle,Trade certificate,Average annual wages and salaries,41106,57430,45312
-2021-01-01,ON,Éducation formelle,College diploma,Average annual wages and salaries,42666,55812,57312
-2021-01-01,ON,Éducation formelle,University,Average annual wages and salaries,58040,76827,72672
-2021-01-01,ON,Groupe d'âge,15 to 24,Average annual wages and salaries,16497,17924,20836
-2021-01-01,ON,Groupe d'âge,25 to 34,Average annual wages and salaries,40002,50063,50918
-2021-01-01,ON,Groupe d'âge,35 to 44,Average annual wages and salaries,53628,70618,68645
-2021-01-01,ON,Groupe d'âge,45 to 54,Average annual wages and salaries,61652,83894,78942
-2021-01-01,ON,Groupe d'âge,55 to 64,Average annual wages and salaries,55994,77141,75474
+2021-01-01,ON,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,49478,66291,63896
+2021-01-01,ON,Éducation formelle,Secondaire,Average annual wages and salaries,30329,41040,34542
+2021-01-01,ON,Éducation formelle,Certificat de métier,Average annual wages and salaries,41106,57430,45312
+2021-01-01,ON,Éducation formelle,Diplôme collégial,Average annual wages and salaries,42666,55812,57312
+2021-01-01,ON,Éducation formelle,Université,Average annual wages and salaries,58040,76827,72672
+2021-01-01,ON,Groupe d'âge,15 à 24,Average annual wages and salaries,16497,17924,20836
+2021-01-01,ON,Groupe d'âge,25 à 34,Average annual wages and salaries,40002,50063,50918
+2021-01-01,ON,Groupe d'âge,35 à 44,Average annual wages and salaries,53628,70618,68645
+2021-01-01,ON,Groupe d'âge,45 à 54,Average annual wages and salaries,61652,83894,78942
+2021-01-01,ON,Groupe d'âge,55 à 64,Average annual wages and salaries,55994,77141,75474
 2021-01-01,ON,Groupe d'âge,65 plus,Average annual wages and salaries,32675,47103,50445
-2021-01-01,MB,Genre,Male,Average annual wages and salaries,42988,52797,62704
-2021-01-01,MB,Genre,Female,Average annual wages and salaries,35769,41156,51936
+2021-01-01,MB,Genre,Homme,Average annual wages and salaries,42988,52797,62704
+2021-01-01,MB,Genre, Femme,Average annual wages and salaries,35769,41156,51936
 2021-01-01,MB,Immigration,Immigrant,Average annual wages and salaries,34292,39563,52363
 2021-01-01,MB,Immigration,Non-immigrant,Average annual wages and salaries,39062,47743,55825
 2021-01-01,MB,Autochtones,Autochtones,Average annual wages and salaries,35784,36206,44810
 2021-01-01,MB,Autochtones,Non-Autochtones,Average annual wages and salaries,38580,47966,56327
 2021-01-01,MB,Minorités visibles,Minorités visibles,Average annual wages and salaries,34439,37092,49161
-2021-01-01,MB,Minorités visibles,Non-visible minority,Average annual wages and salaries,40095,50358,58512
-2021-01-01,MB,Éducation formelle,High school,Average annual wages and salaries,26006,31515,32211
-2021-01-01,MB,Éducation formelle,Trade certificate,Average annual wages and salaries,34590,46637,44328
-2021-01-01,MB,Éducation formelle,College diploma,Average annual wages and salaries,37715,48792,51953
-2021-01-01,MB,Éducation formelle,University,Average annual wages and salaries,48842,59985,69118
-2021-01-01,MB,Groupe d'âge,15 to 24,Average annual wages and salaries,14042,14248,20499
-2021-01-01,MB,Groupe d'âge,25 to 34,Average annual wages and salaries,33848,39156,47409
-2021-01-01,MB,Groupe d'âge,35 to 44,Average annual wages and salaries,43614,55256,61113
-2021-01-01,MB,Groupe d'âge,45 to 54,Average annual wages and salaries,49882,65335,67023
-2021-01-01,MB,Groupe d'âge,55 to 64,Average annual wages and salaries,46471,60547,61575
+2021-01-01,MB,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,40095,50358,58512
+2021-01-01,MB,Éducation formelle,Secondaire,Average annual wages and salaries,26006,31515,32211
+2021-01-01,MB,Éducation formelle,Certificat de métier,Average annual wages and salaries,34590,46637,44328
+2021-01-01,MB,Éducation formelle,Diplôme collégial,Average annual wages and salaries,37715,48792,51953
+2021-01-01,MB,Éducation formelle,Université,Average annual wages and salaries,48842,59985,69118
+2021-01-01,MB,Groupe d'âge,15 à 24,Average annual wages and salaries,14042,14248,20499
+2021-01-01,MB,Groupe d'âge,25 à 34,Average annual wages and salaries,33848,39156,47409
+2021-01-01,MB,Groupe d'âge,35 à 44,Average annual wages and salaries,43614,55256,61113
+2021-01-01,MB,Groupe d'âge,45 à 54,Average annual wages and salaries,49882,65335,67023
+2021-01-01,MB,Groupe d'âge,55 à 64,Average annual wages and salaries,46471,60547,61575
 2021-01-01,MB,Groupe d'âge,65 plus,Average annual wages and salaries,27062,30920,39499
-2021-01-01,SK,Genre,Male,Average annual wages and salaries,37564,49283,65378
-2021-01-01,SK,Genre,Female,Average annual wages and salaries,30353,37131,54254
+2021-01-01,SK,Genre,Homme,Average annual wages and salaries,37564,49283,65378
+2021-01-01,SK,Genre, Femme,Average annual wages and salaries,30353,37131,54254
 2021-01-01,SK,Immigration,Immigrant,Average annual wages and salaries,31431,38930,56938
 2021-01-01,SK,Immigration,Non-immigrant,Average annual wages and salaries,32922,42960,56891
 2021-01-01,SK,Autochtones,Autochtones,Average annual wages and salaries,30123,30005,46201
 2021-01-01,SK,Autochtones,Non-Autochtones,Average annual wages and salaries,33177,44105,58282
 2021-01-01,SK,Minorités visibles,Minorités visibles,Average annual wages and salaries,29999,33269,51432
-2021-01-01,SK,Minorités visibles,Non-visible minority,Average annual wages and salaries,33729,45103,59066
-2021-01-01,SK,Éducation formelle,High school,Average annual wages and salaries,23365,30741,33590
-2021-01-01,SK,Éducation formelle,Trade certificate,Average annual wages and salaries,32927,48055,46498
-2021-01-01,SK,Éducation formelle,College diploma,Average annual wages and salaries,33845,45931,54211
-2021-01-01,SK,Éducation formelle,University,Average annual wages and salaries,39879,53764,71930
-2021-01-01,SK,Groupe d'âge,15 to 24,Average annual wages and salaries,12420,13490,24389
-2021-01-01,SK,Groupe d'âge,25 to 34,Average annual wages and salaries,29616,38200,51339
-2021-01-01,SK,Groupe d'âge,35 to 44,Average annual wages and salaries,37793,51998,62031
-2021-01-01,SK,Groupe d'âge,45 to 54,Average annual wages and salaries,42283,61121,69694
-2021-01-01,SK,Groupe d'âge,55 to 64,Average annual wages and salaries,39289,51993,64151
+2021-01-01,SK,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,33729,45103,59066
+2021-01-01,SK,Éducation formelle,Secondaire,Average annual wages and salaries,23365,30741,33590
+2021-01-01,SK,Éducation formelle,Certificat de métier,Average annual wages and salaries,32927,48055,46498
+2021-01-01,SK,Éducation formelle,Diplôme collégial,Average annual wages and salaries,33845,45931,54211
+2021-01-01,SK,Éducation formelle,Université,Average annual wages and salaries,39879,53764,71930
+2021-01-01,SK,Groupe d'âge,15 à 24,Average annual wages and salaries,12420,13490,24389
+2021-01-01,SK,Groupe d'âge,25 à 34,Average annual wages and salaries,29616,38200,51339
+2021-01-01,SK,Groupe d'âge,35 à 44,Average annual wages and salaries,37793,51998,62031
+2021-01-01,SK,Groupe d'âge,45 à 54,Average annual wages and salaries,42283,61121,69694
+2021-01-01,SK,Groupe d'âge,55 à 64,Average annual wages and salaries,39289,51993,64151
 2021-01-01,SK,Groupe d'âge,65 plus,Average annual wages and salaries,23921,28341,41563
-2021-01-01,AB,Genre,Male,Average annual wages and salaries,53953,64509,68774
-2021-01-01,AB,Genre,Female,Average annual wages and salaries,40578,46553,54325
+2021-01-01,AB,Genre,Homme,Average annual wages and salaries,53953,64509,68774
+2021-01-01,AB,Genre, Femme,Average annual wages and salaries,40578,46553,54325
 2021-01-01,AB,Immigration,Immigrant,Average annual wages and salaries,41337,49864,55629
 2021-01-01,AB,Immigration,Non-immigrant,Average annual wages and salaries,46206,55541,59168
 2021-01-01,AB,Autochtones,Autochtones,Average annual wages and salaries,40890,43691,48863
 2021-01-01,AB,Autochtones,Non-Autochtones,Average annual wages and salaries,45129,54791,58421
 2021-01-01,AB,Minorités visibles,Minorités visibles,Average annual wages and salaries,39586,45567,52205
-2021-01-01,AB,Minorités visibles,Non-visible minority,Average annual wages and salaries,47220,57527,61224
-2021-01-01,AB,Éducation formelle,High school,Average annual wages and salaries,31915,38562,35764
-2021-01-01,AB,Éducation formelle,Trade certificate,Average annual wages and salaries,48227,64340,50255
-2021-01-01,AB,Éducation formelle,College diploma,Average annual wages and salaries,42722,55009,53029
-2021-01-01,AB,Éducation formelle,University,Average annual wages and salaries,53196,65957,67846
-2021-01-01,AB,Groupe d'âge,15 to 24,Average annual wages and salaries,16647,15603,21541
-2021-01-01,AB,Groupe d'âge,25 to 34,Average annual wages and salaries,40319,47057,48292
-2021-01-01,AB,Groupe d'âge,35 to 44,Average annual wages and salaries,50345,64557,61944
-2021-01-01,AB,Groupe d'âge,45 to 54,Average annual wages and salaries,55752,73231,70529
-2021-01-01,AB,Groupe d'âge,55 to 64,Average annual wages and salaries,53713,67495,68173
+2021-01-01,AB,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,47220,57527,61224
+2021-01-01,AB,Éducation formelle,Secondaire,Average annual wages and salaries,31915,38562,35764
+2021-01-01,AB,Éducation formelle,Certificat de métier,Average annual wages and salaries,48227,64340,50255
+2021-01-01,AB,Éducation formelle,Diplôme collégial,Average annual wages and salaries,42722,55009,53029
+2021-01-01,AB,Éducation formelle,Université,Average annual wages and salaries,53196,65957,67846
+2021-01-01,AB,Groupe d'âge,15 à 24,Average annual wages and salaries,16647,15603,21541
+2021-01-01,AB,Groupe d'âge,25 à 34,Average annual wages and salaries,40319,47057,48292
+2021-01-01,AB,Groupe d'âge,35 à 44,Average annual wages and salaries,50345,64557,61944
+2021-01-01,AB,Groupe d'âge,45 à 54,Average annual wages and salaries,55752,73231,70529
+2021-01-01,AB,Groupe d'âge,55 à 64,Average annual wages and salaries,53713,67495,68173
 2021-01-01,AB,Groupe d'âge,65 plus,Average annual wages and salaries,35689,41327,49556
-2021-01-01,BC,Genre,Male,Average annual wages and salaries,50330,60712,65515
-2021-01-01,BC,Genre,Female,Average annual wages and salaries,40486,45290,53507
+2021-01-01,BC,Genre,Homme,Average annual wages and salaries,50330,60712,65515
+2021-01-01,BC,Genre, Femme,Average annual wages and salaries,40486,45290,53507
 2021-01-01,BC,Immigration,Immigrant,Average annual wages and salaries,42117,50655,57818
 2021-01-01,BC,Immigration,Non-immigrant,Average annual wages and salaries,44352,52495,56243
 2021-01-01,BC,Autochtones,Autochtones,Average annual wages and salaries,39556,40982,46819
 2021-01-01,BC,Autochtones,Non-Autochtones,Average annual wages and salaries,43946,52506,57275
 2021-01-01,BC,Minorités visibles,Minorités visibles,Average annual wages and salaries,39786,46454,53120
-2021-01-01,BC,Minorités visibles,Non-visible minority,Average annual wages and salaries,45667,54879,59073
-2021-01-01,BC,Éducation formelle,High school,Average annual wages and salaries,31039,38998,33994
-2021-01-01,BC,Éducation formelle,Trade certificate,Average annual wages and salaries,38648,57051,45913
-2021-01-01,BC,Éducation formelle,College diploma,Average annual wages and salaries,39424,51482,50669
-2021-01-01,BC,Éducation formelle,University,Average annual wages and salaries,52203,61166,66686
-2021-01-01,BC,Groupe d'âge,15 to 24,Average annual wages and salaries,16738,16510,20568
-2021-01-01,BC,Groupe d'âge,25 to 34,Average annual wages and salaries,37349,44844,47154
-2021-01-01,BC,Groupe d'âge,35 to 44,Average annual wages and salaries,48974,61745,61994
-2021-01-01,BC,Groupe d'âge,45 to 54,Average annual wages and salaries,55863,69928,69485
-2021-01-01,BC,Groupe d'âge,55 to 64,Average annual wages and salaries,50983,63184,65700
+2021-01-01,BC,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,45667,54879,59073
+2021-01-01,BC,Éducation formelle,Secondaire,Average annual wages and salaries,31039,38998,33994
+2021-01-01,BC,Éducation formelle,Certificat de métier,Average annual wages and salaries,38648,57051,45913
+2021-01-01,BC,Éducation formelle,Diplôme collégial,Average annual wages and salaries,39424,51482,50669
+2021-01-01,BC,Éducation formelle,Université,Average annual wages and salaries,52203,61166,66686
+2021-01-01,BC,Groupe d'âge,15 à 24,Average annual wages and salaries,16738,16510,20568
+2021-01-01,BC,Groupe d'âge,25 à 34,Average annual wages and salaries,37349,44844,47154
+2021-01-01,BC,Groupe d'âge,35 à 44,Average annual wages and salaries,48974,61745,61994
+2021-01-01,BC,Groupe d'âge,45 à 54,Average annual wages and salaries,55863,69928,69485
+2021-01-01,BC,Groupe d'âge,55 à 64,Average annual wages and salaries,50983,63184,65700
 2021-01-01,BC,Groupe d'âge,65 plus,Average annual wages and salaries,32666,38345,47182
-2021-01-01,YT,Genre,Male,Average annual wages and salaries,44003,74644,72051
-2021-01-01,YT,Genre,Female,Average annual wages and salaries,44700,71365,67819
+2021-01-01,YT,Genre,Homme,Average annual wages and salaries,44003,74644,72051
+2021-01-01,YT,Genre, Femme,Average annual wages and salaries,44700,71365,67819
 2021-01-01,YT,Immigration,Immigrant,Average annual wages and salaries,NA,NA,70503
 2021-01-01,YT,Immigration,Non-immigrant,Average annual wages and salaries,NA,NA,68836
 2021-01-01,YT,Autochtones,Autochtones,Average annual wages and salaries,35187,60185,51553
 2021-01-01,YT,Autochtones,Non-Autochtones,Average annual wages and salaries,47947,75976,72547
 2021-01-01,YT,Minorités visibles,Minorités visibles,Average annual wages and salaries,37249,61806,60226
-2021-01-01,YT,Minorités visibles,Non-visible minority,Average annual wages and salaries,48341,77123,72293
-2021-01-01,YT,Éducation formelle,High school,Average annual wages and salaries,29614,58250,47124
-2021-01-01,YT,Éducation formelle,Trade certificate,Average annual wages and salaries,NA,NA,48471
-2021-01-01,YT,Éducation formelle,College diploma,Average annual wages and salaries,45197,77571,73837
-2021-01-01,YT,Éducation formelle,University,Average annual wages and salaries,NA,NA,77238
-2021-01-01,YT,Groupe d'âge,15 to 24,Average annual wages and salaries,NA,NA,32218
-2021-01-01,YT,Groupe d'âge,25 to 34,Average annual wages and salaries,39150,70478,61812
-2021-01-01,YT,Groupe d'âge,35 to 44,Average annual wages and salaries,61224,94217,80618
-2021-01-01,YT,Groupe d'âge,45 to 54,Average annual wages and salaries,62541,96588,80399
-2021-01-01,YT,Groupe d'âge,55 to 64,Average annual wages and salaries,46500,79150,83315
+2021-01-01,YT,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,48341,77123,72293
+2021-01-01,YT,Éducation formelle,Secondaire,Average annual wages and salaries,29614,58250,47124
+2021-01-01,YT,Éducation formelle,Certificat de métier,Average annual wages and salaries,NA,NA,48471
+2021-01-01,YT,Éducation formelle,Diplôme collégial,Average annual wages and salaries,45197,77571,73837
+2021-01-01,YT,Éducation formelle,Université,Average annual wages and salaries,NA,NA,77238
+2021-01-01,YT,Groupe d'âge,15 à 24,Average annual wages and salaries,NA,NA,32218
+2021-01-01,YT,Groupe d'âge,25 à 34,Average annual wages and salaries,39150,70478,61812
+2021-01-01,YT,Groupe d'âge,35 à 44,Average annual wages and salaries,61224,94217,80618
+2021-01-01,YT,Groupe d'âge,45 à 54,Average annual wages and salaries,62541,96588,80399
+2021-01-01,YT,Groupe d'âge,55 à 64,Average annual wages and salaries,46500,79150,83315
 2021-01-01,YT,Groupe d'âge,65 plus,Average annual wages and salaries,NA,NA,25978
-2021-01-01,NT,Genre,Male,Average annual wages and salaries,43156,64872,81446
-2021-01-01,NT,Genre,Female,Average annual wages and salaries,41587,57436,72665
+2021-01-01,NT,Genre,Homme,Average annual wages and salaries,43156,64872,81446
+2021-01-01,NT,Genre, Femme,Average annual wages and salaries,41587,57436,72665
 2021-01-01,NT,Immigration,Immigrant,Average annual wages and salaries,52892,68458,84143
 2021-01-01,NT,Immigration,Non-immigrant,Average annual wages and salaries,40894,59971,73422
 2021-01-01,NT,Autochtones,Autochtones,Average annual wages and salaries,33355,46485,50634
 2021-01-01,NT,Autochtones,Non-Autochtones,Average annual wages and salaries,54391,76628,92069
 2021-01-01,NT,Minorités visibles,Minorités visibles,Average annual wages and salaries,35562,49825,57688
-2021-01-01,NT,Minorités visibles,Non-visible minority,Average annual wages and salaries,55605,78933,95917
-2021-01-01,NT,Éducation formelle,High school,Average annual wages and salaries,26608,44158,40405
-2021-01-01,NT,Éducation formelle,Trade certificate,Average annual wages and salaries,39956,67923,50540
-2021-01-01,NT,Éducation formelle,College diploma,Average annual wages and salaries,54877,76265,70440
-2021-01-01,NT,Éducation formelle,University,Average annual wages and salaries,63777,79755,108209
-2021-01-01,NT,Groupe d'âge,15 to 24,Average annual wages and salaries,NA,NA,33919
-2021-01-01,NT,Groupe d'âge,25 to 34,Average annual wages and salaries,34218,49224,65566
-2021-01-01,NT,Groupe d'âge,35 to 44,Average annual wages and salaries,52730,74073,88148
-2021-01-01,NT,Groupe d'âge,45 to 54,Average annual wages and salaries,60952,80667,84676
-2021-01-01,NT,Groupe d'âge,55 to 64,Average annual wages and salaries,53364,78290,87624
+2021-01-01,NT,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,55605,78933,95917
+2021-01-01,NT,Éducation formelle,Secondaire,Average annual wages and salaries,26608,44158,40405
+2021-01-01,NT,Éducation formelle,Certificat de métier,Average annual wages and salaries,39956,67923,50540
+2021-01-01,NT,Éducation formelle,Diplôme collégial,Average annual wages and salaries,54877,76265,70440
+2021-01-01,NT,Éducation formelle,Université,Average annual wages and salaries,63777,79755,108209
+2021-01-01,NT,Groupe d'âge,15 à 24,Average annual wages and salaries,NA,NA,33919
+2021-01-01,NT,Groupe d'âge,25 à 34,Average annual wages and salaries,34218,49224,65566
+2021-01-01,NT,Groupe d'âge,35 à 44,Average annual wages and salaries,52730,74073,88148
+2021-01-01,NT,Groupe d'âge,45 à 54,Average annual wages and salaries,60952,80667,84676
+2021-01-01,NT,Groupe d'âge,55 à 64,Average annual wages and salaries,53364,78290,87624
 2021-01-01,NT,Groupe d'âge,65 plus,Average annual wages and salaries,NA,NA,67955
-2021-01-01,NU,Genre,Male,Average annual wages and salaries,79648,90021,95273
-2021-01-01,NU,Genre,Female,Average annual wages and salaries,67302,86432,81048
+2021-01-01,NU,Genre,Homme,Average annual wages and salaries,79648,90021,95273
+2021-01-01,NU,Genre, Femme,Average annual wages and salaries,67302,86432,81048
 2021-01-01,NU,Immigration,Immigrant,Average annual wages and salaries,NA,NA,98074
 2021-01-01,NU,Immigration,Non-immigrant,Average annual wages and salaries,NA,NA,85472
 2021-01-01,NU,Autochtones,Autochtones,Average annual wages and salaries,63575,78090,76306
 2021-01-01,NU,Autochtones,Non-Autochtones,Average annual wages and salaries,102389,115680,108757
 2021-01-01,NU,Minorités visibles,Minorités visibles,Average annual wages and salaries,64340,78639,78369
-2021-01-01,NU,Minorités visibles,Non-visible minority,Average annual wages and salaries,112072,123100,112102
-2021-01-01,NU,Éducation formelle,High school,Average annual wages and salaries,55657,73020,60320
-2021-01-01,NU,Éducation formelle,Trade certificate,Average annual wages and salaries,NA,NA,71273
-2021-01-01,NU,Éducation formelle,College diploma,Average annual wages and salaries,85347,100421,95444
-2021-01-01,NU,Éducation formelle,University,Average annual wages and salaries,NA,NA,114811
-2021-01-01,NU,Groupe d'âge,15 to 24,Average annual wages and salaries,NA,NA,28917
-2021-01-01,NU,Groupe d'âge,25 to 34,Average annual wages and salaries,51010,75429,66439
-2021-01-01,NU,Groupe d'âge,35 to 44,Average annual wages and salaries,84207,95714,92069
-2021-01-01,NU,Groupe d'âge,45 to 54,Average annual wages and salaries,90774,103167,103580
-2021-01-01,NU,Groupe d'âge,55 to 64,Average annual wages and salaries,117948,133071,101380
+2021-01-01,NU,Minorités visibles,Minorité non-visible ,Average annual wages and salaries,112072,123100,112102
+2021-01-01,NU,Éducation formelle,Secondaire,Average annual wages and salaries,55657,73020,60320
+2021-01-01,NU,Éducation formelle,Certificat de métier,Average annual wages and salaries,NA,NA,71273
+2021-01-01,NU,Éducation formelle,Diplôme collégial,Average annual wages and salaries,85347,100421,95444
+2021-01-01,NU,Éducation formelle,Université,Average annual wages and salaries,NA,NA,114811
+2021-01-01,NU,Groupe d'âge,15 à 24,Average annual wages and salaries,NA,NA,28917
+2021-01-01,NU,Groupe d'âge,25 à 34,Average annual wages and salaries,51010,75429,66439
+2021-01-01,NU,Groupe d'âge,35 à 44,Average annual wages and salaries,84207,95714,92069
+2021-01-01,NU,Groupe d'âge,45 à 54,Average annual wages and salaries,90774,103167,103580
+2021-01-01,NU,Groupe d'âge,55 à 64,Average annual wages and salaries,117948,133071,101380
 2021-01-01,NU,Groupe d'âge,65 plus,Average annual wages and salaries,NA,NA,74037

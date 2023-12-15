@@ -82,7 +82,7 @@ layout = html.Div([
                            '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Span('''
-                    dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions communautaires à but non lucratif. Comparativement aux institutions gouvernementales à but non lucratif, les organismes du sous-secteur de base ont tendance à dépendre davantage des bénévoles pour réaliser leur mission.
+                    dont le ratio est d’environ 3:1 entre les organismes communautaires et les institutions commerciales à but non lucratif. Comparativement aux institutions gouvernementales à but non lucratif, les organismes du sous-secteur de base ont tendance à dépendre davantage des bénévoles pour réaliser leur mission.
                     ''', className='mt-4'),
                     html.Br(),
                     html.Br(),
@@ -101,13 +101,13 @@ layout = html.Div([
                 [
                     html.H3('Tendances relatives au personnel rémunéré par type d’organisme à but non lucratif et par sous-secteur'),
                     dcc.Markdown('''
-                    De 2007 à 2009, l’emploi dans les organismes communautaires, les institutions communautaires à but non lucratif et les institutions gouvernementales à but non lucratif a augmenté à peu près au même rythme. Depuis 2009, l’emploi dans le sous-secteur de base (surtout dans les institutions communautaires à but non lucratif) a augmenté plus rapidement que dans les institutions gouvernementales à but non lucratif. En 2021, l’emploi dans les institutions communautaires à but non lucratif avait augmenté d’environ un tiers. Dans les organismes communautaires, il avait augmenté d’environ un quart depuis 2007, alors que l’emploi dans les institutions gouvernementales à but non lucratif avait augmenté d’un peu moins d’un cinquième.
+                    De 2007 à 2009, l’emploi dans les organismes communautaires, les institutions commerciales à but non lucratif et les institutions gouvernementales à but non lucratif a augmenté à peu près au même rythme. Depuis 2009, l’emploi dans le sous-secteur de base (surtout dans les institutions commerciales à but non lucratif) a augmenté plus rapidement que dans les institutions gouvernementales à but non lucratif. En 2021, l’emploi dans les institutions commerciales à but non lucratif avait augmenté d’environ un tiers. Dans les organismes communautaires, il avait augmenté d’environ un quart depuis 2007, alors que l’emploi dans les institutions gouvernementales à but non lucratif avait augmenté d’un peu moins d’un cinquième.
                     ''', className='mt-4'),
                     html.Span('''
-                    Les différences de croissance entre les institutions de base et gouvernementales auraient probablement été plus importantes, mais la pandémie a fait chuter l’emploi au sein des organismes communautaires et des institutions communautaires à but non lucratif, davantage que dans les institutions gouvernementales à but non lucratif. En général, l’emploi dans les organismes communautaires et les institutions communautaires à but non lucratif a reculé d’environ 12 % en 2020, alors que l’emploi au sein des institutions gouvernementales à but non lucratif n’a chuté que légèrement.[^3] Bien que l’emploi au sein du sous-secteur de base se soit considérablement rétabli en 2021, il demeurait inférieur aux niveaux prépandémiques.'''),
+                    Les différences de croissance entre les institutions de base et gouvernementales auraient probablement été plus importantes, mais la pandémie a fait chuter l’emploi au sein des organismes communautaires et des institutions commerciales à but non lucratif, davantage que dans les institutions gouvernementales à but non lucratif. En général, l’emploi dans les organismes communautaires et les institutions commerciales à but non lucratif a reculé d’environ 12 % en 2020, alors que l’emploi au sein des institutions gouvernementales à but non lucratif n’a chuté que légèrement. '''),
                     html.Sup(html.A('3', href='#footnote3', id="ref3")),
                     html.Span('''
-                                 Il est à noter qu’il s’agit là de données annuelles. Les niveaux d’emploi ont chuté beaucoup plus immédiatement après la pandémie, mais ils étaient partiellement rétablis avant la fin de l’année.
+                    Bien que l’emploi au sein du sous-secteur de base se soit considérablement rétabli en 2021, il demeurait inférieur aux niveaux prépandémiques.
                     '''),
                     # TODO: Add footnote
                     # Nonrpofit employemnt by sub-sector, 2021
@@ -119,9 +119,12 @@ layout = html.Div([
             html.Div(
                 [
                     html.H3('Personnel rémunéré par secteur d’activités'),
+                    html.Span('''
+                    À l’échelle nationale, les organismes des domaines de la santé, de l’éducation, de la recherche et des services sociaux représentent les plus grandes proportions d’emploi.
+                              '''),
                     html.Sup(html.A('4', href='#footnote4', id="ref4")),
                     html.Span('''
-                    À l’échelle nationale, les organismes des domaines de la santé, de l’éducation, de la recherche et des services sociaux représentent les plus grandes proportions d’emploi.[^4] Deux tiers de l’emploi du sous-secteur gouvernemental reviennent aux organismes de santé, un peu plus d’un quart appartient aux organismes d’éducation et de recherche, et le reste revient aux organismes de services sociaux. La majeure partie des employés du secteur sans but lucratif qui travaillent pour des organismes de santé, d’éducation et de recherche le font au sein d’institutions gouvernementales à but non lucratif, alors que la majorité des employés qui travaillent pour des organismes de services sociaux le font au sein d’organismes du sous-secteur de base (surtout les organismes communautaires à but non lucratif). 
+                    Deux tiers de l’emploi du sous-secteur gouvernemental reviennent aux organismes de santé, un peu plus d’un quart appartient aux organismes d’éducation et de recherche, et le reste revient aux organismes de services sociaux. La majeure partie des employés du secteur sans but lucratif qui travaillent pour des organismes de santé, d’éducation et de recherche le font au sein d’institutions gouvernementales à but non lucratif, alors que la majorité des employés qui travaillent pour des organismes de services sociaux le font au sein d’organismes du sous-secteur de base (surtout les organismes communautaires à but non lucratif). 
                     ''', className='mt-4'),
                     dcc.Markdown('''
                     En ce qui concerne le sous-secteur de base, la plus grande proportion d’employés revient aux organismes de services sociaux, suivis des institutions commerciales et professionnelles, des syndicats et des organismes des secteurs qui ne font pas partie d’un des onze autres secteurs d’activités. Les organismes environnementaux sont ceux qui comptent le moins d’employés (moins d’un demi pour cent de l’emploi total), suivis des organismes de développement international et d’aide internationale, puis des organismes des secteurs du droit, de la défense des intérêts et de la politique.
@@ -162,32 +165,32 @@ layout = html.Div([
                                 html.P(
                                     "Le Compte satellite des institutions sans but lucratif et du bénévolat de Statistique Canada (source de données utilisée pour cette histoire) divise le secteur sans but lucratif en trois catégories :"),
                                 html.P([html.B("Organismes communautaires à but non lucratif."), " Ces organismes sont indépendants du gouvernement et produisent des biens et des services sans frais, ou à des prix économiquement non significatifs (c’est-à-dire que les prix demandés influencent peu les quantités de biens ou de services produites ou achetées par les consommateurs). Les biens et les services qu’ils produisent peuvent être consommés par des foyers (y compris des particuliers) ou par la société dans son ensemble. Ils comprennent, par exemple, les organismes de services à la personne, tels que les banques alimentaires, les refuges, les groupes jeunesse, les lieux de culte, les organismes de défense et les clubs de service."]),
-                                html.P([html.B("Institutions communautaires à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
+                                html.P([html.B("institutions commerciales à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
                                 html.P([html.B("Institutions gouvernementales à but non lucratif."), " Ces institutions sont semblables aux organismes communautaires à but non lucratif en ce sens qu’elles produisent des biens et des services à des prix économiquement non significatifs. La principale différence réside dans le fait qu’elles sont grandement influencées par le gouvernement, même si elles sont distinctes de celui-ci. Elles comprennent, par exemple, les hôpitaux, certains établissements de soins pour bénéficiaires internes, les universités et les collèges."]),
                                 html.P(
                                     [
-                                        "Les organismes et les institutions communautaires à but non lucratif sont regroupés dans le",
+                                        "Les organismes et les institutions commerciales à but non lucratif sont regroupés dans le",
                                         html.Em("sous-secteur sans but lucratif de base"),
                                         "  qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
-                                            "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
+                                            "↩︎", href="#ref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
-                            ], id="fn1"),
+                            ], id="footnote1"),
                         html.Li([
                             html.P([
                                 "Lorsque l’emploi dans un sous-secteur et un secteur d’activités est arrondi à moins de mille employés, Statistique Canada déclare que le nombre d’employés est de zéro.",
                                 html.A(
                                     "↩︎",
-                                    href="#fnref2",
+                                    href="#ref2",
                                     className="footnote-back",
                                     role="doc-backlink")
                             ], id="fn2")
-                        ], id="fn2"),
+                        ], id="footnote2"),
                         html.Li([
                             html.P([
-                                "Note that these are annual figures. Employment levels dropped much more in the immediate aftermath of the pandemic but partially recovered before the end of the year.", html.A("↩︎", href="#fnref3", className="footnote-back", role="doc-backlink")])
-                        ], id="fn3"),
+                                "Il est à noter qu’il s’agit là de données annuelles. Les niveaux d’emploi ont chuté beaucoup plus immédiatement après la pandémie, mais ils étaient partiellement rétablis avant la fin de l’année.", html.A("↩︎", href="#ref3", className="footnote-back", role="doc-backlink")])
+                        ], id="footnote3"),
                         html.Li([
                             html.P("Outre le fait de diviser les organismes par type et par sous-secteur, le Compte satellite classe les organismes dans l’un des douze groupes suivants selon leur activité principale :"),
                             html.P(
@@ -239,10 +242,10 @@ layout = html.Div([
                                     " -  organismes qui ne font pas partie de ces secteurs d’activités.",
                                     html.A(
                                         "↩︎",
-                                        href="#fnref4",
+                                        href="#ref4",
                                         className="footnote-back",
                                         role="doc-backlink")])
-                        ], id="fn4")
+                        ], id="footnote4")
                     ])
                 ],
             )

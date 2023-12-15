@@ -33,7 +33,7 @@ def register_callbacks(app):
                     color="#7A4A89", dash="solid")}, 'valNormP_CommNPOs': {
                 'name': "Organismes communautaires à but non lucratif", 'line_dict': dict(
                     color="#c8102e", dash="dash")}, 'valNormP_BusNPOs': {
-                        'name': "Institutions communautaires à but non lucratif", 'line_dict': dict(
+                        'name': "institutions commerciales à but non lucratif", 'line_dict': dict(
                             color="#c8102e", dash="dot")}, 'valNormP_GovNPOs': {
                                 'name': "Institutions gouvernementales à but non lucratif", 'line_dict': dict(
                                     color="#7BAFD4", dash="dash")}}
@@ -72,17 +72,17 @@ def register_callbacks(app):
                                                        'line_dict': dict(color="#c8102e", dash="solid")},
                           'valNormP_coreRev_Environment': {'name': "Environnement",
                                                            'line_dict': dict(color="#c8102e", dash="dash")},
-                          'valNormP_coreRev_DevtHousing': {'name': "Devt. & housing",
+                          'valNormP_coreRev_DevtHousing': {'name': "Dévt. et logement",
                                                            'line_dict': dict(color="#c8102e", dash="dot")},
                           'valNormP_coreRev_Advocacy': {'name': "Défense des intérêts",
                                                         'line_dict': dict(color="#7BAFD4", dash="solid")},
                           'valNormP_coreRev_Religion': {'name': "Religion",
                                                         'line_dict': dict(color="#7BAFD4", dash="dash")},
-                          'valNormP_coreRev_Fdns': {'name': "Philanthropic<br>intermediaries",
+                          'valNormP_coreRev_Fdns': {'name': "Intermédiaires<br>philanthropiques",
                                                     'line_dict': dict(color="#7BAFD4", dash="dot")},
                           'valNormP_coreRev_International': {'name': "International",
                                                              'line_dict': dict(color="#50a684", dash="solid")},
-                          'valNormP_coreRev_ProfAssoc': {'name': "Professional<br>associations",
+                          'valNormP_coreRev_ProfAssoc': {'name': "Associations<br>professionnelles",
                                                          'line_dict': dict(color="#50a684", dash="dash")},
                           'valNormP_coreRev_Other': {'name': "Autre",
                                                      'line_dict': dict(color="#50a684", dash="dot")}}

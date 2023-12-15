@@ -79,13 +79,13 @@ layout = html.Div([
                 [
                     html.H3('Introduction'),
                     html.Span('''
-Globalement, le secteur à but non lucratif canadien a accumulé un peu plus de 325 milliards de dollars en 2021, soit la dernière année pour laquelle des données sont disponibles. À l’échelle nationale, un peu plus des trois cinquièmes du total des revenus ont été attribuées aux institutions gouvernementales à but non lucratif (hôpitaux, certains établissements de soins pour bénéficiaires internes, universités et collèges) et deux cinquièmes reviennent aux organismes du sous-secteur de base. Le ratio est d’environ 3:2 entre les organismes communautaires et les institutions communautaires à but non lucratif.
+Globalement, le secteur à but non lucratif canadien a accumulé un peu plus de 325 milliards de dollars en 2021, soit la dernière année pour laquelle des données sont disponibles. À l’échelle nationale, un peu plus des trois cinquièmes du total des revenus ont été attribuées aux institutions gouvernementales à but non lucratif (hôpitaux, certains établissements de soins pour bénéficiaires internes, universités et collèges) et deux cinquièmes reviennent aux organismes du sous-secteur de base. Le ratio est d’environ 3:2 entre les organismes communautaires et les institutions commerciales à but non lucratif.
                            '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Br(),
                     html.Br(),
                     html.Span('''
-Bien que la distribution relative des revenus par type d’organisme à but non lucratif et par sous-secteur soit plutôt constante entre les provinces et les territoires, il existe certaines variations. Par exemple, les institutions gouvernementales à but non lucratif représentent un pourcentage supérieur des revenus totaux à l’Île-du-Prince-Édouard et à Terre-Neuve-et-Labrador, mais leur rôle est nettement moins important au Nunavut, seule région où elles représentent une minorité des revenus du secteur sans but lucratif. De même, les organismes communautaires à but non lucratif enregistrent constamment des revenus plus élevés que les institutions communautaires à but non lucratif, sauf au Nouveau-Brunswick et à Terre-Neuve-et-Labrador.
+Bien que la distribution relative des revenus par type d’organisme à but non lucratif et par sous-secteur soit plutôt constante entre les provinces et les territoires, il existe certaines variations. Par exemple, les institutions gouvernementales à but non lucratif représentent un pourcentage supérieur des revenus totaux à l’Île-du-Prince-Édouard et à Terre-Neuve-et-Labrador, mais leur rôle est nettement moins important au Nunavut, seule région où elles représentent une minorité des revenus du secteur sans but lucratif. De même, les organismes communautaires à but non lucratif enregistrent constamment des revenus plus élevés que les institutions commerciales à but non lucratif, sauf au Nouveau-Brunswick et à Terre-Neuve-et-Labrador.
                     ''', className='mt-4'),
                     # TODO: Add footnote
                     # Nonprofit revenue by sub sector
@@ -98,7 +98,7 @@ Bien que la distribution relative des revenus par type d’organisme à but non 
                 [
                     html.H3('Tendances des revenus par type d’organisme à but non lucratif et par sous-secteur'),
                     dcc.Markdown('''
-Depuis 2007, les revenus du secteur sans but lucratif ont augmenté d’environ 80 % en termes nominaux (c’est-à-dire non ajustés selon les effets de l’inflation). Les revenus des institutions communautaires à but non lucratif sont ceux qui ont le plus augmenté (près de 95 %), suivis des revenus des organismes communautaires et des institutions gouvernementales à but non lucratif (environ 80 % dans les deux cas). Bien que les revenus des institutions communautaires à but non lucratif soient ceux qui ont le plus augmenté, ils étaient également les plus volatiles. Ils ont effectivement augmenté plus rapidement que ceux des autres sous-secteurs entre 2007 et 2009, mais ont considérablement diminué en 2014, et encore plus modestement en 2020 en raison de la pandémie. Quant aux revenus des organismes communautaires à but non lucratif, ils étaient inférieurs à ceux des institutions gouvernementales à but non lucratif entre 2010 et 2017, mais ont dépassé ceux-ci de 2017 à 2020.
+Depuis 2007, les revenus du secteur sans but lucratif ont augmenté d’environ 80 % en termes nominaux (c’est-à-dire non ajustés selon les effets de l’inflation). Les revenus des institutions commerciales à but non lucratif sont ceux qui ont le plus augmenté (près de 95 %), suivis des revenus des organismes communautaires et des institutions gouvernementales à but non lucratif (environ 80 % dans les deux cas). Bien que les revenus des institutions commerciales à but non lucratif soient ceux qui ont le plus augmenté, ils étaient également les plus volatiles. Ils ont effectivement augmenté plus rapidement que ceux des autres sous-secteurs entre 2007 et 2009, mais ont considérablement diminué en 2014, et encore plus modestement en 2020 en raison de la pandémie. Quant aux revenus des organismes communautaires à but non lucratif, ils étaient inférieurs à ceux des institutions gouvernementales à but non lucratif entre 2010 et 2017, mais ont dépassé ceux-ci de 2017 à 2020.
                     ''', className='mt-4'),
                     # Relative growth of revenues by sub secotr
                     dcc.Graph(
@@ -151,7 +151,7 @@ Quant au sous-secteur gouvernemental, les revenus associés aux services de sant
                 [
                     html.H3('Sources de revenus'),
                     dcc.Markdown('''
-Chaque sous-secteur dépend d’une combinaison de sources de revenus. Comme on peut s’y attendre étant donné la façon dont les sous-secteurs sont définis, les institutions communautaires à but non lucratif dépendent grandement des revenus gagnés. En effet, la vente de biens et de services représente environ trois cinquièmes des revenus totaux au niveau national. Quant aux frais d’adhésion et aux cotisations, ils représentent un tiers des revenus totaux. En ce qui a trait aux organismes gouvernementaux à but non lucratif, environ trois quarts de leurs revenus proviennent du financement gouvernemental, et environ un cinquième est associé à la vente de biens et de services. Enfin, les organismes communautaires à but non lucratif ont les sources de revenus les plus variées. La majorité provient des revenus gagnés, surtout de la vente de biens et de services. S’ensuivent les frais d’adhésion, les cotisations et les investissements. Un peu plus du tiers provient du financement gouvernemental et un peu moins du tiers provient de dons de particuliers ou d’entreprises.
+Chaque sous-secteur dépend d’une combinaison de sources de revenus. Comme on peut s’y attendre étant donné la façon dont les sous-secteurs sont définis, les institutions commerciales à but non lucratif dépendent grandement des revenus gagnés. En effet, la vente de biens et de services représente environ trois cinquièmes des revenus totaux au niveau national. Quant aux frais d’adhésion et aux cotisations, ils représentent un tiers des revenus totaux. En ce qui a trait aux organismes gouvernementaux à but non lucratif, environ trois quarts de leurs revenus proviennent du financement gouvernemental, et environ un cinquième est associé à la vente de biens et de services. Enfin, les organismes communautaires à but non lucratif ont les sources de revenus les plus variées. La majorité provient des revenus gagnés, surtout de la vente de biens et de services. S’ensuivent les frais d’adhésion, les cotisations et les investissements. Un peu plus du tiers provient du financement gouvernemental et un peu moins du tiers provient de dons de particuliers ou d’entreprises.
                     ''', className='mt-4'),
                     # TODO: Add footnote
                     # Revenues by source and subsector
@@ -188,18 +188,18 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                 html.P(
                                     "Le Compte satellite des institutions sans but lucratif et du bénévolat de Statistique Canada (source de données utilisée pour cette histoire) divise le secteur sans but lucratif en trois catégories :"),
                                 html.P([html.B("Organismes communautaires à but non lucratif."), " Ces organismes sont indépendants du gouvernement et produisent des biens et des services sans frais, ou à des prix économiquement non significatifs (c’est-à-dire que les prix demandés influencent peu les quantités de biens ou de services produites ou achetées par les consommateurs). Les biens et les services qu’ils produisent peuvent être consommés par des foyers (y compris des particuliers) ou par la société dans son ensemble. Ils comprennent, par exemple, les organismes de services à la personne, tels que les banques alimentaires, les refuges, les groupes jeunesse, les lieux de culte, les organismes de défense et les clubs de service."]),
-                                html.P([html.B("Institutions communautaires à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
+                                html.P([html.B("institutions commerciales à but non lucratif."), "À l’instar des organismes communautaires à but non lucratif, ces institutions sont indépendantes du gouvernement. Toutefois, elles produisent des biens et des services destinés aux foyers ou à la société à des prix économiquement significatifs (c’est-à-dire qu’ils ont pour activité la production marchande), ou encore elles produisent des biens et des services destinés aux entreprises ou à d’autres organismes à but non lucratif. Elles comprennent, par exemple, les associations d’affaires, les chambres de commerce et les associations de copropriétaires (condominiums)."]),
                                 html.P([html.B("Institutions gouvernementales à but non lucratif."), " Ces institutions sont semblables aux organismes communautaires à but non lucratif en ce sens qu’elles produisent des biens et des services à des prix économiquement non significatifs. La principale différence réside dans le fait qu’elles sont grandement influencées par le gouvernement, même si elles sont distinctes de celui-ci. Elles comprennent, par exemple, les hôpitaux, certains établissements de soins pour bénéficiaires internes, les universités et les collèges."]),
                                 html.P(
                                     [
-                                        "Les organismes et les institutions communautaires à but non lucratif sont regroupés dans le",
+                                        "Les organismes et les institutions commerciales à but non lucratif sont regroupés dans le",
                                         html.Em("sous-secteur sans but lucratif de base"),
                                         "  qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
-                                            "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
+                                            "↩︎", href="#ref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
-                            ], id="fn1"),
+                            ], id="footnote1"),
                         html.Li([
                             html.P("Outre le fait de diviser les organismes par type et par sous-secteur, le Compte satellite classe les organismes dans l’un des douze groupes suivants selon leur activité principale :"),
                             html.P(
@@ -251,10 +251,10 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                     " -  organismes qui ne font pas partie de ces secteurs d’activités.",
                                     html.A(
                                         "↩︎",
-                                        href="#fnref2",
+                                        href="#ref2",
                                         className="footnote-back",
                                         role="doc-backlink")])
-                        ], id="fn2")
+                        ], id="footnote2")
                     ])
                 ],
             )

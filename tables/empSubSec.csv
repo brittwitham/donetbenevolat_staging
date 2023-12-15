@@ -1,46 +1,46 @@
 geo,subSector,coreStatus,valNorm,valNormP
-AB,Institutions communautaires à but non lucratif,Sous-secteur de base,19000,0.06666666666666667
+AB,institutions commerciales à but non lucratif,Sous-secteur de base,19000,0.06666666666666667
 AB,Organismes communautaires à but non lucratif,Sous-secteur de base,61000,0.21403508771929824
 AB,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,205000,0.7192982456140351
-BC,Institutions communautaires à but non lucratif,Sous-secteur de base,33000,0.09821428571428571
+BC,institutions commerciales à but non lucratif,Sous-secteur de base,33000,0.09821428571428571
 BC,Organismes communautaires à but non lucratif,Sous-secteur de base,87000,0.25892857142857145
 BC,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,216000,0.6428571428571429
-CA,Institutions communautaires à but non lucratif,Sous-secteur de base,205000,0.08144616607071911
+CA,institutions commerciales à but non lucratif,Sous-secteur de base,205000,0.08144616607071911
 CA,Organismes communautaires à but non lucratif,Sous-secteur de base,630000,0.25029797377830754
 CA,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,1682000,0.6682558601509734
-INT,Institutions communautaires à but non lucratif,Sous-secteur de base,0,NA
+INT,institutions commerciales à but non lucratif,Sous-secteur de base,0,NA
 INT,Organismes communautaires à but non lucratif,Sous-secteur de base,0,NA
 INT,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,0,NA
-MB,Institutions communautaires à but non lucratif,Sous-secteur de base,6000,0.05357142857142857
+MB,institutions commerciales à but non lucratif,Sous-secteur de base,6000,0.05357142857142857
 MB,Organismes communautaires à but non lucratif,Sous-secteur de base,29000,0.25892857142857145
 MB,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,77000,0.6875
-NB,Institutions communautaires à but non lucratif,Sous-secteur de base,3000,0.05454545454545454
+NB,institutions commerciales à but non lucratif,Sous-secteur de base,3000,0.05454545454545454
 NB,Organismes communautaires à but non lucratif,Sous-secteur de base,11000,0.2
 NB,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,41000,0.7454545454545455
-NL,Institutions communautaires à but non lucratif,Sous-secteur de base,2000,0.047619047619047616
+NL,institutions commerciales à but non lucratif,Sous-secteur de base,2000,0.047619047619047616
 NL,Organismes communautaires à but non lucratif,Sous-secteur de base,6000,0.14285714285714285
 NL,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,34000,0.8095238095238095
-NS,Institutions communautaires à but non lucratif,Sous-secteur de base,5000,0.05952380952380952
+NS,institutions commerciales à but non lucratif,Sous-secteur de base,5000,0.05952380952380952
 NS,Organismes communautaires à but non lucratif,Sous-secteur de base,18000,0.21428571428571427
 NS,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,61000,0.7261904761904762
-NT,Institutions communautaires à but non lucratif,Sous-secteur de base,0,0
+NT,institutions commerciales à but non lucratif,Sous-secteur de base,0,0
 NT,Organismes communautaires à but non lucratif,Sous-secteur de base,1000,0.2
 NT,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,4000,0.8
-NU,Institutions communautaires à but non lucratif,Sous-secteur de base,0,0
+NU,institutions commerciales à but non lucratif,Sous-secteur de base,0,0
 NU,Organismes communautaires à but non lucratif,Sous-secteur de base,1000,1
 NU,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,0,0
-ON,Institutions communautaires à but non lucratif,Sous-secteur de base,80000,0.09501187648456057
+ON,institutions commerciales à but non lucratif,Sous-secteur de base,80000,0.09501187648456057
 ON,Organismes communautaires à but non lucratif,Sous-secteur de base,245000,0.29097387173396677
 ON,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,517000,0.6140142517814727
-PE,Institutions communautaires à but non lucratif,Sous-secteur de base,1000,0.058823529411764705
+PE,institutions commerciales à but non lucratif,Sous-secteur de base,1000,0.058823529411764705
 PE,Organismes communautaires à but non lucratif,Sous-secteur de base,3000,0.17647058823529413
 PE,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,13000,0.7647058823529411
-QC,Institutions communautaires à but non lucratif,Sous-secteur de base,50000,0.078125
+QC,institutions commerciales à but non lucratif,Sous-secteur de base,50000,0.078125
 QC,Organismes communautaires à but non lucratif,Sous-secteur de base,148000,0.23125
 QC,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,442000,0.690625
-SK,Institutions communautaires à but non lucratif,Sous-secteur de base,5000,0.05263157894736842
+SK,institutions commerciales à but non lucratif,Sous-secteur de base,5000,0.05263157894736842
 SK,Organismes communautaires à but non lucratif,Sous-secteur de base,19000,0.2
 SK,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,71000,0.7473684210526316
-YT,Institutions communautaires à but non lucratif,Sous-secteur de base,0,0
+YT,institutions commerciales à but non lucratif,Sous-secteur de base,0,0
 YT,Organismes communautaires à but non lucratif,Sous-secteur de base,1000,0.5
 YT,Institutions gouvernementales à but non lucratif,Gouvernement sub-sector,1000,0.5

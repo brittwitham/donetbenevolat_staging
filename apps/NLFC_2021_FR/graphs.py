@@ -161,7 +161,7 @@ def EmpDemog(df, title, jobs=True):
             go.Bar(
                 x=["<br>".join(textwrap.wrap(label, width=15)) for label in df['characteristics']],
                 y=df[var2],
-                name="Institutions communautaires à but non lucratif",
+                name="institutions commerciales à but non lucratif",
                 marker=dict(
                     color='#9ac1dd'),
                 text=df[var2]*100,
@@ -217,7 +217,7 @@ def EmpDemog(df, title, jobs=True):
             go.Bar(
                 x=["<br>".join(textwrap.wrap(label, width=15)) for label in df['characteristics']],
                 y=df[var2],
-                name="Institutions communautaires à but non lucratif",
+                name="institutions commerciales à but non lucratif",
                 marker=dict(
                     color='#9ac1dd'),
                 text=df[var2],

@@ -4,7 +4,7 @@ EN,FR,INTERNAL - Story,INTERNAL - Viz,INTERNAL - Feature,INTERNAL - Notes
 "Relative growth of revenues by sub-sector, 2007 to 2021 - CA - (2007 = 1.0) / Note: Hover over line for absolute values","Croissance relative des revenus par sous-secteur, de 2007 à 2021 - CA (2007 = 1,0) / Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues.",Revenues,revGrowth,Title,
 All nonprofits,Tous les organismes à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 Community nonprofits,Organismes communautaires à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
-Business nonprofits,Institutions communautaires à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
+Business nonprofits,institutions commerciales à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 Government nonprofits,Institutions gouvernementales à but non lucratif,GDP,"revGrowth, gdpGrowth, empGrowth",Trace label,
 "Percentage of nonprofit revenues by sub-sector and activity area, 2021  - CA / Note: Hover over bar for absolute values","Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021 - CA / Remarque : placer le curseur sur la barre pour connaître les valeurs absolues.",Revenues,revGrowthActivity_core,Title,
 Sports & recreation,Sports et loisirs,Revenues,"revGrowthActivity_core, empGrowthActivity_core",Trace label,Rec. = Recreation
@@ -66,7 +66,7 @@ Nonprofit employment by sub-sector,Emploi dans les organismes à but non lucrati
 Percentage of nonprofit employment by sub-sector and activity area,Pourcentage de l'emploi dans les organismes à but non lucratif par sous-secteur et par secteur d'activités
 Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
 "Business & professional associations, unions","Associations d'affaires et professionnelles, syndicats"
-"Culture, sport & recreation","Cultur, sports et loisirs"
+"Culture, sports & recreation","Cultur, sports et loisirs"
 "Law, advocacy & politics","Loi, défense des intérêts & politique"
 "Relative growth of revenues by sub-sector","Croissance relative des revenus par sous-secteur",Revenues,revGrowth,Title,
 "Percentage of nonprofit revenues by sub-sector and activity area","Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités",Revenues,revGrowthActivity_core,Title,
@@ -82,3 +82,26 @@ Relative growth of employment by sub-sector,Croissance relative de l'emploi par 
 Percentage and amount of nonprofit GDP by sub-sector,Pourcentage et montant du PIB des organismes à but non lucratif par sous-secteur,GDP,gdpSubSec,Title,
 "Relative growth of nominal GDP by sub-sector","Croissance relative du PIB nominal par sous-secteur",GDP,gdpGrowth,Trace label,
 Percentage of nonprofit GDP by sub-sector and activity area,Pourcentage du PIB des organismes à but non lucratif par sous-secteur et par secteur d'activités,GDP,gdpSubSecActivity,Title,
+Culture, Cultur
+Devt. & housing,Dévt. et logement,Revenues,"revGrowthActivity_core, empGrowthActivity_core",Trace label,Devt. = Development
+Philanthropic<br>intermediaries,Intermédiaires<br>philanthropiques,Revenues,"revGrowthActivity_core, empGrowthActivity_core",Trace label,
+Professional<br>associations,Associations<br>professionnelles,Revenues,"revGrowthActivity_core, empGrowthActivity_core",Trace label,
+voluntarism,volontariat
+Male,Homme
+Female, Femme
+Non-visible minority,Minorité non-visible 
+High school,Secondaire
+Trade certificate,Certificat de métier
+College diploma,Diplôme collégial
+University,Université
+15 to 24,15 à 24
+25 to 34,25 à 34
+35 to 44,35 à 44
+45 to 54,45 à 54
+55 to 64,55 à 64
+65 plus,65 plus
+Total<br>economy,
+All<br>nonprofits,Tous les organismes<br>à but non lucratif,
+Community<br>nonprofits,Organismes communautaires<br>à but non lucratif
+Business<br>nonprofits,institutions commerciales<br>but non lucratif,
+Gouvernement<br>nonprofits,Institutions gouvernementales<br>à but non lucratif

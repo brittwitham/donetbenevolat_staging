@@ -191,20 +191,20 @@ Au sein des institutions gouvernementales à but non lucratif, le salaire moyen 
                                             "sous-secteur sans but lucratif de base"),
                                         "  qui contraste avec le ",
                                         html.Em("sous-secteur des institutions gouvernementales à but non lucratif."), html.A(
-                                            "↩︎", href="#fnref1", className="footnote-back", role="doc-backlink")
+                                            "↩︎", href="#ref1", className="footnote-back", role="doc-backlink")
                                     ]
                                 )
-                            ], id="fn1"),
+                            ], id="footnote1"),
                         html.Li([
                             html.P([
                                 "Lorsque l’emploi dans un sous-secteur et un secteur d’activités est arrondi à moins de mille employés, Statistique Canada déclare que le nombre d’employés est de zéro.",
                                 html.A(
                                     "↩︎",
-                                    href="#fnref2",
+                                    href="#ref2",
                                     className="footnote-back",
                                     role="doc-backlink")
                             ], id="fn2")
-                        ], id="fn2"),
+                        ], id="footnote2"),
                     ])
                 ],
             )

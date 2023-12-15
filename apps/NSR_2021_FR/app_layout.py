@@ -83,6 +83,7 @@ Globalement, le secteur à but non lucratif canadien a accumulé un peu plus de 
                            '''),
                     html.Sup(html.A('1', href='#footnote1', id="ref1")),
                     html.Br(),
+                    html.Br(),
                     html.Span('''
 Bien que la distribution relative des revenus par type d’organisme à but non lucratif et par sous-secteur soit plutôt constante entre les provinces et les territoires, il existe certaines variations. Par exemple, les institutions gouvernementales à but non lucratif représentent un pourcentage supérieur des revenus totaux à l’Île-du-Prince-Édouard et à Terre-Neuve-et-Labrador, mais leur rôle est nettement moins important au Nunavut, seule région où elles représentent une minorité des revenus du secteur sans but lucratif. De même, les organismes communautaires à but non lucratif enregistrent constamment des revenus plus élevés que les institutions communautaires à but non lucratif, sauf au Nouveau-Brunswick et à Terre-Neuve-et-Labrador.
                     ''', className='mt-4'),
@@ -200,60 +201,60 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                                 )
                             ], id="fn1"),
                         html.Li([
-                            html.P("In addition to dividing organizations by type and sub-sector, the Satellite Account assigns organizations to one of 12 groups depending on their primary activity. These are:"),
+                            html.P("Outre le fait de diviser les organismes par type et par sous-secteur, le Compte satellite classe les organismes dans l’un des douze groupes suivants selon leur activité principale :"),
                             html.P(
                                 [
-                                    html.Em("Arts, culture & recreation"),
-                                    " - includes museums, visual, material and performing arts groups and facilities, media, historic and humanistic societies and sports and recreation groups."]),
+                                    html.Em("Arts, culture et loisirs"),
+                                    " - comprend les musées; les groupes et les institutions liés aux arts visuels, aux arts matériels et aux arts de la scène; les sociétés médiatiques, historiques et humanistes; et les groupes de sports et loisirs."]),
                             html.P(
                                 [
-                                    html.Em("Éducation & research"),
-                                    " - organizations dedicated to the provision and support of educational services and research. Universities and colleges are assigned to the government sub-sector."]),
+                                    html.Em("Éducation et recherche"),
+                                    " - organismes qui offrent et appuient des services d’éducation et de recherche. Les universités et les collèges font partie du sous-secteur gouvernemental."]),
                             html.P(
                                 [
                                     html.Em("Santé"),
-                                    " - organizations providing and supporting in-patient and out-patient healthcare services. Hospitals and nursing homes are assigned to the government sub-sector."]),
-                            html.P([html.Em("Services sociaux"), " - organizations providing a diverse range of non-health related human services. A minority of organizations in this activity area are assigned to the government sub-sector, depending on the degree of influence government exerts on them."]),
+                                    " - organismes qui offrent et appuient des services de santé aux patients hospitalisés et externes. Les hôpitaux et les résidences pour personnes âgées font partie du sous-secteur gouvernemental."]),
+                            html.P([html.Em("Services sociaux"), " - organismes qui proposent une grande variété de services à la personne non liés à la santé. Une minorité d’organismes de ce secteur d’activités font partie du sous-secteur gouvernemental selon l’influence que le gouvernement exerce sur eux."]),
                             html.P(
                                 [
                                     html.Em("Environnement"),
-                                    " - organizations engaged in environmental protection and conservation, including animal welfare."]),
+                                    " -  organismes engagés dans la protection et la préservation de l’environnement, y compris le bien-être des animaux."]),
                             html.P(
                                 [
                                     html.Em("Développement et logement"),
-                                    " - organizations engaged in social, community and economic development and the provision of housing."]),
+                                    " - organismes engagés dans le développement social, communautaire et économique, ainsi que l’offre de logement."]),
                             html.P(
                                 [
-                                    html.Em("Law, advocacy & politics"),
-                                    " - organizations engaged in advocacy or providing legal and related services, including offender rehabilitation."]),
+                                    html.Em("Droit, défense des intérêts et politique"),
+                                    " - organismes engagés dans la défense des intérêts ou la prestation de services juridiques et connexes, y compris la réadaptation des délinquants."]),
                             html.P(
                                 [
                                     html.Em(
-                                        "Intermédiaires philanthropiques & voluntarism"),
-                                    " - public and private foundations and organizations promoting voluntarism."]),
+                                        "Intermédiaires philanthropiques et bénévolat"),
+                                    " - fondations publiques et privées, et organismes qui promeuvent le bénévolat."]),
                             html.P(
                                 [
                                     html.Em("International"),
-                                    " - organizations engaged in international development and relief, including promotion of human rights and peace."]),
+                                    " - organismes engagés dans le développement international et l’aide internationale, y compris la promotion des droits de la personne et de la paix."]),
                             html.P(
                                 [
                                     html.Em("Religion"),
-                                    " - congregations and associations of congregations, including religious education and training."]),
+                                    " - congrégations et associations de congrégations, y compris l’éducation religieuse."]),
                             html.P(
                                 [
                                     html.Em(
-                                        "Business and professional associations & unions"),
-                                    " - organizations working to regulate and advance the interests of particular industries or groups of workers."]),
+                                        "Associations commerciales et professionnelles et syndicats"),
+                                    "- organismes qui tentent de contrôler et de faire avancer les intérêts d’industries particulières ou de groupes particuliers de travailleurs."]),
                             html.P(
                                 [
                                     html.Em("Autre"),
-                                    " - organizations not elsewhere assigned to an activity area.",
+                                    " -  organismes qui ne font pas partie de ces secteurs d’activités.",
                                     html.A(
                                         "↩︎",
-                                        href="#fnref4",
+                                        href="#fnref2",
                                         className="footnote-back",
                                         role="doc-backlink")])
-                        ], id="fn4")
+                        ], id="fn2")
                     ])
                 ],
             )

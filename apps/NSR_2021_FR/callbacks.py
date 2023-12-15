@@ -25,7 +25,7 @@ def register_callbacks(app):
 
         revGrowth['refDate'] = pd.to_datetime(revGrowth['refDate'])
 
-        title = "Relative growth of revenues by sub-sector, " + str(min(revGrowth['refDate'].dt.year)) + " to " + str(max(revGrowth['refDate'].dt.year)) + " - " + geo + " (" + str(
+        title = "Croissance relative des revenus par sous-secteur, " + str(min(revGrowth['refDate'].dt.year)) + " to " + str(max(revGrowth['refDate'].dt.year)) + " - " + geo + " (" + str(
             min(revGrowth['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {
             'valNormP_TotNPOs': {
@@ -45,7 +45,7 @@ def register_callbacks(app):
     def update_graph(geo):
         df = revSubSecActivity[revSubSecActivity['geo'] == geo]
         # TODO: Does the year need to update dynamically?
-        title = "Percentage of nonprofit revenues by sub-sector and activity area, 2021" + \
+        title = "Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021" + \
             " - " + geo + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
         vars = ('perCoreRev', 'perGovtRev')
         return SubSecActivity(df, title, vars)
@@ -60,7 +60,7 @@ def register_callbacks(app):
             revGrowthActivity['refDate'])
 
         # TODO: Does the year need to update dynamically?
-        title = "Relative growth of revenues by core activity area, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(
+        title = "Croissance relative de par secteur d'activités de base, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(
             min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {'valNormP_coreRev_Sports': {'name': "Sports & rec.",
                                                       'line_dict': dict(color="#7A4A89", dash="solid")},
@@ -98,7 +98,7 @@ def register_callbacks(app):
             revGrowthActivity['refDate'])
 
         # TODO: Does the year need to update dynamically?
-        title = "Relative growth of revenues by government activity area, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(
+        title = "Croissance relative des revenus par secteur d'activités gouvernemental, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(
             revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {
             'valNormP_govtRev_Health': {
@@ -125,6 +125,6 @@ def register_callbacks(app):
 
         df['refDate'] = pd.to_datetime(df['refDate'])
 
-        title = "Relative growth of revenue sources by sub-sector, " + str(min(df['refDate'].dt.year)) + " to " + str(max(df['refDate'].dt.year)) + " - " + geo + " (" + str(
+        title = "Croissance relative des sources de revenu par sous-secteur, " + str(min(df['refDate'].dt.year)) + " to " + str(max(df['refDate'].dt.year)) + " - " + geo + " (" + str(
             min(df['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         return GrowthSource(df, title)

@@ -14,7 +14,7 @@ _, _, _, _, revSource, revGrowthSource = get_data()
 def SubSec(df, title):
 
     df = df.loc[df['subSector'].map({"Organismes communautaires à but non lucratif": 0,
-                                     "institutions commerciales à but non lucratif": 1,
+                                     "Institutions commerciales à but non lucratif": 1,
                                      "Institutions gouvernementales à but non lucratif": 2}).sort_values().index]
 
     fig_SubSec = go.Figure()

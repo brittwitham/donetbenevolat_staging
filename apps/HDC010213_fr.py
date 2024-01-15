@@ -9,7 +9,7 @@ from utils.data.HDC0102_data_utils_13 import get_data, process_data, get_region_
 
 from app import app
 from homepage import  footer
-from utils.home_button import gen_home_button
+from .layout_utils import gen_home_button
 
 ####################### Data processing ######################
 # DonMethAvgDon_2013, DonMethDonRates_2013 = get_data()
@@ -33,7 +33,7 @@ status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 ###################### App layout ######################
 
 marginTop = 20
-home_button = gen_home_button(True, True)
+home_button = gen_home_button()
 navbar = gen_navbar("how_do_canadians_donate_2013")
 
 layout = html.Div([

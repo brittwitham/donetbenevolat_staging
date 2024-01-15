@@ -13,7 +13,7 @@ from utils.data.WDA0101_data_utils import get_data, get_region_values, process_d
 
 from app import app
 from homepage import footer
-from utils.home_button import gen_home_button #navbar, footer
+from .layout_utils import gen_home_button #navbar, footer
 from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################

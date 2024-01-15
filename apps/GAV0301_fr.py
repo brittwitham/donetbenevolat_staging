@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 from utils.gen_navbar import gen_navbar
-from utils.home_button import gen_home_button
+from .layout_utils import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os

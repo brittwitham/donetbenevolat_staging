@@ -7,7 +7,7 @@ import pandas as pd
 from utils.data.WDA0101_data_utils import get_region_values
 from utils.data.WDC0105_data_utils import get_region_names
 from utils.gen_navbar import gen_navbar
-from utils.home_button import gen_home_button
+from .layout_utils import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os

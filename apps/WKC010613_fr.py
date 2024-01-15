@@ -6,7 +6,7 @@ import pandas as pd
 
 from utils.data.WDA0101_data_utils import get_region_values
 from utils.data.WDC0105_data_utils import get_region_names
-from utils.home_button import gen_home_button
+from .layout_utils import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -35,7 +35,7 @@ region_names = get_region_names()
 
 ###################### App layout ######################
 navbar = gen_navbar("what_keeps_canadians_from_giving_more_2013")
-home_button = gen_home_button(True, True)
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([

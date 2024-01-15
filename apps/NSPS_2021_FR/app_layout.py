@@ -32,7 +32,7 @@ navbar = gen_navbar(
     "nonprofit_paid_staff_2021")
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(is_french=True, sat_link=True)
 
 layout = html.Div([
     navbar,

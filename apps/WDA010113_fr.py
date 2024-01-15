@@ -13,7 +13,7 @@ from utils.data.WDA0101_data_utils_13 import get_data, get_region_values, proces
 
 from app import app
 from homepage import footer
-from utils.home_button import gen_home_button #navbar, footer
+from .layout_utils import gen_home_button #navbar, footer
 from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################
@@ -33,7 +33,7 @@ region_names = get_region_names()
 
 ###################### App layout ######################
 navbar = gen_navbar("who_donates_and_how_much_do_they_give_2013")
-home_button = gen_home_button(True, True)
+home_button = gen_home_button()
 marginTop = 20
 
 layout = html.Div([

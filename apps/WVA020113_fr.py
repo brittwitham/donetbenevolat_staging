@@ -4,7 +4,8 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 
-from utils.home_button import gen_home_button
+# from .layout_utils import gen_home_button
+from .layout_utils import gen_home_button
 pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
 import os
@@ -37,7 +38,8 @@ status_names = ["Situation d'activité", "Statut d'immigration"]
 navbar = gen_navbar("who_volunteers_and_how_much_time_do_they_contribute_2013")
 
 marginTop = 20
-home_button = gen_home_button(True, True)
+home_button = gen_home_button()
+# home_button = gen_home_button()
 
 layout = html.Div([
     navbar,

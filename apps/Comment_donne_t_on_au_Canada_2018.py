@@ -8,7 +8,7 @@ from utils.data.HDC0102_data_utils import get_data, process_data, get_region_nam
 
 from app import app
 from homepage import footer
-from utils.home_button import gen_home_button #navbar, footer
+from .layout_utils import gen_home_button #navbar, footer
 from utils.gen_navbar import gen_navbar
 
 ####################### Data processing ######################

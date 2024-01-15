@@ -2,7 +2,7 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 
-def gen_home_button(is_french = False, is_2013 = False, sat_link= False):
+def gen_home_button(is_2013 = False, sat_link= False):
     button_text = "Retour à la page d'accueil"
     # button_text = "Retour à la page d'accueil" if is_french else "Back to Home"
 

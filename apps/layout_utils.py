@@ -11,7 +11,8 @@ def gen_home_button(is_2013 = False, sat_link= False):
     if sat_link: 
         button_link = "https://donetbenevolat.ca/apercu-des-donnees-sur-les-comptes-satellites/"
     else:
-        button_link = "https://www.donetbenevolat.ca/"
+        # button_link = "https://www.donetbenevolat.ca/"
+        button_link = "https://donetbenevolat.ca/apercu-du-gssgvp/"
 
     button_link_with_year = button_link + "-2013" if is_2013 else button_link
 
@@ -33,7 +34,8 @@ def gen_navbar(alt_lang_suffix="", is_french=True, is_2013=False):
     other_lang_base = "http://app.givingandvolunteering.ca" if is_french else "http://app.donetbenevolat.ca"
 
     # TODO: Add 2013 suffix for home link too?  
-    home_link = "https://www.donetbenevolat.ca"
+    # home_link = "https://www.donetbenevolat.ca"
+    home_link = "https://donetbenevolat.ca/apercu-du-gssgvp/"
 
     other_lang_link = "{}/{}".format(other_lang_base, alt_lang_suffix)
 

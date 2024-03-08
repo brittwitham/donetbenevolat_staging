@@ -1,0 +1,57 @@
+geoAbb,busChar,item2,valNorm,status
+CA,Institutions gouvernementales,Yes,0.195,D
+CA,Entreprises,Yes,0.538,A
+CA,Organismes communautaires à but non lucratif,Yes,0.216,A
+CA,Institutions commerciales à but non lucratif,Yes,0.281,C
+NL,Institutions gouvernementales,Yes,NA,NA
+NL,Entreprises,Yes,0.527,A
+NL,Organismes communautaires à but non lucratif,Yes,0.293,C
+NL,Institutions commerciales à but non lucratif,Yes,0.228,E
+PE,Institutions gouvernementales,Yes,0,A
+PE,Entreprises,Yes,0.515,B
+PE,Organismes communautaires à but non lucratif,Yes,0.4,D
+PE,Institutions commerciales à but non lucratif,Yes,0.283,E
+NS,Institutions gouvernementales,Yes,0.078,C
+NS,Entreprises,Yes,0.504,A
+NS,Organismes communautaires à but non lucratif,Yes,0.176,C
+NS,Institutions commerciales à but non lucratif,Yes,0.192,D
+NB,Institutions gouvernementales,Yes,0,A
+NB,Entreprises,Yes,0.56,A
+NB,Organismes communautaires à but non lucratif,Yes,0.216,B
+NB,Institutions commerciales à but non lucratif,Yes,NA,NA
+QC,Institutions gouvernementales,Yes,NA,NA
+QC,Entreprises,Yes,0.556,A
+QC,Organismes communautaires à but non lucratif,Yes,0.374,C
+QC,Institutions commerciales à but non lucratif,Yes,0.316,E
+ON,Institutions gouvernementales,Yes,0.003,A
+ON,Entreprises,Yes,0.537,B
+ON,Organismes communautaires à but non lucratif,Yes,0.112,B
+ON,Institutions commerciales à but non lucratif,Yes,0.325,E
+MB,Institutions gouvernementales,Yes,NA,NA
+MB,Entreprises,Yes,0.546,A
+MB,Organismes communautaires à but non lucratif,Yes,0.204,B
+MB,Institutions commerciales à but non lucratif,Yes,0.122,C
+SK,Institutions gouvernementales,Yes,0,A
+SK,Entreprises,Yes,0.534,A
+SK,Organismes communautaires à but non lucratif,Yes,0.15,B
+SK,Institutions commerciales à but non lucratif,Yes,NA,NA
+AB,Institutions gouvernementales,Yes,NA,NA
+AB,Entreprises,Yes,0.569,A
+AB,Organismes communautaires à but non lucratif,Yes,0.079,A
+AB,Institutions commerciales à but non lucratif,Yes,0.453,E
+BC,Institutions gouvernementales,Yes,NA,NA
+BC,Entreprises,Yes,0.494,A
+BC,Organismes communautaires à but non lucratif,Yes,0.295,D
+BC,Institutions commerciales à but non lucratif,Yes,0.081,B
+YT,Institutions gouvernementales,Yes,0.061,B
+YT,Entreprises,Yes,0.325,C
+YT,Organismes communautaires à but non lucratif,Yes,0.187,D
+YT,Institutions commerciales à but non lucratif,Yes,0.014,A
+NT,Institutions gouvernementales,Yes,NA,NA
+NT,Entreprises,Yes,0.384,C
+NT,Organismes communautaires à but non lucratif,Yes,0.106,B
+NT,Institutions commerciales à but non lucratif,Yes,0.12,C
+NU,Institutions gouvernementales,Yes,NA,NA
+NU,Entreprises,Yes,0.311,C
+NU,Organismes communautaires à but non lucratif,Yes,0.178,D
+NU,Institutions commerciales à but non lucratif,Yes,0.082,C

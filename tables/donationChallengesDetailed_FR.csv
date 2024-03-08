@@ -1,0 +1,613 @@
+geoAbb,busGroup,busChar,item2,valNorm,status
+CA,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.687,C
+CA,Emploi,< 5 employés,Conservation des donateurs,0.51,C
+CA,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.585,C
+CA,Emploi,< 5 employés,Manque de temps ou de ressources,0.271,C
+CA,Emploi,< 5 employés,Autre,0.04,A
+CA,Emploi,< 5 employés,Aucun,0.159,C
+CA,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.67,C
+CA,Emploi,5 < 20 employés,Conservation des donateurs,0.46,C
+CA,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.634,B
+CA,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.569,C
+CA,Emploi,5 < 20 employés,Autre,0.038,A
+CA,Emploi,5 < 20 employés,Aucun,0.11599999999999999,B
+CA,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.7190000000000001,C
+CA,Emploi,20 < 100 employés,Conservation des donateurs,0.455,C
+CA,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.563,C
+CA,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.526,C
+CA,Emploi,20 < 100 employés,Autre,0.019,A
+CA,Emploi,20 < 100 employés,Aucun,0.151,B
+CA,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.828,B
+CA,Emploi,>= 100 employés,Conservation des donateurs,0.667,C
+CA,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.611,C
+CA,Emploi,>= 100 employés,Manque de temps ou de ressources,0.5539999999999999,C
+CA,Emploi,>= 100 employés,Autre,0.073,B
+CA,Emploi,>= 100 employés,Aucun,0.095,A
+CA,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,0.84,E
+CA,Âge de l'entreprise,<= 2 ans,Autre,0,A
+CA,Âge de l'entreprise,<= 2 ans,Aucun,0.16,E
+CA,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.8220000000000001,C
+CA,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.255,D
+CA,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.523,E
+CA,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0.506,E
+CA,Âge de l'entreprise,De 3 à 10 ans,Autre,0.039,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.075,B
+CA,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.722,D
+CA,Âge de l'entreprise,De 11 à 20 ans,Conservation des donateurs,0.6709999999999999,D
+CA,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.616,D
+CA,Âge de l'entreprise,De 11 à 20 ans,Manque de temps ou de ressources,0.521,D
+CA,Âge de l'entreprise,De 11 à 20 ans,Autre,0.073,B
+CA,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.091,B
+CA,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.6729999999999999,B
+CA,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.486,B
+CA,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.605,B
+CA,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.401,B
+CA,Âge de l'entreprise,> 20 ans,Autre,0.032,A
+CA,Âge de l'entreprise,> 20 ans,Aucun,0.153,B
+CA,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.73,B
+CA,Lieu,Milieu urbain,Conservation des donateurs,0.5,B
+CA,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.609,B
+CA,Lieu,Milieu urbain,Manque de temps ou de ressources,0.44299999999999995,B
+CA,Lieu,Milieu urbain,Autre,0.034,A
+CA,Lieu,Milieu urbain,Aucun,0.128,B
+CA,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.544,D
+CA,Lieu,Milieu rural,Conservation des donateurs,0.444,D
+CA,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.5670000000000001,D
+CA,Lieu,Milieu rural,Manque de temps ou de ressources,0.345,D
+CA,Lieu,Milieu rural,Autre,0.047,A
+CA,Lieu,Milieu rural,Aucun,0.188,D
+NL,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.268,E
+NL,Emploi,< 5 employés,Conservation des donateurs,0.142,D
+NL,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.526,E
+NL,Emploi,< 5 employés,Manque de temps ou de ressources,0.235,E
+NL,Emploi,< 5 employés,Autre,0,A
+NL,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.742,E
+NL,Emploi,5 < 20 employés,Conservation des donateurs,0.623,E
+NL,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.825,D
+NL,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.607,E
+NL,Emploi,5 < 20 employés,Autre,0.048,B
+NL,Emploi,5 < 20 employés,Aucun,0.036000000000000004,B
+NL,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.152,E
+NL,Emploi,20 < 100 employés,Autre,0,A
+NL,Emploi,20 < 100 employés,Aucun,0.08,C
+NL,Emploi,>= 100 employés,Autre,0.11699999999999999,C
+NL,Emploi,>= 100 employés,Aucun,0.20800000000000002,E
+NL,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.05,C
+NL,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.05,C
+NL,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0.05,C
+NL,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+NL,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.87,D
+NL,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.87,D
+NL,Âge de l'entreprise,De 11 à 20 ans,Autre,0.132,E
+NL,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.036000000000000004,A
+NL,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.491,E
+NL,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.371,E
+NL,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.68,D
+NL,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.387,E
+NL,Âge de l'entreprise,> 20 ans,Autre,0.002,A
+NL,Âge de l'entreprise,> 20 ans,Aucun,0.136,C
+NL,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.6409999999999999,E
+NL,Lieu,Milieu urbain,Conservation des donateurs,0.49700000000000005,E
+NL,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.8270000000000001,C
+NL,Lieu,Milieu urbain,Manque de temps ou de ressources,0.456,E
+NL,Lieu,Milieu urbain,Autre,0.037000000000000005,B
+NL,Lieu,Milieu urbain,Aucun,0.06,B
+NL,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.272,E
+NL,Lieu,Milieu rural,Conservation des donateurs,0.16699999999999998,E
+NL,Lieu,Milieu rural,Manque de temps ou de ressources,0.29600000000000004,E
+NL,Lieu,Milieu rural,Autre,0,A
+PE,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.684,E
+PE,Emploi,< 5 employés,Conservation des donateurs,0.855,D
+PE,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.583,E
+PE,Emploi,< 5 employés,Manque de temps ou de ressources,0.09,C
+PE,Emploi,< 5 employés,Autre,0,A
+PE,Emploi,< 5 employés,Aucun,0.102,C
+PE,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.626,E
+PE,Emploi,5 < 20 employés,Conservation des donateurs,0.7020000000000001,D
+PE,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.478,E
+PE,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.361,E
+PE,Emploi,5 < 20 employés,Autre,0,A
+PE,Emploi,5 < 20 employés,Aucun,0.095,C
+PE,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.905,D
+PE,Emploi,20 < 100 employés,Autre,0,A
+PE,Emploi,20 < 100 employés,Aucun,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,1,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+PE,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.043,B
+PE,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+PE,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+PE,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.649,D
+PE,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.805,C
+PE,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.5920000000000001,D
+PE,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.337,D
+PE,Âge de l'entreprise,> 20 ans,Autre,0,A
+PE,Âge de l'entreprise,> 20 ans,Aucun,0.099,B
+PE,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.677,E
+PE,Lieu,Milieu urbain,Conservation des donateurs,0.769,D
+PE,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.78,D
+PE,Lieu,Milieu urbain,Manque de temps ou de ressources,0.268,D
+PE,Lieu,Milieu urbain,Autre,0,A
+PE,Lieu,Milieu urbain,Aucun,0.10099999999999999,C
+PE,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.687,E
+PE,Lieu,Milieu rural,Conservation des donateurs,0.769,D
+PE,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.33899999999999997,E
+PE,Lieu,Milieu rural,Manque de temps ou de ressources,0.391,E
+PE,Lieu,Milieu rural,Autre,0,A
+PE,Lieu,Milieu rural,Aucun,0.069,B
+NS,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.7290000000000001,D
+NS,Emploi,< 5 employés,Conservation des donateurs,0.679,E
+NS,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.8290000000000001,C
+NS,Emploi,< 5 employés,Manque de temps ou de ressources,0.273,D
+NS,Emploi,< 5 employés,Autre,0.071,B
+NS,Emploi,< 5 employés,Aucun,0.146,C
+NS,Emploi,5 < 20 employés,Conservation des donateurs,0.064,A
+NS,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.36,E
+NS,Emploi,5 < 20 employés,Autre,0.131,E
+NS,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.55,D
+NS,Emploi,20 < 100 employés,Conservation des donateurs,0.505,D
+NS,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.462,E
+NS,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.5579999999999999,E
+NS,Emploi,20 < 100 employés,Autre,0,A
+NS,Emploi,20 < 100 employés,Aucun,0.314,E
+NS,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.275,E
+NS,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.055,B
+NS,Emploi,>= 100 employés,Autre,0,A
+NS,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,1,A
+NS,Âge de l'entreprise,<= 2 ans,Conservation des donateurs,0,A
+NS,Âge de l'entreprise,<= 2 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NS,Âge de l'entreprise,<= 2 ans,Manque de temps ou de ressources,0,A
+NS,Âge de l'entreprise,<= 2 ans,Autre,0,A
+NS,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+NS,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.912,C
+NS,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.867,D
+NS,Âge de l'entreprise,De 3 à 10 ans,Autre,0.046,B
+NS,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.042,B
+NS,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.9,B
+NS,Âge de l'entreprise,De 11 à 20 ans,Manque de temps ou de ressources,0.84,C
+NS,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NS,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.1,B
+NS,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.6609999999999999,D
+NS,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.375,D
+NS,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.667,D
+NS,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.344,D
+NS,Âge de l'entreprise,> 20 ans,Autre,0.09300000000000001,C
+NS,Âge de l'entreprise,> 20 ans,Aucun,0.23800000000000002,D
+NS,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.6679999999999999,E
+NS,Lieu,Milieu urbain,Conservation des donateurs,0.344,E
+NS,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.634,E
+NS,Lieu,Milieu urbain,Manque de temps ou de ressources,0.29100000000000004,E
+NS,Lieu,Milieu urbain,Autre,0.14,D
+NS,Lieu,Milieu urbain,Aucun,0.3,E
+NS,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.701,D
+NS,Lieu,Milieu rural,Conservation des donateurs,0.465,E
+NS,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.7340000000000001,D
+NS,Lieu,Milieu rural,Manque de temps ou de ressources,0.42,E
+NS,Lieu,Milieu rural,Autre,0.009000000000000001,A
+NS,Lieu,Milieu rural,Aucun,0.10400000000000001,B
+NB,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.7020000000000001,E
+NB,Emploi,< 5 employés,Conservation des donateurs,0.595,E
+NB,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.498,E
+NB,Emploi,< 5 employés,Manque de temps ou de ressources,0.221,D
+NB,Emploi,< 5 employés,Autre,0.20199999999999999,E
+NB,Emploi,< 5 employés,Aucun,0.083,C
+NB,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.6729999999999999,E
+NB,Emploi,5 < 20 employés,Conservation des donateurs,0.19699999999999998,D
+NB,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.375,E
+NB,Emploi,5 < 20 employés,Autre,0.044000000000000004,B
+NB,Emploi,5 < 20 employés,Aucun,0.201,E
+NB,Emploi,20 < 100 employés,Conservation des donateurs,0.316,E
+NB,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.706,E
+NB,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.066,B
+NB,Emploi,20 < 100 employés,Autre,0,A
+NB,Emploi,20 < 100 employés,Aucun,0.024,A
+NB,Emploi,>= 100 employés,Conservation des donateurs,0.247,E
+NB,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.308,E
+NB,Emploi,>= 100 employés,Manque de temps ou de ressources,0.247,E
+NB,Emploi,>= 100 employés,Autre,0,A
+NB,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,0,A
+NB,Âge de l'entreprise,<= 2 ans,Conservation des donateurs,0,A
+NB,Âge de l'entreprise,<= 2 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NB,Âge de l'entreprise,<= 2 ans,Manque de temps ou de ressources,0,A
+NB,Âge de l'entreprise,<= 2 ans,Autre,0,A
+NB,Âge de l'entreprise,<= 2 ans,Aucun,1,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+NB,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.652,E
+NB,Âge de l'entreprise,De 11 à 20 ans,Autre,0.081,D
+NB,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.25,E
+NB,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.685,D
+NB,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.397,D
+NB,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.47700000000000004,E
+NB,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.318,D
+NB,Âge de l'entreprise,> 20 ans,Autre,0.126,D
+NB,Âge de l'entreprise,> 20 ans,Aucun,0.12,C
+NB,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.6659999999999999,E
+NB,Lieu,Milieu urbain,Conservation des donateurs,0.371,E
+NB,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.527,E
+NB,Lieu,Milieu urbain,Manque de temps ou de ressources,0.365,E
+NB,Lieu,Milieu urbain,Autre,0.018000000000000002,A
+NB,Lieu,Milieu urbain,Aucun,0.221,D
+NB,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.696,E
+NB,Lieu,Milieu rural,Conservation des donateurs,0.48,E
+NB,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.36700000000000005,E
+NB,Lieu,Milieu rural,Manque de temps ou de ressources,0.23600000000000002,D
+NB,Lieu,Milieu rural,Aucun,0.015,A
+QC,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.8009999999999999,D
+QC,Emploi,< 5 employés,Conservation des donateurs,0.574,E
+QC,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.48200000000000004,E
+QC,Emploi,< 5 employés,Manque de temps ou de ressources,0.313,E
+QC,Emploi,< 5 employés,Autre,0.077,B
+QC,Emploi,< 5 employés,Aucun,0.055,B
+QC,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.466,E
+QC,Emploi,5 < 20 employés,Conservation des donateurs,0.433,E
+QC,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.462,E
+QC,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.654,E
+QC,Emploi,5 < 20 employés,Autre,0.005,A
+QC,Emploi,5 < 20 employés,Aucun,0.049,B
+QC,Emploi,20 < 100 employés,Conservation des donateurs,0.35,E
+QC,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.28,E
+QC,Emploi,20 < 100 employés,Autre,0.07200000000000001,C
+QC,Emploi,20 < 100 employés,Aucun,0.106,D
+QC,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.966,B
+QC,Emploi,>= 100 employés,Conservation des donateurs,0.894,C
+QC,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.18899999999999997,E
+QC,Emploi,>= 100 employés,Autre,0.034,B
+QC,Emploi,>= 100 employés,Aucun,0,A
+QC,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,1,A
+QC,Âge de l'entreprise,<= 2 ans,Manque de temps ou de ressources,0.953,B
+QC,Âge de l'entreprise,<= 2 ans,Autre,0,A
+QC,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.163,E
+QC,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0.155,E
+QC,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.001,A
+QC,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.9109999999999999,C
+QC,Âge de l'entreprise,De 11 à 20 ans,Conservation des donateurs,0.8340000000000001,D
+QC,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.716,E
+QC,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.055999999999999994,C
+QC,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.593,E
+QC,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.475,D
+QC,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.43200000000000005,E
+QC,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.5429999999999999,D
+QC,Âge de l'entreprise,> 20 ans,Autre,0.025,A
+QC,Âge de l'entreprise,> 20 ans,Aucun,0.069,B
+QC,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.637,D
+QC,Lieu,Milieu urbain,Conservation des donateurs,0.461,D
+QC,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.40700000000000003,D
+QC,Lieu,Milieu urbain,Manque de temps ou de ressources,0.523,D
+QC,Lieu,Milieu urbain,Autre,0.062,B
+QC,Lieu,Milieu urbain,Aucun,0.083,B
+QC,Lieu,Milieu rural,Autre,0,A
+QC,Lieu,Milieu rural,Aucun,0,A
+ON,Emploi,< 5 employés,Manque de temps ou de ressources,0.32799999999999996,E
+ON,Emploi,< 5 employés,Autre,0.033,B
+ON,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.695,D
+ON,Emploi,5 < 20 employés,Conservation des donateurs,0.583,D
+ON,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.6779999999999999,D
+ON,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.511,E
+ON,Emploi,5 < 20 employés,Autre,0.03,A
+ON,Emploi,5 < 20 employés,Aucun,0.25,D
+ON,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.75,C
+ON,Emploi,20 < 100 employés,Conservation des donateurs,0.575,E
+ON,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.722,D
+ON,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.449,E
+ON,Emploi,20 < 100 employés,Autre,0.004,A
+ON,Emploi,20 < 100 employés,Aucun,0.129,B
+ON,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.904,B
+ON,Emploi,>= 100 employés,Conservation des donateurs,0.758,C
+ON,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.813,C
+ON,Emploi,>= 100 employés,Manque de temps ou de ressources,0.682,D
+ON,Emploi,>= 100 employés,Autre,0.003,A
+ON,Emploi,>= 100 employés,Aucun,0.031,A
+ON,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,1,A
+ON,Âge de l'entreprise,<= 2 ans,Manque de temps ou de ressources,1,A
+ON,Âge de l'entreprise,<= 2 ans,Autre,0,A
+ON,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+ON,Âge de l'entreprise,De 3 à 10 ans,Autre,0.096,D
+ON,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,0.85,D
+ON,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+ON,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.10099999999999999,C
+ON,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.718,D
+ON,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.626,D
+ON,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.672,D
+ON,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.391,D
+ON,Âge de l'entreprise,> 20 ans,Autre,0.024,A
+ON,Âge de l'entreprise,> 20 ans,Aucun,0.22,D
+ON,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.789,B
+ON,Lieu,Milieu urbain,Conservation des donateurs,0.6679999999999999,C
+ON,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.7240000000000001,C
+ON,Lieu,Milieu urbain,Manque de temps ou de ressources,0.424,D
+ON,Lieu,Milieu urbain,Autre,0.025,A
+ON,Lieu,Milieu urbain,Aucun,0.153,B
+ON,Lieu,Milieu rural,Autre,0.03,B
+MB,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.682,E
+MB,Emploi,< 5 employés,Conservation des donateurs,0.59,E
+MB,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.47,E
+MB,Emploi,< 5 employés,Manque de temps ou de ressources,0.447,E
+MB,Emploi,< 5 employés,Autre,0.061,B
+MB,Emploi,< 5 employés,Aucun,0.14400000000000002,D
+MB,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.795,D
+MB,Emploi,5 < 20 employés,Conservation des donateurs,0.252,E
+MB,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.514,E
+MB,Emploi,5 < 20 employés,Aucun,0.023,A
+MB,Emploi,20 < 100 employés,Conservation des donateurs,0.158,E
+MB,Emploi,20 < 100 employés,Autre,0,A
+MB,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.815,E
+MB,Emploi,>= 100 employés,Conservation des donateurs,0.047,B
+MB,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.188,E
+MB,Emploi,>= 100 employés,Manque de temps ou de ressources,0.139,D
+MB,Emploi,>= 100 employés,Autre,0,A
+MB,Emploi,>= 100 employés,Aucun,0.09300000000000001,D
+MB,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.955,C
+MB,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.092,D
+MB,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0.95,C
+MB,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+MB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.045,C
+MB,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+MB,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.693,D
+MB,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.397,D
+MB,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.47,D
+MB,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.41,D
+MB,Âge de l'entreprise,> 20 ans,Autre,0.132,D
+MB,Âge de l'entreprise,> 20 ans,Aucun,0.122,C
+MB,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.6629999999999999,D
+MB,Lieu,Milieu urbain,Conservation des donateurs,0.298,D
+MB,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.32799999999999996,D
+MB,Lieu,Milieu urbain,Manque de temps ou de ressources,0.44,E
+MB,Lieu,Milieu urbain,Autre,0.017,A
+MB,Lieu,Milieu urbain,Aucun,0.183,D
+MB,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.698,E
+MB,Lieu,Milieu rural,Conservation des donateurs,0.436,E
+MB,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.743,D
+MB,Lieu,Milieu rural,Aucun,0.102,C
+SK,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.732,E
+SK,Emploi,< 5 employés,Conservation des donateurs,0.715,E
+SK,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.7390000000000001,D
+SK,Emploi,< 5 employés,Manque de temps ou de ressources,0.371,E
+SK,Emploi,< 5 employés,Autre,0.057,C
+SK,Emploi,< 5 employés,Aucun,0.17600000000000002,D
+SK,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.604,E
+SK,Emploi,5 < 20 employés,Conservation des donateurs,0.596,E
+SK,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.67,D
+SK,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.43,E
+SK,Emploi,5 < 20 employés,Autre,0.037000000000000005,B
+SK,Emploi,5 < 20 employés,Aucun,0.136,C
+SK,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.431,E
+SK,Emploi,20 < 100 employés,Conservation des donateurs,0.255,D
+SK,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.313,D
+SK,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.382,E
+SK,Emploi,20 < 100 employés,Autre,0.011000000000000001,A
+SK,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.631,E
+SK,Emploi,>= 100 employés,Conservation des donateurs,0.516,E
+SK,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.46399999999999997,E
+SK,Emploi,>= 100 employés,Manque de temps ou de ressources,0.449,E
+SK,Emploi,>= 100 employés,Autre,0,A
+SK,Emploi,>= 100 employés,Aucun,0.289,E
+SK,Âge de l'entreprise,<= 2 ans,Recherche de nouveaux donateurs,0,A
+SK,Âge de l'entreprise,<= 2 ans,Conservation des donateurs,0,A
+SK,Âge de l'entreprise,<= 2 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+SK,Âge de l'entreprise,<= 2 ans,Manque de temps ou de ressources,0,A
+SK,Âge de l'entreprise,<= 2 ans,Autre,0,A
+SK,Âge de l'entreprise,<= 2 ans,Aucun,1,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.9179999999999999,D
+SK,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.9179999999999999,D
+SK,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.127,E
+SK,Âge de l'entreprise,De 3 à 10 ans,Manque de temps ou de ressources,0.9179999999999999,D
+SK,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.08199999999999999,D
+SK,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+SK,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.6579999999999999,C
+SK,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.625,C
+SK,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.677,C
+SK,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.382,D
+SK,Âge de l'entreprise,> 20 ans,Autre,0.048,B
+SK,Âge de l'entreprise,> 20 ans,Aucun,0.187,C
+SK,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.7559999999999999,C
+SK,Lieu,Milieu urbain,Conservation des donateurs,0.677,D
+SK,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.736,C
+SK,Lieu,Milieu urbain,Manque de temps ou de ressources,0.514,D
+SK,Lieu,Milieu urbain,Autre,0.069,B
+SK,Lieu,Milieu urbain,Aucun,0.1,C
+SK,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.461,E
+SK,Lieu,Milieu rural,Conservation des donateurs,0.479,E
+SK,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.505,E
+SK,Lieu,Milieu rural,Manque de temps ou de ressources,0.21899999999999997,D
+SK,Lieu,Milieu rural,Autre,0,A
+SK,Lieu,Milieu rural,Aucun,0.336,E
+AB,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.607,E
+AB,Emploi,< 5 employés,Conservation des donateurs,0.314,E
+AB,Emploi,< 5 employés,Manque de temps ou de ressources,0.084,C
+AB,Emploi,< 5 employés,Autre,0.013000000000000001,A
+AB,Emploi,< 5 employés,Aucun,0.135,E
+AB,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.698,E
+AB,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.594,E
+AB,Emploi,5 < 20 employés,Autre,0.057999999999999996,B
+AB,Emploi,5 < 20 employés,Aucun,0.207,E
+AB,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.812,D
+AB,Emploi,20 < 100 employés,Conservation des donateurs,0.363,E
+AB,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.614,E
+AB,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.45299999999999996,E
+AB,Emploi,20 < 100 employés,Autre,0.002,A
+AB,Emploi,20 < 100 employés,Aucun,0.10099999999999999,D
+AB,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.775,E
+AB,Emploi,>= 100 employés,Conservation des donateurs,0.382,E
+AB,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.337,E
+AB,Emploi,>= 100 employés,Manque de temps ou de ressources,0.413,E
+AB,Emploi,>= 100 employés,Autre,0.087,C
+AB,Emploi,>= 100 employés,Aucun,0.11599999999999999,D
+AB,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.84,E
+AB,Âge de l'entreprise,De 3 à 10 ans,Autre,0.14300000000000002,E
+AB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.046,B
+AB,Âge de l'entreprise,De 11 à 20 ans,Conservation des donateurs,0.907,D
+AB,Âge de l'entreprise,De 11 à 20 ans,Autre,0.071,C
+AB,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.005,A
+AB,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.601,E
+AB,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.29,D
+AB,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.597,E
+AB,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.175,C
+AB,Âge de l'entreprise,> 20 ans,Autre,0.009000000000000001,A
+AB,Âge de l'entreprise,> 20 ans,Aucun,0.17300000000000001,E
+AB,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.6729999999999999,E
+AB,Lieu,Milieu urbain,Conservation des donateurs,0.376,D
+AB,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.55,E
+AB,Lieu,Milieu urbain,Manque de temps ou de ressources,0.263,D
+AB,Lieu,Milieu urbain,Autre,0.025,A
+AB,Lieu,Milieu urbain,Aucun,0.17800000000000002,E
+AB,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.8690000000000001,D
+AB,Lieu,Milieu rural,Manque de temps ou de ressources,0.1,C
+AB,Lieu,Milieu rural,Autre,0.013000000000000001,A
+AB,Lieu,Milieu rural,Aucun,0.022000000000000002,A
+BC,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.65,E
+BC,Emploi,< 5 employés,Conservation des donateurs,0.33899999999999997,E
+BC,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.513,E
+BC,Emploi,< 5 employés,Manque de temps ou de ressources,0.385,E
+BC,Emploi,< 5 employés,Autre,0.003,A
+BC,Emploi,< 5 employés,Aucun,0.183,D
+BC,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.88,D
+BC,Emploi,5 < 20 employés,Conservation des donateurs,0.46799999999999997,E
+BC,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.84,C
+BC,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.627,E
+BC,Emploi,5 < 20 employés,Autre,0.006,A
+BC,Emploi,5 < 20 employés,Aucun,0.004,A
+BC,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.903,B
+BC,Emploi,20 < 100 employés,Conservation des donateurs,0.7140000000000001,E
+BC,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.88,C
+BC,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.847,C
+BC,Emploi,20 < 100 employés,Autre,0,A
+BC,Emploi,20 < 100 employés,Aucun,0.04,B
+BC,Emploi,>= 100 employés,Recherche de nouveaux donateurs,0.856,C
+BC,Emploi,>= 100 employés,Conservation des donateurs,0.8640000000000001,C
+BC,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.7609999999999999,E
+BC,Emploi,>= 100 employés,Autre,0.324,E
+BC,Emploi,>= 100 employés,Aucun,0.083,C
+BC,Âge de l'entreprise,De 3 à 10 ans,Recherche de nouveaux donateurs,0.946,B
+BC,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.036000000000000004,B
+BC,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.9259999999999999,C
+BC,Âge de l'entreprise,De 3 à 10 ans,Autre,0.022000000000000002,A
+BC,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+BC,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+BC,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.001,A
+BC,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.8079999999999999,C
+BC,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.511,E
+BC,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.754,C
+BC,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.54,E
+BC,Âge de l'entreprise,> 20 ans,Autre,0.012,A
+BC,Âge de l'entreprise,> 20 ans,Aucun,0.099,B
+BC,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.84,C
+BC,Lieu,Milieu urbain,Conservation des donateurs,0.47700000000000004,D
+BC,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.7559999999999999,C
+BC,Lieu,Milieu urbain,Manque de temps ou de ressources,0.58,D
+BC,Lieu,Milieu urbain,Autre,0.012,A
+BC,Lieu,Milieu urbain,Aucun,0.045,B
+BC,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.222,E
+BC,Lieu,Milieu rural,Autre,0,A
+YT,Emploi,< 5 employés,Autre,0,A
+YT,Emploi,< 5 employés,Aucun,0,A
+YT,Emploi,5 < 20 employés,Recherche de nouveaux donateurs,0.145,E
+YT,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.139,E
+YT,Emploi,5 < 20 employés,Autre,0,A
+YT,Emploi,5 < 20 employés,Aucun,0.059000000000000004,A
+YT,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.8390000000000001,E
+YT,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.071,B
+YT,Emploi,20 < 100 employés,Autre,0,A
+YT,Emploi,20 < 100 employés,Aucun,0.161,E
+YT,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0.111,D
+YT,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.111,D
+YT,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+YT,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.05,B
+YT,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,1,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Conservation des donateurs,0,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Manque de temps ou de ressources,1,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+YT,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.299,E
+YT,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.341,E
+YT,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.64,E
+YT,Âge de l'entreprise,> 20 ans,Autre,0,A
+YT,Âge de l'entreprise,> 20 ans,Aucun,0.054000000000000006,B
+YT,Lieu,Milieu urbain,Recherche de nouveaux donateurs,0.414,E
+YT,Lieu,Milieu urbain,Conservation des donateurs,0.298,E
+YT,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.402,E
+YT,Lieu,Milieu urbain,Manque de temps ou de ressources,0.493,E
+YT,Lieu,Milieu urbain,Autre,0,A
+YT,Lieu,Milieu urbain,Aucun,0.059000000000000004,B
+YT,Lieu,Milieu rural,Recherche de nouveaux donateurs,0,A
+YT,Lieu,Milieu rural,Conservation des donateurs,0,A
+YT,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,1,A
+YT,Lieu,Milieu rural,Manque de temps ou de ressources,1,A
+YT,Lieu,Milieu rural,Autre,0,A
+YT,Lieu,Milieu rural,Aucun,0,A
+NT,Emploi,< 5 employés,Recherche de nouveaux donateurs,0.76,E
+NT,Emploi,< 5 employés,Manque de temps ou de ressources,1,A
+NT,Emploi,< 5 employés,Aucun,0,A
+NT,Emploi,5 < 20 employés,Conservation des donateurs,0.16899999999999998,E
+NT,Emploi,5 < 20 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.203,E
+NT,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.151,E
+NT,Emploi,5 < 20 employés,Autre,0,A
+NT,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,0.8859999999999999,D
+NT,Emploi,20 < 100 employés,Conservation des donateurs,0.51,E
+NT,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0.564,E
+NT,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.563,E
+NT,Emploi,20 < 100 employés,Autre,0,A
+NT,Emploi,20 < 100 employés,Aucun,0.114,D
+NT,Emploi,>= 100 employés,Recherche de nouveaux donateurs,1,A
+NT,Emploi,>= 100 employés,Conservation des donateurs,1,A
+NT,Emploi,>= 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NT,Emploi,>= 100 employés,Manque de temps ou de ressources,1,A
+NT,Emploi,>= 100 employés,Autre,0,A
+NT,Emploi,>= 100 employés,Aucun,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Conservation des donateurs,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,1,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,1,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+NT,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0.32,E
+NT,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0.325,E
+NT,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.40299999999999997,E
+NT,Âge de l'entreprise,> 20 ans,Autre,0.06,B
+NT,Lieu,Milieu urbain,Conservation des donateurs,0.311,E
+NT,Lieu,Milieu urbain,Sommes versées par les donateurs pas aussi élevées qu'avant,0.331,E
+NT,Lieu,Milieu urbain,Manque de temps ou de ressources,0.36200000000000004,E
+NT,Lieu,Milieu urbain,Autre,0,A
+NT,Lieu,Milieu rural,Recherche de nouveaux donateurs,0.83,E
+NT,Lieu,Milieu rural,Conservation des donateurs,0.26899999999999996,E
+NT,Lieu,Milieu rural,Sommes versées par les donateurs pas aussi élevées qu'avant,0.285,E
+NT,Lieu,Milieu rural,Autre,0.23,E
+NT,Lieu,Milieu rural,Aucun,0,A
+NU,Emploi,< 5 employés,Recherche de nouveaux donateurs,0,A
+NU,Emploi,< 5 employés,Conservation des donateurs,0,A
+NU,Emploi,< 5 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NU,Emploi,< 5 employés,Manque de temps ou de ressources,0,A
+NU,Emploi,< 5 employés,Autre,0,A
+NU,Emploi,< 5 employés,Aucun,1,A
+NU,Emploi,5 < 20 employés,Conservation des donateurs,0,A
+NU,Emploi,5 < 20 employés,Manque de temps ou de ressources,0.813,E
+NU,Emploi,5 < 20 employés,Autre,0,A
+NU,Emploi,5 < 20 employés,Aucun,0.187,E
+NU,Emploi,20 < 100 employés,Recherche de nouveaux donateurs,1,A
+NU,Emploi,20 < 100 employés,Conservation des donateurs,0,A
+NU,Emploi,20 < 100 employés,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NU,Emploi,20 < 100 employés,Manque de temps ou de ressources,0.33299999999999996,E
+NU,Emploi,20 < 100 employés,Autre,0,A
+NU,Emploi,20 < 100 employés,Aucun,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Recherche de nouveaux donateurs,1,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Conservation des donateurs,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Manque de temps ou de ressources,1,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+NU,Âge de l'entreprise,> 20 ans,Recherche de nouveaux donateurs,0.27899999999999997,E
+NU,Âge de l'entreprise,> 20 ans,Conservation des donateurs,0,A
+NU,Âge de l'entreprise,> 20 ans,Sommes versées par les donateurs pas aussi élevées qu'avant,0,A
+NU,Âge de l'entreprise,> 20 ans,Manque de temps ou de ressources,0.304,E
+NU,Âge de l'entreprise,> 20 ans,Autre,0,A
+NU,Âge de l'entreprise,> 20 ans,Aucun,0.51,E
+NU,Lieu,Milieu rural,Conservation des donateurs,0,A
+NU,Lieu,Milieu rural,Autre,0,A
+NU,Lieu,Milieu rural,Aucun,0.23600000000000002,E

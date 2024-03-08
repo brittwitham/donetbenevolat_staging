@@ -1,0 +1,85 @@
+geoAbb,item2,CommNPO,BusNPO,CommNPOStat,BusNPOStat
+CA,Recherche de nouveaux donateurs,0.69,0.654,B,D
+CA,Conservation des donateurs,0.489,0.455,B,D
+CA,Sommes versées par les donateurs pas aussi élevées qu'avant,0.602,0.507,B,D
+CA,Manque de temps ou de ressources,0.419,0.486,B,D
+CA,Autre,0.038,0.002,A,A
+CA,Aucun,0.142,0.107,B,B
+NL,Recherche de nouveaux donateurs,0.485,NA,D,NA
+NL,Conservation des donateurs,0.33899999999999997,NA,D,NA
+NL,Sommes versées par les donateurs pas aussi élevées qu'avant,0.6679999999999999,NA,D,NA
+NL,Manque de temps ou de ressources,0.39299999999999996,0.13,D,E
+NL,Autre,0.021,0,A,A
+NL,Aucun,0.2,NA,D,NA
+PE,Recherche de nouveaux donateurs,0.665,NA,D,NA
+PE,Conservation des donateurs,0.7829999999999999,NA,C,NA
+PE,Sommes versées par les donateurs pas aussi élevées qu'avant,0.61,0,C,A
+PE,Manque de temps ou de ressources,0.298,NA,C,NA
+PE,Autre,0,0,A,A
+PE,Aucun,0.06,NA,B,NA
+NS,Recherche de nouveaux donateurs,0.6829999999999999,NA,D,NA
+NS,Conservation des donateurs,0.39399999999999996,NA,D,NA
+NS,Sommes versées par les donateurs pas aussi élevées qu'avant,0.682,0.078,D,C
+NS,Manque de temps ou de ressources,0.341,NA,D,NA
+NS,Autre,0.09,0,C,A
+NS,Aucun,0.221,NA,D,NA
+NB,Recherche de nouveaux donateurs,0.6920000000000001,0.075,D,C
+NB,Conservation des donateurs,0.424,0.075,D,C
+NB,Sommes versées par les donateurs pas aussi élevées qu'avant,0.451,0.9079999999999999,D,D
+NB,Manque de temps ou de ressources,0.318,0.038,D,B
+NB,Autre,0.125,0,D,A
+NB,Aucun,0.138,0.055,C,C
+QC,Recherche de nouveaux donateurs,0.643,NA,D,NA
+QC,Conservation des donateurs,0.485,0.22699999999999998,D,E
+QC,Sommes versées par les donateurs pas aussi élevées qu'avant,0.43700000000000006,NA,D,NA
+QC,Manque de temps ou de ressources,0.499,0.833,D,D
+QC,Autre,0.046,0.008,A,A
+QC,Aucun,0.063,0,B,A
+ON,Recherche de nouveaux donateurs,0.7340000000000001,NA,D,NA
+ON,Conservation des donateurs,0.635,NA,D,NA
+ON,Sommes versées par les donateurs pas aussi élevées qu'avant,0.6729999999999999,0.6990000000000001,D,E
+ON,Manque de temps ou de ressources,0.41700000000000004,NA,D,NA
+ON,Autre,0.027000000000000003,0,A,A
+ON,Aucun,0.21899999999999997,0.054000000000000006,D,B
+MB,Recherche de nouveaux donateurs,0.67,0.937,D,B
+MB,Conservation des donateurs,0.33899999999999997,NA,C,NA
+MB,Sommes versées par les donateurs pas aussi élevées qu'avant,0.46,NA,D,NA
+MB,Manque de temps ou de ressources,0.456,NA,D,NA
+MB,Autre,0.096,0,C,A
+MB,Aucun,0.158,0.063,C,B
+SK,Recherche de nouveaux donateurs,0.633,NA,C,NA
+SK,Conservation des donateurs,0.59,NA,C,NA
+SK,Sommes versées par les donateurs pas aussi élevées qu'avant,0.6579999999999999,NA,C,NA
+SK,Manque de temps ou de ressources,0.4,NA,D,NA
+SK,Autre,0.044000000000000004,0,B,A
+SK,Aucun,0.19,NA,C,NA
+AB,Recherche de nouveaux donateurs,0.627,1,E,A
+AB,Conservation des donateurs,0.368,NA,D,NA
+AB,Sommes versées par les donateurs pas aussi élevées qu'avant,0.619,NA,E,NA
+AB,Manque de temps ou de ressources,0.23,NA,C,NA
+AB,Autre,0.023,0,A,A
+AB,Aucun,0.14800000000000002,0,D,A
+BC,Recherche de nouveaux donateurs,0.799,0.847,C,D
+BC,Conservation des donateurs,0.467,NA,D,NA
+BC,Sommes versées par les donateurs pas aussi élevées qu'avant,0.727,NA,C,NA
+BC,Manque de temps ou de ressources,0.564,NA,D,NA
+BC,Autre,0.012,0,A,A
+BC,Aucun,0.07400000000000001,0.122,B,D
+YT,Recherche de nouveaux donateurs,0.368,NA,E,..
+YT,Conservation des donateurs,0.265,NA,E,..
+YT,Sommes versées par les donateurs pas aussi élevées qu'avant,0.469,NA,E,..
+YT,Manque de temps ou de ressources,0.55,NA,E,..
+YT,Autre,0,NA,A,..
+YT,Aucun,0.052000000000000005,NA,B,..
+NT,Recherche de nouveaux donateurs,0.708,0,E,A
+NT,Conservation des donateurs,0.423,0,E,A
+NT,Sommes versées par les donateurs pas aussi élevées qu'avant,0.45,0,E,A
+NT,Manque de temps ou de ressources,0.523,0.07,E,D
+NT,Autre,0.073,0,B,A
+NT,Aucun,0.037000000000000005,0.93,B,D
+NU,Recherche de nouveaux donateurs,0.8109999999999999,0,E,A
+NU,Conservation des donateurs,0,0,A,A
+NU,Sommes versées par les donateurs pas aussi élevées qu'avant,NA,0,NA,A
+NU,Manque de temps ou de ressources,0.826,0,D,A
+NU,Autre,0,0,A,A
+NU,Aucun,0.07,1,B,A

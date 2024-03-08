@@ -1,0 +1,295 @@
+geoAbb,item2,GovAgency,Business,CommNPO,BusNPO,GovAgencyStat,BusinessStat,CommNPOStat,BusNPOStat
+SK,Inflation,0,0.147,0.32299999999999995,NA,A,A,C,NA
+AB,Inflation,0.168,0.217,0.28800000000000003,0.098,E,A,D,B
+NS,Inflation,0,0.159,0.26,NA,A,A,C,NA
+PE,Inflation,0.10800000000000001,0.114,0.23,0.055,C,A,C,B
+NB,Inflation,0.013000000000000001,0.128,0.226,0.027000000000000003,A,A,C,A
+NT,Recrutement d'employés qualifiés,0.099,0.168,0.226,0.722,D,B,E,E
+NL,Inflation,NA,0.11599999999999999,0.217,0.018000000000000002,NA,A,C,A
+NU,Conservation d'employés qualifiés,NA,0.087,0.201,0.17800000000000002,NA,A,E,E
+NT,Inflation,0.023,0.071,0.191,0.027000000000000003,A,A,C,A
+BC,Pénurie de main-d'œuvre,0.018000000000000002,0.052000000000000005,0.188,0.043,A,A,C,B
+ON,Inflation,NA,0.135,0.187,0.094,NA,A,C,B
+CA,Inflation,0.14800000000000002,0.14,0.18,0.157,D,A,B,C
+MB,Inflation,NA,0.185,0.171,NA,NA,A,C,NA
+NS,Recrutement d'employés qualifiés,NA,0.07,0.16,0.038,NA,A,C,A
+MB,Recrutement d'employés qualifiés,0.067,0.06,0.156,0.051,C,A,C,A
+QC,Recrutement d'employés qualifiés,0.091,0.09300000000000001,0.153,0.17600000000000002,C,A,B,E
+PE,Augmentation des coûts liés aux intrants,0.16,0.10300000000000001,0.147,0.01,E,A,B,A
+NL,Flux de trésorerie ou dette,0,0.052000000000000005,0.14,0,A,A,C,A
+ON,Recrutement d'employés qualifiés,0.023,0.071,0.139,0.071,A,A,B,B
+BC,Augmentation des coûts liés aux intrants,0.003,0.08199999999999999,0.133,NA,A,A,C,NA
+NU,Inflation,0,0.08900000000000001,0.131,0,A,B,D,A
+AB,Pénurie de main-d'œuvre,0.003,0.049,0.121,0.141,A,A,C,D
+CA,Recrutement d'employés qualifiés,0.068,0.084,0.12,0.121,B,A,A,B
+QC,Pénurie de main-d'œuvre,0.055,0.087,0.12,0.023,B,A,B,A
+AB,Coûts liés à l'assurance,0,0.022000000000000002,0.11900000000000001,0.015,A,A,D,A
+NB,Recrutement d'employés qualifiés,NA,0.114,0.11699999999999999,0.14800000000000002,NA,A,B,E
+BC,Difficulté à attirer de nouveaux clients,0,0.043,0.11599999999999999,0.009000000000000001,A,A,B,A
+NS,Pénurie de main-d'œuvre,0.11900000000000001,0.075,0.114,0.032,E,A,C,A
+NL,Pénurie de main-d'œuvre,0,0.079,0.113,0.031,A,A,C,B
+BC,Inflation,0.023,0.133,0.113,NA,A,A,B,NA
+QC,Inflation,0,0.096,0.10800000000000001,0.05,A,A,B,B
+YT,Conservation d'employés qualifiés,0,0.052000000000000005,0.105,0,A,B,C,A
+CA,Pénurie de main-d'œuvre,0.036000000000000004,0.066,0.102,0.040999999999999995,A,A,A,A
+MB,Augmentation des coûts liés aux intrants,0.028999999999999998,0.13,0.099,0.037000000000000005,B,A,B,A
+SK,Recrutement d'employés qualifiés,0.019,0.084,0.099,0.155,A,A,B,D
+QC,Obtention de financement,0.032,0.032,0.098,0.095,B,A,B,C
+ON,Difficulté à attirer de nouveaux clients,0.002,0.047,0.098,0.15,A,A,B,E
+YT,Inflation,0,0.18899999999999997,0.096,0.026000000000000002,A,C,B,A
+NU,Recrutement d'employés qualifiés,NA,0.182,0.094,0.35200000000000004,NA,B,B,E
+NB,Coûts liés à l'assurance,0,0.011000000000000001,0.092,0,A,A,C,A
+MB,Pénurie de main-d'œuvre,NA,0.055,0.09,0.016,NA,A,B,A
+NU,Taux d'intérêt,0,0.044000000000000004,0.087,0,A,A,D,A
+NT,Flux de trésorerie ou dette,0,0.022000000000000002,0.085,0,A,A,B,A
+NT,Pénurie de main-d'œuvre,0.134,0.153,0.084,0.068,D,B,B,C
+NU,Pénurie d'espace ou d'équipement,0.209,0.006999999999999999,0.084,0,E,A,B,A
+NU,Flux de trésorerie ou dette,0,0.032,0.084,0,A,A,C,A
+MB,Conservation d'employés qualifiés,0.018000000000000002,0.022000000000000002,0.08199999999999999,0.07400000000000001,A,A,B,B
+AB,Augmentation des coûts liés aux intrants,0.003,0.11699999999999999,0.08,0.047,A,A,B,A
+CA,Augmentation des coûts liés aux intrants,0.045,0.107,0.078,0.09300000000000001,A,A,A,B
+BC,Coûts liés à l'immobilier,NA,0.027000000000000003,0.076,0.005,NA,A,B,A
+NB,Difficulté à attirer de nouveaux clients,0,0.015,0.07400000000000001,0.018000000000000002,A,A,C,A
+PE,Coûts liés au transport,0.035,0.026000000000000002,0.073,0,B,A,C,A
+ON,Augmentation des coûts liés aux intrants,0.076,0.127,0.073,0.05,C,A,B,B
+SK,Augmentation des coûts liés aux intrants,0.084,0.184,0.07200000000000001,0.048,D,A,B,B
+NL,Obtention de financement,0,0.006,0.07,0.01,A,A,B,A
+YT,Recrutement d'employés qualifiés,0.253,0.127,0.068,0.019,E,B,B,A
+BC,Recrutement d'employés qualifiés,0.040999999999999995,0.11,0.067,0.037000000000000005,B,A,A,A
+BC,Coûts liés à l'assurance,0,0.022000000000000002,0.066,0.006,A,A,B,A
+MB,Flux de trésorerie ou dette,NA,0.057999999999999996,0.065,0.013999999999999999,NA,A,A,A
+NL,Recrutement d'employés qualifiés,0,0.11,0.064,0.024,A,A,B,A
+AB,Recrutement d'employés qualifiés,NA,0.077,0.064,0.22399999999999998,NA,A,A,E
+YT,Taux d'intérêt,0,0.099,0.063,0,A,B,C,A
+CA,Difficulté à attirer de nouveaux clients,0.003,0.039,0.062,0.071,A,A,A,B
+NB,Augmentation des coûts liés aux intrants,0,0.10300000000000001,0.061,0.127,A,A,A,E
+NB,Pénurie d'espace ou d'équipement,0.042,0.004,0.06,0,B,A,C,A
+ON,Pénurie de main-d'œuvre,0.006999999999999999,0.064,0.06,0.040999999999999995,A,A,A,A
+PE,Recrutement d'employés qualifiés,0.20600000000000002,0.121,0.059000000000000004,NA,D,A,B,NA
+QC,Augmentation des coûts liés aux intrants,0.006999999999999999,0.068,0.059000000000000004,0.040999999999999995,A,A,B,B
+YT,Pénurie de main-d'œuvre,0,0.075,0.057999999999999996,0.031,A,B,C,A
+ON,Taux d'intérêt,0.095,0.131,0.057,0.024,D,A,C,A
+SK,Difficulté à attirer de nouveaux clients,0,0.023,0.055999999999999994,0.099,A,A,B,D
+BC,Fluctuations de la demande,0,0.038,0.055999999999999994,0.008,A,A,B,A
+QC,Pénurie d'espace ou d'équipement,0.001,0.011000000000000001,0.055,0.011000000000000001,A,A,B,A
+MB,Coûts liés au transport,0,0.038,0.054000000000000006,0.011000000000000001,A,A,B,A
+BC,Flux de trésorerie ou dette,0,0.039,0.051,0.001,A,A,B,A
+NL,Difficulté à attirer de nouveaux clients,0,0.028999999999999998,0.05,0,A,A,B,A
+NS,Autre obstacle,0,0.026000000000000002,0.046,0.009000000000000001,A,A,B,A
+CA,Coûts liés à l'assurance,0,0.023,0.045,0.004,A,A,A,A
+MB,Autre obstacle,0,0.011000000000000001,0.045,0,A,A,B,A
+NS,Coûts liés à l'immobilier,0,0.018000000000000002,0.044000000000000004,0,A,A,B,A
+NB,Flux de trésorerie ou dette,0,0.038,0.043,0,A,A,B,A
+AB,Obtention de financement,0,0.013999999999999999,0.043,0.01,A,A,B,A
+CA,Obtention de financement,0.012,0.013000000000000001,0.042,0.047,A,A,A,A
+AB,Difficulté à attirer de nouveaux clients,0,0.017,0.042,0.085,A,A,A,C
+AB,Flux de trésorerie ou dette,0,0.052000000000000005,0.042,0.079,A,A,A,C
+NT,Fluctuations de la demande,0,0.04,0.042,0,A,A,B,A
+NT,Obtention de financement,0,0.006999999999999999,0.040999999999999995,0,A,A,A,A
+NU,Pénurie de main-d'œuvre,0.051,0.275,0.040999999999999995,0.16,A,B,A,E
+QC,Coûts liés à l'immobilier,0.006,0.025,0.04,0,A,A,B,A
+SK,Pénurie d'espace ou d'équipement,0,0.013000000000000001,0.038,0.005,A,A,A,A
+NL,Conservation d'employés qualifiés,0.027999999999999997,0.028999999999999998,0.037000000000000005,0.011000000000000001,A,A,A,A
+NB,Conservation d'employés qualifiés,0,0.021,0.035,0.005,A,A,A,A
+NT,Autre obstacle,0,0.034,0.035,0,A,A,B,A
+CA,Flux de trésorerie ou dette,0.023,0.035,0.034,0.023,A,A,A,A
+ON,Coûts liés à l'assurance,0,0.03,0.034,0.003,A,A,A,A
+YT,Coûts liés à l'assurance,0,0.002,0.034,0,A,A,A,A
+NL,Coûts liés à l'assurance,0,0.027000000000000003,0.033,0.009000000000000001,A,A,B,A
+PE,Flux de trésorerie ou dette,0,0.027000000000000003,0.033,0.053,A,A,A,B
+PE,Taux d'intérêt,0.022000000000000002,0.142,0.032,0.013999999999999999,A,A,A,A
+NS,Difficulté à attirer de nouveaux clients,0.113,0.016,0.032,0.003,D,A,B,A
+ON,Flux de trésorerie ou dette,0,0.028999999999999998,0.032,0.012,A,A,A,A
+MB,Difficulté à attirer de nouveaux clients,0,0.027000000000000003,0.032,0.066,A,A,A,B
+SK,Coûts liés au transport,0,0.016,0.032,0.01,A,A,A,A
+SK,Obtention de financement,0,0.006,0.032,0,A,A,B,A
+YT,Augmentation des coûts liés aux intrants,0,0.059000000000000004,0.032,0,A,A,B,A
+NU,Coûts liés au transport,0,0.037000000000000005,0.032,0.07400000000000001,A,A,A,C
+PE,Difficulté à attirer de nouveaux clients,0,0.034,0.031,0.004,A,A,A,A
+PE,Coûts liés à l'assurance,0,0.012,0.031,0.026000000000000002,A,A,A,A
+NS,Augmentation des coûts liés aux intrants,NA,0.126,0.031,0.095,NA,A,A,D
+QC,Taux d'intérêt,0.001,0.096,0.028999999999999998,0.03,A,A,A,A
+CA,Taux d'intérêt,0.037000000000000005,0.11699999999999999,0.027999999999999997,0.02,B,A,A,A
+NB,Coûts liés à l'immobilier,0,0.026000000000000002,0.027999999999999997,0,A,A,A,A
+NB,Autre obstacle,0,0.023,0.027999999999999997,0,A,A,A,A
+SK,Flux de trésorerie ou dette,0,0.051,0.027999999999999997,0,A,A,A,A
+CA,Coûts liés à l'immobilier,0.053,0.027000000000000003,0.027000000000000003,0.006,C,A,A,A
+NT,Augmentation des coûts liés aux intrants,NA,0.045,0.027000000000000003,0,NA,A,A,A
+CA,Pénurie d'espace ou d'équipement,0.001,0.005,0.026000000000000002,0.027000000000000003,A,A,A,A
+SK,Coûts liés à l'immobilier,0,0.016,0.025,0.011000000000000001,A,A,A,A
+BC,Conservation d'employés qualifiés,0.008,0.044000000000000004,0.025,0.005,A,A,A,A
+NT,Coûts liés à l'assurance,0,0,0.025,0,A,A,A,A
+CA,Conservation d'employés qualifiés,0.012,0.03,0.024,0.068,A,A,A,B
+PE,Pénurie d'espace ou d'équipement,0,0.005,0.024,0,A,A,A,A
+QC,Conservation d'employés qualifiés,0.028999999999999998,0.036000000000000004,0.024,0.034,A,A,A,A
+NU,Augmentation des coûts liés aux intrants,0,0.03,0.024,0,A,A,A,A
+NL,Augmentation des coûts liés aux intrants,NA,0.07,0.023,0.027999999999999997,NA,A,A,A
+NT,Conservation d'employés qualifiés,0,0.022000000000000002,0.023,0,A,A,A,A
+NT,Coûts liés au transport,0,0.009000000000000001,0.023,0.022000000000000002,A,A,A,A
+MB,Fluctuations de la demande,0,0.033,0.022000000000000002,0,A,A,A,A
+SK,Fluctuations de la demande,0,0.028999999999999998,0.022000000000000002,0,A,A,A,A
+AB,Augmentation de la concurrence,0,0.006999999999999999,0.022000000000000002,0,A,A,A,A
+QC,Autre obstacle,NA,0.026000000000000002,0.02,0.001,NA,A,A,A
+ON,Pénurie d'espace ou d'équipement,0,0.002,0.02,0.006,A,A,A,A
+MB,Coûts liés à l'assurance,0,0.006999999999999999,0.02,0,A,A,A,A
+SK,Taux d'intérêt,0,0.11199999999999999,0.02,0.005,A,A,A,A
+PE,Conservation d'employés qualifiés,0.044000000000000004,0.03,0.019,0,A,A,A,A
+QC,Difficulté à attirer de nouveaux clients,0.001,0.043,0.019,0.064,A,A,A,C
+AB,Conservation d'employés qualifiés,0,0.031,0.019,0.204,A,A,A,E
+NL,Taux d'intérêt,0.046,0.08,0.018000000000000002,0.019,B,A,A,A
+PE,Obtention de financement,0,0.01,0.018000000000000002,0,A,A,A,A
+PE,Augmentation de la concurrence,0,0.006,0.018000000000000002,0,A,A,A,A
+QC,Coûts liés à l'assurance,0,0.02,0.018000000000000002,0.001,A,A,A,A
+ON,Obtention de financement,0.01,0.006,0.018000000000000002,0.062,A,A,A,B
+SK,Conservation d'employés qualifiés,0.027000000000000003,0.027999999999999997,0.018000000000000002,0.013999999999999999,B,A,A,A
+NS,Coûts liés à l'assurance,0,0.008,0.016,0,A,A,A,A
+BC,Autre obstacle,0,0.021,0.016,0,A,A,A,A
+NT,Pénurie d'espace ou d'équipement,0,0,0.016,0.032,A,A,A,A
+CA,Autre obstacle,0.10400000000000001,0.015,0.015,0.02,C,A,A,A
+NS,Flux de trésorerie ou dette,0,0.05,0.015,0,A,A,A,A
+AB,Taux d'intérêt,0,0.113,0.015,0.006,A,A,A,A
+BC,Obtention de financement,0,0.009000000000000001,0.015,0.005,A,A,A,A
+YT,Flux de trésorerie ou dette,0,0.006,0.015,0,A,A,A,A
+NL,Pénurie d'espace ou d'équipement,0,0.004,0.013999999999999999,0,A,A,A,A
+PE,Autre obstacle,0,0.011000000000000001,0.013999999999999999,0,A,A,A,A
+SK,Autre obstacle,0,0.016,0.013999999999999999,0,A,A,A,A
+CA,Fluctuations de la demande,0.016,0.031,0.013000000000000001,0.005,A,A,A,A
+NB,Coûts liés au transport,0,0.036000000000000004,0.013000000000000001,0.004,A,A,A,A
+NB,Fluctuations de la demande,0.045,0.012,0.012,0.005,B,A,A,A
+ON,Conservation d'employés qualifiés,0.002,0.022000000000000002,0.012,0.163,A,A,A,E
+MB,Pénurie d'espace ou d'équipement,0,0.005,0.012,0.095,A,A,A,D
+NS,Fluctuations de la demande,0,0.035,0.011000000000000001,0,A,A,A,A
+NS,Pénurie d'espace ou d'équipement,0,0.003,0.01,0,A,A,A,A
+NS,Acquisition d'intrants à l'étranger,0.022000000000000002,0.003,0.01,0,A,A,A,A
+NS,Conservation d'employés qualifiés,0,0.034,0.009000000000000001,0.018000000000000002,A,A,A,A
+NB,Insuffisance de la demande,0,0.034,0.009000000000000001,0.004,A,A,A,A
+QC,Flux de trésorerie ou dette,0.011000000000000001,0.026000000000000002,0.009000000000000001,0.044000000000000004,A,A,A,B
+NS,Obtention de financement,0,0.006999999999999999,0.008,0.018000000000000002,A,A,A,A
+NB,Pénurie de main-d'œuvre,0,0.10099999999999999,0.008,0.009000000000000001,A,A,A,A
+ON,Coûts liés à l'immobilier,0,0.035,0.008,0,A,A,A,A
+MB,Obtention de financement,0.002,0.021,0.008,0.006999999999999999,A,A,A,A
+AB,Insuffisance de la demande,0,0.02,0.008,0,A,A,A,A
+YT,Coûts liés au transport,0,0.009000000000000001,0.008,0,A,A,A,A
+CA,Coûts liés au transport,0.001,0.022000000000000002,0.006999999999999999,0.094,A,A,A,D
+NB,Acquisition d'intrants à l'étranger,0,0.001,0.006999999999999999,0,A,A,A,A
+NB,Obtention de financement,0,0.006,0.006999999999999999,0.016,A,A,A,A
+SK,Pénurie de main-d'œuvre,0,0.067,0.006999999999999999,0.075,A,A,A,C
+AB,Coûts liés à l'immobilier,0,0.012,0.006999999999999999,0,A,A,A,A
+NL,Acquisition d'intrants au pays,0,0.003,0.006,0,A,A,A,A
+NS,Taux d'intérêt,0,0.073,0.006,0.01,A,A,A,A
+ON,Insuffisance de la demande,0,0.057,0.006,0.002,A,A,A,A
+ON,Fluctuations de la demande,0.042,0.036000000000000004,0.006,0.015,B,A,A,A
+SK,Coûts liés à l'assurance,0,0.01,0.006,0.002,A,A,A,A
+BC,Pénurie d'espace ou d'équipement,0,0.006,0.006,0.11699999999999999,A,A,A,E
+NL,Fluctuations de la demande,0,0.036000000000000004,0.005,0,A,A,A,A
+NL,Coûts liés au transport,0,0.061,0.005,0,A,A,A,A
+PE,Insuffisance de la demande,0,0.026000000000000002,0.005,0.011000000000000001,A,A,A,A
+ON,Autre obstacle,0.005,0.009000000000000001,0.005,0.049,A,A,A,B
+MB,Taux d'intérêt,0,0.106,0.005,0,A,A,A,A
+CA,Insuffisance de la demande,0.045,0.051,0.004,0.008,B,A,A,A
+CA,Augmentation de la concurrence,0.168,0.011000000000000001,0.004,0.002,E,A,A,A
+MB,Insuffisance de la demande,0,0.02,0.004,0,A,A,A,A
+AB,Pénurie d'espace ou d'équipement,0,0.004,0.004,0,A,A,A,A
+BC,Taux d'intérêt,0.006,0.124,0.004,0.017,A,A,A,A
+BC,Coûts liés au transport,0.001,0.027000000000000003,0.004,0,A,A,A,A
+PE,Pénurie de main-d'œuvre,0.287,0.096,0.003,0,E,A,A,A
+NS,Coûts liés au transport,0,0.031,0.003,0.004,A,A,A,A
+ON,Coûts liés au transport,0,0.011000000000000001,0.003,0.001,A,A,A,A
+NL,Augmentation de la concurrence,0,0.006,0.002,0,A,A,A,A
+NB,Taux d'intérêt,0,0.109,0.002,0.004,A,A,A,A
+MB,Coûts liés à l'immobilier,0.008,0.016,0.002,0,A,A,A,A
+SK,Acquisition d'intrants au pays,0.011000000000000001,0.009000000000000001,0.002,0.003,A,A,A,A
+AB,Fluctuations de la demande,0,0.018000000000000002,0.002,0.003,A,A,A,A
+BC,Acquisition d'intrants au pays,0,0.01,0.002,0,A,A,A,A
+CA,Acquisition d'intrants au pays,0.001,0.006,0.001,0,A,A,A,A
+CA,Acquisition d'intrants à l'étranger,0.001,0.003,0.001,0,A,A,A,A
+NL,Autre obstacle,0,0.021,0.001,0.136,A,A,A,E
+NS,Maintien des stocks,0,0.013000000000000001,0.001,0,A,A,A,A
+NS,Insuffisance de la demande,0,0.034,0.001,0.013999999999999999,A,A,A,A
+QC,Insuffisance de la demande,0.004,0.065,0.001,0.006999999999999999,A,A,A,A
+QC,Fluctuations de la demande,0,0.023,0.001,0,A,A,A,A
+ON,Augmentation de la concurrence,NA,0.013999999999999999,0.001,0.001,NA,A,A,A
+AB,Autre obstacle,0,0.008,0.001,0,A,A,A,A
+BC,Augmentation de la concurrence,0,0.004,0.001,0.003,A,A,A,A
+CA,Maintien des stocks,0,0.003,0,0,A,A,A,A
+CA,Défis liés à l'exportation,0,0.002,0,0,A,A,A,A
+NL,Coûts liés à l'immobilier,0,0.026000000000000002,0,0,A,A,A,A
+NL,Acquisition d'intrants à l'étranger,0.10300000000000001,0.002,0,0,C,A,A,A
+NL,Maintien des stocks,0,0.004,0,0,A,A,A,A
+NL,Insuffisance de la demande,0,0.046,0,0.006,A,A,A,A
+NL,Défis liés à l'exportation,0,0.002,0,0,A,A,A,A
+PE,Coûts liés à l'immobilier,0,0.011000000000000001,0,0,A,A,A,A
+PE,Acquisition d'intrants au pays,0,0,0,0,A,A,A,A
+PE,Acquisition d'intrants à l'étranger,0,0,0,0,A,A,A,A
+PE,Maintien des stocks,0,0.006999999999999999,0,0,A,A,A,A
+PE,Fluctuations de la demande,0,0.032,0,0,A,A,A,A
+PE,Défis liés à l'exportation,0,0.008,0,0,A,A,A,A
+NS,Acquisition d'intrants au pays,0,0.009000000000000001,0,0,A,A,A,A
+NS,Augmentation de la concurrence,0,0.015,0,0,A,A,A,A
+NS,Défis liés à l'exportation,0,0,0,0,A,A,A,A
+NB,Acquisition d'intrants au pays,0.02,0.008,0,0,A,A,A,A
+NB,Maintien des stocks,0,0.006999999999999999,0,0,A,A,A,A
+NB,Augmentation de la concurrence,NA,0.008,0,0,NA,A,A,A
+NB,Défis liés à l'exportation,0,0,0,0,A,A,A,A
+QC,Acquisition d'intrants au pays,0,0.002,0,0,A,A,A,A
+QC,Acquisition d'intrants à l'étranger,0,0.004,0,0,A,A,A,A
+QC,Maintien des stocks,0,0.001,0,0,A,A,A,A
+QC,Coûts liés au transport,0.001,0.02,0,NA,A,A,A,NA
+QC,Augmentation de la concurrence,0,0.013999999999999999,0,0.004,A,A,A,A
+QC,Défis liés à l'exportation,0,0.004,0,0,A,A,A,A
+ON,Acquisition d'intrants au pays,0,0.006,0,0,A,A,A,A
+ON,Acquisition d'intrants à l'étranger,0,0.003,0,0,A,A,A,A
+ON,Maintien des stocks,0,0,0,0,A,A,A,A
+ON,Défis liés à l'exportation,0,0.003,0,0,A,A,A,A
+MB,Acquisition d'intrants au pays,0,0.009000000000000001,0,0.009000000000000001,A,A,A,A
+MB,Acquisition d'intrants à l'étranger,0,0.003,0,0,A,A,A,A
+MB,Maintien des stocks,0,0.013000000000000001,0,0,A,A,A,A
+MB,Augmentation de la concurrence,0,0.013000000000000001,0,0,A,A,A,A
+MB,Défis liés à l'exportation,0,0.003,0,0,A,A,A,A
+SK,Acquisition d'intrants à l'étranger,0,0.003,0,0,A,A,A,A
+SK,Maintien des stocks,0,0.001,0,0,A,A,A,A
+SK,Insuffisance de la demande,0,0.028999999999999998,0,0.005,A,A,A,A
+SK,Augmentation de la concurrence,0,0.013000000000000001,0,0,A,A,A,A
+SK,Défis liés à l'exportation,0,0.001,0,0,A,A,A,A
+AB,Acquisition d'intrants au pays,0,0.008,0,0,A,A,A,A
+AB,Acquisition d'intrants à l'étranger,0,0.002,0,0,A,A,A,A
+AB,Maintien des stocks,0,0.008,0,0,A,A,A,A
+AB,Coûts liés au transport,0,0.040999999999999995,0,0.006,A,A,A,A
+AB,Défis liés à l'exportation,0,0.001,0,0,A,A,A,A
+BC,Acquisition d'intrants à l'étranger,0,0.004,0,0,A,A,A,A
+BC,Maintien des stocks,0,0.003,0,0,A,A,A,A
+BC,Insuffisance de la demande,NA,0.059000000000000004,0,0.024,NA,A,A,A
+BC,Défis liés à l'exportation,0,0.001,0,0,A,A,A,A
+YT,Pénurie d'espace ou d'équipement,0,0,0,0,A,A,A,A
+YT,Coûts liés à l'immobilier,0,0.006999999999999999,0,NA,A,A,A,NA
+YT,Acquisition d'intrants au pays,0,0.008,0,0,A,A,A,A
+YT,Acquisition d'intrants à l'étranger,0,0,0,0,A,A,A,A
+YT,Maintien des stocks,0,0,0,0,A,A,A,A
+YT,Insuffisance de la demande,0,0.015,0,0,A,A,A,A
+YT,Fluctuations de la demande,0,0.022000000000000002,0,0,A,A,A,A
+YT,Difficulté à attirer de nouveaux clients,0,0.01,0,0,A,A,A,A
+YT,Obtention de financement,0,0.024,0,0,A,A,A,A
+YT,Augmentation de la concurrence,0,0.028999999999999998,0,0,A,A,A,A
+YT,Défis liés à l'exportation,0,0,0,0,A,A,A,A
+YT,Autre obstacle,0,0.008,0,NA,A,A,A,NA
+NT,Coûts liés à l'immobilier,0,0.031,0,0,A,A,A,A
+NT,Taux d'intérêt,0,0.081,0,0,A,B,A,A
+NT,Acquisition d'intrants au pays,0,0.046,0,0,A,B,A,A
+NT,Acquisition d'intrants à l'étranger,0,0,0,0,A,A,A,A
+NT,Maintien des stocks,0,0,0,0,A,A,A,A
+NT,Insuffisance de la demande,0,0.026000000000000002,0,0,A,A,A,A
+NT,Difficulté à attirer de nouveaux clients,0.10400000000000001,0.013000000000000001,0,0.027999999999999997,D,A,A,A
+NT,Augmentation de la concurrence,0,0,0,0,A,A,A,A
+NT,Défis liés à l'exportation,0,0,0,0,A,A,A,A
+NU,Coûts liés à l'immobilier,0,0,0,0,A,A,A,A
+NU,Acquisition d'intrants au pays,0,0.018000000000000002,0,0,A,A,A,A
+NU,Acquisition d'intrants à l'étranger,0,0,0,0,A,A,A,A
+NU,Maintien des stocks,0,0,0,0,A,A,A,A
+NU,Insuffisance de la demande,0,0.006999999999999999,0,0,A,A,A,A
+NU,Fluctuations de la demande,0,0,0,0,A,A,A,A
+NU,Difficulté à attirer de nouveaux clients,0,0,0,0,A,A,A,A
+NU,Coûts liés à l'assurance,0,0.011000000000000001,0,0,A,A,A,A
+NU,Obtention de financement,0,0,0,0.08199999999999999,A,A,A,C
+NU,Augmentation de la concurrence,0,0,0,0,A,A,A,A
+NU,Défis liés à l'exportation,0,0,0,0,A,A,A,A
+NU,Autre obstacle,0,0,0,0,A,A,A,A

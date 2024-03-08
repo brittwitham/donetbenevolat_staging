@@ -1,0 +1,29 @@
+geoAbb,item2,GovAgency,Business,CommNPO,BusNPO,GovAgencyStat,BusinessStat,CommNPOStat,BusNPOStat
+SK,Inflation,0,0.147,0.323,NA,A,A,C,NA
+AB,Inflation,0.168,0.217,0.288,0.098,E,A,D,B
+NS,Inflation,0,0.159,0.26,NA,A,A,C,NA
+PE,Inflation,0.108,0.114,0.23,0.055,C,A,C,B
+NB,Inflation,0.013,0.128,0.226,0.027,A,A,C,A
+NL,Inflation,NA,0.116,0.217,0.018,NA,A,C,A
+NT,Inflation,0.023,0.071,0.191,0.027,A,A,C,A
+ON,Inflation,NA,0.135,0.187,0.094,NA,A,C,B
+CA,Inflation,0.148,0.14,0.18,0.157,D,A,B,C
+MB,Inflation,NA,0.185,0.171,NA,NA,A,C,NA
+NU,Inflation,0,0.089,0.131,0,A,B,D,A
+BC,Inflation,0.023,0.133,0.113,NA,A,A,B,NA
+QC,Inflation,0,0.096,0.108,0.05,A,A,B,B
+YT,Inflation,0,0.189,0.096,0.026,A,C,B,A
+NU,Taux d'intérêt,0,0.044,0.087,0,A,A,D,A
+YT,Taux d'intérêt,0,0.099,0.063,0,A,B,C,A
+ON,Taux d'intérêt,0.095,0.131,0.057,0.024,D,A,C,A
+PE,Taux d'intérêt,0.022,0.142,0.032,0.014,A,A,A,A
+QC,Taux d'intérêt,0.001,0.096,0.029,0.03,A,A,A,A
+CA,Taux d'intérêt,0.037,0.117,0.028,0.02,B,A,A,A
+SK,Taux d'intérêt,0,0.112,0.02,0.005,A,A,A,A
+NL,Taux d'intérêt,0.046,0.08,0.018,0.019,B,A,A,A
+AB,Taux d'intérêt,0,0.113,0.015,0.006,A,A,A,A
+NS,Taux d'intérêt,0,0.073,0.006,0.01,A,A,A,A
+MB,Taux d'intérêt,0,0.106,0.005,0,A,A,A,A
+BC,Taux d'intérêt,0.006,0.124,0.004,0.017,A,A,A,A
+NB,Taux d'intérêt,0,0.109,0.002,0.004,A,A,A,A
+NT,Taux d'intérêt,0,0.081,0,0,A,B,A,A

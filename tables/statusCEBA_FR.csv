@@ -1,0 +1,29 @@
+geoAbb,item2,GovAgency,Business,CommNPO,BusNPO,GovAgencyStat,BusinessStat,CommNPOStat,BusNPOStat
+CA,Remboursé,NA,0.278,0.393,0.324,NA,A,C,C
+CA,Not Remboursé,NA,0.722,0.607,0.676,NA,A,C,C
+NL,Remboursé,0,0.243,0.115,0.819,A,B,C,E
+NL,Not Remboursé,1,0.757,0.885,0.181,A,B,C,E
+PE,Remboursé,NA,0.255,0.498,0.132,..,B,E,D
+PE,Not Remboursé,NA,0.745,0.502,0.868,..,B,E,D
+NS,Remboursé,0,0.286,NA,NA,A,B,NA,NA
+NS,Not Remboursé,1,0.714,NA,NA,A,B,NA,NA
+NB,Remboursé,NA,0.253,0.449,NA,..,B,E,NA
+NB,Not Remboursé,NA,0.747,0.551,NA,..,B,E,NA
+QC,Remboursé,0.002,0.284,0.362,0.193,A,B,D,E
+QC,Not Remboursé,0.998,0.716,0.638,0.807,A,B,D,E
+ON,Remboursé,1,0.268,0.376,0.329,A,B,D,E
+ON,Not Remboursé,0,0.732,0.624,0.671,A,B,D,E
+MB,Remboursé,NA,0.299,0.218,NA,NA,B,D,NA
+MB,Not Remboursé,NA,0.701,0.782,NA,NA,B,D,NA
+SK,Remboursé,NA,0.266,0.578,0.065,..,B,E,C
+SK,Not Remboursé,NA,0.734,0.422,0.935,..,B,E,C
+AB,Remboursé,1,0.283,0.336,NA,A,B,E,NA
+AB,Not Remboursé,0,0.717,0.664,NA,A,B,E,NA
+BC,Remboursé,1,0.296,NA,0.339,A,B,NA,E
+BC,Not Remboursé,0,0.704,NA,0.661,A,B,NA,E
+YT,Remboursé,0,0.236,0.045,1,A,D,B,A
+YT,Not Remboursé,1,0.764,0.955,0,A,D,B,A
+NT,Remboursé,1,0.268,0.114,NA,A,C,C,NA
+NT,Not Remboursé,0,0.732,0.886,NA,A,C,C,NA
+NU,Remboursé,0,0.286,1,1,A,D,A,A
+NU,Not Remboursé,1,0.714,0,0,A,D,A,A

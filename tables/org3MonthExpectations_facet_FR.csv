@@ -1,0 +1,841 @@
+seriesDate,geoAbb,busChar,item2,valIncrease,valSame,valDecrease,valNA,statusIncrease,statusSame,statusDecrease,statusNA
+2023.75,CA,Institutions gouvernementales,Nombre d'employés,0.092,0.836,0.071,0,B,C,C,A
+2023.75,CA,Institutions gouvernementales,Postes vacants,0.011000000000000001,0.5589999999999999,0.139,0.29100000000000004,A,E,D,E
+2023.75,CA,Institutions gouvernementales,Ventes,0.10400000000000001,0.418,0.1,0.37799999999999995,C,E,C,E
+2023.75,CA,Institutions gouvernementales,Prix de vente,0.063,0.526,0,0.41100000000000003,B,E,A,E
+2023.75,CA,Institutions gouvernementales,Demande,0.503,0.455,0.042,0,E,E,A,A
+2023.75,CA,Institutions gouvernementales,Importations,0.015,0.107,0.042,0.835,A,C,B,C
+2023.75,CA,Institutions gouvernementales,Exportations,0.001,0.11900000000000001,0.003,0.878,A,C,A,C
+2023.75,CA,Institutions gouvernementales,Résultat opérationnel,0.081,0.863,0.055,0,B,C,B,A
+2023.75,CA,Institutions gouvernementales,Dépenses opérationnelles,0.465,0.53,0.005,0,E,E,A,A
+2023.75,CA,Institutions gouvernementales,Rentabilité,0.042,0.599,0.10400000000000001,0.255,B,E,B,D
+2023.75,CA,Institutions gouvernementales,Réserves de trésorerie,0.046,0.698,0.04,0.21600000000000003,B,D,A,D
+2023.75,CA,Institutions gouvernementales,Dépenses en capital,0.213,0.591,0.009000000000000001,0.188,D,E,A,D
+2023.75,CA,Institutions gouvernementales,Dépenses liées à la formation,0.129,0.624,0.006,0.24100000000000002,C,E,A,D
+2023.75,CA,Institutions gouvernementales,Budget de marketing,0.083,0.586,0.009000000000000001,0.32299999999999995,C,E,A,E
+2023.75,CA,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.012,0.39399999999999996,0.02,0.574,A,E,A,E
+2023.75,CA,Entreprises,Nombre d'employés,0.099,0.7859999999999999,0.115,0,A,A,A,A
+2023.75,CA,Entreprises,Postes vacants,0.055999999999999994,0.5529999999999999,0.077,0.314,A,A,A,A
+2023.75,CA,Entreprises,Ventes,0.162,0.616,0.221,0,A,A,A,A
+2023.75,CA,Entreprises,Prix de vente,0.248,0.675,0.078,0,A,A,A,A
+2023.75,CA,Entreprises,Demande,0.16699999999999998,0.611,0.223,0,A,A,A,A
+2023.75,CA,Entreprises,Importations,0.019,0.191,0.047,0.743,A,A,A,A
+2023.75,CA,Entreprises,Exportations,0.019,0.149,0.028999999999999998,0.8029999999999999,A,A,A,A
+2023.75,CA,Entreprises,Résultat opérationnel,0.17300000000000001,0.557,0.27,0,A,A,A,A
+2023.75,CA,Entreprises,Dépenses opérationnelles,0.42,0.489,0.091,0,A,A,A,A
+2023.75,CA,Entreprises,Rentabilité,0.094,0.529,0.377,0,A,A,A,A
+2023.75,CA,Entreprises,Réserves de trésorerie,0.07400000000000001,0.49700000000000005,0.35100000000000003,0.077,A,A,A,A
+2023.75,CA,Entreprises,Dépenses en capital,0.18,0.5720000000000001,0.10400000000000001,0.14400000000000002,A,A,A,A
+2023.75,CA,Entreprises,Dépenses liées à la formation,0.135,0.523,0.069,0.273,A,A,A,A
+2023.75,CA,Entreprises,Budget de marketing,0.125,0.54,0.092,0.244,A,A,A,A
+2023.75,CA,Entreprises,Dépenses liées à la recherche et au développement,0.065,0.32,0.057,0.5579999999999999,A,A,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Nombre d'employés,0.17600000000000002,0.768,0.055999999999999994,0,B,B,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Postes vacants,0.045,0.517,0.075,0.36200000000000004,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Ventes,0.081,0.359,0.065,0.496,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Prix de vente,0.071,0.38,0.006,0.542,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Demande,0.322,0.596,0.08199999999999999,0,B,B,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Importations,0.003,0.09,0.009000000000000001,0.898,A,A,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Exportations,0.002,0.054000000000000006,0.008,0.937,A,A,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Résultat opérationnel,0.187,0.688,0.126,0,A,B,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.40700000000000003,0.56,0.032,0,B,B,A,A
+2023.75,CA,Organismes communautaires à but non lucratif,Rentabilité,0.033,0.409,0.145,0.413,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.059000000000000004,0.584,0.18899999999999997,0.16899999999999998,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Dépenses en capital,0.17,0.5539999999999999,0.053,0.22399999999999998,B,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.12300000000000001,0.5920000000000001,0.02,0.264,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Budget de marketing,0.09699999999999999,0.495,0.036000000000000004,0.37200000000000005,A,B,A,B
+2023.75,CA,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.035,0.209,0.028999999999999998,0.727,A,A,A,A
+2023.75,CA,Institutions commerciales à but non lucratif,Nombre d'employés,0.25,0.711,0.039,0,D,D,A,A
+2023.75,CA,Institutions commerciales à but non lucratif,Postes vacants,0.038,0.5720000000000001,0.10099999999999999,0.289,A,C,B,C
+2023.75,CA,Institutions commerciales à but non lucratif,Ventes,0.147,0.396,0.040999999999999995,0.41600000000000004,D,C,A,C
+2023.75,CA,Institutions commerciales à but non lucratif,Prix de vente,0.18899999999999997,0.36200000000000004,0.008,0.441,D,C,A,C
+2023.75,CA,Institutions commerciales à but non lucratif,Demande,0.374,0.593,0.033,0,D,D,A,A
+2023.75,CA,Institutions commerciales à but non lucratif,Importations,0.009000000000000001,0.11699999999999999,0.003,0.871,A,B,A,B
+2023.75,CA,Institutions commerciales à but non lucratif,Exportations,0.005,0.091,0.02,0.883,A,A,A,B
+2023.75,CA,Institutions commerciales à but non lucratif,Résultat opérationnel,0.213,0.635,0.152,0,D,D,B,A
+2023.75,CA,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.424,0.54,0.036000000000000004,0,C,C,A,A
+2023.75,CA,Institutions commerciales à but non lucratif,Rentabilité,0.124,0.428,0.193,0.255,D,C,C,C
+2023.75,CA,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.247,0.495,0.136,0.122,D,C,B,B
+2023.75,CA,Institutions commerciales à but non lucratif,Dépenses en capital,0.215,0.488,0.071,0.226,D,C,B,C
+2023.75,CA,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.259,0.5870000000000001,0.022000000000000002,0.132,D,C,A,B
+2023.75,CA,Institutions commerciales à but non lucratif,Budget de marketing,0.255,0.484,0.033,0.228,D,C,A,C
+2023.75,CA,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.16699999999999998,0.308,0.019,0.506,D,C,A,C
+2023.75,NL,Institutions gouvernementales,Nombre d'employés,NA,NA,0,0,NA,NA,A,A
+2023.75,NL,Institutions gouvernementales,Postes vacants,NA,0.242,0.023,NA,NA,E,A,NA
+2023.75,NL,Institutions gouvernementales,Ventes,NA,NA,0,0.111,NA,NA,A,C
+2023.75,NL,Institutions gouvernementales,Prix de vente,NA,NA,0,0.111,NA,NA,A,C
+2023.75,NL,Institutions gouvernementales,Demande,NA,NA,0.10300000000000001,0,NA,NA,C,A
+2023.75,NL,Institutions gouvernementales,Importations,0,NA,0,NA,A,NA,A,NA
+2023.75,NL,Institutions gouvernementales,Exportations,0,NA,0,NA,A,NA,A,NA
+2023.75,NL,Institutions gouvernementales,Résultat opérationnel,0,1,0,0,A,A,A,A
+2023.75,NL,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0.027999999999999997,0,NA,NA,A,A
+2023.75,NL,Institutions gouvernementales,Rentabilité,0,0.753,0,0.247,A,E,A,E
+2023.75,NL,Institutions gouvernementales,Réserves de trésorerie,0,0.884,0.033,0.083,A,C,A,C
+2023.75,NL,Institutions gouvernementales,Dépenses en capital,0.033,NA,NA,0.06,A,NA,NA,C
+2023.75,NL,Institutions gouvernementales,Dépenses liées à la formation,0.033,0.9390000000000001,0.027999999999999997,0,A,B,A,A
+2023.75,NL,Institutions gouvernementales,Budget de marketing,0,0.9670000000000001,0,0.033,A,A,A,A
+2023.75,NL,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,NA,0,NA,A,NA,A,NA
+2023.75,NL,Entreprises,Nombre d'employés,0.081,0.7609999999999999,0.158,0,A,A,A,A
+2023.75,NL,Entreprises,Postes vacants,0.065,0.5720000000000001,0.09300000000000001,0.26899999999999996,A,B,A,A
+2023.75,NL,Entreprises,Ventes,0.14300000000000002,0.632,0.225,0,A,B,A,A
+2023.75,NL,Entreprises,Prix de vente,0.28800000000000003,0.654,0.057999999999999996,0,A,A,A,A
+2023.75,NL,Entreprises,Demande,0.17800000000000002,0.632,0.191,0,A,B,A,A
+2023.75,NL,Entreprises,Importations,0.006999999999999999,0.166,0.017,0.81,A,A,A,A
+2023.75,NL,Entreprises,Exportations,0.01,0.11,0.013000000000000001,0.868,A,A,A,A
+2023.75,NL,Entreprises,Résultat opérationnel,0.134,0.564,0.302,0,A,B,B,A
+2023.75,NL,Entreprises,Dépenses opérationnelles,0.40399999999999997,0.48200000000000004,0.114,0,B,B,A,A
+2023.75,NL,Entreprises,Rentabilité,0.075,0.583,0.342,0,A,B,B,A
+2023.75,NL,Entreprises,Réserves de trésorerie,0.061,0.563,0.26899999999999996,0.106,A,B,A,A
+2023.75,NL,Entreprises,Dépenses en capital,0.17,0.617,0.109,0.105,A,B,A,A
+2023.75,NL,Entreprises,Dépenses liées à la formation,0.092,0.514,0.069,0.326,A,B,A,B
+2023.75,NL,Entreprises,Budget de marketing,0.11,0.573,0.071,0.24600000000000002,A,B,A,A
+2023.75,NL,Entreprises,Dépenses liées à la recherche et au développement,0.013999999999999999,0.281,0.063,0.643,A,A,A,B
+2023.75,NL,Organismes communautaires à but non lucratif,Nombre d'employés,0.064,0.883,0.053,0,A,B,B,A
+2023.75,NL,Organismes communautaires à but non lucratif,Postes vacants,0.023,0.599,0.022000000000000002,0.35600000000000004,A,D,A,D
+2023.75,NL,Organismes communautaires à but non lucratif,Ventes,0.061,0.531,0.055,0.353,A,D,A,C
+2023.75,NL,Organismes communautaires à but non lucratif,Prix de vente,0.06,0.631,0.002,0.306,A,C,A,C
+2023.75,NL,Organismes communautaires à but non lucratif,Demande,0.375,0.5660000000000001,0.059000000000000004,0,D,D,A,A
+2023.75,NL,Organismes communautaires à but non lucratif,Importations,0,0.055,0.005,0.9390000000000001,A,A,A,A
+2023.75,NL,Organismes communautaires à but non lucratif,Exportations,0,0.019,0.008,0.973,A,A,A,A
+2023.75,NL,Organismes communautaires à but non lucratif,Résultat opérationnel,0.057,0.8320000000000001,0.11,0,A,B,B,A
+2023.75,NL,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.303,0.659,0.037000000000000005,0,C,C,A,A
+2023.75,NL,Organismes communautaires à but non lucratif,Rentabilité,0.025,0.45399999999999996,0.225,0.29600000000000004,A,C,C,C
+2023.75,NL,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.017,0.602,0.18899999999999997,0.192,A,D,C,C
+2023.75,NL,Organismes communautaires à but non lucratif,Dépenses en capital,0.08199999999999999,0.525,0.062,0.331,B,D,A,D
+2023.75,NL,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.18100000000000002,0.462,0.012,0.345,C,C,A,C
+2023.75,NL,Organismes communautaires à but non lucratif,Budget de marketing,0.062,0.535,0.062,0.342,A,C,B,C
+2023.75,NL,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.039,0.253,0.011000000000000001,0.6970000000000001,A,C,A,C
+2023.75,NL,Institutions commerciales à but non lucratif,Nombre d'employés,0.069,0.858,0.073,0,B,C,B,A
+2023.75,NL,Institutions commerciales à but non lucratif,Postes vacants,0.012,NA,0.03,NA,A,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Ventes,0,NA,0.021,NA,A,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Prix de vente,0,NA,0,NA,A,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Demande,0.079,0.912,0.009000000000000001,0,C,C,A,A
+2023.75,NL,Institutions commerciales à but non lucratif,Importations,0,0.081,0,0.919,A,B,A,B
+2023.75,NL,Institutions commerciales à but non lucratif,Exportations,0,0.042,0.03,0.9279999999999999,A,B,A,B
+2023.75,NL,Institutions commerciales à but non lucratif,Résultat opérationnel,NA,NA,0.10099999999999999,0,NA,NA,D,A
+2023.75,NL,Institutions commerciales à but non lucratif,Dépenses opérationnelles,NA,NA,0.03,0,NA,NA,B,A
+2023.75,NL,Institutions commerciales à but non lucratif,Rentabilité,0.031,NA,0.037000000000000005,NA,B,NA,B,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.038,0.9079999999999999,0.012,0.043,A,B,A,B
+2023.75,NL,Institutions commerciales à but non lucratif,Dépenses en capital,0.13,NA,0,NA,E,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.115,NA,0,NA,D,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Budget de marketing,0.005,NA,0,NA,A,NA,A,NA
+2023.75,NL,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0,0.292,0,0.708,A,E,A,E
+2023.75,PE,Institutions gouvernementales,Nombre d'employés,0.405,0.595,0,0,E,E,A,A
+2023.75,PE,Institutions gouvernementales,Postes vacants,0,0.626,0.316,0.057999999999999996,A,E,E,B
+2023.75,PE,Institutions gouvernementales,Ventes,0,0.332,0.16,0.508,A,E,E,E
+2023.75,PE,Institutions gouvernementales,Prix de vente,0.022000000000000002,0.506,0,0.473,A,E,A,E
+2023.75,PE,Institutions gouvernementales,Demande,0.284,0.716,0,0,E,E,A,A
+2023.75,PE,Institutions gouvernementales,Importations,0,0,0,1,A,A,A,A
+2023.75,PE,Institutions gouvernementales,Exportations,0,0,0,1,A,A,A,A
+2023.75,PE,Institutions gouvernementales,Résultat opérationnel,0.055,0.763,0.182,0,B,E,E,A
+2023.75,PE,Institutions gouvernementales,Dépenses opérationnelles,0.284,0.716,0,0,E,E,A,A
+2023.75,PE,Institutions gouvernementales,Rentabilité,0,0.40299999999999997,0.182,0.414,A,E,E,E
+2023.75,PE,Institutions gouvernementales,Réserves de trésorerie,0,0.40299999999999997,0.182,0.414,A,E,E,E
+2023.75,PE,Institutions gouvernementales,Dépenses en capital,0.077,0.498,0.16,0.265,B,E,E,E
+2023.75,PE,Institutions gouvernementales,Dépenses liées à la formation,0.414,0.39,0.16,0.036000000000000004,E,E,E,A
+2023.75,PE,Institutions gouvernementales,Budget de marketing,0.043,0.26,0.16,0.536,B,D,E,E
+2023.75,PE,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.055999999999999994,0.098,0.16,0.6859999999999999,C,C,E,E
+2023.75,PE,Entreprises,Nombre d'employés,0.08199999999999999,0.7609999999999999,0.157,0,A,A,A,A
+2023.75,PE,Entreprises,Postes vacants,0.043,0.584,0.079,0.295,A,B,A,B
+2023.75,PE,Entreprises,Ventes,0.133,0.6779999999999999,0.188,0,A,B,A,A
+2023.75,PE,Entreprises,Prix de vente,0.195,0.713,0.092,0,A,A,A,A
+2023.75,PE,Entreprises,Demande,0.162,0.659,0.179,0,A,B,A,A
+2023.75,PE,Entreprises,Importations,0.006999999999999999,0.214,0.04,0.74,A,A,A,A
+2023.75,PE,Entreprises,Exportations,0.012,0.162,0.011000000000000001,0.815,A,A,A,A
+2023.75,PE,Entreprises,Résultat opérationnel,0.166,0.596,0.23800000000000002,0,A,B,B,A
+2023.75,PE,Entreprises,Dépenses opérationnelles,0.37,0.521,0.109,0,B,B,A,A
+2023.75,PE,Entreprises,Rentabilité,0.1,0.5539999999999999,0.34600000000000003,0,A,B,B,A
+2023.75,PE,Entreprises,Réserves de trésorerie,0.096,0.515,0.295,0.094,A,B,B,A
+2023.75,PE,Entreprises,Dépenses en capital,0.192,0.603,0.1,0.105,B,B,A,A
+2023.75,PE,Entreprises,Dépenses liées à la formation,0.10400000000000001,0.532,0.07,0.294,A,B,A,B
+2023.75,PE,Entreprises,Budget de marketing,0.055,0.5579999999999999,0.113,0.27399999999999997,A,B,A,B
+2023.75,PE,Entreprises,Dépenses liées à la recherche et au développement,0.051,0.3,0.055999999999999994,0.593,A,B,A,B
+2023.75,PE,Organismes communautaires à but non lucratif,Nombre d'employés,0.193,0.684,0.12300000000000001,0,C,D,C,A
+2023.75,PE,Organismes communautaires à but non lucratif,Postes vacants,0.026000000000000002,0.45,0.07,0.45399999999999996,A,C,B,C
+2023.75,PE,Organismes communautaires à but non lucratif,Ventes,0.113,0.385,0.09300000000000001,0.409,C,C,B,C
+2023.75,PE,Organismes communautaires à but non lucratif,Prix de vente,0.068,0.545,0.044000000000000004,0.34299999999999997,B,C,B,C
+2023.75,PE,Organismes communautaires à but non lucratif,Demande,0.252,0.684,0.064,0,D,D,A,A
+2023.75,PE,Organismes communautaires à but non lucratif,Importations,0,0.078,0,0.922,A,B,A,B
+2023.75,PE,Organismes communautaires à but non lucratif,Exportations,0,0.06,0,0.94,A,B,A,B
+2023.75,PE,Organismes communautaires à but non lucratif,Résultat opérationnel,0.079,0.745,0.17600000000000002,0,B,C,C,A
+2023.75,PE,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.483,0.495,0.021,0,D,D,A,A
+2023.75,PE,Organismes communautaires à but non lucratif,Rentabilité,0.01,0.37799999999999995,0.156,0.456,A,C,C,C
+2023.75,PE,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.038,0.59,0.258,0.114,A,D,D,B
+2023.75,PE,Organismes communautaires à but non lucratif,Dépenses en capital,0.217,0.573,0.02,0.19,C,D,A,C
+2023.75,PE,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.139,0.507,0.044000000000000004,0.31,C,C,B,C
+2023.75,PE,Organismes communautaires à but non lucratif,Budget de marketing,0.096,0.496,0.013000000000000001,0.395,C,C,A,D
+2023.75,PE,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.019,0.243,0,0.738,A,C,A,C
+2023.75,PE,Institutions commerciales à but non lucratif,Nombre d'employés,0.03,0.855,0.115,0,B,C,C,A
+2023.75,PE,Institutions commerciales à but non lucratif,Postes vacants,0,0.423,0.03,0.547,A,E,B,E
+2023.75,PE,Institutions commerciales à but non lucratif,Ventes,0,0.45899999999999996,0.061,0.48,A,E,B,E
+2023.75,PE,Institutions commerciales à but non lucratif,Prix de vente,0.13,0.29600000000000004,0,0.575,E,E,A,E
+2023.75,PE,Institutions commerciales à but non lucratif,Demande,NA,NA,0.053,0,NA,NA,A,A
+2023.75,PE,Institutions commerciales à but non lucratif,Importations,0,0.32,0.006999999999999999,0.6729999999999999,A,E,A,E
+2023.75,PE,Institutions commerciales à but non lucratif,Exportations,0,NA,0.03,0.68,A,NA,B,E
+2023.75,PE,Institutions commerciales à but non lucratif,Résultat opérationnel,0.14,0.813,0.047,0,E,E,A,A
+2023.75,PE,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.297,0.6609999999999999,0.042,0,E,E,A,A
+2023.75,PE,Institutions commerciales à but non lucratif,Rentabilité,0,0.6990000000000001,0.039,0.262,A,E,A,D
+2023.75,PE,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.03,0.561,0.34299999999999997,0.065,B,E,E,B
+2023.75,PE,Institutions commerciales à but non lucratif,Dépenses en capital,0,0.496,NA,0.152,A,E,NA,C
+2023.75,PE,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.166,0.677,0.025,0.132,E,E,A,C
+2023.75,PE,Institutions commerciales à but non lucratif,Budget de marketing,0.039,0.8140000000000001,0.025,0.122,B,C,A,C
+2023.75,PE,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.006999999999999999,0.623,0.011000000000000001,0.36,A,E,A,E
+2023.75,NS,Institutions gouvernementales,Nombre d'employés,0,1,0,0,A,A,A,A
+2023.75,NS,Institutions gouvernementales,Postes vacants,0.14400000000000002,0.7979999999999999,0,0.057999999999999996,E,E,A,C
+2023.75,NS,Institutions gouvernementales,Ventes,0.153,NA,0,NA,E,NA,A,NA
+2023.75,NS,Institutions gouvernementales,Prix de vente,0.153,NA,0,NA,E,NA,A,NA
+2023.75,NS,Institutions gouvernementales,Demande,0.153,0.825,0.022000000000000002,0,E,E,A,A
+2023.75,NS,Institutions gouvernementales,Importations,0,0.355,0,0.645,A,E,A,E
+2023.75,NS,Institutions gouvernementales,Exportations,0,0.16699999999999998,0,0.833,A,E,A,E
+2023.75,NS,Institutions gouvernementales,Résultat opérationnel,0.113,0.887,0,0,D,D,A,A
+2023.75,NS,Institutions gouvernementales,Dépenses opérationnelles,0.267,0.733,0,0,E,E,A,A
+2023.75,NS,Institutions gouvernementales,Rentabilité,0,NA,0,NA,A,NA,A,NA
+2023.75,NS,Institutions gouvernementales,Réserves de trésorerie,NA,NA,0,0.07,NA,NA,A,C
+2023.75,NS,Institutions gouvernementales,Dépenses en capital,NA,NA,0,0.087,NA,NA,A,C
+2023.75,NS,Institutions gouvernementales,Dépenses liées à la formation,NA,NA,0,0.136,NA,NA,A,D
+2023.75,NS,Institutions gouvernementales,Budget de marketing,0,NA,0,NA,A,NA,A,NA
+2023.75,NS,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,NA,0,NA,A,NA,A,NA
+2023.75,NS,Entreprises,Nombre d'employés,0.105,0.753,0.142,0,A,A,A,A
+2023.75,NS,Entreprises,Postes vacants,0.062,0.604,0.051,0.284,A,A,A,A
+2023.75,NS,Entreprises,Ventes,0.184,0.622,0.195,0,A,A,A,A
+2023.75,NS,Entreprises,Prix de vente,0.292,0.647,0.061,0,A,A,A,A
+2023.75,NS,Entreprises,Demande,0.21899999999999997,0.607,0.174,0,A,A,A,A
+2023.75,NS,Entreprises,Importations,0.023,0.161,0.03,0.7859999999999999,A,A,A,A
+2023.75,NS,Entreprises,Exportations,0.013000000000000001,0.147,0.013999999999999999,0.826,A,A,A,A
+2023.75,NS,Entreprises,Résultat opérationnel,0.2,0.565,0.23399999999999999,0,A,A,A,A
+2023.75,NS,Entreprises,Dépenses opérationnelles,0.465,0.44799999999999995,0.087,0,B,A,A,A
+2023.75,NS,Entreprises,Rentabilité,0.109,0.525,0.366,0,A,B,B,A
+2023.75,NS,Entreprises,Réserves de trésorerie,0.10800000000000001,0.52,0.289,0.083,A,A,A,A
+2023.75,NS,Entreprises,Dépenses en capital,0.19399999999999998,0.557,0.10300000000000001,0.147,A,B,A,A
+2023.75,NS,Entreprises,Dépenses liées à la formation,0.149,0.509,0.034,0.308,A,A,A,A
+2023.75,NS,Entreprises,Budget de marketing,0.08,0.56,0.076,0.285,A,A,A,A
+2023.75,NS,Entreprises,Dépenses liées à la recherche et au développement,0.046,0.28800000000000003,0.018000000000000002,0.648,A,A,A,A
+2023.75,NS,Organismes communautaires à but non lucratif,Nombre d'employés,0.077,0.836,0.087,0,A,B,B,A
+2023.75,NS,Organismes communautaires à but non lucratif,Postes vacants,0.107,0.461,0.049,0.38299999999999995,C,D,A,C
+2023.75,NS,Organismes communautaires à but non lucratif,Ventes,0.127,0.175,0.057,0.6409999999999999,C,B,A,C
+2023.75,NS,Organismes communautaires à but non lucratif,Prix de vente,0.054000000000000006,0.27,0.002,0.674,A,C,A,C
+2023.75,NS,Organismes communautaires à but non lucratif,Demande,0.23,0.731,0.039,0,C,C,A,A
+2023.75,NS,Organismes communautaires à but non lucratif,Importations,0,0.025,0.003,0.972,A,A,A,A
+2023.75,NS,Organismes communautaires à but non lucratif,Exportations,0.004,0.033,0.006,0.9570000000000001,A,A,A,A
+2023.75,NS,Organismes communautaires à but non lucratif,Résultat opérationnel,0.168,0.72,0.11199999999999999,0,C,C,B,A
+2023.75,NS,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.397,0.562,0.04,0,C,C,A,A
+2023.75,NS,Organismes communautaires à but non lucratif,Rentabilité,0.086,0.31,0.129,0.475,C,C,B,C
+2023.75,NS,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.025,0.578,0.2,0.198,A,C,B,C
+2023.75,NS,Organismes communautaires à but non lucratif,Dépenses en capital,0.193,0.479,0.013000000000000001,0.315,C,C,A,C
+2023.75,NS,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.114,0.515,0.078,0.293,B,C,B,C
+2023.75,NS,Organismes communautaires à but non lucratif,Budget de marketing,0.03,0.537,0.08800000000000001,0.344,A,C,B,C
+2023.75,NS,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.013000000000000001,0.145,0.046,0.7959999999999999,A,B,B,B
+2023.75,NS,Institutions commerciales à but non lucratif,Nombre d'employés,0.069,0.895,0.035,0,B,B,A,A
+2023.75,NS,Institutions commerciales à but non lucratif,Postes vacants,0.017,0.713,0.032,0.237,A,E,A,E
+2023.75,NS,Institutions commerciales à but non lucratif,Ventes,0.022000000000000002,0.223,0.039,0.716,A,E,B,E
+2023.75,NS,Institutions commerciales à but non lucratif,Prix de vente,0.047,0.20199999999999999,0,0.7509999999999999,A,D,A,E
+2023.75,NS,Institutions commerciales à but non lucratif,Demande,0.695,0.261,0.044000000000000004,0,E,E,B,A
+2023.75,NS,Institutions commerciales à but non lucratif,Importations,0.01,0.08900000000000001,0,0.9009999999999999,A,D,A,D
+2023.75,NS,Institutions commerciales à but non lucratif,Exportations,0.01,0.08,0.013000000000000001,0.898,A,D,A,D
+2023.75,NS,Institutions commerciales à but non lucratif,Résultat opérationnel,0.19899999999999998,0.732,0.069,0,E,E,B,A
+2023.75,NS,Institutions commerciales à but non lucratif,Dépenses opérationnelles,NA,NA,0.026000000000000002,0,NA,NA,A,A
+2023.75,NS,Institutions commerciales à but non lucratif,Rentabilité,0.013999999999999999,NA,0.057,NA,A,NA,B,NA
+2023.75,NS,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.017,NA,NA,0.055999999999999994,A,NA,NA,B
+2023.75,NS,Institutions commerciales à but non lucratif,Dépenses en capital,NA,NA,0.024,0.222,NA,NA,A,E
+2023.75,NS,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.057,NA,0.008,NA,B,NA,A,NA
+2023.75,NS,Institutions commerciales à but non lucratif,Budget de marketing,0.022000000000000002,NA,0.03,NA,A,NA,A,NA
+2023.75,NS,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.015,NA,0.004,NA,A,NA,A,NA
+2023.75,NB,Institutions gouvernementales,Nombre d'employés,NA,NA,0,0,NA,NA,A,A
+2023.75,NB,Institutions gouvernementales,Postes vacants,0.042,0.855,0.045,0.057,B,E,B,B
+2023.75,NB,Institutions gouvernementales,Ventes,NA,NA,0,0.142,NA,NA,A,D
+2023.75,NB,Institutions gouvernementales,Prix de vente,0.013000000000000001,0.845,0,0.142,A,E,A,D
+2023.75,NB,Institutions gouvernementales,Demande,0.057,0.943,0,0,B,B,A,A
+2023.75,NB,Institutions gouvernementales,Importations,0,0.838,0,0.162,A,E,A,E
+2023.75,NB,Institutions gouvernementales,Exportations,0,0.825,0,0.175,A,E,A,E
+2023.75,NB,Institutions gouvernementales,Résultat opérationnel,0.013000000000000001,0.987,0,0,A,A,A,A
+2023.75,NB,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0,0,NA,NA,A,A
+2023.75,NB,Institutions gouvernementales,Rentabilité,0,0.943,0,0.057,A,B,A,B
+2023.75,NB,Institutions gouvernementales,Réserves de trésorerie,0,0.873,0,0.127,A,D,A,D
+2023.75,NB,Institutions gouvernementales,Dépenses en capital,0.02,0.924,0.013000000000000001,0.042,A,C,A,B
+2023.75,NB,Institutions gouvernementales,Dépenses liées à la formation,0,0.845,0.013000000000000001,0.142,A,E,A,D
+2023.75,NB,Institutions gouvernementales,Budget de marketing,0,0.915,0,0.085,A,C,A,C
+2023.75,NB,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.045,0.794,0,0.16,B,E,A,E
+2023.75,NB,Entreprises,Nombre d'employés,0.11199999999999999,0.757,0.13,0,A,A,A,A
+2023.75,NB,Entreprises,Postes vacants,0.071,0.5429999999999999,0.09300000000000001,0.293,A,A,A,A
+2023.75,NB,Entreprises,Ventes,0.20600000000000002,0.562,0.23199999999999998,0,A,A,A,A
+2023.75,NB,Entreprises,Prix de vente,0.207,0.762,0.031,0,A,A,A,A
+2023.75,NB,Entreprises,Demande,0.223,0.62,0.157,0,A,A,A,A
+2023.75,NB,Entreprises,Importations,0.015,0.151,0.031,0.8029999999999999,A,A,A,A
+2023.75,NB,Entreprises,Exportations,0.013000000000000001,0.10099999999999999,0.028999999999999998,0.856,A,A,A,A
+2023.75,NB,Entreprises,Résultat opérationnel,0.195,0.573,0.23199999999999998,0,A,A,A,A
+2023.75,NB,Entreprises,Dépenses opérationnelles,0.41,0.465,0.125,0,A,A,A,A
+2023.75,NB,Entreprises,Rentabilité,0.146,0.516,0.33799999999999997,0,A,A,A,A
+2023.75,NB,Entreprises,Réserves de trésorerie,0.067,0.529,0.289,0.115,A,B,A,A
+2023.75,NB,Entreprises,Dépenses en capital,0.145,0.618,0.105,0.131,A,A,A,A
+2023.75,NB,Entreprises,Dépenses liées à la formation,0.11599999999999999,0.521,0.064,0.299,A,A,A,A
+2023.75,NB,Entreprises,Budget de marketing,0.107,0.545,0.07,0.278,A,A,A,A
+2023.75,NB,Entreprises,Dépenses liées à la recherche et au développement,0.038,0.28600000000000003,0.027999999999999997,0.648,A,A,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Nombre d'employés,0.20600000000000002,0.772,0.022000000000000002,0,C,C,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Postes vacants,0.013999999999999999,0.52,0.05,0.41700000000000004,A,C,A,C
+2023.75,NB,Organismes communautaires à but non lucratif,Ventes,0.067,0.426,0.019,0.488,B,D,A,C
+2023.75,NB,Organismes communautaires à but non lucratif,Prix de vente,0.053,0.366,0.057999999999999996,0.523,A,C,B,C
+2023.75,NB,Organismes communautaires à but non lucratif,Demande,0.317,0.633,0.049,0,C,C,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Importations,0.015,0.10400000000000001,0.002,0.879,A,C,A,C
+2023.75,NB,Organismes communautaires à but non lucratif,Exportations,0,0.063,0.001,0.9359999999999999,A,A,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Résultat opérationnel,0.146,0.7959999999999999,0.057999999999999996,0,B,B,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.387,0.595,0.018000000000000002,0,C,C,A,A
+2023.75,NB,Organismes communautaires à but non lucratif,Rentabilité,0.013999999999999999,0.557,0.121,0.308,A,D,C,C
+2023.75,NB,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.027000000000000003,0.527,0.242,0.203,A,D,C,C
+2023.75,NB,Organismes communautaires à but non lucratif,Dépenses en capital,0.083,0.491,0.106,0.32,B,D,C,C
+2023.75,NB,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.16,0.522,0.073,0.245,C,C,C,C
+2023.75,NB,Organismes communautaires à but non lucratif,Budget de marketing,0.03,0.452,0.079,0.439,A,C,C,D
+2023.75,NB,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.021,0.20600000000000002,0.015,0.758,A,B,A,C
+2023.75,NB,Institutions commerciales à but non lucratif,Nombre d'employés,0.263,0.696,0.040999999999999995,0,E,E,B,A
+2023.75,NB,Institutions commerciales à but non lucratif,Postes vacants,0.094,NA,0.051,0.243,D,NA,B,E
+2023.75,NB,Institutions commerciales à but non lucratif,Ventes,0.009000000000000001,0.22899999999999998,0,0.762,A,D,A,E
+2023.75,NB,Institutions commerciales à but non lucratif,Prix de vente,0.040999999999999995,0.175,0,0.784,B,D,A,D
+2023.75,NB,Institutions commerciales à but non lucratif,Demande,0.1,0.871,0.028999999999999998,0,D,D,B,A
+2023.75,NB,Institutions commerciales à but non lucratif,Importations,0,0.11800000000000001,0,0.882,A,C,A,C
+2023.75,NB,Institutions commerciales à but non lucratif,Exportations,0,0.064,0.038,0.897,A,B,B,C
+2023.75,NB,Institutions commerciales à but non lucratif,Résultat opérationnel,0.102,0.841,0.057,0,D,E,B,A
+2023.75,NB,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.295,0.6890000000000001,0.015,0,E,E,A,A
+2023.75,NB,Institutions commerciales à but non lucratif,Rentabilité,0.004,0.281,0.048,0.667,A,E,B,E
+2023.75,NB,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.043,NA,0.17,NA,B,NA,E,NA
+2023.75,NB,Institutions commerciales à but non lucratif,Dépenses en capital,0.114,0.276,0.006999999999999999,NA,D,E,A,NA
+2023.75,NB,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.052000000000000005,NA,0,NA,B,NA,A,NA
+2023.75,NB,Institutions commerciales à but non lucratif,Budget de marketing,0.013000000000000001,NA,0.004,NA,A,NA,A,NA
+2023.75,NB,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.009000000000000001,0.134,0.004,0.8540000000000001,A,C,A,C
+2023.75,QC,Institutions gouvernementales,Nombre d'employés,0.07400000000000001,0.924,0.002,0,C,C,A,A
+2023.75,QC,Institutions gouvernementales,Postes vacants,0.006,NA,NA,NA,A,NA,NA,NA
+2023.75,QC,Institutions gouvernementales,Ventes,0.035,NA,0.005,NA,B,NA,A,NA
+2023.75,QC,Institutions gouvernementales,Prix de vente,0.006,NA,0,NA,A,NA,A,NA
+2023.75,QC,Institutions gouvernementales,Demande,NA,NA,0.005,0,NA,NA,A,A
+2023.75,QC,Institutions gouvernementales,Importations,0,0.006999999999999999,0,0.993,A,A,A,A
+2023.75,QC,Institutions gouvernementales,Exportations,0,0,0.004,0.996,A,A,A,A
+2023.75,QC,Institutions gouvernementales,Résultat opérationnel,0.042,0.9520000000000001,0.006,0,B,B,A,A
+2023.75,QC,Institutions gouvernementales,Dépenses opérationnelles,0.054000000000000006,0.9440000000000001,0.001,0,B,B,A,A
+2023.75,QC,Institutions gouvernementales,Rentabilité,0.033,0.912,0.015,0.040999999999999995,B,C,A,A
+2023.75,QC,Institutions gouvernementales,Réserves de trésorerie,0.028999999999999998,0.937,0.013999999999999999,0.019,A,B,A,A
+2023.75,QC,Institutions gouvernementales,Dépenses en capital,0.035,0.9390000000000001,0,0.025,A,B,A,A
+2023.75,QC,Institutions gouvernementales,Dépenses liées à la formation,0.012,NA,0.001,NA,A,NA,A,NA
+2023.75,QC,Institutions gouvernementales,Budget de marketing,0.001,NA,0.009000000000000001,NA,A,NA,A,NA
+2023.75,QC,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.018000000000000002,NA,0,NA,A,NA,A,NA
+2023.75,QC,Entreprises,Nombre d'employés,0.127,0.763,0.11,0,A,A,A,A
+2023.75,QC,Entreprises,Postes vacants,0.046,0.467,0.09300000000000001,0.39399999999999996,A,A,A,A
+2023.75,QC,Entreprises,Ventes,0.193,0.619,0.188,0,A,A,A,A
+2023.75,QC,Entreprises,Prix de vente,0.285,0.653,0.062,0,A,A,A,A
+2023.75,QC,Entreprises,Demande,0.16699999999999998,0.654,0.179,0,A,A,A,A
+2023.75,QC,Entreprises,Importations,0.021,0.16,0.019,0.8,A,A,A,A
+2023.75,QC,Entreprises,Exportations,0.027000000000000003,0.11,0.017,0.846,A,A,A,A
+2023.75,QC,Entreprises,Résultat opérationnel,0.203,0.5760000000000001,0.221,0,A,A,A,A
+2023.75,QC,Entreprises,Dépenses opérationnelles,0.376,0.523,0.10099999999999999,0,A,A,A,A
+2023.75,QC,Entreprises,Rentabilité,0.128,0.58,0.292,0,A,A,A,A
+2023.75,QC,Entreprises,Réserves de trésorerie,0.109,0.462,0.349,0.08,A,A,A,A
+2023.75,QC,Entreprises,Dépenses en capital,0.166,0.599,0.086,0.149,A,A,A,A
+2023.75,QC,Entreprises,Dépenses liées à la formation,0.14800000000000002,0.556,0.053,0.243,A,A,A,A
+2023.75,QC,Entreprises,Budget de marketing,0.106,0.518,0.081,0.295,A,A,A,A
+2023.75,QC,Entreprises,Dépenses liées à la recherche et au développement,0.061,0.322,0.036000000000000004,0.581,A,A,A,A
+2023.75,QC,Organismes communautaires à but non lucratif,Nombre d'employés,0.168,0.6920000000000001,0.14,0,C,C,C,A
+2023.75,QC,Organismes communautaires à but non lucratif,Postes vacants,0.032,0.418,0.122,0.428,A,C,B,C
+2023.75,QC,Organismes communautaires à but non lucratif,Ventes,0.129,0.34700000000000003,0.114,0.41,B,C,C,C
+2023.75,QC,Organismes communautaires à but non lucratif,Prix de vente,0.10400000000000001,0.42100000000000004,0.002,0.473,B,C,A,C
+2023.75,QC,Organismes communautaires à but non lucratif,Demande,0.344,0.505,0.151,0,C,C,C,A
+2023.75,QC,Organismes communautaires à but non lucratif,Importations,0.003,0.09300000000000001,0.003,0.9009999999999999,A,C,A,C
+2023.75,QC,Organismes communautaires à but non lucratif,Exportations,0,0.08800000000000001,0.003,0.909,A,C,A,C
+2023.75,QC,Organismes communautaires à but non lucratif,Résultat opérationnel,0.244,0.5770000000000001,0.179,0,C,C,C,A
+2023.75,QC,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.389,0.5529999999999999,0.057999999999999996,0,C,C,B,A
+2023.75,QC,Organismes communautaires à but non lucratif,Rentabilité,0.047,0.493,0.166,0.294,A,C,B,C
+2023.75,QC,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.127,0.493,0.21100000000000002,0.16899999999999998,C,C,B,B
+2023.75,QC,Organismes communautaires à but non lucratif,Dépenses en capital,0.19899999999999998,0.451,0.086,0.265,C,C,B,C
+2023.75,QC,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.147,0.611,0.026000000000000002,0.217,C,C,A,C
+2023.75,QC,Organismes communautaires à but non lucratif,Budget de marketing,0.111,0.433,0.044000000000000004,0.41200000000000003,B,C,A,C
+2023.75,QC,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.046,0.23399999999999999,0.039,0.68,A,C,A,C
+2023.75,QC,Institutions commerciales à but non lucratif,Nombre d'employés,NA,NA,0.023,0,NA,NA,A,A
+2023.75,QC,Institutions commerciales à but non lucratif,Postes vacants,0.034,0.6809999999999999,0.16399999999999998,0.121,B,E,E,C
+2023.75,QC,Institutions commerciales à but non lucratif,Ventes,NA,0.376,0.054000000000000006,0.215,NA,E,B,E
+2023.75,QC,Institutions commerciales à but non lucratif,Prix de vente,NA,0.32299999999999995,0.001,0.27,NA,E,A,E
+2023.75,QC,Institutions commerciales à but non lucratif,Demande,NA,NA,0.031,0,NA,NA,A,A
+2023.75,QC,Institutions commerciales à but non lucratif,Importations,0.001,0.095,0.005,0.9,A,C,A,C
+2023.75,QC,Institutions commerciales à but non lucratif,Exportations,0,0.084,0.006,0.91,A,C,A,C
+2023.75,QC,Institutions commerciales à but non lucratif,Résultat opérationnel,NA,NA,0.063,0,NA,NA,B,A
+2023.75,QC,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.593,0.373,0.034,0,E,E,B,A
+2023.75,QC,Institutions commerciales à but non lucratif,Rentabilité,NA,NA,0.084,0.10800000000000001,NA,NA,B,C
+2023.75,QC,Institutions commerciales à but non lucratif,Réserves de trésorerie,NA,NA,0.07200000000000001,0.094,NA,NA,B,C
+2023.75,QC,Institutions commerciales à but non lucratif,Dépenses en capital,NA,0.41700000000000004,0.04,0.218,NA,E,A,E
+2023.75,QC,Institutions commerciales à but non lucratif,Dépenses liées à la formation,NA,NA,0.019,0.053,NA,NA,A,B
+2023.75,QC,Institutions commerciales à but non lucratif,Budget de marketing,NA,0.306,0.025,0.139,NA,E,A,C
+2023.75,QC,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,NA,0.23399999999999999,0.008,0.415,NA,D,A,E
+2023.75,ON,Institutions gouvernementales,Nombre d'employés,0.099,0.83,0.071,0,D,E,C,A
+2023.75,ON,Institutions gouvernementales,Postes vacants,0.006999999999999999,NA,0.008,NA,A,NA,A,NA
+2023.75,ON,Institutions gouvernementales,Ventes,0.087,NA,0.034,NA,D,NA,B,NA
+2023.75,ON,Institutions gouvernementales,Prix de vente,0.094,NA,0,NA,D,NA,A,NA
+2023.75,ON,Institutions gouvernementales,Demande,0.748,0.214,0.038,0,E,E,B,A
+2023.75,ON,Institutions gouvernementales,Importations,0,0.069,0.003,0.9279999999999999,A,C,A,C
+2023.75,ON,Institutions gouvernementales,Exportations,0,0.034,0,0.966,A,B,A,B
+2023.75,ON,Institutions gouvernementales,Résultat opérationnel,0.094,0.825,0.081,0,D,E,C,A
+2023.75,ON,Institutions gouvernementales,Dépenses opérationnelles,0.8190000000000001,0.17,0.011000000000000001,0,E,D,A,A
+2023.75,ON,Institutions gouvernementales,Rentabilité,0.087,NA,0.083,NA,D,NA,C,NA
+2023.75,ON,Institutions gouvernementales,Réserves de trésorerie,0.087,NA,0.049,NA,D,NA,B,NA
+2023.75,ON,Institutions gouvernementales,Dépenses en capital,0.128,NA,0.011000000000000001,NA,E,NA,A,NA
+2023.75,ON,Institutions gouvernementales,Dépenses liées à la formation,0.159,NA,0.01,NA,E,NA,A,NA
+2023.75,ON,Institutions gouvernementales,Budget de marketing,0.087,NA,0.01,NA,D,NA,A,NA
+2023.75,ON,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,NA,0.048,NA,A,NA,B,NA
+2023.75,ON,Entreprises,Nombre d'employés,0.10099999999999999,0.7759999999999999,0.122,0,A,A,A,A
+2023.75,ON,Entreprises,Postes vacants,0.051,0.557,0.08900000000000001,0.302,A,B,A,A
+2023.75,ON,Entreprises,Ventes,0.149,0.6,0.251,0,A,A,A,A
+2023.75,ON,Entreprises,Prix de vente,0.21600000000000003,0.696,0.08800000000000001,0,A,A,A,A
+2023.75,ON,Entreprises,Demande,0.161,0.5820000000000001,0.258,0,A,B,A,A
+2023.75,ON,Entreprises,Importations,0.01,0.18,0.071,0.7390000000000001,A,A,A,A
+2023.75,ON,Entreprises,Exportations,0.01,0.149,0.04,0.8,A,A,A,A
+2023.75,ON,Entreprises,Résultat opérationnel,0.157,0.542,0.3,0,A,B,A,A
+2023.75,ON,Entreprises,Dépenses opérationnelles,0.38,0.507,0.113,0,A,B,A,A
+2023.75,ON,Entreprises,Rentabilité,0.087,0.513,0.4,0,A,B,B,A
+2023.75,ON,Entreprises,Réserves de trésorerie,0.06,0.49700000000000005,0.371,0.07200000000000001,A,B,A,A
+2023.75,ON,Entreprises,Dépenses en capital,0.184,0.5379999999999999,0.11800000000000001,0.159,A,B,A,A
+2023.75,ON,Entreprises,Dépenses liées à la formation,0.128,0.501,0.085,0.287,A,B,A,A
+2023.75,ON,Entreprises,Budget de marketing,0.149,0.527,0.107,0.217,A,B,A,A
+2023.75,ON,Entreprises,Dépenses liées à la recherche et au développement,0.073,0.325,0.07200000000000001,0.529,A,A,A,B
+2023.75,ON,Organismes communautaires à but non lucratif,Nombre d'employés,0.17600000000000002,0.802,0.023,0,C,C,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Postes vacants,0.044000000000000004,0.578,0.032,0.34700000000000003,A,D,A,D
+2023.75,ON,Organismes communautaires à but non lucratif,Ventes,0.036000000000000004,0.29,0.028999999999999998,0.645,A,C,A,C
+2023.75,ON,Organismes communautaires à but non lucratif,Prix de vente,0.052000000000000005,0.28300000000000003,0.006,0.659,A,C,A,C
+2023.75,ON,Organismes communautaires à but non lucratif,Demande,0.40399999999999997,0.5710000000000001,0.025,0,C,C,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Importations,0.005,0.048,0.025,0.9209999999999999,A,A,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Exportations,0.004,0.021,0.021,0.953,A,A,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Résultat opérationnel,0.222,0.7040000000000001,0.07400000000000001,0,C,C,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.5,0.483,0.016,0,D,D,A,A
+2023.75,ON,Organismes communautaires à but non lucratif,Rentabilité,0.013999999999999999,0.344,0.10099999999999999,0.54,A,C,A,C
+2023.75,ON,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.03,0.631,0.16699999999999998,0.171,A,C,B,C
+2023.75,ON,Organismes communautaires à but non lucratif,Dépenses en capital,0.193,0.513,0.037000000000000005,0.256,C,D,A,C
+2023.75,ON,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.091,0.648,0.017,0.243,A,C,A,C
+2023.75,ON,Organismes communautaires à but non lucratif,Budget de marketing,0.068,0.48700000000000004,0.019,0.42700000000000005,A,D,A,D
+2023.75,ON,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.033,0.198,0.017,0.7509999999999999,A,C,A,C
+2023.75,ON,Institutions commerciales à but non lucratif,Nombre d'employés,0.22399999999999998,0.708,0.067,0,D,E,B,A
+2023.75,ON,Institutions commerciales à but non lucratif,Postes vacants,0.040999999999999995,0.568,0.064,0.327,A,E,B,E
+2023.75,ON,Institutions commerciales à but non lucratif,Ventes,0.084,0.523,0.057999999999999996,0.335,B,E,B,E
+2023.75,ON,Institutions commerciales à but non lucratif,Prix de vente,0.204,0.429,0.02,0.34700000000000003,E,E,A,E
+2023.75,ON,Institutions commerciales à but non lucratif,Demande,0.315,0.634,0.051,0,E,E,A,A
+2023.75,ON,Institutions commerciales à but non lucratif,Importations,0.016,0.152,0.001,0.831,A,C,A,C
+2023.75,ON,Institutions commerciales à but non lucratif,Exportations,0.003,0.124,0.019,0.8540000000000001,A,C,A,C
+2023.75,ON,Institutions commerciales à but non lucratif,Résultat opérationnel,0.106,0.622,0.272,0,B,E,E,A
+2023.75,ON,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.332,0.6459999999999999,0.022000000000000002,0,D,D,A,A
+2023.75,ON,Institutions commerciales à but non lucratif,Rentabilité,0.051,0.315,0.435,0.19899999999999998,A,D,E,E
+2023.75,ON,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.23800000000000002,0.512,0.215,0.035,E,E,E,A
+2023.75,ON,Institutions commerciales à but non lucratif,Dépenses en capital,0.152,0.522,0.162,0.16399999999999998,C,E,E,D
+2023.75,ON,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.129,0.652,0.047,0.172,B,E,B,E
+2023.75,ON,Institutions commerciales à but non lucratif,Budget de marketing,0.132,0.6459999999999999,0.039,0.184,B,E,A,E
+2023.75,ON,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.064,0.359,0.048,0.529,B,D,B,E
+2023.75,MB,Institutions gouvernementales,Nombre d'employés,0.10400000000000001,0.8959999999999999,0,0,C,C,A,A
+2023.75,MB,Institutions gouvernementales,Postes vacants,0,NA,NA,0.044000000000000004,A,NA,NA,B
+2023.75,MB,Institutions gouvernementales,Ventes,0,0.03,NA,NA,A,A,NA,NA
+2023.75,MB,Institutions gouvernementales,Prix de vente,NA,0.03,0,NA,NA,A,A,NA
+2023.75,MB,Institutions gouvernementales,Demande,NA,NA,NA,0,NA,NA,NA,A
+2023.75,MB,Institutions gouvernementales,Importations,0,0.055,NA,NA,A,B,NA,NA
+2023.75,MB,Institutions gouvernementales,Exportations,0,NA,0,NA,A,NA,A,NA
+2023.75,MB,Institutions gouvernementales,Résultat opérationnel,NA,NA,NA,0,NA,NA,NA,A
+2023.75,MB,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0,0,NA,NA,A,A
+2023.75,MB,Institutions gouvernementales,Rentabilité,0,0.122,0.8220000000000001,0.055999999999999994,A,D,D,B
+2023.75,MB,Institutions gouvernementales,Réserves de trésorerie,0,0.091,0.023,0.8859999999999999,A,C,A,C
+2023.75,MB,Institutions gouvernementales,Dépenses en capital,NA,NA,0,0.09699999999999999,NA,NA,A,C
+2023.75,MB,Institutions gouvernementales,Dépenses liées à la formation,0.005,0.934,0,0.061,A,B,A,B
+2023.75,MB,Institutions gouvernementales,Budget de marketing,0.003,0.07,0,0.927,A,B,A,B
+2023.75,MB,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.003,0.038,0,0.9590000000000001,A,B,A,B
+2023.75,MB,Entreprises,Nombre d'employés,0.07200000000000001,0.828,0.1,0,A,A,A,A
+2023.75,MB,Entreprises,Postes vacants,0.053,0.556,0.032,0.359,A,A,A,A
+2023.75,MB,Entreprises,Ventes,0.177,0.6829999999999999,0.14,0,A,A,A,A
+2023.75,MB,Entreprises,Prix de vente,0.243,0.6629999999999999,0.09300000000000001,0,A,A,A,A
+2023.75,MB,Entreprises,Demande,0.203,0.618,0.179,0,A,A,A,A
+2023.75,MB,Entreprises,Importations,0.04,0.21,0.054000000000000006,0.696,A,A,A,A
+2023.75,MB,Entreprises,Exportations,0.016,0.145,0.025,0.8140000000000001,A,A,A,A
+2023.75,MB,Entreprises,Résultat opérationnel,0.18100000000000002,0.603,0.21600000000000003,0,A,A,A,A
+2023.75,MB,Entreprises,Dépenses opérationnelles,0.46,0.496,0.044000000000000004,0,A,A,A,A
+2023.75,MB,Entreprises,Rentabilité,0.124,0.583,0.293,0,A,A,A,A
+2023.75,MB,Entreprises,Réserves de trésorerie,0.09,0.556,0.275,0.08,A,A,A,A
+2023.75,MB,Entreprises,Dépenses en capital,0.196,0.5820000000000001,0.065,0.156,A,A,A,A
+2023.75,MB,Entreprises,Dépenses liées à la formation,0.12300000000000001,0.539,0.059000000000000004,0.27899999999999997,A,A,A,A
+2023.75,MB,Entreprises,Budget de marketing,0.111,0.5670000000000001,0.076,0.245,A,A,A,A
+2023.75,MB,Entreprises,Dépenses liées à la recherche et au développement,0.081,0.317,0.039,0.563,A,A,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Nombre d'employés,0.275,0.7070000000000001,0.018000000000000002,0,D,C,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Postes vacants,0.07400000000000001,0.591,0.121,0.214,B,C,C,B
+2023.75,MB,Organismes communautaires à but non lucratif,Ventes,0.085,0.461,0.017,0.43700000000000006,B,C,A,C
+2023.75,MB,Organismes communautaires à but non lucratif,Prix de vente,0.139,0.35200000000000004,0.013999999999999999,0.496,C,C,A,C
+2023.75,MB,Organismes communautaires à but non lucratif,Demande,0.379,0.569,0.052000000000000005,0,C,C,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Importations,0,0.077,0.001,0.9209999999999999,A,B,A,B
+2023.75,MB,Organismes communautaires à but non lucratif,Exportations,0,0.018000000000000002,0,0.982,A,A,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Résultat opérationnel,0.22399999999999998,0.7070000000000001,0.068,0,C,C,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.5539999999999999,0.434,0.012,0,C,C,A,A
+2023.75,MB,Organismes communautaires à but non lucratif,Rentabilité,0.052000000000000005,0.45299999999999996,0.126,0.369,A,C,B,C
+2023.75,MB,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.13699999999999998,0.48,0.188,0.196,C,C,B,B
+2023.75,MB,Organismes communautaires à but non lucratif,Dépenses en capital,0.171,0.5429999999999999,0.042,0.245,B,C,A,C
+2023.75,MB,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.248,0.527,0.035,0.18899999999999997,C,C,A,B
+2023.75,MB,Organismes communautaires à but non lucratif,Budget de marketing,0.247,0.431,0.042,0.281,C,C,A,C
+2023.75,MB,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.069,0.20800000000000002,0.022000000000000002,0.701,B,C,A,C
+2023.75,MB,Institutions commerciales à but non lucratif,Nombre d'employés,0.065,0.887,0.049,0,A,B,B,A
+2023.75,MB,Institutions commerciales à but non lucratif,Postes vacants,0.026000000000000002,0.58,0.10800000000000001,0.285,A,E,C,E
+2023.75,MB,Institutions commerciales à but non lucratif,Ventes,0.047,0.304,0,0.649,A,E,A,E
+2023.75,MB,Institutions commerciales à but non lucratif,Prix de vente,0.018000000000000002,0.20600000000000002,0.006,0.7709999999999999,A,C,A,D
+2023.75,MB,Institutions commerciales à but non lucratif,Demande,0.157,0.8370000000000001,0.005,0,C,C,A,A
+2023.75,MB,Institutions commerciales à but non lucratif,Importations,0.013999999999999999,0.053,0,0.9329999999999999,A,A,A,A
+2023.75,MB,Institutions commerciales à but non lucratif,Exportations,0.013999999999999999,0.016,0.037000000000000005,0.9329999999999999,A,A,A,A
+2023.75,MB,Institutions commerciales à but non lucratif,Résultat opérationnel,0.049,0.9079999999999999,0.044000000000000004,0,A,B,B,A
+2023.75,MB,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.547,0.447,0.005,0,E,E,A,A
+2023.75,MB,Institutions commerciales à but non lucratif,Rentabilité,0.044000000000000004,0.33799999999999997,0.091,0.527,A,E,D,E
+2023.75,MB,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.069,0.652,0.156,0.122,A,E,C,D
+2023.75,MB,Institutions commerciales à but non lucratif,Dépenses en capital,0.048,0.353,NA,0.365,B,E,NA,E
+2023.75,MB,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.209,0.705,0,0.086,D,E,A,B
+2023.75,MB,Institutions commerciales à but non lucratif,Budget de marketing,0.078,0.418,0,0.504,B,E,A,E
+2023.75,MB,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.025,0.159,0,0.8170000000000001,A,C,A,C
+2023.75,SK,Institutions gouvernementales,Nombre d'employés,0.021,0.9790000000000001,0,0,A,A,A,A
+2023.75,SK,Institutions gouvernementales,Postes vacants,0.011000000000000001,0.873,0.022000000000000002,0.095,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Ventes,0,0.899,0,0.10099999999999999,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Prix de vente,0.02,0.8740000000000001,0,0.105,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Demande,0.01,0.99,0,0,A,A,A,A
+2023.75,SK,Institutions gouvernementales,Importations,0,0.026000000000000002,0,0.9740000000000001,A,B,A,B
+2023.75,SK,Institutions gouvernementales,Exportations,0,0,0,1,A,A,A,A
+2023.75,SK,Institutions gouvernementales,Résultat opérationnel,0.099,0.89,0.011000000000000001,0,E,E,A,A
+2023.75,SK,Institutions gouvernementales,Dépenses opérationnelles,0.105,0.884,0.011000000000000001,0,E,E,A,A
+2023.75,SK,Institutions gouvernementales,Rentabilité,0.01,0.872,0.022000000000000002,0.09699999999999999,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Réserves de trésorerie,0.005,0.9740000000000001,0.005,0.017,A,A,A,A
+2023.75,SK,Institutions gouvernementales,Dépenses en capital,0.01,0.895,0,0.095,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Dépenses liées à la formation,0.006,0.9840000000000001,0,0.01,A,A,A,A
+2023.75,SK,Institutions gouvernementales,Budget de marketing,0,0.899,0.006,0.095,A,E,A,E
+2023.75,SK,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,0.053,0,0.9470000000000001,A,B,A,B
+2023.75,SK,Entreprises,Nombre d'employés,0.1,0.7809999999999999,0.11900000000000001,0,A,A,A,A
+2023.75,SK,Entreprises,Postes vacants,0.068,0.611,0.044000000000000004,0.278,A,B,A,A
+2023.75,SK,Entreprises,Ventes,0.145,0.688,0.168,0,A,A,A,A
+2023.75,SK,Entreprises,Prix de vente,0.265,0.635,0.099,0,A,B,A,A
+2023.75,SK,Entreprises,Demande,0.145,0.6559999999999999,0.19899999999999998,0,A,A,A,A
+2023.75,SK,Entreprises,Importations,0.032,0.26899999999999996,0.038,0.6609999999999999,A,A,A,A
+2023.75,SK,Entreprises,Exportations,0.034,0.201,0.022000000000000002,0.7440000000000001,A,A,A,A
+2023.75,SK,Entreprises,Résultat opérationnel,0.184,0.5760000000000001,0.24,0,A,A,A,A
+2023.75,SK,Entreprises,Dépenses opérationnelles,0.467,0.45799999999999996,0.075,0,B,B,A,A
+2023.75,SK,Entreprises,Rentabilité,0.09300000000000001,0.539,0.368,0,A,B,A,A
+2023.75,SK,Entreprises,Réserves de trésorerie,0.059000000000000004,0.508,0.342,0.091,A,A,A,A
+2023.75,SK,Entreprises,Dépenses en capital,0.171,0.581,0.132,0.11599999999999999,A,A,A,A
+2023.75,SK,Entreprises,Dépenses liées à la formation,0.135,0.563,0.07200000000000001,0.23,A,B,A,A
+2023.75,SK,Entreprises,Budget de marketing,0.102,0.5760000000000001,0.107,0.215,A,B,A,A
+2023.75,SK,Entreprises,Dépenses liées à la recherche et au développement,0.040999999999999995,0.364,0.07400000000000001,0.521,A,B,A,B
+2023.75,SK,Organismes communautaires à but non lucratif,Nombre d'employés,0.134,0.823,0.043,0,B,B,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Postes vacants,0.016,0.521,0.07400000000000001,0.389,A,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Ventes,0.040999999999999995,0.316,0.042,0.601,A,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Prix de vente,0.03,0.349,0.001,0.62,A,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Demande,0.307,0.64,0.053,0,C,C,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Importations,0.001,0.073,0.002,0.924,A,A,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Exportations,0.002,0.045,0.001,0.9520000000000001,A,A,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Résultat opérationnel,0.075,0.831,0.094,0,A,B,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.40299999999999997,0.55,0.046,0,C,C,A,A
+2023.75,SK,Organismes communautaires à but non lucratif,Rentabilité,0.027000000000000003,0.34700000000000003,0.20800000000000002,0.41700000000000004,A,C,B,C
+2023.75,SK,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.04,0.6659999999999999,0.222,0.07200000000000001,A,C,B,B
+2023.75,SK,Organismes communautaires à but non lucratif,Dépenses en capital,0.17600000000000002,0.519,0.043,0.262,B,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.142,0.539,0.011000000000000001,0.308,B,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Budget de marketing,0.09699999999999999,0.552,0.031,0.32,B,C,A,C
+2023.75,SK,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.017,0.19399999999999998,0.01,0.779,A,B,A,B
+2023.75,SK,Institutions commerciales à but non lucratif,Nombre d'employés,0.066,0.925,0.009000000000000001,0,B,B,A,A
+2023.75,SK,Institutions commerciales à but non lucratif,Postes vacants,0.006,NA,0.038,NA,A,NA,A,NA
+2023.75,SK,Institutions commerciales à but non lucratif,Ventes,0.022000000000000002,NA,0,NA,A,NA,A,NA
+2023.75,SK,Institutions commerciales à but non lucratif,Prix de vente,0,NA,0,NA,A,NA,A,NA
+2023.75,SK,Institutions commerciales à but non lucratif,Demande,0.098,0.889,0.013000000000000001,0,C,C,A,A
+2023.75,SK,Institutions commerciales à but non lucratif,Importations,0.066,0.039,0,0.895,C,A,A,C
+2023.75,SK,Institutions commerciales à but non lucratif,Exportations,0.066,0.114,0.016,0.8029999999999999,C,D,A,E
+2023.75,SK,Institutions commerciales à but non lucratif,Résultat opérationnel,0.01,0.873,0.11699999999999999,0,A,D,D,A
+2023.75,SK,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.11699999999999999,0.883,0,0,B,B,A,A
+2023.75,SK,Institutions commerciales à but non lucratif,Rentabilité,0.011000000000000001,0.765,0.078,0.146,A,E,C,D
+2023.75,SK,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.028999999999999998,0.8109999999999999,0.048,0.11199999999999999,A,E,A,D
+2023.75,SK,Institutions commerciales à but non lucratif,Dépenses en capital,0.024,NA,0.008,NA,A,NA,A,NA
+2023.75,SK,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.239,NA,0.01,0.11800000000000001,E,NA,A,D
+2023.75,SK,Institutions commerciales à but non lucratif,Budget de marketing,0.04,0.8140000000000001,0.015,0.131,A,E,A,D
+2023.75,SK,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.013999999999999999,0.297,0.02,0.67,A,E,A,E
+2023.75,AB,Institutions gouvernementales,Nombre d'employés,0.125,NA,NA,0,E,NA,NA,A
+2023.75,AB,Institutions gouvernementales,Postes vacants,0,NA,0.125,0.063,A,NA,E,C
+2023.75,AB,Institutions gouvernementales,Ventes,0,NA,NA,0.075,A,NA,NA,C
+2023.75,AB,Institutions gouvernementales,Prix de vente,0,0.925,0,0.075,A,C,A,C
+2023.75,AB,Institutions gouvernementales,Demande,0.023,0.945,0.032,0,A,B,B,A
+2023.75,AB,Institutions gouvernementales,Importations,NA,NA,0,NA,NA,NA,A,NA
+2023.75,AB,Institutions gouvernementales,Exportations,0,NA,0,NA,A,NA,A,NA
+2023.75,AB,Institutions gouvernementales,Résultat opérationnel,0,1,0,0,A,A,A,A
+2023.75,AB,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0,0,NA,NA,A,A
+2023.75,AB,Institutions gouvernementales,Rentabilité,0,NA,0.125,0.086,A,NA,E,C
+2023.75,AB,Institutions gouvernementales,Réserves de trésorerie,0,NA,NA,0.03,A,NA,NA,B
+2023.75,AB,Institutions gouvernementales,Dépenses en capital,NA,NA,0,0.037000000000000005,NA,NA,A,B
+2023.75,AB,Institutions gouvernementales,Dépenses liées à la formation,NA,NA,0,0.075,NA,NA,A,C
+2023.75,AB,Institutions gouvernementales,Budget de marketing,NA,NA,0,0.075,NA,NA,A,C
+2023.75,AB,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,NA,0,NA,A,NA,A,NA
+2023.75,AB,Entreprises,Nombre d'employés,0.081,0.831,0.08800000000000001,0,A,A,A,A
+2023.75,AB,Entreprises,Postes vacants,0.054000000000000006,0.574,0.065,0.306,A,A,A,A
+2023.75,AB,Entreprises,Ventes,0.162,0.623,0.215,0,A,A,A,A
+2023.75,AB,Entreprises,Prix de vente,0.217,0.7090000000000001,0.07400000000000001,0,A,A,A,A
+2023.75,AB,Entreprises,Demande,0.171,0.612,0.21600000000000003,0,A,A,A,A
+2023.75,AB,Entreprises,Importations,0.024,0.23,0.027999999999999997,0.718,A,A,A,A
+2023.75,AB,Entreprises,Exportations,0.027000000000000003,0.17300000000000001,0.012,0.7879999999999999,A,A,A,A
+2023.75,AB,Entreprises,Résultat opérationnel,0.154,0.578,0.268,0,A,B,A,A
+2023.75,AB,Entreprises,Dépenses opérationnelles,0.46399999999999997,0.47700000000000004,0.059000000000000004,0,A,B,A,A
+2023.75,AB,Entreprises,Rentabilité,0.07,0.508,0.42200000000000004,0,A,A,A,A
+2023.75,AB,Entreprises,Réserves de trésorerie,0.057,0.516,0.369,0.057999999999999996,A,A,A,A
+2023.75,AB,Entreprises,Dépenses en capital,0.198,0.62,0.091,0.091,A,A,A,A
+2023.75,AB,Entreprises,Dépenses liées à la formation,0.14300000000000002,0.535,0.067,0.255,A,A,A,A
+2023.75,AB,Entreprises,Budget de marketing,0.11900000000000001,0.5379999999999999,0.08900000000000001,0.254,A,A,A,A
+2023.75,AB,Entreprises,Dépenses liées à la recherche et au développement,0.078,0.316,0.039,0.5670000000000001,A,A,A,A
+2023.75,AB,Organismes communautaires à but non lucratif,Nombre d'employés,0.09,0.898,0.011000000000000001,0,B,B,A,A
+2023.75,AB,Organismes communautaires à but non lucratif,Postes vacants,0.008,0.541,0.033,0.418,A,D,A,D
+2023.75,AB,Organismes communautaires à but non lucratif,Ventes,0.033,0.469,0.10800000000000001,0.391,A,D,D,D
+2023.75,AB,Organismes communautaires à but non lucratif,Prix de vente,0.042,0.441,0,0.517,A,D,A,D
+2023.75,AB,Organismes communautaires à but non lucratif,Demande,0.14400000000000002,0.742,0.115,0,B,D,D,A
+2023.75,AB,Organismes communautaires à but non lucratif,Importations,0,0.182,0.003,0.815,A,D,A,D
+2023.75,AB,Organismes communautaires à but non lucratif,Exportations,0,0.07400000000000001,0.002,0.924,A,B,A,B
+2023.75,AB,Organismes communautaires à but non lucratif,Résultat opérationnel,0.054000000000000006,0.7929999999999999,0.152,0,A,D,D,A
+2023.75,AB,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.21600000000000003,0.78,0.004,0,B,B,A,A
+2023.75,AB,Organismes communautaires à but non lucratif,Rentabilité,0.015,0.37,0.196,0.419,A,D,D,D
+2023.75,AB,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.018000000000000002,0.634,0.142,0.205,A,D,B,D
+2023.75,AB,Organismes communautaires à but non lucratif,Dépenses en capital,0.149,0.727,0.02,0.10400000000000001,C,D,A,B
+2023.75,AB,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.07200000000000001,0.5479999999999999,0.005,0.374,A,D,A,D
+2023.75,AB,Organismes communautaires à but non lucratif,Budget de marketing,0.067,0.5589999999999999,0.03,0.344,A,D,A,E
+2023.75,AB,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.002,0.195,0.002,0.8,A,C,A,C
+2023.75,AB,Institutions commerciales à but non lucratif,Nombre d'employés,0.376,0.5820000000000001,0.043,0,E,E,B,A
+2023.75,AB,Institutions commerciales à but non lucratif,Postes vacants,0.10300000000000001,0.491,0.318,0.08800000000000001,C,E,E,B
+2023.75,AB,Institutions commerciales à but non lucratif,Ventes,0.11199999999999999,0.43799999999999994,0.051,0.39799999999999996,C,E,B,E
+2023.75,AB,Institutions commerciales à but non lucratif,Prix de vente,0.026000000000000002,0.561,0.008,0.40399999999999997,A,E,A,E
+2023.75,AB,Institutions commerciales à but non lucratif,Demande,0.45399999999999996,0.517,0.028999999999999998,0,E,E,A,A
+2023.75,AB,Institutions commerciales à but non lucratif,Importations,0.002,0.34299999999999997,0.008,0.6459999999999999,A,E,A,E
+2023.75,AB,Institutions commerciales à but non lucratif,Exportations,0.002,0.10300000000000001,0.068,0.8270000000000001,A,C,B,C
+2023.75,AB,Institutions commerciales à but non lucratif,Résultat opérationnel,0.179,0.654,0.16699999999999998,0,D,E,E,A
+2023.75,AB,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.433,0.552,0.015,0,E,E,A,A
+2023.75,AB,Institutions commerciales à but non lucratif,Rentabilité,0.032,0.65,0.10400000000000001,0.215,A,E,C,D
+2023.75,AB,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.11,0.715,0.159,0.016,B,D,C,A
+2023.75,AB,Institutions commerciales à but non lucratif,Dépenses en capital,0.163,0.546,0.049,0.242,D,E,A,E
+2023.75,AB,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.436,0.504,0.011000000000000001,0.049,E,E,A,B
+2023.75,AB,Institutions commerciales à but non lucratif,Budget de marketing,0.354,0.413,0.154,0.079,E,E,E,C
+2023.75,AB,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.166,0.313,0.048,0.474,D,D,B,E
+2023.75,BC,Institutions gouvernementales,Nombre d'employés,0.036000000000000004,0.9640000000000001,0,0,B,B,A,A
+2023.75,BC,Institutions gouvernementales,Postes vacants,0.019,NA,0.048,NA,A,NA,B,NA
+2023.75,BC,Institutions gouvernementales,Ventes,NA,0.05,0,NA,NA,B,A,NA
+2023.75,BC,Institutions gouvernementales,Prix de vente,0.008,NA,0,NA,A,NA,A,NA
+2023.75,BC,Institutions gouvernementales,Demande,NA,NA,0.006,0,NA,NA,A,A
+2023.75,BC,Institutions gouvernementales,Importations,0.01,0.057,0,0.9329999999999999,A,B,A,B
+2023.75,BC,Institutions gouvernementales,Exportations,0.006,0.006,0.012,0.977,A,A,A,A
+2023.75,BC,Institutions gouvernementales,Résultat opérationnel,0.033,0.9620000000000001,0.006,0,B,B,A,A
+2023.75,BC,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0,0,NA,NA,A,A
+2023.75,BC,Institutions gouvernementales,Rentabilité,0,NA,0.037000000000000005,NA,A,NA,B,NA
+2023.75,BC,Institutions gouvernementales,Réserves de trésorerie,0.012,NA,0,NA,A,NA,A,NA
+2023.75,BC,Institutions gouvernementales,Dépenses en capital,NA,NA,0,NA,NA,NA,A,NA
+2023.75,BC,Institutions gouvernementales,Dépenses liées à la formation,0.027000000000000003,NA,0,NA,A,NA,A,NA
+2023.75,BC,Institutions gouvernementales,Budget de marketing,0.037000000000000005,NA,0.006,NA,B,NA,A,NA
+2023.75,BC,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.037000000000000005,NA,0.006,NA,B,NA,A,NA
+2023.75,BC,Entreprises,Nombre d'employés,0.079,0.8059999999999999,0.115,0,A,A,A,A
+2023.75,BC,Entreprises,Postes vacants,0.077,0.617,0.054000000000000006,0.252,A,A,A,A
+2023.75,BC,Entreprises,Ventes,0.149,0.624,0.22699999999999998,0,A,A,A,A
+2023.75,BC,Entreprises,Prix de vente,0.298,0.626,0.076,0,A,A,A,A
+2023.75,BC,Entreprises,Demande,0.16,0.608,0.23199999999999998,0,A,A,A,A
+2023.75,BC,Entreprises,Importations,0.025,0.222,0.048,0.706,A,A,A,A
+2023.75,BC,Entreprises,Exportations,0.026000000000000002,0.17600000000000002,0.038,0.76,A,A,A,A
+2023.75,BC,Entreprises,Résultat opérationnel,0.18,0.53,0.289,0,A,B,A,A
+2023.75,BC,Entreprises,Dépenses opérationnelles,0.516,0.424,0.06,0,A,A,A,A
+2023.75,BC,Entreprises,Rentabilité,0.07200000000000001,0.506,0.42200000000000004,0,A,B,A,A
+2023.75,BC,Entreprises,Réserves de trésorerie,0.073,0.502,0.332,0.09300000000000001,A,B,A,A
+2023.75,BC,Entreprises,Dépenses en capital,0.172,0.569,0.105,0.153,A,A,A,A
+2023.75,BC,Entreprises,Dépenses liées à la formation,0.136,0.514,0.062,0.28800000000000003,A,A,A,A
+2023.75,BC,Entreprises,Budget de marketing,0.113,0.58,0.08,0.228,A,A,A,A
+2023.75,BC,Entreprises,Dépenses liées à la recherche et au développement,0.049,0.313,0.069,0.568,A,A,A,A
+2023.75,BC,Organismes communautaires à but non lucratif,Nombre d'employés,0.281,0.691,0.027999999999999997,0,C,C,A,A
+2023.75,BC,Organismes communautaires à but non lucratif,Postes vacants,0.10400000000000001,0.522,0.114,0.26,B,D,C,C
+2023.75,BC,Organismes communautaires à but non lucratif,Ventes,0.13699999999999998,0.373,0.040999999999999995,0.449,C,C,A,D
+2023.75,BC,Organismes communautaires à but non lucratif,Prix de vente,0.07200000000000001,0.45299999999999996,0.006999999999999999,0.46799999999999997,B,D,A,D
+2023.75,BC,Organismes communautaires à but non lucratif,Demande,0.305,0.616,0.08,0,C,C,B,A
+2023.75,BC,Organismes communautaires à but non lucratif,Importations,0,0.099,0.004,0.897,A,B,A,B
+2023.75,BC,Organismes communautaires à but non lucratif,Exportations,0,0.06,0.004,0.9359999999999999,A,B,A,B
+2023.75,BC,Organismes communautaires à but non lucratif,Résultat opérationnel,0.198,0.644,0.158,0,C,D,C,A
+2023.75,BC,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.408,0.541,0.051,0,C,D,B,A
+2023.75,BC,Organismes communautaires à but non lucratif,Rentabilité,0.048,0.41700000000000004,0.131,0.405,B,D,B,C
+2023.75,BC,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.022000000000000002,0.637,0.214,0.127,A,C,C,B
+2023.75,BC,Organismes communautaires à but non lucratif,Dépenses en capital,0.113,0.696,0.064,0.128,B,C,B,B
+2023.75,BC,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.12,0.5870000000000001,0.003,0.29,B,C,A,C
+2023.75,BC,Organismes communautaires à but non lucratif,Budget de marketing,0.121,0.568,0.040999999999999995,0.27,B,D,B,C
+2023.75,BC,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.052000000000000005,0.207,0.077,0.6629999999999999,B,C,B,C
+2023.75,BC,Institutions commerciales à but non lucratif,Nombre d'employés,0.062,0.9209999999999999,0.017,0,B,B,A,A
+2023.75,BC,Institutions commerciales à but non lucratif,Postes vacants,0.006,NA,0.02,NA,A,NA,A,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Ventes,0.01,0.28600000000000003,0.023,NA,A,E,A,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Prix de vente,0.042,0.275,0.013000000000000001,NA,B,E,A,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Demande,NA,NA,0.027999999999999997,0,NA,NA,A,A
+2023.75,BC,Institutions commerciales à but non lucratif,Importations,0,0.053,0.005,0.9420000000000001,A,B,A,B
+2023.75,BC,Institutions commerciales à but non lucratif,Exportations,0,0.033,0.015,0.9520000000000001,A,A,A,B
+2023.75,BC,Institutions commerciales à but non lucratif,Résultat opérationnel,0.045,NA,NA,0,B,NA,NA,A
+2023.75,BC,Institutions commerciales à but non lucratif,Dépenses opérationnelles,NA,NA,0.095,0,NA,NA,D,A
+2023.75,BC,Institutions commerciales à but non lucratif,Rentabilité,0,0.303,NA,NA,A,E,NA,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Réserves de trésorerie,NA,0.26899999999999996,0.069,NA,NA,E,B,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Dépenses en capital,NA,NA,0.015,0.11699999999999999,NA,NA,A,D
+2023.75,BC,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.265,NA,0.011000000000000001,0.031,E,NA,A,A
+2023.75,BC,Institutions commerciales à but non lucratif,Budget de marketing,0.162,NA,0.021,NA,E,NA,A,NA
+2023.75,BC,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.166,NA,0.001,NA,E,NA,A,NA
+2023.75,YT,Institutions gouvernementales,Nombre d'employés,NA,NA,0,0,NA,NA,A,A
+2023.75,YT,Institutions gouvernementales,Postes vacants,0,0.94,0.06,0,A,B,B,A
+2023.75,YT,Institutions gouvernementales,Ventes,NA,0.061,0,NA,NA,B,A,NA
+2023.75,YT,Institutions gouvernementales,Prix de vente,0,0.20199999999999999,0,0.7979999999999999,A,E,A,E
+2023.75,YT,Institutions gouvernementales,Demande,NA,NA,0,0,NA,NA,A,A
+2023.75,YT,Institutions gouvernementales,Importations,0,0,0,1,A,A,A,A
+2023.75,YT,Institutions gouvernementales,Exportations,0,0,0,1,A,A,A,A
+2023.75,YT,Institutions gouvernementales,Résultat opérationnel,NA,NA,0.061,0,NA,NA,B,A
+2023.75,YT,Institutions gouvernementales,Dépenses opérationnelles,0.752,0.248,0,0,E,E,A,A
+2023.75,YT,Institutions gouvernementales,Rentabilité,0.193,0.201,0.061,NA,E,E,B,NA
+2023.75,YT,Institutions gouvernementales,Réserves de trésorerie,0.193,0.262,0,NA,E,E,A,NA
+2023.75,YT,Institutions gouvernementales,Dépenses en capital,0,0.254,0,0.746,A,E,A,E
+2023.75,YT,Institutions gouvernementales,Dépenses liées à la formation,0.06,NA,0,NA,B,NA,A,NA
+2023.75,YT,Institutions gouvernementales,Budget de marketing,0.193,0.262,0,NA,E,E,A,NA
+2023.75,YT,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.193,0,0,0.807,E,A,A,E
+2023.75,YT,Entreprises,Nombre d'employés,0.095,0.757,0.14800000000000002,0,B,B,B,A
+2023.75,YT,Entreprises,Postes vacants,0.040999999999999995,0.654,0.057,0.248,B,C,B,B
+2023.75,YT,Entreprises,Ventes,0.128,0.667,0.205,0,B,C,B,A
+2023.75,YT,Entreprises,Prix de vente,0.263,0.644,0.09300000000000001,0,C,C,B,A
+2023.75,YT,Entreprises,Demande,0.096,0.6890000000000001,0.21600000000000003,0,B,C,B,A
+2023.75,YT,Entreprises,Importations,0.011000000000000001,0.17800000000000002,0.048,0.762,A,B,B,B
+2023.75,YT,Entreprises,Exportations,0.009000000000000001,0.121,0.016,0.8540000000000001,A,B,A,B
+2023.75,YT,Entreprises,Résultat opérationnel,0.126,0.573,0.301,0,B,C,B,A
+2023.75,YT,Entreprises,Dépenses opérationnelles,0.511,0.37799999999999995,0.11,0,C,C,B,A
+2023.75,YT,Entreprises,Rentabilité,0.086,0.544,0.37,0,B,C,C,A
+2023.75,YT,Entreprises,Réserves de trésorerie,0.031,0.5489999999999999,0.325,0.095,A,C,C,B
+2023.75,YT,Entreprises,Dépenses en capital,0.188,0.58,0.114,0.11800000000000001,B,C,B,B
+2023.75,YT,Entreprises,Dépenses liées à la formation,0.096,0.5770000000000001,0.066,0.26,B,C,B,C
+2023.75,YT,Entreprises,Budget de marketing,0.08800000000000001,0.602,0.09300000000000001,0.217,B,C,B,B
+2023.75,YT,Entreprises,Dépenses liées à la recherche et au développement,0.040999999999999995,0.27399999999999997,0.126,0.5589999999999999,A,C,B,C
+2023.75,YT,Organismes communautaires à but non lucratif,Nombre d'employés,0.061,0.871,0.069,0,B,C,B,A
+2023.75,YT,Organismes communautaires à but non lucratif,Postes vacants,0.034,0.867,0.033,0.066,B,C,A,B
+2023.75,YT,Organismes communautaires à but non lucratif,Ventes,0.008,0.5479999999999999,0,0.445,A,E,A,E
+2023.75,YT,Organismes communautaires à but non lucratif,Prix de vente,0.071,0.431,0,0.498,C,E,A,E
+2023.75,YT,Organismes communautaires à but non lucratif,Demande,0.019,0.981,0,0,A,A,A,A
+2023.75,YT,Organismes communautaires à but non lucratif,Importations,0,0.319,0,0.6809999999999999,A,E,A,E
+2023.75,YT,Organismes communautaires à but non lucratif,Exportations,0,0.266,0,0.7340000000000001,A,E,A,E
+2023.75,YT,Organismes communautaires à but non lucratif,Résultat opérationnel,0.11,0.838,0.051,0,C,C,B,A
+2023.75,YT,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.22399999999999998,0.742,0.034,0,D,D,B,A
+2023.75,YT,Organismes communautaires à but non lucratif,Rentabilité,0,0.40399999999999997,0.078,0.518,A,E,C,E
+2023.75,YT,Organismes communautaires à but non lucratif,Réserves de trésorerie,0,0.727,0.067,0.205,A,E,B,D
+2023.75,YT,Organismes communautaires à but non lucratif,Dépenses en capital,0,0.784,0.032,0.184,A,D,B,D
+2023.75,YT,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.034,0.941,0,0.025,A,B,A,A
+2023.75,YT,Organismes communautaires à but non lucratif,Budget de marketing,0.08,0.5670000000000001,0,NA,B,E,A,NA
+2023.75,YT,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.034,0.345,0,0.621,B,E,A,E
+2023.75,YT,Institutions commerciales à but non lucratif,Nombre d'employés,NA,NA,0.013999999999999999,0,NA,NA,A,A
+2023.75,YT,Institutions commerciales à but non lucratif,Postes vacants,NA,0.129,0.033,NA,NA,E,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Ventes,NA,0.153,0.013999999999999999,NA,NA,E,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Prix de vente,0,NA,0,NA,A,NA,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Demande,0.013000000000000001,0.9740000000000001,0.013999999999999999,0,A,A,A,A
+2023.75,YT,Institutions commerciales à but non lucratif,Importations,0,0.019,0,0.981,A,A,A,A
+2023.75,YT,Institutions commerciales à but non lucratif,Exportations,0,NA,0.019,NA,A,NA,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Résultat opérationnel,NA,NA,0.013999999999999999,0,NA,NA,A,A
+2023.75,YT,Institutions commerciales à but non lucratif,Dépenses opérationnelles,NA,NA,0.013999999999999999,0,NA,NA,A,A
+2023.75,YT,Institutions commerciales à but non lucratif,Rentabilité,NA,0.153,0.013999999999999999,NA,NA,E,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Réserves de trésorerie,NA,0.18899999999999997,NA,0,NA,E,NA,A
+2023.75,YT,Institutions commerciales à but non lucratif,Dépenses en capital,NA,0.22,0.013999999999999999,NA,NA,E,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Dépenses liées à la formation,NA,0.201,0.013999999999999999,NA,NA,E,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Budget de marketing,NA,NA,0,NA,NA,NA,A,NA
+2023.75,YT,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,NA,0.14,0,NA,NA,E,A,NA
+2023.75,NT,Institutions gouvernementales,Nombre d'employés,0.06,0.94,0,0,B,B,A,A
+2023.75,NT,Institutions gouvernementales,Postes vacants,0,0.7390000000000001,0.06,0.2,A,E,B,E
+2023.75,NT,Institutions gouvernementales,Ventes,NA,0.24100000000000002,0,NA,NA,E,A,NA
+2023.75,NT,Institutions gouvernementales,Prix de vente,NA,NA,0,NA,NA,NA,A,NA
+2023.75,NT,Institutions gouvernementales,Demande,NA,0.27899999999999997,NA,0,NA,E,NA,A
+2023.75,NT,Institutions gouvernementales,Importations,0,0,NA,NA,A,A,NA,NA
+2023.75,NT,Institutions gouvernementales,Exportations,0,0,0,1,A,A,A,A
+2023.75,NT,Institutions gouvernementales,Résultat opérationnel,NA,NA,0.022000000000000002,0,NA,NA,A,A
+2023.75,NT,Institutions gouvernementales,Dépenses opérationnelles,NA,NA,0,0,NA,NA,A,A
+2023.75,NT,Institutions gouvernementales,Rentabilité,0,NA,0.023,NA,A,NA,A,NA
+2023.75,NT,Institutions gouvernementales,Réserves de trésorerie,NA,NA,0.099,NA,NA,NA,D,NA
+2023.75,NT,Institutions gouvernementales,Dépenses en capital,0,NA,0,NA,A,NA,A,NA
+2023.75,NT,Institutions gouvernementales,Dépenses liées à la formation,0.023,NA,0,NA,A,NA,A,NA
+2023.75,NT,Institutions gouvernementales,Budget de marketing,0,0.284,0,0.716,A,E,A,E
+2023.75,NT,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0.023,0.26,0,0.716,A,E,A,E
+2023.75,NT,Entreprises,Nombre d'employés,0.154,0.7879999999999999,0.057999999999999996,0,B,B,A,A
+2023.75,NT,Entreprises,Postes vacants,0.077,0.5479999999999999,0.124,0.252,B,C,B,B
+2023.75,NT,Entreprises,Ventes,0.14400000000000002,0.738,0.11900000000000001,0,B,B,B,A
+2023.75,NT,Entreprises,Prix de vente,0.127,0.835,0.039,0,B,B,A,A
+2023.75,NT,Entreprises,Demande,0.155,0.7340000000000001,0.111,0,B,B,B,A
+2023.75,NT,Entreprises,Importations,0.016,0.08900000000000001,0.013000000000000001,0.882,A,A,A,A
+2023.75,NT,Entreprises,Exportations,0.003,0.095,0.003,0.899,A,A,A,A
+2023.75,NT,Entreprises,Résultat opérationnel,0.16699999999999998,0.6559999999999999,0.177,0,B,C,B,A
+2023.75,NT,Entreprises,Dépenses opérationnelles,0.33,0.588,0.08199999999999999,0,B,C,B,A
+2023.75,NT,Entreprises,Rentabilité,0.129,0.643,0.228,0,B,C,B,A
+2023.75,NT,Entreprises,Réserves de trésorerie,0.073,0.636,0.20199999999999999,0.08900000000000001,A,C,B,B
+2023.75,NT,Entreprises,Dépenses en capital,0.127,0.5489999999999999,0.085,0.239,B,C,B,B
+2023.75,NT,Entreprises,Dépenses liées à la formation,0.087,0.6,0.02,0.293,B,C,A,C
+2023.75,NT,Entreprises,Budget de marketing,0.077,0.5920000000000001,0.044000000000000004,0.287,B,C,A,C
+2023.75,NT,Entreprises,Dépenses liées à la recherche et au développement,0.047,0.257,0.013000000000000001,0.6829999999999999,B,B,A,B
+2023.75,NT,Organismes communautaires à but non lucratif,Nombre d'employés,0.068,0.8909999999999999,0.040999999999999995,0,B,B,B,A
+2023.75,NT,Organismes communautaires à but non lucratif,Postes vacants,0.042,0.588,0.2,0.171,B,E,E,C
+2023.75,NT,Organismes communautaires à but non lucratif,Ventes,0.07,0.45,0.013999999999999999,0.467,B,E,A,D
+2023.75,NT,Organismes communautaires à but non lucratif,Prix de vente,0,0.34299999999999997,0,0.657,A,D,A,D
+2023.75,NT,Organismes communautaires à but non lucratif,Demande,0.361,0.612,0.026000000000000002,0,D,D,A,A
+2023.75,NT,Organismes communautaires à but non lucratif,Importations,0.009000000000000001,0.11599999999999999,0,0.8759999999999999,A,C,A,C
+2023.75,NT,Organismes communautaires à but non lucratif,Exportations,0,0.139,0,0.861,A,C,A,C
+2023.75,NT,Organismes communautaires à but non lucratif,Résultat opérationnel,0.078,0.89,0.032,0,B,B,A,A
+2023.75,NT,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.24,0.76,0,0,C,C,A,A
+2023.75,NT,Organismes communautaires à but non lucratif,Rentabilité,0,0.317,0.11900000000000001,0.563,A,D,B,D
+2023.75,NT,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.016,0.597,0.174,0.213,A,E,C,E
+2023.75,NT,Organismes communautaires à but non lucratif,Dépenses en capital,0.115,0.513,0.034,0.33799999999999997,C,D,A,E
+2023.75,NT,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.11599999999999999,0.5770000000000001,0.038,0.268,B,E,A,E
+2023.75,NT,Organismes communautaires à but non lucratif,Budget de marketing,0.04,0.49,0.031,0.439,A,D,A,E
+2023.75,NT,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0.021,0.326,0,0.653,A,D,A,D
+2023.75,NT,Institutions commerciales à but non lucratif,Nombre d'employés,0.17600000000000002,0.802,0.022000000000000002,0,E,E,A,A
+2023.75,NT,Institutions commerciales à but non lucratif,Postes vacants,0.035,0.742,0.198,0.025,B,E,E,A
+2023.75,NT,Institutions commerciales à but non lucratif,Ventes,0,NA,0,NA,A,NA,A,NA
+2023.75,NT,Institutions commerciales à but non lucratif,Prix de vente,0,0.8059999999999999,0,0.19399999999999998,A,E,A,E
+2023.75,NT,Institutions commerciales à but non lucratif,Demande,0.09,0.91,0,0,C,C,A,A
+2023.75,NT,Institutions commerciales à but non lucratif,Importations,0,0.251,0,0.7490000000000001,A,E,A,E
+2023.75,NT,Institutions commerciales à but non lucratif,Exportations,0,0.075,0.198,0.727,A,C,E,E
+2023.75,NT,Institutions commerciales à but non lucratif,Résultat opérationnel,0.032,0.884,0.084,0,A,C,B,A
+2023.75,NT,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.23800000000000002,0.74,0.022000000000000002,0,E,E,A,A
+2023.75,NT,Institutions commerciales à but non lucratif,Rentabilité,0,NA,0.057,NA,A,NA,B,NA
+2023.75,NT,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.27699999999999997,NA,0.027000000000000003,0.10300000000000001,E,NA,A,C
+2023.75,NT,Institutions commerciales à but non lucratif,Dépenses en capital,0.035,0.843,0.027000000000000003,0.096,B,D,A,C
+2023.75,NT,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.212,0.715,0.027000000000000003,0.046,E,E,A,A
+2023.75,NT,Institutions commerciales à but non lucratif,Budget de marketing,0.035,0.8170000000000001,0.027000000000000003,0.121,B,D,A,C
+2023.75,NT,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.10400000000000001,NA,0.048,NA,C,NA,B,NA
+2023.75,NU,Institutions gouvernementales,Nombre d'employés,0.051,0.9490000000000001,0,0,A,A,A,A
+2023.75,NU,Institutions gouvernementales,Postes vacants,0,0.9490000000000001,0.051,0,A,A,A,A
+2023.75,NU,Institutions gouvernementales,Ventes,0,0.8220000000000001,0,0.17800000000000002,A,E,A,E
+2023.75,NU,Institutions gouvernementales,Prix de vente,0,0.8220000000000001,0,0.17800000000000002,A,E,A,E
+2023.75,NU,Institutions gouvernementales,Demande,0,NA,NA,0,A,NA,NA,A
+2023.75,NU,Institutions gouvernementales,Importations,0,0.187,0,0.813,A,D,A,D
+2023.75,NU,Institutions gouvernementales,Exportations,0,0.10099999999999999,0,0.899,A,C,A,C
+2023.75,NU,Institutions gouvernementales,Résultat opérationnel,NA,NA,0,0,NA,NA,A,A
+2023.75,NU,Institutions gouvernementales,Dépenses opérationnelles,0,1,0,0,A,A,A,A
+2023.75,NU,Institutions gouvernementales,Rentabilité,0,0.736,0,0.264,A,E,A,E
+2023.75,NU,Institutions gouvernementales,Réserves de trésorerie,0,0.873,0,0.127,A,E,A,E
+2023.75,NU,Institutions gouvernementales,Dépenses en capital,0,NA,NA,0.127,A,NA,NA,E
+2023.75,NU,Institutions gouvernementales,Dépenses liées à la formation,0,NA,NA,0.127,A,NA,NA,E
+2023.75,NU,Institutions gouvernementales,Budget de marketing,0,0.27899999999999997,NA,NA,A,E,NA,NA
+2023.75,NU,Institutions gouvernementales,Dépenses liées à la recherche et au développement,0,0.152,0,0.848,A,C,A,C
+2023.75,NU,Entreprises,Nombre d'employés,0.153,0.773,0.07400000000000001,0,B,B,B,A
+2023.75,NU,Entreprises,Postes vacants,0.07200000000000001,0.754,0.047,0.127,B,B,A,B
+2023.75,NU,Entreprises,Ventes,0.155,0.8,0.044000000000000004,0,B,B,A,A
+2023.75,NU,Entreprises,Prix de vente,0.292,0.705,0.003,0,B,B,A,A
+2023.75,NU,Entreprises,Demande,0.177,0.769,0.054000000000000006,0,B,B,A,A
+2023.75,NU,Entreprises,Importations,0,0.242,0,0.758,A,B,A,B
+2023.75,NU,Entreprises,Exportations,0,0.166,0,0.8340000000000001,A,B,A,B
+2023.75,NU,Entreprises,Résultat opérationnel,0.091,0.7859999999999999,0.124,0,B,B,B,A
+2023.75,NU,Entreprises,Dépenses opérationnelles,0.28800000000000003,0.662,0.05,0,B,B,A,A
+2023.75,NU,Entreprises,Rentabilité,0.106,0.7,0.193,0,B,B,B,A
+2023.75,NU,Entreprises,Réserves de trésorerie,0.131,0.669,0.141,0.059000000000000004,B,B,B,A
+2023.75,NU,Entreprises,Dépenses en capital,0.128,0.643,0.063,0.165,B,C,A,B
+2023.75,NU,Entreprises,Dépenses liées à la formation,0.158,0.57,0.033,0.23800000000000002,B,C,A,C
+2023.75,NU,Entreprises,Budget de marketing,0,0.725,0.040999999999999995,0.235,A,B,A,B
+2023.75,NU,Entreprises,Dépenses liées à la recherche et au développement,0.052000000000000005,0.309,0.013999999999999999,0.625,B,B,A,C
+2023.75,NU,Organismes communautaires à but non lucratif,Nombre d'employés,0.41100000000000003,0.589,0,0,E,E,A,A
+2023.75,NU,Organismes communautaires à but non lucratif,Postes vacants,0.08,0.47,0.212,0.23800000000000002,B,E,D,C
+2023.75,NU,Organismes communautaires à but non lucratif,Ventes,0.094,0.39399999999999996,0,0.512,D,E,A,E
+2023.75,NU,Organismes communautaires à but non lucratif,Prix de vente,0.12,0.45299999999999996,0,0.42700000000000005,D,E,A,E
+2023.75,NU,Organismes communautaires à but non lucratif,Demande,0.499,0.501,0,0,E,E,A,A
+2023.75,NU,Organismes communautaires à but non lucratif,Importations,0,0.024,0,0.976,A,A,A,A
+2023.75,NU,Organismes communautaires à but non lucratif,Exportations,0,0.06,0,0.94,A,B,A,B
+2023.75,NU,Organismes communautaires à but non lucratif,Résultat opérationnel,0.34700000000000003,0.653,0,0,E,E,A,A
+2023.75,NU,Organismes communautaires à but non lucratif,Dépenses opérationnelles,0.405,0.595,0,0,E,E,A,A
+2023.75,NU,Organismes communautaires à but non lucratif,Rentabilité,0.11,0.306,0.163,0.42,D,D,E,E
+2023.75,NU,Organismes communautaires à but non lucratif,Réserves de trésorerie,0.094,0.499,0.10300000000000001,0.304,D,E,B,E
+2023.75,NU,Organismes communautaires à but non lucratif,Dépenses en capital,0.019,0.494,0.021,0.466,A,E,A,E
+2023.75,NU,Organismes communautaires à but non lucratif,Dépenses liées à la formation,0.39299999999999996,0.42100000000000004,0.021,0.165,E,E,A,D
+2023.75,NU,Organismes communautaires à but non lucratif,Budget de marketing,0.094,0.502,0.026000000000000002,0.37799999999999995,D,E,A,D
+2023.75,NU,Organismes communautaires à but non lucratif,Dépenses liées à la recherche et au développement,0,0.07400000000000001,0,0.9259999999999999,A,B,A,B
+2023.75,NU,Institutions commerciales à but non lucratif,Nombre d'employés,0.205,0.456,NA,0,D,E,NA,A
+2023.75,NU,Institutions commerciales à but non lucratif,Postes vacants,0.16,0.5539999999999999,0.205,0.081,E,E,D,C
+2023.75,NU,Institutions commerciales à but non lucratif,Ventes,0,0.439,0,0.561,A,E,A,E
+2023.75,NU,Institutions commerciales à but non lucratif,Prix de vente,0,0.27899999999999997,0,0.721,A,E,A,E
+2023.75,NU,Institutions commerciales à but non lucratif,Demande,0.16,0.759,0.081,0,E,E,C,A
+2023.75,NU,Institutions commerciales à but non lucratif,Importations,0,0.27899999999999997,0,0.721,A,E,A,E
+2023.75,NU,Institutions commerciales à but non lucratif,Exportations,0,0.07400000000000001,0.205,0.721,A,C,D,E
+2023.75,NU,Institutions commerciales à but non lucratif,Résultat opérationnel,0,0.838,0.162,0,A,D,D,A
+2023.75,NU,Institutions commerciales à but non lucratif,Dépenses opérationnelles,0.433,0.5670000000000001,0,0,E,E,A,A
+2023.75,NU,Institutions commerciales à but non lucratif,Rentabilité,0,0.772,0,0.228,A,E,A,E
+2023.75,NU,Institutions commerciales à but non lucratif,Réserves de trésorerie,0.205,0.5529999999999999,0.242,0,D,E,E,A
+2023.75,NU,Institutions commerciales à but non lucratif,Dépenses en capital,0.07400000000000001,0.764,0.08199999999999999,0.081,C,E,C,C
+2023.75,NU,Institutions commerciales à but non lucratif,Dépenses liées à la formation,0.27899999999999997,0.5579999999999999,0.08199999999999999,0.081,E,E,C,C
+2023.75,NU,Institutions commerciales à but non lucratif,Budget de marketing,0,0.838,0.08199999999999999,0.081,A,D,C,C
+2023.75,NU,Institutions commerciales à but non lucratif,Dépenses liées à la recherche et au développement,0.16,0.45799999999999996,0.08199999999999999,0.301,E,E,C,E

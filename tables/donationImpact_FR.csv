@@ -1,0 +1,141 @@
+geoAbb,item2,CommNPO,BusNPO,CommNPOStat,BusNPOStat
+CA,Réduction du nombre de programmes,0.309,0.27899999999999997,B,D
+CA,Annulation de programmes,0.12,0.09300000000000001,A,C
+CA,Incapacité d'accepter de nouveaux clients,0.10300000000000001,0.106,A,C
+CA,Réduction du personnel,0.16899999999999998,0.048,B,A
+CA,Dépendance accrue aux bénévoles,0.38299999999999995,0.138,B,B
+CA,Réduction des dépenses non liées au personnel,0.33799999999999997,0.165,B,C
+CA,Exploration d'autres sources de revenus,0.34,0.368,B,D
+CA,Risque de fermeture,0.055999999999999994,0.005,A,A
+CA,Autre,0.01,0.013999999999999999,A,A
+CA,Aucun,0.163,0.27399999999999997,B,D
+NL,Réduction du nombre de programmes,0.342,NA,E,NA
+NL,Annulation de programmes,0.191,0,D,A
+NL,Incapacité d'accepter de nouveaux clients,0.12300000000000001,0,D,A
+NL,Réduction du personnel,0.131,NA,D,NA
+NL,Dépendance accrue aux bénévoles,0.42200000000000004,NA,E,NA
+NL,Réduction des dépenses non liées au personnel,0.18100000000000002,NA,D,NA
+NL,Exploration d'autres sources de revenus,0.201,NA,D,NA
+NL,Risque de fermeture,0.006999999999999999,0,A,A
+NL,Autre,0.031,0,B,A
+NL,Aucun,0.24,NA,D,NA
+PE,Réduction du nombre de programmes,0.433,0.188,D,E
+PE,Annulation de programmes,0.11599999999999999,0.125,C,E
+PE,Incapacité d'accepter de nouveaux clients,0.075,0.045,B,B
+PE,Réduction du personnel,0.126,0,C,A
+PE,Dépendance accrue aux bénévoles,0.413,NA,D,NA
+PE,Réduction des dépenses non liées au personnel,0.261,0.045,C,B
+PE,Exploration d'autres sources de revenus,0.316,NA,D,NA
+PE,Risque de fermeture,0.057999999999999996,0,B,A
+PE,Autre,0,0,A,A
+PE,Aucun,0.22899999999999998,0.062,C,C
+NS,Réduction du nombre de programmes,0.14800000000000002,0,B,A
+NS,Annulation de programmes,0.059000000000000004,0,B,A
+NS,Incapacité d'accepter de nouveaux clients,0.14,0,D,A
+NS,Réduction du personnel,0.183,NA,C,NA
+NS,Dépendance accrue aux bénévoles,0.446,NA,D,NA
+NS,Réduction des dépenses non liées au personnel,0.28800000000000003,0,D,A
+NS,Exploration d'autres sources de revenus,0.319,0.11599999999999999,D,D
+NS,Risque de fermeture,0.05,NA,B,NA
+NS,Autre,0.040999999999999995,0,B,A
+NS,Aucun,0.147,NA,D,NA
+NB,Réduction du nombre de programmes,0.547,0,D,A
+NB,Annulation de programmes,0.168,0.039,D,B
+NB,Incapacité d'accepter de nouveaux clients,0.18600000000000003,0,D,A
+NB,Réduction du personnel,0.15,0.039,D,B
+NB,Dépendance accrue aux bénévoles,0.47100000000000003,0,E,A
+NB,Réduction des dépenses non liées au personnel,0.426,0,E,A
+NB,Exploration d'autres sources de revenus,0.623,0,D,A
+NB,Risque de fermeture,0.005,0,A,A
+NB,Autre,0.016,0,A,A
+NB,Aucun,0.14,0.92,C,C
+QC,Réduction du nombre de programmes,0.315,NA,D,NA
+QC,Annulation de programmes,0.067,NA,B,NA
+QC,Incapacité d'accepter de nouveaux clients,0.07,NA,A,NA
+QC,Réduction du personnel,0.114,0,B,A
+QC,Dépendance accrue aux bénévoles,0.275,0.027000000000000003,C,A
+QC,Réduction des dépenses non liées au personnel,0.32899999999999996,0.11699999999999999,D,C
+QC,Exploration d'autres sources de revenus,0.25,0.187,C,D
+QC,Risque de fermeture,0.040999999999999995,0,B,A
+QC,Autre,0.001,0,A,A
+QC,Aucun,0.21600000000000003,NA,D,NA
+ON,Réduction du nombre de programmes,0.235,NA,C,NA
+ON,Annulation de programmes,0.075,0,A,A
+ON,Incapacité d'accepter de nouveaux clients,0.086,0.022000000000000002,B,A
+ON,Réduction du personnel,0.162,0.106,C,C
+ON,Dépendance accrue aux bénévoles,0.45,0.27699999999999997,E,E
+ON,Réduction des dépenses non liées au personnel,0.396,0.28600000000000003,D,E
+ON,Exploration d'autres sources de revenus,0.348,NA,D,NA
+ON,Risque de fermeture,0.11,0,D,A
+ON,Autre,0.003,0,A,A
+ON,Aucun,0.129,0.188,E,E
+MB,Réduction du nombre de programmes,0.375,1,D,A
+MB,Annulation de programmes,0.271,0.064,D,C
+MB,Incapacité d'accepter de nouveaux clients,0.336,0,D,A
+MB,Réduction du personnel,0.27399999999999997,0,C,A
+MB,Dépendance accrue aux bénévoles,0.475,0,D,A
+MB,Réduction des dépenses non liées au personnel,0.557,0,D,A
+MB,Exploration d'autres sources de revenus,0.518,NA,D,NA
+MB,Risque de fermeture,0.081,0,B,A
+MB,Autre,0.026000000000000002,0,A,A
+MB,Aucun,0.087,0,B,A
+SK,Réduction du nombre de programmes,0.335,0,D,A
+SK,Annulation de programmes,0.075,0.03,B,B
+SK,Incapacité d'accepter de nouveaux clients,0.06,0,A,A
+SK,Réduction du personnel,0.168,0,D,A
+SK,Dépendance accrue aux bénévoles,0.48100000000000004,0,D,A
+SK,Réduction des dépenses non liées au personnel,0.19699999999999998,0,C,A
+SK,Exploration d'autres sources de revenus,0.349,0,D,A
+SK,Risque de fermeture,0.044000000000000004,0,B,A
+SK,Autre,0.040999999999999995,0,B,A
+SK,Aucun,0.145,NA,C,NA
+AB,Réduction du nombre de programmes,0.401,0,E,A
+AB,Annulation de programmes,0.19899999999999998,0,E,A
+AB,Incapacité d'accepter de nouveaux clients,0.045,0,A,A
+AB,Réduction du personnel,0.18899999999999997,0.040999999999999995,E,B
+AB,Dépendance accrue aux bénévoles,0.28800000000000003,0,E,A
+AB,Réduction des dépenses non liées au personnel,0.172,NA,C,NA
+AB,Exploration d'autres sources de revenus,0.135,NA,C,NA
+AB,Risque de fermeture,0.051,0,B,A
+AB,Autre,0.011000000000000001,0,A,A
+AB,Aucun,0.175,0.019,E,A
+BC,Réduction du nombre de programmes,0.267,NA,D,NA
+BC,Annulation de programmes,0.124,0,C,A
+BC,Incapacité d'accepter de nouveaux clients,0.136,0.012,C,A
+BC,Réduction du personnel,0.203,0,D,A
+BC,Dépendance accrue aux bénévoles,0.446,0.147,D,E
+BC,Réduction des dépenses non liées au personnel,0.41200000000000003,0.111,E,D
+BC,Exploration d'autres sources de revenus,0.562,0.813,D,E
+BC,Risque de fermeture,0.019,0,A,A
+BC,Autre,0.008,0.147,A,E
+BC,Aucun,0.158,0.059000000000000004,D,B
+YT,Réduction du nombre de programmes,0.32,NA,E,..
+YT,Annulation de programmes,0.038,NA,B,..
+YT,Incapacité d'accepter de nouveaux clients,0,NA,A,..
+YT,Réduction du personnel,0,NA,A,..
+YT,Dépendance accrue aux bénévoles,0.239,NA,E,..
+YT,Réduction des dépenses non liées au personnel,0.214,NA,E,..
+YT,Exploration d'autres sources de revenus,0.11,NA,C,..
+YT,Risque de fermeture,0,NA,A,..
+YT,Autre,0,NA,A,..
+YT,Aucun,0.44299999999999995,NA,E,..
+NT,Réduction du nombre de programmes,0.22399999999999998,1,E,A
+NT,Annulation de programmes,0.065,0,B,A
+NT,Incapacité d'accepter de nouveaux clients,0.23199999999999998,0,D,A
+NT,Réduction du personnel,0.04,0,B,A
+NT,Dépendance accrue aux bénévoles,0.29600000000000004,0,E,A
+NT,Réduction des dépenses non liées au personnel,0.37,0,E,A
+NT,Exploration d'autres sources de revenus,0.331,0,E,A
+NT,Risque de fermeture,0.037000000000000005,0,B,A
+NT,Autre,0,0,A,A
+NT,Aucun,0.15,0,D,A
+NU,Réduction du nombre de programmes,0.13,NA,E,..
+NU,Annulation de programmes,0.13,NA,E,..
+NU,Incapacité d'accepter de nouveaux clients,0.18600000000000003,NA,E,..
+NU,Réduction du personnel,0.13,NA,E,..
+NU,Dépendance accrue aux bénévoles,0,NA,A,..
+NU,Réduction des dépenses non liées au personnel,NA,NA,NA,..
+NU,Exploration d'autres sources de revenus,NA,NA,NA,..
+NU,Risque de fermeture,0,NA,A,..
+NU,Autre,0,NA,A,..
+NU,Aucun,0,NA,A,..

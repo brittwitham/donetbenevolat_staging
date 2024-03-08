@@ -1,0 +1,99 @@
+geoAbb,item2,GovAgency,Business,CommNPO,BusNPO,GovAgencyStat,BusinessStat,CommNPOStat,BusNPOStat
+CA,Nouveaux coûts d'emprunt,0.132,0.18,0.127,0.025,C,A,B,A
+CA,Coûts liés à la dette existante,NA,0.315,0.216,0.215,NA,A,B,E
+CA,Dépenses en capital,0.185,0.12,0.237,0.101,E,A,B,B
+CA,Ventes,0.06,0.177,0.113,0.173,B,A,B,C
+CA,Financement des clients,0.068,0.089,0.045,0.033,B,A,A,A
+CA,Taux de change,0.007,0.056,0.014,0.075,A,A,A,B
+CA,Investissements,0.075,0.063,0.248,0.378,B,A,B,D
+NL,Nouveaux coûts d'emprunt,NA,0.192,0.073,0,NA,B,B,A
+NL,Coûts liés à la dette existante,0,0.388,0.224,0.027,A,B,D,A
+NL,Dépenses en capital,0,0.124,0.226,0.061,A,A,C,C
+NL,Ventes,0,0.158,0.171,0.056,A,A,C,B
+NL,Financement des clients,0,0.067,0.019,0.018,A,A,A,A
+NL,Taux de change,0,0.031,0.004,0,A,A,A,A
+NL,Investissements,NA,0.039,0.283,0.837,NA,A,E,D
+PE,Nouveaux coûts d'emprunt,0,0.177,0.117,0.055,A,A,B,B
+PE,Coûts liés à la dette existante,NA,0.375,0.271,0.22,NA,B,D,E
+PE,Dépenses en capital,NA,0.094,0.251,0.206,NA,A,E,D
+PE,Ventes,0,0.15,0.09,0,A,A,C,A
+PE,Financement des clients,0,0.106,0,0.007,A,A,A,A
+PE,Taux de change,0,0.052,0,NA,A,A,A,NA
+PE,Investissements,0.046,0.047,0.27,NA,A,A,D,NA
+NS,Nouveaux coûts d'emprunt,0,0.201,0.03,0.031,A,A,A,A
+NS,Coûts liés à la dette existante,0,0.374,0.195,0.026,A,B,C,A
+NS,Dépenses en capital,NA,0.13,0.257,NA,NA,A,D,NA
+NS,Ventes,0,0.151,0.017,NA,A,A,A,NA
+NS,Financement des clients,0,0.08,0.013,0.003,A,A,A,A
+NS,Taux de change,NA,0.025,0.012,0.022,NA,A,A,A
+NS,Investissements,NA,0.038,0.477,0.07,NA,A,D,B
+NB,Nouveaux coûts d'emprunt,0,0.232,0.017,0,A,A,A,A
+NB,Coûts liés à la dette existante,0.044,0.345,0.117,NA,B,B,C,NA
+NB,Dépenses en capital,0,0.093,0.416,0.122,A,A,E,C
+NB,Ventes,0.956,0.169,0.134,0,B,A,C,A
+NB,Financement des clients,0,0.079,0.001,0,A,A,A,A
+NB,Taux de change,0,0.038,0.008,0.012,A,A,A,A
+NB,Investissements,0,0.044,0.306,NA,A,A,E,NA
+QC,Nouveaux coûts d'emprunt,0.037,0.167,0.133,0.023,B,A,C,A
+QC,Coûts liés à la dette existante,0.848,0.355,0.192,NA,E,B,C,NA
+QC,Dépenses en capital,0.064,0.116,0.16,0.069,C,A,C,B
+QC,Ventes,0.002,0.166,0.092,0.106,A,A,B,C
+QC,Financement des clients,0.02,0.075,0.095,0.024,A,A,D,A
+QC,Taux de change,0,0.048,0.033,0.049,A,A,A,B
+QC,Investissements,0.029,0.074,0.295,0.246,B,A,D,E
+ON,Nouveaux coûts d'emprunt,0.112,0.191,0.181,0.035,D,A,C,A
+ON,Coûts liés à la dette existante,NA,0.277,0.194,0.093,NA,B,D,C
+ON,Dépenses en capital,NA,0.14,0.281,0.082,NA,B,D,B
+ON,Ventes,0.073,0.181,0.135,0.206,C,A,C,E
+ON,Financement des clients,0.045,0.084,0.057,0.044,B,A,C,A
+ON,Taux de change,0.001,0.06,0.008,0.169,A,A,A,E
+ON,Investissements,0.054,0.067,0.142,0.372,C,A,B,E
+MB,Nouveaux coûts d'emprunt,NA,0.177,0.099,0.094,NA,A,B,B
+MB,Coûts liés à la dette existante,NA,0.339,0.229,0.078,NA,B,C,B
+MB,Dépenses en capital,0.012,0.119,0.147,0.071,A,A,B,B
+MB,Ventes,0,0.158,0.074,0.016,A,A,B,A
+MB,Financement des clients,NA,0.088,0.005,NA,NA,A,A,NA
+MB,Taux de change,0,0.06,0.021,0.144,A,A,A,D
+MB,Investissements,0.02,0.058,0.425,0.382,A,A,D,E
+SK,Nouveaux coûts d'emprunt,0.181,0.232,0.093,0.011,D,A,B,A
+SK,Coûts liés à la dette existante,0,0.308,0.267,NA,A,B,D,NA
+SK,Dépenses en capital,0,0.107,0.192,0.024,A,A,B,A
+SK,Ventes,0.243,0.153,0.05,NA,E,A,A,NA
+SK,Financement des clients,0,0.095,0.044,0.021,A,A,B,A
+SK,Taux de change,0.058,0.036,0.02,0.021,A,A,A,A
+SK,Investissements,NA,0.068,0.333,0.17,NA,A,C,E
+AB,Nouveaux coûts d'emprunt,NA,0.202,0.034,0.047,NA,A,A,A
+AB,Coûts liés à la dette existante,0.122,0.284,0.469,0.235,E,A,E,E
+AB,Dépenses en capital,0.022,0.101,0.236,0.111,A,A,D,B
+AB,Ventes,0,0.188,0.045,0.195,A,A,A,E
+AB,Financement des clients,0.006,0.089,0.004,0.046,A,A,A,A
+AB,Taux de change,0.083,0.063,0.005,0.032,D,A,A,A
+AB,Investissements,NA,0.073,0.206,0.334,NA,A,D,E
+BC,Nouveaux coûts d'emprunt,0.055,0.135,0.146,0.008,C,A,C,A
+BC,Coûts liés à la dette existante,NA,0.353,0.085,0.005,NA,B,B,A
+BC,Dépenses en capital,0.025,0.102,0.288,0.065,B,A,D,B
+BC,Ventes,0.073,0.188,0.21,NA,D,A,D,NA
+BC,Financement des clients,0.012,0.117,0.008,0.023,A,A,A,A
+BC,Taux de change,0,0.062,0.002,0.019,A,A,A,A
+BC,Investissements,0.027,0.042,0.262,NA,B,A,C,NA
+YT,Nouveaux coûts d'emprunt,0.232,0.129,0.065,0,D,B,C,A
+YT,Coûts liés à la dette existante,0,0.294,0.283,0.021,A,C,E,A
+YT,Dépenses en capital,0,0.121,NA,NA,A,B,NA,NA
+YT,Ventes,NA,0.191,0.062,NA,NA,C,B,NA
+YT,Financement des clients,0,0.158,0.018,0.019,A,C,A,A
+YT,Taux de change,0,0.043,0.074,0,A,A,C,A
+YT,Investissements,0.229,0.063,0.153,0.111,E,B,D,D
+NT,Nouveaux coûts d'emprunt,0,0.143,0.02,0,A,B,A,A
+NT,Coûts liés à la dette existante,0,0.344,0.191,0,A,C,C,A
+NT,Dépenses en capital,0,0.106,0.263,0.121,A,B,D,D
+NT,Ventes,0.062,0.22,0.265,0.11,B,C,E,C
+NT,Financement des clients,NA,0.124,0,0.091,NA,B,A,C
+NT,Taux de change,0,0.033,0,0.074,A,A,A,B
+NT,Investissements,NA,0.03,0.262,0.603,NA,A,D,E
+NU,Nouveaux coûts d'emprunt,0,0.191,NA,0,A,B,NA,A
+NU,Coûts liés à la dette existante,0,0.286,NA,0,A,C,NA,A
+NU,Dépenses en capital,NA,0.157,0.207,0,NA,B,D,A
+NU,Ventes,NA,0.118,0.052,0,NA,B,A,A
+NU,Financement des clients,0,0.094,0,NA,A,B,A,NA
+NU,Taux de change,0,0.067,0,0,A,C,A,A
+NU,Investissements,0,0.087,0.208,NA,A,C,D,NA

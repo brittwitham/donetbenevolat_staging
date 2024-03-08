@@ -43,6 +43,12 @@ from apps.NSR_2021_FR.app_layout import layout as NSR_2021_FR_layout
 from apps.NLFC_2021_FR.app_layout import layout as NLFC_2021_FR_layout
 from apps.ERNS_2021_FR.app_layout import layout as ERNS_2021_FR_layout
 
+# Business Conditions Stories
+from apps.LCLS_2023_FR.app_layout import layout as LCLS_2023_FR_layout
+from apps.FOPC_2023_FR.app_layout import layout as FOPC_2023_FR_layout
+from apps.IOIR_2023_FR.app_layout import layout as IOIR_2023_FR_layout
+from apps.DT_2023_FR.app_layout import layout as DT_2023_FR_layout
+from apps.CO_2023_FR.app_layout import layout as CO_2023_FR_layout
 
 import homepage
 
@@ -161,6 +167,18 @@ def display_page(pathname):
     elif pathname == '/Role_economique_du_secteur_sans_but_lucratif':
     # elif pathname == '/economic_role_of_the_nonprofit_sector_2021':
         return ERNS_2021_FR_layout
+    
+    # business conditions stories
+    elif pathname == "/liquidite_et_aux_prets_du_cuec_2023":
+        return LCLS_2023_FR_layout
+    elif pathname == "/l_incidence_des_taux_d_interet_2023":
+        return IOIR_2023_FR_layout
+    elif pathname == "/perspectives_d_avenir_et_aux_changements_prevus_2023":
+        return FOPC_2023_FR_layout
+    elif pathname == "/tendances_en_matiere_de_don_2023":
+        return DT_2023_FR_layout
+    elif pathname == "/obstacles_actuels_2023":
+        return CO_2023_FR_layout
 
 
     else:

@@ -1,0 +1,1041 @@
+geoAbb,busGroup,busChar,item2,valNorm,status
+CA,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.375,C
+PE,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.344,E
+NS,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.311,E
+NB,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.502,E
+QC,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.292,E
+MB,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.584,E
+SK,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.618,E
+BC,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.284,E
+NT,Emploi,< 5 employés,Dépendance accrue aux bénévoles,0.76,E
+CA,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.419,C
+PE,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.53,E
+QC,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.266,E
+ON,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.479,E
+SK,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.33799999999999997,D
+AB,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.262,E
+BC,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.583,E
+YT,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0,A
+NT,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0.1,D
+NU,Emploi,5 < 20 employés,Dépendance accrue aux bénévoles,0,A
+CA,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.285,C
+NS,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.5,E
+NB,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.114,C
+QC,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.193,E
+ON,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.289,E
+SK,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.22899999999999998,E
+AB,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.43200000000000005,E
+YT,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0,A
+NT,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0.24100000000000002,E
+NU,Emploi,20 < 100 employés,Dépendance accrue aux bénévoles,0,A
+CA,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0.314,C
+NL,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0.852,D
+NS,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0,A
+ON,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0.324,E
+SK,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0.19899999999999998,D
+AB,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0.045,A
+NT,Emploi,>= 100 employés,Dépendance accrue aux bénévoles,0,A
+NS,Âge de l'entreprise,<= 2 ans,Dépendance accrue aux bénévoles,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0.17800000000000002,D
+PE,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0.091,D
+AB,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0.12300000000000001,D
+BC,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0.039,B
+YT,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Dépendance accrue aux bénévoles,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0.358,D
+QC,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0.85,D
+AB,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0.23399999999999999,E
+BC,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0.098,D
+YT,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Dépendance accrue aux bénévoles,0,A
+CA,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.39799999999999996,B
+NL,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.44799999999999995,E
+PE,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.493,D
+NS,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.462,E
+NB,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.431,E
+QC,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.22,C
+ON,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.466,E
+MB,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.45399999999999996,D
+SK,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.47700000000000004,D
+AB,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.302,E
+BC,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.5720000000000001,E
+NT,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0.358,E
+NU,Âge de l'entreprise,> 20 ans,Dépendance accrue aux bénévoles,0,A
+CA,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.387,B
+NL,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.409,E
+PE,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.523,E
+NS,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.42200000000000004,E
+NB,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.45,E
+QC,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.305,D
+ON,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.426,E
+MB,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.46799999999999997,E
+SK,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.46,E
+AB,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.306,E
+BC,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.43799999999999994,D
+YT,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.27,E
+NT,Lieu,Milieu urbain,Dépendance accrue aux bénévoles,0.315,E
+CA,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.33899999999999997,C
+PE,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.419,E
+NS,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.474,E
+NB,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.469,E
+QC,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.171,E
+SK,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.444,E
+AB,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.21100000000000002,E
+YT,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0,A
+NT,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0.23,E
+NU,Lieu,Milieu rural,Dépendance accrue aux bénévoles,0,A
+CA,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.184,B
+NL,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.053,B
+PE,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.27,E
+NS,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.147,C
+NB,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.568,E
+QC,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.196,E
+ON,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.13,C
+MB,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.299,D
+AB,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.09,C
+BC,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.268,E
+YT,Emploi,< 5 employés,Exploration d'autres sources de revenus,0,A
+NT,Emploi,< 5 employés,Exploration d'autres sources de revenus,0.76,E
+CA,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.513,C
+PE,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.341,E
+NB,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.8220000000000001,D
+QC,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.28800000000000003,E
+ON,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.623,E
+MB,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.642,E
+SK,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.26,D
+AB,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.242,E
+BC,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.7859999999999999,E
+NT,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.044000000000000004,A
+NU,Emploi,5 < 20 employés,Exploration d'autres sources de revenus,0.846,E
+CA,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.385,C
+NS,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.519,E
+NB,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.102,C
+QC,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.255,E
+ON,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.499,E
+SK,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.33799999999999997,E
+AB,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.226,E
+YT,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0,A
+NT,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.44799999999999995,E
+NU,Emploi,20 < 100 employés,Exploration d'autres sources de revenus,0.33299999999999996,E
+CA,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.47600000000000003,C
+NL,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.852,D
+NS,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.188,E
+NB,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.09,C
+ON,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.446,E
+SK,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.23,D
+BC,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0.639,E
+NT,Emploi,>= 100 employés,Exploration d'autres sources de revenus,0,A
+NS,Âge de l'entreprise,<= 2 ans,Exploration d'autres sources de revenus,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0.40399999999999997,E
+PE,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,1,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0.7829999999999999,E
+QC,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0.09,D
+ON,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0.843,E
+YT,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Exploration d'autres sources de revenus,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Exploration d'autres sources de revenus,0.386,D
+NL,Âge de l'entreprise,De 11 à 20 ans,Exploration d'autres sources de revenus,0.11,C
+AB,Âge de l'entreprise,De 11 à 20 ans,Exploration d'autres sources de revenus,0.18100000000000002,E
+YT,Âge de l'entreprise,De 11 à 20 ans,Exploration d'autres sources de revenus,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Exploration d'autres sources de revenus,1,A
+CA,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.32899999999999996,B
+NL,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.226,E
+PE,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.379,E
+NS,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.316,D
+NB,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.631,D
+QC,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.23199999999999998,D
+ON,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.304,C
+MB,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.488,E
+SK,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.34,D
+AB,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.12300000000000001,C
+BC,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.624,E
+YT,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.163,E
+NT,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.375,E
+NU,Âge de l'entreprise,> 20 ans,Exploration d'autres sources de revenus,0.18899999999999997,E
+CA,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.344,B
+NL,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.27699999999999997,E
+PE,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.315,E
+NS,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.33,E
+NB,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.687,E
+QC,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.267,D
+ON,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.305,C
+MB,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.578,E
+SK,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.374,E
+AB,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.115,B
+BC,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.5710000000000001,D
+YT,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.125,D
+NT,Lieu,Milieu urbain,Exploration d'autres sources de revenus,0.364,E
+CA,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.32899999999999996,D
+NL,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.057,B
+PE,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.418,E
+NS,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.3,E
+NB,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.517,E
+QC,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.201,E
+ON,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.758,E
+SK,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.242,E
+YT,Lieu,Milieu rural,Exploration d'autres sources de revenus,0,A
+NT,Lieu,Milieu rural,Exploration d'autres sources de revenus,0.23,E
+CA,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.19899999999999998,B
+NL,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.069,B
+PE,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.38,E
+NS,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.16399999999999998,D
+NB,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.305,E
+QC,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.18,D
+MB,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.345,E
+SK,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.128,C
+AB,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.085,C
+BC,Emploi,< 5 employés,Réduction des dépenses non liées au personnel,0.301,E
+CA,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.456,C
+PE,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.179,D
+NB,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.68,E
+ON,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.603,E
+MB,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.7509999999999999,E
+SK,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.21899999999999997,D
+AB,Emploi,5 < 20 employés,Réduction des dépenses non liées au personnel,0.264,E
+CA,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.423,C
+PE,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.036000000000000004,A
+NS,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.578,E
+NB,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.102,C
+ON,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.38299999999999995,E
+SK,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.276,E
+AB,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.537,E
+YT,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0,A
+NU,Emploi,20 < 100 employés,Réduction des dépenses non liées au personnel,0.33299999999999996,E
+CA,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.5,D
+NS,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0,A
+NB,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.268,E
+QC,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.7440000000000001,E
+ON,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.48700000000000004,E
+MB,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.85,E
+SK,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.401,E
+AB,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0.47100000000000003,E
+NT,Emploi,>= 100 employés,Réduction des dépenses non liées au personnel,0,A
+NS,Âge de l'entreprise,<= 2 ans,Réduction des dépenses non liées au personnel,0,A
+ON,Âge de l'entreprise,<= 2 ans,Réduction des dépenses non liées au personnel,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,0.39,E
+PE,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,1,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,0.131,E
+YT,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,0.11699999999999999,D
+NT,Âge de l'entreprise,De 3 à 10 ans,Réduction des dépenses non liées au personnel,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.259,C
+NL,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.207,E
+PE,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0,A
+NB,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.07,B
+ON,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.187,E
+AB,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.065,C
+BC,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0.03,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Réduction des dépenses non liées au personnel,0,A
+CA,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.33799999999999997,B
+NL,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.179,E
+PE,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.242,C
+NS,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.289,D
+NB,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.46399999999999997,E
+QC,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.304,E
+ON,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.39299999999999996,E
+MB,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.503,D
+SK,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.179,C
+AB,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.188,D
+BC,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.452,E
+YT,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.264,E
+NT,Âge de l'entreprise,> 20 ans,Réduction des dépenses non liées au personnel,0.44799999999999995,E
+CA,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.34299999999999997,B
+NL,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.24,E
+PE,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.376,E
+NS,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.18600000000000003,C
+NB,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.65,E
+QC,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.285,D
+ON,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.43200000000000005,E
+MB,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.551,E
+SK,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.156,B
+AB,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.16699999999999998,C
+BC,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.40700000000000003,E
+YT,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.243,E
+NT,Lieu,Milieu urbain,Réduction des dépenses non liées au personnel,0.419,E
+CA,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.297,D
+NL,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.073,B
+PE,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.13699999999999998,C
+NS,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.40299999999999997,E
+NB,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.151,C
+ON,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.04,A
+MB,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.541,E
+SK,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.248,E
+YT,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0,A
+NT,Lieu,Milieu rural,Réduction des dépenses non liées au personnel,0.23399999999999999,E
+CA,Emploi,< 5 employés,Réduction du nombre de programmes,0.233,C
+NL,Emploi,< 5 employés,Réduction du nombre de programmes,0.228,E
+PE,Emploi,< 5 employés,Réduction du nombre de programmes,0.446,E
+NS,Emploi,< 5 employés,Réduction du nombre de programmes,0.122,C
+NB,Emploi,< 5 employés,Réduction du nombre de programmes,0.5670000000000001,E
+QC,Emploi,< 5 employés,Réduction du nombre de programmes,0.142,C
+ON,Emploi,< 5 employés,Réduction du nombre de programmes,0.08,B
+MB,Emploi,< 5 employés,Réduction du nombre de programmes,0.643,D
+BC,Emploi,< 5 employés,Réduction du nombre de programmes,0.151,D
+CA,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.4,C
+PE,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.428,E
+NS,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.134,C
+ON,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.425,E
+MB,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.268,E
+SK,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.355,D
+AB,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.573,E
+BC,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.262,E
+NT,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.174,E
+NU,Emploi,5 < 20 employés,Réduction du nombre de programmes,0.156,E
+CA,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.297,C
+NL,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.132,E
+NS,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.33,E
+NB,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.14400000000000002,C
+QC,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.196,E
+ON,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.359,E
+MB,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.179,D
+SK,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.155,D
+AB,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.297,E
+NT,Emploi,20 < 100 employés,Réduction du nombre de programmes,0.133,D
+NU,Emploi,20 < 100 employés,Réduction du nombre de programmes,0,A
+CA,Emploi,>= 100 employés,Réduction du nombre de programmes,0.441,C
+NL,Emploi,>= 100 employés,Réduction du nombre de programmes,0,A
+NB,Emploi,>= 100 employés,Réduction du nombre de programmes,0.91,C
+QC,Emploi,>= 100 employés,Réduction du nombre de programmes,0.7440000000000001,E
+ON,Emploi,>= 100 employés,Réduction du nombre de programmes,0.294,E
+SK,Emploi,>= 100 employés,Réduction du nombre de programmes,0.322,E
+AB,Emploi,>= 100 employés,Réduction du nombre de programmes,0.24600000000000002,E
+BC,Emploi,>= 100 employés,Réduction du nombre de programmes,0.907,B
+NT,Emploi,>= 100 employés,Réduction du nombre de programmes,0,A
+CA,Âge de l'entreprise,<= 2 ans,Réduction du nombre de programmes,0.095,D
+NS,Âge de l'entreprise,<= 2 ans,Réduction du nombre de programmes,0,A
+QC,Âge de l'entreprise,<= 2 ans,Réduction du nombre de programmes,0.135,E
+ON,Âge de l'entreprise,<= 2 ans,Réduction du nombre de programmes,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0.18,C
+NL,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0.12300000000000001,D
+QC,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0.139,E
+SK,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0,A
+BC,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0.028999999999999998,B
+YT,Âge de l'entreprise,De 3 à 10 ans,Réduction du nombre de programmes,0.11699999999999999,D
+CA,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0.313,D
+NL,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0.8140000000000001,E
+NS,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0,A
+ON,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0.225,E
+BC,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0.022000000000000002,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Réduction du nombre de programmes,0,A
+CA,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.32,B
+NL,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.258,E
+PE,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.349,D
+NS,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.14,B
+NB,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.563,E
+QC,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.327,E
+ON,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.23199999999999998,C
+MB,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.381,D
+SK,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.326,D
+AB,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.396,E
+BC,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.35,E
+NT,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0.271,E
+NU,Âge de l'entreprise,> 20 ans,Réduction du nombre de programmes,0,A
+CA,Lieu,Milieu urbain,Réduction du nombre de programmes,0.315,B
+NL,Lieu,Milieu urbain,Réduction du nombre de programmes,0.392,E
+PE,Lieu,Milieu urbain,Réduction du nombre de programmes,0.302,E
+NS,Lieu,Milieu urbain,Réduction du nombre de programmes,0.2,D
+NB,Lieu,Milieu urbain,Réduction du nombre de programmes,0.581,E
+QC,Lieu,Milieu urbain,Réduction du nombre de programmes,0.271,D
+ON,Lieu,Milieu urbain,Réduction du nombre de programmes,0.249,C
+MB,Lieu,Milieu urbain,Réduction du nombre de programmes,0.4,E
+SK,Lieu,Milieu urbain,Réduction du nombre de programmes,0.429,E
+AB,Lieu,Milieu urbain,Réduction du nombre de programmes,0.45399999999999996,E
+BC,Lieu,Milieu urbain,Réduction du nombre de programmes,0.27,D
+YT,Lieu,Milieu urbain,Réduction du nombre de programmes,0.36200000000000004,E
+NT,Lieu,Milieu urbain,Réduction du nombre de programmes,0.361,E
+CA,Lieu,Milieu rural,Réduction du nombre de programmes,0.285,D
+PE,Lieu,Milieu rural,Réduction du nombre de programmes,0.47100000000000003,E
+NS,Lieu,Milieu rural,Réduction du nombre de programmes,0.081,B
+NB,Lieu,Milieu rural,Réduction du nombre de programmes,0.48,E
+ON,Lieu,Milieu rural,Réduction du nombre de programmes,0.14400000000000002,D
+MB,Lieu,Milieu rural,Réduction du nombre de programmes,0.358,E
+SK,Lieu,Milieu rural,Réduction du nombre de programmes,0.091,C
+BC,Lieu,Milieu rural,Réduction du nombre de programmes,0.142,C
+YT,Lieu,Milieu rural,Réduction du nombre de programmes,0,A
+NT,Lieu,Milieu rural,Réduction du nombre de programmes,0,A
+NU,Lieu,Milieu rural,Réduction du nombre de programmes,0.13,E
+CA,Emploi,< 5 employés,Réduction du personnel,0.125,B
+NL,Emploi,< 5 employés,Réduction du personnel,0.015,A
+PE,Emploi,< 5 employés,Réduction du personnel,0.092,D
+NS,Emploi,< 5 employés,Réduction du personnel,0.079,C
+NB,Emploi,< 5 employés,Réduction du personnel,0.08199999999999999,C
+QC,Emploi,< 5 employés,Réduction du personnel,0.044000000000000004,B
+ON,Emploi,< 5 employés,Réduction du personnel,0.049,B
+MB,Emploi,< 5 employés,Réduction du personnel,0.376,E
+BC,Emploi,< 5 employés,Réduction du personnel,0.17600000000000002,E
+YT,Emploi,< 5 employés,Réduction du personnel,0,A
+NT,Emploi,< 5 employés,Réduction du personnel,0,A
+CA,Emploi,5 < 20 employés,Réduction du personnel,0.221,B
+PE,Emploi,5 < 20 employés,Réduction du personnel,0.159,D
+QC,Emploi,5 < 20 employés,Réduction du personnel,0.16399999999999998,D
+ON,Emploi,5 < 20 employés,Réduction du personnel,0.42200000000000004,E
+MB,Emploi,5 < 20 employés,Réduction du personnel,0.157,D
+SK,Emploi,5 < 20 employés,Réduction du personnel,0.136,C
+AB,Emploi,5 < 20 employés,Réduction du personnel,0.193,E
+BC,Emploi,5 < 20 employés,Réduction du personnel,0.171,E
+YT,Emploi,5 < 20 employés,Réduction du personnel,0,A
+NT,Emploi,5 < 20 employés,Réduction du personnel,0,A
+NU,Emploi,5 < 20 employés,Réduction du personnel,0.156,E
+CA,Emploi,20 < 100 employés,Réduction du personnel,0.14300000000000002,B
+NL,Emploi,20 < 100 employés,Réduction du personnel,0,A
+PE,Emploi,20 < 100 employés,Réduction du personnel,0.036000000000000004,A
+NS,Emploi,20 < 100 employés,Réduction du personnel,0.312,E
+NB,Emploi,20 < 100 employés,Réduction du personnel,0.012,A
+QC,Emploi,20 < 100 employés,Réduction du personnel,0.125,D
+ON,Emploi,20 < 100 employés,Réduction du personnel,0.052000000000000005,A
+SK,Emploi,20 < 100 employés,Réduction du personnel,0.16699999999999998,D
+AB,Emploi,20 < 100 employés,Réduction du personnel,0.07200000000000001,B
+YT,Emploi,20 < 100 employés,Réduction du personnel,0,A
+NT,Emploi,20 < 100 employés,Réduction du personnel,0.133,D
+NU,Emploi,20 < 100 employés,Réduction du personnel,0,A
+CA,Emploi,>= 100 employés,Réduction du personnel,0.271,C
+NL,Emploi,>= 100 employés,Réduction du personnel,0,A
+NS,Emploi,>= 100 employés,Réduction du personnel,0.125,E
+QC,Emploi,>= 100 employés,Réduction du personnel,0.14800000000000002,D
+ON,Emploi,>= 100 employés,Réduction du personnel,0.214,D
+MB,Emploi,>= 100 employés,Réduction du personnel,0,A
+SK,Emploi,>= 100 employés,Réduction du personnel,0,A
+AB,Emploi,>= 100 employés,Réduction du personnel,0.215,E
+BC,Emploi,>= 100 employés,Réduction du personnel,0.6509999999999999,E
+NT,Emploi,>= 100 employés,Réduction du personnel,0,A
+NS,Âge de l'entreprise,<= 2 ans,Réduction du personnel,0,A
+ON,Âge de l'entreprise,<= 2 ans,Réduction du personnel,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0.14800000000000002,C
+NL,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+MB,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+AB,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0.12300000000000001,D
+BC,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0.028999999999999998,B
+YT,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Réduction du personnel,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.10300000000000001,B
+NL,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.24,E
+PE,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.043,B
+NB,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.141,E
+QC,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.139,E
+ON,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.053,B
+AB,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.013000000000000001,A
+BC,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0.018000000000000002,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Réduction du personnel,0,A
+CA,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.17600000000000002,B
+NL,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.11900000000000001,D
+PE,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.128,C
+NS,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.179,D
+NB,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.15,D
+QC,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.085,B
+ON,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.161,C
+MB,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.273,D
+SK,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.158,D
+AB,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.223,E
+BC,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.262,D
+YT,Âge de l'entreprise,> 20 ans,Réduction du personnel,0,A
+NT,Âge de l'entreprise,> 20 ans,Réduction du personnel,0.048,B
+NU,Âge de l'entreprise,> 20 ans,Réduction du personnel,0,A
+CA,Lieu,Milieu urbain,Réduction du personnel,0.19699999999999998,B
+NL,Lieu,Milieu urbain,Réduction du personnel,0.18899999999999997,E
+PE,Lieu,Milieu urbain,Réduction du personnel,0.17800000000000002,D
+NS,Lieu,Milieu urbain,Réduction du personnel,0.303,E
+NB,Lieu,Milieu urbain,Réduction du personnel,0.222,E
+QC,Lieu,Milieu urbain,Réduction du personnel,0.153,C
+ON,Lieu,Milieu urbain,Réduction du personnel,0.16399999999999998,C
+MB,Lieu,Milieu urbain,Réduction du personnel,0.344,E
+SK,Lieu,Milieu urbain,Réduction du personnel,0.19899999999999998,E
+AB,Lieu,Milieu urbain,Réduction du personnel,0.242,E
+BC,Lieu,Milieu urbain,Réduction du personnel,0.201,D
+YT,Lieu,Milieu urbain,Réduction du personnel,0,A
+NT,Lieu,Milieu urbain,Réduction du personnel,0.055999999999999994,B
+CA,Lieu,Milieu rural,Réduction du personnel,0.049,A
+NL,Lieu,Milieu rural,Réduction du personnel,0.025,A
+PE,Lieu,Milieu rural,Réduction du personnel,0.065,C
+NS,Lieu,Milieu rural,Réduction du personnel,0.043,A
+NB,Lieu,Milieu rural,Réduction du personnel,0.064,B
+QC,Lieu,Milieu rural,Réduction du personnel,0,A
+ON,Lieu,Milieu rural,Réduction du personnel,0.128,D
+MB,Lieu,Milieu rural,Réduction du personnel,0.128,D
+SK,Lieu,Milieu rural,Réduction du personnel,0.077,C
+AB,Lieu,Milieu rural,Réduction du personnel,0.006,A
+BC,Lieu,Milieu rural,Réduction du personnel,0.172,E
+YT,Lieu,Milieu rural,Réduction du personnel,0,A
+NT,Lieu,Milieu rural,Réduction du personnel,0,A
+NU,Lieu,Milieu rural,Réduction du personnel,0.13,E
+CA,Emploi,< 5 employés,Annulation de programmes,0.121,B
+NL,Emploi,< 5 employés,Annulation de programmes,0,A
+PE,Emploi,< 5 employés,Annulation de programmes,0.16699999999999998,D
+NS,Emploi,< 5 employés,Annulation de programmes,0.044000000000000004,B
+QC,Emploi,< 5 employés,Annulation de programmes,0.075,C
+ON,Emploi,< 5 employés,Annulation de programmes,0.055999999999999994,B
+MB,Emploi,< 5 employés,Annulation de programmes,0.23800000000000002,E
+SK,Emploi,< 5 employés,Annulation de programmes,0.008,A
+BC,Emploi,< 5 employés,Annulation de programmes,0.159,E
+YT,Emploi,< 5 employés,Annulation de programmes,0,A
+NT,Emploi,< 5 employés,Annulation de programmes,0,A
+CA,Emploi,5 < 20 employés,Annulation de programmes,0.114,B
+NL,Emploi,5 < 20 employés,Annulation de programmes,0.37799999999999995,E
+PE,Emploi,5 < 20 employés,Annulation de programmes,0.105,C
+NS,Emploi,5 < 20 employés,Annulation de programmes,0.051,B
+NB,Emploi,5 < 20 employés,Annulation de programmes,0.114,D
+QC,Emploi,5 < 20 employés,Annulation de programmes,0.102,C
+ON,Emploi,5 < 20 employés,Annulation de programmes,0.054000000000000006,B
+SK,Emploi,5 < 20 employés,Annulation de programmes,0.165,C
+AB,Emploi,5 < 20 employés,Annulation de programmes,0.177,E
+BC,Emploi,5 < 20 employés,Annulation de programmes,0.049,B
+YT,Emploi,5 < 20 employés,Annulation de programmes,0.147,E
+NT,Emploi,5 < 20 employés,Annulation de programmes,0,A
+NU,Emploi,5 < 20 employés,Annulation de programmes,0.156,E
+CA,Emploi,20 < 100 employés,Annulation de programmes,0.106,B
+NL,Emploi,20 < 100 employés,Annulation de programmes,0,A
+PE,Emploi,20 < 100 employés,Annulation de programmes,0.036000000000000004,A
+NS,Emploi,20 < 100 employés,Annulation de programmes,0.179,E
+NB,Emploi,20 < 100 employés,Annulation de programmes,0.059000000000000004,B
+QC,Emploi,20 < 100 employés,Annulation de programmes,0.006,A
+ON,Emploi,20 < 100 employés,Annulation de programmes,0.12300000000000001,C
+MB,Emploi,20 < 100 employés,Annulation de programmes,0.111,D
+SK,Emploi,20 < 100 employés,Annulation de programmes,0.018000000000000002,A
+AB,Emploi,20 < 100 employés,Annulation de programmes,0.14800000000000002,E
+BC,Emploi,20 < 100 employés,Annulation de programmes,0.213,E
+YT,Emploi,20 < 100 employés,Annulation de programmes,0,A
+NT,Emploi,20 < 100 employés,Annulation de programmes,0.217,D
+NU,Emploi,20 < 100 employés,Annulation de programmes,0,A
+CA,Emploi,>= 100 employés,Annulation de programmes,0.239,C
+NL,Emploi,>= 100 employés,Annulation de programmes,0.14800000000000002,D
+NS,Emploi,>= 100 employés,Annulation de programmes,0,A
+QC,Emploi,>= 100 employés,Annulation de programmes,0.09699999999999999,C
+ON,Emploi,>= 100 employés,Annulation de programmes,0.153,D
+MB,Emploi,>= 100 employés,Annulation de programmes,0,A
+SK,Emploi,>= 100 employés,Annulation de programmes,0.08199999999999999,B
+AB,Emploi,>= 100 employés,Annulation de programmes,0.179,E
+BC,Emploi,>= 100 employés,Annulation de programmes,0.6890000000000001,E
+NT,Emploi,>= 100 employés,Annulation de programmes,0,A
+CA,Âge de l'entreprise,<= 2 ans,Annulation de programmes,0.04,A
+NS,Âge de l'entreprise,<= 2 ans,Annulation de programmes,0,A
+QC,Âge de l'entreprise,<= 2 ans,Annulation de programmes,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0.125,D
+NL,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+ON,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0.122,D
+MB,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0.005,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+AB,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0.163,E
+YT,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Annulation de programmes,0.174,E
+CA,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.128,B
+NL,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.13699999999999998,E
+PE,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.11,C
+NS,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0,A
+NB,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.105,D
+QC,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.135,E
+ON,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.203,E
+SK,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.053,B
+AB,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.081,D
+BC,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0.013000000000000001,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Annulation de programmes,0,A
+CA,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.11800000000000001,B
+NL,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.214,E
+PE,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.124,C
+NS,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.046,B
+NB,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.174,E
+QC,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.079,B
+ON,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.061,A
+MB,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.271,E
+SK,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.078,B
+AB,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.21899999999999997,E
+BC,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.111,B
+YT,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.055999999999999994,B
+NT,Âge de l'entreprise,> 20 ans,Annulation de programmes,0.048,B
+NU,Âge de l'entreprise,> 20 ans,Annulation de programmes,0,A
+CA,Lieu,Milieu urbain,Annulation de programmes,0.133,B
+NL,Lieu,Milieu urbain,Annulation de programmes,0.284,E
+PE,Lieu,Milieu urbain,Annulation de programmes,0.1,C
+NS,Lieu,Milieu urbain,Annulation de programmes,0.106,C
+QC,Lieu,Milieu urbain,Annulation de programmes,0.102,B
+ON,Lieu,Milieu urbain,Annulation de programmes,0.068,A
+MB,Lieu,Milieu urbain,Annulation de programmes,0.215,D
+SK,Lieu,Milieu urbain,Annulation de programmes,0.092,B
+AB,Lieu,Milieu urbain,Annulation de programmes,0.252,E
+BC,Lieu,Milieu urbain,Annulation de programmes,0.124,C
+YT,Lieu,Milieu urbain,Annulation de programmes,0.043,B
+NT,Lieu,Milieu urbain,Annulation de programmes,0.055999999999999994,B
+CA,Lieu,Milieu rural,Annulation de programmes,0.066,B
+NL,Lieu,Milieu rural,Annulation de programmes,0,A
+PE,Lieu,Milieu rural,Annulation de programmes,0.129,C
+NS,Lieu,Milieu rural,Annulation de programmes,0,A
+NB,Lieu,Milieu rural,Annulation de programmes,0.057999999999999996,B
+QC,Lieu,Milieu rural,Annulation de programmes,0.009000000000000001,A
+ON,Lieu,Milieu rural,Annulation de programmes,0.11199999999999999,D
+SK,Lieu,Milieu rural,Annulation de programmes,0.034,A
+AB,Lieu,Milieu rural,Annulation de programmes,0.013000000000000001,A
+BC,Lieu,Milieu rural,Annulation de programmes,0.071,C
+YT,Lieu,Milieu rural,Annulation de programmes,0,A
+NT,Lieu,Milieu rural,Annulation de programmes,0.076,B
+NU,Lieu,Milieu rural,Annulation de programmes,0.13,E
+CA,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.034,A
+NL,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0,A
+PE,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0,A
+NS,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.054000000000000006,C
+NB,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.059000000000000004,B
+QC,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.067,B
+ON,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.01,A
+MB,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.14800000000000002,D
+SK,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.002,A
+AB,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.012,A
+BC,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0.038,B
+YT,Emploi,< 5 employés,Incapacité d'accepter de nouveaux clients,0,A
+CA,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.16,B
+PE,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.17,D
+QC,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.059000000000000004,B
+ON,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.149,C
+MB,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.48200000000000004,E
+SK,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.079,B
+AB,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.127,C
+BC,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.149,E
+YT,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0,A
+NU,Emploi,5 < 20 employés,Incapacité d'accepter de nouveaux clients,0.156,E
+CA,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.16399999999999998,B
+NL,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+PE,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+NS,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.18899999999999997,E
+NB,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+QC,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.132,D
+ON,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.187,D
+SK,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.19899999999999998,D
+AB,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.09,D
+BC,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.203,E
+YT,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+NT,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.29600000000000004,E
+NU,Emploi,20 < 100 employés,Incapacité d'accepter de nouveaux clients,0.33299999999999996,E
+CA,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.21100000000000002,C
+NL,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.187,E
+NS,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+NB,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+ON,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.040999999999999995,A
+MB,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.055999999999999994,B
+SK,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.08199999999999999,B
+AB,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.121,C
+BC,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0.6579999999999999,E
+NT,Emploi,>= 100 employés,Incapacité d'accepter de nouveaux clients,0,A
+NS,Âge de l'entreprise,<= 2 ans,Incapacité d'accepter de nouveaux clients,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0.177,D
+NL,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0.057,C
+ON,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0.239,E
+MB,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0.903,D
+SK,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0,A
+BC,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0.034,B
+YT,Âge de l'entreprise,De 3 à 10 ans,Incapacité d'accepter de nouveaux clients,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.113,B
+NL,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.13699999999999998,E
+NS,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0,A
+QC,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.221,E
+ON,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.05,B
+SK,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.098,D
+AB,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.002,A
+BC,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0.012,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Incapacité d'accepter de nouveaux clients,0,A
+CA,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.094,A
+NL,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.126,D
+PE,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.052000000000000005,B
+NS,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.133,D
+NB,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.174,D
+QC,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.062,B
+ON,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.078,B
+MB,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.20600000000000002,D
+SK,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.055,A
+AB,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.04,A
+BC,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.17300000000000001,D
+YT,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0,A
+NT,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.127,C
+NU,Âge de l'entreprise,> 20 ans,Incapacité d'accepter de nouveaux clients,0.18899999999999997,E
+CA,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.122,A
+NL,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.174,E
+PE,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.105,D
+NS,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.243,E
+NB,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.28300000000000003,E
+QC,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.09699999999999999,B
+ON,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.091,B
+MB,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.47100000000000003,E
+SK,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.084,B
+AB,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.054000000000000006,B
+BC,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.135,C
+YT,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0,A
+NT,Lieu,Milieu urbain,Incapacité d'accepter de nouveaux clients,0.127,E
+CA,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.032,A
+NL,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.015,A
+PE,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.049,B
+NS,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.012,A
+NB,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.067,C
+QC,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.036000000000000004,B
+ON,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.018000000000000002,A
+MB,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.065,C
+SK,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.002,A
+AB,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.009000000000000001,A
+BC,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.084,C
+YT,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0,A
+NU,Lieu,Milieu rural,Incapacité d'accepter de nouveaux clients,0.18600000000000003,E
+CA,Emploi,< 5 employés,Risque de fermeture,0.095,B
+NL,Emploi,< 5 employés,Risque de fermeture,0.015,A
+PE,Emploi,< 5 employés,Risque de fermeture,0.078,C
+NS,Emploi,< 5 employés,Risque de fermeture,0.008,A
+NB,Emploi,< 5 employés,Risque de fermeture,0,A
+QC,Emploi,< 5 employés,Risque de fermeture,0.09300000000000001,C
+ON,Emploi,< 5 employés,Risque de fermeture,0.203,E
+MB,Emploi,< 5 employés,Risque de fermeture,0.153,D
+SK,Emploi,< 5 employés,Risque de fermeture,0.073,C
+AB,Emploi,< 5 employés,Risque de fermeture,0.054000000000000006,B
+BC,Emploi,< 5 employés,Risque de fermeture,0.013000000000000001,A
+YT,Emploi,< 5 employés,Risque de fermeture,0,A
+NT,Emploi,< 5 employés,Risque de fermeture,0,A
+CA,Emploi,5 < 20 employés,Risque de fermeture,0.02,A
+NL,Emploi,5 < 20 employés,Risque de fermeture,0,A
+PE,Emploi,5 < 20 employés,Risque de fermeture,0.031,B
+NS,Emploi,5 < 20 employés,Risque de fermeture,0.113,C
+NB,Emploi,5 < 20 employés,Risque de fermeture,0.013000000000000001,A
+QC,Emploi,5 < 20 employés,Risque de fermeture,0.003,A
+ON,Emploi,5 < 20 employés,Risque de fermeture,0.017,A
+MB,Emploi,5 < 20 employés,Risque de fermeture,0.051,C
+SK,Emploi,5 < 20 employés,Risque de fermeture,0.013999999999999999,A
+AB,Emploi,5 < 20 employés,Risque de fermeture,0.066,C
+BC,Emploi,5 < 20 employés,Risque de fermeture,0,A
+YT,Emploi,5 < 20 employés,Risque de fermeture,0,A
+NT,Emploi,5 < 20 employés,Risque de fermeture,0,A
+NU,Emploi,5 < 20 employés,Risque de fermeture,0,A
+CA,Emploi,20 < 100 employés,Risque de fermeture,0.024,A
+NL,Emploi,20 < 100 employés,Risque de fermeture,0,A
+PE,Emploi,20 < 100 employés,Risque de fermeture,0.036000000000000004,A
+NS,Emploi,20 < 100 employés,Risque de fermeture,0.035,A
+NB,Emploi,20 < 100 employés,Risque de fermeture,0,A
+QC,Emploi,20 < 100 employés,Risque de fermeture,0.003,A
+ON,Emploi,20 < 100 employés,Risque de fermeture,0.013999999999999999,A
+MB,Emploi,20 < 100 employés,Risque de fermeture,0.01,A
+SK,Emploi,20 < 100 employés,Risque de fermeture,0,A
+AB,Emploi,20 < 100 employés,Risque de fermeture,0.002,A
+BC,Emploi,20 < 100 employés,Risque de fermeture,0.10300000000000001,D
+YT,Emploi,20 < 100 employés,Risque de fermeture,0,A
+NT,Emploi,20 < 100 employés,Risque de fermeture,0.126,D
+NU,Emploi,20 < 100 employés,Risque de fermeture,0,A
+CA,Emploi,>= 100 employés,Risque de fermeture,0.01,A
+NL,Emploi,>= 100 employés,Risque de fermeture,0,A
+NS,Emploi,>= 100 employés,Risque de fermeture,0,A
+NB,Emploi,>= 100 employés,Risque de fermeture,0,A
+QC,Emploi,>= 100 employés,Risque de fermeture,0.028999999999999998,A
+ON,Emploi,>= 100 employés,Risque de fermeture,0,A
+MB,Emploi,>= 100 employés,Risque de fermeture,0,A
+SK,Emploi,>= 100 employés,Risque de fermeture,0.08199999999999999,B
+AB,Emploi,>= 100 employés,Risque de fermeture,0.026000000000000002,A
+BC,Emploi,>= 100 employés,Risque de fermeture,0.009000000000000001,A
+NT,Emploi,>= 100 employés,Risque de fermeture,0,A
+CA,Âge de l'entreprise,<= 2 ans,Risque de fermeture,0.152,E
+NS,Âge de l'entreprise,<= 2 ans,Risque de fermeture,1,A
+QC,Âge de l'entreprise,<= 2 ans,Risque de fermeture,0,A
+ON,Âge de l'entreprise,<= 2 ans,Risque de fermeture,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0.055,B
+NL,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0.013000000000000001,A
+ON,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0.057999999999999996,C
+MB,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+AB,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0.065,C
+BC,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0.105,E
+YT,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Risque de fermeture,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.09,C
+NL,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.039,B
+PE,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.043,B
+NS,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.067,B
+NB,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0,A
+QC,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.138,E
+ON,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.006,A
+MB,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0,A
+SK,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.026000000000000002,A
+BC,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0.012,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Risque de fermeture,0,A
+CA,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.05,A
+NL,Âge de l'entreprise,> 20 ans,Risque de fermeture,0,A
+PE,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.055,B
+NS,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.035,B
+NB,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.005,A
+QC,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.031,B
+ON,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.115,D
+MB,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.107,B
+SK,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.045,B
+AB,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.017,A
+BC,Âge de l'entreprise,> 20 ans,Risque de fermeture,0.005,A
+YT,Âge de l'entreprise,> 20 ans,Risque de fermeture,0,A
+NT,Âge de l'entreprise,> 20 ans,Risque de fermeture,0,A
+NU,Âge de l'entreprise,> 20 ans,Risque de fermeture,0,A
+CA,Lieu,Milieu urbain,Risque de fermeture,0.055999999999999994,A
+NL,Lieu,Milieu urbain,Risque de fermeture,0.011000000000000001,A
+PE,Lieu,Milieu urbain,Risque de fermeture,0.094,C
+NS,Lieu,Milieu urbain,Risque de fermeture,0.08900000000000001,C
+NB,Lieu,Milieu urbain,Risque de fermeture,0.009000000000000001,A
+QC,Lieu,Milieu urbain,Risque de fermeture,0.019,A
+ON,Lieu,Milieu urbain,Risque de fermeture,0.11800000000000001,D
+MB,Lieu,Milieu urbain,Risque de fermeture,0.064,B
+SK,Lieu,Milieu urbain,Risque de fermeture,0.002,A
+AB,Lieu,Milieu urbain,Risque de fermeture,0.065,B
+BC,Lieu,Milieu urbain,Risque de fermeture,0.019,A
+YT,Lieu,Milieu urbain,Risque de fermeture,0,A
+NT,Lieu,Milieu urbain,Risque de fermeture,0,A
+CA,Lieu,Milieu rural,Risque de fermeture,0.048,B
+NL,Lieu,Milieu rural,Risque de fermeture,0,A
+PE,Lieu,Milieu rural,Risque de fermeture,0.022000000000000002,A
+NS,Lieu,Milieu rural,Risque de fermeture,0.01,A
+NB,Lieu,Milieu rural,Risque de fermeture,0,A
+QC,Lieu,Milieu rural,Risque de fermeture,0.092,D
+ON,Lieu,Milieu rural,Risque de fermeture,0,A
+MB,Lieu,Milieu rural,Risque de fermeture,0.107,D
+SK,Lieu,Milieu rural,Risque de fermeture,0.121,D
+AB,Lieu,Milieu rural,Risque de fermeture,0,A
+BC,Lieu,Milieu rural,Risque de fermeture,0,A
+YT,Lieu,Milieu rural,Risque de fermeture,0,A
+NT,Lieu,Milieu rural,Risque de fermeture,0.114,D
+NU,Lieu,Milieu rural,Risque de fermeture,0,A
+CA,Emploi,< 5 employés,Autre,0.012,A
+NL,Emploi,< 5 employés,Autre,0,A
+PE,Emploi,< 5 employés,Autre,0,A
+NS,Emploi,< 5 employés,Autre,0.081,D
+NB,Emploi,< 5 employés,Autre,0.026000000000000002,A
+QC,Emploi,< 5 employés,Autre,0.001,A
+ON,Emploi,< 5 employés,Autre,0.004,A
+MB,Emploi,< 5 employés,Autre,0.063,B
+SK,Emploi,< 5 employés,Autre,0.08199999999999999,D
+AB,Emploi,< 5 employés,Autre,0,A
+BC,Emploi,< 5 employés,Autre,0.005,A
+YT,Emploi,< 5 employés,Autre,0,A
+NT,Emploi,< 5 employés,Autre,0,A
+CA,Emploi,5 < 20 employés,Autre,0.01,A
+NL,Emploi,5 < 20 employés,Autre,0.063,C
+PE,Emploi,5 < 20 employés,Autre,0,A
+NS,Emploi,5 < 20 employés,Autre,0,A
+NB,Emploi,5 < 20 employés,Autre,0,A
+QC,Emploi,5 < 20 employés,Autre,0,A
+ON,Emploi,5 < 20 employés,Autre,0.002,A
+MB,Emploi,5 < 20 employés,Autre,0.002,A
+SK,Emploi,5 < 20 employés,Autre,0,A
+AB,Emploi,5 < 20 employés,Autre,0.055,C
+BC,Emploi,5 < 20 employés,Autre,0.013999999999999999,A
+YT,Emploi,5 < 20 employés,Autre,0,A
+NT,Emploi,5 < 20 employés,Autre,0,A
+NU,Emploi,5 < 20 employés,Autre,0,A
+CA,Emploi,20 < 100 employés,Autre,0.005,A
+NL,Emploi,20 < 100 employés,Autre,0,A
+PE,Emploi,20 < 100 employés,Autre,0,A
+NS,Emploi,20 < 100 employés,Autre,0,A
+NB,Emploi,20 < 100 employés,Autre,0.012,A
+QC,Emploi,20 < 100 employés,Autre,0,A
+ON,Emploi,20 < 100 employés,Autre,0.005,A
+MB,Emploi,20 < 100 employés,Autre,0.019,A
+SK,Emploi,20 < 100 employés,Autre,0,A
+AB,Emploi,20 < 100 employés,Autre,0.003,A
+BC,Emploi,20 < 100 employés,Autre,0.008,A
+YT,Emploi,20 < 100 employés,Autre,0,A
+NT,Emploi,20 < 100 employés,Autre,0,A
+NU,Emploi,20 < 100 employés,Autre,0,A
+CA,Emploi,>= 100 employés,Autre,0.003,A
+NL,Emploi,>= 100 employés,Autre,0,A
+NS,Emploi,>= 100 employés,Autre,0,A
+NB,Emploi,>= 100 employés,Autre,0,A
+QC,Emploi,>= 100 employés,Autre,0.04,B
+ON,Emploi,>= 100 employés,Autre,0,A
+MB,Emploi,>= 100 employés,Autre,0,A
+SK,Emploi,>= 100 employés,Autre,0,A
+AB,Emploi,>= 100 employés,Autre,0,A
+BC,Emploi,>= 100 employés,Autre,0,A
+NT,Emploi,>= 100 employés,Autre,0,A
+CA,Âge de l'entreprise,<= 2 ans,Autre,0,A
+NS,Âge de l'entreprise,<= 2 ans,Autre,0,A
+QC,Âge de l'entreprise,<= 2 ans,Autre,0,A
+ON,Âge de l'entreprise,<= 2 ans,Autre,0,A
+CA,Âge de l'entreprise,De 3 à 10 ans,Autre,0.006,A
+NL,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+NS,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+QC,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+ON,Âge de l'entreprise,De 3 à 10 ans,Autre,0.033,B
+MB,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+AB,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+BC,Âge de l'entreprise,De 3 à 10 ans,Autre,0.006999999999999999,A
+YT,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+NT,Âge de l'entreprise,De 3 à 10 ans,Autre,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Autre,0.025,A
+NL,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+PE,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NS,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NB,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+QC,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+ON,Âge de l'entreprise,De 11 à 20 ans,Autre,0.01,A
+MB,Âge de l'entreprise,De 11 à 20 ans,Autre,0.057,C
+SK,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+AB,Âge de l'entreprise,De 11 à 20 ans,Autre,0.069,C
+BC,Âge de l'entreprise,De 11 à 20 ans,Autre,0.009000000000000001,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Autre,0,A
+CA,Âge de l'entreprise,> 20 ans,Autre,0.008,A
+NL,Âge de l'entreprise,> 20 ans,Autre,0.04,B
+PE,Âge de l'entreprise,> 20 ans,Autre,0,A
+NS,Âge de l'entreprise,> 20 ans,Autre,0.044000000000000004,B
+NB,Âge de l'entreprise,> 20 ans,Autre,0.018000000000000002,A
+QC,Âge de l'entreprise,> 20 ans,Autre,0.001,A
+ON,Âge de l'entreprise,> 20 ans,Autre,0.001,A
+MB,Âge de l'entreprise,> 20 ans,Autre,0.024,A
+SK,Âge de l'entreprise,> 20 ans,Autre,0.044000000000000004,B
+AB,Âge de l'entreprise,> 20 ans,Autre,0,A
+BC,Âge de l'entreprise,> 20 ans,Autre,0.01,A
+YT,Âge de l'entreprise,> 20 ans,Autre,0,A
+NT,Âge de l'entreprise,> 20 ans,Autre,0,A
+NU,Âge de l'entreprise,> 20 ans,Autre,0,A
+CA,Lieu,Milieu urbain,Autre,0.012,A
+NL,Lieu,Milieu urbain,Autre,0.047,B
+PE,Lieu,Milieu urbain,Autre,0,A
+NS,Lieu,Milieu urbain,Autre,0.073,D
+NB,Lieu,Milieu urbain,Autre,0.027000000000000003,B
+QC,Lieu,Milieu urbain,Autre,0.001,A
+ON,Lieu,Milieu urbain,Autre,0.004,A
+MB,Lieu,Milieu urbain,Autre,0.037000000000000005,A
+SK,Lieu,Milieu urbain,Autre,0.057999999999999996,C
+AB,Lieu,Milieu urbain,Autre,0.013999999999999999,A
+BC,Lieu,Milieu urbain,Autre,0.01,A
+YT,Lieu,Milieu urbain,Autre,0,A
+NT,Lieu,Milieu urbain,Autre,0,A
+CA,Lieu,Milieu rural,Autre,0.001,A
+NL,Lieu,Milieu rural,Autre,0,A
+PE,Lieu,Milieu rural,Autre,0,A
+NS,Lieu,Milieu rural,Autre,0,A
+NB,Lieu,Milieu rural,Autre,0.002,A
+QC,Lieu,Milieu rural,Autre,0.001,A
+ON,Lieu,Milieu rural,Autre,0,A
+MB,Lieu,Milieu rural,Autre,0.003,A
+SK,Lieu,Milieu rural,Autre,0,A
+AB,Lieu,Milieu rural,Autre,0,A
+BC,Lieu,Milieu rural,Autre,0.009000000000000001,A
+YT,Lieu,Milieu rural,Autre,0,A
+NT,Lieu,Milieu rural,Autre,0,A
+NU,Lieu,Milieu rural,Autre,0,A
+CA,Emploi,< 5 employés,Aucun,0.235,C
+NL,Emploi,< 5 employés,Aucun,0.335,E
+PE,Emploi,< 5 employés,Aucun,0.358,E
+NS,Emploi,< 5 employés,Aucun,0.248,E
+NB,Emploi,< 5 employés,Aucun,0.151,D
+QC,Emploi,< 5 employés,Aucun,0.282,E
+MB,Emploi,< 5 employés,Aucun,0.106,C
+SK,Emploi,< 5 employés,Aucun,0.215,E
+AB,Emploi,< 5 employés,Aucun,0.214,E
+NT,Emploi,< 5 employés,Aucun,0,A
+CA,Emploi,5 < 20 employés,Aucun,0.092,B
+NL,Emploi,5 < 20 employés,Aucun,0.175,D
+PE,Emploi,5 < 20 employés,Aucun,0.155,D
+NS,Emploi,5 < 20 employés,Aucun,0.011000000000000001,A
+NB,Emploi,5 < 20 employés,Aucun,0.044000000000000004,B
+QC,Emploi,5 < 20 employés,Aucun,0.14400000000000002,D
+ON,Emploi,5 < 20 employés,Aucun,0.03,A
+MB,Emploi,5 < 20 employés,Aucun,0.057,C
+SK,Emploi,5 < 20 employés,Aucun,0.095,B
+AB,Emploi,5 < 20 employés,Aucun,0.07,C
+BC,Emploi,5 < 20 employés,Aucun,0.11,D
+YT,Emploi,5 < 20 employés,Aucun,0.154,E
+NT,Emploi,5 < 20 employés,Aucun,0.207,E
+NU,Emploi,5 < 20 employés,Aucun,0,A
+CA,Emploi,20 < 100 employés,Aucun,0.14400000000000002,C
+PE,Emploi,20 < 100 employés,Aucun,0,A
+NS,Emploi,20 < 100 employés,Aucun,0.245,E
+NB,Emploi,20 < 100 employés,Aucun,0.747,E
+ON,Emploi,20 < 100 employés,Aucun,0.065,B
+MB,Emploi,20 < 100 employés,Aucun,0.138,D
+SK,Emploi,20 < 100 employés,Aucun,0.226,E
+AB,Emploi,20 < 100 employés,Aucun,0.069,B
+BC,Emploi,20 < 100 employés,Aucun,0.028999999999999998,A
+NT,Emploi,20 < 100 employés,Aucun,0.172,E
+NU,Emploi,20 < 100 employés,Aucun,0,A
+CA,Emploi,>= 100 employés,Aucun,0.096,B
+NL,Emploi,>= 100 employés,Aucun,0,A
+NS,Emploi,>= 100 employés,Aucun,0,A
+NB,Emploi,>= 100 employés,Aucun,0,A
+QC,Emploi,>= 100 employés,Aucun,0.069,C
+ON,Emploi,>= 100 employés,Aucun,0.099,B
+MB,Emploi,>= 100 employés,Aucun,0.045,B
+SK,Emploi,>= 100 employés,Aucun,0.214,E
+AB,Emploi,>= 100 employés,Aucun,0.226,E
+BC,Emploi,>= 100 employés,Aucun,0.009000000000000001,A
+NT,Emploi,>= 100 employés,Aucun,0,A
+CA,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+NS,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+QC,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+ON,Âge de l'entreprise,<= 2 ans,Aucun,0,A
+NL,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+PE,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+NS,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+NB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+ON,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.011000000000000001,A
+MB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+SK,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+AB,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.01,A
+BC,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.012,A
+YT,Âge de l'entreprise,De 3 à 10 ans,Aucun,0.883,D
+NT,Âge de l'entreprise,De 3 à 10 ans,Aucun,0,A
+CA,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.17800000000000002,D
+NL,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.146,E
+NS,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.064,B
+NB,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.158,E
+QC,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.040999999999999995,B
+ON,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.027999999999999997,A
+SK,Âge de l'entreprise,De 11 à 20 ans,Aucun,0.016,A
+YT,Âge de l'entreprise,De 11 à 20 ans,Aucun,1,A
+NT,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+NU,Âge de l'entreprise,De 11 à 20 ans,Aucun,0,A
+CA,Âge de l'entreprise,> 20 ans,Aucun,0.161,B
+NL,Âge de l'entreprise,> 20 ans,Aucun,0.299,E
+PE,Âge de l'entreprise,> 20 ans,Aucun,0.217,D
+NS,Âge de l'entreprise,> 20 ans,Aucun,0.163,D
+NB,Âge de l'entreprise,> 20 ans,Aucun,0.162,C
+QC,Âge de l'entreprise,> 20 ans,Aucun,0.192,C
+ON,Âge de l'entreprise,> 20 ans,Aucun,0.145,E
+MB,Âge de l'entreprise,> 20 ans,Aucun,0.081,B
+SK,Âge de l'entreprise,> 20 ans,Aucun,0.191,C
+AB,Âge de l'entreprise,> 20 ans,Aucun,0.171,E
+BC,Âge de l'entreprise,> 20 ans,Aucun,0.139,C
+YT,Âge de l'entreprise,> 20 ans,Aucun,0.231,E
+NT,Âge de l'entreprise,> 20 ans,Aucun,0.182,D
+NU,Âge de l'entreprise,> 20 ans,Aucun,0,A
+CA,Lieu,Milieu urbain,Aucun,0.16699999999999998,B
+NL,Lieu,Milieu urbain,Aucun,0.20199999999999999,D
+PE,Lieu,Milieu urbain,Aucun,0.111,C
+NS,Lieu,Milieu urbain,Aucun,0.215,E
+NB,Lieu,Milieu urbain,Aucun,0.092,C
+QC,Lieu,Milieu urbain,Aucun,0.305,E
+ON,Lieu,Milieu urbain,Aucun,0.145,E
+MB,Lieu,Milieu urbain,Aucun,0.035,A
+SK,Lieu,Milieu urbain,Aucun,0.161,C
+AB,Lieu,Milieu urbain,Aucun,0.083,B
+BC,Lieu,Milieu urbain,Aucun,0.16,D
+NT,Lieu,Milieu urbain,Aucun,0.214,E
+CA,Lieu,Milieu rural,Aucun,0.16399999999999998,D
+PE,Lieu,Milieu rural,Aucun,0.273,E
+NS,Lieu,Milieu rural,Aucun,0.068,B
+NB,Lieu,Milieu rural,Aucun,0.23600000000000002,D
+QC,Lieu,Milieu rural,Aucun,0.013999999999999999,A
+ON,Lieu,Milieu rural,Aucun,0.013999999999999999,A
+MB,Lieu,Milieu rural,Aucun,0.18,D
+SK,Lieu,Milieu rural,Aucun,0.18600000000000003,D
+BC,Lieu,Milieu rural,Aucun,0.057,D
+YT,Lieu,Milieu rural,Aucun,1,A
+NT,Lieu,Milieu rural,Aucun,0,A
+NU,Lieu,Milieu rural,Aucun,0,A

@@ -19,22 +19,23 @@ def DonationDouble(df, title):
                                         x=round(df['BusNPO'] * 100, 0),
                                         marker=dict(color="#7bafd4"),
                                         name="Institutions commerciales à but non lucratif",
-                                        text=df['BusNPO'],
-                                        texttemplate="%{text:.0%}",
+                                        text=df['BusNPO']*100,
+                                        texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['BusNPOStat'],
-                                        hovertemplate="%{y}: %{text:.0%}<br>Data quality: %{meta}",
+                                        # hovertemplate= "%{text:.1f} %" + "<br>Qualité de données : " + "%{meta}"
+                                        hovertemplate="%{y} : %{text:.0f} %<br>Qualité de données : %{meta}",
                                         orientation="h"))
 
     fig_DonationDouble.add_trace(go.Bar(y=df['item2'],
                                         x=round(df['CommNPO'] * 100, 0),
                                         marker=dict(color="#c8102e"),
                                         name="Organismes communautaires à but non lucratif",
-                                        text=df['CommNPO'],
-                                        texttemplate="%{text:.0%}",
+                                        text=df['CommNPO']*100,
+                                        texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['CommNPOStat'],
-                                        hovertemplate="%{y}: %{text:.0%}<br>Data quality: %{meta}",
+                                        hovertemplate="%{y} : %{text:.0f} %<br>Qualité de données : %{meta}",
                                         orientation="h"))
 
     fig_DonationDouble.update_layout(title = title,
@@ -65,11 +66,11 @@ def DonationSingle(df, title):
                                         x=df['valNorm'],
                                         marker=dict(color="#c8102e"),
                                         name="",
-                                        text=df['valNorm'],
-                                        texttemplate="%{text:.0%}",
+                                        text=df['valNorm']*100,
+                                        texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['status'],
-                                        hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}",
+                                        hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
                                         orientation = "h"))
 
     fig_DonationSingle.update_layout(title=title,

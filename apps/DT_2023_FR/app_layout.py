@@ -19,7 +19,7 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1("Histoire relative aux tendances en matière de don"),    
+                        html.H1("Histoire relative aux tendances en matière de don"),
                     ],
                         className='post-heading'
                     ),
@@ -35,7 +35,7 @@ layout = html.Div([
         dbc.Row(
             dbc.Col(
                 html.Div([
-                    "Sélectionnez une région:",
+                    "Sélectionnez une région :",
                     dcc.Dropdown(
                       id='geo-selection',
                       options=[{'label': region_values[i], 'value': region_values[i]}
@@ -68,7 +68,7 @@ layout = html.Div([
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(
-                [ 
+                [
                     html.Span('''
                     Certains types d’organismes étaient plus susceptibles que d’autres de déclarer avoir des défis liés aux dons. Les organismes comptant 100 employés ou plus étaient plus susceptibles de déclarer qu’ils faisaient face à de tels défis, tout comme les organismes situés dans les centres urbains. Quant aux organismes plus âgés, ils étaient moins susceptibles de signaler avoir de la difficulté à trouver de nouveaux donateurs, probablement en raison de leurs réseaux établis. Ils étaient toutefois plus susceptibles de constater que les sommes versées étaient moins élevées qu’avant.
                     ''', className='mt-4'),

@@ -13,7 +13,7 @@ def FutureOptimism(df, title, var):
 
     title = "<br>".join(textwrap.wrap(title, width=70))
 
-    df = df.loc[df['busChar'].map({"Community nonprofits": 3, "Business nonprofits": 2, "Government agencies": 1, "Businesses": 0}).sort_values().index]
+    df = df.loc[df['busChar'].map({"Organismes communautaires à but non lucratif": 3, "Institutions commerciales à but non lucratif": 2, "Institutions gouvernementales": 1, "Entreprises": 0}).sort_values().index]
 
 
     fig_FutureOptimism = go.Figure()
@@ -29,7 +29,7 @@ def FutureOptimism(df, title, var):
 
     fig_FutureOptimism.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(col, width=25)) for col in df[var]],
                                         x=df['S_pessimistic'],
-                                        name="Somewhat pessimistic",
+                                        name="Plutôt pessimiste",
                                         marker=dict(color="#50a684"),
                                         legendrank=2,
                                         text=df['S_pessimistic']*-100,
@@ -42,7 +42,7 @@ def FutureOptimism(df, title, var):
 
     fig_FutureOptimism.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(col, width=25)) for col in df[var]],
                                         x=df['V_pessimistic'],
-                                        name="Very pessimistic",
+                                        name="Très pessimiste",
                                         marker=dict(color="#75787b"),
                                         legendrank=1,
                                         text=df['V_pessimistic']*-100,
@@ -55,7 +55,7 @@ def FutureOptimism(df, title, var):
 
     fig_FutureOptimism.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(col, width=25)) for col in df[var]],
                                         x=df['S_optimistic'],
-                                        name="Somewhat optimistic",
+                                        name="Plutôt optimiste",
                                         marker=dict(color="#7bafd4"),
                                         legendrank=3,
                                         text=df['S_optimistic']*100,
@@ -68,7 +68,7 @@ def FutureOptimism(df, title, var):
 
     fig_FutureOptimism.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(col, width=25)) for col in df[var]],
                                         x=df['V_optimistic'],
-                                        name="Very optimistic",
+                                        name="Très optimiste",
                                         marker=dict(color="#c8102e"),
                                         legendrank=4,
                                         text=df['V_optimistic']*100,
@@ -83,7 +83,7 @@ def FutureOptimism(df, title, var):
                                             x=df['pessimistic'],
                                             mode='markers+text',
                                             showlegend=False,
-                                            name="Pessimistic",
+                                            name="Pessimiste",
                                             # marker=dict(color="#75787b00", size=0),
                                             marker=dict(color="#75787b", size=0, opacity=0),
                                             text=df['pessimistic'] * -100,
@@ -97,7 +97,7 @@ def FutureOptimism(df, title, var):
                                             x=df['optimistic'],
                                             mode='markers+text',
                                             showlegend=False,
-                                            name="Optimistic",
+                                            name="Optimiste",
                                             # marker=dict(color="#75787b00", size=0),
                                             marker=dict(color="#75787b", size=0, opacity=0),
                                             text=df['optimistic']*100,
@@ -142,7 +142,7 @@ def FutureFacet(df, title):
                                     vertical_spacing = 0,
                                     horizontal_spacing = 0.04)
 
-    df = df.loc[df['busChar'].map({"Community nonprofits": 3, "Business nonprofits": 2, "Government agencies": 1, "Businesses": 0}).sort_values().index]
+    df = df.loc[df['busChar'].map({"Organismes communautaires à but non lucratif": 3, "Institutions commerciales à but non lucratif": 2, "Institutions gouvernementales": 1, "Entreprises": 0}).sort_values().index]
 
     items = df.sort_values("valIncrease", ascending=False)['item2'].unique()
 
@@ -158,7 +158,7 @@ def FutureFacet(df, title):
 
             fig_FutureFacet.add_trace(go.Bar(x=this_df['valNA'],
                                             y=this_df['busChar'],
-                                            name="Not applicable",
+                                            name="Sans objet",
                                             marker=dict(color="#ffc72c"),
                                             legendrank=1,
                                              showlegend=legend,
@@ -171,7 +171,7 @@ def FutureFacet(df, title):
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
                                             x=this_df['valDecrease'],
-                                            name="Decrease",
+                                            name="Diminution",
                                             marker=dict(color="#50a684"),
                                             legendrank=2,
                                              showlegend=legend,
@@ -184,7 +184,7 @@ def FutureFacet(df, title):
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
                                             x=this_df['valSame'],
-                                            name="About the same",
+                                            name="À peu près identique",
                                             marker=dict(color="#7BAFD4"),
                                             legendrank=3,
                                              showlegend=legend,
@@ -197,7 +197,7 @@ def FutureFacet(df, title):
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
                                             x=this_df['valIncrease'],
-                                            name="Increase",
+                                            name="Augmentation",
                                             marker=dict(color="#c8102e"),
                                             legendrank=4,
                                              showlegend=legend,
@@ -259,7 +259,7 @@ def FutureExpectations(df, title):
 
         fig_FutureExpectations.add_trace(go.Bar(x=this_df['valNA'],
                                                 y=this_df['busChar'],
-                                                name="Not applicable",
+                                                name="Sans objet",
                                                 marker=dict(color="#ffc72c"),
                                                 legendrank=1,
                                                 showlegend=legend,
@@ -272,7 +272,7 @@ def FutureExpectations(df, title):
 
         fig_FutureExpectations.add_trace(go.Bar(y=this_df['busChar'],
                                                 x=this_df['valDecrease'],
-                                                name="Decrease",
+                                                name="Diminution",
                                                 marker=dict(color="#50a684"),
                                                 legendrank=2,
                                                 showlegend=legend,
@@ -285,7 +285,7 @@ def FutureExpectations(df, title):
 
         fig_FutureExpectations.add_trace(go.Bar(y=this_df['busChar'],
                                                 x=this_df['valSame'],
-                                                name="About the same",
+                                                name="À peu près identique",
                                                 marker=dict(color="#7BAFD4"),
                                                 legendrank=3,
                                                 showlegend=legend,
@@ -298,7 +298,7 @@ def FutureExpectations(df, title):
 
         fig_FutureExpectations.add_trace(go.Bar(y=this_df['busChar'],
                                                 x=this_df['valIncrease'],
-                                                name="Increase",
+                                                name="Augmentation",
                                                 marker=dict(color="#c8102e"),
                                                 legendrank=4,
                                                 showlegend=legend,

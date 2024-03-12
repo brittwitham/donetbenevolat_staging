@@ -181,8 +181,8 @@ def display_page(pathname):
         return CO_2023_FR_layout
 
 
-    else:
-        return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
+    # else:
+    #     return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
 
 if __name__ == '__main__':
     # app.run_server(debug=True)

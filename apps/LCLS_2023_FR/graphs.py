@@ -20,45 +20,45 @@ def ImpactRates(df, title, var, accessLiquidity = False):
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=round(df['Business'] * 100, 0),
                                      marker=dict(color="#50a684"),
-                                     name="Entreprises",
-                                     text=df['Business']*100,
-                                     texttemplate="%{text:.0f} %",
+                                     name="Businesses",
+                                     text=df['Business'],
+                                     texttemplate="%{text:.0%}",
                                      textposition="outside",
                                      meta=df['BusinessStat'],
-                                     hovertemplate="%{y} : "+"%{text:.1f} %"+"<br>Qualité de données : "+"%{meta}",
+                                     hovertemplate="%{y}: "+"%{text:.1%}"+"<br>Data quality: "+"%{meta}",
                                      orientation='h'))
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=round(df['GovAgency'] * 100, 0),
                                      marker=dict(color="#ffc72c"),
-                                     name="Institutions gouvernementales",
-                                     text=df['GovAgency']*100,
-                                     texttemplate="%{text:.0f} %",
+                                     name="Government agencies",
+                                     text=df['GovAgency'],
+                                     texttemplate="%{text:.0%}",
                                      textposition="outside",
                                      meta=df['GovAgencyStat'],
-                                     hovertemplate="%{y} : "+"%{text:.1f} %"+"<br>Qualité de données : "+"%{meta}",
+                                     hovertemplate="%{y}: "+"%{text:.1%}"+"<br>Data quality: "+"%{meta}",
                                      orientation='h'))
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=round(df['BusNPO'] * 100, 0),
                                      marker=dict(color="#7bafd4"),
-                                     name="Institutions commerciales à but non lucratif",
-                                     text=df['BusNPO']*100,
-                                     texttemplate="%{text:.0f} %",
+                                     name="Business NPOs",
+                                     text=df['BusNPO'],
+                                     texttemplate="%{text:.0%}",
                                      textposition="outside",
                                      meta=df['BusNPOStat'],
-                                     hovertemplate="%{y} : " + "%{text:.1f} %" + "<br>Qualité de données : " + "%{meta}",
+                                     hovertemplate="%{y}: " + "%{text:.1%}" + "<br>Data quality: " + "%{meta}",
                                      orientation='h'))
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=round(df['CommNPO'] * 100, 0),
                                      marker=dict(color="#c8102e"),
-                                     name="Organismes communautaires à but non lucratif",
-                                     text=df['CommNPO']*100,
-                                     texttemplate="%{text:.0f} %",
+                                     name="Community NPOs",
+                                     text=df['CommNPO'],
+                                     texttemplate="%{text:.0%}",
                                      textposition="outside",
                                      meta=df['CommNPOStat'],
-                                     hovertemplate="%{y} : " + "%{text:.1f} %" + "<br>Qualité de données : " + "%{meta}",
+                                     hovertemplate="%{y}: " + "%{text:.1%}" + "<br>Data quality: " + "%{meta}",
                                      orientation='h'))
 
     fig_ImpactRates.update_layout(title = title,
@@ -87,55 +87,55 @@ def ImpactOrgType(df, title):
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=round(df['Business'] * 100, 0),
                                        marker=dict(color="#50a684"),
-                                       name="Entreprises",
-                                       text=df['Business']*100,
-                                       texttemplate="%{text:.0f} %",
+                                       name="Businesses",
+                                       text=df['Business'],
+                                       texttemplate="%{text:.0%}",
                                        textposition='outside',
                                        meta=df['BusinessStat'],
-                                       hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
+                                       hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}",
                                        orientation='h'
     ))
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=round(df['GovAgency'] * 100, 0),
                                        marker=dict(color="#ffc72c"),
-                                       name="Institutions gouvernementales",
-                                       text=df['GovAgency']*100,
-                                       texttemplate="%{text:.0f} %",
+                                       name="Government agencies",
+                                       text=df['GovAgency'],
+                                       texttemplate="%{text:.0%}",
                                        textposition='outside',
                                        meta=df['GovAgencyStat'],
-                                       hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
+                                       hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}",
                                        orientation='h'
                                        ))
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=round(df['BusNPO'] * 100, 0),
                                        marker=dict(color="#7bafd4"),
-                                       name="Institutions commerciales à but non lucratif",
-                                       text=df['BusNPO']*100,
-                                       texttemplate="%{text:.0f} %",
+                                       name="Business NPOs",
+                                       text=df['BusNPO'],
+                                       texttemplate="%{text:.0%}",
                                        textposition='outside',
                                        meta=df['BusNPOStat'],
-                                       hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
+                                       hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}",
                                        orientation='h'
                                        ))
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=round(df['CommNPO'] * 100, 0),
                                        marker=dict(color="#c8102e"),
-                                       name="Organismes communautaires à but non lucratif",
-                                       text=df['CommNPO']*100,
-                                       texttemplate="%{text:.0f} %",
+                                       name="Community NPOs",
+                                       text=df['CommNPO'],
+                                       texttemplate="%{text:.0%}",
                                        textposition='outside',
                                        meta=df['CommNPOStat'],
-                                       hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
+                                       hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}",
                                        orientation='h'
                                        ))
 
     fig_ImpactOrgType.update_layout(title=title,
                                     yaxis=dict(title=""),
                                     xaxis=dict(title="",
-                                               ticksuffix=' %',
+                                               ticksuffix='%',
                                                showgrid=True,
                                                gridcolor="whitesmoke"),
                                     margin=dict(pad=15),
@@ -162,42 +162,42 @@ def ImpactOrgVertical(df, title):
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=round(df['CommNPO'] * 100, 0),
                                            marker=dict(color="#c8102e"),
-                                           name="Organismes communautaires à but non lucratif",
-                                           text=df['CommNPO']*100,
-                                           texttemplate="%{text:.0f} %",
+                                           name="Community NPOs",
+                                           text=df['CommNPO'],
+                                           texttemplate="%{text:.0%}",
                                            textposition='outside',
                                            meta=df['CommNPOStat'],
-                                           hovertemplate="%{x}: %{text:.1f} %<br>Qualité de données : %{meta}"))
+                                           hovertemplate="%{x}: %{text:.1%}<br>Data quality: %{meta}"))
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=round(df['BusNPO'] * 100, 0),
                                            marker=dict(color="#7bafd4"),
-                                           name="Institutions commerciales à but non lucratif",
-                                           text=df['BusNPO']*100,
-                                           texttemplate="%{text:.0f} %",
+                                           name="Business NPOs",
+                                           text=df['BusNPO'],
+                                           texttemplate="%{text:.0%}",
                                            textposition='outside',
                                            meta=df['BusNPOStat'],
-                                           hovertemplate="%{x}: %{text:.1f} %<br>Qualité de données : %{meta}"))
+                                           hovertemplate="%{x}: %{text:.1%}<br>Data quality: %{meta}"))
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=round(df['GovAgency'] * 100, 0),
                                            marker=dict(color="#ffc72c"),
-                                           name="Institutions gouvernementales",
-                                           text=df['GovAgency']*100,
-                                           texttemplate="%{text:.0f} %",
+                                           name="Government agencies",
+                                           text=df['GovAgency'],
+                                           texttemplate="%{text:.0%}",
                                            textposition='outside',
                                            meta=df['GovAgencyStat'],
-                                           hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}"))
+                                           hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}"))
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=round(df['Business'] * 100, 0),
                                            marker=dict(color="#50a684"),
-                                           name="Entreprises",
-                                           text=df['Business']*100,
-                                           texttemplate="%{text:.0f} %",
+                                           name="Businesses",
+                                           text=df['Business'],
+                                           texttemplate="%{text:.0%}",
                                            textposition='outside',
                                            meta=df['BusinessStat'],
-                                           hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}"))
+                                           hovertemplate="%{y}: %{text:.1%}<br>Data quality: %{meta}"))
 
     fig_ImpactOrgVertical.update_layout(title=title,
                                         yaxis=dict(title="",
@@ -225,15 +225,14 @@ def ReceiveCEBA(df, title):
 
     fig_ReceiveCEBA = go.Figure()
 
-    fig_ReceiveCEBA.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(name, width=25)) for name in df['busChar']],
+    fig_ReceiveCEBA.add_trace(go.Bar(x=df['busChar'],
                                      y=df['valNorm'],
                                      marker=dict(color="#c8102e"),
-                                     text=df['valNorm']*100,
-                                     name="",
-                                     texttemplate="%{text:.0f} %",
+                                     text=df['valNorm'],
+                                     texttemplate="%{text:.0%}",
                                      textposition='outside',
                                      meta=df['status'],
-                                     hovertemplate="%{x} : %{text:.0f} %<br>Qualité de données : %{meta}"))
+                                     hovertemplate="%{x}: %{text:.0%}<br>Data quality: %{meta}"))
 
     fig_ReceiveCEBA.update_layout(title=title,
                                   yaxis=dict(title="",
@@ -261,32 +260,32 @@ def StatusCEBA(df, title):
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=round(df['CommNPO'] * 100, 0),
                                     marker=dict(color="#c8102e"),
-                                    name="<br>".join(textwrap.wrap("Organismes communautaires à but non lucratif", width=25)),
-                                    text=df['CommNPO']*100,
-                                    texttemplate="%{text:.0f} %",
+                                    name="Community NPOs",
+                                    text=df['CommNPO'],
+                                    texttemplate="%{text:.0%}",
                                     textposition='outside',
                                     meta=df['CommNPOStat'],
-                                    hovertemplate="%{x} : %{text:.0f} %<br>Qualité de données : %{meta}"))
+                                    hovertemplate="%{x}: %{text:.0%}<br>Data quality: %{meta}"))
 
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=round(df['BusNPO'] * 100, 0),
                                     marker=dict(color="#7bafd4"),
-                                    name="<br>".join(textwrap.wrap("Institutions commerciales à but non lucratif", width=25)),
-                                    text=df['BusNPO']*100,
-                                    texttemplate="%{text:.0f} %",
+                                    name="Business NPOs",
+                                    text=df['BusNPO'],
+                                    texttemplate="%{text:.0%}",
                                     textposition='outside',
                                     meta=df['BusNPOStat'],
-                                    hovertemplate="%{x} : %{text:.0f} %<br>Qualité de données : %{meta}"))
+                                    hovertemplate="%{x}: %{text:.0%}<br>Data quality: %{meta}"))
 
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=round(df['Business'] * 100, 0),
                                     marker=dict(color="#50a684"),
-                                    name="Entreprises",
-                                    text=df['Business']*100,
-                                    texttemplate="%{text:.0f} %",
+                                    name="Businesses",
+                                    text=df['Business'],
+                                    texttemplate="%{text:.0%}",
                                     textposition='outside',
                                     meta=df['BusinessStat'],
-                                    hovertemplate="%{x} : %{text:.0f} %<br>Qualité de données : %{meta}"))
+                                    hovertemplate="%{x}: %{text:.0%}<br>Data quality: %{meta}"))
 
     fig_statusCEBA.update_layout(title=title,
                                  yaxis=dict(title="",

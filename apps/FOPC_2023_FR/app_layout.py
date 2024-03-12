@@ -102,15 +102,6 @@ layout = html.Div([
                         Les organismes devaient décrire à quel point ils prévoyaient que 15 facteurs donnés allaient changer au cours des trois prochains mois (excluant les variations saisonnières). En général, un nombre plus élevé d’organismes à but non lucratif et d’institutions gouvernementales prévoyaient une augmentation de leurs dépenses d’exploitation et de la demande pour leurs services plutôt qu’une augmentation de leur revenu opérationnel et du nombre d’employés embauchés. Les entreprises étaient légèrement plus susceptibles que les autres organismes de prévoir une diminution de la demande et de leur revenu opérationnel, ce qui pourrait expliquer leur plus grand pessimisme face à l’avenir.
                         '''
                     ),
-                    html.Br(),
-                    html.Br(),
-                    dcc.Dropdown(
-                      id='item2-selection',
-                      options=[{'label': list_factors[i], 'value': list_factors[i]}
-                               for i in range(len(list_factors))],
-                      value='Réserves de trésorerie',
-                      style={'verticalAlign': 'middle'}
-                  ),
                     dcc.Graph(id="org3MonthExpectations_facet", style={
                         'marginTop': marginTop,
                         'height': '120vh'})
@@ -123,6 +114,15 @@ layout = html.Div([
                         Au cours des deux dernières années, les organismes se sont montrés remarquablement constants dans leurs prévisions. La seule tendance à se manifester clairement au cours de cette période était une légère diminution du pourcentage d’organismes qui prédisaient une augmentation du nombre de postes à combler.
                         '''
                     ),
+                    html.Br(),
+                    html.Br(),
+                    dcc.Dropdown(
+                      id='item2-selection',
+                      options=[{'label': list_factors[i], 'value': list_factors[i]}
+                               for i in range(len(list_factors))],
+                      value='Réserves de trésorerie',
+                      style={'verticalAlign': 'middle'}
+                  ),
                     dcc.Graph(id="org3MonthExpectations",
                             style={'marginTop': marginTop,
                                    'height': '150vh'})
@@ -131,7 +131,7 @@ layout = html.Div([
             html.Div(
                 [
                     html.H2(
-                        "Footnotes",
+                        "Note de bas de page",
                         className="anchored quarto-appendix-heading"),
                     html.Ol([
                         html.Li([

@@ -166,7 +166,7 @@ def FutureFacet(df, title):
                                             texttemplate="%{text:.0f} %",
                                             textposition='none',
                                             meta=this_df['statusNA'],
-                                            hovertemplate="%{text:.0f} %" + "<br>Data quality: " + "%{meta}",
+                                            hovertemplate="%{text:.0f} %" + "<br>Qualité de données : " + "%{meta}",
                                             orientation="h"), row=j+1, col=i+1)
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
@@ -179,7 +179,7 @@ def FutureFacet(df, title):
                                             texttemplate="%{text:.0f} %",
                                             textposition='none',
                                             meta=this_df['statusDecrease'],
-                                            hovertemplate="%{text:.0f} %" + "<br>Data quality: " + "%{meta}",
+                                            hovertemplate="%{text:.0f} %" + "<br>Qualité de données : " + "%{meta}",
                                             orientation="h"), row=j+1, col=i+1)
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
@@ -192,7 +192,7 @@ def FutureFacet(df, title):
                                             texttemplate="%{text:.0f} %",
                                             textposition='none',
                                             meta=this_df['statusSame'],
-                                            hovertemplate="%{text:.0f} %" + "<br>Data quality: " + "%{meta}",
+                                            hovertemplate="%{text:.0f} %" + "<br>Qualité de données : " + "%{meta}",
                                             orientation="h"), row=j+1, col=i+1)
 
             fig_FutureFacet.add_trace(go.Bar(y=this_df['busChar'],
@@ -205,7 +205,7 @@ def FutureFacet(df, title):
                                             texttemplate="%{text:.0f} %",
                                             textposition='none',
                                             meta=this_df['statusIncrease'],
-                                            hovertemplate="%{text:.0f} %" + "<br>Data quality: " + "%{meta}",
+                                            hovertemplate="%{text:.0f} %" + "<br>Qualité de données : " + "%{meta}",
                                             orientation="h"), row=j+1, col=i+1)
             fig_FutureFacet.add_annotation(text=this_item,
                                                   showarrow=False,

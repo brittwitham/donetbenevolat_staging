@@ -11,12 +11,15 @@ def get_data():
     filepath = op.join(os.getcwd(), "tables", "{}")
 
     #df1 = pd.read_csv(op.abspath(filepath.format("<DF1 CSV FILE>.csv")))
-    
+
     accessLiquidity = pd.read_csv(op.abspath(filepath.format("accessLiquidity_FR.csv")), keep_default_na=False, na_values = na_values)
     accessLiquidityChange = pd.read_csv(op.abspath(filepath.format("accessLiquidityChange_FR.csv")), keep_default_na=False, na_values = na_values)
     receiveCEBA = pd.read_csv(op.abspath(filepath.format("receiveCEBA_FR.csv")), keep_default_na=False, na_values = na_values)
     statusCEBA = pd.read_csv(op.abspath(filepath.format("statusCEBA_FR.csv")), keep_default_na=False, na_values = na_values)
     willPayCEBA = pd.read_csv(op.abspath(filepath.format("willPayCEBA_FR.csv")), keep_default_na=False, na_values = na_values)
+
+    # One data processing step
+    statusCEBA['item2'] = np.where(statusCEBA['item2']=="Not Remboursé", "Non remboursé", statusCEBA['item2'])
 
     return accessLiquidity, accessLiquidityChange, receiveCEBA, statusCEBA, willPayCEBA
 

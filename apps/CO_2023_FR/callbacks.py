@@ -11,7 +11,7 @@ def register_callbacks(app):
     dash.dependencies.Output('org3MonthObstacles', 'figure'),
     [dash.dependencies.Input('geo-selection', 'value'),])
     def update_graph(geo):
-        title = f"OAu cours des trois prochains mois, quels éléments parmi les suivants constitueront des obstacles pour cette entreprise ou cet organisme? - {geo}"
+        title = f"Au cours des trois prochains mois, quels éléments parmi les suivants constitueront des obstacles pour cette entreprise ou cet organisme? - {geo}"
         df = org3MonthObstacles[(org3MonthObstacles['geoAbb'] == geo) & (org3MonthObstacles['item2'] != "Labour issues")]
         return OrgQuad1(df, title)
 

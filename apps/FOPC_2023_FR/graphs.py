@@ -135,16 +135,20 @@ def FutureFacet(df, title):
 
     title = "<br>".join(textwrap.wrap(title, width=65))
 
+    items = df.sort_values("valIncrease", ascending=False)['item2'].unique()
+
     fig_FutureFacet = make_subplots(rows=5,
                                     cols=3,
                                     shared_xaxes=True,
                                     shared_yaxes=True,
-                                    vertical_spacing = 0,
-                                    horizontal_spacing = 0.04)
+                                    vertical_spacing = 0.04,
+                                    horizontal_spacing = 0.075,
+                                    # subplot_titles=["<br>".join(textwrap.wrap(this_item, 30)) for this_item in items]
+                                    # column_widths=[1,1,1]
+                                    )
 
     df = df.loc[df['busChar'].map({"Organismes communautaires à but non lucratif": 3, "Institutions commerciales à but non lucratif": 2, "Institutions gouvernementales": 1, "Entreprises": 0}).sort_values().index]
 
-    items = df.sort_values("valIncrease", ascending=False)['item2'].unique()
 
     for j in range(5): # col num
         for i in range(3): # row nums
@@ -207,23 +211,27 @@ def FutureFacet(df, title):
                                             meta=this_df['statusIncrease'],
                                             hovertemplate="%{text:.0f} %" + "<br>Qualité de données : " + "%{meta}",
                                             orientation="h"), row=j+1, col=i+1)
-            fig_FutureFacet.add_annotation(text=this_item,
+            fig_FutureFacet.add_annotation(text="<br>".join(textwrap.wrap(this_item, 25)),
+                                           font=dict(size=11),
                                                   showarrow=False,
                                                   xanchor='center',
-                                                  # yanchor='top',
+                                                  yanchor='bottom',
                                                   x=0.5,
-                                                  y=3.75,
+                                                  y=3.5,
                                                   row=j+1, col=i+1)
             fig_FutureFacet.update_yaxes(#tickfont=dict(size=10),
                                          tickprefix="<span style='font-size:0.6vw'>",
                                          ticksuffix="</span>",
                                          row=j+1, col=i+1)
+            fig_FutureFacet.update_layout(title=dict(font=dict(size=12)))
 
     for i in range(1,4):
         fig_FutureFacet.update_xaxes(title="",
-                                    showticklabels=True,
-                                    showgrid=False,
-                                    tickformat=',.0%', row=5, col=i)
+                                     showticklabels=True,
+                                     showgrid=False,
+                                     tickformat='.0%',
+                                     # ticksuffix=" %",
+                                     range=[0,1], row=5, col=i)
 
     fig_FutureFacet.update_layout(title=title,
                                  barmode='relative',

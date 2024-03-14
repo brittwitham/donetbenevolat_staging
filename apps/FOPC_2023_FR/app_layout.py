@@ -9,7 +9,7 @@ register_callbacks(app)
 
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(bc_link="https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises")
 navbar = gen_navbar("future_outlook_and_predicted_changes_2023")
 
 layout = html.Div([

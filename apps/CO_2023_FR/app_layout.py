@@ -8,7 +8,7 @@ from .data_processing import region_values, list_factors
 register_callbacks(app)
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(bc_link="https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises")
 navbar = gen_navbar("current_obstacles_2023")
 
 layout = html.Div([

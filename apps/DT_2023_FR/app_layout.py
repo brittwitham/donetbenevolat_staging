@@ -8,7 +8,7 @@ from .data_processing import region_values, bus_groups, text_items_1, text_items
 register_callbacks(app)
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(bc_link="https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises")
 navbar = gen_navbar("donation_trends_2023")
 
 layout = html.Div([

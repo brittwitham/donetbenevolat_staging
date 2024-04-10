@@ -247,6 +247,10 @@ def ReceiveCEBA(df, title):
                                   plot_bgcolor='rgba(0,0,0,0)')
 
     fig_ReceiveCEBA.update_xaxes(showline=True, linewidth=1, linecolor='black', position=0)
+    fig_ReceiveCEBA.update_xaxes(categoryorder='array', categoryarray=['Organismes communautaires à but non lucratif',
+                                                                       'Institutions commerciales à but non lucratif',
+                                                                       'Institutions gouvernementales',
+                                                                       'Entreprises'])
 
     return fig_ReceiveCEBA
 

@@ -121,7 +121,7 @@ layout = html.Div([
             ''', className='mt-4'),
             dcc.Graph(id="greatestImpactInterestRates", style={
                             'marginTop': marginTop,
-                "height": "90vh"}),
+                "height": "105vh"}),
         ], className='col-md-10 col-lg-8 mx-auto'
     ),
     html.Div(

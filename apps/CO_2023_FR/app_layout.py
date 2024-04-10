@@ -90,7 +90,7 @@ layout = html.Div([
                   ),
                     dcc.Graph(id="expectedObstaclesChange", style={
                             'marginTop': marginTop,
-                    'height': "115vh"}),
+                            'height': "140vh"}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(

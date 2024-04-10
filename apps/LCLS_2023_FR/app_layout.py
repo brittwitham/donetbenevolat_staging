@@ -63,7 +63,8 @@ layout = html.Div([
                     ''', className='mt-4'),
                     dcc.Graph(
                         id="accessLiquidity", style={
-                            'marginTop': marginTop}),
+                            'marginTop': marginTop,
+                            'height': "90vh"}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(

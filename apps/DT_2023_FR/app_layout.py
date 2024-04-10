@@ -105,7 +105,8 @@ layout = html.Div([
                     Les institutions commerciales à but non lucratif devaient relever des défis similaires, même s’ils étaient légèrement moins susceptibles de déclarer dépendre de bénévoles, de devoir réduire les dépenses non liées au personnel, d’avoir recours à des réductions de personnel ou de courir un risque de fermeture. Un peu plus du quart des institutions commerciales à but non lucratif n’ont signalé aucun impact lié aux dons contre un peu plus du sixième des organismes communautaires à but non lucratif.
                     ''', className='mt-4'),
                     dcc.Graph(id="donationImpact", style={
-                            'marginTop': marginTop})
+                            'marginTop': marginTop,
+                            "height": "70vh"})
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             html.Div(

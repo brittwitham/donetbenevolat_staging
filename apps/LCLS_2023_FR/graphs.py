@@ -223,6 +223,12 @@ def ReceiveCEBA(df, title):
 
     title = "<br>".join(textwrap.wrap(title, width=70))
 
+    df['busChar'] = pd.Categorical(df['busChar'], ["Organismes communautaires à but non lucratif", 
+                                                   "Institutions commerciales à but non lucratif", 
+                                                   "Institutions gouvernementales", 
+                                                   "Entreprises"])
+    df.sort_values(['busChar'], inplace=True)
+
     fig_ReceiveCEBA = go.Figure()
 
     fig_ReceiveCEBA.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(var, width=25)) for var in df['busChar']],
@@ -247,10 +253,6 @@ def ReceiveCEBA(df, title):
                                   plot_bgcolor='rgba(0,0,0,0)')
 
     fig_ReceiveCEBA.update_xaxes(showline=True, linewidth=1, linecolor='black', position=0)
-    fig_ReceiveCEBA.update_xaxes(categoryorder='array', categoryarray=['Organismes communautaires à but non lucratif',
-                                                                       'Institutions commerciales à but non lucratif',
-                                                                       'Institutions gouvernementales',
-                                                                       'Entreprises'])
 
     return fig_ReceiveCEBA
 

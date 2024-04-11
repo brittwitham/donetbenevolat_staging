@@ -13,35 +13,38 @@ def DonationDouble(df, title):
 
     df['item2'] = [textwrap.fill(text, width = 25) for text in df['item2']]
 
+    x_lim = max(pd.concat([df['BusNPO'], df['CommNPO']]))*115
+
     fig_DonationDouble = go.Figure()
 
     fig_DonationDouble.add_trace(go.Bar(y=df['item2'],
-                                        x=round(df['BusNPO'] * 100, 0),
+                                        x=df['BusNPO'] * 100,
                                         marker=dict(color="#7bafd4"),
                                         name="Institutions commerciales à but non lucratif",
-                                        text=df['BusNPO']*100,
-                                        texttemplate="%{text:.0f} %",
+                                        text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['BusNPO']],
+                                        # texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['BusNPOStat'],
-                                        hovertemplate="%{y} : %{text:.0f} %<br>Qualité de données : %{meta}",
+                                        hovertemplate="%{y} : %{x:.0f} %<br>Qualité de données : %{meta}",
                                         orientation="h"))
 
     fig_DonationDouble.add_trace(go.Bar(y=df['item2'],
-                                        x=round(df['CommNPO'] * 100, 0),
+                                        x=df['CommNPO'] * 100,
                                         marker=dict(color="#c8102e"),
                                         name="Organismes communautaires à but non lucratif",
-                                        text=df['CommNPO']*100,
-                                        texttemplate="%{text:.0f} %",
+                                        text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['CommNPO']],
+                                        # texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['CommNPOStat'],
-                                        hovertemplate="%{y} : %{text:.0f} %<br>Qualité de données : %{meta}",
+                                        hovertemplate="%{y} : %{x:.0f} %<br>Qualité de données : %{meta}",
                                         orientation="h"))
 
     fig_DonationDouble.update_layout(title = title,
                                      yaxis=dict(title=""),
                                      xaxis=dict(title="",
                                                 showticklabels=False,
-                                                showgrid=False),
+                                                showgrid=False,
+                                                range=(0, x_lim)),
                                      margin=dict(pad=15),
                                      legend=dict(orientation='h',
                                                  xanchor='center',
@@ -61,15 +64,17 @@ def DonationSingle(df, title):
 
     fig_DonationSingle = go.Figure()
 
+    x_lim = max(df['valNorm'])*115
+
     fig_DonationSingle.add_trace(go.Bar(y=df['busChar'],
-                                        x=df['valNorm'],
+                                        x=df['valNorm']*100,
                                         marker=dict(color="#c8102e"),
                                         name="",
-                                        text=df['valNorm']*100,
-                                        texttemplate="%{text:.0f} %",
+                                        text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['valNorm']],
+                                        # texttemplate="%{text:.0f} %",
                                         textposition='outside',
                                         meta=df['status'],
-                                        hovertemplate="%{y} : %{text:.1f} %<br>Qualité de données : %{meta}",
+                                        hovertemplate="%{y} : %{x:.1f} %<br>Qualité de données : %{meta}",
                                         orientation = "h"))
 
     fig_DonationSingle.update_layout(title=title,
@@ -79,7 +84,8 @@ def DonationSingle(df, title):
                                                 ),
                                      xaxis = dict(title="",
                                                   showticklabels=False,
-                                                  showgrid=False),
+                                                  showgrid=False,
+                                                  range=(0, x_lim)),
                                      margin = dict(pad=15),
                                      legend = dict(orientation='h',
                                                    xanchor='center',

@@ -6,7 +6,7 @@ import textwrap
 # Example code
 def OrgQuad1(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70))
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Pour obtenir les valeurs exactes, passez votre curseur sur les barres</sup>"
 
     df = df.sort_values('Business')
     df = df.loc[df['item2'].map({"Other obstacle": -1, "None": -2}).sort_values().index]
@@ -57,7 +57,9 @@ def OrgQuad1(df, title):
                                   hovertemplate="%{y} : " + "%{x:.1f} %" + "<br>Qualité de données : " + "%{meta}",
                                   orientation='h'))
 
-    fig_OrgQuad1.update_layout(title = title,
+    fig_OrgQuad1.update_layout(title = dict(text=title,
+                                            y=0.971,
+                                            yanchor="bottom"),
                                yaxis = dict(title = "",
                                             showticklabels = True,
                                             showgrid = False),
@@ -81,7 +83,7 @@ def OrgQuad1(df, title):
 
 def OrgQuad2(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70))
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Les données ne sont pas disponibles pour certaines années et certains trimestres</sup>"
 
     df = df.sort_values("seriesDate")
 

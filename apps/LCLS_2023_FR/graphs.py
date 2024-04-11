@@ -61,7 +61,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
                                      hovertemplate="%{y} : " + "%{x:.1f} %" + "<br>Qualité de données : " + "%{meta}",
                                      orientation='h'))
 
-    fig_ImpactRates.update_layout(title = title,
+    fig_ImpactRates.update_layout(title = dict(text=title),
                                   yaxis=dict(title=""),
                                   xaxis=dict(title="",
                                              showticklabels=False,
@@ -80,7 +80,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
 def ImpactOrgType(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70))
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Les données ne sont pas disponibles pour certaines années et certains trimestres</sup>"
 
     fig_ImpactOrgType = go.Figure()
 
@@ -132,7 +132,9 @@ def ImpactOrgType(df, title):
                                        orientation='h'
                                        ))
 
-    fig_ImpactOrgType.update_layout(title=title,
+    fig_ImpactOrgType.update_layout(title = dict(text=title,
+                                                yanchor='bottom',
+                                                y=0.971),
                                     yaxis=dict(title=""),
                                     xaxis=dict(title="",
                                                ticksuffix=' %',

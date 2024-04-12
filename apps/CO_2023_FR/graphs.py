@@ -137,7 +137,9 @@ def OrgQuad2(df, title):
                                   orientation="h",
                                   ))
 
-    fig_OrgQuad2.update_layout(title = title,
+    fig_OrgQuad2.update_layout(title = dict(text=title,
+                                            y=0.971,
+                                            yanchor="bottom"),
                                yaxis = dict(title = ""),
                                xaxis = dict(title = "",
                                             ticksuffix = ' %'),

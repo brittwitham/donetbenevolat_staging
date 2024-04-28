@@ -36,7 +36,7 @@ for i in activity_names:
 activity_names = names
 ###################### App layout ######################
 navbar = gen_navbar("what_do_volunteers_do_2013")
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 marginTop = 20
 
 layout = html.Div([

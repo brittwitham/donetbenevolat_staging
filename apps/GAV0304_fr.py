@@ -47,7 +47,7 @@ demo_names = ["Groupe d'âge", 'Genre', 'Éducation', 'État civil', "Situation 
 
 marginTop = 20
 home_button = gen_home_button()
-navbar = gen_navbar("giving_and_volunteering_for_social_services_organizations")
+navbar = gen_navbar("giving_and_volunteering_for_social_services_organizations_2018")
 
 layout = html.Div([
     navbar,

@@ -43,7 +43,7 @@ motivations_names = clean_names
 ###################### App layout ######################
 navbar = gen_navbar("why_do_canadians_volunteer_2013")
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 
 layout = html.Div([
     navbar,

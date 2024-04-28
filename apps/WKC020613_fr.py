@@ -32,7 +32,7 @@ status_names = ['État civil', 'Fréquence de la fréquentation religieuse', "St
 
 ###################### App layout ######################
 navbar = gen_navbar("what_keeps_canadians_from_volunteering_more_2013")
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 marginTop = 20
 
 layout = html.Div([

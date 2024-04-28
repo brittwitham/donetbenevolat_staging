@@ -34,7 +34,7 @@ region_names = get_region_names()
 
 ###################### App layout ######################
 navbar = gen_navbar("why_do_canadians_give_2013")
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 marginTop = 20
 
 layout = html.Div([

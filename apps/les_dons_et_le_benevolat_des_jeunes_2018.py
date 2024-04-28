@@ -116,7 +116,7 @@ region_names = np.array(['Canada',
 
 
 ###################### App layout ######################
-navbar = gen_navbar("giving_and_volunteering_by_youth")
+navbar = gen_navbar("giving_and_volunteering_by_youth_2018")
 home_button = gen_home_button()
 marginTop = 20
 

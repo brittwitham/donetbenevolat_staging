@@ -111,7 +111,7 @@ region_names = np.array(['Canada',
                          'Atlantic Provinces (NB, NS, PE, NL)'], dtype=str)
 
 ###################### App layout ######################
-navbar = gen_navbar("giving_and_volunteering_by_seniors")
+navbar = gen_navbar("giving_and_volunteering_by_seniors_2018")
 
 marginTop = 20
 

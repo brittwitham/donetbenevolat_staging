@@ -33,7 +33,7 @@ status_names = ['État civil', "Situation d'activité", "Statut d'immigration"]
 ###################### App layout ######################
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 navbar = gen_navbar("how_do_canadians_donate_2013")
 
 layout = html.Div([

@@ -11,10 +11,10 @@ def gen_home_button(is_2013 = False, sat_link= False, bc_link=False):
     if sat_link: 
         button_link = "https://donetbenevolat.ca/apercu-des-donnees-sur-les-comptes-satellites/"
     elif bc_link:
-        button_link = "https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises"
+        button_link = "https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises/"
     else:
         # button_link = "https://www.donetbenevolat.ca/"
-        button_link = "https://donetbenevolat.ca/apercu-du-gssgvp/"
+        button_link = "https://donetbenevolat.ca/apercu-de-lesgvp"
 
     button_link_with_year = button_link + "-2013" if is_2013 else button_link
 

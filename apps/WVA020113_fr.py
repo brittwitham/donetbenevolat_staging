@@ -38,7 +38,7 @@ status_names = ["Situation d'activité", "Statut d'immigration"]
 navbar = gen_navbar("who_volunteers_and_how_much_time_do_they_contribute_2013")
 
 marginTop = 20
-home_button = gen_home_button()
+home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 # home_button = gen_home_button()
 
 layout = html.Div([

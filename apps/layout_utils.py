@@ -47,7 +47,7 @@ def gen_navbar(alt_lang_suffix="", is_french=True, is_2013=False):
         dbc.Container(
             [
                 html.A(
-                    html.Img(src="/assets/centre+logo_DEPRECATED.jpg", alt="Don et Benevolat logo"),
+                    html.Img(src="/assets/centre+logo.png", alt="Don et Benevolat logo"),
                     href=home_link
                 ),
                 html.Div(

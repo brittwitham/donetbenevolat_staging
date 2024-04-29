@@ -42,7 +42,7 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
                          hovertemplate="%{hovertext}",
                          hoverlabel=dict(font=dict(color="white")),
                          hoverinfo="text",
-                         marker=dict(color="#c8102e"),
+                         marker=dict(color="#FD7B5F"),
                          text=dff['Text'],
                          name="",
                          textposition='outside',
@@ -114,7 +114,7 @@ def single_vertical_percentage_graph(dff, title, by="Attribute", sort=False):
 
 def vertical_dollar_graph(dff, name1, name2, title):
     dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
-                            ["$" + dff.Estimate.map(str) + "*", "...", "$" + dff.Estimate.map(str)])
+                            ["$" + dff.Estimate.round().map(str) + "*", "...", "$" + dff.Estimate.round().map(str)])
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
@@ -165,7 +165,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
                          hovertemplate="%{hovertext}",
                          hoverlabel=dict(font=dict(color="white")),
                          hoverinfo="text",
-                         marker=dict(color="#c8102e"),
+                         marker=dict(color="#FD7B5F"),
                          text=dff1['Text'],
                          textposition='outside',
                          cliponaxis=False,
@@ -182,7 +182,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
                          hovertemplate="%{hovertext}",
                          hoverlabel=dict(font=dict(color="white")),
                          hoverinfo="text",
-                         marker=dict(color="#7BAFD4"),
+                         marker=dict(color="#234C66"),
                          text=dff2['Text'],
                          textposition='outside',
                          cliponaxis=False,
@@ -255,7 +255,7 @@ def vertical_dollar_graph(dff, name1, name2, title):
 
 def vertical_percentage_graph(dff, title, name1, name2):
     dff['Text'] = np.select([dff["Marker"] == "*", dff["Marker"] == "...", pd.isnull(dff["Marker"])],
-                            [dff.Estimate.map(str) + "%" + "*", "...", dff.Estimate.map(str) + "%"])
+                            [dff.Estimate.round().map(str) + "%" + "*", "...", dff.Estimate.round().map(str) + "%"])
     dff['HoverText'] = np.select([dff["Marker"] == "*",
                                   dff["Marker"] == "...",
                                   pd.isnull(dff["Marker"])],
@@ -306,7 +306,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
                          hovertemplate="%{hovertext}",
                          hoverlabel=dict(font=dict(color="white")),
                          hoverinfo="text",
-                         marker=dict(color="#c8102e"),
+                         marker=dict(color="#FD7B5F"),
                          text=dff1['Text'],
                          textposition='outside',
                          cliponaxis=False,
@@ -323,7 +323,7 @@ def vertical_percentage_graph(dff, title, name1, name2):
                          hovertemplate="%{hovertext}",
                          hoverlabel=dict(font=dict(color="white")),
                          hoverinfo="text",
-                         marker=dict(color="#7BAFD4"),
+                         marker=dict(color="#234C66"),
                          text=dff2['Text'],
                          textposition='outside',
                          cliponaxis=False,

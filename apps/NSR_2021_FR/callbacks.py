@@ -31,13 +31,13 @@ def register_callbacks(app):
         trace_settings = {
             'valNormP_TotNPOs': {
                 'name': "Tous les organismes à but non lucratif", 'line_dict': dict(
-                    color="#7A4A89", dash="solid")}, 'valNormP_CommNPOs': {
+                    color="#6F2DA4", dash="solid")}, 'valNormP_CommNPOs': {
                 'name': "Organismes communautaires à but non lucratif", 'line_dict': dict(
-                    color="#c8102e", dash="dash")}, 'valNormP_BusNPOs': {
+                    color="#FD7B5F", dash="dash")}, 'valNormP_BusNPOs': {
                         'name': "institutions commerciales à but non lucratif", 'line_dict': dict(
-                            color="#c8102e", dash="dot")}, 'valNormP_GovNPOs': {
+                            color="#FD7B5F", dash="dot")}, 'valNormP_GovNPOs': {
                                 'name': "Institutions gouvernementales à but non lucratif", 'line_dict': dict(
-                                    color="#7BAFD4", dash="dash")}}
+                                    color="#234C66", dash="dash")}}
         return Growth(df, title, trace_settings)
 
     @app.callback(
@@ -64,29 +64,29 @@ def register_callbacks(app):
         title = "Croissance relative de par secteur d'activités de base, " + str(min(revGrowthActivity['refDate'].dt.year)) + " to " + str(max(revGrowthActivity['refDate'].dt.year)) + " - " + geo + " (" + str(
             min(revGrowthActivity['refDate'].dt.year)) + " = 1.0)" + '<br>' + '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
         trace_settings = {'valNormP_coreRev_Sports': {'name': "Sports & rec.",
-                                                      'line_dict': dict(color="#7A4A89", dash="solid")},
+                                                      'line_dict': dict(color="#6F2DA4", dash="solid")},
                           'valNormP_coreRev_Education': {'name': "Éducation",
-                                                         'line_dict': dict(color="#7A4A89", dash="dash")},
+                                                         'line_dict': dict(color="#6F2DA4", dash="dash")},
                           'valNormP_coreRev_Health': {'name': "Santé",
-                                                      'line_dict': dict(color="#7A4A89", dash="dot")},
+                                                      'line_dict': dict(color="#6F2DA4", dash="dot")},
                           'valNormP_coreRev_SocServ': {'name': "Services sociaux",
-                                                       'line_dict': dict(color="#c8102e", dash="solid")},
+                                                       'line_dict': dict(color="#FD7B5F", dash="solid")},
                           'valNormP_coreRev_Environment': {'name': "Environnement",
-                                                           'line_dict': dict(color="#c8102e", dash="dash")},
+                                                           'line_dict': dict(color="#FD7B5F", dash="dash")},
                           'valNormP_coreRev_DevtHousing': {'name': "Dévt. et logement",
-                                                           'line_dict': dict(color="#c8102e", dash="dot")},
+                                                           'line_dict': dict(color="#FD7B5F", dash="dot")},
                           'valNormP_coreRev_Advocacy': {'name': "Défense des intérêts",
-                                                        'line_dict': dict(color="#7BAFD4", dash="solid")},
+                                                        'line_dict': dict(color="#234C66", dash="solid")},
                           'valNormP_coreRev_Religion': {'name': "Religion",
-                                                        'line_dict': dict(color="#7BAFD4", dash="dash")},
+                                                        'line_dict': dict(color="#234C66", dash="dash")},
                           'valNormP_coreRev_Fdns': {'name': "Intermédiaires<br>philanthropiques",
-                                                    'line_dict': dict(color="#7BAFD4", dash="dot")},
+                                                    'line_dict': dict(color="#234C66", dash="dot")},
                           'valNormP_coreRev_International': {'name': "International",
-                                                             'line_dict': dict(color="#50a684", dash="solid")},
+                                                             'line_dict': dict(color="#0B6623", dash="solid")},
                           'valNormP_coreRev_ProfAssoc': {'name': "Associations<br>professionnelles",
-                                                         'line_dict': dict(color="#50a684", dash="dash")},
+                                                         'line_dict': dict(color="#0B6623", dash="dash")},
                           'valNormP_coreRev_Other': {'name': "Autre",
-                                                     'line_dict': dict(color="#50a684", dash="dot")}}
+                                                     'line_dict': dict(color="#0B6623", dash="dot")}}
         return Growth(df, title, trace_settings)
 
     @app.callback(
@@ -104,9 +104,9 @@ def register_callbacks(app):
         trace_settings = {
             'valNormP_govtRev_Health': {
                 'name': "Santé & social services", 'line_dict': dict(
-                    color="#c8102e", dash="solid")}, 'valNormP_govtRev_Education': {
+                    color="#FD7B5F", dash="solid")}, 'valNormP_govtRev_Education': {
                 'name': "Éducation", 'line_dict': dict(
-                    color="#7BAFD4", dash="dash")}}
+                    color="#234C66", dash="dash")}}
         return Growth(df, title, trace_settings)
 
     @app.callback(

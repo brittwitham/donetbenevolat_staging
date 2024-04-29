@@ -177,7 +177,10 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                     dcc.Graph(id='revGrowthSource')
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
-            html.Div(
+        ]
+        ),
+    ),
+    dbc.Container([            html.Div(
                 [
                     html.H2(
                         " Note de bas de page",
@@ -257,9 +260,7 @@ Les moteurs de croissance associés aux revenus varient grandement entre les dif
                         ], id="footnote2")
                     ])
                 ],
-            )
-        ]
+            )], className="footnote"
         ),
-    ),
     footer
 ])

@@ -128,7 +128,7 @@ layout = html.Div([
                                    'height': '150vh'})
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
-            html.Div(
+            dbc.Container([html.Div(
                 [
                     html.H2(
                         "Note de bas de page",
@@ -166,10 +166,12 @@ layout = html.Div([
                                 )
                             ], id="footnote2"),
                     ])
-                ]
+                ], className="footnote"
             )
+            ])
         ])
-    )
+    ),
+    footer
 ])
 
 

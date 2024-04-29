@@ -7,18 +7,29 @@ from utils.gen_navbar import gen_navbar
 
 navbar = gen_navbar()
 
-footer = html.Footer(
-       dbc.Container(
-           dbc.Row(
-               html.Div([
-                #    html.P('© Imagine Canada 2021',className="text-center"),
-                   html.P("Ce site Web a été développé grâce au financement du gouvernement du Canada, par le biais du Programme de partenariats pour le développement social d'Emploi et Développement social Canada.",className="text-center")
-               ]
-                   ,className='col-md-10 col-lg-8 mx-auto mt-5'
-               ),
-           )
-       )
-   )
+# footer = html.Footer(
+#        dbc.Container(
+#            dbc.Row(
+#                html.Div([
+#                 #    html.P('© Imagine Canada 2021',className="text-center"),
+#                    html.P("Ce site Web a été développé grâce au financement du gouvernement du Canada, par le biais du Programme de partenariats pour le développement social d'Emploi et Développement social Canada.",className="text-center")
+#                ]
+#                    ,className='col-md-10 col-lg-8 mx-auto mt-5'
+#                ),
+#            )
+#        )
+#    )
+
+footer = html.Footer([
+    html.Div([
+       html.H1(["Centre canadien de connaissances", html.Br(), "sur les dons et le bénévolat"], className="footer-h1-text"),
+       html.Span("Si vous avez d’autres commentaires pour nous aider à développer le\nCarrefour, communiquez avec Bénévoles Canada à l’adresse suivante ", className="footer-span-text"),
+       html.A('datadriven@volunteer.ca.', href='datadriven@volunteer.ca', className="footer-email"),
+    ], style={'width':'100%'}),
+    html.Div([html.Img(src="/assets/footer-logo-fr.png", style={'height':'auto', 'width':'75%', 'float':'right'})]),
+    html.Hr(),
+], style={'padding': '30px'}, 
+                     className='footer')
 
 content = dbc.Container(
     [

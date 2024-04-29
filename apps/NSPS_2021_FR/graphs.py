@@ -39,7 +39,7 @@ def SubSec(df, title):
                 size=15,
                 color="black"),
             marker=dict(
-                color='#c8102e'),
+                color='#FD7B5F'),
             showlegend=True,
             name="Sous-secteur de base",
             hoverinfo='skip'))
@@ -65,7 +65,7 @@ def SubSec(df, title):
                 size=15,
                 color="black"),
             marker=dict(
-                color='#7bafd4'),
+                color='#234C66'),
             showlegend=True,
             name="Gouvernement sub-sector",
             hoverinfo='skip'))
@@ -165,7 +165,7 @@ def SubSecActivity(df, title, vars):
         x=df[var_1] * 100,
         name="Organismes à but non lucratif de base",
         orientation='h',
-        marker=dict(color="#c8102e"),
+        marker=dict(color="#FD7B5F"),
         text=round(df[var_1] * 100, 0).astype(int).map(str) + " %",
         textposition='outside',
         textfont=dict(size=12, color="black"),
@@ -177,7 +177,7 @@ def SubSecActivity(df, title, vars):
         x=df[var_2] * 100,
         name="Institutions gouvernementales à but non lucratif",
         orientation='h',
-        marker=dict(color="#7BAFD4"),
+        marker=dict(color="#234C66"),
         text=np.where(
             df[var_2] > 0,
             round(

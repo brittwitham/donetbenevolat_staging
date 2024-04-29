@@ -138,7 +138,9 @@ layout = html.Div([
                             'marginTop': marginTop})
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
-            html.Div(
+        ])
+    ),
+    dbc.Container([html.Div(
                 [
                     html.H2(
                         "Note de bas de page",
@@ -161,10 +163,10 @@ layout = html.Div([
                                     className="footnote-back",
                                     role="doc-backlink")
                             ], id="fn1")
-                        ], id="footnote1")
+                        ], id="footnote1"),
                     ])
                 ]
-            )
-        ])
-    )
+            )], className="footnote"
+        ),
+    footer
 ])

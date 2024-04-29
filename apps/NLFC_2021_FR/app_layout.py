@@ -174,7 +174,10 @@ Au sein des institutions gouvernementales à but non lucratif, le salaire moyen 
                             'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
-            html.Div(
+        ]
+        ),
+    ),
+    dbc.Container([html.Div(
                 [
                     html.H2(
                         " Note de bas de page",
@@ -210,9 +213,7 @@ Au sein des institutions gouvernementales à but non lucratif, le salaire moyen 
                         ], id="footnote2"),
                     ])
                 ],
-            )
-        ]
+            )], className="footnote"
         ),
-    ),
     footer
 ])

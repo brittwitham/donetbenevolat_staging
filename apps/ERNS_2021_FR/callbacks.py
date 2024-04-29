@@ -23,15 +23,15 @@ def register_callbacks(app):
         title = f"Croissance relative du PIB nominal par sous-secteur, {geo} - 2007 - 2021 (2007 = 1.0)"
         df = gdpGrowth[gdpGrowth['geo'] == geo]
         trace_settings = {'TotEcon': {'name': "Ensemble de l'économie",
-                                      'line_dict': dict(color="#7A4A89", dash="solid")},
+                                      'line_dict': dict(color="#6F2DA4", dash="solid")},
                           'TotNPOs': {'name': "Tous les organismes<br>à but non lucratif",
-                                      'line_dict': dict(color="#ffc72c", dash="solid")},
+                                      'line_dict': dict(color="#FCD12A", dash="solid")},
                           'CommNPOs': {'name': "Organismes communautaires<br>à but non lucratif",
-                                       'line_dict': dict(color="#c8102e", dash="dash")},
+                                       'line_dict': dict(color="#FD7B5F", dash="dash")},
                           'BusNPOs': {'name': "institutions commerciales<br>but non lucratif",
-                                      "line_dict": dict(color="#c8102e", dash="dot")},
+                                      "line_dict": dict(color="#FD7B5F", dash="dot")},
                           'GovNPOs': {'name': "Institutions gouvernementales<br>à but non lucratif",
-                                      'line_dict': dict(color="#7BAFD4", dash="dash")}
+                                      'line_dict': dict(color="#234C66", dash="dash")}
                           }
         return Growth(df, title, trace_settings)
 

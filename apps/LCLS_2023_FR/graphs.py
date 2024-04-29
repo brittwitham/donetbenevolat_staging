@@ -19,7 +19,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=df['Business'] * 100,
-                                     marker=dict(color="#50a684"),
+                                     marker=dict(color="#0B6623"),
                                      name="Entreprises",
                                      text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['Business']],
                                      # texttemplate="%{text:.0f} %",
@@ -30,7 +30,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x=df['GovAgency'] * 100,
-                                     marker=dict(color="#ffc72c"),
+                                     marker=dict(color="#FCD12A"),
                                      name="Institutions gouvernementales",
                                      text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['GovAgency']],
                                      # texttemplate="%{text:.0f} %",
@@ -41,7 +41,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x= df['BusNPO'] * 100,
-                                     marker=dict(color="#7bafd4"),
+                                     marker=dict(color="#234C66"),
                                      name="Institutions commerciales à but non lucratif",
                                      text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['BusNPO']],
                                      # texttemplate="%{text:.0f} %",
@@ -52,7 +52,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
     fig_ImpactRates.add_trace(go.Bar(y=["<br>".join(textwrap.wrap(label, width=35)) for label in df[var]],
                                      x= df['CommNPO'] * 100,
-                                     marker=dict(color="#c8102e"),
+                                     marker=dict(color="#FD7B5F"),
                                      name="Organismes communautaires à but non lucratif",
                                      text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['CommNPO']],
                                      # texttemplate="%{text:.0f} %",
@@ -86,7 +86,7 @@ def ImpactOrgType(df, title):
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=df['Business'] * 100,
-                                       marker=dict(color="#50a684"),
+                                       marker=dict(color="#0B6623"),
                                        name="Entreprises",
                                        text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['Business']],
                                        # texttemplate="%{text:.0f} %",
@@ -98,7 +98,7 @@ def ImpactOrgType(df, title):
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=df['GovAgency'] * 100,
-                                       marker=dict(color="#ffc72c"),
+                                       marker=dict(color="#FCD12A"),
                                        name="Institutions gouvernementales",
                                        text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['GovAgency']],
                                        # texttemplate="%{text:.0f} %",
@@ -110,7 +110,7 @@ def ImpactOrgType(df, title):
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=df['BusNPO'] * 100,
-                                       marker=dict(color="#7bafd4"),
+                                       marker=dict(color="#234C66"),
                                        name="Institutions commerciales à but non lucratif",
                                        text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['BusNPO']],
                                        # texttemplate="%{text:.0f} %",
@@ -122,7 +122,7 @@ def ImpactOrgType(df, title):
 
     fig_ImpactOrgType.add_trace(go.Bar(y=df['dateLabel'],
                                        x=df['CommNPO'] * 100,
-                                       marker=dict(color="#c8102e"),
+                                       marker=dict(color="#FD7B5F"),
                                        name="Organismes communautaires à but non lucratif",
                                        text=[str(round(val*100))+" %" if round(val*100) >= 0.5 else None for val in df['CommNPO']],
                                        # texttemplate="%{text:.0f} %",
@@ -163,7 +163,7 @@ def ImpactOrgVertical(df, title):
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=df['CommNPO'] * 100,
-                                           marker=dict(color="#c8102e"),
+                                           marker=dict(color="#FD7B5F"),
                                            name="Organismes communautaires à but non lucratif",
                                            text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['CommNPO']],
                                            # texttemplate="%{text:.0f} %",
@@ -173,7 +173,7 @@ def ImpactOrgVertical(df, title):
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=df['BusNPO'] * 100,
-                                           marker=dict(color="#7bafd4"),
+                                           marker=dict(color="#234C66"),
                                            name="Institutions commerciales à but non lucratif",
                                            text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['BusNPO']],
                                            # texttemplate="%{text:.0f} %",
@@ -183,7 +183,7 @@ def ImpactOrgVertical(df, title):
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=df['GovAgency'] * 100,
-                                           marker=dict(color="#ffc72c"),
+                                           marker=dict(color="#FCD12A"),
                                            name="Institutions gouvernementales",
                                            text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['GovAgency']],
                                            # texttemplate="%{text:.0f} %",
@@ -193,7 +193,7 @@ def ImpactOrgVertical(df, title):
 
     fig_ImpactOrgVertical.add_trace(go.Bar(x=df['item2'],
                                            y=df['Business'] * 100,
-                                           marker=dict(color="#50a684"),
+                                           marker=dict(color="#0B6623"),
                                            name="Entreprises",
                                            text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['Business']],
                                            # texttemplate="%{text:.0f} %",
@@ -236,7 +236,7 @@ def ReceiveCEBA(df, title):
     fig_ReceiveCEBA.add_trace(go.Bar(x=["<br>".join(textwrap.wrap(var, width=25)) for var in df['busChar']],
                                      y=df['valNorm']*100,
                                      name="",
-                                     marker=dict(color="#c8102e"),
+                                     marker=dict(color="#FD7B5F"),
                                      text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['valNorm']],
                                      # texttemplate="%{text:.0f} %",
                                      textposition='outside',
@@ -268,7 +268,7 @@ def StatusCEBA(df, title):
 
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=df['CommNPO'] * 100,
-                                    marker=dict(color="#c8102e"),
+                                    marker=dict(color="#FD7B5F"),
                                     name="Organismes communautaires à but non lucratif",
                                     text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['CommNPO']],
                                     # texttemplate="%{text:.0f} %",
@@ -278,7 +278,7 @@ def StatusCEBA(df, title):
 
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=df['BusNPO'] * 100,
-                                    marker=dict(color="#7bafd4"),
+                                    marker=dict(color="#234C66"),
                                     name="Institutions commerciales à but non lucratif",
                                     text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['BusNPO']],
                                     # texttemplate="%{text:.0f} %",
@@ -288,7 +288,7 @@ def StatusCEBA(df, title):
 
     fig_statusCEBA.add_trace(go.Bar(x=df['item2'],
                                     y=df['Business'] * 100,
-                                    marker=dict(color="#50a684"),
+                                    marker=dict(color="#0B6623"),
                                     name="Entreprises",
                                     text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['Business']],
                                     # texttemplate="%{text:.0f} %",

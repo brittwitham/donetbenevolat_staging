@@ -1,11 +1,26 @@
 html * {
-  color: black !important;
-  font-family: 'Open Sans' !important;
+  color: #3C4857 !important;
+  font-family: 'Roboto' !important;
+}
+
+html H1 {
+  color: #234C66 !important;
+  font-family: 'Mulish' !important;
+  font-weight: 800 !important;
+}
+
+html H2 {
+  color: #3C4857 !important;
+  font-family: 'Mulish' !important;
+  font-weight: 700 !important;
 }
 
 :root {
   --red: #ba0020;
   --gray: #f6f6f6;
+  --orange: #FD7B5F;
+  --darkblue: #234C66;
+  --peach: #fdefec;
 }
 
 .section-title {
@@ -50,7 +65,7 @@ header.masthead .overlay {
 .header {
   padding-top: 1.8vw;
   padding-bottom: 1.8vw;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #d6d6d6;
 }
 
 .header img {
@@ -61,11 +76,12 @@ header.masthead .overlay {
 
 .header-link {
   padding: 0.1em 0 !important;
-  color: black !important;
+  color: var(--darkblue) !important;
 }
 
 .nav-item:not(:first-child) .header-link {
   margin-left: 1.2vw;
+  font-family: "Times New Roman";
 }
 
 @media screen and (max-width: 767px) {
@@ -89,7 +105,7 @@ header.masthead .overlay {
 .header-link__underline {
   background-image: linear-gradient(black, black);
   background-repeat: repeat-x;
-  background-size: 1px 1px;
+  background-size: 10px 1px;
   background-position: 0 100%;
   background-position: 0 calc(100% - 0.1em);
 }
@@ -101,7 +117,8 @@ footer {
 }
 
 .footer {
-  background-color: var(--red);
+  background-color: var(--darkblue);
+  color: #FFFFFF !important;
   padding: 0;
   min-height: 92px;
   display: flex;
@@ -115,6 +132,26 @@ footer {
   line-height: 1.3;
 }
 
+.footer H1 {
+  color: white !important;
+  font-size: 18px;
+}
+
+.footer hr {
+  border-color: white !important;
+  margin-top: 15px !important;
+  margin-bottom: 50px !important;
+}
+
+.footer span {
+  color: white !important;
+  font-size: 15px;
+}
+
+.footer a {
+  color: #FD7B5F !important;
+}
+
 /* Card */
 .card {
   background-color: var(--gray);
@@ -126,20 +163,19 @@ footer {
 }
 
 .sub-header.bg-secondary {
-  background-color: var(--gray) !important;
+  background-color: var(--peach) !important;
 }
 
 .select-region {
-  background-color: var(--gray) !important;
+  background-color: var(--peach) !important;
 }
 
 .main-button-container {
-  /* padding: 1.7em 1.4em; */
-  background-color: var(--gray) !important;
+  background-color: var(--peach) !important;
 }
 
 .main-button {
-  background-color: var(--red);
+  background-color: var(--orange);
   border: none;
   opacity: 1;
   transition: 0.1s opacity linear;
@@ -155,7 +191,17 @@ footer {
 .main-button:active,
 .main-button:focus {
   /* transition: 1s opacity linear; */
-  background-color: var(--red);
+  background-color: var(--orange);
   border: none;
   opacity: 0.8;
+}
+
+.footnote {
+  background-color: var(--peach);
+  width: 100%;
+  padding: 0;
+} 
+
+#sticky-dropdown .select-region-text {
+  color: #234C66 !important;
 }

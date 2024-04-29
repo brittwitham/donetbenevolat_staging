@@ -44,8 +44,8 @@ def process_data(data):
         # data[i]["QuestionText"] = data[i]["QuestionText"].str.wrap(20, break_long_words=False)
         # data[i]["QuestionText"] = data[i]["QuestionText"].replace({'\n': '<br>'}, regex=True)
 
-        # data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
-        # data[i]["CI Upper"] = data[i]["CI Upper"].round(0).astype(int)
+        data[i]['Estimate'] = data[i]['Estimate'].round(0).astype(int)
+        data[i]["CI Upper"] = np.where(np.isnan(data[i]["CI Upper"]), 0, data[i]["CI Upper"]).round(0).astype(int)
         data[i]['cv'] = data[i]['cv'].round(2)
 
 def get_region_values():

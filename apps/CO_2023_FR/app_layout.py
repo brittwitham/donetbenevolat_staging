@@ -35,7 +35,7 @@ layout = html.Div([
         dbc.Row(
             dbc.Col(
                 html.Div([
-                    "Sélectionnez une région :",
+                    html.Span("Sélectionnez une région :", className="select-region-text"),
                     dcc.Dropdown(
                       id='geo-selection',
                       options=[{'label': region_values[i], 'value': region_values[i]}
@@ -92,8 +92,10 @@ layout = html.Div([
                             'marginTop': marginTop,
                             'height': "140vh"}),
                 ], className='col-md-10 col-lg-8 mx-auto'
-            ),
-            html.Div(
+            )
+        ])
+    ),
+    dbc.Container([html.Div(
                 [
                     html.H2(
                         "Note de bas de page",
@@ -119,7 +121,9 @@ layout = html.Div([
                         ], id="footnote1"),
                     ])
                 ],
-            ),
-        ])
+            )], className="footnote"
     ),
+    footer
 ])
+
+

@@ -19,7 +19,7 @@ def DonationDouble(df, title):
 
     fig_DonationDouble.add_trace(go.Bar(y=df['item2'],
                                         x=df['BusNPO'] * 100,
-                                        marker=dict(color="#7bafd4"),
+                                        marker=dict(color="#234C66"),
                                         name="Institutions commerciales à but non lucratif",
                                         text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['BusNPO']],
                                         # texttemplate="%{text:.0f} %",
@@ -30,7 +30,7 @@ def DonationDouble(df, title):
 
     fig_DonationDouble.add_trace(go.Bar(y=df['item2'],
                                         x=df['CommNPO'] * 100,
-                                        marker=dict(color="#c8102e"),
+                                        marker=dict(color="#FD7B5F"),
                                         name="Organismes communautaires à but non lucratif",
                                         text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['CommNPO']],
                                         # texttemplate="%{text:.0f} %",
@@ -68,7 +68,7 @@ def DonationSingle(df, title):
 
     fig_DonationSingle.add_trace(go.Bar(y=df['busChar'],
                                         x=df['valNorm']*100,
-                                        marker=dict(color="#c8102e"),
+                                        marker=dict(color="#FD7B5F"),
                                         name="",
                                         text=[str(round(val*100))+" %" if not np.isnan(val) and round(val*100) >= 0.5 else None for val in df['valNorm']],
                                         # texttemplate="%{text:.0f} %",

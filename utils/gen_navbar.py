@@ -5,7 +5,7 @@ def gen_navbar(alt_lang_suffix="", is_french=True, is_2013=False):
     other_lang_base = "http://app.givingandvolunteering.ca" if is_french else "http://app.donetbenevolat.ca"
 
     # TODO: Add 2013 suffix for home link too?
-    home_link = "https://www.donetbenevolat.ca"
+    home_link = "https://www.donetbenevolat.ca/"
 
     other_lang_link = "{}/{}".format(other_lang_base, alt_lang_suffix)
 

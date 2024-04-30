@@ -14,16 +14,16 @@ def gen_home_button(is_2013 = False, sat_link= False, bc_link=False):
         button_link = "https://donetbenevolat.ca/apercu-des-donnees-sur-la-situation-des-entreprises/"
     else:
         # button_link = "https://www.donetbenevolat.ca/"
-        button_link = "https://donetbenevolat.ca/apercu-de-lesgvp"
+        button_link = "https://donetbenevolat.ca/apercu-de-lesgvp-2013/" if is_2013 else "https://donetbenevolat.ca/apercu-du-gssgvp/"
 
-    button_link_with_year = button_link + "-2013" if is_2013 else button_link
+    # button_link_with_year = button_link + "-2013" if is_2013 else button_link
 
     home_button = dbc.Row(
         dbc.Col(
             html.Div(
                 html.A(
                     dbc.Button(button_text, color="secondary", className="main-button me-1 text-white"),
-                    href=button_link_with_year),
+                    href=button_link),
             ),
             className="main-button-container text-center"
         )
@@ -37,7 +37,7 @@ def gen_navbar(alt_lang_suffix="", is_french=True, is_2013=False):
 
     # TODO: Add 2013 suffix for home link too?
     # home_link = "https://www.donetbenevolat.ca"
-    home_link = "https://donetbenevolat.ca/apercu-du-gssgvp/"
+    home_link = "https://donetbenevolat.ca/"
 
     other_lang_link = "{}/{}".format(other_lang_base, alt_lang_suffix)
 

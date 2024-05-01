@@ -43,7 +43,7 @@ Indigenous,Autochtones,Human Resources,demo-selection,Demographics filter option
 Visible minority,Minorités visibles,Human Resources,demo-selection,Demographics filter option,
 Formal education,Éducation formelle,Human Resources,demo-selection,Demographics filter option,
 Age group,Groupe d'âge,Human Resources,demo-selection,Demographics filter option,
-"Number and percentage of full-time and part-time employees by sub-sector, 2021 - CA / Note: Hover over bar for absolute employee numbers","Nombre et pourcentage d'employés à temps plein et partiel par sous-secteur, 2021 - CA / Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.",Human Resources,jobsType,Title,
+"Number and percentage of full-time and part-time employees by sub-sector, 2021 - CA / Note: Hover over bar for absolute employee numbers","Nombre et pourcentage d'employés à temps plein et partiel par sous-secteur, 2021 - CA / Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes.",Human Resources,jobsType,Title,
 "Average wages & salaries by employment type and sub-sector, 2021 - CA","Salaires moyens par type d'emploi et par sous-secteur, 2021 - CA",Human Resources,wagesType,Title,
 "Distribution of nonprofit employees by demographic characteristic and sub-sector, 2021 - CA / Note: Hover over bar for absolute values","Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur, 2021 - CA / Remarque : placer le curseur sur la barre pour connaître les valeurs absolues.",Human Resources,jobsDemog,Title,
 "Average nonprofit wages and salaries by demographic characteristic and sub-sector, 2021 - CA","Salaires moyens par caractéristique démographique et par sous-secteur, 2021 - CA",Human Resources,wagesDemog,Title,
@@ -59,7 +59,7 @@ Part-time jobs,Emplois à temps partiel,,"jobsType_fig, wagesType_fig",Trace lab
 All jobs,Tous les emplois,,wagesType_fig,Trace label,
 Business membership fees,Frais d'adhésion commerciaux,,Source,Trace label,
 Value,Valeur,,,Hovertext,"Context: ""Corporate donations: 10% / Value: $1B"""
-Note: Hover over bar for absolute values, Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.
+Note: Hover over bar for absolute values, Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes.
 Note: Hover over line for absolute values, Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues.
 Relative growth of employment by sub-sector,Croissance relative de l'emploi par sous-secteur
 Nonprofit employment by sub-sector,Emploi dans les organismes à but non lucratif par sous-secteur
@@ -78,7 +78,7 @@ Relative growth of employment by sub-sector,Croissance relative de l'emploi par 
 "Average wages & salaries by employment type and sub-sector","Salaires moyens par type d'emploi et par sous-secteur",Human Resources,wagesType,Title,
 "Distribution of nonprofit employees by demographic characteristic and sub-sector","Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur.",Human Resources,jobsDemog,Title,
 "Average nonprofit wages and salaries by demographic characteristic and sub-sector","Salaires moyens par caractéristique démographique et par sous-secteur",Human Resources,wagesDemog,Title,
-"Note: Hover over bar for absolute employee numbers","Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés.",Human Resources,jobsType,Title,
+"Note: Hover over bar for absolute employee numbers","Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes.",Human Resources,jobsType,Title,
 Percentage and amount of nonprofit GDP by sub-sector,Pourcentage et montant du PIB des organismes à but non lucratif par sous-secteur,GDP,gdpSubSec,Title,
 "Relative growth of nominal GDP by sub-sector","Croissance relative du PIB nominal par sous-secteur",GDP,gdpGrowth,Trace label,
 Percentage of nonprofit GDP by sub-sector and activity area,Pourcentage du PIB des organismes à but non lucratif par sous-secteur et par secteur d'activités,GDP,gdpSubSecActivity,Title,
@@ -89,7 +89,7 @@ Professional<br>associations,Associations<br>professionnelles,Revenues,"revGrowt
 voluntarism,volontariat
 Male,Homme
 Female, Femme
-Non-visible minority,Minorité non-visible 
+Non-visible minority,Minorité non-visible
 High school,Secondaire
 Trade certificate,Certificat de métier
 College diploma,Diplôme collégial

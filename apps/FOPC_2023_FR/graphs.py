@@ -16,7 +16,7 @@ def FutureOptimism(df, title, var):
     df = df.loc[df['busChar'].map({"Organismes communautaires à but non lucratif": 3, "Institutions commerciales à but non lucratif": 2, "Institutions gouvernementales": 1, "Entreprises": 0}).sort_values().index]
 
     if var == "dateLabel":
-        title += "<br><sup>Note : Les données ne sont pas disponibles pour certaines années et certains trimestres</sup>"
+        title += "<br><sup>Remarque : aucune donnée n’est disponible pour certains trimestres et pour certaines années</sup>"
 
     fig_FutureOptimism = go.Figure()
 

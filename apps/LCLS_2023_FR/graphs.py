@@ -80,7 +80,7 @@ def ImpactRates(df, title, var, accessLiquidity = False):
 
 def ImpactOrgType(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Les données ne sont pas disponibles pour certaines années et certains trimestres</sup>"
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Remarque : aucune donnée n’est disponible pour certains trimestres et pour certaines années</sup>"
 
     fig_ImpactOrgType = go.Figure()
 

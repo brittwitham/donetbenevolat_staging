@@ -13,7 +13,7 @@ def register_callbacks(app):
     def update_graph(geo):
         jobsType['refDate'] = pd.to_datetime(jobsType['refDate'])
         title = "Nombre et pourcentage d'employés à temps plein et partiel par sous-secteur, " + \
-            str(max(jobsType['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + "Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
+            str(max(jobsType['refDate'].dt.year)) + " - " + geo + '<br>' + '<sup>' + "Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes." + '</sup>'
         df = jobsType[jobsType['geo'] == geo]
         return jobsType_fig(df, title)
 
@@ -38,7 +38,7 @@ def register_callbacks(app):
         df = jobsDemog[(jobsDemog['geo'] == geo) &
                        (jobsDemog['class'] == demo)]
         title = "<br>".join(textwrap.wrap("Répartition des employés des organismes à but non lucratif par caractéristique démographique et par sous-secteur, " + \
-            str(max(jobsDemog['refDate'].dt.year)) + " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
+            str(max(jobsDemog['refDate'].dt.year)) + " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes." + '</sup>'
         return EmpDemog(df, title)
 
     @app.callback(dash.dependencies.Output('wagesDemog',

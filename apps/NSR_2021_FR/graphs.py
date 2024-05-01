@@ -628,7 +628,7 @@ def build_fig_revsouce_CA(df):
         title=dict(
             text="Revenues by source and sub-sector, 2021 - CA<br>" +
             '<sup>' +
-            " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." +
+            " Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes." +
             '</sup>',
             xanchor='left',
             x=0.02),

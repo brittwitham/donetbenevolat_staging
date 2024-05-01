@@ -47,7 +47,7 @@ def register_callbacks(app):
         df = revSubSecActivity[revSubSecActivity['geo'] == geo]
         # TODO: Does the year need to update dynamically?
         title = "<br>".join(textwrap.wrap("Pourcentage des revenus des organismes à but non lucratif par sous-secteur et par secteur d'activités, 2021" + \
-            " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : placer le curseur sur la barre pour connaître le nombre absolu d'employés." + '</sup>'
+            " - " + geo, width=80)) + '<br>' + '<sup>' + " Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes." + '</sup>'
         vars = ('perCoreRev', 'perGovtRev')
         return SubSecActivity(df, title, vars)
 
@@ -115,7 +115,7 @@ def register_callbacks(app):
     def update_graph(geo):
         df = revSource[revSource['geo'] == geo]
         title = "Revenus par source et par sous-secteur, 2021 - " + geo + '<br>' + \
-            '<sup>' + " Remarque : placer le curseur sur la ligne pour connaître les valeurs absolues." + '</sup>'
+            '<sup>' + "Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes" + '</sup>'
         return Source(df, title)
 
     @app.callback(

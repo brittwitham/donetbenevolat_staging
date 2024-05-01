@@ -6,7 +6,7 @@ import textwrap
 # Example code
 def OrgQuad1(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Pour obtenir les valeurs exactes, passez votre curseur sur les barres</sup>"
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Remarque : veuillez passer le curseur sur les barres pour connaître les valeurs exactes</sup>"
 
     df = df.sort_values('Business')
     df = df.loc[df['item2'].map({"Other obstacle": -1, "None": -2}).sort_values().index]
@@ -83,7 +83,7 @@ def OrgQuad1(df, title):
 
 def OrgQuad2(df, title):
 
-    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Note : Les données ne sont pas disponibles pour certaines années et certains trimestres</sup>"
+    title = "<br>".join(textwrap.wrap(title, width=70)) + "<br><sup>Remarque : aucune donnée n’est disponible pour certains trimestres et pour certaines années</sup>"
 
     df = df.sort_values("seriesDate")
 

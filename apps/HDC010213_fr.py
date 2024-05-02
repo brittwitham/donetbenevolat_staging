@@ -62,30 +62,32 @@ layout = html.Div([
     ),
     dbc.Container([
         home_button,
-        dbc.Row([
+        html.Div([
+            dbc.Row([
             dbc.Col(
-                html.Div([
-                    "Sélectionnez une région:",
-                    dcc.Dropdown(
-                        id='region-selection',
-                        options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                        value='CA',
-                    ),
-                    html.Br(),
-                ], className="m-2 p-2"),
-            ),
-            dbc.Col(
-                html.Div([
-                    "Sélectionnez une méthode de don:",
-                    dcc.Dropdown(
-                        id='method-selection',
-                        options=[{'label': i, 'value': i} for i in method_names],
-                        value='Demande par lettre',
-                        style={'verticalAlign': 'middle'}
-                    ),
-                    html.Br(),
-                ], className="m-2 p-2"),
-            )]),
+                html.Div(["Sélectionnez une région:",
+                           dcc.Dropdown(
+                               id='region-selection',
+                               options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                               value='CA',
+                               ),
+                            html.Br(),
+                        ],className="m-2 p-2"), className='col'
+                ),
+            dbc.Col([
+                html.Div(["Sélectionnez une méthode de don:",
+                        dcc.Dropdown(
+                            id='method-selection',
+                            options=[{'label': i, 'value': i} for i in method_names],
+                            value='Demande par lettre',
+                            style={'verticalAlign': 'middle'}
+                        ),
+                        html.Br(),
+                    ], className="m-2 p-2"),
+            ])
+        ],
+        )
+            ], className='col-md-10 col-lg-8 mx-auto'),
     ], className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([

@@ -64,27 +64,49 @@ layout = html.Div([
     ),
     dbc.Container([
         home_button,
-        dbc.Row([
+        # dbc.Row([
+        #     dbc.Col(
+        #        html.Div([
+        #            "Sélectionnez une région:",
+        #            dcc.Dropdown(
+        #                id='region-selection',
+        #                options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+        #                value='CA',
+        #                ),
+        #             html.Br(),
+        #         ],className="m-2 p-2"),
+        #     ),
+        #     dbc.Col(
+        #        html.Div([
+        #         "Choisissez une activité bénévole: ",
+        #         dcc.Dropdown(id='activity-selection',
+        #             options=[{'label': i, 'value': i} for i in activity_names],
+        #             value="Porte-à-porte")
+        #         ],className="m-2 p-2"),
+        #     )],
+        #     id='sticky-dropdown'),
+        html.Div([
+            dbc.Row([
             dbc.Col(
-               html.Div([
-                   "Sélectionnez une région:",
-                   dcc.Dropdown(
-                       id='region-selection',
-                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                       value='CA',
-                       ),
-                    html.Br(),
-                ],className="m-2 p-2"),
-            ),
-            dbc.Col(
-               html.Div([
-                "Choisissez une activité bénévole: ",
-                dcc.Dropdown(id='activity-selection',
-                    options=[{'label': i, 'value': i} for i in activity_names],
-                    value="Porte-à-porte")
-                ],className="m-2 p-2"),
-            )],
-            id='sticky-dropdown'),
+                html.Div(["Sélectionnez une région:",
+                           dcc.Dropdown(
+                               id='region-selection',
+                               options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                               value='CA',
+                               ),
+                            html.Br(),
+                        ],className="m-2 p-2"), className='col'
+                ),
+            dbc.Col([
+                html.Div(["Choisissez une activité bénévole: ",
+                        dcc.Dropdown(id='activity-selection',
+                            options=[{'label': i, 'value': i} for i in activity_names],
+                            value="Porte-à-porte")
+                        ],className="m-2 p-2"),
+            ])
+        ],
+        )
+            ], className='col-md-10 col-lg-8 mx-auto'),
     ], className='sticky-top select-region mb-2', fluid=True),
 
    dbc.Container(
@@ -176,7 +198,7 @@ layout = html.Div([
                         # Volunteer rate per activity by immigration status
                         # dcc.Graph(id='ActivityVolRate-ImmStat', style={'marginTop': marginTop}),
                     ]),
-                    
+
                     html.Div([
                             html.Div(['Sélectionner le statut:',
                                       dcc.Dropdown(
@@ -194,7 +216,7 @@ layout = html.Div([
         ]),
    ),
    footer
-]) 
+])
 
 # ###################### CALLBACKS ######################
 @app.callback(
@@ -215,7 +237,7 @@ def update_graph(region):
     dff2 = dff2[dff2['Group'] == "All"]
     dff2 = dff2.replace("Health care or support", "Soins de santé ou soutien")
     dff2 = dff2.replace("Average hours", "Nombre d'heures moyen")
-    
+
     # name2 = "Average hours"
     name2 = "Nombre d'heures moyen"
 

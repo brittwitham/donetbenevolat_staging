@@ -64,18 +64,41 @@ layout = html.Div([
     # Note: filters put in separate container to make floating element later
     dbc.Container([
         home_button,
-        dbc.Row([
-           dbc.Col([
-                    html.Div([
-                        "Sélectionnez une région:",
-                        dcc.Dropdown(
-                            id='region-selection',
-                            options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                            value='CA',
-                            ),
-                        ],className="m-2 p-2"),
-                    html.Div([
-                        "Sélectionnez une motivation:",
+        # dbc.Row([
+        #    dbc.Col([
+        #             html.Div([
+        #                 "Sélectionnez une région:",
+        #                 dcc.Dropdown(
+        #                     id='region-selection',
+        #                     options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+        #                     value='CA',
+        #                     ),
+        #                 ],className="m-2 p-2"),
+        #             html.Div([
+        #                 "Sélectionnez une motivation:",
+        #                 dcc.Dropdown(
+        #                   id='motivation_selection',
+        #                   options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
+        #                   value='Touché.e personnellement par la cause',
+        #                   style={'verticalAlgin': 'middle'}
+        #               ),
+        #         ],className="m-2 p-2")
+        #    ]),
+        #     ]),
+        html.Div([
+            dbc.Row([
+            dbc.Col(
+                html.Div(["Sélectionnez une région:",
+                           dcc.Dropdown(
+                               id='region-selection',
+                               options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                               value='CA',
+                               ),
+                            html.Br(),
+                        ],className="m-2 p-2"), className='col'
+                ),
+            dbc.Col([
+                html.Div(["Sélectionnez une motivation:",
                         dcc.Dropdown(
                           id='motivation_selection',
                           options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
@@ -83,8 +106,10 @@ layout = html.Div([
                           style={'verticalAlgin': 'middle'}
                       ),
                 ],className="m-2 p-2")
-           ]),
-            ]),
+            ])
+        ],
+        )
+            ], className='col-md-10 col-lg-8 mx-auto'),
     ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([

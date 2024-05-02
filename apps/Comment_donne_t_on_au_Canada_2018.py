@@ -56,30 +56,32 @@ layout = html.Div([
     ),
     dbc.Container([
         home_button,
-        dbc.Row([
-           dbc.Col(
-               html.Div([
-                   "Sélectionnez une région:",
-                   dcc.Dropdown(
-                       id='region-selection',
-                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                       value='CA',
-                       ),
-                    html.Br(),
-                ],className="m-2 p-2"),
-            ),
-           dbc.Col(
-               html.Div([
-                   "Sélectionnez une méthode de don:",
-                   dcc.Dropdown(
-                      id='method-selection',
-                      options=[{'label': i, 'value': i} for i in method_names],
-                      value='Au travail',
-                      style={'verticalAlign': 'middle'}
-                  ),
-                    html.Br(),
-                ],className="m-2 p-2"),
-            )]),
+        html.Div([
+            dbc.Row([
+            dbc.Col(
+                html.Div(["Sélectionnez une région:",
+                           dcc.Dropdown(
+                               id='region-selection',
+                               options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                               value='CA',
+                               ),
+                            html.Br(),
+                        ],className="m-2 p-2"), className='col'
+                ),
+            dbc.Col([
+                html.Div(["Sélectionnez une méthode de don:",
+                           dcc.Dropdown(
+                              id='method-selection',
+                              options=[{'label': i, 'value': i} for i in method_names],
+                              value='Au travail',
+                              style={'verticalAlign': 'middle'}
+                          ),
+                            html.Br(),
+                        ],className="m-2 p-2"),
+            ])
+        ],
+        )
+            ], className='col-md-10 col-lg-8 mx-auto'),
     ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
@@ -164,7 +166,7 @@ layout = html.Div([
                            dcc.Graph(id='DonMethDonRateAvgDonAmt-Relig', style={'marginTop': marginTop}),
                         ]),
                     ]),
-                           
+
 #
                     # Other personal & economic characteristics
                     html.Div([
@@ -259,7 +261,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by gender", region)
     # elif str(method) in b:
@@ -268,7 +270,7 @@ def update_graph(region, method):
     #     title = '{}, {}'.format("Donations made at " + str(method).lower() + " by gender", region)
     # else:
     #     title = '{}, {}'.format(str(method) + " by gender", region)
-    
+
     return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
 @app.callback(
@@ -296,7 +298,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by age group", region)
     # elif str(method) in b:
@@ -332,7 +334,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by education", region)
     # elif str(method) in b:
@@ -368,7 +370,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by income", region)
     # elif str(method) in b:
@@ -404,7 +406,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by religious attendance", region)
     # elif str(method) in b:
@@ -439,7 +441,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by marital status", region)
     # elif str(method) in b:
@@ -475,7 +477,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by employment status", region)
     # elif str(method) in b:
@@ -511,7 +513,7 @@ def update_graph(region, method):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by immigration status", region)
     # elif str(method) in b:
@@ -550,7 +552,7 @@ def update_graph(region, method, status):
     # a = ['At work', 'Online', 'On own', 'In memoriam', 'Door-to-door canvassing']
     # b = ['Mail request', 'Telephone request', 'TV or radio request', 'Sponsoring someone']
     # c = ['Charity event', 'Public place', 'Place of worship']
-    
+
     # if str(method) in a:
     #     title = '{}, {}'.format("Donations made " + str(method).lower() + " by immigration status", region)
     # elif str(method) in b:

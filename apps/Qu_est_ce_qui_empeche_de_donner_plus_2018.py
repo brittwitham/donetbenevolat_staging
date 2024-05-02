@@ -79,7 +79,7 @@ layout = html.Div([
 #     className='sticky-top select-region mb-2', fluid=True),
     dbc.Container([
         home_button,
-        dbc.Row([
+        dbc.Row(
             dbc.Col(
                 html.Div([
                     "Sélectionnez une région:",
@@ -87,12 +87,11 @@ layout = html.Div([
                         id='region-selection',
                         options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
                         value='CA',
-                        style={'vertical-align': 'left'}
-                    ), html.Br(),
-                ], className='m-2 p-2')
-            )
-        ])
-    ],className='sticky-top select-region mb-2', fluid=True), 
+                    ),
+                    html.Br(),
+                ], className="m-2 p-2"),
+            ), id='sticky-dropdown'),
+    ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([
             html.Div(
@@ -141,7 +140,7 @@ layout = html.Div([
                 [
                     html.H3('Caractéristiques personnelles et économiques'),
                     html.P("Toutes les personnes au Canada ne font pas face aux mêmes freins et n’y réagissent pas de la même façon. L’incidence de nombreux freins varie selon leurs caractéristiques personnelles et économiques. Nous analysons ci-dessous les tendances des variations des freins aux dons selon certains des facteurs démographiques les plus importants. Là encore, nous présentons dans le texte les résultats au niveau national, mais vous pourrez utiliser le menu déroulant pour passer en revue les résultats au niveau régional."),
-                    
+
                     html.Div([
                         html.H5("Genre"),
                         html.P("À l’échelle nationale, les hommes et les femmes réagissent à peu près de la même façon aux freins, dans la mesure où les uns comme les autres sont tout aussi susceptibles de déclarer que ces freins limitent le montant de leurs dons. Les hommes et les femmes se distinguent cependant par plusieurs caractéristiques clés. Plus particulièrement, les hommes ont plus tendance à limiter leurs dons parce qu’ils ont de la difficulté à trouver une cause digne de leur soutien, parce qu’ils ne croient pas que des dons supplémentaires seront utilisés avec efficience et parce qu’ils n’aiment pas la façon dont on les sollicite. Les femmes limitent plus souvent que les hommes leurs dons parce que leurs moyens financiers ne leur permettent pas de donner plus."),
@@ -281,7 +280,7 @@ layout = html.Div([
                                             options=[{'label': barriers_names[i], 'value': barriers_names[i]} for i in range(len(barriers_names))],
                                             value='Montant déjà donné suffisant',
                                             style={'verticalAlign': 'middle'}
-                                      ),],                                     
+                                      ),],
                                      style={'width': '66%', 'display': 'inline-block'}),
                         ]),
                         dcc.Graph(id='status-sel-barrier', style={'marginTop': marginTop})
@@ -872,7 +871,7 @@ def update_graph(region, barrier):
 
 @app.callback(
     dash.dependencies.Output('status-sel-barrier', 'figure'),
-    [ 
+    [
         dash.dependencies.Input('region-selection', 'value'),
         dash.dependencies.Input('barrier-selection-other', 'value'),
         dash.dependencies.Input('status-selection', 'value')

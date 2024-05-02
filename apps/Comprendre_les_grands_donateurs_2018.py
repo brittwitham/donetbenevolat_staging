@@ -58,36 +58,18 @@ layout = html.Div([
     # Note: filters put in separate container to make floating element later
    dbc.Container([
         home_button,
-        dbc.Row([
+       dbc.Row(
            dbc.Col(
                html.Div([
                    "Sélectionnez une région:",
                    dcc.Dropdown(
-                      id='region-selection',
-                      options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                      value='CA',
-                    #   style={'verticalAlign': 'middle'},
-                     # style={'width': '100%', 'display': 'inline-block', 'align-items': 'center', 'justify-content': 'center'},
-                      style = {'width': '96%','padding-left':'3%', 'padding-right':'1%'}
-              ),
-                ],className="m-2 p-2"),
-            # html.Div(["Sélectionnez une région:",
-            #       dcc.Dropdown(
-            #           id='region-selection',
-            #           options=[{'label': region_names[i], 'value': region_values[i]} for i in range(len(region_values))],
-            #           value='CA',
-            #           style={'verticalAlign': 'middle'}
-            #       ),
-            #       ],className="m-2 p-2"),
-            ),
-           
-            #    html.Div([
-            #        "Select a demographic characteristic:",
-            #        dcc.Dropdown(id='demo-selection',
-            #             options=[{'label': i, 'value': i} for i in demo_names],
-            #             value="Personal income category")
-            #     ],className="m-2 p-2"),
-            ]),
+                       id='region-selection',
+                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
+                       value='CA',
+                   ),
+                   html.Br(),
+               ], className="m-2 p-2"),
+           ), id='sticky-dropdown'),
     ],className='sticky-top select-region mb-2', fluid=True),
    dbc.Container(
        dbc.Row([

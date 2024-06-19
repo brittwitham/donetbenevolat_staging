@@ -1,29 +1,15 @@
-import dash
+# App layout file for WTOS_2018_FR converted from
+# Quels_types_organismes_soutient_on_au_Canada_2018.py
+
 from dash import dcc, html
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-
-from .layout_utils import gen_home_button
-pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
-
-from utils.graphs.WTO0107_graph_utils import rate_avg_cause, single_vertical_percentage_graph
-from utils.data.WTO0107_data_utils import get_data, process_data, get_region_names, get_region_values
-
 from app import app
-from homepage import footer #navbar, footer
-from utils.gen_navbar import gen_navbar
+from ..layout_utils import gen_home_button, gen_navbar, footer
+from .callbacks import register_callbacks
+from .data_processing import *
 
-####################### Data processing ######################
-SubSecDonRates_2018, SubSecAvgDon_2018, Allocation_2018 = get_data()
-data = [SubSecDonRates_2018, SubSecAvgDon_2018, Allocation_2018]
-process_data(data)
+register_callbacks(app)
 
-region_values = get_region_values()
-region_names = get_region_names()
-
-###################### App layout ######################
 navbar = gen_navbar("What_types_of_organizations_do_Canadians_support_2018")
 home_button = gen_home_button()
 marginTop = 20
@@ -36,11 +22,12 @@ layout = html.Div([
             dbc.Row(
                 html.Div(
                     html.Div([
-                        html.H1("Quels types d'organismes soutient-on au Canada?"),
+                        html.H1(
+                            "Quels types d'organismes soutient-on au Canada?"),
                         # html.Span(
                         #     'David Lasby',
                         #     className='meta')
-                        ], className='post-heading'
+                    ], className='post-heading'
                     ), className='col-md-10 col-lg-8 mx-auto position-relative'
                 )
             )
@@ -50,25 +37,26 @@ layout = html.Div([
     dbc.Container([
         home_button,
         dbc.Row(
-           dbc.Col(
-               html.Div([
-                   "Sélectionnez une région:",
-                   dcc.Dropdown(
-                       id='region-selection',
-                       options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                       value='CA',
-                       ),
+            dbc.Col(
+                html.Div([
+                    "Sélectionnez une région:",
+                    dcc.Dropdown(
+                        id='region-selection',
+                        options=[{'label': region_values[i], 'value': region_values[i]}
+                                 for i in range(len(region_values))],
+                        value='CA',
+                    ),
                     html.Br(),
-                ],className="m-2 p-2"),
+                ], className="m-2 p-2"),
             ), id='sticky-dropdown'),
     ], className='sticky-top select-region mb-2', fluid=True),
-   dbc.Container(
-       dbc.Row([
+    dbc.Container(
+        dbc.Row([
             html.Div(
                 [
                     dcc.Markdown('''
                     D’après l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, un peu plus de deux tiers des personnes (68 %) au Canada ont donné à un organisme de bienfaisance ou à but non lucratif pendant l’année qui l’a précédée et leur contribution individuelle moyenne s’est chiffrée à 569 $. Ces personnes ont fait, en moyenne, 3,7 dons au bénéfice de 2,5 causes (c.-à-d. elles ont été nombreuses à faire plusieurs dons à la même cause). La majorité d’entre elles ont soutenu plusieurs causes. À l’échelle nationale, environ un tiers des donateur.trice.s (31 %) a soutenu une seule cause, un peu plus d’un quart (27 %) en a soutenu deux, environ un cinquième (19 %) trois et le reste (23 %) en a soutenu quatre ou plus.
-                    ''',className='mt-4'),
+                    ''', className='mt-4'),
                     dcc.Markdown('''
                     Nous décrivons ci-dessous les tendances de leur soutien au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer des résultats au niveau national décrits dans le texte, les tendances générales sont très similaires.
                     '''),
@@ -88,45 +76,6 @@ layout = html.Div([
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
-   ),
-   footer
+    ),
+    footer
 ])
-
-################### CALLBACKS ###################
-
-@app.callback(
-
-    dash.dependencies.Output('DonRateAvgDonAmt-Cause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-
-    dff2 = SubSecDonRates_2018[SubSecDonRates_2018['Region'] == region]
-    dff2 = dff2[dff2['Group'] == "All"]
-    dff2 = dff2.replace('Donation rate', 'Taux de donateur.trice.s')
-    # name1 = "Donation rate"
-    name1 = "Taux de donateur.trice.s"
-
-    dff1 = SubSecAvgDon_2018[SubSecAvgDon_2018['Region'] == region]
-    dff1 = dff1[dff1['Group'] == "All"]
-    dff1 = dff1.replace('Average donation', 'Dons annuels moyens')
-    # name2 = "Average donation"
-    name2 = 'Dons annuels moyens'
-
-    title = '{}, {}'.format("Niveaux de soutien par cause", region)
-
-    return rate_avg_cause(dff1, dff2, name1, name2, title)
-
-@app.callback(
-
-    dash.dependencies.Output('AllocationSupport-Cause', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-
-    dff = Allocation_2018[Allocation_2018['Region'] == region]
-    title = '{}, {}'.format("Répartition du soutien par cause", region)
-
-    return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)

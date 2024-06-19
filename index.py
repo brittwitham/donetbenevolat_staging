@@ -7,7 +7,7 @@ from apps import (
     # Comment_donne_t_on_au_Canada_2018,
     # Comprendre_les_grands_donateurs_2018,
     # Pourquoi_donne_t_on_au_Canada_2018,
-    Qu_est_ce_qui_empeche_de_donner_plus_2018,
+    # Qu_est_ce_qui_empeche_de_donner_plus_2018,
     Quels_types_organismes_soutient_on_au_Canada_2018,
     Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018,
     Quelles_sont_les_activites_des_benevoles_2018,
@@ -55,6 +55,7 @@ from apps.WDHG_2018_FR.app_layout import layout as WDHG_2018_FR_layout
 from apps.HDCD_2018_FR.app_layout import layout as HDCD_2018_FR_layout
 from apps.UTD_2018_FR.app_layout import layout as UTD_2018_FR_layout
 from apps.WDCG_2018_FR.app_layout import layout as WDCG_2018_FR_layout
+from apps.WKCG_2018_FR.app_layout import layout as WKCG_2018_FR_layout
 
 import homepage
 
@@ -103,7 +104,7 @@ def display_page(pathname):
     elif pathname == '/Pourquoi_donne_t_on_au_Canada_2018': #/WDC0105_fr':
         return WDCG_2018_FR_layout
     elif pathname == '/Qu_est_ce_qui_empeche_de_donner_plus_2018': #WKC0106_fr':
-        return Qu_est_ce_qui_empeche_de_donner_plus_2018.layout
+        return WKCG_2018_FR_layout
     elif pathname == '/Quels_types_organismes_soutient_on_au_Canada_2018': #WTO0107_fr':
         return Quels_types_organismes_soutient_on_au_Canada_2018.layout
     elif pathname == '/Quelles_sont_les_activites_des_benevoles_2018': #WDV0202_fr':

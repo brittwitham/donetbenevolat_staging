@@ -50,6 +50,9 @@ from apps.IOIR_2023_FR.app_layout import layout as IOIR_2023_FR_layout
 from apps.DT_2023_FR.app_layout import layout as DT_2023_FR_layout
 from apps.CO_2023_FR.app_layout import layout as CO_2023_FR_layout
 
+# Refactored modules
+from apps.WDHG_2018_FR.app_layout import layout as WDHG_2018_FR_layout
+
 import homepage
 
 app.layout = html.Div([
@@ -89,7 +92,8 @@ def display_page(pathname):
     if pathname == '/':
         return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")
     elif pathname == '/Qui_donne_aux_organismes_caritatifs_et_combien_2018': #WDA0101_fr':
-        return Qui_donne_aux_organismes_caritatifs_et_combien_2018.layout
+        # return Qui_donne_aux_organismes_caritatifs_et_combien_2018.layout
+        return WDHG_2018_FR_layout
     elif pathname == '/Comment_donne_t_on_au_Canada_2018': #HDC0102_fr':
         return Comment_donne_t_on_au_Canada_2018.layout
     elif pathname == '/Comprendre_les_grands_donateurs_2018': #UTD0103_fr':

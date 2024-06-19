@@ -327,6 +327,7 @@ layout = html.Div([
     footer
 ])
 
+############### Callbacks ###############
 
 @app.callback(
     dash.dependencies.Output('SeniorsDonRateAmt_fr', 'figure'),

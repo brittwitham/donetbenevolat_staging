@@ -50,9 +50,7 @@ def main():
     print("✅ Code formatted")
 
     # Run Pylint and get score
-    pylint_result = run_pylint(args.format_directory)
-    pylint_score = pylint_result.stdout.splitlines()[-2]  # Assuming the score is in the second last line
-    print(f"Pylint score: {pylint_score}")
+    run_pylint(args.format_directory)
 
 if __name__ == "__main__":
     main()

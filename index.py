@@ -14,7 +14,7 @@ from apps import (
     # Comprendre_les_benevoles_tres_engages_2018,
     # Aide_autrui_et_amelioration_communautaire_2018,
     # Pourquoi_fait_on_du_benevolat_2018,
-    Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
+    # Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
     A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
     definition,
     GAV0301_fr, # sante
@@ -62,6 +62,7 @@ from apps.WVHT_2018_FR.app_layout import layout as WVHT_2018_FR_layout
 from apps.UTV_2018_FR.app_layout import layout as UTV_2018_FR_layout
 from apps.HOCP_2018_FR.app_layout import layout as HOCP_2018_FR_layout
 from apps.WDCV_2018_FR.app_layout import layout as WDCV_2018_FR_layout
+from apps.WKCV_2018_FR.app_layout import layout as WKCV_2018_FR_layout
 
 import homepage
 
@@ -124,7 +125,7 @@ def display_page(pathname):
     elif pathname == '/Pourquoi_fait_on_du_benevolat_2018': #WDC0205_fr':
         return WDCV_2018_FR_layout
     elif pathname == '/Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018': #WKC0206_fr':
-        return Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018.layout
+        return WKCV_2018_FR_layout
     elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WKC0206_fr':
         return A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018.layout
     elif pathname == '/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018': #GAV0304

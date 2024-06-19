@@ -17,7 +17,7 @@ from apps import (
     # Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
     # A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
     definition,
-    GAV0301_fr, # sante
+    # GAV0301_fr, # sante
     GAV0302_fr, # religieux
     GAV0303_fr, # education
     GAV0304_fr, # services sociaux
@@ -64,6 +64,7 @@ from apps.HOCP_2018_FR.app_layout import layout as HOCP_2018_FR_layout
 from apps.WDCV_2018_FR.app_layout import layout as WDCV_2018_FR_layout
 from apps.WKCV_2018_FR.app_layout import layout as WKCV_2018_FR_layout
 from apps.WTOV_2018_FR.app_layout import layout as WTOV_2018_FR_layout
+from apps.GV_HO_2018_FR.app_layout import layout as GV_HO_2018_FR_layout
 
 import homepage
 
@@ -130,7 +131,7 @@ def display_page(pathname):
     elif pathname == '/A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018': #WKC0206_fr':
         return WTOV_2018_FR_layout
     elif pathname == '/dons_dargent_et_benevolat_pour_les_organismes_de_sante_2018': #GAV0304
-        return GAV0301_fr.layout
+        return GV_HO_2018_FR_layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_du_secteur_de_leducation_2018': #GAV0304
         return GAV0303_fr.layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018': #GAV0304

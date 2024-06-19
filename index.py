@@ -18,7 +18,7 @@ from apps import (
     # A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
     definition,
     # GAV0301_fr, # sante
-    GAV0302_fr, # religieux
+    # GAV0302_fr, # religieux
     # GAV0303_fr, # education
     # GAV0304_fr, # services sociaux
     GAV0305_fr, # loisirs
@@ -67,6 +67,7 @@ from apps.WTOV_2018_FR.app_layout import layout as WTOV_2018_FR_layout
 from apps.GV_HO_2018_FR.app_layout import layout as GV_HO_2018_FR_layout
 from apps.GV_EO_2018_FR.app_layout import layout as GV_EO_2018_FR_layout
 from apps.GV_SS_2018_FR.app_layout import layout as GV_SS_2018_FR_layout
+from apps.GV_RO_2018_FR.app_layout import layout as GV_RO_2018_FR_layout
 
 import homepage
 
@@ -139,7 +140,7 @@ def display_page(pathname):
     elif pathname == '/dons_et_benevolat_pour_les_organismes_de_services_sociaux_2018': #GAV0304
         return GV_SS_2018_FR_layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_religieux_2018': #GAV0304
-        return GAV0302_fr.layout
+        return GV_RO_2018_FR_layout
     elif pathname == '/dons_et_benevolat_pour_les_organismes_des_arts_et_des_loisirs_2018': #GAV0305
         return GAV0305_fr.layout
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018': #GAV0306

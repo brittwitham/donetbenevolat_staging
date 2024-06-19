@@ -140,4 +140,4 @@ dmypy.json
 cython_debug/
 
 # Misc
-scratch.ipynb
+apps/scratch.ipynb

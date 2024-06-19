@@ -1,8 +1,10 @@
-# Callbacks file for HOCP_2018_FR converted from Aide_autrui_et_amelioration_communautaire_2018.py
+# Callbacks file for HOCP_2018_FR converted from
+# Aide_autrui_et_amelioration_communautaire_2018.py
 
 import dash
 from .data_processing import *
 from .graphs import *
+
 
 def register_callbacks(app):
     # @app.callback(
@@ -68,7 +70,6 @@ def register_callbacks(app):
             dash.dependencies.Input('region-selection', 'value'),
             dash.dependencies.Input('demo-selection', 'value')
         ])
-
     def update_graph(region, demo):
         dff1 = VolRate_2018[VolRate_2018['Region'] == region]
         dff1 = dff1[dff1['Group'] == demo]
@@ -85,10 +86,12 @@ def register_callbacks(app):
         dff3 = dff3[dff3['QuestionText'] == 'Improve<br>community']
         name3 = "Participation de la communauté"
 
+        title = '{}, {}'.format(
+            "Probabilité de soutenir selon les caractéristiques personnelles et économiques clés",
+            region)
 
-        title = '{}, {}'.format("Probabilité de soutenir selon les caractéristiques personnelles et économiques clés", region)
-
-        return triple_vertical_graphs_rates(dff1, dff2, dff3, title, name1, name2, name3, type="percent")
+        return triple_vertical_graphs_rates(
+            dff1, dff2, dff3, title, name1, name2, name3, type="percent")
 
     # def update_graph(region, demo):
     #     dff1 = VolRate_2018[VolRate_2018['Region'] == region]
@@ -112,4 +115,5 @@ def register_callbacks(app):
 
     #     title = '{}, {}'.format("Probabilité de soutenir selon les caractéristiques personnelles et économiques clés", region)
 
-    #     return triple_vertical_graphs_rates(dff1, dff2, dff3, title, name1, name2, name3, type="percent")
+    # return triple_vertical_graphs_rates(dff1, dff2, dff3, title, name1,
+    # name2, name3, type="percent")

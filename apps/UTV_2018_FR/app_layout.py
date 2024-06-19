@@ -1,4 +1,5 @@
-# App layout file for UTV_2018_FR converted from Comprendre_les_benevoles_tres_engages_2018.py
+# App layout file for UTV_2018_FR converted from
+# Comprendre_les_benevoles_tres_engages_2018.py
 
 from dash import dcc, html
 import dash_bootstrap_components as dbc
@@ -27,7 +28,7 @@ layout = html.Div([
                         #     'David Lasby',
                         #     className='meta'
                         #     )
-                        ],
+                    ],
                         className='post-heading'
                     ),
                     className='col-md-10 col-lg-8 mx-auto position-relative'
@@ -42,87 +43,113 @@ layout = html.Div([
     dbc.Container([
         home_button,
         dbc.Row(
-        dbc.Col(
-            html.Div([
-                "Sélectionnez une région:",
-                dcc.Dropdown(
-                    id='region-selection',
-                    options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                    value='CA',
-                ),
-                html.Br()
+            dbc.Col(
+                html.Div([
+                    "Sélectionnez une région:",
+                    dcc.Dropdown(
+                        id='region-selection',
+                        options=[{'label': region_values[i], 'value': region_values[i]}
+                                 for i in range(len(region_values))],
+                        value='CA',
+                    ),
+                    html.Br()
                 ],
-                className="m-2 p-2"),
+                    className="m-2 p-2"),
             ), id='sticky-dropdown'),
-        ],
+    ],
         className='sticky-top select-region mb-2', fluid=True
-    ), 
+    ),
     dbc.Container(
         dbc.Row([
             html.Div(
                 [
                     dcc.Markdown('''
                     D’après l’Enquête sociale générale sur les dons, le bénévolat et la participation de 2018, un peu plus de deux personnes sur cinq (41 %) au Canada ont fait du bénévolat pour un organisme de bienfaisance ou à but non lucratif pendant l’année qui l’a précédée. Ces bénévoles ont fait don en moyenne de 131 heures par personne, soit une contribution de presque 1,7 milliard d’heures de bénévolat par année.
-                    ''',className='mt-4'),
+                    ''', className='mt-4'),
                     dcc.Markdown('Bien que de nombreuses personnes fassent du bénévolat au Canada, la majorité des heures de bénévolat est attribuable à une petite minorité de bénévoles. Nous analysons ci-dessous les caractéristiques personnelles et économiques de ces personnes, les causes qu’elles soutiennent, leurs motivations et les freins qui les empêchent de faire encore plus de bénévolat. Nous décrivons dans le texte les résultats au niveau national et, pour obtenir des précisions, vous pourrez utiliser le menu déroulant lié aux visualisations de données interactives pour afficher les résultats au niveau régional. Bien que les caractéristiques régionales puissent différer légèrement des résultats au niveau national décrits dans le texte, les tendances générales étaient très similaires.', className='mt-4')
                 ], className='col-md-10 col-lg-8 mx-auto',
             ),
             # Donation rate & average donation amount by method graph
             html.Div(
                 [
-                    html.H4('Définition des bénévoles très engagé.e.s',className='mt-3'),
+                    html.H4(
+                        'Définition des bénévoles très engagé.e.s',
+                        className='mt-3'),
                     dcc.Markdown('''
                     Le graphique ci-dessous regroupe les bénévoles en quatre groupes, selon leur nombre d’heures de bénévolat. À l’échelle nationale, les bénévoles très engagé.e.s — 25 % des bénévoles qui ont fait don du plus grand nombre d’heures — ont représenté collectivement 78 % du total des heures de bénévolat. En revanche, la moitié des bénévoles qui faisaient don du moindre nombre d’heures de bénévolat représentaient ensemble 7 % du total des heures, et le quart suivant, par ordre d’importance croissante, en représentait 15 %.
                     '''),
                     # Distribution of total time by hours volunteered
-                    dcc.Graph(id='TopVolsTotalHours', style={'marginTop': marginTop}),
+                    dcc.Graph(
+                        id='TopVolsTotalHours', style={
+                            'marginTop': marginTop}),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # Key personal & economic characteristics
             html.Div(
                 [
                     html.Div([
-                        html.H4('Qui sont les bénévoles très engagé.e.s?',className='mt-3'),
-                        html.P("La probabilité d’être une personne bénévole très engagé.e varie selon les caractéristiques personnelles et économiques. En effet, les bénévoles les plus engagé.e.s ont tendance à se concentrer dans des groupes particulièrement susceptibles de faire du bénévolat et à faire don de plus d’heures de leur temps. D’une façon générale, la probabilité de se classer dans le groupe des bénévoles très engagé.e.s a tendance à augmenter avec l’âge et avec le niveau d’éducation formelle et à décroître avec le revenu du ménage. Les bénévoles très engagé.e.s ont également tendance à être particulièrement bien représentés parmi les personnes qui ne font pas partie de la population active, les personnes veuves et celles qui assistent chaque semaine aux offices religieux."),              
+                        html.H4(
+                            'Qui sont les bénévoles très engagé.e.s?',
+                            className='mt-3'),
+                        html.P("La probabilité d’être une personne bénévole très engagé.e varie selon les caractéristiques personnelles et économiques. En effet, les bénévoles les plus engagé.e.s ont tendance à se concentrer dans des groupes particulièrement susceptibles de faire du bénévolat et à faire don de plus d’heures de leur temps. D’une façon générale, la probabilité de se classer dans le groupe des bénévoles très engagé.e.s a tendance à augmenter avec l’âge et avec le niveau d’éducation formelle et à décroître avec le revenu du ménage. Les bénévoles très engagé.e.s ont également tendance à être particulièrement bien représentés parmi les personnes qui ne font pas partie de la population active, les personnes veuves et celles qui assistent chaque semaine aux offices religieux."),
                     ]),
                     html.Div([
                         "Caractéristiques démographiques: ",
                         dcc.Dropdown(
                             id='demo-selection',
-                            options=[{'label': i, 'value': i} for i in demo_names],
+                            options=[{'label': i, 'value': i}
+                                     for i in demo_names],
                             value="Groupe d'âge")
-                        ], 
+                    ],
                         style={'marginTop': 50, 'width': '100%', 'verticalAlign': 'middle'}),
-                    # Likelihood of being a top volunteer by demographic characteristic
+                    # Likelihood of being a top volunteer by demographic
+                    # characteristic
                     html.Div([
-                        dcc.Graph(id='TopVolsDemographics', style={'marginTop': marginTop})
+                        dcc.Graph(
+                            id='TopVolsDemographics', style={
+                                'marginTop': marginTop})
                     ]),
                     # The causes supported by top volunteers
                     html.Div([
-                        html.H4("Causes soutenues par les bénévoles très engagé.e.s",className='mt-3'),
+                        html.H4(
+                            "Causes soutenues par les bénévoles très engagé.e.s",
+                            className='mt-3'),
                         html.P("Les bénévoles très engagé.e.s ont plus tendance que les autres bénévoles à soutenir de nombreuses causes. À l’échelle nationale, par comparaison avec les autres bénévoles, presque deux fois plus de bénévoles très engagé.e.s ont plus tendance à faire don de leur temps aux hôpitaux et aux organismes du secteur des arts et de la culture, environ la moitié d’entre eux ont plus tendance à faire don de leur temps aux organismes religieux et à ceux du secteur du sport et des loisirs et environ le tiers d’entre eux aux organismes du secteur des services sociaux. Les bénévoles très engagé.e.s et les autres bénévoles ont à peu près tout aussi tendance à soutenir toutes les autres causes."),
-                        # Levels of support by cause, top volunteers vs. regular volunteers
+                        # Levels of support by cause, top volunteers vs.
+                        # regular volunteers
                         html.Div([
-                            dcc.Graph(id='TopVolsSubSecSupport', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='TopVolsSubSecSupport', style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
-                    #Top volunteer motivations
+                    # Top volunteer motivations
                     html.Div([
-                        html.H4("Motivations des bénévoles très engagé.e.s",className='mt-3'),
+                        html.H4(
+                            "Motivations des bénévoles très engagé.e.s",
+                            className='mt-3'),
                         html.P("On a demandé aux bénévoles lequel ou lesquels de douze facteurs jouaient un rôle important dans leurs décisions de faire du bénévolat. Les bénévoles très engagé.e.s étaient plus susceptibles de faire état de quasiment tous les facteurs de motivation. À l’échelle nationale, le bénévolat pour mettre en application leurs compétences et leurs expériences, pour améliorer leur santé et leur bien-être et pour prendre conscience de leurs points forts et de leurs aptitudes constituaient les différences les plus importantes dans les facteurs de motivation des bénévoles. Bien que les croyances religieuses et spirituelles soient des motivations relativement peu courantes, elles importent beaucoup plus aux bénévoles les plus engagé.e.s. Les bénévoles les plus engagé.e.s sont à peu près aussi susceptibles de faire don de leur temps parce que des amis ou des membres de leur famille sont bénévoles ou pour augmenter leurs possibilités d’emploi."),
-                        # Motivations for volunteering, top volunteers vs. regular volunteers
+                        # Motivations for volunteering, top volunteers vs.
+                        # regular volunteers
                         html.Div([
-                            dcc.Graph(id='TopVolsMotivations', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='TopVolsMotivations', style={
+                                    'marginTop': marginTop}),
 
                         ]),
                     ]),
                     # Top donor barriers
                     html.Div([
-                        html.H4("Freins rencontrés par les bénévoles très engagé.e.s",className='mt-3'),
+                        html.H4(
+                            "Freins rencontrés par les bénévoles très engagé.e.s",
+                            className='mt-3'),
                         html.P("Comme pour les facteurs de motivation, on a demandé aux bénévoles lequel ou lesquels de douze facteurs différents les avaient empêchés de faire don de plus de temps pendant les 12 mois précédant l’enquête. À l’échelle nationale, la raison la plus fréquente pour ne pas faire plus de bénévolat, et de loin, est la conviction d’avoir déjà fait don d’assez de temps, suivie par les coûts financiers du bénévolat et les problèmes de santé ou les handicaps physiques. Quant aux freins qui empêchent les bénévoles de devenir des bénévoles très engagé.e.s, les plus puissants (dans la mesure où ils sont signalés le plus souvent par les autres bénévoles) sont l’impossibilité de s’engager à long terme, l’absence de sollicitation, ne pas savoir comment s’engager davantage et les dons d’argent de préférence aux dons de temps."),
-                        #Barriers to volunteering more, top volunteers vs. regular volunteers
+                        # Barriers to volunteering more, top volunteers vs.
+                        # regular volunteers
                         html.Div([
-                            dcc.Graph(id='TopVolsBarriers', style={'marginTop': marginTop})
+                            dcc.Graph(
+                                id='TopVolsBarriers', style={
+                                    'marginTop': marginTop})
 
                         ]),
                     ]),
@@ -130,8 +157,8 @@ layout = html.Div([
 
             ),
         ]),
-   ),
-   footer
+    ),
+    footer
 ])
 
 #

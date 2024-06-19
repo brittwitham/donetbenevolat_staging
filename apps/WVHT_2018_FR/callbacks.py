@@ -1,8 +1,10 @@
-# Callbacks file for WVHT_2018_FR converted from Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018.py
+# Callbacks file for WVHT_2018_FR converted from
+# Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018.py
 
 import dash
 from .data_processing import *
 from .graphs import *
+
 
 def register_callbacks(app):
     @app.callback(
@@ -17,8 +19,12 @@ def register_callbacks(app):
         dff1 = dff1[dff1['Group'] == "All"]
         dff1 = dff1.replace("Formal volunteer", "Bénévolat <br> encadré")
         dff1 = dff1.replace("Informal volunteer", "Bénévolat <br> non encadré")
-        dff1 = dff1.replace("Help people directly", "Aider les gens <br> directement")
-        dff1 = dff1.replace("Improve community", "Améliorer <br> la communauté")
+        dff1 = dff1.replace(
+            "Help people directly",
+            "Aider les gens <br> directement")
+        dff1 = dff1.replace(
+            "Improve community",
+            "Améliorer <br> la communauté")
 
         title = '{}, {}'.format("Formes de bénévolat", region)
 
@@ -41,7 +47,6 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = 'Taux de bénévolat'
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Genre"]
         # dff2 = dff2.replace("Male gender", "Hommes")
@@ -51,7 +56,9 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de bénévolat selon le genre", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures de bénévolat selon le genre",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
@@ -71,7 +78,6 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Genre"]
         # dff2 = dff2.replace("Male gender", "Hommes")
@@ -79,7 +85,9 @@ def register_callbacks(app):
         dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
         name2 = "% heures de bénévolat"
 
-        title = '{}, {}'.format("Pourcentage de la population et nombre total d’heures de bénévolat selon le genre", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et nombre total d’heures de bénévolat selon le genre",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -89,7 +97,6 @@ def register_callbacks(app):
 
             dash.dependencies.Input('region-selection', 'value')
         ])
-
     def update_graph(region):
         dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
         dff1 = dff1[dff1['Group'] == "Groupe d'âge"]
@@ -104,7 +111,6 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Groupe d'âge"]
         # dff2 = dff2.replace('15 to 24 years', '15 à 24 ans')
@@ -118,7 +124,9 @@ def register_callbacks(app):
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du <br> nombre total d’heures de bénévolat selon l’âge", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du <br> nombre total d’heures de bénévolat selon l’âge",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -159,10 +167,11 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon le groupe d'âge", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon le groupe d'âge",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
 
     @app.callback(
         dash.dependencies.Output('VolRateAvgHours-Educ', 'figure'),
@@ -183,7 +192,6 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = 'Taux de bénévolat'
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Éducation"]
         # dff2 = dff2.replace('Less than High School', "Sans diplôme d'études secondaires")
@@ -196,10 +204,11 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon l’éducation ", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon l’éducation ",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
 
     @app.callback(
         dash.dependencies.Output('PercVolHours-Educ', 'figure'),
@@ -208,8 +217,6 @@ def register_callbacks(app):
             dash.dependencies.Input('region-selection', 'value')
         ])
     def update_graph(region):
-
-
 
         dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
         dff1 = dff1[dff1['Group'] == "Éducation"]
@@ -222,7 +229,6 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Éducation"]
         # dff2 = dff2.replace('Less than High School', "Sans diplôme d'études secondaires")
@@ -234,7 +240,9 @@ def register_callbacks(app):
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon l’éducation", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon l’éducation",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -261,7 +269,6 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = 'Taux de bénévolat'
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "État civil"]
         # dff2 = dff2.replace('Married/common-law', 'Marié.e/union de fait')
@@ -278,10 +285,11 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon la situation matrimoniale", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon la situation matrimoniale",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
 
     @app.callback(
         dash.dependencies.Output('PercVolHours-MarStat', 'figure'),
@@ -304,7 +312,6 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "État civil"]
         # dff2 = dff2.replace('Married/common-law', 'Marié.e/union de fait')
@@ -320,7 +327,9 @@ def register_callbacks(app):
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la situation matrimoniale", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la situation matrimoniale",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -344,7 +353,6 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = 'Taux de bénévolat'
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
         # dff2 = dff2.replace('Less than $25,000', 'Moins de 25,000 $')
@@ -359,7 +367,9 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon le revenu", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures <br> de bénévolat selon le revenu",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
@@ -382,7 +392,6 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == "Catégorie de revenu personnel"]
         dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
@@ -397,7 +406,9 @@ def register_callbacks(app):
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon le revenu", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon le revenu",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -410,7 +421,8 @@ def register_callbacks(app):
     def update_graph(region):
 
         dff1 = VolRate_2018[VolRate_2018['Region'] == region]
-        dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
+        dff1 = dff1[dff1['Group'] ==
+                    "Fréquence de la fréquentation religieuse"]
         # dff1 = dff1.replace('At least once a week', 'Au moins 1 fois par semaine')
         # dff1 = dff1.replace('At least once a month', 'Au moins 1 fois par mois')
         # dff1 = dff1.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -421,9 +433,9 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = 'Taux de bénévolat'
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
-        dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
+        dff2 = dff2[dff2['Group'] ==
+                    "Fréquence de la fréquentation religieuse"]
         # dff2 = dff2.replace('At least once a week', 'Au moins 1 fois par semaine')
         # dff2 = dff2.replace('At least once a month', 'Au moins 1 fois par mois')
         # dff2 = dff2.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -434,7 +446,9 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon la pratique religieuse", region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon la pratique religieuse",
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
 
@@ -446,7 +460,8 @@ def register_callbacks(app):
         ])
     def update_graph(region):
         dff1 = PercTotVols_2018[PercTotVols_2018['Region'] == region]
-        dff1 = dff1[dff1['Group'] == "Fréquence de la fréquentation religieuse"]
+        dff1 = dff1[dff1['Group'] ==
+                    "Fréquence de la fréquentation religieuse"]
         # dff1 = dff1.replace('At least once a week', 'Au moins 1 fois par semaine')
         # dff1 = dff1.replace('At least once a month', 'Au moins 1 fois par mois')
         # dff1 = dff1.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -456,9 +471,9 @@ def register_callbacks(app):
         # name1 = "% volunteers"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
-        dff2 = dff2[dff2['Group'] == "Fréquence de la fréquentation religieuse"]
+        dff2 = dff2[dff2['Group'] ==
+                    "Fréquence de la fréquentation religieuse"]
         # dff2 = dff2.replace('At least once a week', 'Au moins 1 fois par semaine')
         # dff2 = dff2.replace('At least once a month', 'Au moins 1 fois par mois')
         # dff2 = dff2.replace('At least 3 times a year', 'Au moins 3 fois par mois')
@@ -469,7 +484,9 @@ def register_callbacks(app):
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la pratique religieuse", region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon la pratique religieuse",
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)
 
@@ -491,7 +508,6 @@ def register_callbacks(app):
     #     # name1 = "Volunteer rate"
     #     name1 = 'Taux de bénévolat'
 
-
     #     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     #     dff2 = dff2[dff2['Group'] == "Situation d'activité"]
     #     # dff2 = dff2.replace('Employed', 'Employé.e')
@@ -505,7 +521,6 @@ def register_callbacks(app):
     #     title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon la situation d’emploi", region)
 
     #     return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
 
     # @app.callback(
     #     dash.dependencies.Output('PercVolHours-Labour', 'figure'),
@@ -524,7 +539,6 @@ def register_callbacks(app):
     #     dff1 = dff1.replace("% volunteers", "% population")
     #     # name1 = "% volunteers"
     #     name1 = "% population"
-
 
     #     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
     #     dff2 = dff2[dff2['Group'] == "Situation d'activité"]
@@ -558,7 +572,6 @@ def register_callbacks(app):
     #     # name1 = "Volunteer rate"
     #     name1 = 'Taux de bénévolat'
 
-
     #     dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
     #     dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
     #     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
@@ -590,7 +603,6 @@ def register_callbacks(app):
     #     # name1 = "% volunteers"
     #     name1 = "% population"
 
-
     #     dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
     #     dff2 = dff2[dff2['Group'] == "Statut d'immigration"]
     #     # dff2 = dff2.replace('Native-born', 'Né.e au Canada')
@@ -604,7 +616,6 @@ def register_callbacks(app):
     #     title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon le statut d’immigration", region)
 
     #     return perc_don_perc_amt(dff1, dff2, name1, name2, title)
-
 
     @app.callback(
         dash.dependencies.Output('status-hours', 'figure'),
@@ -622,7 +633,6 @@ def register_callbacks(app):
         # name1 = "Volunteer rate"
         name1 = "Taux de bénévolat"
 
-
         dff2 = AvgTotHours_2018[AvgTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == status]
 
@@ -631,10 +641,12 @@ def register_callbacks(app):
         # name2 = "Average hours"
         name2 = "Nombre d'heures moyen"
 
-        title = '{}, {}'.format("Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon " + str(status).lower(), region)
+        title = '{}, {}'.format(
+            "Taux de bénévolat et nombre moyen d’heures de <br> bénévolat selon " +
+            str(status).lower(),
+            region)
 
         return don_rate_avg_don(dff1, dff2, name1, name2, title)
-
 
     @app.callback(
         dash.dependencies.Output('status-perc', 'figure'),
@@ -651,13 +663,15 @@ def register_callbacks(app):
         # name1 = "% Canadians"
         name1 = "% population"
 
-
         dff2 = PercTotHours_2018[PercTotHours_2018['Region'] == region]
         dff2 = dff2[dff2['Group'] == status]
         dff2 = dff2.replace("% volunteer hours", "% heures de bénévolat")
         name2 = "% heures de bénévolat"
         # name2 = "% volunteer hours"
 
-        title = '{}, {}'.format("Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon " + str(status).lower(), region)
+        title = '{}, {}'.format(
+            "Pourcentage de la population et du nombre total <br> d’heures de bénévolat selon " +
+            str(status).lower(),
+            region)
 
         return perc_don_perc_amt(dff1, dff2, name1, name2, title)

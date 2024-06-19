@@ -19,39 +19,34 @@ def copy_files(src, dest):
     shutil.copy2(src, dest)
     
 
-# def format_code(directory):
-#     command = f'autopep8 --in-place --aggressive --aggressive --recursive {directory}'
-#     subprocess.run(command, shell=True, check=True)
+def construct_parameters(target_directory, original_code):
+    copy_paths = [
+        f"/Users/britt/repos/donetbenevolat/utils/data/{original_code}_data_utils.py",
+        f"/Users/britt/repos/donetbenevolat/apps/{target_directory}/data_utils.py",
+        f"/Users/britt/repos/donetbenevolat/utils/graphs/{original_code}_graph_utils.py",
+        f"/Users/britt/repos/donetbenevolat/apps/{target_directory}/graphs.py"
+    ]
+    return copy_paths
 
 def main():
     parser = argparse.ArgumentParser()
-
-    # Conversion operations
-    parser.add_argument("--source_file", required=True, help="The original file to be refactored")
-    parser.add_argument("--target_directory", required=True, help="Target directory for refactored files")
-
-    # Copy operations
-    parser.add_argument("--copy_paths", nargs='+', required=True, help="Origins and destinations for the data and graph utils files")
-
-    # # Add arguments for the copy operations
-    # parser.add_argument('--copy_paths', nargs='+', required=True, help='List of origin and destination paths for copy operations in the format: origin1 destination1 origin2 destination2 ...')
-
-    # # Add argument for the format operation
-    # parser.add_argument('--format_directory', required=True, help='The directory to format using autopep8.')
-
+    parser.add_argument('--original_file', required=True, help='The original file to be converted.')
+    parser.add_argument('--target_directory', required=True, help='The target directory for the converted file.')
+    parser.add_argument('--original_code', required=True, help='The original code identifier for the file paths.')
     args = parser.parse_args()
 
+    # Construct the parameters
+    copy_paths = construct_parameters(args.target_directory, args.original_code)
+
     # Convert Python file
-    convert_python_file(args.source_file, args.target_directory)
+    convert_python_file(args.original_file, args.target_directory)
 
     # Copy files
-    copy_file_paths = zip(args.copy_paths[::2], args.copy_paths[1::2])
+    copy_file_paths = zip(copy_paths[::2], copy_paths[1::2])
     # print("Copy file paths:", list(copy_file_paths))
     for src, dest in copy_file_paths:
         copy_files(src, dest)
 
-#     # Format code
-#     format_code(args.format_directory)
 
 if __name__ == "__main__":
     main()

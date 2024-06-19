@@ -3,8 +3,8 @@ from dash.dependencies import Input, Output
 from app import app, server
 
 from apps import (
-    Qui_donne_aux_organismes_caritatifs_et_combien_2018,
-    Comment_donne_t_on_au_Canada_2018,
+    # Qui_donne_aux_organismes_caritatifs_et_combien_2018,
+    # Comment_donne_t_on_au_Canada_2018,
     Comprendre_les_grands_donateurs_2018,
     Pourquoi_donne_t_on_au_Canada_2018,
     Qu_est_ce_qui_empeche_de_donner_plus_2018,
@@ -52,6 +52,7 @@ from apps.CO_2023_FR.app_layout import layout as CO_2023_FR_layout
 
 # Refactored modules
 from apps.WDHG_2018_FR.app_layout import layout as WDHG_2018_FR_layout
+from apps.HDCD_2018_FR.app_layout import layout as HDCD_2018_FR_layout
 
 import homepage
 
@@ -95,7 +96,8 @@ def display_page(pathname):
         # return Qui_donne_aux_organismes_caritatifs_et_combien_2018.layout
         return WDHG_2018_FR_layout
     elif pathname == '/Comment_donne_t_on_au_Canada_2018': #HDC0102_fr':
-        return Comment_donne_t_on_au_Canada_2018.layout
+        # return Comment_donne_t_on_au_Canada_2018.layout
+        return HDCD_2018_FR_layout
     elif pathname == '/Comprendre_les_grands_donateurs_2018': #UTD0103_fr':
         return Comprendre_les_grands_donateurs_2018.layout
     elif pathname == '/Pourquoi_donne_t_on_au_Canada_2018': #/WDC0105_fr':

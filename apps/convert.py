@@ -33,15 +33,16 @@ sections = re.split(r'#\s*(#####+)\s+(.*?)\s+\1\s*#', content)
 app_layout_imports = """from dash import dcc, html
 import dash_bootstrap_components as dbc
 from app import app
-from utils.layout_utils import gen_home_button, gen_navbar, footer
+from ..layout_utils import gen_home_button, gen_navbar, footer
 from .callbacks import register_callbacks
+from .data_processing import *
 
 register_callbacks(app)
 """
 
 # Default imports and function for the callbacks.py file
 callbacks_defaults = """import dash
-from .data_processing import data
+from .data_processing import *
 from .graphs import *
 
 def register_callbacks(app):

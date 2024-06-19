@@ -10,7 +10,7 @@ from apps import (
     # Qu_est_ce_qui_empeche_de_donner_plus_2018,
     # Quels_types_organismes_soutient_on_au_Canada_2018,
     Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018,
-    Quelles_sont_les_activites_des_benevoles_2018,
+    # Quelles_sont_les_activites_des_benevoles_2018,
     Comprendre_les_benevoles_tres_engages_2018,
     Aide_autrui_et_amelioration_communautaire_2018,
     Pourquoi_fait_on_du_benevolat_2018,
@@ -57,6 +57,7 @@ from apps.UTD_2018_FR.app_layout import layout as UTD_2018_FR_layout
 from apps.WDCG_2018_FR.app_layout import layout as WDCG_2018_FR_layout
 from apps.WKCG_2018_FR.app_layout import layout as WKCG_2018_FR_layout
 from apps.WTOS_2018_FR.app_layout import layout as WTOS_2018_FR_layout
+from apps.WDVD_2018_FR.app_layout import layout as WDVD_2018_FR_layout
 
 import homepage
 
@@ -109,7 +110,7 @@ def display_page(pathname):
     elif pathname == '/Quels_types_organismes_soutient_on_au_Canada_2018': #WTO0107_fr':
         return WTOS_2018_FR_layout
     elif pathname == '/Quelles_sont_les_activites_des_benevoles_2018': #WDV0202_fr':
-        return Quelles_sont_les_activites_des_benevoles_2018.layout
+        return WDVD_2018_FR_layout
     elif pathname == '/Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018': #WVA0201_fr':
         return Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018.layout
     elif pathname == '/Comprendre_les_benevoles_tres_engages_2018': #/UTV0203_fr':

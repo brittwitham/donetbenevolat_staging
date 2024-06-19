@@ -22,7 +22,7 @@ from apps import (
     # GAV0303_fr, # education
     # GAV0304_fr, # services sociaux
     # GAV0305_fr, # loisirs
-    les_dons_et_le_benevolat_des_jeunes_2018,
+    # les_dons_et_le_benevolat_des_jeunes_2018,
     # 2013 data
     WDC010513_fr,
     WKC010613_fr,
@@ -70,6 +70,7 @@ from apps.GV_SS_2018_FR.app_layout import layout as GV_SS_2018_FR_layout
 from apps.GV_RO_2018_FR.app_layout import layout as GV_RO_2018_FR_layout
 from apps.GV_AR_2018_FR.app_layout import layout as GV_AR_2018_FR_layout
 from apps.GV_NC_2018_FR.app_layout import layout as GV_NC_2018_FR_layout
+from apps.GV_YO_2018_FR.app_layout import layout as GV_YO_2018_FR_layout
 
 import homepage
 
@@ -148,7 +149,7 @@ def display_page(pathname):
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_nouvellement_arrivees_au_canada_2018': #GAV0306
         return GV_NC_2018_FR_layout
     elif pathname == '/les_dons_et_le_benevolat_des_jeunes_2018': #GAV0307
-        return les_dons_et_le_benevolat_des_jeunes_2018.layout
+        return GV_YO_2018_FR_layout
     elif pathname == '/les_dons_et_le_benevolat_des_personnes_agees_2018': #GAV0308
         return GAV0307_fr.layout
     elif pathname == '/comment_donne_t_on_au_canada_2013':

@@ -2,41 +2,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 from app import app, server
 
-from apps import (
-    # Qui_donne_aux_organismes_caritatifs_et_combien_2018,
-    # Comment_donne_t_on_au_Canada_2018,
-    # Comprendre_les_grands_donateurs_2018,
-    # Pourquoi_donne_t_on_au_Canada_2018,
-    # Qu_est_ce_qui_empeche_de_donner_plus_2018,
-    # Quels_types_organismes_soutient_on_au_Canada_2018,
-    # Qui_sont_les_benevoles_et_combien_heures_donnent_ils_2018,
-    # Quelles_sont_les_activites_des_benevoles_2018,
-    # Comprendre_les_benevoles_tres_engages_2018,
-    # Aide_autrui_et_amelioration_communautaire_2018,
-    # Pourquoi_fait_on_du_benevolat_2018,
-    # Qu_est_ce_qui_empeche_de_faire_du_benevolat_2018,
-    # A_quels_types_organismes_fait_on_don_de_son_temps_au_Canada_2018,
-    definition,
-    # GAV0301_fr, # sante
-    # GAV0302_fr, # religieux
-    # GAV0303_fr, # education
-    # GAV0304_fr, # services sociaux
-    # GAV0305_fr, # loisirs
-    # les_dons_et_le_benevolat_des_jeunes_2018,
-    # 2013 data
-    # WDC010513_fr,
-    # WKC010613_fr,
-    # HDC010213_fr,
-    # WDA010113_fr,
-    # WDV020213_fr,
-    # WDC020513_fr,
-    # WKC020613_fr,
-    # WVA020113_fr,
-    # GAV0306_fr,
-    # GAV0307_fr,
-    # les_dons_et_le_benevolat_des_personnes_agees_2018
-
-)
+from apps import definition
 
 from apps.NSPS_2021_FR.app_layout import layout as NSPS_2021_FR_layout
 from apps.NSR_2021_FR.app_layout import layout as NSR_2021_FR_layout
@@ -170,7 +136,6 @@ def display_page(pathname):
         return WDCV_2013_FR_layout
     elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013':
         return WKCG_2013_FR_layout
-        # return qu_est_ce_qui_empeche_de_donner_plus_2013.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013':
         return WKCV_2013_FR_layout
     elif pathname == '/quelles_sont_les_activites_des_benevoles_2013':
@@ -179,25 +144,16 @@ def display_page(pathname):
         return WDHG_2013_FR_layout
     elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013':
         return WVHT_2013_FR_layout
-    # WDC010513_fr,
-    # WKC010613_fr
-    # elif pathname == '/HDC0102_13':
-    #     return HDC0102_13.layout
-    # elif pathname == '/WDC0105_13':
-    #     return WDC0105_13.layout
     elif pathname == '/popup':
         return definition.layout
 
     elif pathname == '/Personnel_remunere_du_secteur_sans_but_lucratif_2021':
         return NSPS_2021_FR_layout
     elif pathname == '/revenus_du_secteur_sans_but_lucratif_2021':
-    # elif pathname == '/nonprofit_sector_revenue_2021':
         return NSR_2021_FR_layout
     elif pathname == '/Composition_de_la_population_active_du_secteur_sans_but_lucratif_2021':
-    # elif pathname == '/nonprofit_labour_force_composition_2021':
         return NLFC_2021_FR_layout
     elif pathname == '/Role_economique_du_secteur_sans_but_lucratif_2021':
-    # elif pathname == '/economic_role_of_the_nonprofit_sector_2021':
         return ERNS_2021_FR_layout
     
     # business conditions stories
@@ -211,7 +167,6 @@ def display_page(pathname):
         return DT_2023_FR_layout
     elif pathname == "/obstacles_actuels_2023":
         return CO_2023_FR_layout
-
 
     # else:
     #     return dcc.Location(id='redirect', refresh=True, href="https://www.donetbenevolat.ca")

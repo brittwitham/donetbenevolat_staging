@@ -4,7 +4,7 @@ import numpy as np
 import os
 import os.path as op
 
-from utils.data.WTO0107_data_utils import get_data, process_data
+# from utils.data.WTO0107_data_utils import get_data, process_data
 
 ####################### Data processing ######################
 # SubSecDonRates_2018, SubSecAvgDon_2018, Allocation_2018 = get_data()

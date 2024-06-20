@@ -1,38 +1,14 @@
-import dash
+# App layout file for WDCG_2013_FR converted from WDC010513_fr.py
+
 from dash import dcc, html
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-
-from .layout_utils import gen_home_button
-pd.options.mode.chained_assignment = None  # default='warn'
 import dash_bootstrap_components as dbc
-import os
-import os.path as op
-
-from utils.graphs.WDC0105_graph_utils_13 import single_vertical_percentage_graph, vertical_dollar_graph, vertical_percentage_graph
-from utils.data.WDC0105_data_utils_13 import get_data, process_data, get_region_names, get_region_values
-
 from app import app
-from homepage import footer #navbar, footer
-from utils.gen_navbar import gen_navbar
+from ..layout_utils import gen_home_button, gen_navbar, footer
+from .callbacks import register_callbacks
+from .data_processing import *
 
-####################### Data processing ######################
+register_callbacks(app)
 
-Reasons_2018, AvgAmtReasons_2018, MotivationsByCause_2018 = get_data()
-
-data = [Reasons_2018, AvgAmtReasons_2018, MotivationsByCause_2018]
-
-cause_names = MotivationsByCause_2018["Group"].unique()
-motivations_names = Reasons_2018["QuestionText"].unique()
-status_names = ["État civil", "Situation d'activité", "Statut d'immigration"]
-
-process_data(data)
-
-region_values = get_region_values()
-region_names = get_region_names()
-
-###################### App layout ######################
 navbar = gen_navbar("why_do_canadians_give_2013")
 home_button = gen_home_button(is_2013=True, sat_link=False, bc_link=False)
 marginTop = 20
@@ -50,7 +26,7 @@ layout = html.Div([
                         #     'David Lasby',
                         #     className='meta'
                         # )
-                        ],
+                    ],
                         className='post-heading'
                     ),
                     className='col-md-10 col-lg-8 mx-auto position-relative'
@@ -87,32 +63,34 @@ layout = html.Div([
         #     ]),
         html.Div([
             dbc.Row([
-            dbc.Col(
-                html.Div(["Sélectionnez une région:",
-                           dcc.Dropdown(
-                               id='region-selection',
-                               options=[{'label': region_values[i], 'value': region_values[i]} for i in range(len(region_values))],
-                               value='CA',
-                               ),
-                            html.Br(),
-                        ],className="m-2 p-2"), className='col'
+                dbc.Col(
+                    html.Div(["Sélectionnez une région:",
+                              dcc.Dropdown(
+                                  id='region-selection',
+                                  options=[{'label': region_values[i], 'value': region_values[i]} for i in range(
+                                      len(region_values))],
+                                  value='CA',
+                              ),
+                              html.Br(),
+                              ], className="m-2 p-2"), className='col'
                 ),
-            dbc.Col([
-                html.Div(["Sélectionnez une motivation:",
-                        dcc.Dropdown(
-                          id='motivation_selection',
-                          options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(len(motivations_names)) if isinstance(motivations_names[i], str)],
-                          value='Touché.e personnellement par la cause',
-                          style={'verticalAlgin': 'middle'}
-                      ),
-                ],className="m-2 p-2")
-            ])
-        ],
-        )
-            ], className='col-md-10 col-lg-8 mx-auto'),
-    ],className='sticky-top select-region mb-2', fluid=True),
-   dbc.Container(
-       dbc.Row([
+                dbc.Col([
+                    html.Div(["Sélectionnez une motivation:",
+                              dcc.Dropdown(
+                                  id='motivation_selection',
+                                  options=[{'label': motivations_names[i], 'value': motivations_names[i]} for i in range(
+                                      len(motivations_names)) if isinstance(motivations_names[i], str)],
+                                  value='Touché.e personnellement par la cause',
+                                  style={'verticalAlgin': 'middle'}
+                              ),
+                              ], className="m-2 p-2")
+                ])
+            ],
+            )
+        ], className='col-md-10 col-lg-8 mx-auto'),
+    ], className='sticky-top select-region mb-2', fluid=True),
+    dbc.Container(
+        dbc.Row([
             html.Div(
                 [
                     dcc.Markdown("""
@@ -124,18 +102,23 @@ layout = html.Div([
                     dcc.Markdown("""
                     Dans l’ensemble, c’est le sentiment de compassion envers les personnes dans le besoin qui motivait le plus les personnes à donner, ainsi que leur conviction personnelle à l’égard de la cause des organismes qu’ils ont soutenus. À l’échelle nationale, environ quatre personnes sur cinq ont été motivées par le désir de contribuer à la communauté et deux sur trois parce qu’elles étaient touchées personnellement ou parce qu’une personne de leur connaissance était touchée par la cause des organismes qu’elles ont soutenus. Un nombre relativement moins important de personnes ont contribué parce qu’une personne de leur connaissance, une personne amie ou un membre de leur famille le leur a demandé. Les personnes étaient moins enclines à être motivées par leurs obligations ou croyances religieuses ou par le crédit d’impôt qu’elles recevraient en échange de leur don.
                     """
-                    ),
+                                 ),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
             # Motivations reported by donors.
             html.Div(
                 [
-                    dcc.Graph(id='MotivationsOverall_13', style={'marginTop': marginTop}),
+                    dcc.Graph(
+                        id='MotivationsOverall_13', style={
+                            'marginTop': marginTop}),
                     dcc.Markdown('''
                     Certaines motivations ont clairement tendance à être associées à des dons beaucoup plus importants que d’autres. Les croyances et les obligations religieuses constituaient le facteur le plus significatif, en étant associées à des dons beaucoup plus importants. Bien que les personnes motivées par ce facteur étaient enclines à réserver leur soutien à des organismes religieux, elles avaient également tendance à donner des montants relativement plus élevés à des causes laïques. Bien que seulement une petite minorité de personnes ait déclaré que les crédits d’impôt qu’elles recevraient étaient un facteur important dans leurs décisions de donner, les personnes motivées par ce facteur avaient tendance à donner beaucoup plus. Au chapitre des motivations les plus courantes, les personnes qui donnaient par motivation envers une cause et par compassion envers les personnes dans le besoin donnaient nettement plus que les personnes non motivées par ces facteurs. Le fait d’être touché personnellement par la cause et la sollicitation par une personne amie ou un proche parent avaient la plus faible incidence sur les montants moyens des dons, tout en demeurant des facteurs de motivation positifs.
                     '''),
-                    # Average amounts contributed by donors reporting and not reporting specific motivations.
-                    dcc.Graph(id='MotivationsAvgAmts_13', style={'marginTop': marginTop}),
+                    # Average amounts contributed by donors reporting and not
+                    # reporting specific motivations.
+                    dcc.Graph(
+                        id='MotivationsAvgAmts_13', style={
+                            'marginTop': marginTop}),
 
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
@@ -146,16 +129,19 @@ layout = html.Div([
                     html.P("""
                     Bien que les motivations des dons soient fréquemment très personnelles, elles ont également tendance à varier selon leurs caractéristiques personnelles et économiques. Nous analysons ci-dessous les variations des motivations des dons en fonction de certains des facteurs démographiques les plus importants.
                     """
-                    ),
+                           ),
                     # Gender
                     html.Div([
-                         html.H5("Genre"),
+                        html.H5("Genre"),
                         html.P("""
                         Dans l’ensemble, les femmes avaient plus tendance que les hommes à faire état de quasiment toutes les motivations pour leurs dons. À l’échelle nationale, ce sont les crédits d’impôt possibles qui constituaient la seule exception à cette tendance, les hommes et les femmes étant tout aussi susceptibles de faire état de cette motivation.
                         """),
-                        #Donor motivations by gender
+                        # Donor motivations by gender
                         html.Div([
-                            dcc.Graph(id='Motivations-Gndr_13', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='Motivations-Gndr_13',
+                                style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
                     # Age
@@ -166,18 +152,24 @@ layout = html.Div([
                         """),
                         # Donor motivations by age
                         html.Div([
-                            dcc.Graph(id='Motivations-Age_13', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='Motivations-Age_13',
+                                style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
                     # Formal Education
                     html.Div([
                         html.H5("Éducation formelle"),
                         html.P("""
-                        La probabilité de faire état de la majorité des motivations augmentait avec le niveau d’éducation formelle. Les seules exceptions à cette tendance, du moins au niveau national, étaient les obligations et les convictions religieuses (qui avaient tendance à être importantes à la fois pour les personnes au niveau d’éducation formelle très élevé et très bas) et les sentiments de compassion envers les personnes dans le besoin (qui avaient fortement tendance à être constants, indépendamment du niveau d’éducation formelle). 
+                        La probabilité de faire état de la majorité des motivations augmentait avec le niveau d’éducation formelle. Les seules exceptions à cette tendance, du moins au niveau national, étaient les obligations et les convictions religieuses (qui avaient tendance à être importantes à la fois pour les personnes au niveau d’éducation formelle très élevé et très bas) et les sentiments de compassion envers les personnes dans le besoin (qui avaient fortement tendance à être constants, indépendamment du niveau d’éducation formelle).
                         """),
                         # Donor motivations by formal education
                         html.Div([
-                            dcc.Graph(id='Motivations-Educ_13', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='Motivations-Educ_13',
+                                style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
                     # household income
@@ -188,7 +180,10 @@ layout = html.Div([
                         """),
                         # Donor motivations by household income
                         html.Div([
-                            dcc.Graph(id='Motivations-Inc_13', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='Motivations-Inc_13',
+                                style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
                     # Religious attendance
@@ -199,11 +194,14 @@ layout = html.Div([
                         """),
                         # Donor motivations by religious attendance
                         html.Div([
-                           dcc.Graph(id='Motivations-Relig_13', style={'marginTop': marginTop}),
+                            dcc.Graph(
+                                id='Motivations-Relig_13',
+                                style={
+                                    'marginTop': marginTop}),
                         ]),
                     ]),
 
-#
+                    #
                     # Other personal & economic characteristics
                     html.Div([
                         html.H5("Autres facteurs"),
@@ -212,27 +210,31 @@ layout = html.Div([
                         """),
                         # Donor motivations by marital status
                         # html.Div([
-                            # dcc.Graph(id='Motivations-Marstat', style={'marginTop': marginTop}),
+                        # dcc.Graph(id='Motivations-Marstat', style={'marginTop': marginTop}),
                         # ]),
                         # Donor motivations by labour force status
                         # html.Div([
-                            # dcc.Graph(id='Motivations-Labour', style={'marginTop': marginTop}),
+                        # dcc.Graph(id='Motivations-Labour', style={'marginTop': marginTop}),
                         # ]),
                         # Donor motivations by immigration status
                         # html.Div([
-                            # dcc.Graph(id='Motivations-Immstat', style={'marginTop': marginTop})
+                        # dcc.Graph(id='Motivations-Immstat', style={'marginTop': marginTop})
                         # ]),
                         html.Div([
                             html.Div(['Sélectionner le statut:',
                                       dcc.Dropdown(
                                           id='status-selection',
-                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(len(status_names))],
+                                          options=[{'label': status_names[i], 'value': status_names[i]} for i in range(
+                                              len(status_names))],
                                           value='État civil',
                                           style={'verticalAlign': 'middle'}
                                       ),],
                                      style={'width': '33%', 'display': 'inline-block'})
                         ]),
-                        dcc.Graph(id='status-sel13', style={'marginTop': marginTop})
+                        dcc.Graph(
+                            id='status-sel13',
+                            style={
+                                'marginTop': marginTop})
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
 
@@ -240,210 +242,35 @@ layout = html.Div([
             html.Div(
                 [
                     html.Div([
-                       html.H5("Causes soutenues"),
+                        html.H5("Causes soutenues"),
                         html.P("""
                         Bien que l’ESG DBP de 2013 ne recueillait pas directement de l’information sur les motivations du soutien de causes précises, la comparaison des motivations générales des personnes qui soutenaient une cause particulière et de celles qui ne la soutenaient pas peut expliquer ce qui a motivé le soutien de certaines causes. Pour la majorité des motivations et des causes, les personnes qui soutenaient une cause particulière étaient également plus susceptibles de faire état d’une motivation particulière que celles qui s’en abstenaient. En effet, tout bien considéré, les personnes qui soutenaient une cause donnée avaient plus tendance à soutenir de multiples causes et à donner des montants plus importants. Les motivations pouvaient constituer des facteurs significatifs quand le nombre de personnes de chacune de ces deux catégories était inhabituellement élevé ou quand les personnes qui soutenaient une cause étaient moins susceptibles de faire état d’une motivation particulière que celles qui s’en abstenaient.
                         """),
                         html.P("""
                         Le graphique ci-dessous montre le pourcentage de personnes ayant fait état de chaque motivation, ventilé en fonction de leur don ou de leur abstention de donner au bénéfice de chaque cause particulière. Plusieurs associations se constatent à l’échelle nationale. Par exemple, les personnes qui donnaient aux organismes religieux avaient plus tendance à faire état de croyances et de convictions religieuses à titre de motivation pour leurs dons, de même que celles qui donnaient aux organismes du développement international et de l’aide internationale. Dans le même ordre d’idées, les personnes qui donnaient aux organismes du secteur de la santé avaient particulièrement tendance à être touchées personnellement par la cause des organismes soutenus ou à connaître une personne qui l’était, tandis que les personnes qui donnaient aux organismes des services sociaux avaient particulièrement tendance à être motivées par des sentiments de compassion envers les personnes dans le besoin. Vous pouvez utiliser le menu déroulant dans la visualisation des données ci-dessous pour choisir un sous-secteur particulier qui les intéresse.
                         """),
-                        # Percentages of cause supporters and non-supporters reporting each motivation, by cause
+                        # Percentages of cause supporters and non-supporters
+                        # reporting each motivation, by cause
                         html.Div([
                             html.Div(["Sélectionnez une cause:",
-                                dcc.Dropdown(
-                                    id='cause-selection',
-                                    options=[{'label': cause_names[i], 'value': cause_names[i]} for i in range(len(cause_names))],
-                                    value='Arts et culture',
-                                    style={'verticalAlgin': 'middle'}
-                                ),],
-                                style={'width': '33%', 'display': 'inline-block'})
+                                     dcc.Dropdown(
+                                         id='cause-selection',
+                                         options=[{'label': cause_names[i], 'value': cause_names[i]} for i in range(
+                                             len(cause_names))],
+                                         value='Arts et culture',
+                                         style={'verticalAlgin': 'middle'}
+                                     ),],
+                                     style={'width': '33%', 'display': 'inline-block'})
                         ]),
-                        dcc.Graph(id='MotivationsCauses_13', style={'marginTop': marginTop}),
+                        dcc.Graph(
+                            id='MotivationsCauses_13', style={
+                                'marginTop': marginTop}),
                     ]),
                 ], className='col-md-10 col-lg-8 mx-auto'
             ),
         ]),
-   ),
-   footer
+    ),
+    footer
 ])
 
-################## Callbacks #################
-
-@app.callback(
-    dash.dependencies.Output('MotivationsOverall_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff = dff[dff["Group"] == "All"]
-    title = '{}, {}'.format("Motivations signalées par les donateur.trice.s", region)
-    return single_vertical_percentage_graph(dff, title, by="QuestionText", sort=True)
-
-@app.callback(
-    dash.dependencies.Output('MotivationsAvgAmts_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value')
-    ])
-def update_graph(region):
-    dff = AvgAmtReasons_2018[AvgAmtReasons_2018['Region'] == region]
-    # name1 = "Report motivation"
-    # name2 = "Do not report motivation"
-    name1 = 'Signalent une motivation'
-    name2 = 'Ne signalent aucune motivation'
-    title = '{}, {}'.format("Montants moyens des contributions des donateur.trice.s faisant état ou non de motivations précises", region)
-    return vertical_dollar_graph(dff, name1, name2, title)
-
-@app.callback(
-    dash.dependencies.Output('Motivations-Gndr_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value')
-
-    ])
-def update_graph(region, motivation):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Genre"]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("Motivations des donateur.trice.s: " + str(motivation) + " selon le genre", region)
-    return single_vertical_percentage_graph(dff, title)
-
-@app.callback(
-    dash.dependencies.Output('Motivations-Age_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value')
-
-    ])
-def update_graph(region, motivation):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Groupe d'âge"]
-    dff = dff[dff["QuestionText"] == motivation]
-    # title = '{}, {}'.format("Donor motivations by age", region)
-    title = '{}, {}'.format("Motivations des donateur.trice.s: " + str(motivation) + " selon l’âge", region)
-    return single_vertical_percentage_graph(dff, title)
-
-@app.callback(
-    dash.dependencies.Output('Motivations-Educ_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value')
-
-    ])
-def update_graph(region, motivation):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Éducation"]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("Motivations des donateur.trice.s: " + str(motivation) + " selon l’éducation formelle", region)
-    return single_vertical_percentage_graph(dff, title)
-
-@app.callback(
-    dash.dependencies.Output('Motivations-Inc_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value')
-
-    ])
-def update_graph(region, motivation):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Catégorie de revenu familial"]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("Motivations des donateur.trice.s: " + str(motivation) + " selon le revenu du ménage", region)
-    return single_vertical_percentage_graph(dff, title)
-
-@app.callback(
-    dash.dependencies.Output('Motivations-Relig_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value')
-
-    ])
-def update_graph(region, motivation):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == "Fréquence de la fréquentation religieuse"]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("Motivations des donateur.trice.s: " + str(motivation) + " selon la pratique religieuse", region)
-    return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('Motivations-Marstat', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('motivation_selection', 'value')
-
-#     ])
-# def update_graph(region, motivation):
-#     dff = Reasons_2018[Reasons_2018['Region'] == region]
-#     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-#     dff = dff[dff["Group"] == "Marital status"]
-#     dff = dff[dff["QuestionText"] == motivation]
-#     title = '{}, {}'.format("Donor motivation: " + str(motivation) + " by marital status", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-# @app.callback(
-#     dash.dependencies.Output('Motivations-Labour', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('motivation_selection', 'value')
-
-#     ])
-# def update_graph(region, motivation):
-#     dff = Reasons_2018[Reasons_2018['Region'] == region]
-#     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-#     dff = dff[dff["Group"] == "Labour force status"]
-#     dff = dff[dff["QuestionText"] == motivation]
-#     title = '{}, {}'.format("Donor motivation: " + str(motivation) + " by labour force status", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-
-# @app.callback(
-#     dash.dependencies.Output('Motivations-Immstat', 'figure'),
-#     [
-#         dash.dependencies.Input('region-selection', 'value'),
-#         dash.dependencies.Input('motivation_selection', 'value')
-#     ])
-# def update_graph(region, motivation):
-#     dff = Reasons_2018[Reasons_2018['Region'] == region]
-#     dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-#     dff = dff[dff["Group"] == "Immigration status"]
-#     dff = dff[dff["QuestionText"] == motivation]
-#     title = '{}, {}'.format("Donor motivation: " + str(motivation) + " by immigration status", region)
-#     return single_vertical_percentage_graph(dff, title)
-
-
-@app.callback(
-    dash.dependencies.Output('status-sel13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('motivation_selection', 'value'),
-        dash.dependencies.Input('status-selection', 'value')
-    ])
-
-def update_graph(region, motivation, status):
-    dff = Reasons_2018[Reasons_2018['Region'] == region]
-    dff["QuestionText"] = dff["QuestionText"].replace({'<br>': ' '}, regex=True)
-    dff = dff[dff["Group"] == status]
-    dff = dff[dff["QuestionText"] == motivation]
-    title = '{}, {}'.format("Motivations des donateur.trice.s " + str(motivation) + " selon " + str(status).lower(), region)
-    return single_vertical_percentage_graph(dff, title)
-
-@app.callback(
-    dash.dependencies.Output('MotivationsCauses_13', 'figure'),
-    [
-        dash.dependencies.Input('region-selection', 'value'),
-        dash.dependencies.Input('cause-selection', 'value')
-    ])
-def update_graph(region, cause):
-    dff = MotivationsByCause_2018[MotivationsByCause_2018['Region'] == region]
-    dff = dff[dff["Group"] == cause]
-    name1 = "Soutenir la cause"
-    # name1 = 'Support cause'
-    name2 = "Ne pas soutenir la cause"
-    # name2 = 'Do not support cause'
-    title = '{}, {}'.format("Pourcentages de partisan.e.s et de non-partisan.e.s d’une cause faisant état de chaque motivation, selon la cause", region)
-    return vertical_percentage_graph(dff, title, name1, name2)
+#

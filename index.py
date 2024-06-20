@@ -24,7 +24,7 @@ from apps import (
     # GAV0305_fr, # loisirs
     # les_dons_et_le_benevolat_des_jeunes_2018,
     # 2013 data
-    WDC010513_fr,
+    # WDC010513_fr,
     WKC010613_fr,
     # HDC010213_fr,
     WDA010113_fr,
@@ -73,6 +73,7 @@ from apps.GV_NC_2018_FR.app_layout import layout as GV_NC_2018_FR_layout
 from apps.GV_YO_2018_FR.app_layout import layout as GV_YO_2018_FR_layout
 from apps.GV_SE_2018_FR.app_layout import layout as GV_SE_2018_FR_layout
 from apps.HDCD_2013_FR.app_layout import layout as HDCD_2013_FR_layout
+from apps.WDCG_2013_FR.app_layout import layout as WDCG_2013_FR_layout
 
 import homepage
 
@@ -158,7 +159,7 @@ def display_page(pathname):
     elif pathname == '/comment_donne_t_on_au_canada_2013':
         return HDCD_2013_FR_layout
     elif pathname == '/pourquoi_donne_t_on_au_canada_2013':
-        return WDC010513_fr.layout
+        return WDCG_2013_FR_layout
     elif pathname == '/pourquoi_fait_on_du_benevolat_2013':
         return WDC020513_fr.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013':

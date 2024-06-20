@@ -26,7 +26,7 @@ from apps import (
     # 2013 data
     WDC010513_fr,
     WKC010613_fr,
-    HDC010213_fr,
+    # HDC010213_fr,
     WDA010113_fr,
     WDV020213_fr,
     WDC020513_fr,
@@ -72,6 +72,7 @@ from apps.GV_AR_2018_FR.app_layout import layout as GV_AR_2018_FR_layout
 from apps.GV_NC_2018_FR.app_layout import layout as GV_NC_2018_FR_layout
 from apps.GV_YO_2018_FR.app_layout import layout as GV_YO_2018_FR_layout
 from apps.GV_SE_2018_FR.app_layout import layout as GV_SE_2018_FR_layout
+from apps.HDCD_2013_FR.app_layout import layout as HDCD_2013_FR_layout
 
 import homepage
 
@@ -155,7 +156,7 @@ def display_page(pathname):
         return GV_SE_2018_FR_layout
         # return GAV0307_fr.layout
     elif pathname == '/comment_donne_t_on_au_canada_2013':
-        return HDC010213_fr.layout
+        return HDCD_2013_FR_layout
     elif pathname == '/pourquoi_donne_t_on_au_canada_2013':
         return WDC010513_fr.layout
     elif pathname == '/pourquoi_fait_on_du_benevolat_2013':

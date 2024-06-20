@@ -29,7 +29,7 @@ from apps import (
     # HDC010213_fr,
     WDA010113_fr,
     WDV020213_fr,
-    WDC020513_fr,
+    # WDC020513_fr,
     WKC020613_fr,
     WVA020113_fr,
     # GAV0306_fr,
@@ -74,6 +74,7 @@ from apps.GV_YO_2018_FR.app_layout import layout as GV_YO_2018_FR_layout
 from apps.GV_SE_2018_FR.app_layout import layout as GV_SE_2018_FR_layout
 from apps.HDCD_2013_FR.app_layout import layout as HDCD_2013_FR_layout
 from apps.WDCG_2013_FR.app_layout import layout as WDCG_2013_FR_layout
+from apps.WDCV_2013_FR.app_layout import layout as WDCV_2013_FR_layout
 
 import homepage
 
@@ -161,7 +162,7 @@ def display_page(pathname):
     elif pathname == '/pourquoi_donne_t_on_au_canada_2013':
         return WDCG_2013_FR_layout
     elif pathname == '/pourquoi_fait_on_du_benevolat_2013':
-        return WDC020513_fr.layout
+        return WDCV_2013_FR_layout
     elif pathname == '/qu_est_ce_qui_empeche_de_donner_plus_2013':
         return WKC010613_fr.layout
         # return qu_est_ce_qui_empeche_de_donner_plus_2013.layout

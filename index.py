@@ -30,7 +30,7 @@ from apps import (
     WDA010113_fr,
     WDV020213_fr,
     # WDC020513_fr,
-    WKC020613_fr,
+    # WKC020613_fr,
     WVA020113_fr,
     # GAV0306_fr,
     # GAV0307_fr,
@@ -76,6 +76,7 @@ from apps.HDCD_2013_FR.app_layout import layout as HDCD_2013_FR_layout
 from apps.WDCG_2013_FR.app_layout import layout as WDCG_2013_FR_layout
 from apps.WDCV_2013_FR.app_layout import layout as WDCV_2013_FR_layout
 from apps.WKCG_2013_FR.app_layout import layout as WKCG_2013_FR_layout
+from apps.WKCV_2013_FR.app_layout import layout as WKCV_2013_FR_layout
 
 import homepage
 
@@ -168,7 +169,7 @@ def display_page(pathname):
         return WKCG_2013_FR_layout
         # return qu_est_ce_qui_empeche_de_donner_plus_2013.layout
     elif pathname == '/qu_est_ce_qui_empeche_de_faire_du_benevolat_2013':
-        return WKC020613_fr.layout
+        return WKCV_2013_FR_layout
     elif pathname == '/quelles_sont_les_activites_des_benevoles_2013':
         return WDV020213_fr.layout
     elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013':

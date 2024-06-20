@@ -31,7 +31,7 @@ from apps import (
     # WDV020213_fr,
     # WDC020513_fr,
     # WKC020613_fr,
-    WVA020113_fr,
+    # WVA020113_fr,
     # GAV0306_fr,
     # GAV0307_fr,
     # les_dons_et_le_benevolat_des_personnes_agees_2018
@@ -79,6 +79,7 @@ from apps.WKCG_2013_FR.app_layout import layout as WKCG_2013_FR_layout
 from apps.WKCV_2013_FR.app_layout import layout as WKCV_2013_FR_layout
 from apps.WDVD_2013_FR.app_layout import layout as WDVD_2013_FR_layout
 from apps.WDHG_2013_FR.app_layout import layout as WDHG_2013_FR_layout
+from apps.WVHT_2013_FR.app_layout import layout as WVHT_2013_FR_layout
 
 import homepage
 
@@ -177,7 +178,7 @@ def display_page(pathname):
     elif pathname == '/qui_donne_aux_organismes_caritatifs_et_combien_2013':
         return WDHG_2013_FR_layout
     elif pathname == '/qui_sont_les_benevoles_et_combien_dheures_donnent_ils_2013':
-        return WVA020113_fr.layout
+        return WVHT_2013_FR_layout
     # WDC010513_fr,
     # WKC010613_fr
     # elif pathname == '/HDC0102_13':
